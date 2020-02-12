@@ -16,7 +16,7 @@ namespace BattleShips
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new Game_Screen());
+			Application.Run(new GameScreen());
 		}
 	}
 }

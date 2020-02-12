@@ -1,6 +1,6 @@
 ﻿namespace BattleShips
 {
-	partial class Game_Screen
+	partial class GameScreen
 	{
 		/// <summary>
 		/// Required designer variable.
@@ -185,6 +185,8 @@
 			this.EnemyField_G5 = new System.Windows.Forms.PictureBox();
 			this.EnemyField_G4 = new System.Windows.Forms.PictureBox();
 			this.EnemyField_G3 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_A2 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_A1 = new System.Windows.Forms.PictureBox();
 			this.EnemyField_G2 = new System.Windows.Forms.PictureBox();
 			this.EnemyField_F10 = new System.Windows.Forms.PictureBox();
 			this.EnemyField_F9 = new System.Windows.Forms.PictureBox();
@@ -248,8 +250,6 @@
 			this.EnemyField_B1 = new System.Windows.Forms.PictureBox();
 			this.EnemyField_A4 = new System.Windows.Forms.PictureBox();
 			this.EnemyField_A3 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_A2 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_A1 = new System.Windows.Forms.PictureBox();
 			this.EnemyField_label_J = new System.Windows.Forms.Label();
 			this.EnemyField_label_I = new System.Windows.Forms.Label();
 			this.EnemyField_label_H = new System.Windows.Forms.Label();
@@ -260,6 +260,10 @@
 			this.EnemyField_label_C = new System.Windows.Forms.Label();
 			this.EnemyField_label_B = new System.Windows.Forms.Label();
 			this.EnemyField_label_A = new System.Windows.Forms.Label();
+			this.LetterboxText = new System.Windows.Forms.TextBox();
+			this.NumberboxText = new System.Windows.Forms.TextBox();
+			this.FireButton = new System.Windows.Forms.Button();
+			this.ActionText = new System.Windows.Forms.Label();
 			this.PlayerField.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J10)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J9)).BeginInit();
@@ -397,6 +401,8 @@
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G5)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G4)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A1)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G2)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F10)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F9)).BeginInit();
@@ -460,8 +466,6 @@
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B1)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A4)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A3)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A2)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A1)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// PlayerField
@@ -1808,6 +1812,8 @@
 			this.EnemyField.Controls.Add(this.EnemyField_G5);
 			this.EnemyField.Controls.Add(this.EnemyField_G4);
 			this.EnemyField.Controls.Add(this.EnemyField_G3);
+			this.EnemyField.Controls.Add(this.EnemyField_A2);
+			this.EnemyField.Controls.Add(this.EnemyField_A1);
 			this.EnemyField.Controls.Add(this.EnemyField_G2);
 			this.EnemyField.Controls.Add(this.EnemyField_F10);
 			this.EnemyField.Controls.Add(this.EnemyField_F9);
@@ -1871,8 +1877,6 @@
 			this.EnemyField.Controls.Add(this.EnemyField_B1);
 			this.EnemyField.Controls.Add(this.EnemyField_A4);
 			this.EnemyField.Controls.Add(this.EnemyField_A3);
-			this.EnemyField.Controls.Add(this.EnemyField_A2);
-			this.EnemyField.Controls.Add(this.EnemyField_A1);
 			this.EnemyField.Location = new System.Drawing.Point(156, 13);
 			this.EnemyField.Name = "EnemyField";
 			this.EnemyField.Size = new System.Drawing.Size(300, 300);
@@ -2227,6 +2231,26 @@
 			this.EnemyField_G3.Size = new System.Drawing.Size(30, 30);
 			this.EnemyField_G3.TabIndex = 65;
 			this.EnemyField_G3.TabStop = false;
+			// 
+			// EnemyField_A2
+			// 
+			this.EnemyField_A2.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_A2.Location = new System.Drawing.Point(30, 0);
+			this.EnemyField_A2.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_A2.Name = "EnemyField_A2";
+			this.EnemyField_A2.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_A2.TabIndex = 1;
+			this.EnemyField_A2.TabStop = false;
+			// 
+			// EnemyField_A1
+			// 
+			this.EnemyField_A1.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_A1.Location = new System.Drawing.Point(0, 0);
+			this.EnemyField_A1.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_A1.Name = "EnemyField_A1";
+			this.EnemyField_A1.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_A1.TabIndex = 0;
+			this.EnemyField_A1.TabStop = false;
 			// 
 			// EnemyField_G2
 			// 
@@ -2858,26 +2882,6 @@
 			this.EnemyField_A3.TabIndex = 2;
 			this.EnemyField_A3.TabStop = false;
 			// 
-			// EnemyField_A2
-			// 
-			this.EnemyField_A2.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
-			this.EnemyField_A2.Location = new System.Drawing.Point(30, 0);
-			this.EnemyField_A2.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_A2.Name = "EnemyField_A2";
-			this.EnemyField_A2.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_A2.TabIndex = 1;
-			this.EnemyField_A2.TabStop = false;
-			// 
-			// EnemyField_A1
-			// 
-			this.EnemyField_A1.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
-			this.EnemyField_A1.Location = new System.Drawing.Point(0, 0);
-			this.EnemyField_A1.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_A1.Name = "EnemyField_A1";
-			this.EnemyField_A1.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_A1.TabIndex = 0;
-			this.EnemyField_A1.TabStop = false;
-			// 
 			// EnemyField_label_J
 			// 
 			this.EnemyField_label_J.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -2978,12 +2982,52 @@
 			this.EnemyField_label_A.Text = "A";
 			this.EnemyField_label_A.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
 			// 
-			// Game_Screen
+			// LetterboxText
+			// 
+			this.LetterboxText.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+			this.LetterboxText.Location = new System.Drawing.Point(22, 143);
+			this.LetterboxText.MaxLength = 1;
+			this.LetterboxText.Name = "LetterboxText";
+			this.LetterboxText.Size = new System.Drawing.Size(30, 20);
+			this.LetterboxText.TabIndex = 32;
+			// 
+			// NumberboxText
+			// 
+			this.NumberboxText.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+			this.NumberboxText.Location = new System.Drawing.Point(58, 143);
+			this.NumberboxText.MaxLength = 2;
+			this.NumberboxText.Name = "NumberboxText";
+			this.NumberboxText.Size = new System.Drawing.Size(30, 20);
+			this.NumberboxText.TabIndex = 33;
+			// 
+			// FireButton
+			// 
+			this.FireButton.Location = new System.Drawing.Point(22, 170);
+			this.FireButton.Name = "FireButton";
+			this.FireButton.Size = new System.Drawing.Size(66, 23);
+			this.FireButton.TabIndex = 34;
+			this.FireButton.Text = "Fire!";
+			this.FireButton.UseVisualStyleBackColor = true;
+			this.FireButton.Click += new System.EventHandler(this.FireButton_Click);
+			// 
+			// ActionText
+			// 
+			this.ActionText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.ActionText.Location = new System.Drawing.Point(22, 209);
+			this.ActionText.Name = "ActionText";
+			this.ActionText.Size = new System.Drawing.Size(89, 74);
+			this.ActionText.TabIndex = 35;
+			// 
+			// GameScreen
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(584, 661);
+			this.Controls.Add(this.ActionText);
+			this.Controls.Add(this.FireButton);
+			this.Controls.Add(this.NumberboxText);
+			this.Controls.Add(this.LetterboxText);
 			this.Controls.Add(this.EnemyField_label_J);
 			this.Controls.Add(this.EnemyField_label_I);
 			this.Controls.Add(this.EnemyField_label_H);
@@ -3017,7 +3061,7 @@
 			this.Controls.Add(this.PlayerField_label_A);
 			this.Controls.Add(this.PlayerField);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-			this.Name = "Game_Screen";
+			this.Name = "GameScreen";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Battle Ships";
 			this.PlayerField.ResumeLayout(false);
@@ -3157,6 +3201,8 @@
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G5)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G4)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A1)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G2)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F10)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F9)).EndInit();
@@ -3220,9 +3266,8 @@
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B1)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A4)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A3)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A2)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A1)).EndInit();
 			this.ResumeLayout(false);
+			this.PerformLayout();
 
 		}
 
@@ -3460,6 +3505,10 @@
 		private System.Windows.Forms.Label EnemyField_label_C;
 		private System.Windows.Forms.Label EnemyField_label_B;
 		private System.Windows.Forms.Label EnemyField_label_A;
+		private System.Windows.Forms.TextBox LetterboxText;
+		private System.Windows.Forms.TextBox NumberboxText;
+		private System.Windows.Forms.Button FireButton;
+		private System.Windows.Forms.Label ActionText;
 	}
 }
 
