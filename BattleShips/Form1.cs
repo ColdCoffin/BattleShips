@@ -25,6 +25,7 @@ namespace BattleShips
 			String s = "EnemyField_" + letter + number;
 
 			PictureBox pic = Controls.Find(s, true).FirstOrDefault() as PictureBox;
+			Point p = pic.Location;
 
 			if (pic == null)
 				ActionText.Text = "Bad coordinaates mate!";
