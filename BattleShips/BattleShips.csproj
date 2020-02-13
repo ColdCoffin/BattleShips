@@ -86,5 +86,17 @@
   <ItemGroup>
     <None Include="Art\pixil-frame-0.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\Fishing_vessel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\Fishing_vessel_water.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\Fishing_vessel_water2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\Destroyed_ship.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

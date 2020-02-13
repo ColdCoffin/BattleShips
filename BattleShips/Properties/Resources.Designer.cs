@@ -74,6 +74,46 @@ namespace BattleShips.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Destroyed_ship {
+            get {
+                object obj = ResourceManager.GetObject("Destroyed_ship", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Fishing_vessel {
+            get {
+                object obj = ResourceManager.GetObject("Fishing_vessel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Fishing_vessel_water {
+            get {
+                object obj = ResourceManager.GetObject("Fishing_vessel_water", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Fishing_vessel_water2 {
+            get {
+                object obj = ResourceManager.GetObject("Fishing_vessel_water2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pixil_frame_0 {
             get {
                 object obj = ResourceManager.GetObject("pixil-frame-0", resourceCulture);

@@ -12,9 +12,19 @@ namespace BattleShips
 {
 	public partial class GameScreen : Form
 	{
+
+		int numberOfHits = 0;
 		public GameScreen()
 		{
 			InitializeComponent();
+		}
+
+		private void DestroyShip(PictureBox picture)
+		{
+			PictureBox destroyed = new PictureBox();
+			destroyed.Image = Image.FromFile("E:\\Programming\\c# vsite projects\\BatleShips game\\BattleShips\\BattleShips\\Art\\Destroyed_ship.png");
+			picture.Image = destroyed.Image;
+			picture.BringToFront();
 		}
 
 		private void FireButton_Click(object sender, EventArgs e)
@@ -30,8 +40,11 @@ namespace BattleShips
 			if (pic == null)
 				ActionText.Text = "Bad coordinaates mate!";
 			else
-				ActionText.Text ="Firing at " +
+			{
+				ActionText.Text = "Firing at " +
 					pic.Name.Substring(pic.Name.IndexOf('_') + 1, 2);
+				DestroyShip(pic);
+			}
 		}
 	}
 }
