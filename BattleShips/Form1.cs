@@ -16,34 +16,38 @@ namespace BattleShips
 		int numberOfHits = 0;
 		public GameScreen()
 		{
+			
 			InitializeComponent();
 		}
 
-		private void DestroyShip(PictureBox picture)
-		{
-			PictureBox destroyed = new PictureBox();
-			destroyed.Image = Image.FromFile("E:\\Programming\\c# vsite projects\\BatleShips game\\BattleShips\\BattleShips\\Art\\Destroyed_ship.png");
-			picture.Image = destroyed.Image;
-			picture.BringToFront();
-		}
+		
 
-		private void FireButton_Click(object sender, EventArgs e)
+		private String LoadFireCoordinates()
 		{
 
 			String letter = LetterboxText.Text;
 			String number = NumberboxText.Text;
 			String s = "EnemyField_" + letter + number;
+			return s;
+		}
 
-			PictureBox pic = Controls.Find(s, true).FirstOrDefault() as PictureBox;
-			Point p = pic.Location;
+		private void FireButton_Click(object sender, EventArgs e)
+		{
+			PictureBox pic = Controls.Find(LoadFireCoordinates(), true)
+				.FirstOrDefault() as PictureBox;
+			
 
 			if (pic == null)
 				ActionText.Text = "Bad coordinaates mate!";
 			else
 			{
+				Point p = pic.Location;
 				ActionText.Text = "Firing at " +
 					pic.Name.Substring(pic.Name.IndexOf('_') + 1, 2);
-				DestroyShip(pic);
+
+				FishingBoat_horizontal.Location = p;
+				FishingBoat_horizontal.Visible = true;
+
 			}
 		}
 	}

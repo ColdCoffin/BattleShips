@@ -64,6 +64,12 @@
 			this.NumberboxText = new System.Windows.Forms.TextBox();
 			this.FireButton = new System.Windows.Forms.Button();
 			this.ActionText = new System.Windows.Forms.Label();
+			this.textBox1 = new System.Windows.Forms.TextBox();
+			this.textBox2 = new System.Windows.Forms.TextBox();
+			this.SetShipsButton = new System.Windows.Forms.Button();
+			this.FishingBoat_vertical = new System.Windows.Forms.PictureBox();
+			this.FishingBoat_horizontal = new System.Windows.Forms.PictureBox();
+			this.EnemyField_F5 = new System.Windows.Forms.PictureBox();
 			this.EnemyField_J10 = new System.Windows.Forms.PictureBox();
 			this.EnemyField_J9 = new System.Windows.Forms.PictureBox();
 			this.EnemyField_J8 = new System.Windows.Forms.PictureBox();
@@ -107,7 +113,6 @@
 			this.EnemyField_F8 = new System.Windows.Forms.PictureBox();
 			this.EnemyField_F7 = new System.Windows.Forms.PictureBox();
 			this.EnemyField_F6 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_F5 = new System.Windows.Forms.PictureBox();
 			this.EnemyField_F4 = new System.Windows.Forms.PictureBox();
 			this.EnemyField_F3 = new System.Windows.Forms.PictureBox();
 			this.EnemyField_F2 = new System.Windows.Forms.PictureBox();
@@ -164,7 +169,6 @@
 			this.EnemyField_B1 = new System.Windows.Forms.PictureBox();
 			this.EnemyField_A4 = new System.Windows.Forms.PictureBox();
 			this.EnemyField_A3 = new System.Windows.Forms.PictureBox();
-			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.PlayerField_J10 = new System.Windows.Forms.PictureBox();
 			this.PlayerField_J9 = new System.Windows.Forms.PictureBox();
 			this.PlayerField_J8 = new System.Windows.Forms.PictureBox();
@@ -265,8 +269,15 @@
 			this.PlayerField_A3 = new System.Windows.Forms.PictureBox();
 			this.PlayerField_A2 = new System.Windows.Forms.PictureBox();
 			this.PlayerField_A1 = new System.Windows.Forms.PictureBox();
+			this.PhaseLabel = new System.Windows.Forms.Label();
+			this.VerticalOption = new System.Windows.Forms.RadioButton();
+			this.HorizontalOption = new System.Windows.Forms.RadioButton();
+			this.comboBox1 = new System.Windows.Forms.ComboBox();
 			this.PlayerField.SuspendLayout();
 			this.EnemyField.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.FishingBoat_vertical)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.FishingBoat_horizontal)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F5)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J10)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J9)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J8)).BeginInit();
@@ -310,7 +321,6 @@
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F8)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F7)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F6)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F5)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F4)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F3)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F2)).BeginInit();
@@ -367,7 +377,6 @@
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B1)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A4)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A3)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J10)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J9)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J8)).BeginInit();
@@ -472,9 +481,11 @@
 			// 
 			// PlayerField
 			// 
+			this.PlayerField.Controls.Add(this.FishingBoat_vertical);
 			this.PlayerField.Controls.Add(this.PlayerField_J10);
 			this.PlayerField.Controls.Add(this.PlayerField_J9);
 			this.PlayerField.Controls.Add(this.PlayerField_J8);
+			this.PlayerField.Controls.Add(this.FishingBoat_horizontal);
 			this.PlayerField.Controls.Add(this.PlayerField_J7);
 			this.PlayerField.Controls.Add(this.PlayerField_J6);
 			this.PlayerField.Controls.Add(this.PlayerField_J5);
@@ -572,7 +583,7 @@
 			this.PlayerField.Controls.Add(this.PlayerField_A3);
 			this.PlayerField.Controls.Add(this.PlayerField_A2);
 			this.PlayerField.Controls.Add(this.PlayerField_A1);
-			this.PlayerField.Location = new System.Drawing.Point(153, 349);
+			this.PlayerField.Location = new System.Drawing.Point(194, 349);
 			this.PlayerField.Name = "PlayerField";
 			this.PlayerField.Size = new System.Drawing.Size(300, 300);
 			this.PlayerField.TabIndex = 0;
@@ -580,7 +591,7 @@
 			// PlayerField_label_A
 			// 
 			this.PlayerField_label_A.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PlayerField_label_A.Location = new System.Drawing.Point(117, 349);
+			this.PlayerField_label_A.Location = new System.Drawing.Point(158, 349);
 			this.PlayerField_label_A.Name = "PlayerField_label_A";
 			this.PlayerField_label_A.Size = new System.Drawing.Size(30, 30);
 			this.PlayerField_label_A.TabIndex = 2;
@@ -590,7 +601,7 @@
 			// PlayerField_label_B
 			// 
 			this.PlayerField_label_B.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PlayerField_label_B.Location = new System.Drawing.Point(117, 379);
+			this.PlayerField_label_B.Location = new System.Drawing.Point(158, 379);
 			this.PlayerField_label_B.Name = "PlayerField_label_B";
 			this.PlayerField_label_B.Size = new System.Drawing.Size(30, 30);
 			this.PlayerField_label_B.TabIndex = 3;
@@ -600,7 +611,7 @@
 			// PlayerField_label_C
 			// 
 			this.PlayerField_label_C.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PlayerField_label_C.Location = new System.Drawing.Point(117, 409);
+			this.PlayerField_label_C.Location = new System.Drawing.Point(158, 409);
 			this.PlayerField_label_C.Name = "PlayerField_label_C";
 			this.PlayerField_label_C.Size = new System.Drawing.Size(30, 30);
 			this.PlayerField_label_C.TabIndex = 4;
@@ -610,7 +621,7 @@
 			// PlayerField_label_D
 			// 
 			this.PlayerField_label_D.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PlayerField_label_D.Location = new System.Drawing.Point(117, 439);
+			this.PlayerField_label_D.Location = new System.Drawing.Point(158, 439);
 			this.PlayerField_label_D.Name = "PlayerField_label_D";
 			this.PlayerField_label_D.Size = new System.Drawing.Size(30, 30);
 			this.PlayerField_label_D.TabIndex = 5;
@@ -620,7 +631,7 @@
 			// PlayerField_label_E
 			// 
 			this.PlayerField_label_E.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PlayerField_label_E.Location = new System.Drawing.Point(117, 469);
+			this.PlayerField_label_E.Location = new System.Drawing.Point(158, 469);
 			this.PlayerField_label_E.Name = "PlayerField_label_E";
 			this.PlayerField_label_E.Size = new System.Drawing.Size(30, 30);
 			this.PlayerField_label_E.TabIndex = 6;
@@ -630,7 +641,7 @@
 			// PlayerField_label_F
 			// 
 			this.PlayerField_label_F.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PlayerField_label_F.Location = new System.Drawing.Point(117, 499);
+			this.PlayerField_label_F.Location = new System.Drawing.Point(158, 499);
 			this.PlayerField_label_F.Name = "PlayerField_label_F";
 			this.PlayerField_label_F.Size = new System.Drawing.Size(30, 30);
 			this.PlayerField_label_F.TabIndex = 7;
@@ -640,7 +651,7 @@
 			// PlayerField_label_G
 			// 
 			this.PlayerField_label_G.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PlayerField_label_G.Location = new System.Drawing.Point(117, 529);
+			this.PlayerField_label_G.Location = new System.Drawing.Point(158, 529);
 			this.PlayerField_label_G.Name = "PlayerField_label_G";
 			this.PlayerField_label_G.Size = new System.Drawing.Size(30, 30);
 			this.PlayerField_label_G.TabIndex = 8;
@@ -650,7 +661,7 @@
 			// PlayerField_label_H
 			// 
 			this.PlayerField_label_H.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PlayerField_label_H.Location = new System.Drawing.Point(117, 559);
+			this.PlayerField_label_H.Location = new System.Drawing.Point(158, 559);
 			this.PlayerField_label_H.Name = "PlayerField_label_H";
 			this.PlayerField_label_H.Size = new System.Drawing.Size(30, 30);
 			this.PlayerField_label_H.TabIndex = 9;
@@ -660,7 +671,7 @@
 			// PlayerField_label_I
 			// 
 			this.PlayerField_label_I.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PlayerField_label_I.Location = new System.Drawing.Point(117, 589);
+			this.PlayerField_label_I.Location = new System.Drawing.Point(158, 589);
 			this.PlayerField_label_I.Name = "PlayerField_label_I";
 			this.PlayerField_label_I.Size = new System.Drawing.Size(30, 30);
 			this.PlayerField_label_I.TabIndex = 10;
@@ -670,7 +681,7 @@
 			// PlayerField_label_J
 			// 
 			this.PlayerField_label_J.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PlayerField_label_J.Location = new System.Drawing.Point(117, 619);
+			this.PlayerField_label_J.Location = new System.Drawing.Point(158, 619);
 			this.PlayerField_label_J.Name = "PlayerField_label_J";
 			this.PlayerField_label_J.Size = new System.Drawing.Size(30, 30);
 			this.PlayerField_label_J.TabIndex = 11;
@@ -680,7 +691,7 @@
 			// Field_label_1
 			// 
 			this.Field_label_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Field_label_1.Location = new System.Drawing.Point(153, 316);
+			this.Field_label_1.Location = new System.Drawing.Point(194, 316);
 			this.Field_label_1.Name = "Field_label_1";
 			this.Field_label_1.Size = new System.Drawing.Size(30, 30);
 			this.Field_label_1.TabIndex = 12;
@@ -690,7 +701,7 @@
 			// Field_label_2
 			// 
 			this.Field_label_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Field_label_2.Location = new System.Drawing.Point(183, 316);
+			this.Field_label_2.Location = new System.Drawing.Point(224, 316);
 			this.Field_label_2.Name = "Field_label_2";
 			this.Field_label_2.Size = new System.Drawing.Size(30, 30);
 			this.Field_label_2.TabIndex = 13;
@@ -700,7 +711,7 @@
 			// Field_label_3
 			// 
 			this.Field_label_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Field_label_3.Location = new System.Drawing.Point(213, 316);
+			this.Field_label_3.Location = new System.Drawing.Point(254, 316);
 			this.Field_label_3.Name = "Field_label_3";
 			this.Field_label_3.Size = new System.Drawing.Size(30, 30);
 			this.Field_label_3.TabIndex = 14;
@@ -710,7 +721,7 @@
 			// Field_label_4
 			// 
 			this.Field_label_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Field_label_4.Location = new System.Drawing.Point(243, 316);
+			this.Field_label_4.Location = new System.Drawing.Point(284, 316);
 			this.Field_label_4.Name = "Field_label_4";
 			this.Field_label_4.Size = new System.Drawing.Size(30, 30);
 			this.Field_label_4.TabIndex = 15;
@@ -720,7 +731,7 @@
 			// Field_label_5
 			// 
 			this.Field_label_5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Field_label_5.Location = new System.Drawing.Point(273, 316);
+			this.Field_label_5.Location = new System.Drawing.Point(314, 316);
 			this.Field_label_5.Name = "Field_label_5";
 			this.Field_label_5.Size = new System.Drawing.Size(30, 30);
 			this.Field_label_5.TabIndex = 16;
@@ -730,7 +741,7 @@
 			// Field_label_6
 			// 
 			this.Field_label_6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Field_label_6.Location = new System.Drawing.Point(303, 316);
+			this.Field_label_6.Location = new System.Drawing.Point(344, 316);
 			this.Field_label_6.Name = "Field_label_6";
 			this.Field_label_6.Size = new System.Drawing.Size(30, 30);
 			this.Field_label_6.TabIndex = 17;
@@ -740,7 +751,7 @@
 			// Field_label_7
 			// 
 			this.Field_label_7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Field_label_7.Location = new System.Drawing.Point(333, 316);
+			this.Field_label_7.Location = new System.Drawing.Point(374, 316);
 			this.Field_label_7.Name = "Field_label_7";
 			this.Field_label_7.Size = new System.Drawing.Size(30, 30);
 			this.Field_label_7.TabIndex = 18;
@@ -750,7 +761,7 @@
 			// Field_label_8
 			// 
 			this.Field_label_8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Field_label_8.Location = new System.Drawing.Point(363, 316);
+			this.Field_label_8.Location = new System.Drawing.Point(404, 316);
 			this.Field_label_8.Name = "Field_label_8";
 			this.Field_label_8.Size = new System.Drawing.Size(30, 30);
 			this.Field_label_8.TabIndex = 19;
@@ -760,7 +771,7 @@
 			// Field_label_9
 			// 
 			this.Field_label_9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Field_label_9.Location = new System.Drawing.Point(393, 316);
+			this.Field_label_9.Location = new System.Drawing.Point(434, 316);
 			this.Field_label_9.Name = "Field_label_9";
 			this.Field_label_9.Size = new System.Drawing.Size(30, 30);
 			this.Field_label_9.TabIndex = 20;
@@ -770,7 +781,7 @@
 			// Field_label_10
 			// 
 			this.Field_label_10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Field_label_10.Location = new System.Drawing.Point(423, 316);
+			this.Field_label_10.Location = new System.Drawing.Point(464, 316);
 			this.Field_label_10.Name = "Field_label_10";
 			this.Field_label_10.Size = new System.Drawing.Size(30, 30);
 			this.Field_label_10.TabIndex = 21;
@@ -779,7 +790,6 @@
 			// 
 			// EnemyField
 			// 
-			this.EnemyField.Controls.Add(this.pictureBox1);
 			this.EnemyField.Controls.Add(this.EnemyField_F5);
 			this.EnemyField.Controls.Add(this.EnemyField_J10);
 			this.EnemyField.Controls.Add(this.EnemyField_J9);
@@ -880,7 +890,7 @@
 			this.EnemyField.Controls.Add(this.EnemyField_B1);
 			this.EnemyField.Controls.Add(this.EnemyField_A4);
 			this.EnemyField.Controls.Add(this.EnemyField_A3);
-			this.EnemyField.Location = new System.Drawing.Point(156, 13);
+			this.EnemyField.Location = new System.Drawing.Point(197, 13);
 			this.EnemyField.Name = "EnemyField";
 			this.EnemyField.Size = new System.Drawing.Size(300, 300);
 			this.EnemyField.TabIndex = 1;
@@ -888,7 +898,7 @@
 			// EnemyField_label_J
 			// 
 			this.EnemyField_label_J.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyField_label_J.Location = new System.Drawing.Point(117, 283);
+			this.EnemyField_label_J.Location = new System.Drawing.Point(158, 283);
 			this.EnemyField_label_J.Name = "EnemyField_label_J";
 			this.EnemyField_label_J.Size = new System.Drawing.Size(30, 30);
 			this.EnemyField_label_J.TabIndex = 31;
@@ -898,7 +908,7 @@
 			// EnemyField_label_I
 			// 
 			this.EnemyField_label_I.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyField_label_I.Location = new System.Drawing.Point(117, 253);
+			this.EnemyField_label_I.Location = new System.Drawing.Point(158, 253);
 			this.EnemyField_label_I.Name = "EnemyField_label_I";
 			this.EnemyField_label_I.Size = new System.Drawing.Size(30, 30);
 			this.EnemyField_label_I.TabIndex = 30;
@@ -908,7 +918,7 @@
 			// EnemyField_label_H
 			// 
 			this.EnemyField_label_H.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyField_label_H.Location = new System.Drawing.Point(117, 223);
+			this.EnemyField_label_H.Location = new System.Drawing.Point(158, 223);
 			this.EnemyField_label_H.Name = "EnemyField_label_H";
 			this.EnemyField_label_H.Size = new System.Drawing.Size(30, 30);
 			this.EnemyField_label_H.TabIndex = 29;
@@ -918,7 +928,7 @@
 			// EnemyField_label_G
 			// 
 			this.EnemyField_label_G.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyField_label_G.Location = new System.Drawing.Point(117, 193);
+			this.EnemyField_label_G.Location = new System.Drawing.Point(158, 193);
 			this.EnemyField_label_G.Name = "EnemyField_label_G";
 			this.EnemyField_label_G.Size = new System.Drawing.Size(30, 30);
 			this.EnemyField_label_G.TabIndex = 28;
@@ -928,7 +938,7 @@
 			// EnemyField_label_F
 			// 
 			this.EnemyField_label_F.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyField_label_F.Location = new System.Drawing.Point(117, 163);
+			this.EnemyField_label_F.Location = new System.Drawing.Point(158, 163);
 			this.EnemyField_label_F.Name = "EnemyField_label_F";
 			this.EnemyField_label_F.Size = new System.Drawing.Size(30, 30);
 			this.EnemyField_label_F.TabIndex = 27;
@@ -938,7 +948,7 @@
 			// EnemyField_label_E
 			// 
 			this.EnemyField_label_E.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyField_label_E.Location = new System.Drawing.Point(117, 133);
+			this.EnemyField_label_E.Location = new System.Drawing.Point(158, 133);
 			this.EnemyField_label_E.Name = "EnemyField_label_E";
 			this.EnemyField_label_E.Size = new System.Drawing.Size(30, 30);
 			this.EnemyField_label_E.TabIndex = 26;
@@ -948,7 +958,7 @@
 			// EnemyField_label_D
 			// 
 			this.EnemyField_label_D.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyField_label_D.Location = new System.Drawing.Point(117, 103);
+			this.EnemyField_label_D.Location = new System.Drawing.Point(158, 103);
 			this.EnemyField_label_D.Name = "EnemyField_label_D";
 			this.EnemyField_label_D.Size = new System.Drawing.Size(30, 30);
 			this.EnemyField_label_D.TabIndex = 25;
@@ -958,7 +968,7 @@
 			// EnemyField_label_C
 			// 
 			this.EnemyField_label_C.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyField_label_C.Location = new System.Drawing.Point(117, 73);
+			this.EnemyField_label_C.Location = new System.Drawing.Point(158, 73);
 			this.EnemyField_label_C.Name = "EnemyField_label_C";
 			this.EnemyField_label_C.Size = new System.Drawing.Size(30, 30);
 			this.EnemyField_label_C.TabIndex = 24;
@@ -968,7 +978,7 @@
 			// EnemyField_label_B
 			// 
 			this.EnemyField_label_B.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyField_label_B.Location = new System.Drawing.Point(117, 43);
+			this.EnemyField_label_B.Location = new System.Drawing.Point(158, 43);
 			this.EnemyField_label_B.Name = "EnemyField_label_B";
 			this.EnemyField_label_B.Size = new System.Drawing.Size(30, 30);
 			this.EnemyField_label_B.TabIndex = 23;
@@ -978,7 +988,7 @@
 			// EnemyField_label_A
 			// 
 			this.EnemyField_label_A.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyField_label_A.Location = new System.Drawing.Point(117, 13);
+			this.EnemyField_label_A.Location = new System.Drawing.Point(158, 13);
 			this.EnemyField_label_A.Name = "EnemyField_label_A";
 			this.EnemyField_label_A.Size = new System.Drawing.Size(30, 30);
 			this.EnemyField_label_A.TabIndex = 22;
@@ -988,7 +998,7 @@
 			// LetterboxText
 			// 
 			this.LetterboxText.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-			this.LetterboxText.Location = new System.Drawing.Point(22, 143);
+			this.LetterboxText.Location = new System.Drawing.Point(49, 143);
 			this.LetterboxText.MaxLength = 1;
 			this.LetterboxText.Name = "LetterboxText";
 			this.LetterboxText.Size = new System.Drawing.Size(30, 20);
@@ -997,7 +1007,7 @@
 			// NumberboxText
 			// 
 			this.NumberboxText.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-			this.NumberboxText.Location = new System.Drawing.Point(58, 143);
+			this.NumberboxText.Location = new System.Drawing.Point(96, 143);
 			this.NumberboxText.MaxLength = 2;
 			this.NumberboxText.Name = "NumberboxText";
 			this.NumberboxText.Size = new System.Drawing.Size(30, 20);
@@ -1005,9 +1015,9 @@
 			// 
 			// FireButton
 			// 
-			this.FireButton.Location = new System.Drawing.Point(22, 170);
+			this.FireButton.Location = new System.Drawing.Point(49, 169);
 			this.FireButton.Name = "FireButton";
-			this.FireButton.Size = new System.Drawing.Size(66, 23);
+			this.FireButton.Size = new System.Drawing.Size(77, 23);
 			this.FireButton.TabIndex = 34;
 			this.FireButton.Text = "Fire!";
 			this.FireButton.UseVisualStyleBackColor = true;
@@ -1020,6 +1030,63 @@
 			this.ActionText.Name = "ActionText";
 			this.ActionText.Size = new System.Drawing.Size(89, 74);
 			this.ActionText.TabIndex = 35;
+			// 
+			// textBox1
+			// 
+			this.textBox1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+			this.textBox1.Location = new System.Drawing.Point(49, 411);
+			this.textBox1.MaxLength = 1;
+			this.textBox1.Name = "textBox1";
+			this.textBox1.Size = new System.Drawing.Size(30, 20);
+			this.textBox1.TabIndex = 36;
+			// 
+			// textBox2
+			// 
+			this.textBox2.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+			this.textBox2.Location = new System.Drawing.Point(96, 411);
+			this.textBox2.MaxLength = 2;
+			this.textBox2.Name = "textBox2";
+			this.textBox2.Size = new System.Drawing.Size(30, 20);
+			this.textBox2.TabIndex = 37;
+			// 
+			// SetShipsButton
+			// 
+			this.SetShipsButton.Location = new System.Drawing.Point(49, 437);
+			this.SetShipsButton.Name = "SetShipsButton";
+			this.SetShipsButton.Size = new System.Drawing.Size(77, 23);
+			this.SetShipsButton.TabIndex = 38;
+			this.SetShipsButton.Text = "Set";
+			this.SetShipsButton.UseVisualStyleBackColor = true;
+			// 
+			// FishingBoat_vertical
+			// 
+			this.FishingBoat_vertical.Image = global::BattleShips.Properties.Resources.Fishing_vessel_water_vertical;
+			this.FishingBoat_vertical.Location = new System.Drawing.Point(270, 240);
+			this.FishingBoat_vertical.Name = "FishingBoat_vertical";
+			this.FishingBoat_vertical.Size = new System.Drawing.Size(30, 60);
+			this.FishingBoat_vertical.TabIndex = 39;
+			this.FishingBoat_vertical.TabStop = false;
+			this.FishingBoat_vertical.Visible = false;
+			// 
+			// FishingBoat_horizontal
+			// 
+			this.FishingBoat_horizontal.Image = global::BattleShips.Properties.Resources.Fishing_vessel_water;
+			this.FishingBoat_horizontal.Location = new System.Drawing.Point(3, 267);
+			this.FishingBoat_horizontal.Name = "FishingBoat_horizontal";
+			this.FishingBoat_horizontal.Size = new System.Drawing.Size(60, 30);
+			this.FishingBoat_horizontal.TabIndex = 36;
+			this.FishingBoat_horizontal.TabStop = false;
+			this.FishingBoat_horizontal.Visible = false;
+			// 
+			// EnemyField_F5
+			// 
+			this.EnemyField_F5.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_F5.Location = new System.Drawing.Point(120, 150);
+			this.EnemyField_F5.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_F5.Name = "EnemyField_F5";
+			this.EnemyField_F5.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_F5.TabIndex = 58;
+			this.EnemyField_F5.TabStop = false;
 			// 
 			// EnemyField_J10
 			// 
@@ -1450,16 +1517,6 @@
 			this.EnemyField_F6.Size = new System.Drawing.Size(30, 30);
 			this.EnemyField_F6.TabIndex = 59;
 			this.EnemyField_F6.TabStop = false;
-			// 
-			// EnemyField_F5
-			// 
-			this.EnemyField_F5.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
-			this.EnemyField_F5.Location = new System.Drawing.Point(120, 150);
-			this.EnemyField_F5.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_F5.Name = "EnemyField_F5";
-			this.EnemyField_F5.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_F5.TabIndex = 58;
-			this.EnemyField_F5.TabStop = false;
 			// 
 			// EnemyField_F4
 			// 
@@ -2020,15 +2077,6 @@
 			this.EnemyField_A3.Size = new System.Drawing.Size(30, 30);
 			this.EnemyField_A3.TabIndex = 2;
 			this.EnemyField_A3.TabStop = false;
-			// 
-			// pictureBox1
-			// 
-			this.pictureBox1.Image = global::BattleShips.Properties.Resources.Fishing_vessel_water;
-			this.pictureBox1.Location = new System.Drawing.Point(60, 150);
-			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new System.Drawing.Size(60, 30);
-			this.pictureBox1.TabIndex = 36;
-			this.pictureBox1.TabStop = false;
 			// 
 			// PlayerField_J10
 			// 
@@ -3030,12 +3078,63 @@
 			this.PlayerField_A1.TabIndex = 0;
 			this.PlayerField_A1.TabStop = false;
 			// 
+			// PhaseLabel
+			// 
+			this.PhaseLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.PhaseLabel.Location = new System.Drawing.Point(53, 313);
+			this.PhaseLabel.Name = "PhaseLabel";
+			this.PhaseLabel.Size = new System.Drawing.Size(115, 36);
+			this.PhaseLabel.TabIndex = 41;
+			// 
+			// VerticalOption
+			// 
+			this.VerticalOption.AutoSize = true;
+			this.VerticalOption.Location = new System.Drawing.Point(24, 502);
+			this.VerticalOption.Name = "VerticalOption";
+			this.VerticalOption.Size = new System.Drawing.Size(60, 17);
+			this.VerticalOption.TabIndex = 42;
+			this.VerticalOption.TabStop = true;
+			this.VerticalOption.Text = "Vertical";
+			this.VerticalOption.UseVisualStyleBackColor = true;
+			// 
+			// HorizontalOption
+			// 
+			this.HorizontalOption.AutoSize = true;
+			this.HorizontalOption.Location = new System.Drawing.Point(24, 525);
+			this.HorizontalOption.Name = "HorizontalOption";
+			this.HorizontalOption.Size = new System.Drawing.Size(72, 17);
+			this.HorizontalOption.TabIndex = 43;
+			this.HorizontalOption.TabStop = true;
+			this.HorizontalOption.Text = "Horizontal";
+			this.HorizontalOption.UseVisualStyleBackColor = true;
+			// 
+			// comboBox1
+			// 
+			this.comboBox1.FormattingEnabled = true;
+			this.comboBox1.Items.AddRange(new object[] {
+            "Fishing Boat",
+            "Sloop",
+            "Brigantine",
+            "Galleon",
+            "Pirate\'s ship"});
+			this.comboBox1.Location = new System.Drawing.Point(25, 469);
+			this.comboBox1.Name = "comboBox1";
+			this.comboBox1.Size = new System.Drawing.Size(121, 21);
+			this.comboBox1.TabIndex = 44;
+			// 
 			// GameScreen
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(584, 661);
+			this.Controls.Add(this.comboBox1);
+			this.Controls.Add(this.HorizontalOption);
+			this.Controls.Add(this.VerticalOption);
+			this.Controls.Add(this.PhaseLabel);
+			this.Controls.Add(this.SetShipsButton);
+			this.Controls.Add(this.textBox2);
+			this.Controls.Add(this.textBox1);
 			this.Controls.Add(this.ActionText);
 			this.Controls.Add(this.FireButton);
 			this.Controls.Add(this.NumberboxText);
@@ -3073,11 +3172,15 @@
 			this.Controls.Add(this.PlayerField_label_A);
 			this.Controls.Add(this.PlayerField);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+			this.MaximumSize = new System.Drawing.Size(600, 700);
 			this.Name = "GameScreen";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Battle Ships";
 			this.PlayerField.ResumeLayout(false);
 			this.EnemyField.ResumeLayout(false);
+			((System.ComponentModel.ISupportInitialize)(this.FishingBoat_vertical)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.FishingBoat_horizontal)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F5)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J10)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J9)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J8)).EndInit();
@@ -3121,7 +3224,6 @@
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F8)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F7)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F6)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F5)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F4)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F3)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F2)).EndInit();
@@ -3178,7 +3280,6 @@
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B1)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A4)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A3)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J10)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J9)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J8)).EndInit();
@@ -3522,7 +3623,15 @@
 		private System.Windows.Forms.TextBox NumberboxText;
 		private System.Windows.Forms.Button FireButton;
 		private System.Windows.Forms.Label ActionText;
-		private System.Windows.Forms.PictureBox pictureBox1;
+		private System.Windows.Forms.PictureBox FishingBoat_horizontal;
+		private System.Windows.Forms.TextBox textBox1;
+		private System.Windows.Forms.TextBox textBox2;
+		private System.Windows.Forms.Button SetShipsButton;
+		private System.Windows.Forms.PictureBox FishingBoat_vertical;
+		private System.Windows.Forms.Label PhaseLabel;
+		private System.Windows.Forms.RadioButton VerticalOption;
+		private System.Windows.Forms.RadioButton HorizontalOption;
+		private System.Windows.Forms.ComboBox comboBox1;
 	}
 }
 
