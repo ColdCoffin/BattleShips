@@ -13,10 +13,8 @@ namespace BattleShips
 	public partial class GameScreen : Form
 	{
 
-		int numberOfHits = 0;
 		public GameScreen()
 		{
-			
 			InitializeComponent();
 		}
 
@@ -49,6 +47,12 @@ namespace BattleShips
 				FishingBoat_horizontal.Visible = true;
 
 			}
+		}
+
+		private void SetShipsButton_Click(object sender, EventArgs e)
+		{
+
+			
 		}
 	}
 }

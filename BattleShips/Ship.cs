@@ -9,7 +9,7 @@ using System.Collections;
 
 namespace BattleShips
 {
-	abstract class Ship
+	public abstract class Ship
 	{
 		public readonly string ShipName;
 
@@ -21,8 +21,10 @@ namespace BattleShips
 		protected int ShipLength;
 
 
-		Ship(PictureBox Hgraphics, PictureBox Vgraphics) 
+		public Ship(PictureBox Hgraphics, PictureBox Vgraphics, string name) 
 		{
+			ShipName = name;
+
 			this.Hgraphics = Hgraphics;
 			this.Vgraphics = Vgraphics;
 
@@ -33,11 +35,17 @@ namespace BattleShips
 			Hgraphics.Visible = false;
 			Vgraphics.Visible = false;
 
-			CalculatePositions();
+			InitializePositions();
+			SetHealth();
+			SetLength();
+			CalculatePositions("Vertical");
 		}
 
 		//Every inherited class MUST implement this!
-		public abstract void CalculatePositions();
+		protected abstract void InitializePositions();
+		protected abstract void SetHealth();
+		protected abstract void SetLength();
+		protected abstract void CalculatePositions(string orientation);
 
 		virtual public bool SpawnShip(Point pos, string orientation)
 		{
@@ -48,7 +56,7 @@ namespace BattleShips
 				return false;
 
 			Location = pos;
-			CalculatePositions();
+			CalculatePositions(orientation);
 
 			if (orientation == "Vertical") 
 				{
