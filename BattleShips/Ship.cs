@@ -8,10 +8,7 @@ using System.Drawing;
 using System.Collections;
 
 namespace BattleShips
-
-	
 {
-
 	public struct ShipPart
 	{
 		public Point point;
@@ -71,15 +68,37 @@ namespace BattleShips
 			}
 		}
 
-		virtual public bool SpawnShip(Point pos, string orientation)
+		virtual protected bool checkCollision(Field[] f, string orientation)
+		{
+			if (orientation == "Vertical")
+			{
+				for (int i = Location.Y/30; i < 100; i += 10)
+				{
+					if (f[i + Location.X / 30].isTaken == true)
+						return false;
+				}
+			}
+
+			if (orientation == "Horizontal")
+			{
+				for (int i = Location.X / 30; i < 100; i += 10)
+				{
+					if (f[i + Location.Y / 30].isTaken == true)
+						return false;
+				}
+			}
+
+			return true;
+
+		}
+
+		virtual public bool SpawnShip(Field[] allFields,Field pos, string orientation)
 		{
 
-			if (orientation == "Vertical" && pos.Y + (30 * ShipLength) > 240)
-				return false;
-			if (orientation == "Horizontal" && pos.X + (30 * ShipLength) > 270)
+			if (checkCollision(allFields, orientation) == false)
 				return false;
 
-			Location = pos;
+			Location = pos.point;
 			CalculatePositions(orientation);
 
 			if (orientation == "Vertical") 
@@ -97,24 +116,30 @@ namespace BattleShips
 
 		}
 
-		virtual public bool isHit(Point pos)
+		virtual public bool isHit(Field pos)
 		{
 			for (int i = 0; i < ShipLength; i++)
 			{
-				if (ShipParts[i].point == pos && ShipParts[i].isDestroyed == true)
+				if (ShipParts[i].point == pos.point)
 					return true;
 			}
 
 			return false;
 		}
 
-		virtual public void Hit(Point pos)
+		virtual public void Hit(Field pos)
 		{
+			for (int i = 0; i < ShipLength; i++)
+			{
+				if (ShipParts[i].point == pos.point)
+					ShipParts[i].isDestroyed = true;
+			}
+
 			PictureBox debris = new PictureBox();
 			debris.Image = Image.FromFile("E:\\Programming\\c# vsite projects\\" +
 				"BatleShips game\\BattleShips\\BattleShips\\Art\\Destroyed_ship.png");
 
-			debris.Location = pos;
+			debris.Location = pos.point;
 			debris.BringToFront();
 			Health -= 1;
 		}

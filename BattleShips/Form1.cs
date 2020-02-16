@@ -12,10 +12,14 @@ namespace BattleShips
 {
 	public partial class GameScreen : Form
 	{
-
+		PlayingField playerField;
+		PlayingField enemyField;
 		public GameScreen()
 		{
 			InitializeComponent();
+
+			playerField = new PlayingField();
+			enemyField = new PlayingField();
 		}
 
 		
@@ -43,8 +47,8 @@ namespace BattleShips
 				ActionText.Text = "Firing at " +
 					pic.Name.Substring(pic.Name.IndexOf('_') + 1, 2);
 
-				FishingBoat_horizontal.Location = p;
-				FishingBoat_horizontal.Visible = true;
+				PiratesShip_horiznotal_enemy.Location = p;
+				PiratesShip_horiznotal_enemy.Visible = true;
 
 			}
 		}

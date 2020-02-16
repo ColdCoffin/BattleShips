@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Brigantine.cs" />
+    <Compile Include="PlayingField.cs" />
     <Compile Include="FishingBoat.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -107,6 +108,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Art\Fishing_vessel_water_vertical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\Sloop_horizontal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\Sloop_vertical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\Galleon_horizontal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\Galleon_vertical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\PiratesShip_horizontal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\PiratesShip_vertical.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
