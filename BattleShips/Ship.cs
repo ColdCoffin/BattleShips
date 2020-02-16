@@ -8,7 +8,15 @@ using System.Drawing;
 using System.Collections;
 
 namespace BattleShips
+
+	
 {
+
+	public struct ShipPart
+	{
+		public Point point;
+		public bool isDestroyed;
+	}
 	public abstract class Ship
 	{
 		public readonly string ShipName;
@@ -17,14 +25,16 @@ namespace BattleShips
 		protected readonly PictureBox Vgraphics;
 		protected int Health;
 		protected Point Location;
-		protected Point[] Positions;
+		protected ShipPart[] ShipParts;
 		protected int ShipLength;
+
 
 
 		public Ship(PictureBox Hgraphics, PictureBox Vgraphics, string name) 
 		{
 			ShipName = name;
 
+			isSpawned = false;
 			this.Hgraphics = Hgraphics;
 			this.Vgraphics = Vgraphics;
 
@@ -49,15 +59,15 @@ namespace BattleShips
 
 		protected virtual void CalculatePositions(string orientation)
 		{
-			Positions[0] = new Point(Location.X, Location.Y);
+			ShipParts[0].point = new Point(Location.X, Location.Y);
 
 			for (int i = 1; i < ShipLength; i++)
 			{
 				if (orientation == "Horizontal")
-					Positions[i] = new Point(Location.X + (i * 30), Location.Y);
+					ShipParts[i].point = new Point(Location.X + (i * 30), Location.Y);
 
 				if (orientation == "Vertical")
-					Positions[i] = new Point(Location.X, Location.Y + (i * 30));
+					ShipParts[i].point = new Point(Location.X, Location.Y + (i * 30));
 
 			}
 		}
@@ -90,9 +100,9 @@ namespace BattleShips
 
 		virtual public bool isHit(Point pos)
 		{
-			foreach (Point location in Positions)
+			for (int i = 0; i < ShipLength; i++)
 			{
-				if (pos == location)
+				if (ShipParts[i].point == pos && ShipParts[i].isDestroyed == true)
 					return true;
 			}
 

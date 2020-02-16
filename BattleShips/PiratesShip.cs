@@ -14,7 +14,7 @@ namespace BattleShips
 			string name = "Sloop")
 			: base(Hgraphics, Vgraphics, name) { }
 
-		protected override void InitializePositions() => Positions = new Point[5];
+		protected override void InitializePositions() => ShipParts = new ShipPart[5];
 		protected override void SetHealth() => Health = 50;
 
 		protected override void SetLength() => ShipLength = 5;

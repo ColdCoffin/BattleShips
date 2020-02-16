@@ -14,7 +14,7 @@ namespace BattleShips
 			string name = "Galleon")
 			: base(Hgraphics, Vgraphics, name) { }
 
-		protected override void InitializePositions() => Positions = new Point[4];
+		protected override void InitializePositions() => ShipParts = new ShipPart[4];
 		protected override void SetHealth() => Health = 40;
 
 		protected override void SetLength() => ShipLength = 4;

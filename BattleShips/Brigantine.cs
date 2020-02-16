@@ -14,7 +14,7 @@ namespace BattleShips
 			string name = "Brigantine")
 			: base(Hgraphics, Vgraphics, name) { }
 
-		protected override void InitializePositions() => Positions = new Point[3];
+		protected override void InitializePositions() => ShipParts = new ShipPart[3];
 		protected override void SetHealth() => Health = 30;
 
 		protected override void SetLength() => ShipLength = 3;
