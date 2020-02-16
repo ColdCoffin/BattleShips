@@ -34,7 +34,6 @@ namespace BattleShips
 		{
 			ShipName = name;
 
-			isSpawned = false;
 			this.Hgraphics = Hgraphics;
 			this.Vgraphics = Vgraphics;
 
