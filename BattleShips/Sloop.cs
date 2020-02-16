@@ -10,9 +10,8 @@ namespace BattleShips
 {
 	class Sloop : Ship
 	{
-		public Sloop(PictureBox Hgraphics, PictureBox Vgraphics,
-			string name = "Sloop")
-			: base(Hgraphics, Vgraphics, name) { }
+		public Sloop(PictureBox Hgraphics, PictureBox Vgraphics)
+			: base(Hgraphics, Vgraphics) { ShipName = "Sloop"; }
 
 		protected override void InitializePositions() => ShipParts = new ShipPart[3];
 		protected override void SetHealth() => Health = 30;

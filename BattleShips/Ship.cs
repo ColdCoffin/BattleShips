@@ -16,7 +16,7 @@ namespace BattleShips
 	}
 	public abstract class Ship
 	{
-		public readonly string ShipName;
+		public string ShipName;
 
 		protected readonly PictureBox Hgraphics;
 		protected readonly PictureBox Vgraphics;
@@ -27,9 +27,8 @@ namespace BattleShips
 
 
 
-		public Ship(PictureBox Hgraphics, PictureBox Vgraphics, string name) 
+		public Ship(PictureBox Hgraphics, PictureBox Vgraphics) 
 		{
-			ShipName = name;
 
 			this.Hgraphics = Hgraphics;
 			this.Vgraphics = Vgraphics;
@@ -92,8 +91,11 @@ namespace BattleShips
 
 		}
 
-		virtual public bool SpawnShip(Field[] allFields,Field pos, string orientation)
+		virtual public bool SpawnShip(Field[] allFields,Field pos, string orientation, 
+			string name)
 		{
+			if (name != "")
+				ShipName = name;
 
 			if (checkCollision(allFields, orientation) == false)
 				return false;

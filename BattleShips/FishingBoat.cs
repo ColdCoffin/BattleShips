@@ -11,9 +11,8 @@ namespace BattleShips
 	class FishingBoat:Ship
 	{
 
-		public FishingBoat( PictureBox Hgraphics, PictureBox Vgraphics,
-			string name = "Fishing Boat")
-			: base(Hgraphics,Vgraphics,name) { }
+		public FishingBoat( PictureBox Hgraphics, PictureBox Vgraphics)
+			: base(Hgraphics,Vgraphics) { ShipName = "Fishing Boat"; }
 
 		protected override void InitializePositions() => ShipParts = new ShipPart[2];
 		protected override void SetHealth() => Health = 20;

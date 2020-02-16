@@ -173,11 +173,11 @@
 			this.EnemyField_A4 = new System.Windows.Forms.PictureBox();
 			this.EnemyField_A3 = new System.Windows.Forms.PictureBox();
 			this.PiratesShip_vertical_player = new System.Windows.Forms.PictureBox();
-			this.PiratesShip_horiznotal_player = new System.Windows.Forms.PictureBox();
+			this.PiratesShip_horizontal_player = new System.Windows.Forms.PictureBox();
 			this.Brigantine_vertical_player = new System.Windows.Forms.PictureBox();
-			this.Brigantine_horizotnal_player = new System.Windows.Forms.PictureBox();
+			this.Brigantine_horizontal_player = new System.Windows.Forms.PictureBox();
 			this.Galleon_vertical_player = new System.Windows.Forms.PictureBox();
-			this.Galleon_horizntoal_player = new System.Windows.Forms.PictureBox();
+			this.Galleon_horizontal_player = new System.Windows.Forms.PictureBox();
 			this.Sloop_vertical_player = new System.Windows.Forms.PictureBox();
 			this.Sloop_horizontal_player = new System.Windows.Forms.PictureBox();
 			this.FishingBoat_vertical_player = new System.Windows.Forms.PictureBox();
@@ -283,11 +283,11 @@
 			this.PlayerField_A2 = new System.Windows.Forms.PictureBox();
 			this.PlayerField_A1 = new System.Windows.Forms.PictureBox();
 			this.PiratesShip_vertical_enemy = new System.Windows.Forms.PictureBox();
-			this.PiratesShip_horiznotal_enemy = new System.Windows.Forms.PictureBox();
+			this.PiratesShip_horizontal_enemy = new System.Windows.Forms.PictureBox();
 			this.Brigantine_vertical_enemy = new System.Windows.Forms.PictureBox();
-			this.Brigantine_horizotnal_enemy = new System.Windows.Forms.PictureBox();
+			this.Brigantine_horizontal_enemy = new System.Windows.Forms.PictureBox();
 			this.Galleon_vertical_enemy = new System.Windows.Forms.PictureBox();
-			this.Galleon_horizntoal_enemy = new System.Windows.Forms.PictureBox();
+			this.Galleon_horizontal_enemy = new System.Windows.Forms.PictureBox();
 			this.Sloop_vertical_enemy = new System.Windows.Forms.PictureBox();
 			this.Sloop_horizontal_enemy = new System.Windows.Forms.PictureBox();
 			this.FishingBoat_vertical_enemy = new System.Windows.Forms.PictureBox();
@@ -395,11 +395,11 @@
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A4)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A3)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_vertical_player)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_horiznotal_player)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_horizontal_player)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.Brigantine_vertical_player)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.Brigantine_horizotnal_player)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.Brigantine_horizontal_player)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.Galleon_vertical_player)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.Galleon_horizntoal_player)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.Galleon_horizontal_player)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.Sloop_vertical_player)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.Sloop_horizontal_player)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.FishingBoat_vertical_player)).BeginInit();
@@ -505,11 +505,11 @@
 			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A2)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A1)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_vertical_enemy)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_horiznotal_enemy)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_horizontal_enemy)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.Brigantine_vertical_enemy)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.Brigantine_horizotnal_enemy)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.Brigantine_horizontal_enemy)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.Galleon_vertical_enemy)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.Galleon_horizntoal_enemy)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.Galleon_horizontal_enemy)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.Sloop_vertical_enemy)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.Sloop_horizontal_enemy)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.FishingBoat_vertical_enemy)).BeginInit();
@@ -519,11 +519,11 @@
 			// PlayerField
 			// 
 			this.PlayerField.Controls.Add(this.PiratesShip_vertical_player);
-			this.PlayerField.Controls.Add(this.PiratesShip_horiznotal_player);
+			this.PlayerField.Controls.Add(this.PiratesShip_horizontal_player);
 			this.PlayerField.Controls.Add(this.Brigantine_vertical_player);
-			this.PlayerField.Controls.Add(this.Brigantine_horizotnal_player);
+			this.PlayerField.Controls.Add(this.Brigantine_horizontal_player);
 			this.PlayerField.Controls.Add(this.Galleon_vertical_player);
-			this.PlayerField.Controls.Add(this.Galleon_horizntoal_player);
+			this.PlayerField.Controls.Add(this.Galleon_horizontal_player);
 			this.PlayerField.Controls.Add(this.Sloop_vertical_player);
 			this.PlayerField.Controls.Add(this.Sloop_horizontal_player);
 			this.PlayerField.Controls.Add(this.FishingBoat_vertical_player);
@@ -836,11 +836,11 @@
 			// EnemyField
 			// 
 			this.EnemyField.Controls.Add(this.PiratesShip_vertical_enemy);
-			this.EnemyField.Controls.Add(this.PiratesShip_horiznotal_enemy);
+			this.EnemyField.Controls.Add(this.PiratesShip_horizontal_enemy);
 			this.EnemyField.Controls.Add(this.Brigantine_vertical_enemy);
-			this.EnemyField.Controls.Add(this.Brigantine_horizotnal_enemy);
+			this.EnemyField.Controls.Add(this.Brigantine_horizontal_enemy);
 			this.EnemyField.Controls.Add(this.Galleon_vertical_enemy);
-			this.EnemyField.Controls.Add(this.Galleon_horizntoal_enemy);
+			this.EnemyField.Controls.Add(this.Galleon_horizontal_enemy);
 			this.EnemyField.Controls.Add(this.Sloop_vertical_enemy);
 			this.EnemyField.Controls.Add(this.Sloop_horizontal_enemy);
 			this.EnemyField.Controls.Add(this.FishingBoat_vertical_enemy);
@@ -2176,15 +2176,15 @@
 			this.PiratesShip_vertical_player.TabStop = false;
 			this.PiratesShip_vertical_player.Visible = false;
 			// 
-			// PiratesShip_horiznotal_player
+			// PiratesShip_horizontal_player
 			// 
-			this.PiratesShip_horiznotal_player.Image = global::BattleShips.Properties.Resources.PiratesShip_horizontal;
-			this.PiratesShip_horiznotal_player.Location = new System.Drawing.Point(3, 183);
-			this.PiratesShip_horiznotal_player.Name = "PiratesShip_horiznotal_player";
-			this.PiratesShip_horiznotal_player.Size = new System.Drawing.Size(150, 30);
-			this.PiratesShip_horiznotal_player.TabIndex = 108;
-			this.PiratesShip_horiznotal_player.TabStop = false;
-			this.PiratesShip_horiznotal_player.Visible = false;
+			this.PiratesShip_horizontal_player.Image = global::BattleShips.Properties.Resources.PiratesShip_horizontal;
+			this.PiratesShip_horizontal_player.Location = new System.Drawing.Point(3, 183);
+			this.PiratesShip_horizontal_player.Name = "PiratesShip_horizontal_player";
+			this.PiratesShip_horizontal_player.Size = new System.Drawing.Size(150, 30);
+			this.PiratesShip_horizontal_player.TabIndex = 108;
+			this.PiratesShip_horizontal_player.TabStop = false;
+			this.PiratesShip_horizontal_player.Visible = false;
 			// 
 			// Brigantine_vertical_player
 			// 
@@ -2196,15 +2196,15 @@
 			this.Brigantine_vertical_player.TabStop = false;
 			this.Brigantine_vertical_player.Visible = false;
 			// 
-			// Brigantine_horizotnal_player
+			// Brigantine_horizontal_player
 			// 
-			this.Brigantine_horizotnal_player.Image = global::BattleShips.Properties.Resources.Sloop_horizontal;
-			this.Brigantine_horizotnal_player.Location = new System.Drawing.Point(120, 3);
-			this.Brigantine_horizotnal_player.Name = "Brigantine_horizotnal_player";
-			this.Brigantine_horizotnal_player.Size = new System.Drawing.Size(90, 30);
-			this.Brigantine_horizotnal_player.TabIndex = 106;
-			this.Brigantine_horizotnal_player.TabStop = false;
-			this.Brigantine_horizotnal_player.Visible = false;
+			this.Brigantine_horizontal_player.Image = global::BattleShips.Properties.Resources.Sloop_horizontal;
+			this.Brigantine_horizontal_player.Location = new System.Drawing.Point(120, 3);
+			this.Brigantine_horizontal_player.Name = "Brigantine_horizontal_player";
+			this.Brigantine_horizontal_player.Size = new System.Drawing.Size(90, 30);
+			this.Brigantine_horizontal_player.TabIndex = 106;
+			this.Brigantine_horizontal_player.TabStop = false;
+			this.Brigantine_horizontal_player.Visible = false;
 			// 
 			// Galleon_vertical_player
 			// 
@@ -2216,15 +2216,15 @@
 			this.Galleon_vertical_player.TabStop = false;
 			this.Galleon_vertical_player.Visible = false;
 			// 
-			// Galleon_horizntoal_player
+			// Galleon_horizontal_player
 			// 
-			this.Galleon_horizntoal_player.Image = global::BattleShips.Properties.Resources.Galleon_horizontal;
-			this.Galleon_horizntoal_player.Location = new System.Drawing.Point(180, 123);
-			this.Galleon_horizntoal_player.Name = "Galleon_horizntoal_player";
-			this.Galleon_horizntoal_player.Size = new System.Drawing.Size(120, 30);
-			this.Galleon_horizntoal_player.TabIndex = 104;
-			this.Galleon_horizntoal_player.TabStop = false;
-			this.Galleon_horizntoal_player.Visible = false;
+			this.Galleon_horizontal_player.Image = global::BattleShips.Properties.Resources.Galleon_horizontal;
+			this.Galleon_horizontal_player.Location = new System.Drawing.Point(180, 123);
+			this.Galleon_horizontal_player.Name = "Galleon_horizontal_player";
+			this.Galleon_horizontal_player.Size = new System.Drawing.Size(120, 30);
+			this.Galleon_horizontal_player.TabIndex = 104;
+			this.Galleon_horizontal_player.TabStop = false;
+			this.Galleon_horizontal_player.Visible = false;
 			// 
 			// Sloop_vertical_player
 			// 
@@ -3276,15 +3276,15 @@
 			this.PiratesShip_vertical_enemy.TabStop = false;
 			this.PiratesShip_vertical_enemy.Visible = false;
 			// 
-			// PiratesShip_horiznotal_enemy
+			// PiratesShip_horizontal_enemy
 			// 
-			this.PiratesShip_horiznotal_enemy.Image = global::BattleShips.Properties.Resources.PiratesShip_horizontal;
-			this.PiratesShip_horiznotal_enemy.Location = new System.Drawing.Point(3, 183);
-			this.PiratesShip_horiznotal_enemy.Name = "PiratesShip_horiznotal_enemy";
-			this.PiratesShip_horiznotal_enemy.Size = new System.Drawing.Size(150, 30);
-			this.PiratesShip_horiznotal_enemy.TabIndex = 118;
-			this.PiratesShip_horiznotal_enemy.TabStop = false;
-			this.PiratesShip_horiznotal_enemy.Visible = false;
+			this.PiratesShip_horizontal_enemy.Image = global::BattleShips.Properties.Resources.PiratesShip_horizontal;
+			this.PiratesShip_horizontal_enemy.Location = new System.Drawing.Point(3, 183);
+			this.PiratesShip_horizontal_enemy.Name = "PiratesShip_horizontal_enemy";
+			this.PiratesShip_horizontal_enemy.Size = new System.Drawing.Size(150, 30);
+			this.PiratesShip_horizontal_enemy.TabIndex = 118;
+			this.PiratesShip_horizontal_enemy.TabStop = false;
+			this.PiratesShip_horizontal_enemy.Visible = false;
 			// 
 			// Brigantine_vertical_enemy
 			// 
@@ -3296,15 +3296,15 @@
 			this.Brigantine_vertical_enemy.TabStop = false;
 			this.Brigantine_vertical_enemy.Visible = false;
 			// 
-			// Brigantine_horizotnal_enemy
+			// Brigantine_horizontal_enemy
 			// 
-			this.Brigantine_horizotnal_enemy.Image = global::BattleShips.Properties.Resources.Sloop_horizontal;
-			this.Brigantine_horizotnal_enemy.Location = new System.Drawing.Point(120, 3);
-			this.Brigantine_horizotnal_enemy.Name = "Brigantine_horizotnal_enemy";
-			this.Brigantine_horizotnal_enemy.Size = new System.Drawing.Size(90, 30);
-			this.Brigantine_horizotnal_enemy.TabIndex = 116;
-			this.Brigantine_horizotnal_enemy.TabStop = false;
-			this.Brigantine_horizotnal_enemy.Visible = false;
+			this.Brigantine_horizontal_enemy.Image = global::BattleShips.Properties.Resources.Sloop_horizontal;
+			this.Brigantine_horizontal_enemy.Location = new System.Drawing.Point(120, 3);
+			this.Brigantine_horizontal_enemy.Name = "Brigantine_horizontal_enemy";
+			this.Brigantine_horizontal_enemy.Size = new System.Drawing.Size(90, 30);
+			this.Brigantine_horizontal_enemy.TabIndex = 116;
+			this.Brigantine_horizontal_enemy.TabStop = false;
+			this.Brigantine_horizontal_enemy.Visible = false;
 			// 
 			// Galleon_vertical_enemy
 			// 
@@ -3316,15 +3316,15 @@
 			this.Galleon_vertical_enemy.TabStop = false;
 			this.Galleon_vertical_enemy.Visible = false;
 			// 
-			// Galleon_horizntoal_enemy
+			// Galleon_horizontal_enemy
 			// 
-			this.Galleon_horizntoal_enemy.Image = global::BattleShips.Properties.Resources.Galleon_horizontal;
-			this.Galleon_horizntoal_enemy.Location = new System.Drawing.Point(180, 123);
-			this.Galleon_horizntoal_enemy.Name = "Galleon_horizntoal_enemy";
-			this.Galleon_horizntoal_enemy.Size = new System.Drawing.Size(120, 30);
-			this.Galleon_horizntoal_enemy.TabIndex = 114;
-			this.Galleon_horizntoal_enemy.TabStop = false;
-			this.Galleon_horizntoal_enemy.Visible = false;
+			this.Galleon_horizontal_enemy.Image = global::BattleShips.Properties.Resources.Galleon_horizontal;
+			this.Galleon_horizontal_enemy.Location = new System.Drawing.Point(180, 123);
+			this.Galleon_horizontal_enemy.Name = "Galleon_horizontal_enemy";
+			this.Galleon_horizontal_enemy.Size = new System.Drawing.Size(120, 30);
+			this.Galleon_horizontal_enemy.TabIndex = 114;
+			this.Galleon_horizontal_enemy.TabStop = false;
+			this.Galleon_horizontal_enemy.Visible = false;
 			// 
 			// Sloop_vertical_enemy
 			// 
@@ -3524,11 +3524,11 @@
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A4)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A3)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_vertical_player)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_horiznotal_player)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_horizontal_player)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.Brigantine_vertical_player)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.Brigantine_horizotnal_player)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.Brigantine_horizontal_player)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.Galleon_vertical_player)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.Galleon_horizntoal_player)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.Galleon_horizontal_player)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.Sloop_vertical_player)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.Sloop_horizontal_player)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.FishingBoat_vertical_player)).EndInit();
@@ -3634,11 +3634,11 @@
 			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A2)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A1)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_vertical_enemy)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_horiznotal_enemy)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_horizontal_enemy)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.Brigantine_vertical_enemy)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.Brigantine_horizotnal_enemy)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.Brigantine_horizontal_enemy)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.Galleon_vertical_enemy)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.Galleon_horizntoal_enemy)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.Galleon_horizontal_enemy)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.Sloop_vertical_enemy)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.Sloop_horizontal_enemy)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.FishingBoat_vertical_enemy)).EndInit();
@@ -3897,19 +3897,19 @@
 		private System.Windows.Forms.ComboBox ChooseShipComboBox;
 		private System.Windows.Forms.Label ErrorDialogLabel;
 		private System.Windows.Forms.PictureBox Galleon_vertical_player;
-		private System.Windows.Forms.PictureBox Galleon_horizntoal_player;
+		private System.Windows.Forms.PictureBox Galleon_horizontal_player;
 		private System.Windows.Forms.PictureBox Sloop_vertical_player;
 		private System.Windows.Forms.PictureBox Sloop_horizontal_player;
 		private System.Windows.Forms.PictureBox Brigantine_vertical_player;
-		private System.Windows.Forms.PictureBox Brigantine_horizotnal_player;
-		private System.Windows.Forms.PictureBox PiratesShip_horiznotal_player;
+		private System.Windows.Forms.PictureBox Brigantine_horizontal_player;
+		private System.Windows.Forms.PictureBox PiratesShip_horizontal_player;
 		private System.Windows.Forms.PictureBox PiratesShip_vertical_player;
 		private System.Windows.Forms.PictureBox PiratesShip_vertical_enemy;
-		private System.Windows.Forms.PictureBox PiratesShip_horiznotal_enemy;
+		private System.Windows.Forms.PictureBox PiratesShip_horizontal_enemy;
 		private System.Windows.Forms.PictureBox Brigantine_vertical_enemy;
-		private System.Windows.Forms.PictureBox Brigantine_horizotnal_enemy;
+		private System.Windows.Forms.PictureBox Brigantine_horizontal_enemy;
 		private System.Windows.Forms.PictureBox Galleon_vertical_enemy;
-		private System.Windows.Forms.PictureBox Galleon_horizntoal_enemy;
+		private System.Windows.Forms.PictureBox Galleon_horizontal_enemy;
 		private System.Windows.Forms.PictureBox Sloop_vertical_enemy;
 		private System.Windows.Forms.PictureBox Sloop_horizontal_enemy;
 		private System.Windows.Forms.PictureBox FishingBoat_vertical_enemy;
