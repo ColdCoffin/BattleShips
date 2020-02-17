@@ -28,7 +28,7 @@ namespace BattleShips
 		PiratesShip playerPiratesShip;
 		PiratesShip enemyPiratesShip;
 
-		List<Ship> PlayerShips;
+		List<Ship> PlayerShips; 
 
 		public GameScreen()
 		{
@@ -36,6 +36,7 @@ namespace BattleShips
 
 			PlayerField.LoadFields();
 			EnemyField.LoadFields();
+
 
 			playerFishingBoat = new FishingBoat(FishingBoat_horizontal_player,
 				FishingBoat_vertical_player);
@@ -62,20 +63,13 @@ namespace BattleShips
 			enemyPiratesShip = new PiratesShip(PiratesShip_horizontal_enemy,
 				PiratesShip_vertical_enemy);
 
-			PlayerShips = new List<Ship>(5)
-			{
-				playerFishingBoat,
-				playerSloop,
-				playerGalleon,
-				playerBrigantine,
-				playerPiratesShip
-			};
+
 
 
 			FireButton.Enabled = false;
 			LetterboxText.Enabled = false;
 			NumberboxText.Enabled = false;
-
+			
 
 		}
 
@@ -87,8 +81,10 @@ namespace BattleShips
 			String letter = LetterboxText.Text;
 			String number = NumberboxText.Text;
 			String s = "EnemyField_" + letter + number;
-			return s;
+			return s;	
 		}
+
+		
 
 		private void FireButton_Click(object sender, EventArgs e)
 		{
@@ -110,20 +106,32 @@ namespace BattleShips
 			}
 		}
 
-
+		
 
 		private void SetShipsButton_Click(object sender, EventArgs e)
 		{
 			char hpos = SetHorizontalPosText.Text[0];
-			string vpos = SetVerticalPosText.Text;
+			if (hpos < 'A' || hpos > 'J')
+			{
+				ErrorDialogLabel.Text = "Bad coordinates";
+				return;
+			}
+
+			int vpos = int.Parse(SetVerticalPosText.Text) - 1;
+			if (vpos < 0 || vpos > 9)
+			{
+				ErrorDialogLabel.Text = "Bad coordinates";
+				return;
+			}
+
 			string sname = ShipName_texbox.Text;
 
-			int index = ((hpos - 35) / 30) + ((int.Parse(vpos) / 30) * 10);
+			int index = ((hpos - 65) * 10) + vpos;
 
 			string ship = ChooseShipComboBox.Text;
 			string orientation;
 
-			if (VerticalOption.Enabled == true)
+			if (VerticalOption.Checked == true)
 				orientation = "Vertical";
 			else
 				orientation = "Horizontal";
@@ -131,19 +139,29 @@ namespace BattleShips
 			switch (ship)
 			{
 				case "Fishing Boat":
-					playerFishingBoat.SpawnShip(ref PlayerField.AllFields[index], orientation, sname);
+					if (
+					playerFishingBoat.SpawnShip(PlayerField.AllFields[index], orientation, sname) == false)
+						ErrorDialogLabel.Text = "Can't place your boat there";
 					break;
 				case "Brigantine":
-					playerBrigantine.SpawnShip(ref PlayerField.AllFields[index], orientation, sname);
+					if (
+					playerBrigantine.SpawnShip(PlayerField.AllFields[index], orientation, sname) == false)
+						ErrorDialogLabel.Text = "Can't place your boat there";
 					break;
 				case "Sloop":
-					playerSloop.SpawnShip(ref PlayerField.AllFields[index], orientation, sname);
+					if (
+					playerSloop.SpawnShip(PlayerField.AllFields[index], orientation, sname) == false)
+						ErrorDialogLabel.Text = "Can't place your boat there";
 					break;
 				case "Galleon":
-					playerGalleon.SpawnShip(ref PlayerField.AllFields[index], orientation, sname);
+					if (
+					playerGalleon.SpawnShip(PlayerField.AllFields[index], orientation, sname) == false)
+						ErrorDialogLabel.Text = "Can't place your boat there";
 					break;
 				case "Pirate's ship":
-					playerPiratesShip.SpawnShip(ref PlayerField.AllFields[index], orientation, sname);
+					if (
+					playerPiratesShip.SpawnShip(PlayerField.AllFields[index], orientation, sname) == false)
+						ErrorDialogLabel.Text = "Can't place your boat there";
 					break;
 
 				default:
@@ -166,6 +184,36 @@ namespace BattleShips
 		private void SetHorizontalPosText_TextChanged(object sender, EventArgs e)
 		{
 			ErrorDialogLabel.Text = string.Empty;
+		}
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+
+			string ship = ChooseShipComboBox.Text;
+
+			switch (ship)
+			{
+				case "Fishing Boat":
+					playerFishingBoat.DespawnShip();
+					break;
+				case "Brigantine":
+					playerBrigantine.DespawnShip();
+					break;
+				case "Sloop":
+					playerSloop.DespawnShip();
+					break;
+				case "Galleon":
+					playerGalleon.DespawnShip();
+					break;
+				case "Pirate's ship":
+					playerPiratesShip.DespawnShip();
+					break;
+
+				default:
+					ErrorDialogLabel.Text = "No such ship exists!";
+					break;
+			}
+
 		}
 	}
 }

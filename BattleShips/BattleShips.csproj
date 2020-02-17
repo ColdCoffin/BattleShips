@@ -128,5 +128,8 @@
   <ItemGroup>
     <None Include="Art\PiratesShip_vertical.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\HitArea.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

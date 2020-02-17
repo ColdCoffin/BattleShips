@@ -25,7 +25,7 @@ namespace BattleShips
 		protected Field Location;
 		protected ShipPart[] ShipParts;
 		protected int ShipLength;
-		
+		protected string orientation;
 
 
 
@@ -52,91 +52,131 @@ namespace BattleShips
 		protected abstract void SetLength();
 
 
-		protected virtual void CalculatePositions(string orientation)
+		protected virtual void CalculatePositions()
 		{
 
+			int index = (Location.point.X / 30) + ((Location.point.Y / 30) * 10);
+			int indexAdd = 0;
 
-			ShipParts[0].field = Location;
-			int index = 0;
-			for (int i = 1; i < ShipLength; i++)
+			for (int i = 0; i < ShipLength; i++)
 			{
 
 				if (orientation == "Horizontal")
 				{
-					ShipParts[i].field = PlayerField.AllFields[((Location.point.Y + index) / 30)
-						 + (Location.point.X / 30) * 10];
-					ShipParts[i].field.isTaken = true;
+					ShipParts[i].field = PlayerField.AllFields[index + i];
+					PlayerField.AllFields[index + i].isTaken = true;
 					ShipParts[i].isDestroyed = false;
 				}
 
 				if (orientation == "Vertical")
 				{
-					ShipParts[i].field = PlayerField.AllFields[((Location.point.Y / 30) * 10)
-						 + ((Location.point.X + index) / 30)];
-					ShipParts[i].field.isTaken = true;
+					ShipParts[i].field = PlayerField.AllFields[index + indexAdd];
+					PlayerField.AllFields[index + indexAdd].isTaken = true;
 					ShipParts[i].isDestroyed = false;
 				}
 
-					index += 30;
+				indexAdd += 10;
 			}
 		}
 
-		virtual protected bool checkCollision(ref Field pos,string orientation)
+		virtual protected bool checkCollision(Field pos)
 		{
-			if (orientation == "Vertical")
-			{
-				for (int i = pos.point.Y/30; i < ShipLength * 10; i += 10)
-				{
-					if (PlayerField.AllFields[i + pos.point.X / 30].isTaken == true)
-						return false;
-				}
-			}
-
-			if (orientation == "Horizontal")
-			{
-				for (int i = pos.point.X / 30; i < ShipLength * 10; i += 10)
-				{
-					if (PlayerField.AllFields[i + pos.point.Y / 30].isTaken == true)
-						return false;
-				}
-			}
-
-			return true;
-
-		}
-
-		virtual protected void FreePreviousPos()
-		{
+			int index = (pos.point.X / 30) + ((pos.point.Y / 30) * 10);
+			int indexAdd = 0;
 
 			for (int i = 0; i < ShipLength; i++)
 			{
-				ShipParts[i].field.isTaken = false;
+
+				if (orientation == "Horizontal")
+				{
+					if (PlayerField.AllFields[index+i].isTaken == true )
+						return false;
+				}
+
+
+				if (orientation == "Vertical")
+				{
+					if (PlayerField.AllFields[index+indexAdd].isTaken == true)
+						return false;
+				}
+
+				indexAdd += 10;
+				
 			}
+			return true;
+		}
+
+		virtual public void DespawnShip()
+		{
+			if (isSpawned == false)
+				return;
+
+			int index = (Location.point.X / 30) + ((Location.point.Y / 30) * 10);
+			int indexAdd = 0;
+
+			for (int i = 0; i < ShipLength; i++)
+			{
+
+				if (orientation == "Horizontal")
+					PlayerField.AllFields[index + i].isTaken = false;
+
+				if (orientation == "Vertical")
+					PlayerField.AllFields[index + indexAdd].isTaken = false;
+
+				indexAdd += 10;
+			}
+
+			Vgraphics.Visible = false;
+			Hgraphics.Visible = false;
+			isSpawned = false;
+		}
+
+		virtual protected bool checkBorders(Field pos)
+		{
+			if (orientation == "Horizontal")
+				if (pos.point.X + ((ShipLength - 1) * 30) > 270)
+					return false;
+
+			if (orientation == "Vertical")
+				if (pos.point.Y + ((ShipLength - 1) * 30) > 270)
+					return false;
+
+			return true;
+
 
 		}
 
-		virtual public bool SpawnShip(ref Field pos, string orientation, 
+		virtual public bool SpawnShip(Field pos, string orientation, 
 			string name)
 		{
+			if (isSpawned == true)
+				return false;
+
+			Vgraphics.Visible = false;
+			Hgraphics.Visible = false;
+
 			if (name != "")
 				ShipName = name;
 
-			if (checkCollision(ref pos,orientation) == false)
+			this.orientation = orientation;
+
+			if (checkBorders(pos) == false)
 				return false;
 
-			FreePreviousPos();
+			if (checkCollision(pos) == false)
+				return false;
 
 			Location.point = pos.point;
-			CalculatePositions(orientation);
+			CalculatePositions();
 
-			if (orientation == "Vertical") 
-				{
-				Vgraphics.Location = Location.point;
+			if (orientation == "Vertical")
+			{
+				Vgraphics.Location = pos.point;
 				Vgraphics.Visible = true;
-				}
+			}
 			if (orientation == "Horizontal")
 			{
-				Hgraphics.Location = Location.point;
+				Hgraphics.Location = pos.point;
 				Hgraphics.Visible = true;
 			}
 
@@ -161,7 +201,11 @@ namespace BattleShips
 			for (int i = 0; i < ShipLength; i++)
 			{
 				if (ShipParts[i].field.point == pos.point)
+				{
 					ShipParts[i].isDestroyed = true;
+					ShipParts[i].field.isHit = true;
+				}
+
 			}
 
 			PictureBox debris = new PictureBox();
