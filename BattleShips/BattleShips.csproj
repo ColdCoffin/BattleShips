@@ -47,6 +47,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AIEnemy.cs" />
     <Compile Include="Brigantine.cs" />
     <Compile Include="EnemyField.cs" />
     <Compile Include="PlayerField.cs" />

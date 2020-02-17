@@ -211,11 +211,7 @@ namespace BattleShips
 
 		private void ActionButton_Click(object sender, EventArgs e)
 		{
-			foreach (Ship s in PlayerShips)
-			{
-				if (s.isSpawned == false)
-					ErrorDialogLabel.Text = "Please spawn all the ships!";
-			}
+			AIEnemy AI = new AIEnemy(enemyFishingBoat, enemySloop, enemyGalleon, enemyBrigantine, enemyPiratesShip);
 		}
 
 		private void SetHorizontalPosText_TextChanged(object sender, EventArgs e)
