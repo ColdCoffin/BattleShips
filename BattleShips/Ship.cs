@@ -214,7 +214,7 @@ namespace BattleShips
 
 			debris.Location = pos.point;
 			debris.BringToFront();
-			Health -= 1;
+			Health -= 10;
 		}
 
 		virtual public bool isDestroyed()

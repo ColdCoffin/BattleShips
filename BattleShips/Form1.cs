@@ -69,41 +69,24 @@ namespace BattleShips
 			FireButton.Enabled = false;
 			LetterboxText.Enabled = false;
 			NumberboxText.Enabled = false;
-			
 
-		}
+			PlayerShips = new List<Ship>
+			{
+				playerFishingBoat,
+				playerGalleon,
+				playerSloop,
+				playerPiratesShip,
+				playerBrigantine
+			};
 
-		
 
-		private String LoadFireCoordinates()
-		{
-
-			String letter = LetterboxText.Text;
-			String number = NumberboxText.Text;
-			String s = "EnemyField_" + letter + number;
-			return s;	
 		}
 
 		
 
 		private void FireButton_Click(object sender, EventArgs e)
 		{
-			PictureBox pic = Controls.Find(LoadFireCoordinates(), true)
-				.FirstOrDefault() as PictureBox;
 			
-
-			if (pic == null)
-				ActionText.Text = "Bad coordinaates mate!";
-			else
-			{
-				Point p = pic.Location;
-				ActionText.Text = "Firing at " +
-					pic.Name.Substring(pic.Name.IndexOf('_') + 1, 2);
-
-				PiratesShip_horizontal_enemy.Location = p;
-				PiratesShip_horizontal_enemy.Visible = true;
-
-			}
 		}
 
 		
@@ -111,6 +94,8 @@ namespace BattleShips
 		private void SetShipsButton_Click(object sender, EventArgs e)
 		{
 			char hpos = SetHorizontalPosText.Text[0];
+			SetHorizontalPosText.Text = string.Empty;
+
 			if (hpos < 'A' || hpos > 'J')
 			{
 				ErrorDialogLabel.Text = "Bad coordinates";
@@ -118,6 +103,8 @@ namespace BattleShips
 			}
 
 			int vpos = int.Parse(SetVerticalPosText.Text) - 1;
+			SetVerticalPosText.Text = string.Empty;
+
 			if (vpos < 0 || vpos > 9)
 			{
 				ErrorDialogLabel.Text = "Bad coordinates";
@@ -125,6 +112,7 @@ namespace BattleShips
 			}
 
 			string sname = ShipName_texbox.Text;
+			ShipName_texbox.Text = string.Empty;
 
 			int index = ((hpos - 65) * 10) + vpos;
 
@@ -141,33 +129,69 @@ namespace BattleShips
 				case "Fishing Boat":
 					if (
 					playerFishingBoat.SpawnShip(PlayerField.AllFields[index], orientation, sname) == false)
+					{
 						ErrorDialogLabel.Text = "Can't place your boat there";
+						break;
+					}
+					FishingBoat_icon.Visible = true;
+					FishingBoat_nameText.Text = playerFishingBoat.ShipName;
+					FishingBoat_nameText.Visible = true;
+					FishingBoat_progressBar.Visible = true;
 					break;
 				case "Brigantine":
 					if (
 					playerBrigantine.SpawnShip(PlayerField.AllFields[index], orientation, sname) == false)
+					{
 						ErrorDialogLabel.Text = "Can't place your boat there";
+						break;
+					}
+					Brigantine_icon.Visible = true;
+					Brigantine_nameText.Text = playerBrigantine.ShipName;
+					Brigantine_nameText.Visible = true;
+					Brigantine_progressBar.Visible = true;
 					break;
 				case "Sloop":
 					if (
 					playerSloop.SpawnShip(PlayerField.AllFields[index], orientation, sname) == false)
+					{
 						ErrorDialogLabel.Text = "Can't place your boat there";
+						break;
+					}
+					Sloop_icon.Visible = true;
+					Sloop_nameText.Text = playerSloop.ShipName;
+					Sloop_nameText.Visible = true;
+					Sloop_progressBar.Visible = true;
 					break;
 				case "Galleon":
 					if (
 					playerGalleon.SpawnShip(PlayerField.AllFields[index], orientation, sname) == false)
+					{
 						ErrorDialogLabel.Text = "Can't place your boat there";
+						break;
+					}
+					Galleon_icon.Visible = true;
+					Galleon_nameText.Text = playerGalleon.ShipName;
+					Galleon_nameText.Visible = true;
+					Galleon_progressBar.Visible = true;
 					break;
 				case "Pirate's ship":
 					if (
 					playerPiratesShip.SpawnShip(PlayerField.AllFields[index], orientation, sname) == false)
+					{
 						ErrorDialogLabel.Text = "Can't place your boat there";
+						break;
+					}
+					PiratesShip_icon.Visible = true;
+					PiratesShip_nameText.Text = playerPiratesShip.ShipName;
+					PiratesShip_nameText.Visible = true;
+					PiratesShip_progressBar.Visible = true;
 					break;
 
 				default:
 					ErrorDialogLabel.Text = "No such ship exists!";
 					break;
 			}
+
 
 
 		}
@@ -195,18 +219,33 @@ namespace BattleShips
 			{
 				case "Fishing Boat":
 					playerFishingBoat.DespawnShip();
+					FishingBoat_icon.Visible = false;
+					FishingBoat_nameText.Visible = false;
+					FishingBoat_progressBar.Visible = false;
 					break;
 				case "Brigantine":
 					playerBrigantine.DespawnShip();
+					Brigantine_icon.Visible = false;
+					Brigantine_nameText.Visible = false;
+					Brigantine_progressBar.Visible = false;
 					break;
 				case "Sloop":
 					playerSloop.DespawnShip();
+					Sloop_icon.Visible = false;
+					Sloop_nameText.Visible = false;
+					Sloop_progressBar.Visible = false;
 					break;
 				case "Galleon":
 					playerGalleon.DespawnShip();
+					Galleon_icon.Visible = false;
+					Galleon_nameText.Visible = false;
+					Galleon_progressBar.Visible = false;
 					break;
 				case "Pirate's ship":
 					playerPiratesShip.DespawnShip();
+					PiratesShip_icon.Visible = false;
+					PiratesShip_nameText.Visible = false;
+					PiratesShip_progressBar.Visible = false;
 					break;
 
 				default:
