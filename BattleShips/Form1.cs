@@ -12,8 +12,6 @@ namespace BattleShips
 {
 	public partial class GameScreen : Form
 	{
-		PlayingField playerField;
-		PlayingField enemyField;
 
 		FishingBoat playerFishingBoat;
 		FishingBoat enemyFishingBoat;
@@ -30,12 +28,14 @@ namespace BattleShips
 		PiratesShip playerPiratesShip;
 		PiratesShip enemyPiratesShip;
 
+		List<Ship> PlayerShips;
+
 		public GameScreen()
 		{
 			InitializeComponent();
 
-			playerField = new PlayingField();
-			enemyField = new PlayingField();
+			PlayerField.LoadFields();
+			EnemyField.LoadFields();
 
 			playerFishingBoat = new FishingBoat(FishingBoat_horizontal_player,
 				FishingBoat_vertical_player);
@@ -61,6 +61,21 @@ namespace BattleShips
 				 PiratesShip_vertical_player);
 			enemyPiratesShip = new PiratesShip(PiratesShip_horizontal_enemy,
 				PiratesShip_vertical_enemy);
+
+			PlayerShips = new List<Ship>(5)
+			{
+				playerFishingBoat,
+				playerSloop,
+				playerGalleon,
+				playerBrigantine,
+				playerPiratesShip
+			};
+
+
+			FireButton.Enabled = false;
+			LetterboxText.Enabled = false;
+			NumberboxText.Enabled = false;
+
 
 		}
 
@@ -95,10 +110,62 @@ namespace BattleShips
 			}
 		}
 
+
+
 		private void SetShipsButton_Click(object sender, EventArgs e)
 		{
+			char hpos = SetHorizontalPosText.Text[0];
+			string vpos = SetVerticalPosText.Text;
+			string sname = ShipName_texbox.Text;
 
-			
+			int index = ((hpos - 35) / 30) + ((int.Parse(vpos) / 30) * 10);
+
+			string ship = ChooseShipComboBox.Text;
+			string orientation;
+
+			if (VerticalOption.Enabled == true)
+				orientation = "Vertical";
+			else
+				orientation = "Horizontal";
+
+			switch (ship)
+			{
+				case "Fishing Boat":
+					playerFishingBoat.SpawnShip(ref PlayerField.AllFields[index], orientation, sname);
+					break;
+				case "Brigantine":
+					playerBrigantine.SpawnShip(ref PlayerField.AllFields[index], orientation, sname);
+					break;
+				case "Sloop":
+					playerSloop.SpawnShip(ref PlayerField.AllFields[index], orientation, sname);
+					break;
+				case "Galleon":
+					playerGalleon.SpawnShip(ref PlayerField.AllFields[index], orientation, sname);
+					break;
+				case "Pirate's ship":
+					playerPiratesShip.SpawnShip(ref PlayerField.AllFields[index], orientation, sname);
+					break;
+
+				default:
+					ErrorDialogLabel.Text = "No such ship exists!";
+					break;
+			}
+
+
+		}
+
+		private void ActionButton_Click(object sender, EventArgs e)
+		{
+			foreach (Ship s in PlayerShips)
+			{
+				if (s.isSpawned == false)
+					ErrorDialogLabel.Text = "Please spawn all the ships!";
+			}
+		}
+
+		private void SetHorizontalPosText_TextChanged(object sender, EventArgs e)
+		{
+			ErrorDialogLabel.Text = string.Empty;
 		}
 	}
 }

@@ -3,30 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.Drawing;
 
 namespace BattleShips
 {
-	public struct Field
-	{
-		public Field(Point p) { point = p; isTaken = false; isHit = false; }
-		
-		public Point point;
-		public bool isTaken;
-		public bool isHit;
-	}
-	public class PlayingField
+	public static class EnemyField
 	{
 
-		private Field[] AllFields;
+		public static Field[] AllFields;
 
-		public PlayingField()
-		{
-			AllFields = new Field[100];
-		}
+		static EnemyField() { AllFields = new Field[100]; }
 
-		public void LoadFields()
+		static public void LoadFields()
 		{
 			for (int i = 0; i < 10; i++)
 			{
@@ -37,37 +25,37 @@ namespace BattleShips
 			}
 		}
 
-		public void MarkAsTaken(Point pos)
+		static public void MarkAsTaken(Field pos)
 		{
 			for (int i = 0; i < 100; i++)
 			{
-				if (AllFields[i].point == pos)
+				if (AllFields[i].point == pos.point)
 					AllFields[i].isTaken = true;
 			}
 		}
 
-		public void MarkAsFree(Point pos)
+		static public void MarkAsFree(Field pos)
 		{
 			for (int i = 0; i < 100; i++)
 			{
-				if (AllFields[i].point == pos)
+				if (AllFields[i].point == pos.point)
 					AllFields[i].isTaken = false;
-				
+
 			}
 		}
 
-		public void Hit(Point pos)
+		static public void Hit(Field pos)
 		{
 			for (int i = 0; i < 100; i++)
 			{
-				if (AllFields[i].point == pos)
+				if (AllFields[i].point == pos.point)
 					AllFields[i].isHit = true;
-				
+
 			}
 
 		}
 
-		public Field[] ListHitFields()
+		static public Field[] ListHitFields()
 		{
 			Field[] hitfields = new Field[100];
 
@@ -79,4 +67,6 @@ namespace BattleShips
 			return hitfields;
 		}
 	}
+
 }
+
