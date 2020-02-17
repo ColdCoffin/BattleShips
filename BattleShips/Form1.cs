@@ -69,6 +69,7 @@ namespace BattleShips
 			FireButton.Enabled = false;
 			LetterboxText.Enabled = false;
 			NumberboxText.Enabled = false;
+			ActionButton.Enabled = false;
 
 			PlayerShips = new List<Ship>
 			{
@@ -93,14 +94,17 @@ namespace BattleShips
 
 		private void SetShipsButton_Click(object sender, EventArgs e)
 		{
-			char hpos = SetHorizontalPosText.Text[0];
-			SetHorizontalPosText.Text = string.Empty;
-
-			if (hpos < 'A' || hpos > 'J')
+			if (SetHorizontalPosText.TextLength == 0 || SetHorizontalPosText.Text[0] < 'A' 
+				|| SetHorizontalPosText.Text[0] > 'J' || SetVerticalPosText.TextLength == 0)
 			{
 				ErrorDialogLabel.Text = "Bad coordinates";
 				return;
 			}
+
+			char hpos = SetHorizontalPosText.Text[0];
+			SetHorizontalPosText.Text = string.Empty;
+
+			
 
 			int vpos = int.Parse(SetVerticalPosText.Text) - 1;
 			SetVerticalPosText.Text = string.Empty;
@@ -192,7 +196,16 @@ namespace BattleShips
 					break;
 			}
 
-
+			foreach (Ship s in PlayerShips)
+			{
+				if (s.isSpawned == true)
+					ActionButton.Enabled = true;
+				else
+				{
+					ActionButton.Enabled = false;
+					break;
+				}
+			}
 
 		}
 
@@ -251,6 +264,17 @@ namespace BattleShips
 				default:
 					ErrorDialogLabel.Text = "No such ship exists!";
 					break;
+			}
+
+			foreach (Ship s in PlayerShips)
+			{
+				if (s.isSpawned == true)
+					ActionButton.Enabled = true;
+				else
+				{
+					ActionButton.Enabled = false;
+					break;
+				}
 			}
 
 		}
