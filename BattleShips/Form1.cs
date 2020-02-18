@@ -75,7 +75,7 @@ namespace BattleShips
 			FireButton.Enabled = false;
 			LetterboxText.Enabled = false;
 			NumberboxText.Enabled = false;
-			//ActionButton.Enabled = false;
+			ActionButton.Enabled = false;
 
 			PlayerShips = new List<Ship>
 			{
@@ -105,7 +105,36 @@ namespace BattleShips
 
 		private void FireButton_Click(object sender, EventArgs e)
 		{
-			
+
+			if (LetterboxText.TextLength == 0 || LetterboxText.Text[0] < 'A'
+				|| LetterboxText.Text[0] > 'J' || NumberboxText.TextLength == 0)
+			{
+				ErrorDialogLabel.Text = "Bad coordinates";
+				return;
+			}
+
+			int hpos = LetterboxText.Text[0];
+			int vpos = int.Parse(NumberboxText.Text) - 1;
+
+			if (vpos < 0 || vpos > 9)
+			{
+				ErrorDialogLabel.Text = "Bad coordinates";
+				return;
+			}
+
+
+			Field playerHit = new Field(new Point(hpos, vpos));
+
+			ActionText.Text = "Firing at " + hpos + vpos;
+
+			SetHealth();
+			SetNumOfDestroyedShips();
+			GameOver();
+
+			LetterboxText.Enabled = false;
+			NumberboxText.Enabled = false;
+			FireButton.Enabled = false;
+			ActionButton.Enabled = true;
 		}
 
 		
@@ -266,26 +295,11 @@ namespace BattleShips
 			SetShipsButton.Enabled = false;
 			FireButton.Enabled = false;
 
+			ActionText.Text = "Enemy is preparing to fire!";
 
 			AITimer.Start();
 
-			Field fieldHit = AI.FireAtPosition();
-
-			foreach (Ship playerShip in PlayerShips)
-			{
-				if (playerShip.isHit(fieldHit) == true)
-				{
-					playerShip.Hit(fieldHit);
-					break;
-				}
-			}
-
-			AITimer.Stop();
-
-			SetNumOfDestroyedShips();
-			GameOver();
-
-			FireButton.Enabled = true;
+			
 		}
 
 		private void SetHorizontalPosText_TextChanged(object sender, EventArgs e)
@@ -347,6 +361,33 @@ namespace BattleShips
 				}
 			}
 
+		}
+
+		private void AITimer_Tick(object sender, EventArgs e)
+		{
+
+			Field fieldHit = AI.FireAtPosition();
+
+			foreach (Ship playerShip in PlayerShips)
+			{
+				if (playerShip.isHit(fieldHit) == true)
+				{
+					playerShip.Hit(fieldHit);
+					break;
+				}
+			}
+
+			ActionText.Text = "Enemy fired at " + (char) (fieldHit.point.X / 30 + 'A')+ " " + ((fieldHit.point.Y / 30) + 1);
+
+			SetHealth();
+			SetNumOfDestroyedShips();
+			GameOver();
+
+			FireButton.Enabled = true;
+			LetterboxText.Enabled = true;
+			NumberboxText.Enabled = true;
+
+			AITimer.Stop();
 		}
 	}
 }

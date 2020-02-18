@@ -3583,7 +3583,8 @@
 			// 
 			// AITimer
 			// 
-			this.AITimer.Interval = 1000;
+			this.AITimer.Interval = 2000;
+			this.AITimer.Tick += new System.EventHandler(this.AITimer_Tick);
 			// 
 			// GameScreen
 			// 

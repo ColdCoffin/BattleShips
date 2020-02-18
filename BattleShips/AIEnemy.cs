@@ -55,7 +55,7 @@ namespace BattleShips
 
 					string[] ori = { "Vertical","Horizontal"};
 					string orientation = ori[rand.Next(0, 2)];
-					spawned = ship.SpawnShip(EnemyField.AllFields[rand.Next(0,101)], orientation, true,"");
+					spawned = ship.SpawnShip(EnemyField.AllFields[rand.Next(0,100)], orientation, true,"");
 
 				} while (spawned==false);
 			}
@@ -66,7 +66,7 @@ namespace BattleShips
 		{
 
 			List<Field> freeFields = PlayerField.ListNotHitFields();
-			Field fieldHit = freeFields[rand.Next(0, freeFields.Count())];
+			Field fieldHit = freeFields[rand.Next(0,freeFields.Count)];
 			PlayerField.Hit(fieldHit);
 			return fieldHit;
 
