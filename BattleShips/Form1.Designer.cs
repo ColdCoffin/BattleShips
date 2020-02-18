@@ -313,7 +313,6 @@
 			this.PiratesShip_nameText = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
 			this.AITimer = new System.Windows.Forms.Timer(this.components);
-			this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
 			this.PlayerField_label.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_vertical_player)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_horizontal_player)).BeginInit();
@@ -3586,20 +3585,12 @@
 			// 
 			this.AITimer.Interval = 1000;
 			// 
-			// dateTimePicker1
-			// 
-			this.dateTimePicker1.Location = new System.Drawing.Point(122, 333);
-			this.dateTimePicker1.Name = "dateTimePicker1";
-			this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-			this.dateTimePicker1.TabIndex = 121;
-			// 
 			// GameScreen
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(684, 661);
-			this.Controls.Add(this.dateTimePicker1);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.PiratesShip_nameText);
 			this.Controls.Add(this.Galleon_nameText);
@@ -4174,7 +4165,6 @@
 		private System.Windows.Forms.PictureBox Sloop_icon;
 		private System.Windows.Forms.PictureBox Galleon_icon;
 		private System.Windows.Forms.PictureBox PiratesShip_icon;
-		private System.Windows.Forms.ProgressBar FishingBoat_progressBar;
 		private System.Windows.Forms.ProgressBar Brigantine_progressBar;
 		private System.Windows.Forms.ProgressBar Sloop_progressBar;
 		private System.Windows.Forms.ProgressBar Galleon_progressBar;
@@ -4186,7 +4176,7 @@
 		private System.Windows.Forms.Label PiratesShip_nameText;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Timer AITimer;
-		private System.Windows.Forms.DateTimePicker dateTimePicker1;
+		private System.Windows.Forms.ProgressBar FishingBoat_progressBar;
 	}
 }
 

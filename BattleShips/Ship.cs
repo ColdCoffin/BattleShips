@@ -16,8 +16,6 @@ namespace BattleShips
 	}
 	public abstract class Ship
 	{
-
-		public string OriginalShipName;
 		public string ShipName;
 		public bool isSpawned;
 
@@ -265,8 +263,12 @@ namespace BattleShips
 			debris.BringToFront();
 			Health -= 10;
 
-			Form form;
-			ProgressBar pb = 
+			
+		}
+
+		virtual public int getHealth()
+		{
+			return Health;
 		}
 
 		virtual public bool isDestroyed()

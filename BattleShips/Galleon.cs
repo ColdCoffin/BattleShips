@@ -11,7 +11,9 @@ namespace BattleShips
 	class Galleon : Ship
 	{
 		public Galleon(PictureBox Hgraphics, PictureBox Vgraphics)
-			: base(Hgraphics, Vgraphics) { ShipName = "Galleon"; OriginalShipName = "Galleon"; }
+			: base(Hgraphics, Vgraphics) { ShipName = "Galleon";}
+
+
 
 		protected override void InitializePositions() => ShipParts = new ShipPart[4];
 		protected override void SetHealth() => Health = 40;

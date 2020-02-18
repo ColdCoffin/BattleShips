@@ -27,7 +27,13 @@ namespace BattleShips
 		PiratesShip playerPiratesShip;
 		PiratesShip enemyPiratesShip;
 
-		List<Ship> PlayerShips; 
+		List<Ship> PlayerShips;
+		List<Ship> EnemyShips;
+
+		int destroyedPlayerShips;
+		int destroyedEnemyShips;
+
+		AIEnemy AI;
 
 		public GameScreen()
 		{
@@ -62,7 +68,8 @@ namespace BattleShips
 			enemyPiratesShip = new PiratesShip(PiratesShip_horizontal_enemy,
 				PiratesShip_vertical_enemy);
 
-
+			destroyedPlayerShips = 0;
+			destroyedEnemyShips = 0;
 
 
 			FireButton.Enabled = false;
@@ -79,21 +86,21 @@ namespace BattleShips
 				playerBrigantine
 			};
 
-
-		}
-
-		public ProgressBar getProgressBar(string shipName)
-		{
-			foreach (Ship ship in PlayerShips)
+			EnemyShips = new List<Ship>
 			{
-				if (shipName == ship.OriginalShipName)
-				{
-					return this.Controls.Find(ship.OriginalShipName + "_progressBar", true).FirstOrDefault() as ProgressBar;
-					
-				}
-			}
+				enemyFishingBoat,
+				enemyGalleon,
+				enemySloop,
+				enemyPiratesShip,
+				enemyBrigantine
+			};
 
-			return null;
+			AI = new AIEnemy(enemyFishingBoat, enemySloop,
+									enemyGalleon, enemyBrigantine, enemyPiratesShip, true);
+			AI.SpawnShips();
+
+
+
 		}
 
 		private void FireButton_Click(object sender, EventArgs e)
@@ -220,17 +227,50 @@ namespace BattleShips
 
 		}
 
+		private void SetHealth()
+		{
+			FishingBoat_progressBar.Value = playerFishingBoat.getHealth();
+			Brigantine_progressBar.Value = playerBrigantine.getHealth();
+			Sloop_progressBar.Value = playerSloop.getHealth();
+			Galleon_progressBar.Value = playerGalleon.getHealth();
+			PiratesShip_progressBar.Value = playerPiratesShip.getHealth();
+		}
+
+		private void SetNumOfDestroyedShips()
+		{
+			destroyedPlayerShips = 0;
+			destroyedEnemyShips = 0;
+
+			foreach (Ship playership in PlayerShips)
+			{
+				if (playership.isDestroyed() == true)
+					destroyedPlayerShips++;
+			}
+
+			foreach (Ship enemyship in EnemyShips)
+			{
+				if (enemyship.isDestroyed() == true)
+					destroyedEnemyShips++;
+			}
+		}
+
+		private void GameOver()
+		{
+			if (destroyedPlayerShips == 5 || destroyedEnemyShips == 5)
+				MessageBox.Show("GAME OVER");
+		}
+
 		private void ActionButton_Click(object sender, EventArgs e)
 		{
 			ActionButton.Enabled = false;
+			SetShipsButton.Enabled = false;
+			FireButton.Enabled = false;
 
-			AIEnemy AI = new AIEnemy(enemyFishingBoat, enemySloop,
-				enemyGalleon, enemyBrigantine, enemyPiratesShip,true);
-			AI.SpawnShips();
 
-			AITimer.Enabled = true;
+			AITimer.Start();
 
 			Field fieldHit = AI.FireAtPosition();
+
 			foreach (Ship playerShip in PlayerShips)
 			{
 				if (playerShip.isHit(fieldHit) == true)
@@ -239,8 +279,13 @@ namespace BattleShips
 					break;
 				}
 			}
-			
 
+			AITimer.Stop();
+
+			SetNumOfDestroyedShips();
+			GameOver();
+
+			FireButton.Enabled = true;
 		}
 
 		private void SetHorizontalPosText_TextChanged(object sender, EventArgs e)
