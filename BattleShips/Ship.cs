@@ -16,6 +16,8 @@ namespace BattleShips
 	}
 	public abstract class Ship
 	{
+
+		public string OriginalShipName;
 		public string ShipName;
 		public bool isSpawned;
 
@@ -214,15 +216,18 @@ namespace BattleShips
 			Location.point = pos.point;
 			CalculatePositions();
 
+			
 			if (orientation == "Vertical")
 			{
 				Vgraphics.Location = pos.point;
-				Vgraphics.Visible = true;
+				//if (isEnemy == false)
+					Vgraphics.Visible = true;
 			}
 			if (orientation == "Horizontal")
 			{
 				Hgraphics.Location = pos.point;
-				Hgraphics.Visible = true;
+				//if (isEnemy == false)
+					Hgraphics.Visible = true;
 			}
 
 			isSpawned = true;
@@ -248,7 +253,6 @@ namespace BattleShips
 				if (ShipParts[i].field.point == pos.point)
 				{
 					ShipParts[i].isDestroyed = true;
-					ShipParts[i].field.isHit = true;
 				}
 
 			}
@@ -260,6 +264,9 @@ namespace BattleShips
 			debris.Location = pos.point;
 			debris.BringToFront();
 			Health -= 10;
+
+			Form form;
+			ProgressBar pb = 
 		}
 
 		virtual public bool isDestroyed()

@@ -35,24 +35,6 @@ namespace BattleShips
 			}
 		}
 
-		static public void MarkAsTaken(Field pos)
-		{
-			for (int i = 0; i < 100; i++)
-			{
-				if (AllFields[i].point == pos.point)
-					AllFields[i].isTaken = true;
-			}
-		}
-
-		static public void MarkAsFree(Field pos)
-		{
-			for (int i = 0; i < 100; i++)
-			{
-				if (AllFields[i].point == pos.point)
-					AllFields[i].isTaken = false;
-
-			}
-		}
 
 		static public void Hit(Field pos)
 		{
@@ -65,16 +47,16 @@ namespace BattleShips
 
 		}
 
-		static public Field[] ListHitFields()
+		static public List<Field> ListNotHitFields()
 		{
-			Field[] hitfields = new Field[100];
+			List<Field> notHitfields = new List<Field>();
 
 			for (int i = 0; i < 100; i++)
 			{
-				if (AllFields[i].isHit == true)
-					hitfields[i] = AllFields[i];
+				if (AllFields[i].isHit == false)
+					notHitfields.Add(AllFields[i]);
 			}
-			return hitfields;
+			return notHitfields;
 		}
 	}
 

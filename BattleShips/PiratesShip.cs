@@ -11,7 +11,7 @@ namespace BattleShips
 	class PiratesShip : Ship
 	{
 		public PiratesShip(PictureBox Hgraphics, PictureBox Vgraphics)
-			: base(Hgraphics, Vgraphics) { ShipName = "Pirate's Ship"; }
+			: base(Hgraphics, Vgraphics) { ShipName = "Pirate's Ship"; OriginalShipName = "PiratesShip"; }
 
 		protected override void InitializePositions() => ShipParts = new ShipPart[5];
 		protected override void SetHealth() => Health = 50;

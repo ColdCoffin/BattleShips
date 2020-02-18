@@ -16,16 +16,20 @@ namespace BattleShips
 		private Brigantine enemyBrigantine;
 		private PiratesShip enemyPiratesShip;
 
+		private bool normalMode;
+
 		private List<Ship> enemyShips;
 		private Random rand;
 
-		public AIEnemy(Ship f, Ship s, Ship g, Ship b, Ship p) 
+		public AIEnemy(Ship f, Ship s, Ship g, Ship b, Ship p, bool isNormal) 
 		{
 			enemyFishingBoat = (FishingBoat) f;
 			enemySloop = (Sloop) s;
 			enemyGalleon = (Galleon) g;
 			enemyBrigantine = (Brigantine) b;
 			enemyPiratesShip = (PiratesShip) p;
+
+			normalMode = isNormal;
 
 			rand = new Random();
 
@@ -46,13 +50,30 @@ namespace BattleShips
 			{
 				do
 				{
+					if (ship.isSpawned == true)
+						break;
+
 					string[] ori = { "Vertical","Horizontal"};
 					string orientation = ori[rand.Next(0, 2)];
 					spawned = ship.SpawnShip(EnemyField.AllFields[rand.Next(0,101)], orientation, true,"");
+
 				} while (spawned==false);
 			}
 
 		}
+
+		public Field FireAtPosition()
+		{
+
+			List<Field> freeFields = PlayerField.ListNotHitFields();
+			Field fieldHit = freeFields[rand.Next(0, freeFields.Count())];
+			PlayerField.Hit(fieldHit);
+			return fieldHit;
+
+			//TODO: Add better AI 
+		}
+
+
 
 	}
 }

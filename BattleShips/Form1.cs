@@ -12,7 +12,6 @@ namespace BattleShips
 {
 	public partial class GameScreen : Form
 	{
-
 		FishingBoat playerFishingBoat;
 		FishingBoat enemyFishingBoat;
 
@@ -83,7 +82,19 @@ namespace BattleShips
 
 		}
 
-		
+		public ProgressBar getProgressBar(string shipName)
+		{
+			foreach (Ship ship in PlayerShips)
+			{
+				if (shipName == ship.OriginalShipName)
+				{
+					return this.Controls.Find(ship.OriginalShipName + "_progressBar", true).FirstOrDefault() as ProgressBar;
+					
+				}
+			}
+
+			return null;
+		}
 
 		private void FireButton_Click(object sender, EventArgs e)
 		{
@@ -211,8 +222,25 @@ namespace BattleShips
 
 		private void ActionButton_Click(object sender, EventArgs e)
 		{
-			AIEnemy AI = new AIEnemy(enemyFishingBoat, enemySloop, enemyGalleon, enemyBrigantine, enemyPiratesShip);
+			ActionButton.Enabled = false;
+
+			AIEnemy AI = new AIEnemy(enemyFishingBoat, enemySloop,
+				enemyGalleon, enemyBrigantine, enemyPiratesShip,true);
 			AI.SpawnShips();
+
+			AITimer.Enabled = true;
+
+			Field fieldHit = AI.FireAtPosition();
+			foreach (Ship playerShip in PlayerShips)
+			{
+				if (playerShip.isHit(fieldHit) == true)
+				{
+					playerShip.Hit(fieldHit);
+					break;
+				}
+			}
+			
+
 		}
 
 		private void SetHorizontalPosText_TextChanged(object sender, EventArgs e)
