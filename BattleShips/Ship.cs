@@ -26,7 +26,7 @@ namespace BattleShips
 		protected ShipPart[] ShipParts;
 		protected int ShipLength;
 		protected string orientation;
-
+		protected bool isEnemy;
 
 
 		public Ship(PictureBox Hgraphics, PictureBox Vgraphics) 
@@ -63,16 +63,35 @@ namespace BattleShips
 
 				if (orientation == "Horizontal")
 				{
-					ShipParts[i].field = PlayerField.AllFields[index + i];
-					PlayerField.AllFields[index + i].isTaken = true;
-					ShipParts[i].isDestroyed = false;
-				}
+					if (isEnemy == false)
+					{
+						ShipParts[i].field = PlayerField.AllFields[index + i];
+						PlayerField.AllFields[index + i].isTaken = true;
+						ShipParts[i].isDestroyed = false;
+					}
+					else
+					{
+						ShipParts[i].field = EnemyField.AllFields[index + i];
+						EnemyField.AllFields[index + i].isTaken = true;
+						ShipParts[i].isDestroyed = false;
+					}
+					}
 
 				if (orientation == "Vertical")
 				{
-					ShipParts[i].field = PlayerField.AllFields[index + indexAdd];
-					PlayerField.AllFields[index + indexAdd].isTaken = true;
-					ShipParts[i].isDestroyed = false;
+					if (isEnemy == false)
+					{
+						ShipParts[i].field = PlayerField.AllFields[index + indexAdd];
+						PlayerField.AllFields[index + indexAdd].isTaken = true;
+						ShipParts[i].isDestroyed = false;
+					}
+					else
+					{
+						ShipParts[i].field = EnemyField.AllFields[index + indexAdd];
+						EnemyField.AllFields[index + indexAdd].isTaken = true;
+						ShipParts[i].isDestroyed = false;
+
+					}
 				}
 
 				indexAdd += 10;
@@ -89,15 +108,31 @@ namespace BattleShips
 
 				if (orientation == "Horizontal")
 				{
-					if (PlayerField.AllFields[index+i].isTaken == true )
-						return false;
+					if (isEnemy == false)
+					{
+						if (PlayerField.AllFields[index + i].isTaken == true)
+							return false;
+					}
+					else
+					{
+						if (EnemyField.AllFields[index + i].isTaken == true)
+							return false;
+					}
 				}
 
 
 				if (orientation == "Vertical")
 				{
-					if (PlayerField.AllFields[index+indexAdd].isTaken == true)
-						return false;
+					if (isEnemy == false)
+					{
+						if (PlayerField.AllFields[index + indexAdd].isTaken == true)
+							return false;
+					}
+					else
+					{
+						if (EnemyField.AllFields[index + indexAdd].isTaken == true)
+							return false;
+					}
 				}
 
 				indexAdd += 10;
@@ -118,11 +153,19 @@ namespace BattleShips
 			{
 
 				if (orientation == "Horizontal")
-					PlayerField.AllFields[index + i].isTaken = false;
-
+				{
+					if (isEnemy == false)
+						PlayerField.AllFields[index + i].isTaken = false;
+					else
+						EnemyField.AllFields[index + i].isTaken = false;
+				}
 				if (orientation == "Vertical")
-					PlayerField.AllFields[index + indexAdd].isTaken = false;
-
+				{
+					if (isEnemy == false)
+						PlayerField.AllFields[index + indexAdd].isTaken = false;
+					else
+						EnemyField.AllFields[index + indexAdd].isTaken = false;
+				}
 				indexAdd += 10;
 			}
 
@@ -146,7 +189,7 @@ namespace BattleShips
 
 		}
 
-		virtual public bool SpawnShip(Field pos, string orientation, 
+		virtual public bool SpawnShip(Field pos, string orientation, bool isEnemy,
 			string name)
 		{
 			if (isSpawned == true)
@@ -157,6 +200,8 @@ namespace BattleShips
 
 			if (name != "")
 				ShipName = name;
+
+			this.isEnemy = isEnemy;
 
 			this.orientation = orientation;
 

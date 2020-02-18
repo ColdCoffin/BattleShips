@@ -16,6 +16,8 @@ namespace BattleShips
 		private Brigantine enemyBrigantine;
 		private PiratesShip enemyPiratesShip;
 
+		private List<Ship> enemyShips;
+		private Random rand;
 
 		public AIEnemy(Ship f, Ship s, Ship g, Ship b, Ship p) 
 		{
@@ -24,6 +26,32 @@ namespace BattleShips
 			enemyGalleon = (Galleon) g;
 			enemyBrigantine = (Brigantine) b;
 			enemyPiratesShip = (PiratesShip) p;
+
+			rand = new Random();
+
+			enemyShips = new List<Ship>
+			{
+				enemyFishingBoat,
+				enemyGalleon,
+				enemySloop,
+				enemyPiratesShip,
+				enemyBrigantine
+			};
+		}
+		public void SpawnShips()
+		{
+			bool spawned;
+
+			foreach (Ship ship in enemyShips)
+			{
+				do
+				{
+					string[] ori = { "Vertical","Horizontal"};
+					string orientation = ori[rand.Next(0, 2)];
+					spawned = ship.SpawnShip(EnemyField.AllFields[rand.Next(0,101)], orientation, true,"");
+				} while (spawned==false);
+			}
+
 		}
 
 	}

@@ -69,7 +69,7 @@ namespace BattleShips
 			FireButton.Enabled = false;
 			LetterboxText.Enabled = false;
 			NumberboxText.Enabled = false;
-			ActionButton.Enabled = false;
+			//ActionButton.Enabled = false;
 
 			PlayerShips = new List<Ship>
 			{
@@ -132,7 +132,7 @@ namespace BattleShips
 			{
 				case "Fishing Boat":
 					if (
-					playerFishingBoat.SpawnShip(PlayerField.AllFields[index], orientation, sname) == false)
+					playerFishingBoat.SpawnShip(PlayerField.AllFields[index], orientation,false, sname) == false)
 					{
 						ErrorDialogLabel.Text = "Can't place your boat there";
 						break;
@@ -144,7 +144,7 @@ namespace BattleShips
 					break;
 				case "Brigantine":
 					if (
-					playerBrigantine.SpawnShip(PlayerField.AllFields[index], orientation, sname) == false)
+					playerBrigantine.SpawnShip(PlayerField.AllFields[index], orientation,false, sname) == false)
 					{
 						ErrorDialogLabel.Text = "Can't place your boat there";
 						break;
@@ -156,7 +156,7 @@ namespace BattleShips
 					break;
 				case "Sloop":
 					if (
-					playerSloop.SpawnShip(PlayerField.AllFields[index], orientation, sname) == false)
+					playerSloop.SpawnShip(PlayerField.AllFields[index], orientation,false, sname) == false)
 					{
 						ErrorDialogLabel.Text = "Can't place your boat there";
 						break;
@@ -168,7 +168,7 @@ namespace BattleShips
 					break;
 				case "Galleon":
 					if (
-					playerGalleon.SpawnShip(PlayerField.AllFields[index], orientation, sname) == false)
+					playerGalleon.SpawnShip(PlayerField.AllFields[index], orientation,false, sname) == false)
 					{
 						ErrorDialogLabel.Text = "Can't place your boat there";
 						break;
@@ -180,7 +180,7 @@ namespace BattleShips
 					break;
 				case "Pirate's ship":
 					if (
-					playerPiratesShip.SpawnShip(PlayerField.AllFields[index], orientation, sname) == false)
+					playerPiratesShip.SpawnShip(PlayerField.AllFields[index], orientation,false, sname) == false)
 					{
 						ErrorDialogLabel.Text = "Can't place your boat there";
 						break;
@@ -212,6 +212,7 @@ namespace BattleShips
 		private void ActionButton_Click(object sender, EventArgs e)
 		{
 			AIEnemy AI = new AIEnemy(enemyFishingBoat, enemySloop, enemyGalleon, enemyBrigantine, enemyPiratesShip);
+			AI.SpawnShips();
 		}
 
 		private void SetHorizontalPosText_TextChanged(object sender, EventArgs e)

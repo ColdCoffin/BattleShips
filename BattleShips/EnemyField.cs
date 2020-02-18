@@ -16,11 +16,11 @@ namespace BattleShips
 
 		static public void LoadFields()
 		{
-			for (int i = 0; i < 10; i++)
+			for (int i = 0; i < 100; i += 10)
 			{
 				for (int j = 0; j < 10; j++)
 				{
-					AllFields[i + j] = new Field(new Point(i * 30, j * 30));
+					AllFields[i + j] = new Field(new Point(j * 30, i * 3));
 				}
 			}
 		}
