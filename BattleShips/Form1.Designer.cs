@@ -313,6 +313,7 @@
 			this.PiratesShip_nameText = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
 			this.AITimer = new System.Windows.Forms.Timer(this.components);
+			this.cheat_button = new System.Windows.Forms.Button();
 			this.PlayerField_label.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_vertical_player)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_horizontal_player)).BeginInit();
@@ -3585,12 +3586,23 @@
 			this.AITimer.Interval = 2000;
 			this.AITimer.Tick += new System.EventHandler(this.AITimer_Tick);
 			// 
+			// cheat_button
+			// 
+			this.cheat_button.Location = new System.Drawing.Point(49, 43);
+			this.cheat_button.Name = "cheat_button";
+			this.cheat_button.Size = new System.Drawing.Size(77, 23);
+			this.cheat_button.TabIndex = 121;
+			this.cheat_button.Text = "cheat";
+			this.cheat_button.UseVisualStyleBackColor = true;
+			this.cheat_button.Click += new System.EventHandler(this.cheat_button_Click);
+			// 
 			// GameScreen
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(684, 661);
+			this.Controls.Add(this.cheat_button);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.PiratesShip_nameText);
 			this.Controls.Add(this.Galleon_nameText);
@@ -4177,6 +4189,7 @@
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Timer AITimer;
 		private System.Windows.Forms.ProgressBar FishingBoat_progressBar;
+		private System.Windows.Forms.Button cheat_button;
 	}
 }
 

@@ -214,22 +214,27 @@ namespace BattleShips
 			Location.point = pos.point;
 			CalculatePositions();
 
-			
-			if (orientation == "Vertical")
-			{
-				Vgraphics.Location = pos.point;
-				if (isEnemy == false)
-					Vgraphics.Visible = true;
-			}
-			if (orientation == "Horizontal")
-			{
-				Hgraphics.Location = pos.point;
-				if (isEnemy == false)
-					Hgraphics.Visible = true;
-			}
+			Vgraphics.Location = Location.point;
+			Hgraphics.Location = Location.point;
+
+			if (isEnemy == false)
+				ShowBoat();
 
 			isSpawned = true;
 			return true;
+
+		}
+
+		public virtual void ShowBoat()
+		{
+			if (orientation == "Vertical")
+			{
+				Vgraphics.Visible = true;
+			}
+			if (orientation == "Horizontal")
+			{
+				Hgraphics.Visible = true;
+			}
 
 		}
 

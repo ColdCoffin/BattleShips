@@ -439,5 +439,13 @@ namespace BattleShips
 
 			AITimer.Stop();
 		}
+
+		private void cheat_button_Click(object sender, EventArgs e)
+		{
+			foreach (Ship ship in EnemyShips)
+			{
+				ship.ShowBoat();
+			}
+		}
 	}
 }
