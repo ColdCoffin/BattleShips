@@ -106,26 +106,41 @@ namespace BattleShips
 		private void FireButton_Click(object sender, EventArgs e)
 		{
 
-			if (LetterboxText.TextLength == 0 || LetterboxText.Text[0] < 'A'
-				|| LetterboxText.Text[0] > 'J' || NumberboxText.TextLength == 0)
+			String letter = LetterboxText.Text;
+			String number = NumberboxText.Text;
+			String s = "EnemyField_" + letter + number;
+
+			PictureBox pic = Controls.Find(s, true).FirstOrDefault() as PictureBox;
+			Point fireAt = pic.Location;
+
+			if (pic == null)
 			{
-				ErrorDialogLabel.Text = "Bad coordinates";
+				ActionText.Text = "Bad coordinaates mate!";
 				return;
 			}
+			bool wasHit = false;
 
-			int hpos = LetterboxText.Text[0];
-			int vpos = int.Parse(NumberboxText.Text) - 1;
-
-			if (vpos < 0 || vpos > 9)
+			foreach (Ship enemyShip in EnemyShips)
 			{
-				ErrorDialogLabel.Text = "Bad coordinates";
-				return;
+				if (enemyShip.isHit(new Field(fireAt)) == true)
+				{
+					wasHit = true;
+					enemyShip.Hit(new Field(fireAt));
+					break;
+				}
 			}
+			if (wasHit == true)
+				pic.Image = Image.FromFile("E:\\Programming\\c# vsite projects\\" +
+					"BatleShips game\\BattleShips\\BattleShips\\Art\\Destroyed_ship.png");
+			else
+				pic.Image = Image.FromFile("E:\\Programming\\c# vsite projects\\" +
+					"BatleShips game\\BattleShips\\BattleShips\\Art\\HitArea.png");
+
+			pic.BringToFront();
+
+			ActionText.Text = "Firing at " + (char) ((fireAt.Y / 30 ) + 'A')+ ((fireAt.X / 30) + 1);
 
 
-			Field playerHit = new Field(new Point(hpos, vpos));
-
-			ActionText.Text = "Firing at " + hpos + vpos;
 
 			SetHealth();
 			SetNumOfDestroyedShips();
@@ -365,6 +380,7 @@ namespace BattleShips
 
 		private void AITimer_Tick(object sender, EventArgs e)
 		{
+			bool wasHit = false;
 
 			Field fieldHit = AI.FireAtPosition();
 
@@ -372,12 +388,27 @@ namespace BattleShips
 			{
 				if (playerShip.isHit(fieldHit) == true)
 				{
+					wasHit = true;
 					playerShip.Hit(fieldHit);
 					break;
 				}
 			}
 
-			ActionText.Text = "Enemy fired at " + (char) (fieldHit.point.X / 30 + 'A')+ " " + ((fieldHit.point.Y / 30) + 1);
+			int letter = ((fieldHit.point.Y / 30 + 'A'));
+			int number = ((fieldHit.point.X / 30) + 1);
+			String s = "PlayerField_" + (char)letter +  number;
+
+			PictureBox pic = Controls.Find(s, true).FirstOrDefault() as PictureBox;
+
+			if (wasHit == true)
+				pic.Image = Image.FromFile("E:\\Programming\\c# vsite projects\\" +
+					"BatleShips game\\BattleShips\\BattleShips\\Art\\Destroyed_ship.png");
+			else
+				pic.Image = Image.FromFile("E:\\Programming\\c# vsite projects\\" +
+					"BatleShips game\\BattleShips\\BattleShips\\Art\\HitArea.png");
+
+			pic.BringToFront();
+			ActionText.Text = "Enemy fired at " + (char)letter + " " + number;
 
 			SetHealth();
 			SetNumOfDestroyedShips();
