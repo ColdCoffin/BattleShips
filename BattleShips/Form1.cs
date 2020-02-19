@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
 
 namespace BattleShips
 {
@@ -34,6 +35,7 @@ namespace BattleShips
 		int destroyedEnemyShips;
 
 		AIEnemy AI;
+		SoundPlayer sound;
 
 		public GameScreen()
 		{
@@ -42,6 +44,10 @@ namespace BattleShips
 			PlayerField.LoadFields();
 			EnemyField.LoadFields();
 
+			sound = new SoundPlayer();
+			sound.SoundLocation = "E:\\Programming\\c# vsite projects\\" +
+					"BatleShips game\\BattleShips\\BattleShips\\Art\\soundscrate-last-one-standing-sc1.wav";
+			sound.Play();
 
 			playerFishingBoat = new FishingBoat(FishingBoat_horizontal_player,
 				FishingBoat_vertical_player);
