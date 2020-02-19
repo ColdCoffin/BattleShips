@@ -117,13 +117,14 @@ namespace BattleShips
 			String s = "EnemyField_" + letter + number;
 
 			PictureBox pic = Controls.Find(s, true).FirstOrDefault() as PictureBox;
-			Point fireAt = pic.Location;
 
 			if (pic == null)
 			{
 				ActionText.Text = "Bad coordinaates mate!";
 				return;
 			}
+
+			Point fireAt = pic.Location;
 
 			foreach (Field pos in EnemyField.ListHitFields())
 			{
