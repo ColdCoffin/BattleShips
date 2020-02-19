@@ -295,7 +295,7 @@
 			this.ErrorDialogLabel = new System.Windows.Forms.Label();
 			this.ActionButton = new System.Windows.Forms.Button();
 			this.ShipName_texbox = new System.Windows.Forms.TextBox();
-			this.button1 = new System.Windows.Forms.Button();
+			this.RemoveShip_button = new System.Windows.Forms.Button();
 			this.FishingBoat_icon = new System.Windows.Forms.PictureBox();
 			this.Brigantine_icon = new System.Windows.Forms.PictureBox();
 			this.Sloop_icon = new System.Windows.Forms.PictureBox();
@@ -3405,22 +3405,21 @@
 			// 
 			// ShipName_texbox
 			// 
-			this.ShipName_texbox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
 			this.ShipName_texbox.Location = new System.Drawing.Point(31, 581);
 			this.ShipName_texbox.MaxLength = 15;
 			this.ShipName_texbox.Name = "ShipName_texbox";
 			this.ShipName_texbox.Size = new System.Drawing.Size(121, 20);
 			this.ShipName_texbox.TabIndex = 47;
 			// 
-			// button1
+			// RemoveShip_button
 			// 
-			this.button1.Location = new System.Drawing.Point(49, 468);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(77, 23);
-			this.button1.TabIndex = 48;
-			this.button1.Text = "RemoveShip_button";
-			this.button1.UseVisualStyleBackColor = true;
-			this.button1.Click += new System.EventHandler(this.button1_Click);
+			this.RemoveShip_button.Location = new System.Drawing.Point(49, 468);
+			this.RemoveShip_button.Name = "RemoveShip_button";
+			this.RemoveShip_button.Size = new System.Drawing.Size(77, 23);
+			this.RemoveShip_button.TabIndex = 48;
+			this.RemoveShip_button.Text = "Remove";
+			this.RemoveShip_button.UseVisualStyleBackColor = true;
+			this.RemoveShip_button.Click += new System.EventHandler(this.button1_Click);
 			// 
 			// FishingBoat_icon
 			// 
@@ -3608,7 +3607,7 @@
 			this.Controls.Add(this.Sloop_icon);
 			this.Controls.Add(this.Brigantine_icon);
 			this.Controls.Add(this.FishingBoat_icon);
-			this.Controls.Add(this.button1);
+			this.Controls.Add(this.RemoveShip_button);
 			this.Controls.Add(this.ShipName_texbox);
 			this.Controls.Add(this.ActionButton);
 			this.Controls.Add(this.ErrorDialogLabel);
@@ -4160,7 +4159,7 @@
 		private System.Windows.Forms.PictureBox FishingBoat_horizontal_enemy;
 		private System.Windows.Forms.Button ActionButton;
 		private System.Windows.Forms.TextBox ShipName_texbox;
-		private System.Windows.Forms.Button button1;
+		private System.Windows.Forms.Button RemoveShip_button;
 		private System.Windows.Forms.PictureBox FishingBoat_icon;
 		private System.Windows.Forms.PictureBox Brigantine_icon;
 		private System.Windows.Forms.PictureBox Sloop_icon;

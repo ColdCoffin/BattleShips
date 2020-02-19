@@ -33,30 +33,22 @@ namespace BattleShips
 				if (AllFields[i].point == pos.point)
 				{
 					AllFields[i].isHit = true;
-
-					PictureBox hitArea = new PictureBox();
-					hitArea.Image = Image.FromFile("E:\\Programming\\c# vsite projects\\" +
-						"BatleShips game\\BattleShips\\BattleShips\\Art\\HitArea.png");
-
-					hitArea.Location = pos.point;
-					hitArea.BringToFront();
-
 				}
 
 			}
 
 		}
 
-		static public List<Field> ListNotHitFields()
+		static public List<Field> ListHitFields()
 		{
-			List<Field> notHitfields = new List<Field>();
+			List<Field> Hitfields = new List<Field>();
 
 			for (int i = 0; i < 100; i++)
 			{
-				if (AllFields[i].isHit == false)
-					notHitfields.Add(AllFields[i]);
+				if (AllFields[i].isHit == true)
+					Hitfields.Add(AllFields[i]);
 			}
-			return notHitfields;
+			return Hitfields;
 		}
 	}
 

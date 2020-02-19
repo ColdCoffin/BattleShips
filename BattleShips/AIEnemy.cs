@@ -67,7 +67,6 @@ namespace BattleShips
 
 			List<Field> freeFields = PlayerField.ListNotHitFields();
 			Field fieldHit = freeFields[rand.Next(0,freeFields.Count)];
-			PlayerField.Hit(fieldHit);
 			return fieldHit;
 
 			//TODO: Add better AI 

@@ -44,13 +44,6 @@ namespace BattleShips
 				{
 					AllFields[i].isHit = true;
 
-					PictureBox hitArea = new PictureBox();
-					hitArea.Image = Image.FromFile("E:\\Programming\\c# vsite projects\\" +
-						"BatleShips game\\BattleShips\\BattleShips\\Art\\HitArea.png");
-
-					hitArea.Location = pos.point;
-					hitArea.BringToFront();
-
 				}
 			}
 

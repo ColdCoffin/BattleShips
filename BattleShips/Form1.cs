@@ -118,6 +118,18 @@ namespace BattleShips
 				ActionText.Text = "Bad coordinaates mate!";
 				return;
 			}
+
+			foreach (Field pos in EnemyField.ListHitFields())
+			{
+				if (fireAt == pos.point)
+				{
+					ActionText.Text = "Already fired there!";
+					return;
+				}
+
+			}
+
+			EnemyField.Hit(new Field(fireAt));
 			bool wasHit = false;
 
 			foreach (Ship enemyShip in EnemyShips)
@@ -149,6 +161,7 @@ namespace BattleShips
 			LetterboxText.Enabled = false;
 			NumberboxText.Enabled = false;
 			FireButton.Enabled = false;
+
 			ActionButton.Enabled = true;
 		}
 
@@ -300,8 +313,11 @@ namespace BattleShips
 
 		private void GameOver()
 		{
-			if (destroyedPlayerShips == 5 || destroyedEnemyShips == 5)
-				MessageBox.Show("GAME OVER");
+			if (destroyedPlayerShips == 5)
+				MessageBox.Show("Game over, you lost!");
+
+			if ( destroyedEnemyShips == 5)
+				MessageBox.Show("Game over, you won!");
 		}
 
 		private void ActionButton_Click(object sender, EventArgs e)
@@ -309,6 +325,7 @@ namespace BattleShips
 			ActionButton.Enabled = false;
 			SetShipsButton.Enabled = false;
 			FireButton.Enabled = false;
+			RemoveShip_button.Enabled = false;
 
 			ActionText.Text = "Enemy is preparing to fire!";
 
@@ -384,6 +401,8 @@ namespace BattleShips
 
 			Field fieldHit = AI.FireAtPosition();
 
+			PlayerField.Hit(fieldHit);
+
 			foreach (Ship playerShip in PlayerShips)
 			{
 				if (playerShip.isHit(fieldHit) == true)
@@ -408,7 +427,7 @@ namespace BattleShips
 					"BatleShips game\\BattleShips\\BattleShips\\Art\\HitArea.png");
 
 			pic.BringToFront();
-			ActionText.Text = "Enemy fired at " + (char)letter + " " + number;
+			ActionText.Text = "Enemy fired at " + (char)letter + "" + number;
 
 			SetHealth();
 			SetNumOfDestroyedShips();

@@ -218,13 +218,13 @@ namespace BattleShips
 			if (orientation == "Vertical")
 			{
 				Vgraphics.Location = pos.point;
-				//if (isEnemy == false)
+				if (isEnemy == false)
 					Vgraphics.Visible = true;
 			}
 			if (orientation == "Horizontal")
 			{
 				Hgraphics.Location = pos.point;
-				//if (isEnemy == false)
+				if (isEnemy == false)
 					Hgraphics.Visible = true;
 			}
 
