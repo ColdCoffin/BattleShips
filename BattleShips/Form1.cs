@@ -369,8 +369,9 @@ namespace BattleShips
 			PiratesShip_nameText.Visible = false;
 			PiratesShip_progressBar.Visible = false;
 			RemovePiratesShip_button.Visible = false;
+			ActionButton.Enabled = false;
 
-	
+
 		}
 
 		private void AITimer_Tick(object sender, EventArgs e)
@@ -433,6 +434,7 @@ namespace BattleShips
 			Galleon_nameText.Visible = false;
 			Galleon_progressBar.Visible = false;
 			RemoveGalleon_button.Visible = false;
+			ActionButton.Enabled = false;
 		}
 
 		private void RemoveSloop_button_Click(object sender, EventArgs e)
@@ -442,6 +444,7 @@ namespace BattleShips
 			Sloop_nameText.Visible = false;
 			Sloop_progressBar.Visible = false;
 			RemoveSloop_button.Visible = false;
+			ActionButton.Enabled = false;
 		}
 
 		private void RemoveBrigantine_button_Click(object sender, EventArgs e)
@@ -451,6 +454,7 @@ namespace BattleShips
 			Brigantine_nameText.Visible = false;
 			Brigantine_progressBar.Visible = false;
 			RemoveBrigantine_button.Visible = false;
+			ActionButton.Enabled = false;
 		}
 
 		private void RemoveFishingBoat_button_Click(object sender, EventArgs e)
@@ -460,6 +464,7 @@ namespace BattleShips
 			FishingBoat_nameText.Visible = false;
 			FishingBoat_progressBar.Visible = false;
 			RemoveFishingBoat_button.Visible = false;
+			ActionButton.Enabled = false;
 		}
 	}
 }
