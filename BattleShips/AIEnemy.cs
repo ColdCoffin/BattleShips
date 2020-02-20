@@ -21,13 +21,13 @@ namespace BattleShips
 		private List<Ship> enemyShips;
 		private Random rand;
 
-		public AIEnemy(Ship f, Ship s, Ship g, Ship b, Ship p, bool isNormal) 
+		public AIEnemy(Ship f, Ship s, Ship g, Ship b, Ship p, bool isNormal)
 		{
-			enemyFishingBoat = (FishingBoat) f;
-			enemySloop = (Sloop) s;
-			enemyGalleon = (Galleon) g;
-			enemyBrigantine = (Brigantine) b;
-			enemyPiratesShip = (PiratesShip) p;
+			enemyFishingBoat = (FishingBoat)f;
+			enemySloop = (Sloop)s;
+			enemyGalleon = (Galleon)g;
+			enemyBrigantine = (Brigantine)b;
+			enemyPiratesShip = (PiratesShip)p;
 
 			normalMode = isNormal;
 
@@ -41,6 +41,7 @@ namespace BattleShips
 				enemyPiratesShip,
 				enemyBrigantine
 			};
+
 		}
 		public void SpawnShips()
 		{
@@ -53,24 +54,28 @@ namespace BattleShips
 					if (ship.isSpawned == true)
 						break;
 
-					string[] ori = { "Vertical","Horizontal"};
+					string[] ori = { "Vertical", "Horizontal" };
 					string orientation = ori[rand.Next(0, 2)];
-					spawned = ship.SpawnShip(EnemyField.AllFields[rand.Next(0,100)], orientation, true,"");
+					spawned = ship.SpawnShip(EnemyField.AllFields[rand.Next(0, 100)], orientation, true, "");
 
-				} while (spawned==false);
+				} while (spawned == false);
 			}
 
 		}
 
 		public Field FireAtPosition()
 		{
-
+	
 			List<Field> freeFields = PlayerField.ListNotHitFields();
-			Field fieldHit = freeFields[rand.Next(0,freeFields.Count)];
+			Field fieldHit = freeFields[rand.Next(0, freeFields.Count)];
 			return fieldHit;
+					
+		
+		//TODO: Add better AI 
 
-			//TODO: Add better AI 
-		}
+
+
+	}
 
 
 

@@ -288,14 +288,13 @@
 			this.SetHorizontalPosText = new System.Windows.Forms.TextBox();
 			this.SetVerticalPosText = new System.Windows.Forms.TextBox();
 			this.SetShipsButton = new System.Windows.Forms.Button();
-			this.PhaseLabel = new System.Windows.Forms.Label();
 			this.VerticalOption = new System.Windows.Forms.RadioButton();
 			this.HorizontalOption = new System.Windows.Forms.RadioButton();
 			this.ChooseShipComboBox = new System.Windows.Forms.ComboBox();
 			this.ErrorDialogLabel = new System.Windows.Forms.Label();
 			this.ActionButton = new System.Windows.Forms.Button();
 			this.ShipName_texbox = new System.Windows.Forms.TextBox();
-			this.RemoveShip_button = new System.Windows.Forms.Button();
+			this.RemovePiratesShip_button = new System.Windows.Forms.Button();
 			this.FishingBoat_icon = new System.Windows.Forms.PictureBox();
 			this.Brigantine_icon = new System.Windows.Forms.PictureBox();
 			this.Sloop_icon = new System.Windows.Forms.PictureBox();
@@ -314,6 +313,11 @@
 			this.label1 = new System.Windows.Forms.Label();
 			this.AITimer = new System.Windows.Forms.Timer(this.components);
 			this.cheat_button = new System.Windows.Forms.Button();
+			this.label2 = new System.Windows.Forms.Label();
+			this.RemoveGalleon_button = new System.Windows.Forms.Button();
+			this.RemoveSloop_button = new System.Windows.Forms.Button();
+			this.RemoveBrigantine_button = new System.Windows.Forms.Button();
+			this.RemoveFishingBoat_button = new System.Windows.Forms.Button();
 			this.PlayerField_label.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_vertical_player)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_horizontal_player)).BeginInit();
@@ -3308,7 +3312,7 @@
 			// ActionText
 			// 
 			this.ActionText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.ActionText.Location = new System.Drawing.Point(22, 209);
+			this.ActionText.Location = new System.Drawing.Point(22, 260);
 			this.ActionText.Name = "ActionText";
 			this.ActionText.Size = new System.Drawing.Size(130, 74);
 			this.ActionText.TabIndex = 35;
@@ -3316,7 +3320,7 @@
 			// SetHorizontalPosText
 			// 
 			this.SetHorizontalPosText.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-			this.SetHorizontalPosText.Location = new System.Drawing.Point(49, 411);
+			this.SetHorizontalPosText.Location = new System.Drawing.Point(49, 396);
 			this.SetHorizontalPosText.MaxLength = 1;
 			this.SetHorizontalPosText.Name = "SetHorizontalPosText";
 			this.SetHorizontalPosText.Size = new System.Drawing.Size(30, 20);
@@ -3326,7 +3330,7 @@
 			// SetVerticalPosText
 			// 
 			this.SetVerticalPosText.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-			this.SetVerticalPosText.Location = new System.Drawing.Point(96, 411);
+			this.SetVerticalPosText.Location = new System.Drawing.Point(96, 396);
 			this.SetVerticalPosText.MaxLength = 2;
 			this.SetVerticalPosText.Name = "SetVerticalPosText";
 			this.SetVerticalPosText.Size = new System.Drawing.Size(30, 20);
@@ -3334,7 +3338,7 @@
 			// 
 			// SetShipsButton
 			// 
-			this.SetShipsButton.Location = new System.Drawing.Point(49, 439);
+			this.SetShipsButton.Location = new System.Drawing.Point(56, 536);
 			this.SetShipsButton.Name = "SetShipsButton";
 			this.SetShipsButton.Size = new System.Drawing.Size(77, 23);
 			this.SetShipsButton.TabIndex = 38;
@@ -3342,19 +3346,11 @@
 			this.SetShipsButton.UseVisualStyleBackColor = true;
 			this.SetShipsButton.Click += new System.EventHandler(this.SetShipsButton_Click);
 			// 
-			// PhaseLabel
-			// 
-			this.PhaseLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PhaseLabel.Location = new System.Drawing.Point(53, 313);
-			this.PhaseLabel.Name = "PhaseLabel";
-			this.PhaseLabel.Size = new System.Drawing.Size(115, 36);
-			this.PhaseLabel.TabIndex = 41;
-			// 
 			// VerticalOption
 			// 
 			this.VerticalOption.AutoSize = true;
 			this.VerticalOption.Checked = true;
-			this.VerticalOption.Location = new System.Drawing.Point(31, 519);
+			this.VerticalOption.Location = new System.Drawing.Point(25, 465);
 			this.VerticalOption.Name = "VerticalOption";
 			this.VerticalOption.Size = new System.Drawing.Size(60, 17);
 			this.VerticalOption.TabIndex = 42;
@@ -3365,7 +3361,7 @@
 			// HorizontalOption
 			// 
 			this.HorizontalOption.AutoSize = true;
-			this.HorizontalOption.Location = new System.Drawing.Point(31, 542);
+			this.HorizontalOption.Location = new System.Drawing.Point(85, 465);
 			this.HorizontalOption.Name = "HorizontalOption";
 			this.HorizontalOption.Size = new System.Drawing.Size(72, 17);
 			this.HorizontalOption.TabIndex = 43;
@@ -3381,7 +3377,7 @@
             "Galleon",
             "Pirate\'s ship",
             "Sloop"});
-			this.ChooseShipComboBox.Location = new System.Drawing.Point(31, 497);
+			this.ChooseShipComboBox.Location = new System.Drawing.Point(31, 441);
 			this.ChooseShipComboBox.Name = "ChooseShipComboBox";
 			this.ChooseShipComboBox.Size = new System.Drawing.Size(121, 21);
 			this.ChooseShipComboBox.TabIndex = 44;
@@ -3389,16 +3385,16 @@
 			// ErrorDialogLabel
 			// 
 			this.ErrorDialogLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.ErrorDialogLabel.Location = new System.Drawing.Point(28, 608);
+			this.ErrorDialogLabel.Location = new System.Drawing.Point(22, 568);
 			this.ErrorDialogLabel.Name = "ErrorDialogLabel";
-			this.ErrorDialogLabel.Size = new System.Drawing.Size(124, 48);
+			this.ErrorDialogLabel.Size = new System.Drawing.Size(130, 81);
 			this.ErrorDialogLabel.TabIndex = 45;
 			// 
 			// ActionButton
 			// 
-			this.ActionButton.Location = new System.Drawing.Point(43, 310);
+			this.ActionButton.Location = new System.Drawing.Point(30, 209);
 			this.ActionButton.Name = "ActionButton";
-			this.ActionButton.Size = new System.Drawing.Size(103, 43);
+			this.ActionButton.Size = new System.Drawing.Size(116, 43);
 			this.ActionButton.TabIndex = 46;
 			this.ActionButton.Text = "End Turn";
 			this.ActionButton.UseVisualStyleBackColor = true;
@@ -3406,26 +3402,25 @@
 			// 
 			// ShipName_texbox
 			// 
-			this.ShipName_texbox.Location = new System.Drawing.Point(31, 581);
+			this.ShipName_texbox.Location = new System.Drawing.Point(31, 501);
 			this.ShipName_texbox.MaxLength = 15;
 			this.ShipName_texbox.Name = "ShipName_texbox";
 			this.ShipName_texbox.Size = new System.Drawing.Size(121, 20);
 			this.ShipName_texbox.TabIndex = 47;
 			// 
-			// RemoveShip_button
+			// RemovePiratesShip_button
 			// 
-			this.RemoveShip_button.Location = new System.Drawing.Point(49, 468);
-			this.RemoveShip_button.Name = "RemoveShip_button";
-			this.RemoveShip_button.Size = new System.Drawing.Size(77, 23);
-			this.RemoveShip_button.TabIndex = 48;
-			this.RemoveShip_button.Text = "Remove";
-			this.RemoveShip_button.UseVisualStyleBackColor = true;
-			this.RemoveShip_button.Click += new System.EventHandler(this.button1_Click);
+			this.RemovePiratesShip_button.Location = new System.Drawing.Point(655, 596);
+			this.RemovePiratesShip_button.Name = "RemovePiratesShip_button";
+			this.RemovePiratesShip_button.Size = new System.Drawing.Size(23, 23);
+			this.RemovePiratesShip_button.TabIndex = 48;
+			this.RemovePiratesShip_button.UseVisualStyleBackColor = true;
+			this.RemovePiratesShip_button.Click += new System.EventHandler(this.button1_Click);
 			// 
 			// FishingBoat_icon
 			// 
 			this.FishingBoat_icon.Image = global::BattleShips.Properties.Resources.Fishing_vessel_water;
-			this.FishingBoat_icon.Location = new System.Drawing.Point(568, 349);
+			this.FishingBoat_icon.Location = new System.Drawing.Point(545, 349);
 			this.FishingBoat_icon.Name = "FishingBoat_icon";
 			this.FishingBoat_icon.Size = new System.Drawing.Size(60, 30);
 			this.FishingBoat_icon.TabIndex = 49;
@@ -3435,7 +3430,7 @@
 			// Brigantine_icon
 			// 
 			this.Brigantine_icon.Image = global::BattleShips.Properties.Resources.Sloop_horizontal;
-			this.Brigantine_icon.Location = new System.Drawing.Point(552, 409);
+			this.Brigantine_icon.Location = new System.Drawing.Point(529, 409);
 			this.Brigantine_icon.Name = "Brigantine_icon";
 			this.Brigantine_icon.Size = new System.Drawing.Size(90, 30);
 			this.Brigantine_icon.TabIndex = 101;
@@ -3445,7 +3440,7 @@
 			// Sloop_icon
 			// 
 			this.Sloop_icon.Image = global::BattleShips.Properties.Resources.Sloop_horizontal;
-			this.Sloop_icon.Location = new System.Drawing.Point(552, 472);
+			this.Sloop_icon.Location = new System.Drawing.Point(529, 472);
 			this.Sloop_icon.Name = "Sloop_icon";
 			this.Sloop_icon.Size = new System.Drawing.Size(90, 30);
 			this.Sloop_icon.TabIndex = 102;
@@ -3455,7 +3450,7 @@
 			// Galleon_icon
 			// 
 			this.Galleon_icon.Image = global::BattleShips.Properties.Resources.Galleon_horizontal;
-			this.Galleon_icon.Location = new System.Drawing.Point(539, 532);
+			this.Galleon_icon.Location = new System.Drawing.Point(516, 532);
 			this.Galleon_icon.Name = "Galleon_icon";
 			this.Galleon_icon.Size = new System.Drawing.Size(120, 30);
 			this.Galleon_icon.TabIndex = 105;
@@ -3465,7 +3460,7 @@
 			// PiratesShip_icon
 			// 
 			this.PiratesShip_icon.Image = global::BattleShips.Properties.Resources.PiratesShip_horizontal;
-			this.PiratesShip_icon.Location = new System.Drawing.Point(522, 589);
+			this.PiratesShip_icon.Location = new System.Drawing.Point(499, 589);
 			this.PiratesShip_icon.Name = "PiratesShip_icon";
 			this.PiratesShip_icon.Size = new System.Drawing.Size(150, 30);
 			this.PiratesShip_icon.TabIndex = 109;
@@ -3474,7 +3469,7 @@
 			// 
 			// FishingBoat_progressBar
 			// 
-			this.FishingBoat_progressBar.Location = new System.Drawing.Point(568, 379);
+			this.FishingBoat_progressBar.Location = new System.Drawing.Point(545, 379);
 			this.FishingBoat_progressBar.Maximum = 20;
 			this.FishingBoat_progressBar.Name = "FishingBoat_progressBar";
 			this.FishingBoat_progressBar.Size = new System.Drawing.Size(60, 12);
@@ -3484,7 +3479,7 @@
 			// 
 			// Brigantine_progressBar
 			// 
-			this.Brigantine_progressBar.Location = new System.Drawing.Point(552, 439);
+			this.Brigantine_progressBar.Location = new System.Drawing.Point(529, 439);
 			this.Brigantine_progressBar.Maximum = 30;
 			this.Brigantine_progressBar.Name = "Brigantine_progressBar";
 			this.Brigantine_progressBar.Size = new System.Drawing.Size(90, 12);
@@ -3494,7 +3489,7 @@
 			// 
 			// Sloop_progressBar
 			// 
-			this.Sloop_progressBar.Location = new System.Drawing.Point(552, 499);
+			this.Sloop_progressBar.Location = new System.Drawing.Point(529, 499);
 			this.Sloop_progressBar.Maximum = 30;
 			this.Sloop_progressBar.Name = "Sloop_progressBar";
 			this.Sloop_progressBar.Size = new System.Drawing.Size(90, 12);
@@ -3504,7 +3499,7 @@
 			// 
 			// Galleon_progressBar
 			// 
-			this.Galleon_progressBar.Location = new System.Drawing.Point(538, 559);
+			this.Galleon_progressBar.Location = new System.Drawing.Point(515, 559);
 			this.Galleon_progressBar.Maximum = 40;
 			this.Galleon_progressBar.Name = "Galleon_progressBar";
 			this.Galleon_progressBar.Size = new System.Drawing.Size(121, 12);
@@ -3514,7 +3509,7 @@
 			// 
 			// PiratesShip_progressBar
 			// 
-			this.PiratesShip_progressBar.Location = new System.Drawing.Point(522, 619);
+			this.PiratesShip_progressBar.Location = new System.Drawing.Point(499, 619);
 			this.PiratesShip_progressBar.Maximum = 50;
 			this.PiratesShip_progressBar.Name = "PiratesShip_progressBar";
 			this.PiratesShip_progressBar.Size = new System.Drawing.Size(150, 12);
@@ -3525,7 +3520,7 @@
 			// FishingBoat_nameText
 			// 
 			this.FishingBoat_nameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.FishingBoat_nameText.Location = new System.Drawing.Point(535, 328);
+			this.FishingBoat_nameText.Location = new System.Drawing.Point(512, 328);
 			this.FishingBoat_nameText.Name = "FishingBoat_nameText";
 			this.FishingBoat_nameText.Size = new System.Drawing.Size(130, 21);
 			this.FishingBoat_nameText.TabIndex = 115;
@@ -3535,7 +3530,7 @@
 			// Brigantine_nameText
 			// 
 			this.Brigantine_nameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Brigantine_nameText.Location = new System.Drawing.Point(535, 388);
+			this.Brigantine_nameText.Location = new System.Drawing.Point(512, 388);
 			this.Brigantine_nameText.Name = "Brigantine_nameText";
 			this.Brigantine_nameText.Size = new System.Drawing.Size(130, 21);
 			this.Brigantine_nameText.TabIndex = 116;
@@ -3545,7 +3540,7 @@
 			// Sloop_nameText
 			// 
 			this.Sloop_nameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Sloop_nameText.Location = new System.Drawing.Point(535, 454);
+			this.Sloop_nameText.Location = new System.Drawing.Point(512, 454);
 			this.Sloop_nameText.Name = "Sloop_nameText";
 			this.Sloop_nameText.Size = new System.Drawing.Size(130, 21);
 			this.Sloop_nameText.TabIndex = 117;
@@ -3555,7 +3550,7 @@
 			// Galleon_nameText
 			// 
 			this.Galleon_nameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Galleon_nameText.Location = new System.Drawing.Point(535, 514);
+			this.Galleon_nameText.Location = new System.Drawing.Point(512, 514);
 			this.Galleon_nameText.Name = "Galleon_nameText";
 			this.Galleon_nameText.Size = new System.Drawing.Size(130, 21);
 			this.Galleon_nameText.TabIndex = 118;
@@ -3565,7 +3560,7 @@
 			// PiratesShip_nameText
 			// 
 			this.PiratesShip_nameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PiratesShip_nameText.Location = new System.Drawing.Point(535, 568);
+			this.PiratesShip_nameText.Location = new System.Drawing.Point(512, 568);
 			this.PiratesShip_nameText.Name = "PiratesShip_nameText";
 			this.PiratesShip_nameText.Size = new System.Drawing.Size(130, 21);
 			this.PiratesShip_nameText.TabIndex = 119;
@@ -3575,7 +3570,7 @@
 			// label1
 			// 
 			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label1.Location = new System.Drawing.Point(28, 562);
+			this.label1.Location = new System.Drawing.Point(22, 483);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(124, 15);
 			this.label1.TabIndex = 120;
@@ -3583,7 +3578,7 @@
 			// 
 			// AITimer
 			// 
-			this.AITimer.Interval = 2000;
+			this.AITimer.Interval = 2500;
 			this.AITimer.Tick += new System.EventHandler(this.AITimer_Tick);
 			// 
 			// cheat_button
@@ -3596,12 +3591,62 @@
 			this.cheat_button.UseVisualStyleBackColor = true;
 			this.cheat_button.Click += new System.EventHandler(this.cheat_button_Click);
 			// 
+			// label2
+			// 
+			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label2.Location = new System.Drawing.Point(22, 423);
+			this.label2.Name = "label2";
+			this.label2.Size = new System.Drawing.Size(124, 15);
+			this.label2.TabIndex = 122;
+			this.label2.Text = "Select ship";
+			// 
+			// RemoveGalleon_button
+			// 
+			this.RemoveGalleon_button.Location = new System.Drawing.Point(655, 539);
+			this.RemoveGalleon_button.Name = "RemoveGalleon_button";
+			this.RemoveGalleon_button.Size = new System.Drawing.Size(23, 23);
+			this.RemoveGalleon_button.TabIndex = 123;
+			this.RemoveGalleon_button.UseVisualStyleBackColor = true;
+			this.RemoveGalleon_button.Click += new System.EventHandler(this.RemoveGalleon_button_Click);
+			// 
+			// RemoveSloop_button
+			// 
+			this.RemoveSloop_button.Location = new System.Drawing.Point(655, 483);
+			this.RemoveSloop_button.Name = "RemoveSloop_button";
+			this.RemoveSloop_button.Size = new System.Drawing.Size(23, 23);
+			this.RemoveSloop_button.TabIndex = 124;
+			this.RemoveSloop_button.UseVisualStyleBackColor = true;
+			this.RemoveSloop_button.Click += new System.EventHandler(this.RemoveSloop_button_Click);
+			// 
+			// RemoveBrigantine_button
+			// 
+			this.RemoveBrigantine_button.Location = new System.Drawing.Point(655, 423);
+			this.RemoveBrigantine_button.Name = "RemoveBrigantine_button";
+			this.RemoveBrigantine_button.Size = new System.Drawing.Size(23, 23);
+			this.RemoveBrigantine_button.TabIndex = 125;
+			this.RemoveBrigantine_button.UseVisualStyleBackColor = true;
+			this.RemoveBrigantine_button.Click += new System.EventHandler(this.RemoveBrigantine_button_Click);
+			// 
+			// RemoveFishingBoat_button
+			// 
+			this.RemoveFishingBoat_button.Location = new System.Drawing.Point(655, 359);
+			this.RemoveFishingBoat_button.Name = "RemoveFishingBoat_button";
+			this.RemoveFishingBoat_button.Size = new System.Drawing.Size(23, 23);
+			this.RemoveFishingBoat_button.TabIndex = 126;
+			this.RemoveFishingBoat_button.UseVisualStyleBackColor = true;
+			this.RemoveFishingBoat_button.Click += new System.EventHandler(this.RemoveFishingBoat_button_Click);
+			// 
 			// GameScreen
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(684, 661);
+			this.Controls.Add(this.RemoveFishingBoat_button);
+			this.Controls.Add(this.RemoveBrigantine_button);
+			this.Controls.Add(this.RemoveSloop_button);
+			this.Controls.Add(this.RemoveGalleon_button);
+			this.Controls.Add(this.label2);
 			this.Controls.Add(this.cheat_button);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.PiratesShip_nameText);
@@ -3619,14 +3664,13 @@
 			this.Controls.Add(this.Sloop_icon);
 			this.Controls.Add(this.Brigantine_icon);
 			this.Controls.Add(this.FishingBoat_icon);
-			this.Controls.Add(this.RemoveShip_button);
+			this.Controls.Add(this.RemovePiratesShip_button);
 			this.Controls.Add(this.ShipName_texbox);
 			this.Controls.Add(this.ActionButton);
 			this.Controls.Add(this.ErrorDialogLabel);
 			this.Controls.Add(this.ChooseShipComboBox);
 			this.Controls.Add(this.HorizontalOption);
 			this.Controls.Add(this.VerticalOption);
-			this.Controls.Add(this.PhaseLabel);
 			this.Controls.Add(this.SetShipsButton);
 			this.Controls.Add(this.SetVerticalPosText);
 			this.Controls.Add(this.SetHorizontalPosText);
@@ -4146,7 +4190,6 @@
 		private System.Windows.Forms.TextBox SetVerticalPosText;
 		private System.Windows.Forms.Button SetShipsButton;
 		private System.Windows.Forms.PictureBox FishingBoat_vertical_player;
-		private System.Windows.Forms.Label PhaseLabel;
 		private System.Windows.Forms.RadioButton VerticalOption;
 		private System.Windows.Forms.RadioButton HorizontalOption;
 		private System.Windows.Forms.ComboBox ChooseShipComboBox;
@@ -4171,7 +4214,7 @@
 		private System.Windows.Forms.PictureBox FishingBoat_horizontal_enemy;
 		private System.Windows.Forms.Button ActionButton;
 		private System.Windows.Forms.TextBox ShipName_texbox;
-		private System.Windows.Forms.Button RemoveShip_button;
+		private System.Windows.Forms.Button RemovePiratesShip_button;
 		private System.Windows.Forms.PictureBox FishingBoat_icon;
 		private System.Windows.Forms.PictureBox Brigantine_icon;
 		private System.Windows.Forms.PictureBox Sloop_icon;
@@ -4190,6 +4233,11 @@
 		private System.Windows.Forms.Timer AITimer;
 		private System.Windows.Forms.ProgressBar FishingBoat_progressBar;
 		private System.Windows.Forms.Button cheat_button;
+		private System.Windows.Forms.Label label2;
+		private System.Windows.Forms.Button RemoveGalleon_button;
+		private System.Windows.Forms.Button RemoveSloop_button;
+		private System.Windows.Forms.Button RemoveBrigantine_button;
+		private System.Windows.Forms.Button RemoveFishingBoat_button;
 	}
 }
 

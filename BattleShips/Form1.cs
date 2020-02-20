@@ -47,7 +47,7 @@ namespace BattleShips
 			sound = new SoundPlayer();
 			sound.SoundLocation = "E:\\Programming\\c# vsite projects\\" +
 					"BatleShips game\\BattleShips\\BattleShips\\Art\\soundscrate-last-one-standing-sc1.wav";
-			sound.Play();
+			sound.PlayLooping();
 
 			playerFishingBoat = new FishingBoat(FishingBoat_horizontal_player,
 				FishingBoat_vertical_player);
@@ -82,6 +82,12 @@ namespace BattleShips
 			LetterboxText.Enabled = false;
 			NumberboxText.Enabled = false;
 			ActionButton.Enabled = false;
+
+			RemovePiratesShip_button.Visible = false;
+			RemoveSloop_button.Visible = false;
+			RemoveGalleon_button.Visible = false;
+			RemoveFishingBoat_button.Visible = false;
+			RemoveBrigantine_button.Visible = false;
 
 			PlayerShips = new List<Ship>
 			{
@@ -223,6 +229,7 @@ namespace BattleShips
 					FishingBoat_nameText.Text = playerFishingBoat.ShipName;
 					FishingBoat_nameText.Visible = true;
 					FishingBoat_progressBar.Visible = true;
+					RemoveFishingBoat_button.Visible = true;
 					break;
 				case "Brigantine":
 					if (
@@ -235,6 +242,7 @@ namespace BattleShips
 					Brigantine_nameText.Text = playerBrigantine.ShipName;
 					Brigantine_nameText.Visible = true;
 					Brigantine_progressBar.Visible = true;
+					RemoveBrigantine_button.Visible = true;
 					break;
 				case "Sloop":
 					if (
@@ -247,6 +255,7 @@ namespace BattleShips
 					Sloop_nameText.Text = playerSloop.ShipName;
 					Sloop_nameText.Visible = true;
 					Sloop_progressBar.Visible = true;
+					RemoveSloop_button.Visible = true;
 					break;
 				case "Galleon":
 					if (
@@ -259,6 +268,7 @@ namespace BattleShips
 					Galleon_nameText.Text = playerGalleon.ShipName;
 					Galleon_nameText.Visible = true;
 					Galleon_progressBar.Visible = true;
+					RemoveGalleon_button.Visible = true;
 					break;
 				case "Pirate's ship":
 					if (
@@ -271,6 +281,7 @@ namespace BattleShips
 					PiratesShip_nameText.Text = playerPiratesShip.ShipName;
 					PiratesShip_nameText.Visible = true;
 					PiratesShip_progressBar.Visible = true;
+					RemovePiratesShip_button.Visible = true;
 					break;
 
 				default:
@@ -332,7 +343,11 @@ namespace BattleShips
 			ActionButton.Enabled = false;
 			SetShipsButton.Enabled = false;
 			FireButton.Enabled = false;
-			RemoveShip_button.Enabled = false;
+			RemovePiratesShip_button.Visible = false;
+			RemoveBrigantine_button.Visible = false;
+			RemoveFishingBoat_button.Visible = false;
+			RemoveGalleon_button.Visible = false;
+			RemoveSloop_button.Visible = false;
 
 			ActionText.Text = "Enemy is preparing to fire!";
 
@@ -349,57 +364,13 @@ namespace BattleShips
 		private void button1_Click(object sender, EventArgs e)
 		{
 
-			string ship = ChooseShipComboBox.Text;
+			playerPiratesShip.DespawnShip();
+			PiratesShip_icon.Visible = false;
+			PiratesShip_nameText.Visible = false;
+			PiratesShip_progressBar.Visible = false;
+			RemovePiratesShip_button.Visible = false;
 
-			switch (ship)
-			{
-				case "Fishing Boat":
-					playerFishingBoat.DespawnShip();
-					FishingBoat_icon.Visible = false;
-					FishingBoat_nameText.Visible = false;
-					FishingBoat_progressBar.Visible = false;
-					break;
-				case "Brigantine":
-					playerBrigantine.DespawnShip();
-					Brigantine_icon.Visible = false;
-					Brigantine_nameText.Visible = false;
-					Brigantine_progressBar.Visible = false;
-					break;
-				case "Sloop":
-					playerSloop.DespawnShip();
-					Sloop_icon.Visible = false;
-					Sloop_nameText.Visible = false;
-					Sloop_progressBar.Visible = false;
-					break;
-				case "Galleon":
-					playerGalleon.DespawnShip();
-					Galleon_icon.Visible = false;
-					Galleon_nameText.Visible = false;
-					Galleon_progressBar.Visible = false;
-					break;
-				case "Pirate's ship":
-					playerPiratesShip.DespawnShip();
-					PiratesShip_icon.Visible = false;
-					PiratesShip_nameText.Visible = false;
-					PiratesShip_progressBar.Visible = false;
-					break;
-
-				default:
-					ErrorDialogLabel.Text = "No such ship exists!";
-					break;
-			}
-
-			foreach (Ship s in PlayerShips)
-			{
-				if (s.isSpawned == true)
-					ActionButton.Enabled = true;
-				else
-				{
-					ActionButton.Enabled = false;
-					break;
-				}
-			}
-
+	
 		}
 
 		private void AITimer_Tick(object sender, EventArgs e)
@@ -453,6 +424,42 @@ namespace BattleShips
 			{
 				ship.ShowBoat();
 			}
+		}
+
+		private void RemoveGalleon_button_Click(object sender, EventArgs e)
+		{
+			playerGalleon.DespawnShip();
+			Galleon_icon.Visible = false;
+			Galleon_nameText.Visible = false;
+			Galleon_progressBar.Visible = false;
+			RemoveGalleon_button.Visible = false;
+		}
+
+		private void RemoveSloop_button_Click(object sender, EventArgs e)
+		{
+			playerSloop.DespawnShip();
+			Sloop_icon.Visible = false;
+			Sloop_nameText.Visible = false;
+			Sloop_progressBar.Visible = false;
+			RemoveSloop_button.Visible = false;
+		}
+
+		private void RemoveBrigantine_button_Click(object sender, EventArgs e)
+		{
+			playerBrigantine.DespawnShip();
+			Brigantine_icon.Visible = false;
+			Brigantine_nameText.Visible = false;
+			Brigantine_progressBar.Visible = false;
+			RemoveBrigantine_button.Visible = false;
+		}
+
+		private void RemoveFishingBoat_button_Click(object sender, EventArgs e)
+		{
+			playerFishingBoat.DespawnShip();
+			FishingBoat_icon.Visible = false;
+			FishingBoat_nameText.Visible = false;
+			FishingBoat_progressBar.Visible = false;
+			RemoveFishingBoat_button.Visible = false;
 		}
 	}
 }
