@@ -132,5 +132,8 @@
   <ItemGroup>
     <None Include="Art\HitArea.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\RemoveIcon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
