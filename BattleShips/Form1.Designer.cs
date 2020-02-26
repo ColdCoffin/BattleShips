@@ -1766,6 +1766,7 @@
 			// 
 			// PlayerField_label_A
 			// 
+			this.PlayerField_label_A.BackColor = System.Drawing.Color.Transparent;
 			this.PlayerField_label_A.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.PlayerField_label_A.Location = new System.Drawing.Point(300, 348);
 			this.PlayerField_label_A.Name = "PlayerField_label_A";
@@ -1776,6 +1777,7 @@
 			// 
 			// PlayerField_label_B
 			// 
+			this.PlayerField_label_B.BackColor = System.Drawing.Color.Transparent;
 			this.PlayerField_label_B.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.PlayerField_label_B.Location = new System.Drawing.Point(300, 378);
 			this.PlayerField_label_B.Name = "PlayerField_label_B";
@@ -1786,6 +1788,7 @@
 			// 
 			// PlayerField_label_C
 			// 
+			this.PlayerField_label_C.BackColor = System.Drawing.Color.Transparent;
 			this.PlayerField_label_C.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.PlayerField_label_C.Location = new System.Drawing.Point(300, 408);
 			this.PlayerField_label_C.Name = "PlayerField_label_C";
@@ -1796,6 +1799,7 @@
 			// 
 			// PlayerField_label_D
 			// 
+			this.PlayerField_label_D.BackColor = System.Drawing.Color.Transparent;
 			this.PlayerField_label_D.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.PlayerField_label_D.Location = new System.Drawing.Point(300, 438);
 			this.PlayerField_label_D.Name = "PlayerField_label_D";
@@ -1806,6 +1810,7 @@
 			// 
 			// PlayerField_label_E
 			// 
+			this.PlayerField_label_E.BackColor = System.Drawing.Color.Transparent;
 			this.PlayerField_label_E.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.PlayerField_label_E.Location = new System.Drawing.Point(300, 468);
 			this.PlayerField_label_E.Name = "PlayerField_label_E";
@@ -1816,6 +1821,7 @@
 			// 
 			// PlayerField_label_F
 			// 
+			this.PlayerField_label_F.BackColor = System.Drawing.Color.Transparent;
 			this.PlayerField_label_F.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.PlayerField_label_F.Location = new System.Drawing.Point(300, 498);
 			this.PlayerField_label_F.Name = "PlayerField_label_F";
@@ -1826,6 +1832,7 @@
 			// 
 			// PlayerField_label_G
 			// 
+			this.PlayerField_label_G.BackColor = System.Drawing.Color.Transparent;
 			this.PlayerField_label_G.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.PlayerField_label_G.Location = new System.Drawing.Point(300, 528);
 			this.PlayerField_label_G.Name = "PlayerField_label_G";
@@ -1836,6 +1843,7 @@
 			// 
 			// PlayerField_label_H
 			// 
+			this.PlayerField_label_H.BackColor = System.Drawing.Color.Transparent;
 			this.PlayerField_label_H.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.PlayerField_label_H.Location = new System.Drawing.Point(300, 558);
 			this.PlayerField_label_H.Name = "PlayerField_label_H";
@@ -1846,6 +1854,7 @@
 			// 
 			// PlayerField_label_I
 			// 
+			this.PlayerField_label_I.BackColor = System.Drawing.Color.Transparent;
 			this.PlayerField_label_I.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.PlayerField_label_I.Location = new System.Drawing.Point(300, 588);
 			this.PlayerField_label_I.Name = "PlayerField_label_I";
@@ -1856,6 +1865,7 @@
 			// 
 			// PlayerField_label_J
 			// 
+			this.PlayerField_label_J.BackColor = System.Drawing.Color.Transparent;
 			this.PlayerField_label_J.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.PlayerField_label_J.Location = new System.Drawing.Point(300, 618);
 			this.PlayerField_label_J.Name = "PlayerField_label_J";
@@ -1866,6 +1876,7 @@
 			// 
 			// Field_label_1
 			// 
+			this.Field_label_1.BackColor = System.Drawing.Color.Transparent;
 			this.Field_label_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.Field_label_1.Location = new System.Drawing.Point(336, 315);
 			this.Field_label_1.Name = "Field_label_1";
@@ -1876,6 +1887,7 @@
 			// 
 			// Field_label_2
 			// 
+			this.Field_label_2.BackColor = System.Drawing.Color.Transparent;
 			this.Field_label_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.Field_label_2.Location = new System.Drawing.Point(366, 315);
 			this.Field_label_2.Name = "Field_label_2";
@@ -1886,6 +1898,7 @@
 			// 
 			// Field_label_3
 			// 
+			this.Field_label_3.BackColor = System.Drawing.Color.Transparent;
 			this.Field_label_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.Field_label_3.Location = new System.Drawing.Point(396, 315);
 			this.Field_label_3.Name = "Field_label_3";
@@ -1896,6 +1909,7 @@
 			// 
 			// Field_label_4
 			// 
+			this.Field_label_4.BackColor = System.Drawing.Color.Transparent;
 			this.Field_label_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.Field_label_4.Location = new System.Drawing.Point(426, 315);
 			this.Field_label_4.Name = "Field_label_4";
@@ -1906,6 +1920,7 @@
 			// 
 			// Field_label_5
 			// 
+			this.Field_label_5.BackColor = System.Drawing.Color.Transparent;
 			this.Field_label_5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.Field_label_5.Location = new System.Drawing.Point(456, 315);
 			this.Field_label_5.Name = "Field_label_5";
@@ -1916,6 +1931,7 @@
 			// 
 			// Field_label_6
 			// 
+			this.Field_label_6.BackColor = System.Drawing.Color.Transparent;
 			this.Field_label_6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.Field_label_6.Location = new System.Drawing.Point(486, 315);
 			this.Field_label_6.Name = "Field_label_6";
@@ -1926,6 +1942,7 @@
 			// 
 			// Field_label_7
 			// 
+			this.Field_label_7.BackColor = System.Drawing.Color.Transparent;
 			this.Field_label_7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.Field_label_7.Location = new System.Drawing.Point(516, 315);
 			this.Field_label_7.Name = "Field_label_7";
@@ -1936,6 +1953,7 @@
 			// 
 			// Field_label_8
 			// 
+			this.Field_label_8.BackColor = System.Drawing.Color.Transparent;
 			this.Field_label_8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.Field_label_8.Location = new System.Drawing.Point(546, 315);
 			this.Field_label_8.Name = "Field_label_8";
@@ -1946,6 +1964,7 @@
 			// 
 			// Field_label_9
 			// 
+			this.Field_label_9.BackColor = System.Drawing.Color.Transparent;
 			this.Field_label_9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.Field_label_9.Location = new System.Drawing.Point(576, 315);
 			this.Field_label_9.Name = "Field_label_9";
@@ -1956,6 +1975,7 @@
 			// 
 			// Field_label_10
 			// 
+			this.Field_label_10.BackColor = System.Drawing.Color.Transparent;
 			this.Field_label_10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.Field_label_10.Location = new System.Drawing.Point(606, 315);
 			this.Field_label_10.Name = "Field_label_10";
@@ -3183,6 +3203,7 @@
 			// 
 			// EnemyField_label_J
 			// 
+			this.EnemyField_label_J.BackColor = System.Drawing.Color.Transparent;
 			this.EnemyField_label_J.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.EnemyField_label_J.Location = new System.Drawing.Point(300, 282);
 			this.EnemyField_label_J.Name = "EnemyField_label_J";
@@ -3193,6 +3214,7 @@
 			// 
 			// EnemyField_label_I
 			// 
+			this.EnemyField_label_I.BackColor = System.Drawing.Color.Transparent;
 			this.EnemyField_label_I.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.EnemyField_label_I.Location = new System.Drawing.Point(300, 252);
 			this.EnemyField_label_I.Name = "EnemyField_label_I";
@@ -3203,6 +3225,7 @@
 			// 
 			// EnemyField_label_H
 			// 
+			this.EnemyField_label_H.BackColor = System.Drawing.Color.Transparent;
 			this.EnemyField_label_H.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.EnemyField_label_H.Location = new System.Drawing.Point(300, 222);
 			this.EnemyField_label_H.Name = "EnemyField_label_H";
@@ -3213,6 +3236,7 @@
 			// 
 			// EnemyField_label_G
 			// 
+			this.EnemyField_label_G.BackColor = System.Drawing.Color.Transparent;
 			this.EnemyField_label_G.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.EnemyField_label_G.Location = new System.Drawing.Point(300, 192);
 			this.EnemyField_label_G.Name = "EnemyField_label_G";
@@ -3223,6 +3247,7 @@
 			// 
 			// EnemyField_label_F
 			// 
+			this.EnemyField_label_F.BackColor = System.Drawing.Color.Transparent;
 			this.EnemyField_label_F.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.EnemyField_label_F.Location = new System.Drawing.Point(300, 162);
 			this.EnemyField_label_F.Name = "EnemyField_label_F";
@@ -3233,6 +3258,7 @@
 			// 
 			// EnemyField_label_E
 			// 
+			this.EnemyField_label_E.BackColor = System.Drawing.Color.Transparent;
 			this.EnemyField_label_E.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.EnemyField_label_E.Location = new System.Drawing.Point(300, 132);
 			this.EnemyField_label_E.Name = "EnemyField_label_E";
@@ -3243,6 +3269,7 @@
 			// 
 			// EnemyField_label_D
 			// 
+			this.EnemyField_label_D.BackColor = System.Drawing.Color.Transparent;
 			this.EnemyField_label_D.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.EnemyField_label_D.Location = new System.Drawing.Point(300, 102);
 			this.EnemyField_label_D.Name = "EnemyField_label_D";
@@ -3253,6 +3280,7 @@
 			// 
 			// EnemyField_label_C
 			// 
+			this.EnemyField_label_C.BackColor = System.Drawing.Color.Transparent;
 			this.EnemyField_label_C.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.EnemyField_label_C.Location = new System.Drawing.Point(300, 72);
 			this.EnemyField_label_C.Name = "EnemyField_label_C";
@@ -3263,6 +3291,7 @@
 			// 
 			// EnemyField_label_B
 			// 
+			this.EnemyField_label_B.BackColor = System.Drawing.Color.Transparent;
 			this.EnemyField_label_B.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.EnemyField_label_B.Location = new System.Drawing.Point(300, 42);
 			this.EnemyField_label_B.Name = "EnemyField_label_B";
@@ -3273,6 +3302,7 @@
 			// 
 			// EnemyField_label_A
 			// 
+			this.EnemyField_label_A.BackColor = System.Drawing.Color.Transparent;
 			this.EnemyField_label_A.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.EnemyField_label_A.Location = new System.Drawing.Point(300, 12);
 			this.EnemyField_label_A.Name = "EnemyField_label_A";
@@ -3350,6 +3380,7 @@
 			// VerticalOption
 			// 
 			this.VerticalOption.AutoSize = true;
+			this.VerticalOption.BackColor = System.Drawing.Color.Transparent;
 			this.VerticalOption.Checked = true;
 			this.VerticalOption.Location = new System.Drawing.Point(167, 464);
 			this.VerticalOption.Name = "VerticalOption";
@@ -3357,17 +3388,18 @@
 			this.VerticalOption.TabIndex = 42;
 			this.VerticalOption.TabStop = true;
 			this.VerticalOption.Text = "Vertical";
-			this.VerticalOption.UseVisualStyleBackColor = true;
+			this.VerticalOption.UseVisualStyleBackColor = false;
 			// 
 			// HorizontalOption
 			// 
 			this.HorizontalOption.AutoSize = true;
+			this.HorizontalOption.BackColor = System.Drawing.Color.Transparent;
 			this.HorizontalOption.Location = new System.Drawing.Point(227, 464);
 			this.HorizontalOption.Name = "HorizontalOption";
 			this.HorizontalOption.Size = new System.Drawing.Size(72, 17);
 			this.HorizontalOption.TabIndex = 43;
 			this.HorizontalOption.Text = "Horizontal";
-			this.HorizontalOption.UseVisualStyleBackColor = true;
+			this.HorizontalOption.UseVisualStyleBackColor = false;
 			// 
 			// ChooseShipComboBox
 			// 
@@ -3385,6 +3417,7 @@
 			// 
 			// ErrorDialogLabel
 			// 
+			this.ErrorDialogLabel.BackColor = System.Drawing.Color.Transparent;
 			this.ErrorDialogLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.ErrorDialogLabel.Location = new System.Drawing.Point(164, 567);
 			this.ErrorDialogLabel.Name = "ErrorDialogLabel";
@@ -3393,12 +3426,18 @@
 			// 
 			// ActionButton
 			// 
-			this.ActionButton.Location = new System.Drawing.Point(172, 208);
+			this.ActionButton.BackColor = System.Drawing.Color.Transparent;
+			this.ActionButton.BackgroundImage = global::BattleShips.Properties.Resources.BigButtton;
+			this.ActionButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.ActionButton.FlatAppearance.BorderSize = 0;
+			this.ActionButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.ActionButton.Location = new System.Drawing.Point(98, 305);
+			this.ActionButton.Margin = new System.Windows.Forms.Padding(0);
 			this.ActionButton.Name = "ActionButton";
-			this.ActionButton.Size = new System.Drawing.Size(116, 43);
+			this.ActionButton.Size = new System.Drawing.Size(100, 50);
 			this.ActionButton.TabIndex = 46;
 			this.ActionButton.Text = "End Turn";
-			this.ActionButton.UseVisualStyleBackColor = true;
+			this.ActionButton.UseVisualStyleBackColor = false;
 			this.ActionButton.Click += new System.EventHandler(this.ActionButton_Click);
 			// 
 			// ShipName_texbox
@@ -3526,6 +3565,7 @@
 			// 
 			// label1
 			// 
+			this.label1.BackColor = System.Drawing.Color.Transparent;
 			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label1.Location = new System.Drawing.Point(164, 482);
 			this.label1.Name = "label1";
@@ -3550,6 +3590,7 @@
 			// 
 			// label2
 			// 
+			this.label2.BackColor = System.Drawing.Color.Transparent;
 			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label2.Location = new System.Drawing.Point(164, 422);
 			this.label2.Name = "label2";

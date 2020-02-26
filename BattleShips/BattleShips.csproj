@@ -138,5 +138,8 @@
   <ItemGroup>
     <None Include="Art\Backround_blured.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\BigButtton.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

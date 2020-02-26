@@ -73,6 +73,16 @@ namespace BattleShips.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BigButtton {
+            get {
+                object obj = ResourceManager.GetObject("BigButtton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap boat_ships_dual_screen_fantasy_ice_pirate_ocean_snow_cool_images_pirates_boats_ship_sea_samsung_ship_jpg {
             get {
                 object obj = ResourceManager.GetObject("boat-ships-dual-screen-fantasy-ice-pirate-ocean-snow-cool-images-pirates-boats-sh" +
