@@ -466,5 +466,10 @@ namespace BattleShips
 			RemoveFishingBoat_button.Visible = false;
 			ActionButton.Enabled = false;
 		}
+
+		private void exit_button_Click(object sender, EventArgs e)
+		{
+			Application.Exit(); 
+		}
 	}
 }

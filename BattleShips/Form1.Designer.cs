@@ -318,6 +318,7 @@
 			this.Sloop_icon = new System.Windows.Forms.PictureBox();
 			this.Brigantine_icon = new System.Windows.Forms.PictureBox();
 			this.FishingBoat_icon = new System.Windows.Forms.PictureBox();
+			this.exit_button = new System.Windows.Forms.Button();
 			this.PlayerField_label.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_vertical_player)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_horizontal_player)).BeginInit();
@@ -659,7 +660,7 @@
 			this.PlayerField_label.Controls.Add(this.PlayerField_A3);
 			this.PlayerField_label.Controls.Add(this.PlayerField_A2);
 			this.PlayerField_label.Controls.Add(this.PlayerField_A1);
-			this.PlayerField_label.Location = new System.Drawing.Point(336, 348);
+			this.PlayerField_label.Location = new System.Drawing.Point(353, 358);
 			this.PlayerField_label.Name = "PlayerField_label";
 			this.PlayerField_label.Size = new System.Drawing.Size(300, 300);
 			this.PlayerField_label.TabIndex = 0;
@@ -1768,7 +1769,7 @@
 			// 
 			this.PlayerField_label_A.BackColor = System.Drawing.Color.Transparent;
 			this.PlayerField_label_A.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PlayerField_label_A.Location = new System.Drawing.Point(300, 348);
+			this.PlayerField_label_A.Location = new System.Drawing.Point(317, 358);
 			this.PlayerField_label_A.Name = "PlayerField_label_A";
 			this.PlayerField_label_A.Size = new System.Drawing.Size(30, 30);
 			this.PlayerField_label_A.TabIndex = 2;
@@ -1779,7 +1780,7 @@
 			// 
 			this.PlayerField_label_B.BackColor = System.Drawing.Color.Transparent;
 			this.PlayerField_label_B.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PlayerField_label_B.Location = new System.Drawing.Point(300, 378);
+			this.PlayerField_label_B.Location = new System.Drawing.Point(317, 388);
 			this.PlayerField_label_B.Name = "PlayerField_label_B";
 			this.PlayerField_label_B.Size = new System.Drawing.Size(30, 30);
 			this.PlayerField_label_B.TabIndex = 3;
@@ -1790,7 +1791,7 @@
 			// 
 			this.PlayerField_label_C.BackColor = System.Drawing.Color.Transparent;
 			this.PlayerField_label_C.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PlayerField_label_C.Location = new System.Drawing.Point(300, 408);
+			this.PlayerField_label_C.Location = new System.Drawing.Point(317, 418);
 			this.PlayerField_label_C.Name = "PlayerField_label_C";
 			this.PlayerField_label_C.Size = new System.Drawing.Size(30, 30);
 			this.PlayerField_label_C.TabIndex = 4;
@@ -1801,7 +1802,7 @@
 			// 
 			this.PlayerField_label_D.BackColor = System.Drawing.Color.Transparent;
 			this.PlayerField_label_D.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PlayerField_label_D.Location = new System.Drawing.Point(300, 438);
+			this.PlayerField_label_D.Location = new System.Drawing.Point(317, 448);
 			this.PlayerField_label_D.Name = "PlayerField_label_D";
 			this.PlayerField_label_D.Size = new System.Drawing.Size(30, 30);
 			this.PlayerField_label_D.TabIndex = 5;
@@ -1812,7 +1813,7 @@
 			// 
 			this.PlayerField_label_E.BackColor = System.Drawing.Color.Transparent;
 			this.PlayerField_label_E.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PlayerField_label_E.Location = new System.Drawing.Point(300, 468);
+			this.PlayerField_label_E.Location = new System.Drawing.Point(317, 478);
 			this.PlayerField_label_E.Name = "PlayerField_label_E";
 			this.PlayerField_label_E.Size = new System.Drawing.Size(30, 30);
 			this.PlayerField_label_E.TabIndex = 6;
@@ -1823,7 +1824,7 @@
 			// 
 			this.PlayerField_label_F.BackColor = System.Drawing.Color.Transparent;
 			this.PlayerField_label_F.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PlayerField_label_F.Location = new System.Drawing.Point(300, 498);
+			this.PlayerField_label_F.Location = new System.Drawing.Point(317, 508);
 			this.PlayerField_label_F.Name = "PlayerField_label_F";
 			this.PlayerField_label_F.Size = new System.Drawing.Size(30, 30);
 			this.PlayerField_label_F.TabIndex = 7;
@@ -1834,7 +1835,7 @@
 			// 
 			this.PlayerField_label_G.BackColor = System.Drawing.Color.Transparent;
 			this.PlayerField_label_G.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PlayerField_label_G.Location = new System.Drawing.Point(300, 528);
+			this.PlayerField_label_G.Location = new System.Drawing.Point(317, 538);
 			this.PlayerField_label_G.Name = "PlayerField_label_G";
 			this.PlayerField_label_G.Size = new System.Drawing.Size(30, 30);
 			this.PlayerField_label_G.TabIndex = 8;
@@ -1845,7 +1846,7 @@
 			// 
 			this.PlayerField_label_H.BackColor = System.Drawing.Color.Transparent;
 			this.PlayerField_label_H.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PlayerField_label_H.Location = new System.Drawing.Point(300, 558);
+			this.PlayerField_label_H.Location = new System.Drawing.Point(317, 568);
 			this.PlayerField_label_H.Name = "PlayerField_label_H";
 			this.PlayerField_label_H.Size = new System.Drawing.Size(30, 30);
 			this.PlayerField_label_H.TabIndex = 9;
@@ -1856,7 +1857,7 @@
 			// 
 			this.PlayerField_label_I.BackColor = System.Drawing.Color.Transparent;
 			this.PlayerField_label_I.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PlayerField_label_I.Location = new System.Drawing.Point(300, 588);
+			this.PlayerField_label_I.Location = new System.Drawing.Point(317, 598);
 			this.PlayerField_label_I.Name = "PlayerField_label_I";
 			this.PlayerField_label_I.Size = new System.Drawing.Size(30, 30);
 			this.PlayerField_label_I.TabIndex = 10;
@@ -1867,7 +1868,7 @@
 			// 
 			this.PlayerField_label_J.BackColor = System.Drawing.Color.Transparent;
 			this.PlayerField_label_J.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PlayerField_label_J.Location = new System.Drawing.Point(300, 618);
+			this.PlayerField_label_J.Location = new System.Drawing.Point(317, 628);
 			this.PlayerField_label_J.Name = "PlayerField_label_J";
 			this.PlayerField_label_J.Size = new System.Drawing.Size(30, 30);
 			this.PlayerField_label_J.TabIndex = 11;
@@ -1878,7 +1879,7 @@
 			// 
 			this.Field_label_1.BackColor = System.Drawing.Color.Transparent;
 			this.Field_label_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Field_label_1.Location = new System.Drawing.Point(336, 315);
+			this.Field_label_1.Location = new System.Drawing.Point(353, 325);
 			this.Field_label_1.Name = "Field_label_1";
 			this.Field_label_1.Size = new System.Drawing.Size(30, 30);
 			this.Field_label_1.TabIndex = 12;
@@ -1889,7 +1890,7 @@
 			// 
 			this.Field_label_2.BackColor = System.Drawing.Color.Transparent;
 			this.Field_label_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Field_label_2.Location = new System.Drawing.Point(366, 315);
+			this.Field_label_2.Location = new System.Drawing.Point(383, 325);
 			this.Field_label_2.Name = "Field_label_2";
 			this.Field_label_2.Size = new System.Drawing.Size(30, 30);
 			this.Field_label_2.TabIndex = 13;
@@ -1900,7 +1901,7 @@
 			// 
 			this.Field_label_3.BackColor = System.Drawing.Color.Transparent;
 			this.Field_label_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Field_label_3.Location = new System.Drawing.Point(396, 315);
+			this.Field_label_3.Location = new System.Drawing.Point(413, 325);
 			this.Field_label_3.Name = "Field_label_3";
 			this.Field_label_3.Size = new System.Drawing.Size(30, 30);
 			this.Field_label_3.TabIndex = 14;
@@ -1911,7 +1912,7 @@
 			// 
 			this.Field_label_4.BackColor = System.Drawing.Color.Transparent;
 			this.Field_label_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Field_label_4.Location = new System.Drawing.Point(426, 315);
+			this.Field_label_4.Location = new System.Drawing.Point(443, 325);
 			this.Field_label_4.Name = "Field_label_4";
 			this.Field_label_4.Size = new System.Drawing.Size(30, 30);
 			this.Field_label_4.TabIndex = 15;
@@ -1922,7 +1923,7 @@
 			// 
 			this.Field_label_5.BackColor = System.Drawing.Color.Transparent;
 			this.Field_label_5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Field_label_5.Location = new System.Drawing.Point(456, 315);
+			this.Field_label_5.Location = new System.Drawing.Point(473, 325);
 			this.Field_label_5.Name = "Field_label_5";
 			this.Field_label_5.Size = new System.Drawing.Size(30, 30);
 			this.Field_label_5.TabIndex = 16;
@@ -1933,7 +1934,7 @@
 			// 
 			this.Field_label_6.BackColor = System.Drawing.Color.Transparent;
 			this.Field_label_6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Field_label_6.Location = new System.Drawing.Point(486, 315);
+			this.Field_label_6.Location = new System.Drawing.Point(503, 325);
 			this.Field_label_6.Name = "Field_label_6";
 			this.Field_label_6.Size = new System.Drawing.Size(30, 30);
 			this.Field_label_6.TabIndex = 17;
@@ -1944,7 +1945,7 @@
 			// 
 			this.Field_label_7.BackColor = System.Drawing.Color.Transparent;
 			this.Field_label_7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Field_label_7.Location = new System.Drawing.Point(516, 315);
+			this.Field_label_7.Location = new System.Drawing.Point(533, 325);
 			this.Field_label_7.Name = "Field_label_7";
 			this.Field_label_7.Size = new System.Drawing.Size(30, 30);
 			this.Field_label_7.TabIndex = 18;
@@ -1955,7 +1956,7 @@
 			// 
 			this.Field_label_8.BackColor = System.Drawing.Color.Transparent;
 			this.Field_label_8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Field_label_8.Location = new System.Drawing.Point(546, 315);
+			this.Field_label_8.Location = new System.Drawing.Point(563, 325);
 			this.Field_label_8.Name = "Field_label_8";
 			this.Field_label_8.Size = new System.Drawing.Size(30, 30);
 			this.Field_label_8.TabIndex = 19;
@@ -1966,7 +1967,7 @@
 			// 
 			this.Field_label_9.BackColor = System.Drawing.Color.Transparent;
 			this.Field_label_9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Field_label_9.Location = new System.Drawing.Point(576, 315);
+			this.Field_label_9.Location = new System.Drawing.Point(593, 325);
 			this.Field_label_9.Name = "Field_label_9";
 			this.Field_label_9.Size = new System.Drawing.Size(30, 30);
 			this.Field_label_9.TabIndex = 20;
@@ -1977,7 +1978,7 @@
 			// 
 			this.Field_label_10.BackColor = System.Drawing.Color.Transparent;
 			this.Field_label_10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Field_label_10.Location = new System.Drawing.Point(606, 315);
+			this.Field_label_10.Location = new System.Drawing.Point(623, 325);
 			this.Field_label_10.Name = "Field_label_10";
 			this.Field_label_10.Size = new System.Drawing.Size(30, 30);
 			this.Field_label_10.TabIndex = 21;
@@ -2096,7 +2097,7 @@
 			this.EnemyField_label.Controls.Add(this.EnemyField_B1);
 			this.EnemyField_label.Controls.Add(this.EnemyField_A4);
 			this.EnemyField_label.Controls.Add(this.EnemyField_A3);
-			this.EnemyField_label.Location = new System.Drawing.Point(339, 12);
+			this.EnemyField_label.Location = new System.Drawing.Point(356, 22);
 			this.EnemyField_label.Name = "EnemyField_label";
 			this.EnemyField_label.Size = new System.Drawing.Size(300, 300);
 			this.EnemyField_label.TabIndex = 1;
@@ -3205,7 +3206,7 @@
 			// 
 			this.EnemyField_label_J.BackColor = System.Drawing.Color.Transparent;
 			this.EnemyField_label_J.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyField_label_J.Location = new System.Drawing.Point(300, 282);
+			this.EnemyField_label_J.Location = new System.Drawing.Point(317, 292);
 			this.EnemyField_label_J.Name = "EnemyField_label_J";
 			this.EnemyField_label_J.Size = new System.Drawing.Size(30, 30);
 			this.EnemyField_label_J.TabIndex = 31;
@@ -3216,7 +3217,7 @@
 			// 
 			this.EnemyField_label_I.BackColor = System.Drawing.Color.Transparent;
 			this.EnemyField_label_I.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyField_label_I.Location = new System.Drawing.Point(300, 252);
+			this.EnemyField_label_I.Location = new System.Drawing.Point(317, 262);
 			this.EnemyField_label_I.Name = "EnemyField_label_I";
 			this.EnemyField_label_I.Size = new System.Drawing.Size(30, 30);
 			this.EnemyField_label_I.TabIndex = 30;
@@ -3227,7 +3228,7 @@
 			// 
 			this.EnemyField_label_H.BackColor = System.Drawing.Color.Transparent;
 			this.EnemyField_label_H.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyField_label_H.Location = new System.Drawing.Point(300, 222);
+			this.EnemyField_label_H.Location = new System.Drawing.Point(317, 232);
 			this.EnemyField_label_H.Name = "EnemyField_label_H";
 			this.EnemyField_label_H.Size = new System.Drawing.Size(30, 30);
 			this.EnemyField_label_H.TabIndex = 29;
@@ -3238,7 +3239,7 @@
 			// 
 			this.EnemyField_label_G.BackColor = System.Drawing.Color.Transparent;
 			this.EnemyField_label_G.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyField_label_G.Location = new System.Drawing.Point(300, 192);
+			this.EnemyField_label_G.Location = new System.Drawing.Point(317, 202);
 			this.EnemyField_label_G.Name = "EnemyField_label_G";
 			this.EnemyField_label_G.Size = new System.Drawing.Size(30, 30);
 			this.EnemyField_label_G.TabIndex = 28;
@@ -3249,7 +3250,7 @@
 			// 
 			this.EnemyField_label_F.BackColor = System.Drawing.Color.Transparent;
 			this.EnemyField_label_F.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyField_label_F.Location = new System.Drawing.Point(300, 162);
+			this.EnemyField_label_F.Location = new System.Drawing.Point(317, 172);
 			this.EnemyField_label_F.Name = "EnemyField_label_F";
 			this.EnemyField_label_F.Size = new System.Drawing.Size(30, 30);
 			this.EnemyField_label_F.TabIndex = 27;
@@ -3260,7 +3261,7 @@
 			// 
 			this.EnemyField_label_E.BackColor = System.Drawing.Color.Transparent;
 			this.EnemyField_label_E.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyField_label_E.Location = new System.Drawing.Point(300, 132);
+			this.EnemyField_label_E.Location = new System.Drawing.Point(317, 142);
 			this.EnemyField_label_E.Name = "EnemyField_label_E";
 			this.EnemyField_label_E.Size = new System.Drawing.Size(30, 30);
 			this.EnemyField_label_E.TabIndex = 26;
@@ -3271,7 +3272,7 @@
 			// 
 			this.EnemyField_label_D.BackColor = System.Drawing.Color.Transparent;
 			this.EnemyField_label_D.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyField_label_D.Location = new System.Drawing.Point(300, 102);
+			this.EnemyField_label_D.Location = new System.Drawing.Point(317, 112);
 			this.EnemyField_label_D.Name = "EnemyField_label_D";
 			this.EnemyField_label_D.Size = new System.Drawing.Size(30, 30);
 			this.EnemyField_label_D.TabIndex = 25;
@@ -3282,7 +3283,7 @@
 			// 
 			this.EnemyField_label_C.BackColor = System.Drawing.Color.Transparent;
 			this.EnemyField_label_C.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyField_label_C.Location = new System.Drawing.Point(300, 72);
+			this.EnemyField_label_C.Location = new System.Drawing.Point(317, 82);
 			this.EnemyField_label_C.Name = "EnemyField_label_C";
 			this.EnemyField_label_C.Size = new System.Drawing.Size(30, 30);
 			this.EnemyField_label_C.TabIndex = 24;
@@ -3293,7 +3294,7 @@
 			// 
 			this.EnemyField_label_B.BackColor = System.Drawing.Color.Transparent;
 			this.EnemyField_label_B.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyField_label_B.Location = new System.Drawing.Point(300, 42);
+			this.EnemyField_label_B.Location = new System.Drawing.Point(317, 52);
 			this.EnemyField_label_B.Name = "EnemyField_label_B";
 			this.EnemyField_label_B.Size = new System.Drawing.Size(30, 30);
 			this.EnemyField_label_B.TabIndex = 23;
@@ -3304,7 +3305,7 @@
 			// 
 			this.EnemyField_label_A.BackColor = System.Drawing.Color.Transparent;
 			this.EnemyField_label_A.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyField_label_A.Location = new System.Drawing.Point(300, 12);
+			this.EnemyField_label_A.Location = new System.Drawing.Point(317, 22);
 			this.EnemyField_label_A.Name = "EnemyField_label_A";
 			this.EnemyField_label_A.Size = new System.Drawing.Size(30, 30);
 			this.EnemyField_label_A.TabIndex = 22;
@@ -3314,7 +3315,7 @@
 			// LetterboxText
 			// 
 			this.LetterboxText.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-			this.LetterboxText.Location = new System.Drawing.Point(191, 142);
+			this.LetterboxText.Location = new System.Drawing.Point(208, 152);
 			this.LetterboxText.MaxLength = 1;
 			this.LetterboxText.Name = "LetterboxText";
 			this.LetterboxText.Size = new System.Drawing.Size(30, 20);
@@ -3323,7 +3324,7 @@
 			// NumberboxText
 			// 
 			this.NumberboxText.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-			this.NumberboxText.Location = new System.Drawing.Point(238, 142);
+			this.NumberboxText.Location = new System.Drawing.Point(255, 152);
 			this.NumberboxText.MaxLength = 2;
 			this.NumberboxText.Name = "NumberboxText";
 			this.NumberboxText.Size = new System.Drawing.Size(30, 20);
@@ -3331,7 +3332,7 @@
 			// 
 			// FireButton
 			// 
-			this.FireButton.Location = new System.Drawing.Point(191, 168);
+			this.FireButton.Location = new System.Drawing.Point(208, 178);
 			this.FireButton.Name = "FireButton";
 			this.FireButton.Size = new System.Drawing.Size(77, 23);
 			this.FireButton.TabIndex = 34;
@@ -3343,7 +3344,7 @@
 			// 
 			this.ActionText.BackColor = System.Drawing.Color.Transparent;
 			this.ActionText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.ActionText.Location = new System.Drawing.Point(164, 259);
+			this.ActionText.Location = new System.Drawing.Point(181, 269);
 			this.ActionText.Name = "ActionText";
 			this.ActionText.Size = new System.Drawing.Size(130, 74);
 			this.ActionText.TabIndex = 35;
@@ -3351,7 +3352,7 @@
 			// SetHorizontalPosText
 			// 
 			this.SetHorizontalPosText.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-			this.SetHorizontalPosText.Location = new System.Drawing.Point(191, 395);
+			this.SetHorizontalPosText.Location = new System.Drawing.Point(208, 405);
 			this.SetHorizontalPosText.MaxLength = 1;
 			this.SetHorizontalPosText.Name = "SetHorizontalPosText";
 			this.SetHorizontalPosText.Size = new System.Drawing.Size(30, 20);
@@ -3361,7 +3362,7 @@
 			// SetVerticalPosText
 			// 
 			this.SetVerticalPosText.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-			this.SetVerticalPosText.Location = new System.Drawing.Point(238, 395);
+			this.SetVerticalPosText.Location = new System.Drawing.Point(255, 405);
 			this.SetVerticalPosText.MaxLength = 2;
 			this.SetVerticalPosText.Name = "SetVerticalPosText";
 			this.SetVerticalPosText.Size = new System.Drawing.Size(30, 20);
@@ -3369,7 +3370,7 @@
 			// 
 			// SetShipsButton
 			// 
-			this.SetShipsButton.Location = new System.Drawing.Point(198, 535);
+			this.SetShipsButton.Location = new System.Drawing.Point(215, 545);
 			this.SetShipsButton.Name = "SetShipsButton";
 			this.SetShipsButton.Size = new System.Drawing.Size(77, 23);
 			this.SetShipsButton.TabIndex = 38;
@@ -3382,7 +3383,7 @@
 			this.VerticalOption.AutoSize = true;
 			this.VerticalOption.BackColor = System.Drawing.Color.Transparent;
 			this.VerticalOption.Checked = true;
-			this.VerticalOption.Location = new System.Drawing.Point(167, 464);
+			this.VerticalOption.Location = new System.Drawing.Point(184, 474);
 			this.VerticalOption.Name = "VerticalOption";
 			this.VerticalOption.Size = new System.Drawing.Size(60, 17);
 			this.VerticalOption.TabIndex = 42;
@@ -3394,7 +3395,7 @@
 			// 
 			this.HorizontalOption.AutoSize = true;
 			this.HorizontalOption.BackColor = System.Drawing.Color.Transparent;
-			this.HorizontalOption.Location = new System.Drawing.Point(227, 464);
+			this.HorizontalOption.Location = new System.Drawing.Point(244, 474);
 			this.HorizontalOption.Name = "HorizontalOption";
 			this.HorizontalOption.Size = new System.Drawing.Size(72, 17);
 			this.HorizontalOption.TabIndex = 43;
@@ -3410,7 +3411,7 @@
             "Galleon",
             "Pirate\'s ship",
             "Sloop"});
-			this.ChooseShipComboBox.Location = new System.Drawing.Point(173, 440);
+			this.ChooseShipComboBox.Location = new System.Drawing.Point(190, 450);
 			this.ChooseShipComboBox.Name = "ChooseShipComboBox";
 			this.ChooseShipComboBox.Size = new System.Drawing.Size(121, 21);
 			this.ChooseShipComboBox.TabIndex = 44;
@@ -3419,7 +3420,7 @@
 			// 
 			this.ErrorDialogLabel.BackColor = System.Drawing.Color.Transparent;
 			this.ErrorDialogLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.ErrorDialogLabel.Location = new System.Drawing.Point(164, 567);
+			this.ErrorDialogLabel.Location = new System.Drawing.Point(181, 577);
 			this.ErrorDialogLabel.Name = "ErrorDialogLabel";
 			this.ErrorDialogLabel.Size = new System.Drawing.Size(130, 81);
 			this.ErrorDialogLabel.TabIndex = 45;
@@ -3431,7 +3432,7 @@
 			this.ActionButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ActionButton.FlatAppearance.BorderSize = 0;
 			this.ActionButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.ActionButton.Location = new System.Drawing.Point(98, 305);
+			this.ActionButton.Location = new System.Drawing.Point(115, 315);
 			this.ActionButton.Margin = new System.Windows.Forms.Padding(0);
 			this.ActionButton.Name = "ActionButton";
 			this.ActionButton.Size = new System.Drawing.Size(100, 50);
@@ -3442,7 +3443,7 @@
 			// 
 			// ShipName_texbox
 			// 
-			this.ShipName_texbox.Location = new System.Drawing.Point(173, 500);
+			this.ShipName_texbox.Location = new System.Drawing.Point(190, 510);
 			this.ShipName_texbox.MaxLength = 15;
 			this.ShipName_texbox.Name = "ShipName_texbox";
 			this.ShipName_texbox.Size = new System.Drawing.Size(121, 20);
@@ -3451,7 +3452,7 @@
 			// RemovePiratesShip_button
 			// 
 			this.RemovePiratesShip_button.BackgroundImage = global::BattleShips.Properties.Resources.RemoveIcon;
-			this.RemovePiratesShip_button.Location = new System.Drawing.Point(797, 595);
+			this.RemovePiratesShip_button.Location = new System.Drawing.Point(814, 605);
 			this.RemovePiratesShip_button.Name = "RemovePiratesShip_button";
 			this.RemovePiratesShip_button.Size = new System.Drawing.Size(23, 23);
 			this.RemovePiratesShip_button.TabIndex = 48;
@@ -3460,7 +3461,7 @@
 			// 
 			// FishingBoat_progressBar
 			// 
-			this.FishingBoat_progressBar.Location = new System.Drawing.Point(687, 378);
+			this.FishingBoat_progressBar.Location = new System.Drawing.Point(704, 388);
 			this.FishingBoat_progressBar.Maximum = 20;
 			this.FishingBoat_progressBar.Name = "FishingBoat_progressBar";
 			this.FishingBoat_progressBar.Size = new System.Drawing.Size(60, 12);
@@ -3470,7 +3471,7 @@
 			// 
 			// Brigantine_progressBar
 			// 
-			this.Brigantine_progressBar.Location = new System.Drawing.Point(671, 438);
+			this.Brigantine_progressBar.Location = new System.Drawing.Point(688, 448);
 			this.Brigantine_progressBar.Maximum = 30;
 			this.Brigantine_progressBar.Name = "Brigantine_progressBar";
 			this.Brigantine_progressBar.Size = new System.Drawing.Size(90, 12);
@@ -3480,7 +3481,7 @@
 			// 
 			// Sloop_progressBar
 			// 
-			this.Sloop_progressBar.Location = new System.Drawing.Point(671, 498);
+			this.Sloop_progressBar.Location = new System.Drawing.Point(688, 508);
 			this.Sloop_progressBar.Maximum = 30;
 			this.Sloop_progressBar.Name = "Sloop_progressBar";
 			this.Sloop_progressBar.Size = new System.Drawing.Size(90, 12);
@@ -3490,7 +3491,7 @@
 			// 
 			// Galleon_progressBar
 			// 
-			this.Galleon_progressBar.Location = new System.Drawing.Point(657, 558);
+			this.Galleon_progressBar.Location = new System.Drawing.Point(674, 568);
 			this.Galleon_progressBar.Maximum = 40;
 			this.Galleon_progressBar.Name = "Galleon_progressBar";
 			this.Galleon_progressBar.Size = new System.Drawing.Size(121, 12);
@@ -3500,7 +3501,7 @@
 			// 
 			// PiratesShip_progressBar
 			// 
-			this.PiratesShip_progressBar.Location = new System.Drawing.Point(641, 618);
+			this.PiratesShip_progressBar.Location = new System.Drawing.Point(658, 628);
 			this.PiratesShip_progressBar.Maximum = 50;
 			this.PiratesShip_progressBar.Name = "PiratesShip_progressBar";
 			this.PiratesShip_progressBar.Size = new System.Drawing.Size(150, 12);
@@ -3512,7 +3513,7 @@
 			// 
 			this.FishingBoat_nameText.BackColor = System.Drawing.Color.Transparent;
 			this.FishingBoat_nameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.FishingBoat_nameText.Location = new System.Drawing.Point(654, 327);
+			this.FishingBoat_nameText.Location = new System.Drawing.Point(671, 337);
 			this.FishingBoat_nameText.Name = "FishingBoat_nameText";
 			this.FishingBoat_nameText.Size = new System.Drawing.Size(130, 21);
 			this.FishingBoat_nameText.TabIndex = 115;
@@ -3523,7 +3524,7 @@
 			// 
 			this.Brigantine_nameText.BackColor = System.Drawing.Color.Transparent;
 			this.Brigantine_nameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Brigantine_nameText.Location = new System.Drawing.Point(654, 387);
+			this.Brigantine_nameText.Location = new System.Drawing.Point(671, 397);
 			this.Brigantine_nameText.Name = "Brigantine_nameText";
 			this.Brigantine_nameText.Size = new System.Drawing.Size(130, 21);
 			this.Brigantine_nameText.TabIndex = 116;
@@ -3534,7 +3535,7 @@
 			// 
 			this.Sloop_nameText.BackColor = System.Drawing.Color.Transparent;
 			this.Sloop_nameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Sloop_nameText.Location = new System.Drawing.Point(654, 453);
+			this.Sloop_nameText.Location = new System.Drawing.Point(671, 463);
 			this.Sloop_nameText.Name = "Sloop_nameText";
 			this.Sloop_nameText.Size = new System.Drawing.Size(130, 21);
 			this.Sloop_nameText.TabIndex = 117;
@@ -3545,7 +3546,7 @@
 			// 
 			this.Galleon_nameText.BackColor = System.Drawing.Color.Transparent;
 			this.Galleon_nameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Galleon_nameText.Location = new System.Drawing.Point(654, 513);
+			this.Galleon_nameText.Location = new System.Drawing.Point(671, 523);
 			this.Galleon_nameText.Name = "Galleon_nameText";
 			this.Galleon_nameText.Size = new System.Drawing.Size(130, 21);
 			this.Galleon_nameText.TabIndex = 118;
@@ -3556,7 +3557,7 @@
 			// 
 			this.PiratesShip_nameText.BackColor = System.Drawing.Color.Transparent;
 			this.PiratesShip_nameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PiratesShip_nameText.Location = new System.Drawing.Point(654, 567);
+			this.PiratesShip_nameText.Location = new System.Drawing.Point(671, 577);
 			this.PiratesShip_nameText.Name = "PiratesShip_nameText";
 			this.PiratesShip_nameText.Size = new System.Drawing.Size(130, 21);
 			this.PiratesShip_nameText.TabIndex = 119;
@@ -3567,7 +3568,7 @@
 			// 
 			this.label1.BackColor = System.Drawing.Color.Transparent;
 			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label1.Location = new System.Drawing.Point(164, 482);
+			this.label1.Location = new System.Drawing.Point(181, 492);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(124, 15);
 			this.label1.TabIndex = 120;
@@ -3580,7 +3581,7 @@
 			// 
 			// cheat_button
 			// 
-			this.cheat_button.Location = new System.Drawing.Point(191, 42);
+			this.cheat_button.Location = new System.Drawing.Point(208, 52);
 			this.cheat_button.Name = "cheat_button";
 			this.cheat_button.Size = new System.Drawing.Size(77, 23);
 			this.cheat_button.TabIndex = 121;
@@ -3592,7 +3593,7 @@
 			// 
 			this.label2.BackColor = System.Drawing.Color.Transparent;
 			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label2.Location = new System.Drawing.Point(164, 422);
+			this.label2.Location = new System.Drawing.Point(181, 432);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(124, 15);
 			this.label2.TabIndex = 122;
@@ -3601,7 +3602,7 @@
 			// RemoveGalleon_button
 			// 
 			this.RemoveGalleon_button.BackgroundImage = global::BattleShips.Properties.Resources.RemoveIcon;
-			this.RemoveGalleon_button.Location = new System.Drawing.Point(797, 538);
+			this.RemoveGalleon_button.Location = new System.Drawing.Point(814, 548);
 			this.RemoveGalleon_button.Name = "RemoveGalleon_button";
 			this.RemoveGalleon_button.Size = new System.Drawing.Size(23, 23);
 			this.RemoveGalleon_button.TabIndex = 123;
@@ -3611,7 +3612,7 @@
 			// RemoveSloop_button
 			// 
 			this.RemoveSloop_button.BackgroundImage = global::BattleShips.Properties.Resources.RemoveIcon;
-			this.RemoveSloop_button.Location = new System.Drawing.Point(797, 482);
+			this.RemoveSloop_button.Location = new System.Drawing.Point(814, 492);
 			this.RemoveSloop_button.Name = "RemoveSloop_button";
 			this.RemoveSloop_button.Size = new System.Drawing.Size(23, 23);
 			this.RemoveSloop_button.TabIndex = 124;
@@ -3621,7 +3622,7 @@
 			// RemoveBrigantine_button
 			// 
 			this.RemoveBrigantine_button.BackgroundImage = global::BattleShips.Properties.Resources.RemoveIcon;
-			this.RemoveBrigantine_button.Location = new System.Drawing.Point(797, 422);
+			this.RemoveBrigantine_button.Location = new System.Drawing.Point(814, 432);
 			this.RemoveBrigantine_button.Name = "RemoveBrigantine_button";
 			this.RemoveBrigantine_button.Size = new System.Drawing.Size(23, 23);
 			this.RemoveBrigantine_button.TabIndex = 125;
@@ -3631,7 +3632,7 @@
 			// RemoveFishingBoat_button
 			// 
 			this.RemoveFishingBoat_button.BackgroundImage = global::BattleShips.Properties.Resources.RemoveIcon;
-			this.RemoveFishingBoat_button.Location = new System.Drawing.Point(797, 358);
+			this.RemoveFishingBoat_button.Location = new System.Drawing.Point(814, 368);
 			this.RemoveFishingBoat_button.Name = "RemoveFishingBoat_button";
 			this.RemoveFishingBoat_button.Size = new System.Drawing.Size(23, 23);
 			this.RemoveFishingBoat_button.TabIndex = 126;
@@ -3641,7 +3642,7 @@
 			// PiratesShip_icon
 			// 
 			this.PiratesShip_icon.Image = global::BattleShips.Properties.Resources.PiratesShip_horizontal;
-			this.PiratesShip_icon.Location = new System.Drawing.Point(641, 588);
+			this.PiratesShip_icon.Location = new System.Drawing.Point(658, 598);
 			this.PiratesShip_icon.Name = "PiratesShip_icon";
 			this.PiratesShip_icon.Size = new System.Drawing.Size(150, 30);
 			this.PiratesShip_icon.TabIndex = 109;
@@ -3651,7 +3652,7 @@
 			// Galleon_icon
 			// 
 			this.Galleon_icon.Image = global::BattleShips.Properties.Resources.Galleon_horizontal;
-			this.Galleon_icon.Location = new System.Drawing.Point(658, 531);
+			this.Galleon_icon.Location = new System.Drawing.Point(675, 541);
 			this.Galleon_icon.Name = "Galleon_icon";
 			this.Galleon_icon.Size = new System.Drawing.Size(120, 30);
 			this.Galleon_icon.TabIndex = 105;
@@ -3661,7 +3662,7 @@
 			// Sloop_icon
 			// 
 			this.Sloop_icon.Image = global::BattleShips.Properties.Resources.Sloop_horizontal;
-			this.Sloop_icon.Location = new System.Drawing.Point(671, 471);
+			this.Sloop_icon.Location = new System.Drawing.Point(688, 481);
 			this.Sloop_icon.Name = "Sloop_icon";
 			this.Sloop_icon.Size = new System.Drawing.Size(90, 30);
 			this.Sloop_icon.TabIndex = 102;
@@ -3671,7 +3672,7 @@
 			// Brigantine_icon
 			// 
 			this.Brigantine_icon.Image = global::BattleShips.Properties.Resources.Sloop_horizontal;
-			this.Brigantine_icon.Location = new System.Drawing.Point(671, 408);
+			this.Brigantine_icon.Location = new System.Drawing.Point(688, 418);
 			this.Brigantine_icon.Name = "Brigantine_icon";
 			this.Brigantine_icon.Size = new System.Drawing.Size(90, 30);
 			this.Brigantine_icon.TabIndex = 101;
@@ -3681,12 +3682,22 @@
 			// FishingBoat_icon
 			// 
 			this.FishingBoat_icon.Image = global::BattleShips.Properties.Resources.Fishing_vessel_water;
-			this.FishingBoat_icon.Location = new System.Drawing.Point(687, 348);
+			this.FishingBoat_icon.Location = new System.Drawing.Point(704, 358);
 			this.FishingBoat_icon.Name = "FishingBoat_icon";
 			this.FishingBoat_icon.Size = new System.Drawing.Size(60, 30);
 			this.FishingBoat_icon.TabIndex = 49;
 			this.FishingBoat_icon.TabStop = false;
 			this.FishingBoat_icon.Visible = false;
+			// 
+			// exit_button
+			// 
+			this.exit_button.Location = new System.Drawing.Point(1154, 617);
+			this.exit_button.Name = "exit_button";
+			this.exit_button.Size = new System.Drawing.Size(75, 23);
+			this.exit_button.TabIndex = 127;
+			this.exit_button.Text = "Exit Game";
+			this.exit_button.UseVisualStyleBackColor = true;
+			this.exit_button.Click += new System.EventHandler(this.exit_button_Click);
 			// 
 			// GameScreen
 			// 
@@ -3694,7 +3705,8 @@
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackgroundImage = global::BattleShips.Properties.Resources.Backround_blured;
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.ClientSize = new System.Drawing.Size(984, 661);
+			this.ClientSize = new System.Drawing.Size(1264, 681);
+			this.Controls.Add(this.exit_button);
 			this.Controls.Add(this.RemoveFishingBoat_button);
 			this.Controls.Add(this.RemoveBrigantine_button);
 			this.Controls.Add(this.RemoveSloop_button);
@@ -3763,8 +3775,8 @@
 			this.Controls.Add(this.PlayerField_label_B);
 			this.Controls.Add(this.PlayerField_label_A);
 			this.Controls.Add(this.PlayerField_label);
-			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-			this.MaximumSize = new System.Drawing.Size(1000, 700);
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+			this.MaximumSize = new System.Drawing.Size(1280, 720);
 			this.Name = "GameScreen";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Battle Ships";
@@ -4291,6 +4303,7 @@
 		private System.Windows.Forms.Button RemoveSloop_button;
 		private System.Windows.Forms.Button RemoveBrigantine_button;
 		private System.Windows.Forms.Button RemoveFishingBoat_button;
+		private System.Windows.Forms.Button exit_button;
 	}
 }
 
