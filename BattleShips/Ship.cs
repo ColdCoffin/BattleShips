@@ -259,13 +259,6 @@ namespace BattleShips
 				}
 
 			}
-
-			PictureBox debris = new PictureBox();
-			debris.Image = Image.FromFile("E:\\Programming\\c# vsite projects\\" +
-				"BatleShips game\\BattleShips\\BattleShips\\Art\\Destroyed_ship.png");
-
-			debris.Location = pos.point;
-			debris.BringToFront();
 			Health -= 10;
 
 			
