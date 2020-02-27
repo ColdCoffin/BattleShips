@@ -91,9 +91,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Art\boat-ships-dual-screen-fantasy-ice-pirate-ocean-snow-cool-images-pirates-boats-ship-sea-samsung-ship-jpg.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Art\pixil-frame-0.png" />
   </ItemGroup>
   <ItemGroup>
@@ -136,10 +133,13 @@
     <None Include="Art\RemoveIcon.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Art\Backround_blured.jpg" />
+    <None Include="Art\BigButtton.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Art\BigButtton.png" />
+    <None Include="Art\game_backround.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\game_backround2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -121,14 +121,8 @@
   <data name="Sloop_horizontal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\Sloop_horizontal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Fishing_vessel_water" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\Fishing_vessel_water.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Fishing_vessel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\Fishing_vessel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Backround_blured" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\Backround_blured.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Sloop_vertical" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\Sloop_vertical.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,11 +136,11 @@
   <data name="Sloop_horizontal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\Sloop_horizontal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="boat-ships-dual-screen-fantasy-ice-pirate-ocean-snow-cool-images-pirates-boats-ship-sea-samsung-ship-jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\boat-ships-dual-screen-fantasy-ice-pirate-ocean-snow-cool-images-pirates-boats-ship-sea-samsung-ship-jpg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pixil-frame-0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\pixil-frame-0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PiratesShip_vertical" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\PiratesShip_vertical.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BigButtton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\BigButtton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Destroyed_ship" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\Destroyed_ship.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,22 +148,25 @@
   <data name="Fishing_vessel_water2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\Fishing_vessel_water2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="game_backround2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\game_backround2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Galleon_horizontal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\Galleon_horizontal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Fishing_vessel_water_vertical" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\Fishing_vessel_water_vertical.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="PiratesShip_vertical" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\PiratesShip_vertical.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fishing_vessel_water" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\Fishing_vessel_water.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="PiratesShip_horizontal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\PiratesShip_horizontal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="RemoveIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\RemoveIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pixil-frame-0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\pixil-frame-0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BigButtton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\BigButtton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

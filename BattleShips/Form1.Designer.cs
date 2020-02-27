@@ -29,6 +29,7 @@
 		private void InitializeComponent()
 		{
 			this.components = new System.ComponentModel.Container();
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GameScreen));
 			this.PlayerField_label = new System.Windows.Forms.Panel();
 			this.PiratesShip_vertical_player = new System.Windows.Forms.PictureBox();
 			this.PiratesShip_horizontal_player = new System.Windows.Forms.PictureBox();
@@ -292,9 +293,7 @@
 			this.HorizontalOption = new System.Windows.Forms.RadioButton();
 			this.ChooseShipComboBox = new System.Windows.Forms.ComboBox();
 			this.ErrorDialogLabel = new System.Windows.Forms.Label();
-			this.ActionButton = new System.Windows.Forms.Button();
 			this.ShipName_texbox = new System.Windows.Forms.TextBox();
-			this.RemovePiratesShip_button = new System.Windows.Forms.Button();
 			this.FishingBoat_progressBar = new System.Windows.Forms.ProgressBar();
 			this.Brigantine_progressBar = new System.Windows.Forms.ProgressBar();
 			this.Sloop_progressBar = new System.Windows.Forms.ProgressBar();
@@ -309,16 +308,18 @@
 			this.AITimer = new System.Windows.Forms.Timer(this.components);
 			this.cheat_button = new System.Windows.Forms.Button();
 			this.label2 = new System.Windows.Forms.Label();
-			this.RemoveGalleon_button = new System.Windows.Forms.Button();
-			this.RemoveSloop_button = new System.Windows.Forms.Button();
-			this.RemoveBrigantine_button = new System.Windows.Forms.Button();
+			this.exit_button = new System.Windows.Forms.Button();
 			this.RemoveFishingBoat_button = new System.Windows.Forms.Button();
+			this.RemoveBrigantine_button = new System.Windows.Forms.Button();
+			this.RemoveSloop_button = new System.Windows.Forms.Button();
+			this.RemoveGalleon_button = new System.Windows.Forms.Button();
 			this.PiratesShip_icon = new System.Windows.Forms.PictureBox();
 			this.Galleon_icon = new System.Windows.Forms.PictureBox();
 			this.Sloop_icon = new System.Windows.Forms.PictureBox();
 			this.Brigantine_icon = new System.Windows.Forms.PictureBox();
 			this.FishingBoat_icon = new System.Windows.Forms.PictureBox();
-			this.exit_button = new System.Windows.Forms.Button();
+			this.RemovePiratesShip_button = new System.Windows.Forms.Button();
+			this.ActionButton = new System.Windows.Forms.Button();
 			this.PlayerField_label.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_vertical_player)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_horizontal_player)).BeginInit();
@@ -551,33 +552,33 @@
 			// PlayerField_label
 			// 
 			this.PlayerField_label.Controls.Add(this.PiratesShip_vertical_player);
-			this.PlayerField_label.Controls.Add(this.PiratesShip_horizontal_player);
-			this.PlayerField_label.Controls.Add(this.Brigantine_vertical_player);
-			this.PlayerField_label.Controls.Add(this.Brigantine_horizontal_player);
-			this.PlayerField_label.Controls.Add(this.Galleon_vertical_player);
 			this.PlayerField_label.Controls.Add(this.Galleon_horizontal_player);
-			this.PlayerField_label.Controls.Add(this.Sloop_vertical_player);
-			this.PlayerField_label.Controls.Add(this.Sloop_horizontal_player);
-			this.PlayerField_label.Controls.Add(this.FishingBoat_vertical_player);
 			this.PlayerField_label.Controls.Add(this.PlayerField_J10);
 			this.PlayerField_label.Controls.Add(this.PlayerField_J9);
+			this.PlayerField_label.Controls.Add(this.PiratesShip_horizontal_player);
 			this.PlayerField_label.Controls.Add(this.PlayerField_J8);
-			this.PlayerField_label.Controls.Add(this.FishingBoat_horizontal_player);
 			this.PlayerField_label.Controls.Add(this.PlayerField_J7);
+			this.PlayerField_label.Controls.Add(this.Galleon_vertical_player);
 			this.PlayerField_label.Controls.Add(this.PlayerField_J6);
+			this.PlayerField_label.Controls.Add(this.Brigantine_vertical_player);
 			this.PlayerField_label.Controls.Add(this.PlayerField_J5);
 			this.PlayerField_label.Controls.Add(this.PlayerField_J4);
+			this.PlayerField_label.Controls.Add(this.Brigantine_horizontal_player);
 			this.PlayerField_label.Controls.Add(this.PlayerField_J3);
 			this.PlayerField_label.Controls.Add(this.PlayerField_J2);
+			this.PlayerField_label.Controls.Add(this.Sloop_vertical_player);
 			this.PlayerField_label.Controls.Add(this.PlayerField_I10);
 			this.PlayerField_label.Controls.Add(this.PlayerField_I9);
+			this.PlayerField_label.Controls.Add(this.Sloop_horizontal_player);
 			this.PlayerField_label.Controls.Add(this.PlayerField_I8);
 			this.PlayerField_label.Controls.Add(this.PlayerField_I7);
 			this.PlayerField_label.Controls.Add(this.PlayerField_I6);
 			this.PlayerField_label.Controls.Add(this.PlayerField_I5);
+			this.PlayerField_label.Controls.Add(this.FishingBoat_vertical_player);
 			this.PlayerField_label.Controls.Add(this.PlayerField_I4);
 			this.PlayerField_label.Controls.Add(this.PlayerField_I3);
 			this.PlayerField_label.Controls.Add(this.PlayerField_I2);
+			this.PlayerField_label.Controls.Add(this.FishingBoat_horizontal_player);
 			this.PlayerField_label.Controls.Add(this.PlayerField_H10);
 			this.PlayerField_label.Controls.Add(this.PlayerField_H9);
 			this.PlayerField_label.Controls.Add(this.PlayerField_H8);
@@ -660,7 +661,7 @@
 			this.PlayerField_label.Controls.Add(this.PlayerField_A3);
 			this.PlayerField_label.Controls.Add(this.PlayerField_A2);
 			this.PlayerField_label.Controls.Add(this.PlayerField_A1);
-			this.PlayerField_label.Location = new System.Drawing.Point(353, 358);
+			this.PlayerField_label.Location = new System.Drawing.Point(467, 359);
 			this.PlayerField_label.Name = "PlayerField_label";
 			this.PlayerField_label.Size = new System.Drawing.Size(300, 300);
 			this.PlayerField_label.TabIndex = 0;
@@ -668,7 +669,7 @@
 			// PiratesShip_vertical_player
 			// 
 			this.PiratesShip_vertical_player.Image = global::BattleShips.Properties.Resources.PiratesShip_vertical;
-			this.PiratesShip_vertical_player.Location = new System.Drawing.Point(153, 150);
+			this.PiratesShip_vertical_player.Location = new System.Drawing.Point(237, 134);
 			this.PiratesShip_vertical_player.Name = "PiratesShip_vertical_player";
 			this.PiratesShip_vertical_player.Size = new System.Drawing.Size(30, 150);
 			this.PiratesShip_vertical_player.TabIndex = 109;
@@ -678,7 +679,7 @@
 			// PiratesShip_horizontal_player
 			// 
 			this.PiratesShip_horizontal_player.Image = global::BattleShips.Properties.Resources.PiratesShip_horizontal;
-			this.PiratesShip_horizontal_player.Location = new System.Drawing.Point(3, 183);
+			this.PiratesShip_horizontal_player.Location = new System.Drawing.Point(11, 166);
 			this.PiratesShip_horizontal_player.Name = "PiratesShip_horizontal_player";
 			this.PiratesShip_horizontal_player.Size = new System.Drawing.Size(150, 30);
 			this.PiratesShip_horizontal_player.TabIndex = 108;
@@ -687,8 +688,8 @@
 			// 
 			// Brigantine_vertical_player
 			// 
-			this.Brigantine_vertical_player.Image = global::BattleShips.Properties.Resources.Sloop_vertical;
-			this.Brigantine_vertical_player.Location = new System.Drawing.Point(213, 0);
+			this.Brigantine_vertical_player.Image = ((System.Drawing.Image)(resources.GetObject("Brigantine_vertical_player.Image")));
+			this.Brigantine_vertical_player.Location = new System.Drawing.Point(113, 30);
 			this.Brigantine_vertical_player.Name = "Brigantine_vertical_player";
 			this.Brigantine_vertical_player.Size = new System.Drawing.Size(30, 90);
 			this.Brigantine_vertical_player.TabIndex = 107;
@@ -697,8 +698,8 @@
 			// 
 			// Brigantine_horizontal_player
 			// 
-			this.Brigantine_horizontal_player.Image = global::BattleShips.Properties.Resources.Sloop_horizontal;
-			this.Brigantine_horizontal_player.Location = new System.Drawing.Point(120, 3);
+			this.Brigantine_horizontal_player.Image = ((System.Drawing.Image)(resources.GetObject("Brigantine_horizontal_player.Image")));
+			this.Brigantine_horizontal_player.Location = new System.Drawing.Point(198, 90);
 			this.Brigantine_horizontal_player.Name = "Brigantine_horizontal_player";
 			this.Brigantine_horizontal_player.Size = new System.Drawing.Size(90, 30);
 			this.Brigantine_horizontal_player.TabIndex = 106;
@@ -708,7 +709,7 @@
 			// Galleon_vertical_player
 			// 
 			this.Galleon_vertical_player.Image = global::BattleShips.Properties.Resources.Galleon_vertical;
-			this.Galleon_vertical_player.Location = new System.Drawing.Point(270, 0);
+			this.Galleon_vertical_player.Location = new System.Drawing.Point(61, 13);
 			this.Galleon_vertical_player.Name = "Galleon_vertical_player";
 			this.Galleon_vertical_player.Size = new System.Drawing.Size(30, 120);
 			this.Galleon_vertical_player.TabIndex = 105;
@@ -718,7 +719,7 @@
 			// Galleon_horizontal_player
 			// 
 			this.Galleon_horizontal_player.Image = global::BattleShips.Properties.Resources.Galleon_horizontal;
-			this.Galleon_horizontal_player.Location = new System.Drawing.Point(180, 123);
+			this.Galleon_horizontal_player.Location = new System.Drawing.Point(27, 237);
 			this.Galleon_horizontal_player.Name = "Galleon_horizontal_player";
 			this.Galleon_horizontal_player.Size = new System.Drawing.Size(120, 30);
 			this.Galleon_horizontal_player.TabIndex = 104;
@@ -727,8 +728,8 @@
 			// 
 			// Sloop_vertical_player
 			// 
-			this.Sloop_vertical_player.Image = global::BattleShips.Properties.Resources.Sloop_vertical;
-			this.Sloop_vertical_player.Location = new System.Drawing.Point(0, 60);
+			this.Sloop_vertical_player.Image = ((System.Drawing.Image)(resources.GetObject("Sloop_vertical_player.Image")));
+			this.Sloop_vertical_player.Location = new System.Drawing.Point(193, 139);
 			this.Sloop_vertical_player.Name = "Sloop_vertical_player";
 			this.Sloop_vertical_player.Size = new System.Drawing.Size(30, 90);
 			this.Sloop_vertical_player.TabIndex = 101;
@@ -737,8 +738,8 @@
 			// 
 			// Sloop_horizontal_player
 			// 
-			this.Sloop_horizontal_player.Image = global::BattleShips.Properties.Resources.Sloop_horizontal;
-			this.Sloop_horizontal_player.Location = new System.Drawing.Point(27, 60);
+			this.Sloop_horizontal_player.Image = ((System.Drawing.Image)(resources.GetObject("Sloop_horizontal_player.Image")));
+			this.Sloop_horizontal_player.Location = new System.Drawing.Point(97, 126);
 			this.Sloop_horizontal_player.Name = "Sloop_horizontal_player";
 			this.Sloop_horizontal_player.Size = new System.Drawing.Size(90, 30);
 			this.Sloop_horizontal_player.TabIndex = 100;
@@ -748,7 +749,7 @@
 			// FishingBoat_vertical_player
 			// 
 			this.FishingBoat_vertical_player.Image = global::BattleShips.Properties.Resources.Fishing_vessel_water_vertical;
-			this.FishingBoat_vertical_player.Location = new System.Drawing.Point(0, 0);
+			this.FishingBoat_vertical_player.Location = new System.Drawing.Point(171, 27);
 			this.FishingBoat_vertical_player.Name = "FishingBoat_vertical_player";
 			this.FishingBoat_vertical_player.Size = new System.Drawing.Size(30, 60);
 			this.FishingBoat_vertical_player.TabIndex = 39;
@@ -757,7 +758,7 @@
 			// 
 			// PlayerField_J10
 			// 
-			this.PlayerField_J10.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_J10.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_J10.Image")));
 			this.PlayerField_J10.Location = new System.Drawing.Point(270, 270);
 			this.PlayerField_J10.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_J10.Name = "PlayerField_J10";
@@ -767,7 +768,7 @@
 			// 
 			// PlayerField_J9
 			// 
-			this.PlayerField_J9.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_J9.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_J9.Image")));
 			this.PlayerField_J9.Location = new System.Drawing.Point(240, 270);
 			this.PlayerField_J9.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_J9.Name = "PlayerField_J9";
@@ -777,7 +778,7 @@
 			// 
 			// PlayerField_J8
 			// 
-			this.PlayerField_J8.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_J8.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_J8.Image")));
 			this.PlayerField_J8.Location = new System.Drawing.Point(210, 270);
 			this.PlayerField_J8.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_J8.Name = "PlayerField_J8";
@@ -788,7 +789,7 @@
 			// FishingBoat_horizontal_player
 			// 
 			this.FishingBoat_horizontal_player.Image = global::BattleShips.Properties.Resources.Fishing_vessel_water;
-			this.FishingBoat_horizontal_player.Location = new System.Drawing.Point(30, 3);
+			this.FishingBoat_horizontal_player.Location = new System.Drawing.Point(207, 41);
 			this.FishingBoat_horizontal_player.Name = "FishingBoat_horizontal_player";
 			this.FishingBoat_horizontal_player.Size = new System.Drawing.Size(60, 30);
 			this.FishingBoat_horizontal_player.TabIndex = 36;
@@ -797,7 +798,7 @@
 			// 
 			// PlayerField_J7
 			// 
-			this.PlayerField_J7.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_J7.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_J7.Image")));
 			this.PlayerField_J7.Location = new System.Drawing.Point(180, 270);
 			this.PlayerField_J7.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_J7.Name = "PlayerField_J7";
@@ -807,7 +808,7 @@
 			// 
 			// PlayerField_J6
 			// 
-			this.PlayerField_J6.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_J6.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_J6.Image")));
 			this.PlayerField_J6.Location = new System.Drawing.Point(150, 270);
 			this.PlayerField_J6.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_J6.Name = "PlayerField_J6";
@@ -817,7 +818,7 @@
 			// 
 			// PlayerField_J5
 			// 
-			this.PlayerField_J5.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_J5.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_J5.Image")));
 			this.PlayerField_J5.Location = new System.Drawing.Point(120, 270);
 			this.PlayerField_J5.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_J5.Name = "PlayerField_J5";
@@ -827,7 +828,7 @@
 			// 
 			// PlayerField_J4
 			// 
-			this.PlayerField_J4.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_J4.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_J4.Image")));
 			this.PlayerField_J4.Location = new System.Drawing.Point(90, 270);
 			this.PlayerField_J4.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_J4.Name = "PlayerField_J4";
@@ -837,7 +838,7 @@
 			// 
 			// PlayerField_J3
 			// 
-			this.PlayerField_J3.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_J3.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_J3.Image")));
 			this.PlayerField_J3.Location = new System.Drawing.Point(60, 270);
 			this.PlayerField_J3.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_J3.Name = "PlayerField_J3";
@@ -857,7 +858,7 @@
 			// 
 			// PlayerField_I10
 			// 
-			this.PlayerField_I10.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_I10.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_I10.Image")));
 			this.PlayerField_I10.Location = new System.Drawing.Point(270, 240);
 			this.PlayerField_I10.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_I10.Name = "PlayerField_I10";
@@ -867,7 +868,7 @@
 			// 
 			// PlayerField_I9
 			// 
-			this.PlayerField_I9.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_I9.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_I9.Image")));
 			this.PlayerField_I9.Location = new System.Drawing.Point(240, 240);
 			this.PlayerField_I9.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_I9.Name = "PlayerField_I9";
@@ -877,7 +878,7 @@
 			// 
 			// PlayerField_I8
 			// 
-			this.PlayerField_I8.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_I8.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_I8.Image")));
 			this.PlayerField_I8.Location = new System.Drawing.Point(210, 240);
 			this.PlayerField_I8.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_I8.Name = "PlayerField_I8";
@@ -887,7 +888,7 @@
 			// 
 			// PlayerField_I7
 			// 
-			this.PlayerField_I7.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_I7.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_I7.Image")));
 			this.PlayerField_I7.Location = new System.Drawing.Point(180, 240);
 			this.PlayerField_I7.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_I7.Name = "PlayerField_I7";
@@ -897,7 +898,7 @@
 			// 
 			// PlayerField_I6
 			// 
-			this.PlayerField_I6.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_I6.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_I6.Image")));
 			this.PlayerField_I6.Location = new System.Drawing.Point(150, 240);
 			this.PlayerField_I6.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_I6.Name = "PlayerField_I6";
@@ -907,7 +908,7 @@
 			// 
 			// PlayerField_I5
 			// 
-			this.PlayerField_I5.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_I5.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_I5.Image")));
 			this.PlayerField_I5.Location = new System.Drawing.Point(120, 240);
 			this.PlayerField_I5.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_I5.Name = "PlayerField_I5";
@@ -917,7 +918,7 @@
 			// 
 			// PlayerField_I4
 			// 
-			this.PlayerField_I4.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_I4.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_I4.Image")));
 			this.PlayerField_I4.Location = new System.Drawing.Point(90, 240);
 			this.PlayerField_I4.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_I4.Name = "PlayerField_I4";
@@ -927,7 +928,7 @@
 			// 
 			// PlayerField_I3
 			// 
-			this.PlayerField_I3.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_I3.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_I3.Image")));
 			this.PlayerField_I3.Location = new System.Drawing.Point(60, 240);
 			this.PlayerField_I3.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_I3.Name = "PlayerField_I3";
@@ -937,7 +938,7 @@
 			// 
 			// PlayerField_I2
 			// 
-			this.PlayerField_I2.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_I2.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_I2.Image")));
 			this.PlayerField_I2.Location = new System.Drawing.Point(30, 240);
 			this.PlayerField_I2.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_I2.Name = "PlayerField_I2";
@@ -947,7 +948,7 @@
 			// 
 			// PlayerField_H10
 			// 
-			this.PlayerField_H10.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_H10.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_H10.Image")));
 			this.PlayerField_H10.Location = new System.Drawing.Point(270, 210);
 			this.PlayerField_H10.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_H10.Name = "PlayerField_H10";
@@ -957,7 +958,7 @@
 			// 
 			// PlayerField_H9
 			// 
-			this.PlayerField_H9.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_H9.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_H9.Image")));
 			this.PlayerField_H9.Location = new System.Drawing.Point(240, 210);
 			this.PlayerField_H9.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_H9.Name = "PlayerField_H9";
@@ -967,7 +968,7 @@
 			// 
 			// PlayerField_H8
 			// 
-			this.PlayerField_H8.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_H8.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_H8.Image")));
 			this.PlayerField_H8.Location = new System.Drawing.Point(210, 210);
 			this.PlayerField_H8.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_H8.Name = "PlayerField_H8";
@@ -977,7 +978,7 @@
 			// 
 			// PlayerField_H7
 			// 
-			this.PlayerField_H7.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_H7.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_H7.Image")));
 			this.PlayerField_H7.Location = new System.Drawing.Point(180, 210);
 			this.PlayerField_H7.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_H7.Name = "PlayerField_H7";
@@ -987,7 +988,7 @@
 			// 
 			// PlayerField_H6
 			// 
-			this.PlayerField_H6.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_H6.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_H6.Image")));
 			this.PlayerField_H6.Location = new System.Drawing.Point(150, 210);
 			this.PlayerField_H6.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_H6.Name = "PlayerField_H6";
@@ -997,7 +998,7 @@
 			// 
 			// PlayerField_H5
 			// 
-			this.PlayerField_H5.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_H5.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_H5.Image")));
 			this.PlayerField_H5.Location = new System.Drawing.Point(120, 210);
 			this.PlayerField_H5.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_H5.Name = "PlayerField_H5";
@@ -1007,7 +1008,7 @@
 			// 
 			// PlayerField_H4
 			// 
-			this.PlayerField_H4.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_H4.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_H4.Image")));
 			this.PlayerField_H4.Location = new System.Drawing.Point(90, 210);
 			this.PlayerField_H4.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_H4.Name = "PlayerField_H4";
@@ -1017,7 +1018,7 @@
 			// 
 			// PlayerField_H3
 			// 
-			this.PlayerField_H3.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_H3.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_H3.Image")));
 			this.PlayerField_H3.Location = new System.Drawing.Point(60, 210);
 			this.PlayerField_H3.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_H3.Name = "PlayerField_H3";
@@ -1027,7 +1028,7 @@
 			// 
 			// PlayerField_H2
 			// 
-			this.PlayerField_H2.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_H2.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_H2.Image")));
 			this.PlayerField_H2.Location = new System.Drawing.Point(30, 210);
 			this.PlayerField_H2.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_H2.Name = "PlayerField_H2";
@@ -1037,7 +1038,7 @@
 			// 
 			// PlayerField_G10
 			// 
-			this.PlayerField_G10.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_G10.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_G10.Image")));
 			this.PlayerField_G10.Location = new System.Drawing.Point(270, 180);
 			this.PlayerField_G10.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_G10.Name = "PlayerField_G10";
@@ -1047,7 +1048,7 @@
 			// 
 			// PlayerField_G9
 			// 
-			this.PlayerField_G9.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_G9.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_G9.Image")));
 			this.PlayerField_G9.Location = new System.Drawing.Point(240, 180);
 			this.PlayerField_G9.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_G9.Name = "PlayerField_G9";
@@ -1057,7 +1058,7 @@
 			// 
 			// PlayerField_G8
 			// 
-			this.PlayerField_G8.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_G8.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_G8.Image")));
 			this.PlayerField_G8.Location = new System.Drawing.Point(210, 180);
 			this.PlayerField_G8.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_G8.Name = "PlayerField_G8";
@@ -1067,7 +1068,7 @@
 			// 
 			// PlayerField_G7
 			// 
-			this.PlayerField_G7.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_G7.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_G7.Image")));
 			this.PlayerField_G7.Location = new System.Drawing.Point(180, 180);
 			this.PlayerField_G7.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_G7.Name = "PlayerField_G7";
@@ -1077,7 +1078,7 @@
 			// 
 			// PlayerField_G6
 			// 
-			this.PlayerField_G6.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_G6.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_G6.Image")));
 			this.PlayerField_G6.Location = new System.Drawing.Point(150, 180);
 			this.PlayerField_G6.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_G6.Name = "PlayerField_G6";
@@ -1087,7 +1088,7 @@
 			// 
 			// PlayerField_G5
 			// 
-			this.PlayerField_G5.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_G5.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_G5.Image")));
 			this.PlayerField_G5.Location = new System.Drawing.Point(120, 180);
 			this.PlayerField_G5.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_G5.Name = "PlayerField_G5";
@@ -1097,7 +1098,7 @@
 			// 
 			// PlayerField_G4
 			// 
-			this.PlayerField_G4.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_G4.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_G4.Image")));
 			this.PlayerField_G4.Location = new System.Drawing.Point(90, 180);
 			this.PlayerField_G4.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_G4.Name = "PlayerField_G4";
@@ -1107,7 +1108,7 @@
 			// 
 			// PlayerField_G3
 			// 
-			this.PlayerField_G3.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_G3.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_G3.Image")));
 			this.PlayerField_G3.Location = new System.Drawing.Point(60, 180);
 			this.PlayerField_G3.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_G3.Name = "PlayerField_G3";
@@ -1117,7 +1118,7 @@
 			// 
 			// PlayerField_G2
 			// 
-			this.PlayerField_G2.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_G2.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_G2.Image")));
 			this.PlayerField_G2.Location = new System.Drawing.Point(30, 180);
 			this.PlayerField_G2.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_G2.Name = "PlayerField_G2";
@@ -1127,7 +1128,7 @@
 			// 
 			// PlayerField_F10
 			// 
-			this.PlayerField_F10.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_F10.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_F10.Image")));
 			this.PlayerField_F10.Location = new System.Drawing.Point(270, 150);
 			this.PlayerField_F10.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_F10.Name = "PlayerField_F10";
@@ -1137,7 +1138,7 @@
 			// 
 			// PlayerField_F9
 			// 
-			this.PlayerField_F9.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_F9.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_F9.Image")));
 			this.PlayerField_F9.Location = new System.Drawing.Point(240, 150);
 			this.PlayerField_F9.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_F9.Name = "PlayerField_F9";
@@ -1147,7 +1148,7 @@
 			// 
 			// PlayerField_F8
 			// 
-			this.PlayerField_F8.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_F8.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_F8.Image")));
 			this.PlayerField_F8.Location = new System.Drawing.Point(210, 150);
 			this.PlayerField_F8.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_F8.Name = "PlayerField_F8";
@@ -1157,7 +1158,7 @@
 			// 
 			// PlayerField_F7
 			// 
-			this.PlayerField_F7.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_F7.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_F7.Image")));
 			this.PlayerField_F7.Location = new System.Drawing.Point(180, 150);
 			this.PlayerField_F7.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_F7.Name = "PlayerField_F7";
@@ -1167,7 +1168,7 @@
 			// 
 			// PlayerField_F6
 			// 
-			this.PlayerField_F6.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_F6.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_F6.Image")));
 			this.PlayerField_F6.Location = new System.Drawing.Point(150, 150);
 			this.PlayerField_F6.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_F6.Name = "PlayerField_F6";
@@ -1177,7 +1178,7 @@
 			// 
 			// PlayerField_F5
 			// 
-			this.PlayerField_F5.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_F5.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_F5.Image")));
 			this.PlayerField_F5.Location = new System.Drawing.Point(120, 150);
 			this.PlayerField_F5.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_F5.Name = "PlayerField_F5";
@@ -1187,7 +1188,7 @@
 			// 
 			// PlayerField_F4
 			// 
-			this.PlayerField_F4.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_F4.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_F4.Image")));
 			this.PlayerField_F4.Location = new System.Drawing.Point(90, 150);
 			this.PlayerField_F4.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_F4.Name = "PlayerField_F4";
@@ -1197,7 +1198,7 @@
 			// 
 			// PlayerField_F3
 			// 
-			this.PlayerField_F3.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_F3.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_F3.Image")));
 			this.PlayerField_F3.Location = new System.Drawing.Point(60, 150);
 			this.PlayerField_F3.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_F3.Name = "PlayerField_F3";
@@ -1207,7 +1208,7 @@
 			// 
 			// PlayerField_F2
 			// 
-			this.PlayerField_F2.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_F2.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_F2.Image")));
 			this.PlayerField_F2.Location = new System.Drawing.Point(30, 150);
 			this.PlayerField_F2.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_F2.Name = "PlayerField_F2";
@@ -1217,7 +1218,7 @@
 			// 
 			// PlayerField_E10
 			// 
-			this.PlayerField_E10.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_E10.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_E10.Image")));
 			this.PlayerField_E10.Location = new System.Drawing.Point(270, 120);
 			this.PlayerField_E10.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_E10.Name = "PlayerField_E10";
@@ -1227,7 +1228,7 @@
 			// 
 			// PlayerField_E9
 			// 
-			this.PlayerField_E9.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_E9.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_E9.Image")));
 			this.PlayerField_E9.Location = new System.Drawing.Point(240, 120);
 			this.PlayerField_E9.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_E9.Name = "PlayerField_E9";
@@ -1237,7 +1238,7 @@
 			// 
 			// PlayerField_E8
 			// 
-			this.PlayerField_E8.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_E8.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_E8.Image")));
 			this.PlayerField_E8.Location = new System.Drawing.Point(210, 120);
 			this.PlayerField_E8.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_E8.Name = "PlayerField_E8";
@@ -1247,7 +1248,7 @@
 			// 
 			// PlayerField_E7
 			// 
-			this.PlayerField_E7.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_E7.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_E7.Image")));
 			this.PlayerField_E7.Location = new System.Drawing.Point(180, 120);
 			this.PlayerField_E7.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_E7.Name = "PlayerField_E7";
@@ -1257,7 +1258,7 @@
 			// 
 			// PlayerField_E6
 			// 
-			this.PlayerField_E6.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_E6.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_E6.Image")));
 			this.PlayerField_E6.Location = new System.Drawing.Point(150, 120);
 			this.PlayerField_E6.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_E6.Name = "PlayerField_E6";
@@ -1267,7 +1268,7 @@
 			// 
 			// PlayerField_E5
 			// 
-			this.PlayerField_E5.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_E5.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_E5.Image")));
 			this.PlayerField_E5.Location = new System.Drawing.Point(120, 120);
 			this.PlayerField_E5.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_E5.Name = "PlayerField_E5";
@@ -1277,7 +1278,7 @@
 			// 
 			// PlayerField_E4
 			// 
-			this.PlayerField_E4.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_E4.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_E4.Image")));
 			this.PlayerField_E4.Location = new System.Drawing.Point(90, 120);
 			this.PlayerField_E4.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_E4.Name = "PlayerField_E4";
@@ -1287,7 +1288,7 @@
 			// 
 			// PlayerField_E3
 			// 
-			this.PlayerField_E3.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_E3.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_E3.Image")));
 			this.PlayerField_E3.Location = new System.Drawing.Point(60, 120);
 			this.PlayerField_E3.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_E3.Name = "PlayerField_E3";
@@ -1297,7 +1298,7 @@
 			// 
 			// PlayerField_E2
 			// 
-			this.PlayerField_E2.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_E2.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_E2.Image")));
 			this.PlayerField_E2.Location = new System.Drawing.Point(30, 120);
 			this.PlayerField_E2.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_E2.Name = "PlayerField_E2";
@@ -1307,7 +1308,7 @@
 			// 
 			// PlayerField_D10
 			// 
-			this.PlayerField_D10.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_D10.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_D10.Image")));
 			this.PlayerField_D10.Location = new System.Drawing.Point(270, 90);
 			this.PlayerField_D10.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_D10.Name = "PlayerField_D10";
@@ -1317,7 +1318,7 @@
 			// 
 			// PlayerField_D9
 			// 
-			this.PlayerField_D9.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_D9.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_D9.Image")));
 			this.PlayerField_D9.Location = new System.Drawing.Point(240, 90);
 			this.PlayerField_D9.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_D9.Name = "PlayerField_D9";
@@ -1327,7 +1328,7 @@
 			// 
 			// PlayerField_D8
 			// 
-			this.PlayerField_D8.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_D8.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_D8.Image")));
 			this.PlayerField_D8.Location = new System.Drawing.Point(210, 90);
 			this.PlayerField_D8.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_D8.Name = "PlayerField_D8";
@@ -1337,7 +1338,7 @@
 			// 
 			// PlayerField_D7
 			// 
-			this.PlayerField_D7.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_D7.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_D7.Image")));
 			this.PlayerField_D7.Location = new System.Drawing.Point(180, 90);
 			this.PlayerField_D7.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_D7.Name = "PlayerField_D7";
@@ -1347,7 +1348,7 @@
 			// 
 			// PlayerField_D6
 			// 
-			this.PlayerField_D6.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_D6.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_D6.Image")));
 			this.PlayerField_D6.Location = new System.Drawing.Point(150, 90);
 			this.PlayerField_D6.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_D6.Name = "PlayerField_D6";
@@ -1357,7 +1358,7 @@
 			// 
 			// PlayerField_D5
 			// 
-			this.PlayerField_D5.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_D5.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_D5.Image")));
 			this.PlayerField_D5.Location = new System.Drawing.Point(120, 90);
 			this.PlayerField_D5.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_D5.Name = "PlayerField_D5";
@@ -1367,7 +1368,7 @@
 			// 
 			// PlayerField_D4
 			// 
-			this.PlayerField_D4.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_D4.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_D4.Image")));
 			this.PlayerField_D4.Location = new System.Drawing.Point(90, 90);
 			this.PlayerField_D4.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_D4.Name = "PlayerField_D4";
@@ -1377,7 +1378,7 @@
 			// 
 			// PlayerField_D3
 			// 
-			this.PlayerField_D3.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_D3.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_D3.Image")));
 			this.PlayerField_D3.Location = new System.Drawing.Point(60, 90);
 			this.PlayerField_D3.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_D3.Name = "PlayerField_D3";
@@ -1387,7 +1388,7 @@
 			// 
 			// PlayerField_D2
 			// 
-			this.PlayerField_D2.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_D2.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_D2.Image")));
 			this.PlayerField_D2.Location = new System.Drawing.Point(30, 90);
 			this.PlayerField_D2.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_D2.Name = "PlayerField_D2";
@@ -1397,7 +1398,7 @@
 			// 
 			// PlayerField_C10
 			// 
-			this.PlayerField_C10.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_C10.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_C10.Image")));
 			this.PlayerField_C10.Location = new System.Drawing.Point(270, 60);
 			this.PlayerField_C10.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_C10.Name = "PlayerField_C10";
@@ -1407,7 +1408,7 @@
 			// 
 			// PlayerField_C9
 			// 
-			this.PlayerField_C9.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_C9.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_C9.Image")));
 			this.PlayerField_C9.Location = new System.Drawing.Point(240, 60);
 			this.PlayerField_C9.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_C9.Name = "PlayerField_C9";
@@ -1417,7 +1418,7 @@
 			// 
 			// PlayerField_C8
 			// 
-			this.PlayerField_C8.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_C8.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_C8.Image")));
 			this.PlayerField_C8.Location = new System.Drawing.Point(210, 60);
 			this.PlayerField_C8.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_C8.Name = "PlayerField_C8";
@@ -1427,7 +1428,7 @@
 			// 
 			// PlayerField_C7
 			// 
-			this.PlayerField_C7.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_C7.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_C7.Image")));
 			this.PlayerField_C7.Location = new System.Drawing.Point(180, 60);
 			this.PlayerField_C7.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_C7.Name = "PlayerField_C7";
@@ -1437,7 +1438,7 @@
 			// 
 			// PlayerField_C6
 			// 
-			this.PlayerField_C6.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_C6.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_C6.Image")));
 			this.PlayerField_C6.Location = new System.Drawing.Point(150, 60);
 			this.PlayerField_C6.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_C6.Name = "PlayerField_C6";
@@ -1447,7 +1448,7 @@
 			// 
 			// PlayerField_C5
 			// 
-			this.PlayerField_C5.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_C5.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_C5.Image")));
 			this.PlayerField_C5.Location = new System.Drawing.Point(120, 60);
 			this.PlayerField_C5.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_C5.Name = "PlayerField_C5";
@@ -1457,7 +1458,7 @@
 			// 
 			// PlayerField_C4
 			// 
-			this.PlayerField_C4.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_C4.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_C4.Image")));
 			this.PlayerField_C4.Location = new System.Drawing.Point(90, 60);
 			this.PlayerField_C4.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_C4.Name = "PlayerField_C4";
@@ -1467,7 +1468,7 @@
 			// 
 			// PlayerField_C3
 			// 
-			this.PlayerField_C3.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_C3.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_C3.Image")));
 			this.PlayerField_C3.Location = new System.Drawing.Point(60, 60);
 			this.PlayerField_C3.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_C3.Name = "PlayerField_C3";
@@ -1477,7 +1478,7 @@
 			// 
 			// PlayerField_C2
 			// 
-			this.PlayerField_C2.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_C2.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_C2.Image")));
 			this.PlayerField_C2.Location = new System.Drawing.Point(30, 60);
 			this.PlayerField_C2.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_C2.Name = "PlayerField_C2";
@@ -1487,7 +1488,7 @@
 			// 
 			// PlayerField_B10
 			// 
-			this.PlayerField_B10.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_B10.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_B10.Image")));
 			this.PlayerField_B10.Location = new System.Drawing.Point(270, 30);
 			this.PlayerField_B10.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_B10.Name = "PlayerField_B10";
@@ -1497,7 +1498,7 @@
 			// 
 			// PlayerField_B9
 			// 
-			this.PlayerField_B9.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_B9.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_B9.Image")));
 			this.PlayerField_B9.Location = new System.Drawing.Point(240, 30);
 			this.PlayerField_B9.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_B9.Name = "PlayerField_B9";
@@ -1507,7 +1508,7 @@
 			// 
 			// PlayerField_B8
 			// 
-			this.PlayerField_B8.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_B8.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_B8.Image")));
 			this.PlayerField_B8.Location = new System.Drawing.Point(210, 30);
 			this.PlayerField_B8.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_B8.Name = "PlayerField_B8";
@@ -1517,7 +1518,7 @@
 			// 
 			// PlayerField_B7
 			// 
-			this.PlayerField_B7.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_B7.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_B7.Image")));
 			this.PlayerField_B7.Location = new System.Drawing.Point(180, 30);
 			this.PlayerField_B7.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_B7.Name = "PlayerField_B7";
@@ -1527,7 +1528,7 @@
 			// 
 			// PlayerField_B6
 			// 
-			this.PlayerField_B6.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_B6.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_B6.Image")));
 			this.PlayerField_B6.Location = new System.Drawing.Point(150, 30);
 			this.PlayerField_B6.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_B6.Name = "PlayerField_B6";
@@ -1537,7 +1538,7 @@
 			// 
 			// PlayerField_B5
 			// 
-			this.PlayerField_B5.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_B5.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_B5.Image")));
 			this.PlayerField_B5.Location = new System.Drawing.Point(120, 30);
 			this.PlayerField_B5.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_B5.Name = "PlayerField_B5";
@@ -1547,7 +1548,7 @@
 			// 
 			// PlayerField_B4
 			// 
-			this.PlayerField_B4.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_B4.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_B4.Image")));
 			this.PlayerField_B4.Location = new System.Drawing.Point(90, 30);
 			this.PlayerField_B4.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_B4.Name = "PlayerField_B4";
@@ -1557,7 +1558,7 @@
 			// 
 			// PlayerField_B3
 			// 
-			this.PlayerField_B3.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_B3.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_B3.Image")));
 			this.PlayerField_B3.Location = new System.Drawing.Point(60, 30);
 			this.PlayerField_B3.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_B3.Name = "PlayerField_B3";
@@ -1567,7 +1568,7 @@
 			// 
 			// PlayerField_B2
 			// 
-			this.PlayerField_B2.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_B2.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_B2.Image")));
 			this.PlayerField_B2.Location = new System.Drawing.Point(30, 30);
 			this.PlayerField_B2.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_B2.Name = "PlayerField_B2";
@@ -1577,7 +1578,7 @@
 			// 
 			// PlayerField_A10
 			// 
-			this.PlayerField_A10.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_A10.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_A10.Image")));
 			this.PlayerField_A10.Location = new System.Drawing.Point(270, 0);
 			this.PlayerField_A10.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_A10.Name = "PlayerField_A10";
@@ -1587,7 +1588,7 @@
 			// 
 			// PlayerField_A9
 			// 
-			this.PlayerField_A9.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_A9.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_A9.Image")));
 			this.PlayerField_A9.Location = new System.Drawing.Point(240, 0);
 			this.PlayerField_A9.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_A9.Name = "PlayerField_A9";
@@ -1597,7 +1598,7 @@
 			// 
 			// PlayerField_A8
 			// 
-			this.PlayerField_A8.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_A8.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_A8.Image")));
 			this.PlayerField_A8.Location = new System.Drawing.Point(210, 0);
 			this.PlayerField_A8.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_A8.Name = "PlayerField_A8";
@@ -1607,7 +1608,7 @@
 			// 
 			// PlayerField_A7
 			// 
-			this.PlayerField_A7.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_A7.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_A7.Image")));
 			this.PlayerField_A7.Location = new System.Drawing.Point(180, 0);
 			this.PlayerField_A7.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_A7.Name = "PlayerField_A7";
@@ -1617,7 +1618,7 @@
 			// 
 			// PlayerField_A6
 			// 
-			this.PlayerField_A6.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_A6.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_A6.Image")));
 			this.PlayerField_A6.Location = new System.Drawing.Point(150, 0);
 			this.PlayerField_A6.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_A6.Name = "PlayerField_A6";
@@ -1627,7 +1628,7 @@
 			// 
 			// PlayerField_A5
 			// 
-			this.PlayerField_A5.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_A5.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_A5.Image")));
 			this.PlayerField_A5.Location = new System.Drawing.Point(120, 0);
 			this.PlayerField_A5.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_A5.Name = "PlayerField_A5";
@@ -1637,7 +1638,7 @@
 			// 
 			// PlayerField_J1
 			// 
-			this.PlayerField_J1.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_J1.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_J1.Image")));
 			this.PlayerField_J1.Location = new System.Drawing.Point(0, 270);
 			this.PlayerField_J1.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_J1.Name = "PlayerField_J1";
@@ -1647,7 +1648,7 @@
 			// 
 			// PlayerField_I1
 			// 
-			this.PlayerField_I1.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_I1.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_I1.Image")));
 			this.PlayerField_I1.Location = new System.Drawing.Point(0, 240);
 			this.PlayerField_I1.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_I1.Name = "PlayerField_I1";
@@ -1657,7 +1658,7 @@
 			// 
 			// PlayerField_H1
 			// 
-			this.PlayerField_H1.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_H1.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_H1.Image")));
 			this.PlayerField_H1.Location = new System.Drawing.Point(0, 210);
 			this.PlayerField_H1.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_H1.Name = "PlayerField_H1";
@@ -1667,7 +1668,7 @@
 			// 
 			// PlayerField_G1
 			// 
-			this.PlayerField_G1.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_G1.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_G1.Image")));
 			this.PlayerField_G1.Location = new System.Drawing.Point(0, 180);
 			this.PlayerField_G1.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_G1.Name = "PlayerField_G1";
@@ -1677,7 +1678,7 @@
 			// 
 			// PlayerField_F1
 			// 
-			this.PlayerField_F1.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_F1.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_F1.Image")));
 			this.PlayerField_F1.Location = new System.Drawing.Point(0, 150);
 			this.PlayerField_F1.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_F1.Name = "PlayerField_F1";
@@ -1687,7 +1688,7 @@
 			// 
 			// PlayerField_E1
 			// 
-			this.PlayerField_E1.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_E1.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_E1.Image")));
 			this.PlayerField_E1.Location = new System.Drawing.Point(0, 120);
 			this.PlayerField_E1.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_E1.Name = "PlayerField_E1";
@@ -1697,7 +1698,7 @@
 			// 
 			// PlayerField_D1
 			// 
-			this.PlayerField_D1.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_D1.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_D1.Image")));
 			this.PlayerField_D1.Location = new System.Drawing.Point(0, 90);
 			this.PlayerField_D1.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_D1.Name = "PlayerField_D1";
@@ -1707,7 +1708,7 @@
 			// 
 			// PlayerField_C1
 			// 
-			this.PlayerField_C1.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_C1.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_C1.Image")));
 			this.PlayerField_C1.Location = new System.Drawing.Point(0, 60);
 			this.PlayerField_C1.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_C1.Name = "PlayerField_C1";
@@ -1717,7 +1718,7 @@
 			// 
 			// PlayerField_B1
 			// 
-			this.PlayerField_B1.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_B1.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_B1.Image")));
 			this.PlayerField_B1.Location = new System.Drawing.Point(0, 30);
 			this.PlayerField_B1.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_B1.Name = "PlayerField_B1";
@@ -1727,7 +1728,7 @@
 			// 
 			// PlayerField_A4
 			// 
-			this.PlayerField_A4.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_A4.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_A4.Image")));
 			this.PlayerField_A4.Location = new System.Drawing.Point(90, 0);
 			this.PlayerField_A4.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_A4.Name = "PlayerField_A4";
@@ -1737,7 +1738,7 @@
 			// 
 			// PlayerField_A3
 			// 
-			this.PlayerField_A3.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_A3.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_A3.Image")));
 			this.PlayerField_A3.Location = new System.Drawing.Point(60, 0);
 			this.PlayerField_A3.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_A3.Name = "PlayerField_A3";
@@ -1747,7 +1748,7 @@
 			// 
 			// PlayerField_A2
 			// 
-			this.PlayerField_A2.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_A2.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_A2.Image")));
 			this.PlayerField_A2.Location = new System.Drawing.Point(30, 0);
 			this.PlayerField_A2.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_A2.Name = "PlayerField_A2";
@@ -1757,7 +1758,7 @@
 			// 
 			// PlayerField_A1
 			// 
-			this.PlayerField_A1.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_A1.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_A1.Image")));
 			this.PlayerField_A1.Location = new System.Drawing.Point(0, 0);
 			this.PlayerField_A1.Margin = new System.Windows.Forms.Padding(0);
 			this.PlayerField_A1.Name = "PlayerField_A1";
@@ -1769,7 +1770,7 @@
 			// 
 			this.PlayerField_label_A.BackColor = System.Drawing.Color.Transparent;
 			this.PlayerField_label_A.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PlayerField_label_A.Location = new System.Drawing.Point(317, 358);
+			this.PlayerField_label_A.Location = new System.Drawing.Point(431, 359);
 			this.PlayerField_label_A.Name = "PlayerField_label_A";
 			this.PlayerField_label_A.Size = new System.Drawing.Size(30, 30);
 			this.PlayerField_label_A.TabIndex = 2;
@@ -1780,7 +1781,7 @@
 			// 
 			this.PlayerField_label_B.BackColor = System.Drawing.Color.Transparent;
 			this.PlayerField_label_B.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PlayerField_label_B.Location = new System.Drawing.Point(317, 388);
+			this.PlayerField_label_B.Location = new System.Drawing.Point(431, 389);
 			this.PlayerField_label_B.Name = "PlayerField_label_B";
 			this.PlayerField_label_B.Size = new System.Drawing.Size(30, 30);
 			this.PlayerField_label_B.TabIndex = 3;
@@ -1791,7 +1792,7 @@
 			// 
 			this.PlayerField_label_C.BackColor = System.Drawing.Color.Transparent;
 			this.PlayerField_label_C.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PlayerField_label_C.Location = new System.Drawing.Point(317, 418);
+			this.PlayerField_label_C.Location = new System.Drawing.Point(431, 419);
 			this.PlayerField_label_C.Name = "PlayerField_label_C";
 			this.PlayerField_label_C.Size = new System.Drawing.Size(30, 30);
 			this.PlayerField_label_C.TabIndex = 4;
@@ -1802,7 +1803,7 @@
 			// 
 			this.PlayerField_label_D.BackColor = System.Drawing.Color.Transparent;
 			this.PlayerField_label_D.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PlayerField_label_D.Location = new System.Drawing.Point(317, 448);
+			this.PlayerField_label_D.Location = new System.Drawing.Point(431, 449);
 			this.PlayerField_label_D.Name = "PlayerField_label_D";
 			this.PlayerField_label_D.Size = new System.Drawing.Size(30, 30);
 			this.PlayerField_label_D.TabIndex = 5;
@@ -1813,7 +1814,7 @@
 			// 
 			this.PlayerField_label_E.BackColor = System.Drawing.Color.Transparent;
 			this.PlayerField_label_E.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PlayerField_label_E.Location = new System.Drawing.Point(317, 478);
+			this.PlayerField_label_E.Location = new System.Drawing.Point(431, 479);
 			this.PlayerField_label_E.Name = "PlayerField_label_E";
 			this.PlayerField_label_E.Size = new System.Drawing.Size(30, 30);
 			this.PlayerField_label_E.TabIndex = 6;
@@ -1824,7 +1825,7 @@
 			// 
 			this.PlayerField_label_F.BackColor = System.Drawing.Color.Transparent;
 			this.PlayerField_label_F.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PlayerField_label_F.Location = new System.Drawing.Point(317, 508);
+			this.PlayerField_label_F.Location = new System.Drawing.Point(431, 509);
 			this.PlayerField_label_F.Name = "PlayerField_label_F";
 			this.PlayerField_label_F.Size = new System.Drawing.Size(30, 30);
 			this.PlayerField_label_F.TabIndex = 7;
@@ -1835,7 +1836,7 @@
 			// 
 			this.PlayerField_label_G.BackColor = System.Drawing.Color.Transparent;
 			this.PlayerField_label_G.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PlayerField_label_G.Location = new System.Drawing.Point(317, 538);
+			this.PlayerField_label_G.Location = new System.Drawing.Point(431, 539);
 			this.PlayerField_label_G.Name = "PlayerField_label_G";
 			this.PlayerField_label_G.Size = new System.Drawing.Size(30, 30);
 			this.PlayerField_label_G.TabIndex = 8;
@@ -1846,7 +1847,7 @@
 			// 
 			this.PlayerField_label_H.BackColor = System.Drawing.Color.Transparent;
 			this.PlayerField_label_H.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PlayerField_label_H.Location = new System.Drawing.Point(317, 568);
+			this.PlayerField_label_H.Location = new System.Drawing.Point(431, 569);
 			this.PlayerField_label_H.Name = "PlayerField_label_H";
 			this.PlayerField_label_H.Size = new System.Drawing.Size(30, 30);
 			this.PlayerField_label_H.TabIndex = 9;
@@ -1857,7 +1858,7 @@
 			// 
 			this.PlayerField_label_I.BackColor = System.Drawing.Color.Transparent;
 			this.PlayerField_label_I.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PlayerField_label_I.Location = new System.Drawing.Point(317, 598);
+			this.PlayerField_label_I.Location = new System.Drawing.Point(431, 599);
 			this.PlayerField_label_I.Name = "PlayerField_label_I";
 			this.PlayerField_label_I.Size = new System.Drawing.Size(30, 30);
 			this.PlayerField_label_I.TabIndex = 10;
@@ -1868,7 +1869,7 @@
 			// 
 			this.PlayerField_label_J.BackColor = System.Drawing.Color.Transparent;
 			this.PlayerField_label_J.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PlayerField_label_J.Location = new System.Drawing.Point(317, 628);
+			this.PlayerField_label_J.Location = new System.Drawing.Point(431, 629);
 			this.PlayerField_label_J.Name = "PlayerField_label_J";
 			this.PlayerField_label_J.Size = new System.Drawing.Size(30, 30);
 			this.PlayerField_label_J.TabIndex = 11;
@@ -1879,7 +1880,7 @@
 			// 
 			this.Field_label_1.BackColor = System.Drawing.Color.Transparent;
 			this.Field_label_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Field_label_1.Location = new System.Drawing.Point(353, 325);
+			this.Field_label_1.Location = new System.Drawing.Point(467, 326);
 			this.Field_label_1.Name = "Field_label_1";
 			this.Field_label_1.Size = new System.Drawing.Size(30, 30);
 			this.Field_label_1.TabIndex = 12;
@@ -1890,7 +1891,7 @@
 			// 
 			this.Field_label_2.BackColor = System.Drawing.Color.Transparent;
 			this.Field_label_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Field_label_2.Location = new System.Drawing.Point(383, 325);
+			this.Field_label_2.Location = new System.Drawing.Point(497, 326);
 			this.Field_label_2.Name = "Field_label_2";
 			this.Field_label_2.Size = new System.Drawing.Size(30, 30);
 			this.Field_label_2.TabIndex = 13;
@@ -1901,7 +1902,7 @@
 			// 
 			this.Field_label_3.BackColor = System.Drawing.Color.Transparent;
 			this.Field_label_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Field_label_3.Location = new System.Drawing.Point(413, 325);
+			this.Field_label_3.Location = new System.Drawing.Point(527, 326);
 			this.Field_label_3.Name = "Field_label_3";
 			this.Field_label_3.Size = new System.Drawing.Size(30, 30);
 			this.Field_label_3.TabIndex = 14;
@@ -1912,7 +1913,7 @@
 			// 
 			this.Field_label_4.BackColor = System.Drawing.Color.Transparent;
 			this.Field_label_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Field_label_4.Location = new System.Drawing.Point(443, 325);
+			this.Field_label_4.Location = new System.Drawing.Point(557, 326);
 			this.Field_label_4.Name = "Field_label_4";
 			this.Field_label_4.Size = new System.Drawing.Size(30, 30);
 			this.Field_label_4.TabIndex = 15;
@@ -1923,7 +1924,7 @@
 			// 
 			this.Field_label_5.BackColor = System.Drawing.Color.Transparent;
 			this.Field_label_5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Field_label_5.Location = new System.Drawing.Point(473, 325);
+			this.Field_label_5.Location = new System.Drawing.Point(587, 326);
 			this.Field_label_5.Name = "Field_label_5";
 			this.Field_label_5.Size = new System.Drawing.Size(30, 30);
 			this.Field_label_5.TabIndex = 16;
@@ -1934,7 +1935,7 @@
 			// 
 			this.Field_label_6.BackColor = System.Drawing.Color.Transparent;
 			this.Field_label_6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Field_label_6.Location = new System.Drawing.Point(503, 325);
+			this.Field_label_6.Location = new System.Drawing.Point(617, 326);
 			this.Field_label_6.Name = "Field_label_6";
 			this.Field_label_6.Size = new System.Drawing.Size(30, 30);
 			this.Field_label_6.TabIndex = 17;
@@ -1945,7 +1946,7 @@
 			// 
 			this.Field_label_7.BackColor = System.Drawing.Color.Transparent;
 			this.Field_label_7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Field_label_7.Location = new System.Drawing.Point(533, 325);
+			this.Field_label_7.Location = new System.Drawing.Point(647, 326);
 			this.Field_label_7.Name = "Field_label_7";
 			this.Field_label_7.Size = new System.Drawing.Size(30, 30);
 			this.Field_label_7.TabIndex = 18;
@@ -1956,7 +1957,7 @@
 			// 
 			this.Field_label_8.BackColor = System.Drawing.Color.Transparent;
 			this.Field_label_8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Field_label_8.Location = new System.Drawing.Point(563, 325);
+			this.Field_label_8.Location = new System.Drawing.Point(677, 326);
 			this.Field_label_8.Name = "Field_label_8";
 			this.Field_label_8.Size = new System.Drawing.Size(30, 30);
 			this.Field_label_8.TabIndex = 19;
@@ -1967,7 +1968,7 @@
 			// 
 			this.Field_label_9.BackColor = System.Drawing.Color.Transparent;
 			this.Field_label_9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Field_label_9.Location = new System.Drawing.Point(593, 325);
+			this.Field_label_9.Location = new System.Drawing.Point(707, 326);
 			this.Field_label_9.Name = "Field_label_9";
 			this.Field_label_9.Size = new System.Drawing.Size(30, 30);
 			this.Field_label_9.TabIndex = 20;
@@ -1978,7 +1979,7 @@
 			// 
 			this.Field_label_10.BackColor = System.Drawing.Color.Transparent;
 			this.Field_label_10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Field_label_10.Location = new System.Drawing.Point(623, 325);
+			this.Field_label_10.Location = new System.Drawing.Point(737, 326);
 			this.Field_label_10.Name = "Field_label_10";
 			this.Field_label_10.Size = new System.Drawing.Size(30, 30);
 			this.Field_label_10.TabIndex = 21;
@@ -1988,32 +1989,32 @@
 			// EnemyField_label
 			// 
 			this.EnemyField_label.Controls.Add(this.PiratesShip_vertical_enemy);
-			this.EnemyField_label.Controls.Add(this.PiratesShip_horizontal_enemy);
-			this.EnemyField_label.Controls.Add(this.Brigantine_vertical_enemy);
-			this.EnemyField_label.Controls.Add(this.Brigantine_horizontal_enemy);
-			this.EnemyField_label.Controls.Add(this.Galleon_vertical_enemy);
-			this.EnemyField_label.Controls.Add(this.Galleon_horizontal_enemy);
-			this.EnemyField_label.Controls.Add(this.Sloop_vertical_enemy);
-			this.EnemyField_label.Controls.Add(this.Sloop_horizontal_enemy);
-			this.EnemyField_label.Controls.Add(this.FishingBoat_vertical_enemy);
-			this.EnemyField_label.Controls.Add(this.FishingBoat_horizontal_enemy);
 			this.EnemyField_label.Controls.Add(this.EnemyField_F5);
 			this.EnemyField_label.Controls.Add(this.EnemyField_J10);
+			this.EnemyField_label.Controls.Add(this.PiratesShip_horizontal_enemy);
 			this.EnemyField_label.Controls.Add(this.EnemyField_J9);
 			this.EnemyField_label.Controls.Add(this.EnemyField_J8);
+			this.EnemyField_label.Controls.Add(this.Galleon_horizontal_enemy);
 			this.EnemyField_label.Controls.Add(this.EnemyField_J7);
+			this.EnemyField_label.Controls.Add(this.Galleon_vertical_enemy);
 			this.EnemyField_label.Controls.Add(this.EnemyField_J6);
+			this.EnemyField_label.Controls.Add(this.Brigantine_vertical_enemy);
 			this.EnemyField_label.Controls.Add(this.EnemyField_J5);
 			this.EnemyField_label.Controls.Add(this.EnemyField_J4);
+			this.EnemyField_label.Controls.Add(this.Brigantine_horizontal_enemy);
 			this.EnemyField_label.Controls.Add(this.EnemyField_J3);
 			this.EnemyField_label.Controls.Add(this.EnemyField_J2);
+			this.EnemyField_label.Controls.Add(this.Sloop_horizontal_enemy);
 			this.EnemyField_label.Controls.Add(this.EnemyField_I10);
 			this.EnemyField_label.Controls.Add(this.EnemyField_I9);
 			this.EnemyField_label.Controls.Add(this.EnemyField_I8);
+			this.EnemyField_label.Controls.Add(this.Sloop_vertical_enemy);
 			this.EnemyField_label.Controls.Add(this.EnemyField_I7);
 			this.EnemyField_label.Controls.Add(this.EnemyField_I6);
 			this.EnemyField_label.Controls.Add(this.EnemyField_I5);
+			this.EnemyField_label.Controls.Add(this.FishingBoat_horizontal_enemy);
 			this.EnemyField_label.Controls.Add(this.EnemyField_I4);
+			this.EnemyField_label.Controls.Add(this.FishingBoat_vertical_enemy);
 			this.EnemyField_label.Controls.Add(this.EnemyField_I3);
 			this.EnemyField_label.Controls.Add(this.EnemyField_I2);
 			this.EnemyField_label.Controls.Add(this.EnemyField_H10);
@@ -2097,7 +2098,7 @@
 			this.EnemyField_label.Controls.Add(this.EnemyField_B1);
 			this.EnemyField_label.Controls.Add(this.EnemyField_A4);
 			this.EnemyField_label.Controls.Add(this.EnemyField_A3);
-			this.EnemyField_label.Location = new System.Drawing.Point(356, 22);
+			this.EnemyField_label.Location = new System.Drawing.Point(470, 23);
 			this.EnemyField_label.Name = "EnemyField_label";
 			this.EnemyField_label.Size = new System.Drawing.Size(300, 300);
 			this.EnemyField_label.TabIndex = 1;
@@ -2105,7 +2106,7 @@
 			// PiratesShip_vertical_enemy
 			// 
 			this.PiratesShip_vertical_enemy.Image = global::BattleShips.Properties.Resources.PiratesShip_vertical;
-			this.PiratesShip_vertical_enemy.Location = new System.Drawing.Point(153, 150);
+			this.PiratesShip_vertical_enemy.Location = new System.Drawing.Point(267, 137);
 			this.PiratesShip_vertical_enemy.Name = "PiratesShip_vertical_enemy";
 			this.PiratesShip_vertical_enemy.Size = new System.Drawing.Size(30, 150);
 			this.PiratesShip_vertical_enemy.TabIndex = 119;
@@ -2115,7 +2116,7 @@
 			// PiratesShip_horizontal_enemy
 			// 
 			this.PiratesShip_horizontal_enemy.Image = global::BattleShips.Properties.Resources.PiratesShip_horizontal;
-			this.PiratesShip_horizontal_enemy.Location = new System.Drawing.Point(3, 183);
+			this.PiratesShip_horizontal_enemy.Location = new System.Drawing.Point(14, 267);
 			this.PiratesShip_horizontal_enemy.Name = "PiratesShip_horizontal_enemy";
 			this.PiratesShip_horizontal_enemy.Size = new System.Drawing.Size(150, 30);
 			this.PiratesShip_horizontal_enemy.TabIndex = 118;
@@ -2125,7 +2126,7 @@
 			// Brigantine_vertical_enemy
 			// 
 			this.Brigantine_vertical_enemy.Image = global::BattleShips.Properties.Resources.Sloop_vertical;
-			this.Brigantine_vertical_enemy.Location = new System.Drawing.Point(213, 0);
+			this.Brigantine_vertical_enemy.Location = new System.Drawing.Point(153, 3);
 			this.Brigantine_vertical_enemy.Name = "Brigantine_vertical_enemy";
 			this.Brigantine_vertical_enemy.Size = new System.Drawing.Size(30, 90);
 			this.Brigantine_vertical_enemy.TabIndex = 117;
@@ -2135,7 +2136,7 @@
 			// Brigantine_horizontal_enemy
 			// 
 			this.Brigantine_horizontal_enemy.Image = global::BattleShips.Properties.Resources.Sloop_horizontal;
-			this.Brigantine_horizontal_enemy.Location = new System.Drawing.Point(120, 3);
+			this.Brigantine_horizontal_enemy.Location = new System.Drawing.Point(30, 195);
 			this.Brigantine_horizontal_enemy.Name = "Brigantine_horizontal_enemy";
 			this.Brigantine_horizontal_enemy.Size = new System.Drawing.Size(90, 30);
 			this.Brigantine_horizontal_enemy.TabIndex = 116;
@@ -2145,7 +2146,7 @@
 			// Galleon_vertical_enemy
 			// 
 			this.Galleon_vertical_enemy.Image = global::BattleShips.Properties.Resources.Galleon_vertical;
-			this.Galleon_vertical_enemy.Location = new System.Drawing.Point(270, 0);
+			this.Galleon_vertical_enemy.Location = new System.Drawing.Point(237, 11);
 			this.Galleon_vertical_enemy.Name = "Galleon_vertical_enemy";
 			this.Galleon_vertical_enemy.Size = new System.Drawing.Size(30, 120);
 			this.Galleon_vertical_enemy.TabIndex = 115;
@@ -2155,7 +2156,7 @@
 			// Galleon_horizontal_enemy
 			// 
 			this.Galleon_horizontal_enemy.Image = global::BattleShips.Properties.Resources.Galleon_horizontal;
-			this.Galleon_horizontal_enemy.Location = new System.Drawing.Point(180, 123);
+			this.Galleon_horizontal_enemy.Location = new System.Drawing.Point(14, 153);
 			this.Galleon_horizontal_enemy.Name = "Galleon_horizontal_enemy";
 			this.Galleon_horizontal_enemy.Size = new System.Drawing.Size(120, 30);
 			this.Galleon_horizontal_enemy.TabIndex = 114;
@@ -2165,7 +2166,7 @@
 			// Sloop_vertical_enemy
 			// 
 			this.Sloop_vertical_enemy.Image = global::BattleShips.Properties.Resources.Sloop_vertical;
-			this.Sloop_vertical_enemy.Location = new System.Drawing.Point(0, 60);
+			this.Sloop_vertical_enemy.Location = new System.Drawing.Point(93, 41);
 			this.Sloop_vertical_enemy.Name = "Sloop_vertical_enemy";
 			this.Sloop_vertical_enemy.Size = new System.Drawing.Size(30, 90);
 			this.Sloop_vertical_enemy.TabIndex = 113;
@@ -2174,8 +2175,8 @@
 			// 
 			// Sloop_horizontal_enemy
 			// 
-			this.Sloop_horizontal_enemy.Image = global::BattleShips.Properties.Resources.Sloop_horizontal;
-			this.Sloop_horizontal_enemy.Location = new System.Drawing.Point(27, 60);
+			this.Sloop_horizontal_enemy.Image = global::BattleShips.Properties.Resources.Sloop_horizontal1;
+			this.Sloop_horizontal_enemy.Location = new System.Drawing.Point(153, 130);
 			this.Sloop_horizontal_enemy.Name = "Sloop_horizontal_enemy";
 			this.Sloop_horizontal_enemy.Size = new System.Drawing.Size(90, 30);
 			this.Sloop_horizontal_enemy.TabIndex = 112;
@@ -2195,7 +2196,7 @@
 			// FishingBoat_horizontal_enemy
 			// 
 			this.FishingBoat_horizontal_enemy.Image = global::BattleShips.Properties.Resources.Fishing_vessel_water;
-			this.FishingBoat_horizontal_enemy.Location = new System.Drawing.Point(30, 3);
+			this.FishingBoat_horizontal_enemy.Location = new System.Drawing.Point(30, 0);
 			this.FishingBoat_horizontal_enemy.Name = "FishingBoat_horizontal_enemy";
 			this.FishingBoat_horizontal_enemy.Size = new System.Drawing.Size(60, 30);
 			this.FishingBoat_horizontal_enemy.TabIndex = 110;
@@ -2204,7 +2205,7 @@
 			// 
 			// EnemyField_F5
 			// 
-			this.EnemyField_F5.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_F5.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_F5.Image")));
 			this.EnemyField_F5.Location = new System.Drawing.Point(120, 150);
 			this.EnemyField_F5.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_F5.Name = "EnemyField_F5";
@@ -2214,7 +2215,7 @@
 			// 
 			// EnemyField_J10
 			// 
-			this.EnemyField_J10.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_J10.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_J10.Image")));
 			this.EnemyField_J10.Location = new System.Drawing.Point(270, 270);
 			this.EnemyField_J10.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_J10.Name = "EnemyField_J10";
@@ -2224,7 +2225,7 @@
 			// 
 			// EnemyField_J9
 			// 
-			this.EnemyField_J9.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_J9.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_J9.Image")));
 			this.EnemyField_J9.Location = new System.Drawing.Point(240, 270);
 			this.EnemyField_J9.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_J9.Name = "EnemyField_J9";
@@ -2234,7 +2235,7 @@
 			// 
 			// EnemyField_J8
 			// 
-			this.EnemyField_J8.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_J8.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_J8.Image")));
 			this.EnemyField_J8.Location = new System.Drawing.Point(210, 270);
 			this.EnemyField_J8.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_J8.Name = "EnemyField_J8";
@@ -2244,7 +2245,7 @@
 			// 
 			// EnemyField_J7
 			// 
-			this.EnemyField_J7.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_J7.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_J7.Image")));
 			this.EnemyField_J7.Location = new System.Drawing.Point(180, 270);
 			this.EnemyField_J7.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_J7.Name = "EnemyField_J7";
@@ -2254,7 +2255,7 @@
 			// 
 			// EnemyField_J6
 			// 
-			this.EnemyField_J6.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_J6.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_J6.Image")));
 			this.EnemyField_J6.Location = new System.Drawing.Point(150, 270);
 			this.EnemyField_J6.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_J6.Name = "EnemyField_J6";
@@ -2264,7 +2265,7 @@
 			// 
 			// EnemyField_J5
 			// 
-			this.EnemyField_J5.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_J5.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_J5.Image")));
 			this.EnemyField_J5.Location = new System.Drawing.Point(120, 270);
 			this.EnemyField_J5.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_J5.Name = "EnemyField_J5";
@@ -2274,7 +2275,7 @@
 			// 
 			// EnemyField_J4
 			// 
-			this.EnemyField_J4.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_J4.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_J4.Image")));
 			this.EnemyField_J4.Location = new System.Drawing.Point(90, 270);
 			this.EnemyField_J4.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_J4.Name = "EnemyField_J4";
@@ -2284,7 +2285,7 @@
 			// 
 			// EnemyField_J3
 			// 
-			this.EnemyField_J3.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_J3.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_J3.Image")));
 			this.EnemyField_J3.Location = new System.Drawing.Point(60, 270);
 			this.EnemyField_J3.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_J3.Name = "EnemyField_J3";
@@ -2294,7 +2295,7 @@
 			// 
 			// EnemyField_J2
 			// 
-			this.EnemyField_J2.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_J2.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_J2.Image")));
 			this.EnemyField_J2.Location = new System.Drawing.Point(30, 270);
 			this.EnemyField_J2.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_J2.Name = "EnemyField_J2";
@@ -2304,7 +2305,7 @@
 			// 
 			// EnemyField_I10
 			// 
-			this.EnemyField_I10.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_I10.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_I10.Image")));
 			this.EnemyField_I10.Location = new System.Drawing.Point(270, 240);
 			this.EnemyField_I10.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_I10.Name = "EnemyField_I10";
@@ -2314,7 +2315,7 @@
 			// 
 			// EnemyField_I9
 			// 
-			this.EnemyField_I9.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_I9.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_I9.Image")));
 			this.EnemyField_I9.Location = new System.Drawing.Point(240, 240);
 			this.EnemyField_I9.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_I9.Name = "EnemyField_I9";
@@ -2324,7 +2325,7 @@
 			// 
 			// EnemyField_I8
 			// 
-			this.EnemyField_I8.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_I8.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_I8.Image")));
 			this.EnemyField_I8.Location = new System.Drawing.Point(210, 240);
 			this.EnemyField_I8.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_I8.Name = "EnemyField_I8";
@@ -2334,7 +2335,7 @@
 			// 
 			// EnemyField_I7
 			// 
-			this.EnemyField_I7.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_I7.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_I7.Image")));
 			this.EnemyField_I7.Location = new System.Drawing.Point(180, 240);
 			this.EnemyField_I7.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_I7.Name = "EnemyField_I7";
@@ -2344,7 +2345,7 @@
 			// 
 			// EnemyField_I6
 			// 
-			this.EnemyField_I6.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_I6.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_I6.Image")));
 			this.EnemyField_I6.Location = new System.Drawing.Point(150, 240);
 			this.EnemyField_I6.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_I6.Name = "EnemyField_I6";
@@ -2354,7 +2355,7 @@
 			// 
 			// EnemyField_I5
 			// 
-			this.EnemyField_I5.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_I5.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_I5.Image")));
 			this.EnemyField_I5.Location = new System.Drawing.Point(120, 240);
 			this.EnemyField_I5.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_I5.Name = "EnemyField_I5";
@@ -2364,7 +2365,7 @@
 			// 
 			// EnemyField_I4
 			// 
-			this.EnemyField_I4.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_I4.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_I4.Image")));
 			this.EnemyField_I4.Location = new System.Drawing.Point(90, 240);
 			this.EnemyField_I4.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_I4.Name = "EnemyField_I4";
@@ -2374,7 +2375,7 @@
 			// 
 			// EnemyField_I3
 			// 
-			this.EnemyField_I3.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_I3.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_I3.Image")));
 			this.EnemyField_I3.Location = new System.Drawing.Point(60, 240);
 			this.EnemyField_I3.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_I3.Name = "EnemyField_I3";
@@ -2384,7 +2385,7 @@
 			// 
 			// EnemyField_I2
 			// 
-			this.EnemyField_I2.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_I2.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_I2.Image")));
 			this.EnemyField_I2.Location = new System.Drawing.Point(30, 240);
 			this.EnemyField_I2.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_I2.Name = "EnemyField_I2";
@@ -2394,7 +2395,7 @@
 			// 
 			// EnemyField_H10
 			// 
-			this.EnemyField_H10.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_H10.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_H10.Image")));
 			this.EnemyField_H10.Location = new System.Drawing.Point(270, 210);
 			this.EnemyField_H10.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_H10.Name = "EnemyField_H10";
@@ -2404,7 +2405,7 @@
 			// 
 			// EnemyField_H9
 			// 
-			this.EnemyField_H9.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_H9.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_H9.Image")));
 			this.EnemyField_H9.Location = new System.Drawing.Point(240, 210);
 			this.EnemyField_H9.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_H9.Name = "EnemyField_H9";
@@ -2414,7 +2415,7 @@
 			// 
 			// EnemyField_H8
 			// 
-			this.EnemyField_H8.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_H8.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_H8.Image")));
 			this.EnemyField_H8.Location = new System.Drawing.Point(210, 210);
 			this.EnemyField_H8.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_H8.Name = "EnemyField_H8";
@@ -2424,7 +2425,7 @@
 			// 
 			// EnemyField_H7
 			// 
-			this.EnemyField_H7.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_H7.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_H7.Image")));
 			this.EnemyField_H7.Location = new System.Drawing.Point(180, 210);
 			this.EnemyField_H7.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_H7.Name = "EnemyField_H7";
@@ -2434,7 +2435,7 @@
 			// 
 			// EnemyField_H6
 			// 
-			this.EnemyField_H6.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_H6.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_H6.Image")));
 			this.EnemyField_H6.Location = new System.Drawing.Point(150, 210);
 			this.EnemyField_H6.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_H6.Name = "EnemyField_H6";
@@ -2444,7 +2445,7 @@
 			// 
 			// EnemyField_H5
 			// 
-			this.EnemyField_H5.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_H5.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_H5.Image")));
 			this.EnemyField_H5.Location = new System.Drawing.Point(120, 210);
 			this.EnemyField_H5.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_H5.Name = "EnemyField_H5";
@@ -2454,7 +2455,7 @@
 			// 
 			// EnemyField_H4
 			// 
-			this.EnemyField_H4.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_H4.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_H4.Image")));
 			this.EnemyField_H4.Location = new System.Drawing.Point(90, 210);
 			this.EnemyField_H4.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_H4.Name = "EnemyField_H4";
@@ -2464,7 +2465,7 @@
 			// 
 			// EnemyField_H3
 			// 
-			this.EnemyField_H3.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_H3.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_H3.Image")));
 			this.EnemyField_H3.Location = new System.Drawing.Point(60, 210);
 			this.EnemyField_H3.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_H3.Name = "EnemyField_H3";
@@ -2474,7 +2475,7 @@
 			// 
 			// EnemyField_H2
 			// 
-			this.EnemyField_H2.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_H2.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_H2.Image")));
 			this.EnemyField_H2.Location = new System.Drawing.Point(30, 210);
 			this.EnemyField_H2.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_H2.Name = "EnemyField_H2";
@@ -2484,7 +2485,7 @@
 			// 
 			// EnemyField_G10
 			// 
-			this.EnemyField_G10.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_G10.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_G10.Image")));
 			this.EnemyField_G10.Location = new System.Drawing.Point(270, 180);
 			this.EnemyField_G10.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_G10.Name = "EnemyField_G10";
@@ -2494,7 +2495,7 @@
 			// 
 			// EnemyField_G9
 			// 
-			this.EnemyField_G9.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_G9.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_G9.Image")));
 			this.EnemyField_G9.Location = new System.Drawing.Point(240, 180);
 			this.EnemyField_G9.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_G9.Name = "EnemyField_G9";
@@ -2504,7 +2505,7 @@
 			// 
 			// EnemyField_G8
 			// 
-			this.EnemyField_G8.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_G8.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_G8.Image")));
 			this.EnemyField_G8.Location = new System.Drawing.Point(210, 180);
 			this.EnemyField_G8.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_G8.Name = "EnemyField_G8";
@@ -2514,7 +2515,7 @@
 			// 
 			// EnemyField_G7
 			// 
-			this.EnemyField_G7.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_G7.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_G7.Image")));
 			this.EnemyField_G7.Location = new System.Drawing.Point(180, 180);
 			this.EnemyField_G7.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_G7.Name = "EnemyField_G7";
@@ -2524,7 +2525,7 @@
 			// 
 			// EnemyField_G6
 			// 
-			this.EnemyField_G6.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_G6.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_G6.Image")));
 			this.EnemyField_G6.Location = new System.Drawing.Point(150, 180);
 			this.EnemyField_G6.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_G6.Name = "EnemyField_G6";
@@ -2534,7 +2535,7 @@
 			// 
 			// EnemyField_G5
 			// 
-			this.EnemyField_G5.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_G5.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_G5.Image")));
 			this.EnemyField_G5.Location = new System.Drawing.Point(120, 180);
 			this.EnemyField_G5.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_G5.Name = "EnemyField_G5";
@@ -2544,7 +2545,7 @@
 			// 
 			// EnemyField_G4
 			// 
-			this.EnemyField_G4.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_G4.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_G4.Image")));
 			this.EnemyField_G4.Location = new System.Drawing.Point(90, 180);
 			this.EnemyField_G4.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_G4.Name = "EnemyField_G4";
@@ -2554,7 +2555,7 @@
 			// 
 			// EnemyField_G3
 			// 
-			this.EnemyField_G3.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_G3.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_G3.Image")));
 			this.EnemyField_G3.Location = new System.Drawing.Point(60, 180);
 			this.EnemyField_G3.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_G3.Name = "EnemyField_G3";
@@ -2564,6 +2565,7 @@
 			// 
 			// EnemyField_A2
 			// 
+			this.EnemyField_A2.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_A2.ErrorImage")));
 			this.EnemyField_A2.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
 			this.EnemyField_A2.Location = new System.Drawing.Point(30, 0);
 			this.EnemyField_A2.Margin = new System.Windows.Forms.Padding(0);
@@ -2574,6 +2576,7 @@
 			// 
 			// EnemyField_A1
 			// 
+			this.EnemyField_A1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_A1.ErrorImage")));
 			this.EnemyField_A1.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
 			this.EnemyField_A1.Location = new System.Drawing.Point(0, 0);
 			this.EnemyField_A1.Margin = new System.Windows.Forms.Padding(0);
@@ -2584,7 +2587,7 @@
 			// 
 			// EnemyField_G2
 			// 
-			this.EnemyField_G2.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_G2.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_G2.Image")));
 			this.EnemyField_G2.Location = new System.Drawing.Point(30, 180);
 			this.EnemyField_G2.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_G2.Name = "EnemyField_G2";
@@ -2594,7 +2597,7 @@
 			// 
 			// EnemyField_F10
 			// 
-			this.EnemyField_F10.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_F10.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_F10.Image")));
 			this.EnemyField_F10.Location = new System.Drawing.Point(270, 150);
 			this.EnemyField_F10.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_F10.Name = "EnemyField_F10";
@@ -2604,7 +2607,7 @@
 			// 
 			// EnemyField_F9
 			// 
-			this.EnemyField_F9.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_F9.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_F9.Image")));
 			this.EnemyField_F9.Location = new System.Drawing.Point(240, 150);
 			this.EnemyField_F9.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_F9.Name = "EnemyField_F9";
@@ -2614,7 +2617,7 @@
 			// 
 			// EnemyField_F8
 			// 
-			this.EnemyField_F8.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_F8.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_F8.Image")));
 			this.EnemyField_F8.Location = new System.Drawing.Point(210, 150);
 			this.EnemyField_F8.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_F8.Name = "EnemyField_F8";
@@ -2624,7 +2627,7 @@
 			// 
 			// EnemyField_F7
 			// 
-			this.EnemyField_F7.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_F7.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_F7.Image")));
 			this.EnemyField_F7.Location = new System.Drawing.Point(180, 150);
 			this.EnemyField_F7.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_F7.Name = "EnemyField_F7";
@@ -2634,7 +2637,7 @@
 			// 
 			// EnemyField_F6
 			// 
-			this.EnemyField_F6.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_F6.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_F6.Image")));
 			this.EnemyField_F6.Location = new System.Drawing.Point(150, 150);
 			this.EnemyField_F6.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_F6.Name = "EnemyField_F6";
@@ -2644,7 +2647,7 @@
 			// 
 			// EnemyField_F4
 			// 
-			this.EnemyField_F4.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_F4.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_F4.Image")));
 			this.EnemyField_F4.Location = new System.Drawing.Point(90, 150);
 			this.EnemyField_F4.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_F4.Name = "EnemyField_F4";
@@ -2654,7 +2657,7 @@
 			// 
 			// EnemyField_F3
 			// 
-			this.EnemyField_F3.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_F3.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_F3.Image")));
 			this.EnemyField_F3.Location = new System.Drawing.Point(60, 150);
 			this.EnemyField_F3.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_F3.Name = "EnemyField_F3";
@@ -2664,7 +2667,7 @@
 			// 
 			// EnemyField_F2
 			// 
-			this.EnemyField_F2.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_F2.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_F2.Image")));
 			this.EnemyField_F2.Location = new System.Drawing.Point(30, 150);
 			this.EnemyField_F2.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_F2.Name = "EnemyField_F2";
@@ -2674,7 +2677,7 @@
 			// 
 			// EnemyField_E10
 			// 
-			this.EnemyField_E10.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_E10.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_E10.Image")));
 			this.EnemyField_E10.Location = new System.Drawing.Point(270, 120);
 			this.EnemyField_E10.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_E10.Name = "EnemyField_E10";
@@ -2684,7 +2687,7 @@
 			// 
 			// EnemyField_E9
 			// 
-			this.EnemyField_E9.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_E9.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_E9.Image")));
 			this.EnemyField_E9.Location = new System.Drawing.Point(240, 120);
 			this.EnemyField_E9.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_E9.Name = "EnemyField_E9";
@@ -2694,7 +2697,7 @@
 			// 
 			// EnemyField_E8
 			// 
-			this.EnemyField_E8.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_E8.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_E8.Image")));
 			this.EnemyField_E8.Location = new System.Drawing.Point(210, 120);
 			this.EnemyField_E8.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_E8.Name = "EnemyField_E8";
@@ -2704,7 +2707,7 @@
 			// 
 			// EnemyField_E7
 			// 
-			this.EnemyField_E7.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_E7.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_E7.Image")));
 			this.EnemyField_E7.Location = new System.Drawing.Point(180, 120);
 			this.EnemyField_E7.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_E7.Name = "EnemyField_E7";
@@ -2714,7 +2717,7 @@
 			// 
 			// EnemyField_E6
 			// 
-			this.EnemyField_E6.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_E6.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_E6.Image")));
 			this.EnemyField_E6.Location = new System.Drawing.Point(150, 120);
 			this.EnemyField_E6.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_E6.Name = "EnemyField_E6";
@@ -2724,7 +2727,7 @@
 			// 
 			// EnemyField_E5
 			// 
-			this.EnemyField_E5.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_E5.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_E5.Image")));
 			this.EnemyField_E5.Location = new System.Drawing.Point(120, 120);
 			this.EnemyField_E5.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_E5.Name = "EnemyField_E5";
@@ -2734,7 +2737,7 @@
 			// 
 			// EnemyField_E4
 			// 
-			this.EnemyField_E4.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_E4.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_E4.Image")));
 			this.EnemyField_E4.Location = new System.Drawing.Point(90, 120);
 			this.EnemyField_E4.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_E4.Name = "EnemyField_E4";
@@ -2744,7 +2747,7 @@
 			// 
 			// EnemyField_E3
 			// 
-			this.EnemyField_E3.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_E3.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_E3.Image")));
 			this.EnemyField_E3.Location = new System.Drawing.Point(60, 120);
 			this.EnemyField_E3.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_E3.Name = "EnemyField_E3";
@@ -2754,7 +2757,7 @@
 			// 
 			// EnemyField_E2
 			// 
-			this.EnemyField_E2.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_E2.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_E2.Image")));
 			this.EnemyField_E2.Location = new System.Drawing.Point(30, 120);
 			this.EnemyField_E2.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_E2.Name = "EnemyField_E2";
@@ -2764,7 +2767,7 @@
 			// 
 			// EnemyField_D10
 			// 
-			this.EnemyField_D10.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_D10.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_D10.Image")));
 			this.EnemyField_D10.Location = new System.Drawing.Point(270, 90);
 			this.EnemyField_D10.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_D10.Name = "EnemyField_D10";
@@ -2774,7 +2777,7 @@
 			// 
 			// EnemyField_D9
 			// 
-			this.EnemyField_D9.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_D9.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_D9.Image")));
 			this.EnemyField_D9.Location = new System.Drawing.Point(240, 90);
 			this.EnemyField_D9.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_D9.Name = "EnemyField_D9";
@@ -2784,7 +2787,7 @@
 			// 
 			// EnemyField_D8
 			// 
-			this.EnemyField_D8.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_D8.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_D8.Image")));
 			this.EnemyField_D8.Location = new System.Drawing.Point(210, 90);
 			this.EnemyField_D8.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_D8.Name = "EnemyField_D8";
@@ -2794,7 +2797,7 @@
 			// 
 			// EnemyField_D7
 			// 
-			this.EnemyField_D7.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_D7.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_D7.Image")));
 			this.EnemyField_D7.Location = new System.Drawing.Point(180, 90);
 			this.EnemyField_D7.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_D7.Name = "EnemyField_D7";
@@ -2804,7 +2807,7 @@
 			// 
 			// EnemyField_D6
 			// 
-			this.EnemyField_D6.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_D6.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_D6.Image")));
 			this.EnemyField_D6.Location = new System.Drawing.Point(150, 90);
 			this.EnemyField_D6.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_D6.Name = "EnemyField_D6";
@@ -2814,7 +2817,7 @@
 			// 
 			// EnemyField_D5
 			// 
-			this.EnemyField_D5.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_D5.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_D5.Image")));
 			this.EnemyField_D5.Location = new System.Drawing.Point(120, 90);
 			this.EnemyField_D5.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_D5.Name = "EnemyField_D5";
@@ -2824,7 +2827,7 @@
 			// 
 			// EnemyField_D4
 			// 
-			this.EnemyField_D4.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_D4.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_D4.Image")));
 			this.EnemyField_D4.Location = new System.Drawing.Point(90, 90);
 			this.EnemyField_D4.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_D4.Name = "EnemyField_D4";
@@ -2834,7 +2837,7 @@
 			// 
 			// EnemyField_D3
 			// 
-			this.EnemyField_D3.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_D3.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_D3.Image")));
 			this.EnemyField_D3.Location = new System.Drawing.Point(60, 90);
 			this.EnemyField_D3.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_D3.Name = "EnemyField_D3";
@@ -2844,7 +2847,7 @@
 			// 
 			// EnemyField_D2
 			// 
-			this.EnemyField_D2.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_D2.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_D2.Image")));
 			this.EnemyField_D2.Location = new System.Drawing.Point(30, 90);
 			this.EnemyField_D2.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_D2.Name = "EnemyField_D2";
@@ -2854,7 +2857,8 @@
 			// 
 			// EnemyField_C10
 			// 
-			this.EnemyField_C10.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_C10.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_C10.ErrorImage")));
+			this.EnemyField_C10.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_C10.Image")));
 			this.EnemyField_C10.Location = new System.Drawing.Point(270, 60);
 			this.EnemyField_C10.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_C10.Name = "EnemyField_C10";
@@ -2864,7 +2868,8 @@
 			// 
 			// EnemyField_C9
 			// 
-			this.EnemyField_C9.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_C9.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_C9.ErrorImage")));
+			this.EnemyField_C9.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_C9.Image")));
 			this.EnemyField_C9.Location = new System.Drawing.Point(240, 60);
 			this.EnemyField_C9.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_C9.Name = "EnemyField_C9";
@@ -2874,7 +2879,8 @@
 			// 
 			// EnemyField_C8
 			// 
-			this.EnemyField_C8.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_C8.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_C8.ErrorImage")));
+			this.EnemyField_C8.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_C8.Image")));
 			this.EnemyField_C8.Location = new System.Drawing.Point(210, 60);
 			this.EnemyField_C8.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_C8.Name = "EnemyField_C8";
@@ -2884,7 +2890,8 @@
 			// 
 			// EnemyField_C7
 			// 
-			this.EnemyField_C7.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_C7.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_C7.ErrorImage")));
+			this.EnemyField_C7.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_C7.Image")));
 			this.EnemyField_C7.Location = new System.Drawing.Point(180, 60);
 			this.EnemyField_C7.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_C7.Name = "EnemyField_C7";
@@ -2894,7 +2901,8 @@
 			// 
 			// EnemyField_C6
 			// 
-			this.EnemyField_C6.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_C6.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_C6.ErrorImage")));
+			this.EnemyField_C6.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_C6.Image")));
 			this.EnemyField_C6.Location = new System.Drawing.Point(150, 60);
 			this.EnemyField_C6.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_C6.Name = "EnemyField_C6";
@@ -2904,7 +2912,8 @@
 			// 
 			// EnemyField_C5
 			// 
-			this.EnemyField_C5.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_C5.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_C5.ErrorImage")));
+			this.EnemyField_C5.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_C5.Image")));
 			this.EnemyField_C5.Location = new System.Drawing.Point(120, 60);
 			this.EnemyField_C5.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_C5.Name = "EnemyField_C5";
@@ -2914,7 +2923,8 @@
 			// 
 			// EnemyField_C4
 			// 
-			this.EnemyField_C4.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_C4.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_C4.ErrorImage")));
+			this.EnemyField_C4.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_C4.Image")));
 			this.EnemyField_C4.Location = new System.Drawing.Point(90, 60);
 			this.EnemyField_C4.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_C4.Name = "EnemyField_C4";
@@ -2924,7 +2934,8 @@
 			// 
 			// EnemyField_C3
 			// 
-			this.EnemyField_C3.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_C3.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_C3.ErrorImage")));
+			this.EnemyField_C3.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_C3.Image")));
 			this.EnemyField_C3.Location = new System.Drawing.Point(60, 60);
 			this.EnemyField_C3.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_C3.Name = "EnemyField_C3";
@@ -2934,7 +2945,8 @@
 			// 
 			// EnemyField_C2
 			// 
-			this.EnemyField_C2.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_C2.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_C2.ErrorImage")));
+			this.EnemyField_C2.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_C2.Image")));
 			this.EnemyField_C2.Location = new System.Drawing.Point(30, 60);
 			this.EnemyField_C2.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_C2.Name = "EnemyField_C2";
@@ -2944,7 +2956,8 @@
 			// 
 			// EnemyField_B10
 			// 
-			this.EnemyField_B10.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_B10.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_B10.ErrorImage")));
+			this.EnemyField_B10.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_B10.Image")));
 			this.EnemyField_B10.Location = new System.Drawing.Point(270, 30);
 			this.EnemyField_B10.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_B10.Name = "EnemyField_B10";
@@ -2954,7 +2967,8 @@
 			// 
 			// EnemyField_B9
 			// 
-			this.EnemyField_B9.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_B9.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_B9.ErrorImage")));
+			this.EnemyField_B9.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_B9.Image")));
 			this.EnemyField_B9.Location = new System.Drawing.Point(240, 30);
 			this.EnemyField_B9.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_B9.Name = "EnemyField_B9";
@@ -2964,7 +2978,8 @@
 			// 
 			// EnemyField_B8
 			// 
-			this.EnemyField_B8.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_B8.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_B8.ErrorImage")));
+			this.EnemyField_B8.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_B8.Image")));
 			this.EnemyField_B8.Location = new System.Drawing.Point(210, 30);
 			this.EnemyField_B8.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_B8.Name = "EnemyField_B8";
@@ -2974,7 +2989,8 @@
 			// 
 			// EnemyField_B7
 			// 
-			this.EnemyField_B7.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_B7.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_B7.ErrorImage")));
+			this.EnemyField_B7.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_B7.Image")));
 			this.EnemyField_B7.Location = new System.Drawing.Point(180, 30);
 			this.EnemyField_B7.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_B7.Name = "EnemyField_B7";
@@ -2984,7 +3000,8 @@
 			// 
 			// EnemyField_B6
 			// 
-			this.EnemyField_B6.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_B6.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_B6.ErrorImage")));
+			this.EnemyField_B6.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_B6.Image")));
 			this.EnemyField_B6.Location = new System.Drawing.Point(150, 30);
 			this.EnemyField_B6.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_B6.Name = "EnemyField_B6";
@@ -2994,7 +3011,8 @@
 			// 
 			// EnemyField_B5
 			// 
-			this.EnemyField_B5.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_B5.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_B5.ErrorImage")));
+			this.EnemyField_B5.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_B5.Image")));
 			this.EnemyField_B5.Location = new System.Drawing.Point(120, 30);
 			this.EnemyField_B5.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_B5.Name = "EnemyField_B5";
@@ -3004,7 +3022,8 @@
 			// 
 			// EnemyField_B4
 			// 
-			this.EnemyField_B4.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_B4.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_B4.ErrorImage")));
+			this.EnemyField_B4.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_B4.Image")));
 			this.EnemyField_B4.Location = new System.Drawing.Point(90, 30);
 			this.EnemyField_B4.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_B4.Name = "EnemyField_B4";
@@ -3014,7 +3033,8 @@
 			// 
 			// EnemyField_B3
 			// 
-			this.EnemyField_B3.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_B3.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_B3.ErrorImage")));
+			this.EnemyField_B3.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_B3.Image")));
 			this.EnemyField_B3.Location = new System.Drawing.Point(60, 30);
 			this.EnemyField_B3.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_B3.Name = "EnemyField_B3";
@@ -3024,7 +3044,8 @@
 			// 
 			// EnemyField_B2
 			// 
-			this.EnemyField_B2.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_B2.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_B2.ErrorImage")));
+			this.EnemyField_B2.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_B2.Image")));
 			this.EnemyField_B2.Location = new System.Drawing.Point(30, 30);
 			this.EnemyField_B2.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_B2.Name = "EnemyField_B2";
@@ -3034,7 +3055,8 @@
 			// 
 			// EnemyField_A10
 			// 
-			this.EnemyField_A10.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_A10.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_A10.ErrorImage")));
+			this.EnemyField_A10.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_A10.Image")));
 			this.EnemyField_A10.Location = new System.Drawing.Point(270, 0);
 			this.EnemyField_A10.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_A10.Name = "EnemyField_A10";
@@ -3044,7 +3066,8 @@
 			// 
 			// EnemyField_A9
 			// 
-			this.EnemyField_A9.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_A9.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_A9.ErrorImage")));
+			this.EnemyField_A9.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_A9.Image")));
 			this.EnemyField_A9.Location = new System.Drawing.Point(240, 0);
 			this.EnemyField_A9.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_A9.Name = "EnemyField_A9";
@@ -3054,7 +3077,8 @@
 			// 
 			// EnemyField_A8
 			// 
-			this.EnemyField_A8.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_A8.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_A8.ErrorImage")));
+			this.EnemyField_A8.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_A8.Image")));
 			this.EnemyField_A8.Location = new System.Drawing.Point(210, 0);
 			this.EnemyField_A8.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_A8.Name = "EnemyField_A8";
@@ -3064,7 +3088,8 @@
 			// 
 			// EnemyField_A7
 			// 
-			this.EnemyField_A7.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_A7.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_A7.ErrorImage")));
+			this.EnemyField_A7.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_A7.Image")));
 			this.EnemyField_A7.Location = new System.Drawing.Point(180, 0);
 			this.EnemyField_A7.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_A7.Name = "EnemyField_A7";
@@ -3074,7 +3099,8 @@
 			// 
 			// EnemyField_A6
 			// 
-			this.EnemyField_A6.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_A6.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_A6.ErrorImage")));
+			this.EnemyField_A6.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_A6.Image")));
 			this.EnemyField_A6.Location = new System.Drawing.Point(150, 0);
 			this.EnemyField_A6.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_A6.Name = "EnemyField_A6";
@@ -3084,7 +3110,8 @@
 			// 
 			// EnemyField_A5
 			// 
-			this.EnemyField_A5.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_A5.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_A5.ErrorImage")));
+			this.EnemyField_A5.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_A5.Image")));
 			this.EnemyField_A5.Location = new System.Drawing.Point(120, 0);
 			this.EnemyField_A5.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_A5.Name = "EnemyField_A5";
@@ -3094,7 +3121,7 @@
 			// 
 			// EnemyField_J1
 			// 
-			this.EnemyField_J1.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_J1.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_J1.Image")));
 			this.EnemyField_J1.Location = new System.Drawing.Point(0, 270);
 			this.EnemyField_J1.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_J1.Name = "EnemyField_J1";
@@ -3104,7 +3131,7 @@
 			// 
 			// EnemyField_I1
 			// 
-			this.EnemyField_I1.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_I1.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_I1.Image")));
 			this.EnemyField_I1.Location = new System.Drawing.Point(0, 240);
 			this.EnemyField_I1.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_I1.Name = "EnemyField_I1";
@@ -3114,7 +3141,7 @@
 			// 
 			// EnemyField_H1
 			// 
-			this.EnemyField_H1.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_H1.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_H1.Image")));
 			this.EnemyField_H1.Location = new System.Drawing.Point(0, 210);
 			this.EnemyField_H1.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_H1.Name = "EnemyField_H1";
@@ -3124,7 +3151,7 @@
 			// 
 			// EnemyField_G1
 			// 
-			this.EnemyField_G1.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_G1.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_G1.Image")));
 			this.EnemyField_G1.Location = new System.Drawing.Point(0, 180);
 			this.EnemyField_G1.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_G1.Name = "EnemyField_G1";
@@ -3134,7 +3161,7 @@
 			// 
 			// EnemyField_F1
 			// 
-			this.EnemyField_F1.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_F1.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_F1.Image")));
 			this.EnemyField_F1.Location = new System.Drawing.Point(0, 150);
 			this.EnemyField_F1.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_F1.Name = "EnemyField_F1";
@@ -3144,7 +3171,7 @@
 			// 
 			// EnemyField_E1
 			// 
-			this.EnemyField_E1.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_E1.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_E1.Image")));
 			this.EnemyField_E1.Location = new System.Drawing.Point(0, 120);
 			this.EnemyField_E1.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_E1.Name = "EnemyField_E1";
@@ -3154,7 +3181,7 @@
 			// 
 			// EnemyField_D1
 			// 
-			this.EnemyField_D1.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_D1.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_D1.Image")));
 			this.EnemyField_D1.Location = new System.Drawing.Point(0, 90);
 			this.EnemyField_D1.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_D1.Name = "EnemyField_D1";
@@ -3164,7 +3191,8 @@
 			// 
 			// EnemyField_C1
 			// 
-			this.EnemyField_C1.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_C1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_C1.ErrorImage")));
+			this.EnemyField_C1.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_C1.Image")));
 			this.EnemyField_C1.Location = new System.Drawing.Point(0, 60);
 			this.EnemyField_C1.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_C1.Name = "EnemyField_C1";
@@ -3174,7 +3202,8 @@
 			// 
 			// EnemyField_B1
 			// 
-			this.EnemyField_B1.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_B1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_B1.ErrorImage")));
+			this.EnemyField_B1.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_B1.Image")));
 			this.EnemyField_B1.Location = new System.Drawing.Point(0, 30);
 			this.EnemyField_B1.Margin = new System.Windows.Forms.Padding(0);
 			this.EnemyField_B1.Name = "EnemyField_B1";
@@ -3184,6 +3213,7 @@
 			// 
 			// EnemyField_A4
 			// 
+			this.EnemyField_A4.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_A4.ErrorImage")));
 			this.EnemyField_A4.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
 			this.EnemyField_A4.Location = new System.Drawing.Point(90, 0);
 			this.EnemyField_A4.Margin = new System.Windows.Forms.Padding(0);
@@ -3194,6 +3224,7 @@
 			// 
 			// EnemyField_A3
 			// 
+			this.EnemyField_A3.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_A3.ErrorImage")));
 			this.EnemyField_A3.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
 			this.EnemyField_A3.Location = new System.Drawing.Point(60, 0);
 			this.EnemyField_A3.Margin = new System.Windows.Forms.Padding(0);
@@ -3206,7 +3237,7 @@
 			// 
 			this.EnemyField_label_J.BackColor = System.Drawing.Color.Transparent;
 			this.EnemyField_label_J.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyField_label_J.Location = new System.Drawing.Point(317, 292);
+			this.EnemyField_label_J.Location = new System.Drawing.Point(431, 293);
 			this.EnemyField_label_J.Name = "EnemyField_label_J";
 			this.EnemyField_label_J.Size = new System.Drawing.Size(30, 30);
 			this.EnemyField_label_J.TabIndex = 31;
@@ -3217,7 +3248,7 @@
 			// 
 			this.EnemyField_label_I.BackColor = System.Drawing.Color.Transparent;
 			this.EnemyField_label_I.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyField_label_I.Location = new System.Drawing.Point(317, 262);
+			this.EnemyField_label_I.Location = new System.Drawing.Point(431, 263);
 			this.EnemyField_label_I.Name = "EnemyField_label_I";
 			this.EnemyField_label_I.Size = new System.Drawing.Size(30, 30);
 			this.EnemyField_label_I.TabIndex = 30;
@@ -3228,7 +3259,7 @@
 			// 
 			this.EnemyField_label_H.BackColor = System.Drawing.Color.Transparent;
 			this.EnemyField_label_H.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyField_label_H.Location = new System.Drawing.Point(317, 232);
+			this.EnemyField_label_H.Location = new System.Drawing.Point(431, 233);
 			this.EnemyField_label_H.Name = "EnemyField_label_H";
 			this.EnemyField_label_H.Size = new System.Drawing.Size(30, 30);
 			this.EnemyField_label_H.TabIndex = 29;
@@ -3239,7 +3270,7 @@
 			// 
 			this.EnemyField_label_G.BackColor = System.Drawing.Color.Transparent;
 			this.EnemyField_label_G.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyField_label_G.Location = new System.Drawing.Point(317, 202);
+			this.EnemyField_label_G.Location = new System.Drawing.Point(431, 203);
 			this.EnemyField_label_G.Name = "EnemyField_label_G";
 			this.EnemyField_label_G.Size = new System.Drawing.Size(30, 30);
 			this.EnemyField_label_G.TabIndex = 28;
@@ -3250,7 +3281,7 @@
 			// 
 			this.EnemyField_label_F.BackColor = System.Drawing.Color.Transparent;
 			this.EnemyField_label_F.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyField_label_F.Location = new System.Drawing.Point(317, 172);
+			this.EnemyField_label_F.Location = new System.Drawing.Point(431, 173);
 			this.EnemyField_label_F.Name = "EnemyField_label_F";
 			this.EnemyField_label_F.Size = new System.Drawing.Size(30, 30);
 			this.EnemyField_label_F.TabIndex = 27;
@@ -3261,7 +3292,7 @@
 			// 
 			this.EnemyField_label_E.BackColor = System.Drawing.Color.Transparent;
 			this.EnemyField_label_E.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyField_label_E.Location = new System.Drawing.Point(317, 142);
+			this.EnemyField_label_E.Location = new System.Drawing.Point(431, 143);
 			this.EnemyField_label_E.Name = "EnemyField_label_E";
 			this.EnemyField_label_E.Size = new System.Drawing.Size(30, 30);
 			this.EnemyField_label_E.TabIndex = 26;
@@ -3272,7 +3303,7 @@
 			// 
 			this.EnemyField_label_D.BackColor = System.Drawing.Color.Transparent;
 			this.EnemyField_label_D.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyField_label_D.Location = new System.Drawing.Point(317, 112);
+			this.EnemyField_label_D.Location = new System.Drawing.Point(431, 113);
 			this.EnemyField_label_D.Name = "EnemyField_label_D";
 			this.EnemyField_label_D.Size = new System.Drawing.Size(30, 30);
 			this.EnemyField_label_D.TabIndex = 25;
@@ -3283,7 +3314,7 @@
 			// 
 			this.EnemyField_label_C.BackColor = System.Drawing.Color.Transparent;
 			this.EnemyField_label_C.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyField_label_C.Location = new System.Drawing.Point(317, 82);
+			this.EnemyField_label_C.Location = new System.Drawing.Point(431, 83);
 			this.EnemyField_label_C.Name = "EnemyField_label_C";
 			this.EnemyField_label_C.Size = new System.Drawing.Size(30, 30);
 			this.EnemyField_label_C.TabIndex = 24;
@@ -3294,7 +3325,7 @@
 			// 
 			this.EnemyField_label_B.BackColor = System.Drawing.Color.Transparent;
 			this.EnemyField_label_B.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyField_label_B.Location = new System.Drawing.Point(317, 52);
+			this.EnemyField_label_B.Location = new System.Drawing.Point(431, 53);
 			this.EnemyField_label_B.Name = "EnemyField_label_B";
 			this.EnemyField_label_B.Size = new System.Drawing.Size(30, 30);
 			this.EnemyField_label_B.TabIndex = 23;
@@ -3305,7 +3336,7 @@
 			// 
 			this.EnemyField_label_A.BackColor = System.Drawing.Color.Transparent;
 			this.EnemyField_label_A.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyField_label_A.Location = new System.Drawing.Point(317, 22);
+			this.EnemyField_label_A.Location = new System.Drawing.Point(431, 23);
 			this.EnemyField_label_A.Name = "EnemyField_label_A";
 			this.EnemyField_label_A.Size = new System.Drawing.Size(30, 30);
 			this.EnemyField_label_A.TabIndex = 22;
@@ -3315,7 +3346,7 @@
 			// LetterboxText
 			// 
 			this.LetterboxText.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-			this.LetterboxText.Location = new System.Drawing.Point(208, 152);
+			this.LetterboxText.Location = new System.Drawing.Point(322, 153);
 			this.LetterboxText.MaxLength = 1;
 			this.LetterboxText.Name = "LetterboxText";
 			this.LetterboxText.Size = new System.Drawing.Size(30, 20);
@@ -3324,7 +3355,7 @@
 			// NumberboxText
 			// 
 			this.NumberboxText.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-			this.NumberboxText.Location = new System.Drawing.Point(255, 152);
+			this.NumberboxText.Location = new System.Drawing.Point(369, 153);
 			this.NumberboxText.MaxLength = 2;
 			this.NumberboxText.Name = "NumberboxText";
 			this.NumberboxText.Size = new System.Drawing.Size(30, 20);
@@ -3332,7 +3363,7 @@
 			// 
 			// FireButton
 			// 
-			this.FireButton.Location = new System.Drawing.Point(208, 178);
+			this.FireButton.Location = new System.Drawing.Point(322, 179);
 			this.FireButton.Name = "FireButton";
 			this.FireButton.Size = new System.Drawing.Size(77, 23);
 			this.FireButton.TabIndex = 34;
@@ -3344,7 +3375,7 @@
 			// 
 			this.ActionText.BackColor = System.Drawing.Color.Transparent;
 			this.ActionText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.ActionText.Location = new System.Drawing.Point(181, 269);
+			this.ActionText.Location = new System.Drawing.Point(295, 270);
 			this.ActionText.Name = "ActionText";
 			this.ActionText.Size = new System.Drawing.Size(130, 74);
 			this.ActionText.TabIndex = 35;
@@ -3352,7 +3383,7 @@
 			// SetHorizontalPosText
 			// 
 			this.SetHorizontalPosText.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-			this.SetHorizontalPosText.Location = new System.Drawing.Point(208, 405);
+			this.SetHorizontalPosText.Location = new System.Drawing.Point(322, 406);
 			this.SetHorizontalPosText.MaxLength = 1;
 			this.SetHorizontalPosText.Name = "SetHorizontalPosText";
 			this.SetHorizontalPosText.Size = new System.Drawing.Size(30, 20);
@@ -3362,7 +3393,7 @@
 			// SetVerticalPosText
 			// 
 			this.SetVerticalPosText.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-			this.SetVerticalPosText.Location = new System.Drawing.Point(255, 405);
+			this.SetVerticalPosText.Location = new System.Drawing.Point(369, 406);
 			this.SetVerticalPosText.MaxLength = 2;
 			this.SetVerticalPosText.Name = "SetVerticalPosText";
 			this.SetVerticalPosText.Size = new System.Drawing.Size(30, 20);
@@ -3370,7 +3401,7 @@
 			// 
 			// SetShipsButton
 			// 
-			this.SetShipsButton.Location = new System.Drawing.Point(215, 545);
+			this.SetShipsButton.Location = new System.Drawing.Point(329, 546);
 			this.SetShipsButton.Name = "SetShipsButton";
 			this.SetShipsButton.Size = new System.Drawing.Size(77, 23);
 			this.SetShipsButton.TabIndex = 38;
@@ -3383,7 +3414,7 @@
 			this.VerticalOption.AutoSize = true;
 			this.VerticalOption.BackColor = System.Drawing.Color.Transparent;
 			this.VerticalOption.Checked = true;
-			this.VerticalOption.Location = new System.Drawing.Point(184, 474);
+			this.VerticalOption.Location = new System.Drawing.Point(298, 475);
 			this.VerticalOption.Name = "VerticalOption";
 			this.VerticalOption.Size = new System.Drawing.Size(60, 17);
 			this.VerticalOption.TabIndex = 42;
@@ -3395,7 +3426,7 @@
 			// 
 			this.HorizontalOption.AutoSize = true;
 			this.HorizontalOption.BackColor = System.Drawing.Color.Transparent;
-			this.HorizontalOption.Location = new System.Drawing.Point(244, 474);
+			this.HorizontalOption.Location = new System.Drawing.Point(358, 475);
 			this.HorizontalOption.Name = "HorizontalOption";
 			this.HorizontalOption.Size = new System.Drawing.Size(72, 17);
 			this.HorizontalOption.TabIndex = 43;
@@ -3411,7 +3442,7 @@
             "Galleon",
             "Pirate\'s ship",
             "Sloop"});
-			this.ChooseShipComboBox.Location = new System.Drawing.Point(190, 450);
+			this.ChooseShipComboBox.Location = new System.Drawing.Point(304, 451);
 			this.ChooseShipComboBox.Name = "ChooseShipComboBox";
 			this.ChooseShipComboBox.Size = new System.Drawing.Size(121, 21);
 			this.ChooseShipComboBox.TabIndex = 44;
@@ -3420,48 +3451,22 @@
 			// 
 			this.ErrorDialogLabel.BackColor = System.Drawing.Color.Transparent;
 			this.ErrorDialogLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.ErrorDialogLabel.Location = new System.Drawing.Point(181, 577);
+			this.ErrorDialogLabel.Location = new System.Drawing.Point(295, 578);
 			this.ErrorDialogLabel.Name = "ErrorDialogLabel";
 			this.ErrorDialogLabel.Size = new System.Drawing.Size(130, 81);
 			this.ErrorDialogLabel.TabIndex = 45;
 			// 
-			// ActionButton
-			// 
-			this.ActionButton.BackColor = System.Drawing.Color.Transparent;
-			this.ActionButton.BackgroundImage = global::BattleShips.Properties.Resources.BigButtton;
-			this.ActionButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.ActionButton.FlatAppearance.BorderSize = 0;
-			this.ActionButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.ActionButton.Location = new System.Drawing.Point(115, 315);
-			this.ActionButton.Margin = new System.Windows.Forms.Padding(0);
-			this.ActionButton.Name = "ActionButton";
-			this.ActionButton.Size = new System.Drawing.Size(100, 50);
-			this.ActionButton.TabIndex = 46;
-			this.ActionButton.Text = "End Turn";
-			this.ActionButton.UseVisualStyleBackColor = false;
-			this.ActionButton.Click += new System.EventHandler(this.ActionButton_Click);
-			// 
 			// ShipName_texbox
 			// 
-			this.ShipName_texbox.Location = new System.Drawing.Point(190, 510);
+			this.ShipName_texbox.Location = new System.Drawing.Point(304, 511);
 			this.ShipName_texbox.MaxLength = 15;
 			this.ShipName_texbox.Name = "ShipName_texbox";
 			this.ShipName_texbox.Size = new System.Drawing.Size(121, 20);
 			this.ShipName_texbox.TabIndex = 47;
 			// 
-			// RemovePiratesShip_button
-			// 
-			this.RemovePiratesShip_button.BackgroundImage = global::BattleShips.Properties.Resources.RemoveIcon;
-			this.RemovePiratesShip_button.Location = new System.Drawing.Point(814, 605);
-			this.RemovePiratesShip_button.Name = "RemovePiratesShip_button";
-			this.RemovePiratesShip_button.Size = new System.Drawing.Size(23, 23);
-			this.RemovePiratesShip_button.TabIndex = 48;
-			this.RemovePiratesShip_button.UseVisualStyleBackColor = true;
-			this.RemovePiratesShip_button.Click += new System.EventHandler(this.button1_Click);
-			// 
 			// FishingBoat_progressBar
 			// 
-			this.FishingBoat_progressBar.Location = new System.Drawing.Point(704, 388);
+			this.FishingBoat_progressBar.Location = new System.Drawing.Point(818, 389);
 			this.FishingBoat_progressBar.Maximum = 20;
 			this.FishingBoat_progressBar.Name = "FishingBoat_progressBar";
 			this.FishingBoat_progressBar.Size = new System.Drawing.Size(60, 12);
@@ -3471,7 +3476,7 @@
 			// 
 			// Brigantine_progressBar
 			// 
-			this.Brigantine_progressBar.Location = new System.Drawing.Point(688, 448);
+			this.Brigantine_progressBar.Location = new System.Drawing.Point(802, 449);
 			this.Brigantine_progressBar.Maximum = 30;
 			this.Brigantine_progressBar.Name = "Brigantine_progressBar";
 			this.Brigantine_progressBar.Size = new System.Drawing.Size(90, 12);
@@ -3481,7 +3486,7 @@
 			// 
 			// Sloop_progressBar
 			// 
-			this.Sloop_progressBar.Location = new System.Drawing.Point(688, 508);
+			this.Sloop_progressBar.Location = new System.Drawing.Point(802, 509);
 			this.Sloop_progressBar.Maximum = 30;
 			this.Sloop_progressBar.Name = "Sloop_progressBar";
 			this.Sloop_progressBar.Size = new System.Drawing.Size(90, 12);
@@ -3491,7 +3496,7 @@
 			// 
 			// Galleon_progressBar
 			// 
-			this.Galleon_progressBar.Location = new System.Drawing.Point(674, 568);
+			this.Galleon_progressBar.Location = new System.Drawing.Point(788, 569);
 			this.Galleon_progressBar.Maximum = 40;
 			this.Galleon_progressBar.Name = "Galleon_progressBar";
 			this.Galleon_progressBar.Size = new System.Drawing.Size(121, 12);
@@ -3501,7 +3506,7 @@
 			// 
 			// PiratesShip_progressBar
 			// 
-			this.PiratesShip_progressBar.Location = new System.Drawing.Point(658, 628);
+			this.PiratesShip_progressBar.Location = new System.Drawing.Point(772, 629);
 			this.PiratesShip_progressBar.Maximum = 50;
 			this.PiratesShip_progressBar.Name = "PiratesShip_progressBar";
 			this.PiratesShip_progressBar.Size = new System.Drawing.Size(150, 12);
@@ -3513,7 +3518,7 @@
 			// 
 			this.FishingBoat_nameText.BackColor = System.Drawing.Color.Transparent;
 			this.FishingBoat_nameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.FishingBoat_nameText.Location = new System.Drawing.Point(671, 337);
+			this.FishingBoat_nameText.Location = new System.Drawing.Point(785, 338);
 			this.FishingBoat_nameText.Name = "FishingBoat_nameText";
 			this.FishingBoat_nameText.Size = new System.Drawing.Size(130, 21);
 			this.FishingBoat_nameText.TabIndex = 115;
@@ -3524,7 +3529,7 @@
 			// 
 			this.Brigantine_nameText.BackColor = System.Drawing.Color.Transparent;
 			this.Brigantine_nameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Brigantine_nameText.Location = new System.Drawing.Point(671, 397);
+			this.Brigantine_nameText.Location = new System.Drawing.Point(785, 398);
 			this.Brigantine_nameText.Name = "Brigantine_nameText";
 			this.Brigantine_nameText.Size = new System.Drawing.Size(130, 21);
 			this.Brigantine_nameText.TabIndex = 116;
@@ -3535,7 +3540,7 @@
 			// 
 			this.Sloop_nameText.BackColor = System.Drawing.Color.Transparent;
 			this.Sloop_nameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Sloop_nameText.Location = new System.Drawing.Point(671, 463);
+			this.Sloop_nameText.Location = new System.Drawing.Point(785, 464);
 			this.Sloop_nameText.Name = "Sloop_nameText";
 			this.Sloop_nameText.Size = new System.Drawing.Size(130, 21);
 			this.Sloop_nameText.TabIndex = 117;
@@ -3546,7 +3551,7 @@
 			// 
 			this.Galleon_nameText.BackColor = System.Drawing.Color.Transparent;
 			this.Galleon_nameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Galleon_nameText.Location = new System.Drawing.Point(671, 523);
+			this.Galleon_nameText.Location = new System.Drawing.Point(785, 524);
 			this.Galleon_nameText.Name = "Galleon_nameText";
 			this.Galleon_nameText.Size = new System.Drawing.Size(130, 21);
 			this.Galleon_nameText.TabIndex = 118;
@@ -3557,7 +3562,7 @@
 			// 
 			this.PiratesShip_nameText.BackColor = System.Drawing.Color.Transparent;
 			this.PiratesShip_nameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PiratesShip_nameText.Location = new System.Drawing.Point(671, 577);
+			this.PiratesShip_nameText.Location = new System.Drawing.Point(785, 578);
 			this.PiratesShip_nameText.Name = "PiratesShip_nameText";
 			this.PiratesShip_nameText.Size = new System.Drawing.Size(130, 21);
 			this.PiratesShip_nameText.TabIndex = 119;
@@ -3568,7 +3573,7 @@
 			// 
 			this.label1.BackColor = System.Drawing.Color.Transparent;
 			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label1.Location = new System.Drawing.Point(181, 492);
+			this.label1.Location = new System.Drawing.Point(295, 493);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(124, 15);
 			this.label1.TabIndex = 120;
@@ -3581,7 +3586,7 @@
 			// 
 			// cheat_button
 			// 
-			this.cheat_button.Location = new System.Drawing.Point(208, 52);
+			this.cheat_button.Location = new System.Drawing.Point(322, 53);
 			this.cheat_button.Name = "cheat_button";
 			this.cheat_button.Size = new System.Drawing.Size(77, 23);
 			this.cheat_button.TabIndex = 121;
@@ -3593,56 +3598,66 @@
 			// 
 			this.label2.BackColor = System.Drawing.Color.Transparent;
 			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label2.Location = new System.Drawing.Point(181, 432);
+			this.label2.Location = new System.Drawing.Point(295, 433);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(124, 15);
 			this.label2.TabIndex = 122;
 			this.label2.Text = "Select ship";
 			// 
-			// RemoveGalleon_button
+			// exit_button
 			// 
-			this.RemoveGalleon_button.BackgroundImage = global::BattleShips.Properties.Resources.RemoveIcon;
-			this.RemoveGalleon_button.Location = new System.Drawing.Point(814, 548);
-			this.RemoveGalleon_button.Name = "RemoveGalleon_button";
-			this.RemoveGalleon_button.Size = new System.Drawing.Size(23, 23);
-			this.RemoveGalleon_button.TabIndex = 123;
-			this.RemoveGalleon_button.UseVisualStyleBackColor = true;
-			this.RemoveGalleon_button.Click += new System.EventHandler(this.RemoveGalleon_button_Click);
-			// 
-			// RemoveSloop_button
-			// 
-			this.RemoveSloop_button.BackgroundImage = global::BattleShips.Properties.Resources.RemoveIcon;
-			this.RemoveSloop_button.Location = new System.Drawing.Point(814, 492);
-			this.RemoveSloop_button.Name = "RemoveSloop_button";
-			this.RemoveSloop_button.Size = new System.Drawing.Size(23, 23);
-			this.RemoveSloop_button.TabIndex = 124;
-			this.RemoveSloop_button.UseVisualStyleBackColor = true;
-			this.RemoveSloop_button.Click += new System.EventHandler(this.RemoveSloop_button_Click);
-			// 
-			// RemoveBrigantine_button
-			// 
-			this.RemoveBrigantine_button.BackgroundImage = global::BattleShips.Properties.Resources.RemoveIcon;
-			this.RemoveBrigantine_button.Location = new System.Drawing.Point(814, 432);
-			this.RemoveBrigantine_button.Name = "RemoveBrigantine_button";
-			this.RemoveBrigantine_button.Size = new System.Drawing.Size(23, 23);
-			this.RemoveBrigantine_button.TabIndex = 125;
-			this.RemoveBrigantine_button.UseVisualStyleBackColor = true;
-			this.RemoveBrigantine_button.Click += new System.EventHandler(this.RemoveBrigantine_button_Click);
+			this.exit_button.Location = new System.Drawing.Point(1166, 646);
+			this.exit_button.Name = "exit_button";
+			this.exit_button.Size = new System.Drawing.Size(75, 23);
+			this.exit_button.TabIndex = 127;
+			this.exit_button.Text = "Exit Game";
+			this.exit_button.UseVisualStyleBackColor = true;
+			this.exit_button.Click += new System.EventHandler(this.exit_button_Click);
 			// 
 			// RemoveFishingBoat_button
 			// 
 			this.RemoveFishingBoat_button.BackgroundImage = global::BattleShips.Properties.Resources.RemoveIcon;
-			this.RemoveFishingBoat_button.Location = new System.Drawing.Point(814, 368);
+			this.RemoveFishingBoat_button.Location = new System.Drawing.Point(928, 369);
 			this.RemoveFishingBoat_button.Name = "RemoveFishingBoat_button";
 			this.RemoveFishingBoat_button.Size = new System.Drawing.Size(23, 23);
 			this.RemoveFishingBoat_button.TabIndex = 126;
 			this.RemoveFishingBoat_button.UseVisualStyleBackColor = true;
 			this.RemoveFishingBoat_button.Click += new System.EventHandler(this.RemoveFishingBoat_button_Click);
 			// 
+			// RemoveBrigantine_button
+			// 
+			this.RemoveBrigantine_button.BackgroundImage = global::BattleShips.Properties.Resources.RemoveIcon;
+			this.RemoveBrigantine_button.Location = new System.Drawing.Point(928, 433);
+			this.RemoveBrigantine_button.Name = "RemoveBrigantine_button";
+			this.RemoveBrigantine_button.Size = new System.Drawing.Size(23, 23);
+			this.RemoveBrigantine_button.TabIndex = 125;
+			this.RemoveBrigantine_button.UseVisualStyleBackColor = true;
+			this.RemoveBrigantine_button.Click += new System.EventHandler(this.RemoveBrigantine_button_Click);
+			// 
+			// RemoveSloop_button
+			// 
+			this.RemoveSloop_button.BackgroundImage = global::BattleShips.Properties.Resources.RemoveIcon;
+			this.RemoveSloop_button.Location = new System.Drawing.Point(928, 493);
+			this.RemoveSloop_button.Name = "RemoveSloop_button";
+			this.RemoveSloop_button.Size = new System.Drawing.Size(23, 23);
+			this.RemoveSloop_button.TabIndex = 124;
+			this.RemoveSloop_button.UseVisualStyleBackColor = true;
+			this.RemoveSloop_button.Click += new System.EventHandler(this.RemoveSloop_button_Click);
+			// 
+			// RemoveGalleon_button
+			// 
+			this.RemoveGalleon_button.BackgroundImage = global::BattleShips.Properties.Resources.RemoveIcon;
+			this.RemoveGalleon_button.Location = new System.Drawing.Point(928, 549);
+			this.RemoveGalleon_button.Name = "RemoveGalleon_button";
+			this.RemoveGalleon_button.Size = new System.Drawing.Size(23, 23);
+			this.RemoveGalleon_button.TabIndex = 123;
+			this.RemoveGalleon_button.UseVisualStyleBackColor = true;
+			this.RemoveGalleon_button.Click += new System.EventHandler(this.RemoveGalleon_button_Click);
+			// 
 			// PiratesShip_icon
 			// 
 			this.PiratesShip_icon.Image = global::BattleShips.Properties.Resources.PiratesShip_horizontal;
-			this.PiratesShip_icon.Location = new System.Drawing.Point(658, 598);
+			this.PiratesShip_icon.Location = new System.Drawing.Point(772, 599);
 			this.PiratesShip_icon.Name = "PiratesShip_icon";
 			this.PiratesShip_icon.Size = new System.Drawing.Size(150, 30);
 			this.PiratesShip_icon.TabIndex = 109;
@@ -3652,7 +3667,7 @@
 			// Galleon_icon
 			// 
 			this.Galleon_icon.Image = global::BattleShips.Properties.Resources.Galleon_horizontal;
-			this.Galleon_icon.Location = new System.Drawing.Point(675, 541);
+			this.Galleon_icon.Location = new System.Drawing.Point(789, 542);
 			this.Galleon_icon.Name = "Galleon_icon";
 			this.Galleon_icon.Size = new System.Drawing.Size(120, 30);
 			this.Galleon_icon.TabIndex = 105;
@@ -3662,7 +3677,7 @@
 			// Sloop_icon
 			// 
 			this.Sloop_icon.Image = global::BattleShips.Properties.Resources.Sloop_horizontal;
-			this.Sloop_icon.Location = new System.Drawing.Point(688, 481);
+			this.Sloop_icon.Location = new System.Drawing.Point(802, 482);
 			this.Sloop_icon.Name = "Sloop_icon";
 			this.Sloop_icon.Size = new System.Drawing.Size(90, 30);
 			this.Sloop_icon.TabIndex = 102;
@@ -3672,7 +3687,7 @@
 			// Brigantine_icon
 			// 
 			this.Brigantine_icon.Image = global::BattleShips.Properties.Resources.Sloop_horizontal;
-			this.Brigantine_icon.Location = new System.Drawing.Point(688, 418);
+			this.Brigantine_icon.Location = new System.Drawing.Point(802, 419);
 			this.Brigantine_icon.Name = "Brigantine_icon";
 			this.Brigantine_icon.Size = new System.Drawing.Size(90, 30);
 			this.Brigantine_icon.TabIndex = 101;
@@ -3682,28 +3697,43 @@
 			// FishingBoat_icon
 			// 
 			this.FishingBoat_icon.Image = global::BattleShips.Properties.Resources.Fishing_vessel_water;
-			this.FishingBoat_icon.Location = new System.Drawing.Point(704, 358);
+			this.FishingBoat_icon.Location = new System.Drawing.Point(818, 359);
 			this.FishingBoat_icon.Name = "FishingBoat_icon";
 			this.FishingBoat_icon.Size = new System.Drawing.Size(60, 30);
 			this.FishingBoat_icon.TabIndex = 49;
 			this.FishingBoat_icon.TabStop = false;
 			this.FishingBoat_icon.Visible = false;
 			// 
-			// exit_button
+			// RemovePiratesShip_button
 			// 
-			this.exit_button.Location = new System.Drawing.Point(1154, 617);
-			this.exit_button.Name = "exit_button";
-			this.exit_button.Size = new System.Drawing.Size(75, 23);
-			this.exit_button.TabIndex = 127;
-			this.exit_button.Text = "Exit Game";
-			this.exit_button.UseVisualStyleBackColor = true;
-			this.exit_button.Click += new System.EventHandler(this.exit_button_Click);
+			this.RemovePiratesShip_button.BackgroundImage = global::BattleShips.Properties.Resources.RemoveIcon;
+			this.RemovePiratesShip_button.Location = new System.Drawing.Point(928, 606);
+			this.RemovePiratesShip_button.Name = "RemovePiratesShip_button";
+			this.RemovePiratesShip_button.Size = new System.Drawing.Size(23, 23);
+			this.RemovePiratesShip_button.TabIndex = 48;
+			this.RemovePiratesShip_button.UseVisualStyleBackColor = true;
+			this.RemovePiratesShip_button.Click += new System.EventHandler(this.button1_Click);
+			// 
+			// ActionButton
+			// 
+			this.ActionButton.BackColor = System.Drawing.Color.Transparent;
+			this.ActionButton.BackgroundImage = global::BattleShips.Properties.Resources.BigButtton;
+			this.ActionButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.ActionButton.FlatAppearance.BorderSize = 0;
+			this.ActionButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.ActionButton.Location = new System.Drawing.Point(229, 316);
+			this.ActionButton.Margin = new System.Windows.Forms.Padding(0);
+			this.ActionButton.Name = "ActionButton";
+			this.ActionButton.Size = new System.Drawing.Size(100, 50);
+			this.ActionButton.TabIndex = 46;
+			this.ActionButton.Text = "End Turn";
+			this.ActionButton.UseVisualStyleBackColor = false;
+			this.ActionButton.Click += new System.EventHandler(this.ActionButton_Click);
 			// 
 			// GameScreen
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.BackgroundImage = global::BattleShips.Properties.Resources.Backround_blured;
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(1264, 681);
 			this.Controls.Add(this.exit_button);
@@ -3775,6 +3805,7 @@
 			this.Controls.Add(this.PlayerField_label_B);
 			this.Controls.Add(this.PlayerField_label_A);
 			this.Controls.Add(this.PlayerField_label);
+			this.DoubleBuffered = true;
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
 			this.MaximumSize = new System.Drawing.Size(1280, 720);
 			this.Name = "GameScreen";

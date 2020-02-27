@@ -63,30 +63,9 @@ namespace BattleShips.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Backround_blured {
-            get {
-                object obj = ResourceManager.GetObject("Backround_blured", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap BigButtton {
             get {
                 object obj = ResourceManager.GetObject("BigButtton", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap boat_ships_dual_screen_fantasy_ice_pirate_ocean_snow_cool_images_pirates_boats_ship_sea_samsung_ship_jpg {
-            get {
-                object obj = ResourceManager.GetObject("boat-ships-dual-screen-fantasy-ice-pirate-ocean-snow-cool-images-pirates-boats-sh" +
-                        "ip-sea-samsung-ship-jpg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -157,6 +136,16 @@ namespace BattleShips.Properties {
         internal static System.Drawing.Bitmap Galleon_vertical {
             get {
                 object obj = ResourceManager.GetObject("Galleon_vertical", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap game_backround2 {
+            get {
+                object obj = ResourceManager.GetObject("game_backround2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
