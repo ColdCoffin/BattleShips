@@ -215,7 +215,9 @@ namespace BattleShips
 			CalculatePositions();
 
 			Vgraphics.Location = Location.point;
+			Vgraphics.BringToFront();
 			Hgraphics.Location = Location.point;
+			Hgraphics.BringToFront();
 
 			if (isEnemy == false)
 				ShowBoat();
