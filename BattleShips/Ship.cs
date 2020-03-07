@@ -258,6 +258,10 @@ namespace BattleShips
 				if (ShipParts[i].field.point == pos.point)
 				{
 					ShipParts[i].isDestroyed = true;
+					if (isEnemy == true)
+						EnemyField.Hit(pos);
+					else
+						PlayerField.Hit(pos);
 				}
 
 			}

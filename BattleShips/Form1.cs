@@ -130,17 +130,16 @@ namespace BattleShips
 				return;
 			}
 
-			Point fireAt = pic.Location;
+			Point fireAt =  pic.Location;
 
-			foreach (Field pos in EnemyField.ListHitFields())
+
+			if (EnemyField.isAlreadyHit(new Field(fireAt)) == true)
 			{
-				if (fireAt == pos.point)
-				{
 					ActionText.Text = "Already fired there!";
 					return;
-				}
-
 			}
+
+			
 
 			EnemyField.Hit(new Field(fireAt));
 			bool wasHit = false;
@@ -386,6 +385,7 @@ namespace BattleShips
 			{
 				if (playerShip.isHit(fieldHit) == true)
 				{
+					AI.IsHit = true;
 					wasHit = true;
 					playerShip.Hit(fieldHit);
 					break;

@@ -21,8 +21,13 @@ namespace BattleShips
 	{
 
 		public static Field[] AllFields;
+		private static List<Field> notHitfields;
 
-		static PlayerField() { AllFields  = new Field[100];}
+		static PlayerField()
+			{ 
+			AllFields  = new Field[100];
+			notHitfields = new List<Field>();
+			}
 
 		static public void LoadFields()
 		{
@@ -43,22 +48,48 @@ namespace BattleShips
 				if (AllFields[i].point == pos.point)
 				{
 					AllFields[i].isHit = true;
-
+					notHitfields.Add(pos);
 				}
 			}
 
 		}
 
-		static public List<Field> ListNotHitFields()
+		static public bool isShipTarget(Field pos)
 		{
-			List<Field> notHitfields = new List<Field>();
-
 			for (int i = 0; i < 100; i++)
 			{
-				if (AllFields[i].isHit == false)
-					notHitfields.Add(AllFields[i]);
+				if (AllFields[i].point == pos.point)
+				{
+					if (AllFields[i].isTaken == true)
+						return true;
+				}
 			}
-			return notHitfields;
+
+			return false;
+		}
+
+		static public bool isAlreadyHit(Field pos)
+		{
+
+
+			foreach (Field f in notHitfields)
+			{
+				if (f.point == pos.point)
+					return true;
+			}
+			return false;
+		}
+
+		static public bool isOutOfBounds(Field pos)
+		{
+
+			foreach (Field f in AllFields)
+			{
+				if (f.point == pos.point)
+					return false;
+			}
+
+			return true;
 		}
 	}
 
