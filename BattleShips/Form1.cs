@@ -37,9 +37,13 @@ namespace BattleShips
 		AIEnemy AI;
 		SoundPlayer sound;
 
-		public GameScreen()
+		MenuScreen ms;
+
+		public GameScreen(MenuScreen menuScreen)
 		{
 			InitializeComponent();
+
+			ms = menuScreen;
 
 			PlayerField.LoadFields();
 			EnemyField.LoadFields();
@@ -352,7 +356,14 @@ namespace BattleShips
 
 			AITimer.Start();
 
-			
+			SetHealth();
+			SetNumOfDestroyedShips();
+			GameOver();
+
+			FireButton.Enabled = true;
+			LetterboxText.Enabled = true;
+			NumberboxText.Enabled = true;
+
 		}
 
 		private void SetHorizontalPosText_TextChanged(object sender, EventArgs e)
@@ -408,13 +419,7 @@ namespace BattleShips
 			pic.BringToFront();
 			ActionText.Text = "Enemy fired at " + (char)letter + "" + number;
 
-			SetHealth();
-			SetNumOfDestroyedShips();
-			GameOver();
-
-			FireButton.Enabled = true;
-			LetterboxText.Enabled = true;
-			NumberboxText.Enabled = true;
+			
 
 			AITimer.Stop();
 		}
