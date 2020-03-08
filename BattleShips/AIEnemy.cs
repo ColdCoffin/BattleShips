@@ -188,6 +188,8 @@ namespace BattleShips
 
 			if (normalMode == true)
 			{
+				
+
 				if (searchmodeActivated == true)
 				{
 
