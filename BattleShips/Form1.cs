@@ -37,13 +37,13 @@ namespace BattleShips
 		AIEnemy AI;
 		SoundPlayer sound;
 
-		MenuScreen ms;
+		MenuScreen menuScreen;
 
 		public GameScreen(MenuScreen menuScreen)
 		{
 			InitializeComponent();
 
-			ms = menuScreen;
+			this.menuScreen = menuScreen;
 
 			PlayerField.LoadFields();
 			EnemyField.LoadFields();
@@ -112,7 +112,7 @@ namespace BattleShips
 			};
 
 			AI = new AIEnemy(enemyFishingBoat, enemySloop,
-									enemyGalleon, enemyBrigantine, enemyPiratesShip, true);
+									enemyGalleon, enemyBrigantine, enemyPiratesShip, menuScreen.isHard);
 			AI.SpawnShips();
 
 
