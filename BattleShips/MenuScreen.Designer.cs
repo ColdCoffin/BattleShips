@@ -33,11 +33,13 @@
 			this.multiplayerGame_button = new System.Windows.Forms.Button();
 			this.options_button = new System.Windows.Forms.Button();
 			this.exit_button = new System.Windows.Forms.Button();
-			this.backround_box = new System.Windows.Forms.PictureBox();
 			this.backroundUpdate = new System.Windows.Forms.Timer(this.components);
 			this.easyOption_button = new System.Windows.Forms.Button();
 			this.hardOption_button = new System.Windows.Forms.Button();
 			this.back_button = new System.Windows.Forms.Button();
+			this.startStopAnimation_button = new System.Windows.Forms.Button();
+			this.backround_box = new System.Windows.Forms.PictureBox();
+			this.backroundLoad_progressbar = new System.Windows.Forms.ProgressBar();
 			((System.ComponentModel.ISupportInitialize)(this.backround_box)).BeginInit();
 			this.SuspendLayout();
 			// 
@@ -84,14 +86,6 @@
 			this.exit_button.UseVisualStyleBackColor = true;
 			this.exit_button.Click += new System.EventHandler(this.exit_button_Click);
 			// 
-			// backround_box
-			// 
-			this.backround_box.Location = new System.Drawing.Point(0, 0);
-			this.backround_box.Name = "backround_box";
-			this.backround_box.Size = new System.Drawing.Size(1280, 720);
-			this.backround_box.TabIndex = 4;
-			this.backround_box.TabStop = false;
-			// 
 			// backroundUpdate
 			// 
 			this.backroundUpdate.Interval = 35;
@@ -133,11 +127,43 @@
 			this.back_button.Visible = false;
 			this.back_button.Click += new System.EventHandler(this.back_button_Click);
 			// 
+			// startStopAnimation_button
+			// 
+			this.startStopAnimation_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.startStopAnimation_button.Location = new System.Drawing.Point(1177, 684);
+			this.startStopAnimation_button.Name = "startStopAnimation_button";
+			this.startStopAnimation_button.Size = new System.Drawing.Size(91, 24);
+			this.startStopAnimation_button.TabIndex = 8;
+			this.startStopAnimation_button.Text = "Start Animation";
+			this.startStopAnimation_button.UseVisualStyleBackColor = true;
+			this.startStopAnimation_button.Click += new System.EventHandler(this.startStopAnimation_button_Click);
+			// 
+			// backround_box
+			// 
+			this.backround_box.BackgroundImage = global::BattleShips.Properties.Resources.Backround359;
+			this.backround_box.Location = new System.Drawing.Point(0, 0);
+			this.backround_box.Name = "backround_box";
+			this.backround_box.Size = new System.Drawing.Size(1280, 720);
+			this.backround_box.TabIndex = 4;
+			this.backround_box.TabStop = false;
+			// 
+			// backroundLoad_progressbar
+			// 
+			this.backroundLoad_progressbar.Location = new System.Drawing.Point(1177, 667);
+			this.backroundLoad_progressbar.Maximum = 163;
+			this.backroundLoad_progressbar.Name = "backroundLoad_progressbar";
+			this.backroundLoad_progressbar.Size = new System.Drawing.Size(91, 11);
+			this.backroundLoad_progressbar.Step = 1;
+			this.backroundLoad_progressbar.TabIndex = 9;
+			this.backroundLoad_progressbar.Visible = false;
+			// 
 			// MenuScreen
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(1280, 720);
+			this.Controls.Add(this.backroundLoad_progressbar);
+			this.Controls.Add(this.startStopAnimation_button);
 			this.Controls.Add(this.back_button);
 			this.Controls.Add(this.hardOption_button);
 			this.Controls.Add(this.easyOption_button);
@@ -167,5 +193,7 @@
 		private System.Windows.Forms.Button easyOption_button;
 		private System.Windows.Forms.Button hardOption_button;
 		private System.Windows.Forms.Button back_button;
+		private System.Windows.Forms.Button startStopAnimation_button;
+		private System.Windows.Forms.ProgressBar backroundLoad_progressbar;
 	}
 }

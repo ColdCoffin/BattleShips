@@ -16,14 +16,18 @@ namespace BattleShips
 		private List<Image> backround;
 		static int indexUpdateLoop;
 
+		GameScreen gs;
+
+		public bool isGameScreenLoaded { get; set; }
+
 		public bool isHard { get; set; }
 
 		SoundPlayer sound;
-
 		public MenuScreen()
 		{
 			InitializeComponent();
-			loadBackround();
+			backround = new List<Image>();
+
 
 			sound = new SoundPlayer();
 			sound.SoundLocation = "E:\\Programming\\c# vsite projects\\" +
@@ -31,20 +35,35 @@ namespace BattleShips
 			sound.PlayLooping();
 
 			indexUpdateLoop = 0;
-			backroundUpdate.Start();
+			isGameScreenLoaded = false;
 		}
 
 		private void loadBackround()
 		{
-			backround = new List<Image>();
 
-			for (int i = 360; i <= 622; i++)
+			backroundLoad_progressbar.Visible = true;
+
+			for (int i = 360; i <= 522; i++)
 			{
 				backround.Add(Image.FromFile("E:\\Programming\\c# vsite projects\\" +
 					"BatleShips game\\BattleShips\\BattleShips\\Art\\MenuBackround\\Backround"
 					+ i +".jpg"));
+				backroundLoad_progressbar.Value++;
 			}
 
+			backroundLoad_progressbar.Visible = false;
+			backroundUpdate.Start();
+
+		}
+
+		private void releaseBackround()
+		{
+			foreach (Image item in backround)
+			{
+				item.Dispose();
+			}
+
+			backround.Clear();
 		}
 
 		private void startGame_button_Click(object sender, EventArgs e)
@@ -89,11 +108,17 @@ namespace BattleShips
 
 		private void gameStart()
 		{
-			Hide();
-			backroundUpdate.Stop();
-			backround.Clear();
+
 			new GameScreen(this).ShowDialog();
-			Close();
+			
+
+		}
+
+		public void closeMenu()
+		{
+			backroundUpdate.Stop();
+			releaseBackround();
+			Hide();
 		}
 
 		private void back_button_Click(object sender, EventArgs e)
@@ -106,6 +131,26 @@ namespace BattleShips
 			easyOption_button.Visible = false;
 			hardOption_button.Visible = false;
 			back_button.Visible = false;
+		}
+
+		private void startStopAnimation_button_Click(object sender, EventArgs e)
+		{
+			if (startStopAnimation_button.Text == "Stop Animation")
+			{
+				backroundUpdate.Stop();
+				startStopAnimation_button.Text = "Start Animation";
+			}
+			else
+			{
+				if (backround.Count < 1)
+				{
+					loadBackround();
+				}
+
+				backroundUpdate.Start();
+				startStopAnimation_button.Text = "Stop Animation";
+
+			}
 		}
 	}
 }

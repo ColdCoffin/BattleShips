@@ -33,17 +33,34 @@ namespace BattleShips
 
 		int destroyedPlayerShips;
 		int destroyedEnemyShips;
+		Random rand;
 
 		AIEnemy AI;
 		SoundPlayer sound;
 
+		string[] tileIndex;
+
 		MenuScreen menuScreen;
+
 
 		public GameScreen(MenuScreen menuScreen)
 		{
 			InitializeComponent();
 
 			this.menuScreen = menuScreen;
+
+			EnemyField_label_A.Parent = pictureBox1;
+			EnemyField_label_A.Location = pictureBox1.Location;
+			EnemyField_label_A.BringToFront();
+
+			tileIndex = new string[3];
+			tileIndex[0] = "woodtile_clean.png";
+			tileIndex[1] = "woodtile_halfdirty.png";
+			tileIndex[2] = "woodtile_dirty.png";
+
+			rand = new Random();
+
+			loadBackround();
 
 			PlayerField.LoadFields();
 			EnemyField.LoadFields();
@@ -115,7 +132,25 @@ namespace BattleShips
 									enemyGalleon, enemyBrigantine, enemyPiratesShip, menuScreen.isHard);
 			AI.SpawnShips();
 
+		
+		}
+		
+		private void loadBackround()
+		{
 
+			for (int i = 0; i < 23; i++)
+			{
+				for (int j = 0; j < 40; j++)
+				{
+					string tile = tileIndex[rand.Next(0,2)];
+					PictureBox p = new PictureBox();
+					p.Size = new Size(new Point(32, 32));
+					p.Location = new Point(32*j,32*i);
+					p.Image = Image.FromFile("E:\\Programming\\c# vsite projects\\" +
+					"BatleShips game\\BattleShips\\BattleShips\\Art\\"+ tile);
+					Controls.Add(p);
+				}
+			}
 
 		}
 
@@ -185,6 +220,7 @@ namespace BattleShips
 
 		private void SetShipsButton_Click(object sender, EventArgs e)
 		{
+
 			if (SetHorizontalPosText.TextLength == 0 || SetHorizontalPosText.Text[0] < 'A' 
 				|| SetHorizontalPosText.Text[0] > 'J' || SetVerticalPosText.TextLength == 0)
 			{
@@ -356,14 +392,6 @@ namespace BattleShips
 
 			AITimer.Start();
 
-			SetHealth();
-			SetNumOfDestroyedShips();
-			GameOver();
-
-			FireButton.Enabled = true;
-			LetterboxText.Enabled = true;
-			NumberboxText.Enabled = true;
-
 		}
 
 		private void SetHorizontalPosText_TextChanged(object sender, EventArgs e)
@@ -419,7 +447,13 @@ namespace BattleShips
 			pic.BringToFront();
 			ActionText.Text = "Enemy fired at " + (char)letter + "" + number;
 
-			
+			FireButton.Enabled = true;
+			LetterboxText.Enabled = true;
+			NumberboxText.Enabled = true;
+
+			SetHealth();
+			SetNumOfDestroyedShips();
+			GameOver();
 
 			AITimer.Stop();
 		}
@@ -475,6 +509,11 @@ namespace BattleShips
 		private void exit_button_Click(object sender, EventArgs e)
 		{
 			Application.Exit(); 
+		}
+
+		private void GameScreen_Load(object sender, EventArgs e)
+		{
+			menuScreen.closeMenu();
 		}
 	}
 }

@@ -150,5 +150,62 @@
   <ItemGroup>
     <None Include="Art\game_backround2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\game_backround3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\woodtile_clean.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround359.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\beach1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\beach2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\beach3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\beach_corner1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\beach_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\beach_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\beach6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\beach_corner2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\beach7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\beach8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\beach9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\beach_corner3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\beach10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\beach11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\beach12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\beach_corner4.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
