@@ -53,15 +53,6 @@ namespace BattleShips
 			EnemyField_label_A.Location = pictureBox1.Location;
 			EnemyField_label_A.BringToFront();
 
-			tileIndex = new string[3];
-			tileIndex[0] = "woodtile_clean.png";
-			tileIndex[1] = "woodtile_halfdirty.png";
-			tileIndex[2] = "woodtile_dirty.png";
-
-			rand = new Random();
-
-			loadBackround();
-
 			PlayerField.LoadFields();
 			EnemyField.LoadFields();
 
@@ -133,25 +124,6 @@ namespace BattleShips
 			AI.SpawnShips();
 
 		
-		}
-		
-		private void loadBackround()
-		{
-
-			for (int i = 0; i < 23; i++)
-			{
-				for (int j = 0; j < 40; j++)
-				{
-					string tile = tileIndex[rand.Next(0,2)];
-					PictureBox p = new PictureBox();
-					p.Size = new Size(new Point(32, 32));
-					p.Location = new Point(32*j,32*i);
-					p.Image = Image.FromFile("E:\\Programming\\c# vsite projects\\" +
-					"BatleShips game\\BattleShips\\BattleShips\\Art\\"+ tile);
-					Controls.Add(p);
-				}
-			}
-
 		}
 
 		private void FireButton_Click(object sender, EventArgs e)

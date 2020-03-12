@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Media;
+using BattleShips.Properties;
+using System.IO;
 
 namespace BattleShips
 {
@@ -28,8 +30,16 @@ namespace BattleShips
 			InitializeComponent();
 			backround = new List<Image>();
 
+			//DirectoryInfo di = new DirectoryInfo(Path.GetDirectoryName(
+			//	System.Reflection.Assembly.GetExecutingAssembly().Location));
+			//FileInfo[] fi = di.GetFiles();
+			//foreach (FileInfo item in fi)
+			//{
+			//	label1.Text += item.Name + ", ";
+			//}
 
 			sound = new SoundPlayer();
+			//Resources.soundscrate_on_a_quest_sc1.CopyTo(sound.Stream);
 			sound.SoundLocation = "E:\\Programming\\c# vsite projects\\" +
 					"BatleShips game\\BattleShips\\BattleShips\\Art\\soundscrate-on-a-quest-sc1.wav";
 			sound.PlayLooping();

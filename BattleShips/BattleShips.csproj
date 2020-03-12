@@ -207,5 +207,59 @@
   <ItemGroup>
     <None Include="Art\beach_corner4.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\sand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\sand_smallGrass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\sand_bigGrass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\sand_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\grass_to_sand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\grass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\sand_to_grass2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\grass_tree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\grass_trees.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\woods.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\woods2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\soundscrate-on-a-quest-sc1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\sand_to_grass3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\sand_to_grass5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\sand_to_grass6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\sand_to_grass7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\sand_to_grass8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\tree.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
