@@ -164,6 +164,7 @@ namespace BattleShips
 		private void searchModeOff()
 		{
 			searchmodeActivated = false;
+			DirisSet = false;
 			resetOffset();
 			resetDir();
 		}

@@ -38,7 +38,6 @@ namespace BattleShips
 		AIEnemy AI;
 		SoundPlayer sound;
 
-		string[] tileIndex;
 
 		MenuScreen menuScreen;
 
@@ -49,17 +48,13 @@ namespace BattleShips
 
 			this.menuScreen = menuScreen;
 
-			EnemyField_label_A.Parent = pictureBox1;
-			EnemyField_label_A.Location = pictureBox1.Location;
-			EnemyField_label_A.BringToFront();
-
 			PlayerField.LoadFields();
 			EnemyField.LoadFields();
 
 			sound = new SoundPlayer();
 			sound.SoundLocation = "E:\\Programming\\c# vsite projects\\" +
 					"BatleShips game\\BattleShips\\BattleShips\\Art\\soundscrate-last-one-standing-sc1.wav";
-			sound.PlayLooping();
+			//sound.PlayLooping();
 
 			playerFishingBoat = new FishingBoat(FishingBoat_horizontal_player,
 				FishingBoat_vertical_player);
@@ -137,7 +132,7 @@ namespace BattleShips
 
 			if (pic == null)
 			{
-				ActionText.Text = "Bad coordinaates mate!";
+				PlayerActionText.Text = "Bad coordinaates mate!";
 				return;
 			}
 
@@ -146,7 +141,7 @@ namespace BattleShips
 
 			if (EnemyField.isAlreadyHit(new Field(fireAt)) == true)
 			{
-					ActionText.Text = "Already fired there!";
+					PlayerActionText.Text = "Already fired there!";
 					return;
 			}
 
@@ -173,7 +168,7 @@ namespace BattleShips
 
 			pic.BringToFront();
 
-			ActionText.Text = "Firing at " + (char) ((fireAt.Y / 30 ) + 'A')+ ((fireAt.X / 30) + 1);
+			PlayerActionText.Text = "Firing at " + (char) ((fireAt.Y / 30 ) + 'A')+ ((fireAt.X / 30) + 1);
 
 
 
@@ -360,7 +355,7 @@ namespace BattleShips
 			RemoveGalleon_button.Visible = false;
 			RemoveSloop_button.Visible = false;
 
-			ActionText.Text = "Enemy is preparing to fire!";
+			PlayerActionText.Text = "Enemy is preparing to fire!";
 
 			AITimer.Start();
 
@@ -417,7 +412,7 @@ namespace BattleShips
 					"BatleShips game\\BattleShips\\BattleShips\\Art\\HitArea.png");
 
 			pic.BringToFront();
-			ActionText.Text = "Enemy fired at " + (char)letter + "" + number;
+			PlayerActionText.Text = "Enemy fired at " + (char)letter + "" + number;
 
 			FireButton.Enabled = true;
 			LetterboxText.Enabled = true;

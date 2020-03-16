@@ -261,5 +261,71 @@
   <ItemGroup>
     <None Include="Art\tree.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\sand_hard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\ship.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\ship_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\woodtile_halfdirty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\woodtile_dirty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\woodtile_clean_rotated.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\woodtile_halfdirty_rotated.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\sand_to_grass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\grasstowater.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\grasstowater2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\grasstowater_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\grasstowater2_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\grasstowater_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\grasstowater2_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\grasstowater_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\grasstowater2_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\actiontextBackround.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\BigButtton_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\BigButtton_2_pressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BigButtton_2_pressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\smallButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\smallButton_pressed.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

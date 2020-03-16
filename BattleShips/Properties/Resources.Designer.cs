@@ -63,6 +63,16 @@ namespace BattleShips.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap actiontextBackround {
+            get {
+                object obj = ResourceManager.GetObject("actiontextBackround", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Backround359 {
             get {
                 object obj = ResourceManager.GetObject("Backround359", resourceCulture);
@@ -243,6 +253,26 @@ namespace BattleShips.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BigButtton_2 {
+            get {
+                object obj = ResourceManager.GetObject("BigButtton_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BigButtton_2_pressed {
+            get {
+                object obj = ResourceManager.GetObject("BigButtton_2_pressed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Destroyed_ship {
             get {
                 object obj = ResourceManager.GetObject("Destroyed_ship", resourceCulture);
@@ -343,6 +373,86 @@ namespace BattleShips.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap grasstowater {
+            get {
+                object obj = ResourceManager.GetObject("grasstowater", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap grasstowater_left {
+            get {
+                object obj = ResourceManager.GetObject("grasstowater_left", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap grasstowater_right {
+            get {
+                object obj = ResourceManager.GetObject("grasstowater_right", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap grasstowater_up {
+            get {
+                object obj = ResourceManager.GetObject("grasstowater_up", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap grasstowater2 {
+            get {
+                object obj = ResourceManager.GetObject("grasstowater2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap grasstowater2_left {
+            get {
+                object obj = ResourceManager.GetObject("grasstowater2_left", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap grasstowater2_right {
+            get {
+                object obj = ResourceManager.GetObject("grasstowater2_right", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap grasstowater2_up {
+            get {
+                object obj = ResourceManager.GetObject("grasstowater2_up", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap HitArea {
             get {
                 object obj = ResourceManager.GetObject("HitArea", resourceCulture);
@@ -413,6 +523,16 @@ namespace BattleShips.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap sand_hard {
+            get {
+                object obj = ResourceManager.GetObject("sand_hard", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap sand_light {
             get {
                 object obj = ResourceManager.GetObject("sand_light", resourceCulture);
@@ -426,6 +546,16 @@ namespace BattleShips.Properties {
         internal static System.Drawing.Bitmap sand_smallGrass {
             get {
                 object obj = ResourceManager.GetObject("sand_smallGrass", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sand_to_grass {
+            get {
+                object obj = ResourceManager.GetObject("sand_to_grass", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -493,6 +623,26 @@ namespace BattleShips.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ship {
+            get {
+                object obj = ResourceManager.GetObject("ship", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ship_down {
+            get {
+                object obj = ResourceManager.GetObject("ship_down", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Sloop_horizontal {
             get {
                 object obj = ResourceManager.GetObject("Sloop_horizontal", resourceCulture);
@@ -516,6 +666,26 @@ namespace BattleShips.Properties {
         internal static System.Drawing.Bitmap Sloop_vertical {
             get {
                 object obj = ResourceManager.GetObject("Sloop_vertical", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap smallButton {
+            get {
+                object obj = ResourceManager.GetObject("smallButton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap smallButton_pressed {
+            get {
+                object obj = ResourceManager.GetObject("smallButton_pressed", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -565,6 +735,46 @@ namespace BattleShips.Properties {
         internal static System.Drawing.Bitmap woodtile_clean {
             get {
                 object obj = ResourceManager.GetObject("woodtile_clean", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap woodtile_clean_rotated {
+            get {
+                object obj = ResourceManager.GetObject("woodtile_clean_rotated", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap woodtile_dirty {
+            get {
+                object obj = ResourceManager.GetObject("woodtile_dirty", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap woodtile_halfdirty {
+            get {
+                object obj = ResourceManager.GetObject("woodtile_halfdirty", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap woodtile_halfdirty_rotated {
+            get {
+                object obj = ResourceManager.GetObject("woodtile_halfdirty_rotated", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
