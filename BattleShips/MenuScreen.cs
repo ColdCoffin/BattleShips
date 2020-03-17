@@ -10,44 +10,46 @@ using System.Windows.Forms;
 using System.Media;
 using BattleShips.Properties;
 using System.IO;
+using System.Resources;
+
 
 namespace BattleShips
 {
 	public partial class MenuScreen : Form
 	{
+		ResourceManager RM;
+
 		private List<Image> backround;
 		static int indexUpdateLoop;
 
-		public bool isGameScreenLoaded { get; set; }
-
 		public bool isHard { get; set; }
 
-		SoundPlayer sound;
+
+		SoundPlayer snd;
 		public MenuScreen()
 		{
 			InitializeComponent();
 			backround = new List<Image>();
 
-			sound = new SoundPlayer();
-			//Resources.soundscrate_on_a_quest_sc1.CopyTo(sound.Stream);
-			sound.SoundLocation = "E:\\Programming\\c# vsite projects\\" +
-					"BatleShips game\\BattleShips\\BattleShips\\Art\\soundscrate-on-a-quest-sc1.wav";
-			//sound.PlayLooping();
+			RM = new ResourceManager("BattleShips.Properties.Resources", typeof(Resources).Assembly);
+
+			Stream str = Resources.soundscrate_on_a_quest_sc1;
+			snd = new SoundPlayer(str);
+			snd.Play();
 
 			indexUpdateLoop = 0;
-			isGameScreenLoaded = false;
 		}
 
 		private void loadBackround()
 		{
+			
+
 
 			backroundLoad_progressbar.Visible = true;
 
 			for (int i = 360; i <= 522; i++)
 			{
-				backround.Add(Image.FromFile("E:\\Programming\\c# vsite projects\\" +
-					"BatleShips game\\BattleShips\\BattleShips\\Art\\MenuBackround\\Backround"
-					+ i +".jpg"));
+				backround.Add((Image)RM.GetObject("Backround" + i));
 				backroundLoad_progressbar.Value++;
 			}
 

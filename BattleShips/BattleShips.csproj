@@ -68,6 +68,11 @@
     <Compile Include="PiratesShip.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Ship.cs" />
     <Compile Include="Sloop.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -78,14 +83,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -319,13 +319,528 @@
     <None Include="Art\BigButtton_2_pressed.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\BigButtton_2_pressed.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Art\smallButton.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Art\smallButton_pressed.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\cannonball.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround360.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround361.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround362.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround363.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround364.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround365.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround366.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround367.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround368.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround369.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround370.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround371.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround372.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround373.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround374.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround375.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround376.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround377.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround378.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround379.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround380.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround381.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround382.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround383.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround384.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround385.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround386.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround387.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround388.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround389.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround390.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround391.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround392.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround393.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround394.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround395.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround396.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround397.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround398.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround399.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround400.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround401.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround402.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround403.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround404.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround405.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround406.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround407.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround408.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround409.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround410.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround411.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround412.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround413.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround414.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround415.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround416.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround417.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround418.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround419.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround420.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround421.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround422.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround423.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround424.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround425.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround426.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround427.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround428.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround429.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround430.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround431.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround432.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround433.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround434.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround435.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround436.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround437.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround438.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround439.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround440.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround441.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround442.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround443.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround444.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround445.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround446.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround447.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround448.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround449.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround450.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround451.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround452.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround453.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround454.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround455.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround456.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround457.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround458.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround459.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround460.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround461.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround462.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround463.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround464.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround465.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround466.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround467.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround468.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround469.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround470.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround471.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround472.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround473.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround474.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround475.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround476.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround477.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround478.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround479.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround480.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround481.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround482.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround483.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround484.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround485.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround486.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround487.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround488.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround489.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround490.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround491.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround492.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround493.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround494.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround495.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround496.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround497.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround498.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround499.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround500.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround501.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround502.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround503.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround504.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround505.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround506.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround507.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround508.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround509.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround510.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround511.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround512.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround513.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround514.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround515.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround516.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround517.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround518.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround519.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround520.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround521.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBackround\Backround522.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\soundscrate-last-one-standing-sc1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

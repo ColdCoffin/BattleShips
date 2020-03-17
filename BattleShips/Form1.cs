@@ -33,7 +33,6 @@ namespace BattleShips
 
 		int destroyedPlayerShips;
 		int destroyedEnemyShips;
-		Random rand;
 
 		AIEnemy AI;
 		SoundPlayer sound;
@@ -41,6 +40,9 @@ namespace BattleShips
 
 		MenuScreen menuScreen;
 
+		Point cannonballEndPos, cannonballCurrentPos;
+
+		List<Image> explosion;
 
 		public GameScreen(MenuScreen menuScreen)
 		{
@@ -51,10 +53,13 @@ namespace BattleShips
 			PlayerField.LoadFields();
 			EnemyField.LoadFields();
 
+			explosion = new List<Image>();
+			loadExplosion();
+
 			sound = new SoundPlayer();
 			sound.SoundLocation = "E:\\Programming\\c# vsite projects\\" +
 					"BatleShips game\\BattleShips\\BattleShips\\Art\\soundscrate-last-one-standing-sc1.wav";
-			//sound.PlayLooping();
+			sound.PlayLooping();
 
 			playerFishingBoat = new FishingBoat(FishingBoat_horizontal_player,
 				FishingBoat_vertical_player);
@@ -81,6 +86,7 @@ namespace BattleShips
 			enemyPiratesShip = new PiratesShip(PiratesShip_horizontal_enemy,
 				PiratesShip_vertical_enemy);
 
+
 			destroyedPlayerShips = 0;
 			destroyedEnemyShips = 0;
 
@@ -95,6 +101,7 @@ namespace BattleShips
 			RemoveGalleon_button.Visible = false;
 			RemoveFishingBoat_button.Visible = false;
 			RemoveBrigantine_button.Visible = false;
+
 
 			PlayerShips = new List<Ship>
 			{
@@ -118,25 +125,29 @@ namespace BattleShips
 									enemyGalleon, enemyBrigantine, enemyPiratesShip, menuScreen.isHard);
 			AI.SpawnShips();
 
+			cannonballTimer.Enabled = true;
 		
 		}
+		bool wasHit;
+		PictureBox hitPic;
 
 		private void FireButton_Click(object sender, EventArgs e)
 		{
+			
 
 			String letter = LetterboxText.Text;
 			String number = NumberboxText.Text;
 			String s = "EnemyField_" + letter + number;
 
-			PictureBox pic = Controls.Find(s, true).FirstOrDefault() as PictureBox;
+			hitPic = Controls.Find(s, true).FirstOrDefault() as PictureBox;
 
-			if (pic == null)
+			if (hitPic == null)
 			{
 				PlayerActionText.Text = "Bad coordinaates mate!";
 				return;
 			}
 
-			Point fireAt =  pic.Location;
+			Point fireAt =  hitPic.Location;
 
 
 			if (EnemyField.isAlreadyHit(new Field(fireAt)) == true)
@@ -145,10 +156,11 @@ namespace BattleShips
 					return;
 			}
 
-			
+			FireButton.BackgroundImage = Image.FromFile("E:\\Programming\\c# vsite projects\\" +
+					"BatleShips game\\BattleShips\\BattleShips\\Art\\smallButton_pressed.png");
 
 			EnemyField.Hit(new Field(fireAt));
-			bool wasHit = false;
+			wasHit = false;
 
 			foreach (Ship enemyShip in EnemyShips)
 			{
@@ -159,31 +171,21 @@ namespace BattleShips
 					break;
 				}
 			}
-			if (wasHit == true)
-				pic.Image = Image.FromFile("E:\\Programming\\c# vsite projects\\" +
-					"BatleShips game\\BattleShips\\BattleShips\\Art\\Destroyed_ship.png");
-			else
-				pic.Image = Image.FromFile("E:\\Programming\\c# vsite projects\\" +
-					"BatleShips game\\BattleShips\\BattleShips\\Art\\HitArea.png");
 
-			pic.BringToFront();
+			cannonball.Location = new Point(1001, 160);
+			cannonballCurrentPos = cannonball.Location;
+			cannonballEndPos = new Point(EnemyField_label.Location.X + (fireAt.X + 15),
+				EnemyField_label.Location.Y + (fireAt.Y + 15));
+
+			cannonball.Visible = true;
+
+			cannonballTimer.Start();
+
+			
 
 			PlayerActionText.Text = "Firing at " + (char) ((fireAt.Y / 30 ) + 'A')+ ((fireAt.X / 30) + 1);
 
-
-
-			SetHealth();
-			SetNumOfDestroyedShips();
-			GameOver();
-
-			LetterboxText.Enabled = false;
-			NumberboxText.Enabled = false;
-			FireButton.Enabled = false;
-
-			ActionButton.Enabled = true;
 		}
-
-		
 
 		private void SetShipsButton_Click(object sender, EventArgs e)
 		{
@@ -355,6 +357,8 @@ namespace BattleShips
 			RemoveGalleon_button.Visible = false;
 			RemoveSloop_button.Visible = false;
 
+
+
 			PlayerActionText.Text = "Enemy is preparing to fire!";
 
 			AITimer.Start();
@@ -418,11 +422,16 @@ namespace BattleShips
 			LetterboxText.Enabled = true;
 			NumberboxText.Enabled = true;
 
+			FireButton.BackgroundImage = Image.FromFile("E:\\Programming\\c# vsite projects\\" +
+					"BatleShips game\\BattleShips\\BattleShips\\Art\\smallButton.png");
+
 			SetHealth();
 			SetNumOfDestroyedShips();
 			GameOver();
 
 			AITimer.Stop();
+			ActionButton.BackgroundImage = Image.FromFile("E:\\Programming\\c# vsite projects\\" +
+	"BatleShips game\\BattleShips\\BattleShips\\Art\\BigButtton_2.png");
 		}
 
 		private void cheat_button_Click(object sender, EventArgs e)
@@ -481,6 +490,86 @@ namespace BattleShips
 		private void GameScreen_Load(object sender, EventArgs e)
 		{
 			menuScreen.closeMenu();
+		}
+
+		private void ActionButton_MouseUp(object sender, MouseEventArgs e)
+		{
+
+				ActionButton.BackgroundImage = Image.FromFile("E:\\Programming\\c# vsite projects\\" +
+					"BatleShips game\\BattleShips\\BattleShips\\Art\\BigButtton_2_pressed.png");
+
+
+		}
+
+		private void loadExplosion()
+		{
+			for (int i = 1; i <= 49; i++)
+			{
+				explosion.Add(Image.FromFile("E:\\Programming\\c# vsite projects\\" +
+					"BatleShips game\\BattleShips\\BattleShips\\Art\\explosion\\1_" + i + ".png"));
+			}
+		}
+
+		int explosionIndex = 1;
+		private void explosionTimer_Tick(object sender, EventArgs e)
+		{
+			if (explosionIndex >= 49)
+			{
+				explosionIndex = 1;
+				explosionTimer.Stop();
+				explosion_image.Visible = false;
+			}
+
+			explosion_image.BringToFront();
+			explosion_image.BackgroundImage = explosion[explosionIndex];
+			explosionIndex++;
+		}
+
+		private void cannonballTimer_Tick(object sender, EventArgs e)
+		{
+
+			if (cannonball.Location.X == cannonballEndPos.X)
+			{
+				explosion_image.Location = new Point(EnemyField_label.Location.X + hitPic.Location.X,
+					EnemyField_label.Location.Y + hitPic.Location.Y);
+				explosionTimer.Enabled = true;
+				explosionTimer.Start();
+
+				if (wasHit == true)
+					hitPic.Image = Image.FromFile("E:\\Programming\\c# vsite projects\\" +
+						"BatleShips game\\BattleShips\\BattleShips\\Art\\Destroyed_ship.png");
+				else
+					hitPic.Image = Image.FromFile("E:\\Programming\\c# vsite projects\\" +
+						"BatleShips game\\BattleShips\\BattleShips\\Art\\HitArea.png");
+
+
+				hitPic.BringToFront();
+
+				
+				SetHealth();
+				SetNumOfDestroyedShips();
+				GameOver();
+
+				LetterboxText.Enabled = false;
+				NumberboxText.Enabled = false;
+				FireButton.Enabled = false;
+
+				ActionButton.Enabled = true;
+
+				cannonball.Visible = false;
+				cannonballTimer.Stop();
+			}
+
+			if (cannonball.Location.X > cannonballEndPos.X)
+				cannonball.Location = new Point(cannonball.Location.X - 5, cannonball.Location.Y);
+			if (cannonball.Location.X < cannonballEndPos.X)
+				cannonball.Location = new Point(cannonball.Location.X + 5, cannonball.Location.Y);
+
+			if (cannonball.Location.Y > cannonballEndPos.Y)
+				cannonball.Location = new Point(cannonball.Location.X, cannonball.Location.Y - 5);
+			if (cannonball.Location.Y < cannonballEndPos.Y)
+				cannonball.Location = new Point(cannonball.Location.X, cannonball.Location.Y + 5);
+
 		}
 	}
 }

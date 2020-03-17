@@ -38,8 +38,8 @@
 			this.hardOption_button = new System.Windows.Forms.Button();
 			this.back_button = new System.Windows.Forms.Button();
 			this.startStopAnimation_button = new System.Windows.Forms.Button();
-			this.backround_box = new System.Windows.Forms.PictureBox();
 			this.backroundLoad_progressbar = new System.Windows.Forms.ProgressBar();
+			this.backround_box = new System.Windows.Forms.PictureBox();
 			((System.ComponentModel.ISupportInitialize)(this.backround_box)).BeginInit();
 			this.SuspendLayout();
 			// 
@@ -138,15 +138,6 @@
 			this.startStopAnimation_button.UseVisualStyleBackColor = true;
 			this.startStopAnimation_button.Click += new System.EventHandler(this.startStopAnimation_button_Click);
 			// 
-			// backround_box
-			// 
-			this.backround_box.BackgroundImage = global::BattleShips.Properties.Resources.Backround359;
-			this.backround_box.Location = new System.Drawing.Point(0, 0);
-			this.backround_box.Name = "backround_box";
-			this.backround_box.Size = new System.Drawing.Size(1280, 720);
-			this.backround_box.TabIndex = 4;
-			this.backround_box.TabStop = false;
-			// 
 			// backroundLoad_progressbar
 			// 
 			this.backroundLoad_progressbar.Location = new System.Drawing.Point(1177, 667);
@@ -156,6 +147,15 @@
 			this.backroundLoad_progressbar.Step = 1;
 			this.backroundLoad_progressbar.TabIndex = 9;
 			this.backroundLoad_progressbar.Visible = false;
+			// 
+			// backround_box
+			// 
+			this.backround_box.BackgroundImage = global::BattleShips.Properties.Resources.Backround359;
+			this.backround_box.Location = new System.Drawing.Point(0, 0);
+			this.backround_box.Name = "backround_box";
+			this.backround_box.Size = new System.Drawing.Size(1280, 720);
+			this.backround_box.TabIndex = 4;
+			this.backround_box.TabStop = false;
 			// 
 			// MenuScreen
 			// 

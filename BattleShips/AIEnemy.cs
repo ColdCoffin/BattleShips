@@ -140,6 +140,7 @@ namespace BattleShips
 					else
 						offsetRight += 30;
 
+
 				}
 
 
