@@ -331,9 +331,6 @@
   <data name="beach3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\beach3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\explosion\1_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Backround3591" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround359.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -837,5 +834,65 @@
   </data>
   <data name="soundscrate_on_a_quest_sc1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\soundscrate-on-a-quest-sc1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="explosion_miss_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\explosion_miss_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explosion_miss_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\explosion_miss_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explosion_miss_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\explosion_miss_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explosion_miss_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\explosion_miss_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explosion_miss_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\explosion_miss_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explosion_miss_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\explosion_miss_14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explosion_miss_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\explosion_miss_15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explosion_miss_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\explosion_miss_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explosion_miss_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\explosion_miss_17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explosion_miss_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\explosion_miss_18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explosion_miss_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\explosion_miss_19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explosion_miss_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\explosion_miss_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explosion_miss_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\explosion_miss_20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explosion_miss_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\explosion_miss_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explosion_miss_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\explosion_miss_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explosion_miss_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\explosion_miss_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explosion_miss_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\explosion_miss_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explosion_miss_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\explosion_miss_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explosion_miss_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\explosion_miss_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explosion_miss_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\explosion_miss_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

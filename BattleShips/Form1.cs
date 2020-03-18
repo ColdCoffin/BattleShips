@@ -8,6 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Media;
+using BattleShips.Properties;
+using System.IO;
+using System.Resources;
 
 namespace BattleShips
 {
@@ -33,14 +36,17 @@ namespace BattleShips
 
 		int destroyedPlayerShips;
 		int destroyedEnemyShips;
+		bool isEnemyTurn;
 
 		AIEnemy AI;
+
 		SoundPlayer sound;
+		ResourceManager RS;
 
 
 		MenuScreen menuScreen;
 
-		Point cannonballEndPos, cannonballCurrentPos;
+		Point cannonballEndPos, cannonballCurrentPos, cannonballEnemyStartPos, cannonballPlayerStartPos;
 
 		List<Image> explosion;
 
@@ -54,12 +60,18 @@ namespace BattleShips
 			EnemyField.LoadFields();
 
 			explosion = new List<Image>();
-			loadExplosion();
 
+			cannonballEnemyStartPos = new Point(192, 565);
+			cannonballPlayerStartPos = new Point(1001, 160);
+
+			RS = new ResourceManager("BattleShips.Properties.Resources", typeof(Resources).Assembly);
 			sound = new SoundPlayer();
-			sound.SoundLocation = "E:\\Programming\\c# vsite projects\\" +
-					"BatleShips game\\BattleShips\\BattleShips\\Art\\soundscrate-last-one-standing-sc1.wav";
-			sound.PlayLooping();
+
+			Stream str = Resources.soundscrate_last_one_standing_sc1;
+			sound.Stream = str;
+			sound.Play();
+
+			loadExplosion();
 
 			playerFishingBoat = new FishingBoat(FishingBoat_horizontal_player,
 				FishingBoat_vertical_player);
@@ -125,7 +137,6 @@ namespace BattleShips
 									enemyGalleon, enemyBrigantine, enemyPiratesShip, menuScreen.isHard);
 			AI.SpawnShips();
 
-			cannonballTimer.Enabled = true;
 		
 		}
 		bool wasHit;
@@ -133,7 +144,8 @@ namespace BattleShips
 
 		private void FireButton_Click(object sender, EventArgs e)
 		{
-			
+
+			isEnemyTurn = false;
 
 			String letter = LetterboxText.Text;
 			String number = NumberboxText.Text;
@@ -156,8 +168,10 @@ namespace BattleShips
 					return;
 			}
 
-			FireButton.BackgroundImage = Image.FromFile("E:\\Programming\\c# vsite projects\\" +
-					"BatleShips game\\BattleShips\\BattleShips\\Art\\smallButton_pressed.png");
+			explosion_image.Location = new Point( cannonballPlayerStartPos.X - 15, cannonballPlayerStartPos.Y - 15);
+			explosionTimer.Start();
+
+			FireButton.BackgroundImage = Resources.smallButton_pressed;
 
 			EnemyField.Hit(new Field(fireAt));
 			wasHit = false;
@@ -172,7 +186,7 @@ namespace BattleShips
 				}
 			}
 
-			cannonball.Location = new Point(1001, 160);
+			cannonball.Location = cannonballPlayerStartPos;
 			cannonballCurrentPos = cannonball.Location;
 			cannonballEndPos = new Point(EnemyField_label.Location.X + (fireAt.X + 15),
 				EnemyField_label.Location.Y + (fireAt.Y + 15));
@@ -359,7 +373,7 @@ namespace BattleShips
 
 
 
-			PlayerActionText.Text = "Enemy is preparing to fire!";
+			EnemyActionText.Text = "Enemy is preparing to fire!";
 
 			AITimer.Start();
 
@@ -385,7 +399,12 @@ namespace BattleShips
 
 		private void AITimer_Tick(object sender, EventArgs e)
 		{
-			bool wasHit = false;
+
+			explosion_image.Location = new Point(cannonballEnemyStartPos.X + 15, cannonballEnemyStartPos.Y + 15);
+			explosionTimer.Start();
+
+			wasHit = false;
+			isEnemyTurn = true;
 
 			Field fieldHit = AI.FireAtPosition();
 
@@ -406,32 +425,26 @@ namespace BattleShips
 			int number = ((fieldHit.point.X / 30) + 1);
 			String s = "PlayerField_" + (char)letter +  number;
 
-			PictureBox pic = Controls.Find(s, true).FirstOrDefault() as PictureBox;
+			hitPic = Controls.Find(s, true).FirstOrDefault() as PictureBox;
 
-			if (wasHit == true)
-				pic.Image = Image.FromFile("E:\\Programming\\c# vsite projects\\" +
-					"BatleShips game\\BattleShips\\BattleShips\\Art\\Destroyed_ship.png");
-			else
-				pic.Image = Image.FromFile("E:\\Programming\\c# vsite projects\\" +
-					"BatleShips game\\BattleShips\\BattleShips\\Art\\HitArea.png");
 
-			pic.BringToFront();
-			PlayerActionText.Text = "Enemy fired at " + (char)letter + "" + number;
+			EnemyActionText.Text = "Enemy firing at " + (char)letter + "" + number;
 
-			FireButton.Enabled = true;
-			LetterboxText.Enabled = true;
-			NumberboxText.Enabled = true;
+			cannonball.Location = cannonballEnemyStartPos;
+			cannonballCurrentPos = cannonball.Location;
+			cannonballEndPos = new Point(PlayerField_label.Location.X + (fieldHit.point.X + 15),
+				PlayerField_label.Location.Y + (fieldHit.point.Y + 15));
 
-			FireButton.BackgroundImage = Image.FromFile("E:\\Programming\\c# vsite projects\\" +
-					"BatleShips game\\BattleShips\\BattleShips\\Art\\smallButton.png");
+			cannonball.Visible = true;
 
-			SetHealth();
-			SetNumOfDestroyedShips();
-			GameOver();
+			cannonballTimer.Start();
+
+
+
+			FireButton.BackgroundImage = Resources.smallButton;
 
 			AITimer.Stop();
-			ActionButton.BackgroundImage = Image.FromFile("E:\\Programming\\c# vsite projects\\" +
-	"BatleShips game\\BattleShips\\BattleShips\\Art\\BigButtton_2.png");
+			ActionButton.BackgroundImage = Resources.BigButtton_2;
 		}
 
 		private void cheat_button_Click(object sender, EventArgs e)
@@ -495,8 +508,7 @@ namespace BattleShips
 		private void ActionButton_MouseUp(object sender, MouseEventArgs e)
 		{
 
-				ActionButton.BackgroundImage = Image.FromFile("E:\\Programming\\c# vsite projects\\" +
-					"BatleShips game\\BattleShips\\BattleShips\\Art\\BigButtton_2_pressed.png");
+				ActionButton.BackgroundImage = Resources.BigButtton_2_pressed;
 
 
 		}
@@ -505,42 +517,46 @@ namespace BattleShips
 		{
 			for (int i = 1; i <= 49; i++)
 			{
-				explosion.Add(Image.FromFile("E:\\Programming\\c# vsite projects\\" +
-					"BatleShips game\\BattleShips\\BattleShips\\Art\\explosion\\1_" + i + ".png"));
+				explosion.Add((Image)RS.GetObject("explosion_miss_" + i ));
 			}
 		}
 
 		int explosionIndex = 1;
 		private void explosionTimer_Tick(object sender, EventArgs e)
 		{
-			if (explosionIndex >= 49)
+			if (explosionIndex >= 20)
 			{
 				explosionIndex = 1;
-				explosionTimer.Stop();
 				explosion_image.Visible = false;
+				explosionTimer.Stop();
 			}
-
-			explosion_image.BringToFront();
-			explosion_image.BackgroundImage = explosion[explosionIndex];
-			explosionIndex++;
+			else
+			{
+				explosion_image.Visible = true;
+				explosion_image.BringToFront();
+				explosion_image.BackgroundImage = explosion[explosionIndex];
+				explosionIndex++;
+			}
 		}
 
+		int endDistance;
 		private void cannonballTimer_Tick(object sender, EventArgs e)
 		{
+			endDistance = Math.Abs(cannonballEndPos.X - cannonball.Location.X);
+			endDistance += Math.Abs(cannonballEndPos.Y - cannonball.Location.Y);
 
-			if (cannonball.Location.X == cannonballEndPos.X)
+
+			if (endDistance <= 3)
 			{
-				explosion_image.Location = new Point(EnemyField_label.Location.X + hitPic.Location.X,
-					EnemyField_label.Location.Y + hitPic.Location.Y);
-				explosionTimer.Enabled = true;
+				cannonballTimer.Stop();
+
+				explosion_image.Location = new Point(cannonballCurrentPos.X - 15, cannonballCurrentPos.Y - 15);
 				explosionTimer.Start();
 
 				if (wasHit == true)
-					hitPic.Image = Image.FromFile("E:\\Programming\\c# vsite projects\\" +
-						"BatleShips game\\BattleShips\\BattleShips\\Art\\Destroyed_ship.png");
+					hitPic.Image = Resources.Destroyed_ship;
 				else
-					hitPic.Image = Image.FromFile("E:\\Programming\\c# vsite projects\\" +
-						"BatleShips game\\BattleShips\\BattleShips\\Art\\HitArea.png");
+					hitPic.Image = Resources.HitArea;
 
 
 				hitPic.BringToFront();
@@ -550,14 +566,23 @@ namespace BattleShips
 				SetNumOfDestroyedShips();
 				GameOver();
 
-				LetterboxText.Enabled = false;
-				NumberboxText.Enabled = false;
-				FireButton.Enabled = false;
 
-				ActionButton.Enabled = true;
+				if (isEnemyTurn == false)
+				{
 
-				cannonball.Visible = false;
-				cannonballTimer.Stop();
+					LetterboxText.Enabled = false;
+					NumberboxText.Enabled = false;
+					FireButton.Enabled = false;
+					ActionButton.Enabled = true;
+				}
+				else
+				{
+					FireButton.Enabled = true;
+					LetterboxText.Enabled = true;
+					NumberboxText.Enabled = true;
+				}
+
+					cannonball.Visible = false;
 			}
 
 			if (cannonball.Location.X > cannonballEndPos.X)
@@ -569,6 +594,8 @@ namespace BattleShips
 				cannonball.Location = new Point(cannonball.Location.X, cannonball.Location.Y - 5);
 			if (cannonball.Location.Y < cannonballEndPos.Y)
 				cannonball.Location = new Point(cannonball.Location.X, cannonball.Location.Y + 5);
+
+			cannonballCurrentPos = cannonball.Location;
 
 		}
 	}

@@ -841,6 +841,209 @@
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Art\explosion\1_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_37.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_38.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_39.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_42.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_43.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_44.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_45.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_46.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_47.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion\1_49.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion_miss_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion_miss_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion_miss_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion_miss_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion_miss_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion_miss_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion_miss_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion_miss_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion_miss_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion_miss_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion_miss_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion_miss_12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion_miss_13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion_miss_14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion_miss_15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion_miss_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion_miss_17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion_miss_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion_miss_19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\explosion_miss_20.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
