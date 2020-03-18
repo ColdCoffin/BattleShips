@@ -7542,4 +7542,10 @@
         Y7U9ItIsbAAAAABJRU5ErkJggg==
 </value>
   </data>
+  <metadata name="showPlayerDialogTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>387, 17</value>
+  </metadata>
+  <metadata name="showEnemyDialogTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>593, 21</value>
+  </metadata>
 </root>

@@ -281,8 +281,8 @@
 			this.explosionTimer = new System.Windows.Forms.Timer(this.components);
 			this.explosion_image = new System.Windows.Forms.PictureBox();
 			this.cannonball = new System.Windows.Forms.PictureBox();
-			this.pictureBox707 = new System.Windows.Forms.PictureBox();
-			this.pictureBox696 = new System.Windows.Forms.PictureBox();
+			this.enemyDialogBox = new System.Windows.Forms.PictureBox();
+			this.playerDialogBox = new System.Windows.Forms.PictureBox();
 			this.SetShipsButton = new System.Windows.Forms.Button();
 			this.pictureBox689 = new System.Windows.Forms.PictureBox();
 			this.pictureBox962 = new System.Windows.Forms.PictureBox();
@@ -1255,6 +1255,8 @@
 			this.pictureBox898 = new System.Windows.Forms.PictureBox();
 			this.pictureBox899 = new System.Windows.Forms.PictureBox();
 			this.pictureBox900 = new System.Windows.Forms.PictureBox();
+			this.showPlayerDialogTimer = new System.Windows.Forms.Timer(this.components);
+			this.showEnemyDialogTimer = new System.Windows.Forms.Timer(this.components);
 			this.PlayerField_label.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox211)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_vertical_player)).BeginInit();
@@ -1480,8 +1482,8 @@
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J6)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.explosion_image)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.cannonball)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox707)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox696)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.enemyDialogBox)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.playerDialogBox)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox689)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox962)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox961)).BeginInit();
@@ -3986,7 +3988,7 @@
 			// FishingBoat_vertical_enemy
 			// 
 			this.FishingBoat_vertical_enemy.Image = global::BattleShips.Properties.Resources.Fishing_vessel_water_vertical;
-			this.FishingBoat_vertical_enemy.Location = new System.Drawing.Point(0, 0);
+			this.FishingBoat_vertical_enemy.Location = new System.Drawing.Point(0, 63);
 			this.FishingBoat_vertical_enemy.Name = "FishingBoat_vertical_enemy";
 			this.FishingBoat_vertical_enemy.Size = new System.Drawing.Size(30, 60);
 			this.FishingBoat_vertical_enemy.TabIndex = 111;
@@ -4945,12 +4947,13 @@
 			// PlayerActionText
 			// 
 			this.PlayerActionText.BackColor = System.Drawing.Color.White;
-			this.PlayerActionText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PlayerActionText.Location = new System.Drawing.Point(1094, 79);
+			this.PlayerActionText.Font = new System.Drawing.Font("Pixel-Art", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.PlayerActionText.Location = new System.Drawing.Point(1092, 78);
 			this.PlayerActionText.Name = "PlayerActionText";
 			this.PlayerActionText.Size = new System.Drawing.Size(100, 43);
 			this.PlayerActionText.TabIndex = 35;
 			this.PlayerActionText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.PlayerActionText.Visible = false;
 			// 
 			// SetHorizontalPosText
 			// 
@@ -5159,12 +5162,13 @@
 			// EnemyActionText
 			// 
 			this.EnemyActionText.BackColor = System.Drawing.Color.White;
-			this.EnemyActionText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.EnemyActionText.Font = new System.Drawing.Font("Pixel-Art", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.EnemyActionText.Location = new System.Drawing.Point(190, 436);
 			this.EnemyActionText.Name = "EnemyActionText";
-			this.EnemyActionText.Size = new System.Drawing.Size(100, 40);
+			this.EnemyActionText.Size = new System.Drawing.Size(100, 44);
 			this.EnemyActionText.TabIndex = 1248;
 			this.EnemyActionText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.EnemyActionText.Visible = false;
 			// 
 			// cannonballTimer
 			// 
@@ -5190,30 +5194,32 @@
 			// cannonball
 			// 
 			this.cannonball.BackgroundImage = global::BattleShips.Properties.Resources.cannonball;
-			this.cannonball.Location = new System.Drawing.Point(1001, 160);
+			this.cannonball.Location = new System.Drawing.Point(192, 575);
 			this.cannonball.Name = "cannonball";
 			this.cannonball.Size = new System.Drawing.Size(8, 8);
 			this.cannonball.TabIndex = 1268;
 			this.cannonball.TabStop = false;
 			this.cannonball.Visible = false;
 			// 
-			// pictureBox707
+			// enemyDialogBox
 			// 
-			this.pictureBox707.BackgroundImage = global::BattleShips.Properties.Resources.actiontextBackround;
-			this.pictureBox707.Location = new System.Drawing.Point(163, 416);
-			this.pictureBox707.Name = "pictureBox707";
-			this.pictureBox707.Size = new System.Drawing.Size(150, 80);
-			this.pictureBox707.TabIndex = 1267;
-			this.pictureBox707.TabStop = false;
+			this.enemyDialogBox.BackgroundImage = global::BattleShips.Properties.Resources.actiontextBackround;
+			this.enemyDialogBox.Location = new System.Drawing.Point(163, 416);
+			this.enemyDialogBox.Name = "enemyDialogBox";
+			this.enemyDialogBox.Size = new System.Drawing.Size(150, 80);
+			this.enemyDialogBox.TabIndex = 1267;
+			this.enemyDialogBox.TabStop = false;
+			this.enemyDialogBox.Visible = false;
 			// 
-			// pictureBox696
+			// playerDialogBox
 			// 
-			this.pictureBox696.BackgroundImage = global::BattleShips.Properties.Resources.actiontextBackround;
-			this.pictureBox696.Location = new System.Drawing.Point(1067, 60);
-			this.pictureBox696.Name = "pictureBox696";
-			this.pictureBox696.Size = new System.Drawing.Size(150, 80);
-			this.pictureBox696.TabIndex = 1266;
-			this.pictureBox696.TabStop = false;
+			this.playerDialogBox.BackgroundImage = global::BattleShips.Properties.Resources.actiontextBackround;
+			this.playerDialogBox.Location = new System.Drawing.Point(1067, 60);
+			this.playerDialogBox.Name = "playerDialogBox";
+			this.playerDialogBox.Size = new System.Drawing.Size(150, 80);
+			this.playerDialogBox.TabIndex = 1266;
+			this.playerDialogBox.TabStop = false;
+			this.playerDialogBox.Visible = false;
 			// 
 			// SetShipsButton
 			// 
@@ -7108,7 +7114,7 @@
 			// pictureBox677
 			// 
 			this.pictureBox677.Image = global::BattleShips.Properties.Resources.ship;
-			this.pictureBox677.Location = new System.Drawing.Point(1007, 85);
+			this.pictureBox677.Location = new System.Drawing.Point(1007, 86);
 			this.pictureBox677.Name = "pictureBox677";
 			this.pictureBox677.Size = new System.Drawing.Size(64, 160);
 			this.pictureBox677.TabIndex = 878;
@@ -7541,7 +7547,7 @@
 			// pictureBox452
 			// 
 			this.pictureBox452.Image = global::BattleShips.Properties.Resources.ship_down;
-			this.pictureBox452.Location = new System.Drawing.Point(128, 488);
+			this.pictureBox452.Location = new System.Drawing.Point(128, 498);
 			this.pictureBox452.Name = "pictureBox452";
 			this.pictureBox452.Size = new System.Drawing.Size(64, 160);
 			this.pictureBox452.TabIndex = 818;
@@ -15053,18 +15059,27 @@
 			this.pictureBox900.TabIndex = 1125;
 			this.pictureBox900.TabStop = false;
 			// 
+			// showPlayerDialogTimer
+			// 
+			this.showPlayerDialogTimer.Tick += new System.EventHandler(this.showPlayerDialogTimer_Tick);
+			// 
+			// showEnemyDialogTimer
+			// 
+			this.showEnemyDialogTimer.Tick += new System.EventHandler(this.showEnemyDialogTimer_Tick);
+			// 
 			// GameScreen
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(1280, 736);
+			this.Controls.Add(this.pictureBox452);
 			this.Controls.Add(this.explosion_image);
 			this.Controls.Add(this.cannonball);
 			this.Controls.Add(this.EnemyActionText);
-			this.Controls.Add(this.pictureBox707);
+			this.Controls.Add(this.enemyDialogBox);
 			this.Controls.Add(this.PlayerActionText);
-			this.Controls.Add(this.pictureBox696);
+			this.Controls.Add(this.playerDialogBox);
 			this.Controls.Add(this.ErrorDialogLabel);
 			this.Controls.Add(this.SetShipsButton);
 			this.Controls.Add(this.ShipName_texbox);
@@ -15308,7 +15323,6 @@
 			this.Controls.Add(this.pictureBox635);
 			this.Controls.Add(this.pictureBox633);
 			this.Controls.Add(this.pictureBox634);
-			this.Controls.Add(this.pictureBox452);
 			this.Controls.Add(this.pictureBox618);
 			this.Controls.Add(this.pictureBox332);
 			this.Controls.Add(this.pictureBox333);
@@ -16292,8 +16306,8 @@
 			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J6)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.explosion_image)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.cannonball)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox707)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox696)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.enemyDialogBox)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.playerDialogBox)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox689)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox962)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox961)).EndInit();
@@ -18484,12 +18498,14 @@
 		private System.Windows.Forms.PictureBox pictureBox961;
 		private System.Windows.Forms.PictureBox pictureBox962;
 		private System.Windows.Forms.PictureBox pictureBox689;
-		private System.Windows.Forms.PictureBox pictureBox696;
-		private System.Windows.Forms.PictureBox pictureBox707;
+		private System.Windows.Forms.PictureBox playerDialogBox;
+		private System.Windows.Forms.PictureBox enemyDialogBox;
 		private System.Windows.Forms.PictureBox cannonball;
 		private System.Windows.Forms.Timer cannonballTimer;
 		private System.Windows.Forms.Timer explosionTimer;
 		private System.Windows.Forms.PictureBox explosion_image;
+		private System.Windows.Forms.Timer showPlayerDialogTimer;
+		private System.Windows.Forms.Timer showEnemyDialogTimer;
 	}
 }
 

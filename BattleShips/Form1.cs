@@ -38,6 +38,9 @@ namespace BattleShips
 		int destroyedEnemyShips;
 		bool isEnemyTurn;
 
+		int playerDialogClock = 0;
+		int enemyDialogClock = 0;
+
 		AIEnemy AI;
 
 		SoundPlayer sound;
@@ -61,8 +64,8 @@ namespace BattleShips
 
 			explosion = new List<Image>();
 
-			cannonballEnemyStartPos = new Point(192, 565);
-			cannonballPlayerStartPos = new Point(1001, 160);
+			cannonballEnemyStartPos = new Point(192, 575);
+			cannonballPlayerStartPos = new Point(1001, 161);
 
 			RS = new ResourceManager("BattleShips.Properties.Resources", typeof(Resources).Assembly);
 			sound = new SoundPlayer();
@@ -155,6 +158,8 @@ namespace BattleShips
 
 			if (hitPic == null)
 			{
+				playerDialogClock = 0;
+				showPlayerDialogTimer.Start();
 				PlayerActionText.Text = "Bad coordinaates mate!";
 				return;
 			}
@@ -164,11 +169,13 @@ namespace BattleShips
 
 			if (EnemyField.isAlreadyHit(new Field(fireAt)) == true)
 			{
-					PlayerActionText.Text = "Already fired there!";
+				playerDialogClock = 0;
+				showPlayerDialogTimer.Start();
+				PlayerActionText.Text = "Already fired there!";
 					return;
 			}
 
-			explosion_image.Location = new Point( cannonballPlayerStartPos.X - 15, cannonballPlayerStartPos.Y - 15);
+			explosion_image.Location = new Point(977,150);
 			explosionTimer.Start();
 
 			FireButton.BackgroundImage = Resources.smallButton_pressed;
@@ -195,8 +202,8 @@ namespace BattleShips
 
 			cannonballTimer.Start();
 
-			
-
+			playerDialogClock = 0;
+			showPlayerDialogTimer.Start();
 			PlayerActionText.Text = "Firing at " + (char) ((fireAt.Y / 30 ) + 'A')+ ((fireAt.X / 30) + 1);
 
 		}
@@ -371,7 +378,8 @@ namespace BattleShips
 			RemoveGalleon_button.Visible = false;
 			RemoveSloop_button.Visible = false;
 
-
+			enemyDialogClock = 0;
+			showEnemyDialogTimer.Start();
 
 			EnemyActionText.Text = "Enemy is preparing to fire!";
 
@@ -400,7 +408,7 @@ namespace BattleShips
 		private void AITimer_Tick(object sender, EventArgs e)
 		{
 
-			explosion_image.Location = new Point(cannonballEnemyStartPos.X + 15, cannonballEnemyStartPos.Y + 15);
+			explosion_image.Location = new Point(193,566);
 			explosionTimer.Start();
 
 			wasHit = false;
@@ -427,7 +435,8 @@ namespace BattleShips
 
 			hitPic = Controls.Find(s, true).FirstOrDefault() as PictureBox;
 
-
+			enemyDialogClock = 0;
+			showEnemyDialogTimer.Start();
 			EnemyActionText.Text = "Enemy firing at " + (char)letter + "" + number;
 
 			cannonball.Location = cannonballEnemyStartPos;
@@ -522,6 +531,40 @@ namespace BattleShips
 		}
 
 		int explosionIndex = 1;
+		private void showPlayerDialogTimer_Tick(object sender, EventArgs e)
+		{
+			if (playerDialogClock == 35)
+			{
+				playerDialogClock = 0;
+				PlayerActionText.Visible = false;
+				playerDialogBox.Visible = false;
+				showPlayerDialogTimer.Stop();
+			}
+			else
+			{
+				PlayerActionText.Visible = true;
+				playerDialogBox.Visible = true;
+				playerDialogClock++;
+			}
+		}
+
+		private void showEnemyDialogTimer_Tick(object sender, EventArgs e)
+		{
+			if (enemyDialogClock == 35)
+			{
+				enemyDialogClock = 0;
+				EnemyActionText.Visible = false;
+				enemyDialogBox.Visible = false;
+				showEnemyDialogTimer.Stop();
+			}
+			else
+			{
+				EnemyActionText.Visible = true;
+				enemyDialogBox.Visible = true;
+				enemyDialogClock++;
+			}
+		}
+
 		private void explosionTimer_Tick(object sender, EventArgs e)
 		{
 			if (explosionIndex >= 20)
@@ -546,11 +589,11 @@ namespace BattleShips
 			endDistance += Math.Abs(cannonballEndPos.Y - cannonball.Location.Y);
 
 
-			if (endDistance <= 3)
+			if (endDistance <= 5)
 			{
 				cannonballTimer.Stop();
 
-				explosion_image.Location = new Point(cannonballCurrentPos.X - 15, cannonballCurrentPos.Y - 15);
+				explosion_image.Location = new Point(cannonballEndPos.X - 15, cannonballEndPos.Y - 15);
 				explosionTimer.Start();
 
 				if (wasHit == true)
