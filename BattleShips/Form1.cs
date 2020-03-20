@@ -72,7 +72,7 @@ namespace BattleShips
 
 			Stream str = Resources.soundscrate_last_one_standing_sc1;
 			sound.Stream = str;
-			sound.Play();
+			sound.PlayLooping();
 
 			loadExplosion();
 
@@ -585,11 +585,11 @@ namespace BattleShips
 		int endDistance;
 		private void cannonballTimer_Tick(object sender, EventArgs e)
 		{
-			endDistance = Math.Abs(cannonballEndPos.X - cannonball.Location.X);
-			endDistance += Math.Abs(cannonballEndPos.Y - cannonball.Location.Y);
 
+			endDistance = Math.Abs(cannonballEndPos.X - cannonballCurrentPos.X);
+			endDistance += Math.Abs(cannonballEndPos.Y - cannonballCurrentPos.Y);
 
-			if (endDistance <= 5)
+			if (endDistance < 5)
 			{
 				cannonballTimer.Stop();
 
@@ -629,17 +629,37 @@ namespace BattleShips
 			}
 
 			if (cannonball.Location.X > cannonballEndPos.X)
-				cannonball.Location = new Point(cannonball.Location.X - 5, cannonball.Location.Y);
+				cannonball.Location = new Point(cannonball.Location.X - 5,
+					calculateLinearFunction());
 			if (cannonball.Location.X < cannonballEndPos.X)
-				cannonball.Location = new Point(cannonball.Location.X + 5, cannonball.Location.Y);
+				cannonball.Location = new Point(cannonball.Location.X + 5,
+					calculateLinearFunction());
 
-			if (cannonball.Location.Y > cannonballEndPos.Y)
-				cannonball.Location = new Point(cannonball.Location.X, cannonball.Location.Y - 5);
-			if (cannonball.Location.Y < cannonballEndPos.Y)
-				cannonball.Location = new Point(cannonball.Location.X, cannonball.Location.Y + 5);
+
 
 			cannonballCurrentPos = cannonball.Location;
 
+		}
+
+		private int calculateLinearFunction()
+		{
+			int y;
+			float m;
+			if ( isEnemyTurn == true)
+				m = (float)(cannonballEnemyStartPos.Y - cannonballEndPos.Y)
+					/ (cannonballEnemyStartPos.X - cannonballEndPos.X);
+			else
+				m = (float)(cannonballPlayerStartPos.Y - cannonballEndPos.Y)
+					/ (cannonballPlayerStartPos.X - cannonballEndPos.X);
+
+			y = (int)(m * (cannonballCurrentPos.X - cannonballEndPos.X));
+
+			if (cannonballCurrentPos.Y > 0)
+				y += cannonballEndPos.Y;
+			else
+				y -= cannonballEndPos.Y;
+
+			return y;
 		}
 	}
 }

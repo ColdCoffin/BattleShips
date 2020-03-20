@@ -7101,8 +7101,9 @@
 			// 
 			this.FireButton.BackgroundImage = global::BattleShips.Properties.Resources.smallButton1;
 			this.FireButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-			this.FireButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.FireButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.FireButton.Font = new System.Drawing.Font("Pixel-Art", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.FireButton.ForeColor = System.Drawing.Color.Black;
 			this.FireButton.Location = new System.Drawing.Point(968, 274);
 			this.FireButton.Name = "FireButton";
 			this.FireButton.Size = new System.Drawing.Size(80, 25);

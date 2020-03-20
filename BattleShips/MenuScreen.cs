@@ -35,7 +35,7 @@ namespace BattleShips
 
 			Stream str = Resources.soundscrate_on_a_quest_sc1;
 			snd = new SoundPlayer(str);
-			snd.Play();
+			snd.PlayLooping();
 
 			indexUpdateLoop = 0;
 		}
