@@ -46,7 +46,7 @@ namespace BattleShips
 		SoundPlayer sound;
 		ResourceManager RS;
 
-
+		GameLog gl;
 		MenuScreen menuScreen;
 
 		Point cannonballEndPos, cannonballCurrentPos, cannonballEnemyStartPos, cannonballPlayerStartPos;
@@ -61,6 +61,8 @@ namespace BattleShips
 
 			PlayerField.LoadFields();
 			EnemyField.LoadFields();
+
+			gl = new GameLog(DialogLabel);
 
 			explosion = new List<Image>();
 
@@ -183,11 +185,14 @@ namespace BattleShips
 			EnemyField.Hit(new Field(fireAt));
 			wasHit = false;
 
+			string shipHit = " (No ships were hit)";
+
 			foreach (Ship enemyShip in EnemyShips)
 			{
 				if (enemyShip.isHit(new Field(fireAt)) == true)
 				{
 					wasHit = true;
+					shipHit = " (Ship was hit)";
 					enemyShip.Hit(new Field(fireAt));
 					break;
 				}
@@ -200,11 +205,18 @@ namespace BattleShips
 
 			cannonball.Visible = true;
 
+
+			LetterboxText.Enabled = false;
+			NumberboxText.Enabled = false;
+			FireButton.Enabled = false;
+
 			cannonballTimer.Start();
 
 			playerDialogClock = 0;
+			string msg = "" + (char)((fireAt.Y / 30) + 'A') + ((fireAt.X / 30) + 1);
+			PlayerActionText.Text = "Firing at " + msg;
 			showPlayerDialogTimer.Start();
-			PlayerActionText.Text = "Firing at " + (char) ((fireAt.Y / 30 ) + 'A')+ ((fireAt.X / 30) + 1);
+			gl.Write("You fired at" + msg + shipHit);
 
 		}
 
@@ -214,7 +226,7 @@ namespace BattleShips
 			if (SetHorizontalPosText.TextLength == 0 || SetHorizontalPosText.Text[0] < 'A' 
 				|| SetHorizontalPosText.Text[0] > 'J' || SetVerticalPosText.TextLength == 0)
 			{
-				ErrorDialogLabel.Text = "Bad coordinates";
+				DialogLabel.Text = "Bad coordinates";
 				return;
 			}
 
@@ -228,7 +240,7 @@ namespace BattleShips
 
 			if (vpos < 0 || vpos > 9)
 			{
-				ErrorDialogLabel.Text = "Bad coordinates";
+				DialogLabel.Text = "Bad coordinates";
 				return;
 			}
 
@@ -251,7 +263,7 @@ namespace BattleShips
 					if (
 					playerFishingBoat.SpawnShip(PlayerField.AllFields[index], orientation,false, sname) == false)
 					{
-						ErrorDialogLabel.Text = "Can't place your boat there";
+						DialogLabel.Text = "Can't place your boat there";
 						break;
 					}
 					FishingBoat_icon.Visible = true;
@@ -264,7 +276,7 @@ namespace BattleShips
 					if (
 					playerBrigantine.SpawnShip(PlayerField.AllFields[index], orientation,false, sname) == false)
 					{
-						ErrorDialogLabel.Text = "Can't place your boat there";
+						DialogLabel.Text = "Can't place your boat there";
 						break;
 					}
 					Brigantine_icon.Visible = true;
@@ -277,7 +289,7 @@ namespace BattleShips
 					if (
 					playerSloop.SpawnShip(PlayerField.AllFields[index], orientation,false, sname) == false)
 					{
-						ErrorDialogLabel.Text = "Can't place your boat there";
+						DialogLabel.Text = "Can't place your boat there";
 						break;
 					}
 					Sloop_icon.Visible = true;
@@ -290,7 +302,7 @@ namespace BattleShips
 					if (
 					playerGalleon.SpawnShip(PlayerField.AllFields[index], orientation,false, sname) == false)
 					{
-						ErrorDialogLabel.Text = "Can't place your boat there";
+						DialogLabel.Text = "Can't place your boat there";
 						break;
 					}
 					Galleon_icon.Visible = true;
@@ -303,7 +315,7 @@ namespace BattleShips
 					if (
 					playerPiratesShip.SpawnShip(PlayerField.AllFields[index], orientation,false, sname) == false)
 					{
-						ErrorDialogLabel.Text = "Can't place your boat there";
+						DialogLabel.Text = "Can't place your boat there";
 						break;
 					}
 					PiratesShip_icon.Visible = true;
@@ -314,7 +326,7 @@ namespace BattleShips
 					break;
 
 				default:
-					ErrorDialogLabel.Text = "No such ship exists!";
+					DialogLabel.Text = "No such ship exists!";
 					break;
 			}
 
@@ -389,7 +401,7 @@ namespace BattleShips
 
 		private void SetHorizontalPosText_TextChanged(object sender, EventArgs e)
 		{
-			ErrorDialogLabel.Text = string.Empty;
+			DialogLabel.Text = string.Empty;
 		}
 
 		private void button1_Click(object sender, EventArgs e)
@@ -418,10 +430,13 @@ namespace BattleShips
 
 			PlayerField.Hit(fieldHit);
 
+			string shipHit = " (No ships were hit)";
+
 			foreach (Ship playerShip in PlayerShips)
 			{
 				if (playerShip.isHit(fieldHit) == true)
 				{
+					shipHit = " (Enemy hit your " + playerShip.ShipName + ")";
 					AI.IsHit = true;
 					wasHit = true;
 					playerShip.Hit(fieldHit);
@@ -437,7 +452,9 @@ namespace BattleShips
 
 			enemyDialogClock = 0;
 			showEnemyDialogTimer.Start();
-			EnemyActionText.Text = "Enemy firing at " + (char)letter + "" + number;
+			string msg = "" + (char)letter + "" + number;
+			EnemyActionText.Text = "Enemy firing at " + msg;
+			gl.Write("Enemy fired at " + msg + shipHit);
 
 			cannonball.Location = cannonballEnemyStartPos;
 			cannonballCurrentPos = cannonball.Location;
@@ -589,7 +606,7 @@ namespace BattleShips
 			endDistance = Math.Abs(cannonballEndPos.X - cannonballCurrentPos.X);
 			endDistance += Math.Abs(cannonballEndPos.Y - cannonballCurrentPos.Y);
 
-			if (endDistance < 5)
+			if (endDistance <= 7)
 			{
 				cannonballTimer.Stop();
 
@@ -609,30 +626,24 @@ namespace BattleShips
 				SetNumOfDestroyedShips();
 				GameOver();
 
-
-				if (isEnemyTurn == false)
-				{
-
-					LetterboxText.Enabled = false;
-					NumberboxText.Enabled = false;
-					FireButton.Enabled = false;
-					ActionButton.Enabled = true;
-				}
-				else
+				if (isEnemyTurn == true)
 				{
 					FireButton.Enabled = true;
 					LetterboxText.Enabled = true;
 					NumberboxText.Enabled = true;
 				}
+				else
+					ActionButton.Enabled = true;
 
-					cannonball.Visible = false;
+
+				cannonball.Visible = false;
 			}
 
 			if (cannonball.Location.X > cannonballEndPos.X)
-				cannonball.Location = new Point(cannonball.Location.X - 5,
+				cannonball.Location = new Point(cannonball.Location.X - 6,
 					calculateLinearFunction());
 			if (cannonball.Location.X < cannonballEndPos.X)
-				cannonball.Location = new Point(cannonball.Location.X + 5,
+				cannonball.Location = new Point(cannonball.Location.X + 6,
 					calculateLinearFunction());
 
 

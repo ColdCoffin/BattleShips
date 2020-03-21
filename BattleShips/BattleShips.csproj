@@ -50,6 +50,7 @@
     <Compile Include="AIEnemy.cs" />
     <Compile Include="Brigantine.cs" />
     <Compile Include="EnemyField.cs" />
+    <Compile Include="GameLog.cs" />
     <Compile Include="MenuScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1044,6 +1045,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Art\explosion_miss_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\Log_frame.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

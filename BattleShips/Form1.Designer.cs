@@ -31,228 +31,7 @@
 			this.components = new System.ComponentModel.Container();
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GameScreen));
 			this.PlayerField_label = new System.Windows.Forms.Panel();
-			this.pictureBox211 = new System.Windows.Forms.PictureBox();
-			this.PiratesShip_vertical_player = new System.Windows.Forms.PictureBox();
-			this.Galleon_horizontal_player = new System.Windows.Forms.PictureBox();
-			this.PlayerField_J10 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_J9 = new System.Windows.Forms.PictureBox();
-			this.PiratesShip_horizontal_player = new System.Windows.Forms.PictureBox();
-			this.PlayerField_J8 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_J7 = new System.Windows.Forms.PictureBox();
-			this.Galleon_vertical_player = new System.Windows.Forms.PictureBox();
-			this.PlayerField_J6 = new System.Windows.Forms.PictureBox();
-			this.Brigantine_vertical_player = new System.Windows.Forms.PictureBox();
-			this.PlayerField_J5 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_J4 = new System.Windows.Forms.PictureBox();
-			this.Brigantine_horizontal_player = new System.Windows.Forms.PictureBox();
-			this.PlayerField_J3 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_J2 = new System.Windows.Forms.PictureBox();
-			this.Sloop_vertical_player = new System.Windows.Forms.PictureBox();
-			this.PlayerField_I10 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_I9 = new System.Windows.Forms.PictureBox();
-			this.Sloop_horizontal_player = new System.Windows.Forms.PictureBox();
-			this.PlayerField_I8 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_I7 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_I6 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_I5 = new System.Windows.Forms.PictureBox();
-			this.FishingBoat_vertical_player = new System.Windows.Forms.PictureBox();
-			this.PlayerField_I4 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_I3 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_I2 = new System.Windows.Forms.PictureBox();
-			this.FishingBoat_horizontal_player = new System.Windows.Forms.PictureBox();
-			this.PlayerField_H10 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_H9 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_H8 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_H7 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_H6 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_H5 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_H4 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_H3 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_H2 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_G10 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_G9 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_G8 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_G7 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_G6 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_G5 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_G4 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_G3 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_G2 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_F10 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_F9 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_F8 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_F7 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_F6 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_F5 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_F4 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_F3 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_F2 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_E10 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_E9 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_E8 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_E7 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_E6 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_E5 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_E4 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_E3 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_E2 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_D10 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_D9 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_D8 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_D7 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_D6 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_D5 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_D4 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_D3 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_D2 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_C10 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_C9 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_C8 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_C7 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_C6 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_C5 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_C4 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_C3 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_C2 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_B10 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_B9 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_B8 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_B7 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_B6 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_B5 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_B4 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_B3 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_B2 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_A10 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_A9 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_A8 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_A7 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_A6 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_A5 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_J1 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_I1 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_H1 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_G1 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_F1 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_E1 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_D1 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_C1 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_B1 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_A4 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_A3 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_A2 = new System.Windows.Forms.PictureBox();
-			this.PlayerField_A1 = new System.Windows.Forms.PictureBox();
 			this.EnemyField_label = new System.Windows.Forms.Panel();
-			this.PiratesShip_vertical_enemy = new System.Windows.Forms.PictureBox();
-			this.EnemyField_J10 = new System.Windows.Forms.PictureBox();
-			this.PiratesShip_horizontal_enemy = new System.Windows.Forms.PictureBox();
-			this.Galleon_horizontal_enemy = new System.Windows.Forms.PictureBox();
-			this.Galleon_vertical_enemy = new System.Windows.Forms.PictureBox();
-			this.Brigantine_vertical_enemy = new System.Windows.Forms.PictureBox();
-			this.Brigantine_horizontal_enemy = new System.Windows.Forms.PictureBox();
-			this.EnemyField_J3 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_J2 = new System.Windows.Forms.PictureBox();
-			this.Sloop_horizontal_enemy = new System.Windows.Forms.PictureBox();
-			this.EnemyField_I10 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_I9 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_I8 = new System.Windows.Forms.PictureBox();
-			this.Sloop_vertical_enemy = new System.Windows.Forms.PictureBox();
-			this.EnemyField_I7 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_I6 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_I5 = new System.Windows.Forms.PictureBox();
-			this.FishingBoat_horizontal_enemy = new System.Windows.Forms.PictureBox();
-			this.EnemyField_I4 = new System.Windows.Forms.PictureBox();
-			this.FishingBoat_vertical_enemy = new System.Windows.Forms.PictureBox();
-			this.EnemyField_I3 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_I2 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_H10 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_H9 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_H8 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_H7 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_H6 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_H5 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_H4 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_H3 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_H2 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_G10 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_G9 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_G8 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_G7 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_G6 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_G5 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_G4 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_G3 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_A2 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_A1 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_G2 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_F10 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_F9 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_F8 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_F7 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_F6 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_F4 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_F3 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_F2 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_E10 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_E9 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_E8 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_E7 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_E6 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_E5 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_E4 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_E3 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_E2 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_D10 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_D9 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_D8 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_D7 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_D6 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_D5 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_D4 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_D3 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_D2 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_C10 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_C9 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_C8 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_C7 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_C6 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_C5 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_C4 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_C3 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_C2 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_B10 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_B9 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_B8 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_B7 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_B6 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_B5 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_B4 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_B3 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_B2 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_A10 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_A9 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_A8 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_A7 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_A6 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_A5 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_J1 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_I1 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_H1 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_G1 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_F1 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_E1 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_D1 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_C1 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_B1 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_A4 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_A3 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_F5 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_J7 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_J8 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_J9 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_J4 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_J5 = new System.Windows.Forms.PictureBox();
-			this.EnemyField_J6 = new System.Windows.Forms.PictureBox();
 			this.LetterboxText = new System.Windows.Forms.TextBox();
 			this.NumberboxText = new System.Windows.Forms.TextBox();
 			this.PlayerActionText = new System.Windows.Forms.Label();
@@ -261,7 +40,7 @@
 			this.VerticalOption = new System.Windows.Forms.RadioButton();
 			this.HorizontalOption = new System.Windows.Forms.RadioButton();
 			this.ChooseShipComboBox = new System.Windows.Forms.ComboBox();
-			this.ErrorDialogLabel = new System.Windows.Forms.Label();
+			this.DialogLabel = new System.Windows.Forms.Label();
 			this.ShipName_texbox = new System.Windows.Forms.TextBox();
 			this.FishingBoat_progressBar = new System.Windows.Forms.ProgressBar();
 			this.Brigantine_progressBar = new System.Windows.Forms.ProgressBar();
@@ -274,11 +53,69 @@
 			this.Galleon_nameText = new System.Windows.Forms.Label();
 			this.PiratesShip_nameText = new System.Windows.Forms.Label();
 			this.AITimer = new System.Windows.Forms.Timer(this.components);
-			this.cheat_button = new System.Windows.Forms.Button();
-			this.exit_button = new System.Windows.Forms.Button();
 			this.EnemyActionText = new System.Windows.Forms.Label();
 			this.cannonballTimer = new System.Windows.Forms.Timer(this.components);
 			this.explosionTimer = new System.Windows.Forms.Timer(this.components);
+			this.showPlayerDialogTimer = new System.Windows.Forms.Timer(this.components);
+			this.showEnemyDialogTimer = new System.Windows.Forms.Timer(this.components);
+			this.LogFrame = new System.Windows.Forms.PictureBox();
+			this.pictureBox980 = new System.Windows.Forms.PictureBox();
+			this.pictureBox121 = new System.Windows.Forms.PictureBox();
+			this.pictureBox113 = new System.Windows.Forms.PictureBox();
+			this.pictureBox202 = new System.Windows.Forms.PictureBox();
+			this.pictureBox979 = new System.Windows.Forms.PictureBox();
+			this.pictureBox102 = new System.Windows.Forms.PictureBox();
+			this.pictureBox100 = new System.Windows.Forms.PictureBox();
+			this.pictureBox101 = new System.Windows.Forms.PictureBox();
+			this.pictureBox96 = new System.Windows.Forms.PictureBox();
+			this.pictureBox97 = new System.Windows.Forms.PictureBox();
+			this.pictureBox98 = new System.Windows.Forms.PictureBox();
+			this.pictureBox99 = new System.Windows.Forms.PictureBox();
+			this.pictureBox104 = new System.Windows.Forms.PictureBox();
+			this.pictureBox978 = new System.Windows.Forms.PictureBox();
+			this.pictureBox977 = new System.Windows.Forms.PictureBox();
+			this.pictureBox976 = new System.Windows.Forms.PictureBox();
+			this.pictureBox975 = new System.Windows.Forms.PictureBox();
+			this.pictureBox974 = new System.Windows.Forms.PictureBox();
+			this.pictureBox973 = new System.Windows.Forms.PictureBox();
+			this.pictureBox972 = new System.Windows.Forms.PictureBox();
+			this.pictureBox971 = new System.Windows.Forms.PictureBox();
+			this.pictureBox168 = new System.Windows.Forms.PictureBox();
+			this.pictureBox145 = new System.Windows.Forms.PictureBox();
+			this.pictureBox127 = new System.Windows.Forms.PictureBox();
+			this.pictureBox117 = new System.Windows.Forms.PictureBox();
+			this.pictureBox111 = new System.Windows.Forms.PictureBox();
+			this.pictureBox129 = new System.Windows.Forms.PictureBox();
+			this.pictureBox134 = new System.Windows.Forms.PictureBox();
+			this.pictureBox159 = new System.Windows.Forms.PictureBox();
+			this.pictureBox158 = new System.Windows.Forms.PictureBox();
+			this.pictureBox135 = new System.Windows.Forms.PictureBox();
+			this.pictureBox132 = new System.Windows.Forms.PictureBox();
+			this.pictureBox123 = new System.Windows.Forms.PictureBox();
+			this.pictureBox116 = new System.Windows.Forms.PictureBox();
+			this.pictureBox120 = new System.Windows.Forms.PictureBox();
+			this.pictureBox130 = new System.Windows.Forms.PictureBox();
+			this.pictureBox118 = new System.Windows.Forms.PictureBox();
+			this.pictureBox133 = new System.Windows.Forms.PictureBox();
+			this.pictureBox131 = new System.Windows.Forms.PictureBox();
+			this.pictureBox119 = new System.Windows.Forms.PictureBox();
+			this.pictureBox115 = new System.Windows.Forms.PictureBox();
+			this.pictureBox112 = new System.Windows.Forms.PictureBox();
+			this.pictureBox109 = new System.Windows.Forms.PictureBox();
+			this.pictureBox108 = new System.Windows.Forms.PictureBox();
+			this.pictureBox107 = new System.Windows.Forms.PictureBox();
+			this.pictureBox970 = new System.Windows.Forms.PictureBox();
+			this.pictureBox968 = new System.Windows.Forms.PictureBox();
+			this.pictureBox969 = new System.Windows.Forms.PictureBox();
+			this.pictureBox967 = new System.Windows.Forms.PictureBox();
+			this.pictureBox966 = new System.Windows.Forms.PictureBox();
+			this.pictureBox965 = new System.Windows.Forms.PictureBox();
+			this.pictureBox964 = new System.Windows.Forms.PictureBox();
+			this.pictureBox696 = new System.Windows.Forms.PictureBox();
+			this.pictureBox707 = new System.Windows.Forms.PictureBox();
+			this.pictureBox963 = new System.Windows.Forms.PictureBox();
+			this.pictureBox648 = new System.Windows.Forms.PictureBox();
+			this.pictureBox452 = new System.Windows.Forms.PictureBox();
 			this.explosion_image = new System.Windows.Forms.PictureBox();
 			this.cannonball = new System.Windows.Forms.PictureBox();
 			this.enemyDialogBox = new System.Windows.Forms.PictureBox();
@@ -410,6 +247,7 @@
 			this.pictureBox915 = new System.Windows.Forms.PictureBox();
 			this.pictureBox916 = new System.Windows.Forms.PictureBox();
 			this.pictureBox917 = new System.Windows.Forms.PictureBox();
+			this.exit_button = new System.Windows.Forms.Button();
 			this.pictureBox717 = new System.Windows.Forms.PictureBox();
 			this.pictureBox747 = new System.Windows.Forms.PictureBox();
 			this.pictureBox904 = new System.Windows.Forms.PictureBox();
@@ -471,6 +309,7 @@
 			this.pictureBox688 = new System.Windows.Forms.PictureBox();
 			this.pictureBox453 = new System.Windows.Forms.PictureBox();
 			this.FireButton = new System.Windows.Forms.Button();
+			this.cheat_button = new System.Windows.Forms.Button();
 			this.pictureBox677 = new System.Windows.Forms.PictureBox();
 			this.pictureBox650 = new System.Windows.Forms.PictureBox();
 			this.pictureBox651 = new System.Windows.Forms.PictureBox();
@@ -497,7 +336,6 @@
 			this.pictureBox672 = new System.Windows.Forms.PictureBox();
 			this.pictureBox673 = new System.Windows.Forms.PictureBox();
 			this.pictureBox649 = new System.Windows.Forms.PictureBox();
-			this.pictureBox648 = new System.Windows.Forms.PictureBox();
 			this.pictureBox646 = new System.Windows.Forms.PictureBox();
 			this.pictureBox645 = new System.Windows.Forms.PictureBox();
 			this.pictureBox644 = new System.Windows.Forms.PictureBox();
@@ -514,7 +352,6 @@
 			this.pictureBox635 = new System.Windows.Forms.PictureBox();
 			this.pictureBox633 = new System.Windows.Forms.PictureBox();
 			this.pictureBox634 = new System.Windows.Forms.PictureBox();
-			this.pictureBox452 = new System.Windows.Forms.PictureBox();
 			this.pictureBox618 = new System.Windows.Forms.PictureBox();
 			this.pictureBox332 = new System.Windows.Forms.PictureBox();
 			this.pictureBox333 = new System.Windows.Forms.PictureBox();
@@ -883,7 +720,6 @@
 			this.pictureBox205 = new System.Windows.Forms.PictureBox();
 			this.pictureBox204 = new System.Windows.Forms.PictureBox();
 			this.pictureBox203 = new System.Windows.Forms.PictureBox();
-			this.pictureBox202 = new System.Windows.Forms.PictureBox();
 			this.pictureBox201 = new System.Windows.Forms.PictureBox();
 			this.pictureBox200 = new System.Windows.Forms.PictureBox();
 			this.pictureBox199 = new System.Windows.Forms.PictureBox();
@@ -911,7 +747,6 @@
 			this.pictureBox140 = new System.Windows.Forms.PictureBox();
 			this.pictureBox139 = new System.Windows.Forms.PictureBox();
 			this.pictureBox138 = new System.Windows.Forms.PictureBox();
-			this.pictureBox168 = new System.Windows.Forms.PictureBox();
 			this.pictureBox167 = new System.Windows.Forms.PictureBox();
 			this.pictureBox166 = new System.Windows.Forms.PictureBox();
 			this.pictureBox165 = new System.Windows.Forms.PictureBox();
@@ -919,8 +754,6 @@
 			this.pictureBox162 = new System.Windows.Forms.PictureBox();
 			this.pictureBox161 = new System.Windows.Forms.PictureBox();
 			this.pictureBox160 = new System.Windows.Forms.PictureBox();
-			this.pictureBox159 = new System.Windows.Forms.PictureBox();
-			this.pictureBox158 = new System.Windows.Forms.PictureBox();
 			this.pictureBox157 = new System.Windows.Forms.PictureBox();
 			this.pictureBox156 = new System.Windows.Forms.PictureBox();
 			this.pictureBox155 = new System.Windows.Forms.PictureBox();
@@ -929,53 +762,22 @@
 			this.pictureBox150 = new System.Windows.Forms.PictureBox();
 			this.pictureBox149 = new System.Windows.Forms.PictureBox();
 			this.pictureBox146 = new System.Windows.Forms.PictureBox();
-			this.pictureBox145 = new System.Windows.Forms.PictureBox();
 			this.pictureBox144 = new System.Windows.Forms.PictureBox();
 			this.pictureBox143 = new System.Windows.Forms.PictureBox();
 			this.pictureBox142 = new System.Windows.Forms.PictureBox();
 			this.pictureBox141 = new System.Windows.Forms.PictureBox();
 			this.pictureBox137 = new System.Windows.Forms.PictureBox();
 			this.pictureBox136 = new System.Windows.Forms.PictureBox();
-			this.pictureBox132 = new System.Windows.Forms.PictureBox();
-			this.pictureBox121 = new System.Windows.Forms.PictureBox();
-			this.pictureBox117 = new System.Windows.Forms.PictureBox();
-			this.pictureBox116 = new System.Windows.Forms.PictureBox();
-			this.pictureBox115 = new System.Windows.Forms.PictureBox();
 			this.pictureBox105 = new System.Windows.Forms.PictureBox();
 			this.pictureBox114 = new System.Windows.Forms.PictureBox();
-			this.pictureBox118 = new System.Windows.Forms.PictureBox();
-			this.pictureBox119 = new System.Windows.Forms.PictureBox();
-			this.pictureBox120 = new System.Windows.Forms.PictureBox();
 			this.pictureBox122 = new System.Windows.Forms.PictureBox();
-			this.pictureBox123 = new System.Windows.Forms.PictureBox();
 			this.pictureBox124 = new System.Windows.Forms.PictureBox();
 			this.pictureBox125 = new System.Windows.Forms.PictureBox();
 			this.pictureBox126 = new System.Windows.Forms.PictureBox();
-			this.pictureBox127 = new System.Windows.Forms.PictureBox();
 			this.pictureBox128 = new System.Windows.Forms.PictureBox();
-			this.pictureBox129 = new System.Windows.Forms.PictureBox();
-			this.pictureBox130 = new System.Windows.Forms.PictureBox();
-			this.pictureBox131 = new System.Windows.Forms.PictureBox();
-			this.pictureBox133 = new System.Windows.Forms.PictureBox();
-			this.pictureBox134 = new System.Windows.Forms.PictureBox();
-			this.pictureBox135 = new System.Windows.Forms.PictureBox();
 			this.pictureBox103 = new System.Windows.Forms.PictureBox();
-			this.pictureBox104 = new System.Windows.Forms.PictureBox();
 			this.pictureBox106 = new System.Windows.Forms.PictureBox();
-			this.pictureBox107 = new System.Windows.Forms.PictureBox();
-			this.pictureBox108 = new System.Windows.Forms.PictureBox();
-			this.pictureBox109 = new System.Windows.Forms.PictureBox();
 			this.pictureBox110 = new System.Windows.Forms.PictureBox();
-			this.pictureBox111 = new System.Windows.Forms.PictureBox();
-			this.pictureBox112 = new System.Windows.Forms.PictureBox();
-			this.pictureBox113 = new System.Windows.Forms.PictureBox();
-			this.pictureBox102 = new System.Windows.Forms.PictureBox();
-			this.pictureBox101 = new System.Windows.Forms.PictureBox();
-			this.pictureBox100 = new System.Windows.Forms.PictureBox();
-			this.pictureBox99 = new System.Windows.Forms.PictureBox();
-			this.pictureBox98 = new System.Windows.Forms.PictureBox();
-			this.pictureBox97 = new System.Windows.Forms.PictureBox();
-			this.pictureBox96 = new System.Windows.Forms.PictureBox();
 			this.pictureBox95 = new System.Windows.Forms.PictureBox();
 			this.pictureBox94 = new System.Windows.Forms.PictureBox();
 			this.pictureBox93 = new System.Windows.Forms.PictureBox();
@@ -1003,6 +805,116 @@
 			this.Sloop_icon = new System.Windows.Forms.PictureBox();
 			this.Brigantine_icon = new System.Windows.Forms.PictureBox();
 			this.FishingBoat_icon = new System.Windows.Forms.PictureBox();
+			this.PiratesShip_vertical_enemy = new System.Windows.Forms.PictureBox();
+			this.EnemyField_J10 = new System.Windows.Forms.PictureBox();
+			this.PiratesShip_horizontal_enemy = new System.Windows.Forms.PictureBox();
+			this.Galleon_horizontal_enemy = new System.Windows.Forms.PictureBox();
+			this.Galleon_vertical_enemy = new System.Windows.Forms.PictureBox();
+			this.Brigantine_vertical_enemy = new System.Windows.Forms.PictureBox();
+			this.Brigantine_horizontal_enemy = new System.Windows.Forms.PictureBox();
+			this.EnemyField_J3 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_J2 = new System.Windows.Forms.PictureBox();
+			this.Sloop_horizontal_enemy = new System.Windows.Forms.PictureBox();
+			this.EnemyField_I10 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_I9 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_I8 = new System.Windows.Forms.PictureBox();
+			this.Sloop_vertical_enemy = new System.Windows.Forms.PictureBox();
+			this.EnemyField_I7 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_I6 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_I5 = new System.Windows.Forms.PictureBox();
+			this.FishingBoat_horizontal_enemy = new System.Windows.Forms.PictureBox();
+			this.EnemyField_I4 = new System.Windows.Forms.PictureBox();
+			this.FishingBoat_vertical_enemy = new System.Windows.Forms.PictureBox();
+			this.EnemyField_I3 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_I2 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_H10 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_H9 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_H8 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_H7 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_H6 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_H5 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_H4 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_H3 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_H2 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_G10 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_G9 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_G8 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_G7 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_G6 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_G5 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_G4 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_G3 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_A2 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_A1 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_G2 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_F10 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_F9 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_F8 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_F7 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_F6 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_F4 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_F3 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_F2 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_E10 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_E9 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_E8 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_E7 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_E6 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_E5 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_E4 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_E3 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_E2 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_D10 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_D9 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_D8 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_D7 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_D6 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_D5 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_D4 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_D3 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_D2 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_C10 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_C9 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_C8 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_C7 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_C6 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_C5 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_C4 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_C3 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_C2 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_B10 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_B9 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_B8 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_B7 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_B6 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_B5 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_B4 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_B3 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_B2 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_A10 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_A9 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_A8 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_A7 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_A6 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_A5 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_J1 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_I1 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_H1 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_G1 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_F1 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_E1 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_D1 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_C1 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_B1 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_A4 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_A3 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_F5 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_J7 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_J8 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_J9 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_J4 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_J5 = new System.Windows.Forms.PictureBox();
+			this.EnemyField_J6 = new System.Windows.Forms.PictureBox();
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.pictureBox19 = new System.Windows.Forms.PictureBox();
 			this.pictureBox18 = new System.Windows.Forms.PictureBox();
@@ -1035,6 +947,117 @@
 			this.pictureBox22 = new System.Windows.Forms.PictureBox();
 			this.pictureBox20 = new System.Windows.Forms.PictureBox();
 			this.pictureBox21 = new System.Windows.Forms.PictureBox();
+			this.pictureBox211 = new System.Windows.Forms.PictureBox();
+			this.PiratesShip_vertical_player = new System.Windows.Forms.PictureBox();
+			this.Galleon_horizontal_player = new System.Windows.Forms.PictureBox();
+			this.PlayerField_J10 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_J9 = new System.Windows.Forms.PictureBox();
+			this.PiratesShip_horizontal_player = new System.Windows.Forms.PictureBox();
+			this.PlayerField_J8 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_J7 = new System.Windows.Forms.PictureBox();
+			this.Galleon_vertical_player = new System.Windows.Forms.PictureBox();
+			this.PlayerField_J6 = new System.Windows.Forms.PictureBox();
+			this.Brigantine_vertical_player = new System.Windows.Forms.PictureBox();
+			this.PlayerField_J5 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_J4 = new System.Windows.Forms.PictureBox();
+			this.Brigantine_horizontal_player = new System.Windows.Forms.PictureBox();
+			this.PlayerField_J3 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_J2 = new System.Windows.Forms.PictureBox();
+			this.Sloop_vertical_player = new System.Windows.Forms.PictureBox();
+			this.PlayerField_I10 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_I9 = new System.Windows.Forms.PictureBox();
+			this.Sloop_horizontal_player = new System.Windows.Forms.PictureBox();
+			this.PlayerField_I8 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_I7 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_I6 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_I5 = new System.Windows.Forms.PictureBox();
+			this.FishingBoat_vertical_player = new System.Windows.Forms.PictureBox();
+			this.PlayerField_I4 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_I3 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_I2 = new System.Windows.Forms.PictureBox();
+			this.FishingBoat_horizontal_player = new System.Windows.Forms.PictureBox();
+			this.PlayerField_H10 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_H9 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_H8 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_H7 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_H6 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_H5 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_H4 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_H3 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_H2 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_G10 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_G9 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_G8 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_G7 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_G6 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_G5 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_G4 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_G3 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_G2 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_F10 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_F9 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_F8 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_F7 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_F6 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_F5 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_F4 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_F3 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_F2 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_E10 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_E9 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_E8 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_E7 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_E6 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_E5 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_E4 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_E3 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_E2 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_D10 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_D9 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_D8 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_D7 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_D6 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_D5 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_D4 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_D3 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_D2 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_C10 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_C9 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_C8 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_C7 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_C6 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_C5 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_C4 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_C3 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_C2 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_B10 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_B9 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_B8 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_B7 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_B6 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_B5 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_B4 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_B3 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_B2 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_A10 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_A9 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_A8 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_A7 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_A6 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_A5 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_J1 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_I1 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_H1 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_G1 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_F1 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_E1 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_D1 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_C1 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_B1 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_A4 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_A3 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_A2 = new System.Windows.Forms.PictureBox();
+			this.PlayerField_A1 = new System.Windows.Forms.PictureBox();
 			this.pictureBox42 = new System.Windows.Forms.PictureBox();
 			this.pictureBox43 = new System.Windows.Forms.PictureBox();
 			this.pictureBox44 = new System.Windows.Forms.PictureBox();
@@ -1255,231 +1278,66 @@
 			this.pictureBox898 = new System.Windows.Forms.PictureBox();
 			this.pictureBox899 = new System.Windows.Forms.PictureBox();
 			this.pictureBox900 = new System.Windows.Forms.PictureBox();
-			this.showPlayerDialogTimer = new System.Windows.Forms.Timer(this.components);
-			this.showEnemyDialogTimer = new System.Windows.Forms.Timer(this.components);
 			this.PlayerField_label.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox211)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_vertical_player)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.Galleon_horizontal_player)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J10)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J9)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_horizontal_player)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J8)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J7)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.Galleon_vertical_player)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J6)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.Brigantine_vertical_player)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J5)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J4)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.Brigantine_horizontal_player)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J3)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J2)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.Sloop_vertical_player)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I10)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I9)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.Sloop_horizontal_player)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I8)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I7)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I6)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I5)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.FishingBoat_vertical_player)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I4)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I3)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I2)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.FishingBoat_horizontal_player)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H10)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H9)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H8)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H7)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H6)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H5)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H4)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H3)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H2)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G10)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G9)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G8)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G7)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G6)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G5)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G4)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G3)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G2)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F10)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F9)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F8)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F7)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F6)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F5)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F4)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F3)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F2)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E10)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E9)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E8)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E7)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E6)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E5)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E4)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E3)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E2)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D10)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D9)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D8)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D7)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D6)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D5)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D4)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D3)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D2)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C10)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C9)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C8)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C7)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C6)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C5)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C4)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C3)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C2)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B10)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B9)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B8)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B7)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B6)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B5)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B4)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B3)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B2)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A10)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A9)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A8)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A7)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A6)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A5)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J1)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I1)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H1)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G1)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F1)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E1)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D1)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C1)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B1)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A4)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A3)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A2)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A1)).BeginInit();
 			this.EnemyField_label.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_vertical_enemy)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J10)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_horizontal_enemy)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.Galleon_horizontal_enemy)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.Galleon_vertical_enemy)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.Brigantine_vertical_enemy)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.Brigantine_horizontal_enemy)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J3)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J2)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.Sloop_horizontal_enemy)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I10)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I9)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I8)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.Sloop_vertical_enemy)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I7)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I6)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I5)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.FishingBoat_horizontal_enemy)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I4)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.FishingBoat_vertical_enemy)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I3)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I2)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H10)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H9)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H8)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H7)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H6)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H5)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H4)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H3)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H2)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G10)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G9)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G8)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G7)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G6)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G5)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G4)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G3)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A2)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A1)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G2)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F10)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F9)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F8)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F7)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F6)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F4)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F3)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F2)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E10)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E9)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E8)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E7)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E6)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E5)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E4)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E3)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E2)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D10)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D9)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D8)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D7)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D6)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D5)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D4)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D3)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D2)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C10)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C9)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C8)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C7)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C6)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C5)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C4)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C3)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C2)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B10)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B9)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B8)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B7)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B6)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B5)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B4)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B3)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B2)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A10)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A9)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A8)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A7)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A6)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A5)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J1)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I1)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H1)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G1)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F1)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E1)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D1)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C1)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B1)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A4)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A3)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F5)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J7)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J8)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J9)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J4)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J5)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J6)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.LogFrame)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox980)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox121)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox113)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox202)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox979)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox102)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox100)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox101)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox96)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox97)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox98)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox99)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox104)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox978)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox977)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox976)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox975)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox974)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox973)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox972)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox971)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox168)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox145)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox127)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox117)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox111)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox129)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox134)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox159)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox158)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox135)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox132)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox123)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox116)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox120)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox130)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox118)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox133)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox131)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox119)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox115)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox112)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox109)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox108)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox107)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox970)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox968)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox969)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox967)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox966)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox965)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox964)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox696)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox707)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox963)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox648)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox452)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.explosion_image)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.cannonball)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.enemyDialogBox)).BeginInit();
@@ -1691,7 +1549,6 @@
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox672)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox673)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox649)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox648)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox646)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox645)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox644)).BeginInit();
@@ -1708,7 +1565,6 @@
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox635)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox633)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox634)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox452)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox618)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox332)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox333)).BeginInit();
@@ -2076,7 +1932,6 @@
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox205)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox204)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox203)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox202)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox201)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox200)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox199)).BeginInit();
@@ -2104,7 +1959,6 @@
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox140)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox139)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox138)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox168)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox167)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox166)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox165)).BeginInit();
@@ -2112,8 +1966,6 @@
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox162)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox161)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox160)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox159)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox158)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox157)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox156)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox155)).BeginInit();
@@ -2122,53 +1974,22 @@
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox150)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox149)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox146)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox145)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox144)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox143)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox142)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox141)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox137)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox136)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox132)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox121)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox117)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox116)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox115)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox105)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox114)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox118)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox119)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox120)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox122)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox123)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox124)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox125)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox126)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox127)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox128)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox129)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox130)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox131)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox133)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox134)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox135)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox103)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox104)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox106)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox107)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox108)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox109)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox110)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox111)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox112)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox113)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox102)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox101)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox100)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox99)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox98)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox97)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox96)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox95)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox94)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox93)).BeginInit();
@@ -2196,6 +2017,116 @@
 			((System.ComponentModel.ISupportInitialize)(this.Sloop_icon)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.Brigantine_icon)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.FishingBoat_icon)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_vertical_enemy)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J10)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_horizontal_enemy)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.Galleon_horizontal_enemy)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.Galleon_vertical_enemy)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.Brigantine_vertical_enemy)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.Brigantine_horizontal_enemy)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.Sloop_horizontal_enemy)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I10)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I9)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I8)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.Sloop_vertical_enemy)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I7)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I6)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I5)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.FishingBoat_horizontal_enemy)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I4)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.FishingBoat_vertical_enemy)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H10)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H9)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H8)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H7)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H6)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H5)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H4)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G10)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G9)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G8)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G7)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G6)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G5)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G4)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F10)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F9)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F8)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F7)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F6)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F4)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E10)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E9)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E8)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E7)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E6)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E5)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E4)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D10)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D9)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D8)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D7)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D6)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D5)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D4)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C10)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C9)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C8)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C7)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C6)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C5)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C4)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B10)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B9)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B8)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B7)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B6)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B5)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B4)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A10)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A9)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A8)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A7)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A6)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A5)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A4)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F5)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J7)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J8)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J9)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J4)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J5)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J6)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
@@ -2228,6 +2159,117 @@
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox211)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_vertical_player)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.Galleon_horizontal_player)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J10)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J9)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_horizontal_player)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J8)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J7)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.Galleon_vertical_player)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J6)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.Brigantine_vertical_player)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J5)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J4)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.Brigantine_horizontal_player)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.Sloop_vertical_player)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I10)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I9)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.Sloop_horizontal_player)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I8)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I7)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I6)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I5)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.FishingBoat_vertical_player)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I4)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.FishingBoat_horizontal_player)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H10)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H9)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H8)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H7)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H6)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H5)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H4)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G10)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G9)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G8)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G7)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G6)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G5)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G4)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F10)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F9)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F8)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F7)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F6)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F5)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F4)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E10)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E9)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E8)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E7)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E6)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E5)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E4)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D10)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D9)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D8)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D7)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D6)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D5)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D4)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C10)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C9)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C8)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C7)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C6)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C5)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C4)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B10)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B9)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B8)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B7)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B6)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B5)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B4)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A10)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A9)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A8)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A7)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A6)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A5)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A4)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A1)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).BeginInit();
@@ -2568,1116 +2610,6 @@
 			this.PlayerField_label.Size = new System.Drawing.Size(300, 300);
 			this.PlayerField_label.TabIndex = 0;
 			// 
-			// pictureBox211
-			// 
-			this.pictureBox211.BackgroundImage = global::BattleShips.Properties.Resources.tree;
-			this.pictureBox211.Location = new System.Drawing.Point(-104, 246);
-			this.pictureBox211.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox211.Name = "pictureBox211";
-			this.pictureBox211.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox211.TabIndex = 842;
-			this.pictureBox211.TabStop = false;
-			// 
-			// PiratesShip_vertical_player
-			// 
-			this.PiratesShip_vertical_player.Image = global::BattleShips.Properties.Resources.PiratesShip_vertical;
-			this.PiratesShip_vertical_player.Location = new System.Drawing.Point(240, 153);
-			this.PiratesShip_vertical_player.Name = "PiratesShip_vertical_player";
-			this.PiratesShip_vertical_player.Size = new System.Drawing.Size(30, 150);
-			this.PiratesShip_vertical_player.TabIndex = 109;
-			this.PiratesShip_vertical_player.TabStop = false;
-			this.PiratesShip_vertical_player.Visible = false;
-			// 
-			// Galleon_horizontal_player
-			// 
-			this.Galleon_horizontal_player.Image = global::BattleShips.Properties.Resources.Galleon_horizontal;
-			this.Galleon_horizontal_player.Location = new System.Drawing.Point(27, 237);
-			this.Galleon_horizontal_player.Name = "Galleon_horizontal_player";
-			this.Galleon_horizontal_player.Size = new System.Drawing.Size(120, 30);
-			this.Galleon_horizontal_player.TabIndex = 104;
-			this.Galleon_horizontal_player.TabStop = false;
-			this.Galleon_horizontal_player.Visible = false;
-			// 
-			// PlayerField_J10
-			// 
-			this.PlayerField_J10.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_J10.Image")));
-			this.PlayerField_J10.Location = new System.Drawing.Point(270, 270);
-			this.PlayerField_J10.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_J10.Name = "PlayerField_J10";
-			this.PlayerField_J10.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_J10.TabIndex = 99;
-			this.PlayerField_J10.TabStop = false;
-			// 
-			// PlayerField_J9
-			// 
-			this.PlayerField_J9.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_J9.Image")));
-			this.PlayerField_J9.Location = new System.Drawing.Point(240, 270);
-			this.PlayerField_J9.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_J9.Name = "PlayerField_J9";
-			this.PlayerField_J9.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_J9.TabIndex = 98;
-			this.PlayerField_J9.TabStop = false;
-			// 
-			// PiratesShip_horizontal_player
-			// 
-			this.PiratesShip_horizontal_player.Image = global::BattleShips.Properties.Resources.PiratesShip_horizontal;
-			this.PiratesShip_horizontal_player.Location = new System.Drawing.Point(11, 166);
-			this.PiratesShip_horizontal_player.Name = "PiratesShip_horizontal_player";
-			this.PiratesShip_horizontal_player.Size = new System.Drawing.Size(150, 30);
-			this.PiratesShip_horizontal_player.TabIndex = 108;
-			this.PiratesShip_horizontal_player.TabStop = false;
-			this.PiratesShip_horizontal_player.Visible = false;
-			// 
-			// PlayerField_J8
-			// 
-			this.PlayerField_J8.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_J8.Image")));
-			this.PlayerField_J8.Location = new System.Drawing.Point(210, 270);
-			this.PlayerField_J8.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_J8.Name = "PlayerField_J8";
-			this.PlayerField_J8.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_J8.TabIndex = 97;
-			this.PlayerField_J8.TabStop = false;
-			// 
-			// PlayerField_J7
-			// 
-			this.PlayerField_J7.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_J7.Image")));
-			this.PlayerField_J7.Location = new System.Drawing.Point(180, 270);
-			this.PlayerField_J7.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_J7.Name = "PlayerField_J7";
-			this.PlayerField_J7.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_J7.TabIndex = 96;
-			this.PlayerField_J7.TabStop = false;
-			// 
-			// Galleon_vertical_player
-			// 
-			this.Galleon_vertical_player.Image = global::BattleShips.Properties.Resources.Galleon_vertical;
-			this.Galleon_vertical_player.Location = new System.Drawing.Point(61, 13);
-			this.Galleon_vertical_player.Name = "Galleon_vertical_player";
-			this.Galleon_vertical_player.Size = new System.Drawing.Size(30, 120);
-			this.Galleon_vertical_player.TabIndex = 105;
-			this.Galleon_vertical_player.TabStop = false;
-			this.Galleon_vertical_player.Visible = false;
-			// 
-			// PlayerField_J6
-			// 
-			this.PlayerField_J6.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_J6.Image")));
-			this.PlayerField_J6.Location = new System.Drawing.Point(150, 270);
-			this.PlayerField_J6.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_J6.Name = "PlayerField_J6";
-			this.PlayerField_J6.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_J6.TabIndex = 95;
-			this.PlayerField_J6.TabStop = false;
-			// 
-			// Brigantine_vertical_player
-			// 
-			this.Brigantine_vertical_player.Image = ((System.Drawing.Image)(resources.GetObject("Brigantine_vertical_player.Image")));
-			this.Brigantine_vertical_player.Location = new System.Drawing.Point(113, 30);
-			this.Brigantine_vertical_player.Name = "Brigantine_vertical_player";
-			this.Brigantine_vertical_player.Size = new System.Drawing.Size(30, 90);
-			this.Brigantine_vertical_player.TabIndex = 107;
-			this.Brigantine_vertical_player.TabStop = false;
-			this.Brigantine_vertical_player.Visible = false;
-			// 
-			// PlayerField_J5
-			// 
-			this.PlayerField_J5.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_J5.Image")));
-			this.PlayerField_J5.Location = new System.Drawing.Point(120, 270);
-			this.PlayerField_J5.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_J5.Name = "PlayerField_J5";
-			this.PlayerField_J5.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_J5.TabIndex = 94;
-			this.PlayerField_J5.TabStop = false;
-			// 
-			// PlayerField_J4
-			// 
-			this.PlayerField_J4.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_J4.Image")));
-			this.PlayerField_J4.Location = new System.Drawing.Point(90, 270);
-			this.PlayerField_J4.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_J4.Name = "PlayerField_J4";
-			this.PlayerField_J4.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_J4.TabIndex = 93;
-			this.PlayerField_J4.TabStop = false;
-			// 
-			// Brigantine_horizontal_player
-			// 
-			this.Brigantine_horizontal_player.Image = ((System.Drawing.Image)(resources.GetObject("Brigantine_horizontal_player.Image")));
-			this.Brigantine_horizontal_player.Location = new System.Drawing.Point(198, 90);
-			this.Brigantine_horizontal_player.Name = "Brigantine_horizontal_player";
-			this.Brigantine_horizontal_player.Size = new System.Drawing.Size(90, 30);
-			this.Brigantine_horizontal_player.TabIndex = 106;
-			this.Brigantine_horizontal_player.TabStop = false;
-			this.Brigantine_horizontal_player.Visible = false;
-			// 
-			// PlayerField_J3
-			// 
-			this.PlayerField_J3.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_J3.Image")));
-			this.PlayerField_J3.Location = new System.Drawing.Point(60, 270);
-			this.PlayerField_J3.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_J3.Name = "PlayerField_J3";
-			this.PlayerField_J3.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_J3.TabIndex = 92;
-			this.PlayerField_J3.TabStop = false;
-			// 
-			// PlayerField_J2
-			// 
-			this.PlayerField_J2.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
-			this.PlayerField_J2.Location = new System.Drawing.Point(30, 270);
-			this.PlayerField_J2.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_J2.Name = "PlayerField_J2";
-			this.PlayerField_J2.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_J2.TabIndex = 91;
-			this.PlayerField_J2.TabStop = false;
-			// 
-			// Sloop_vertical_player
-			// 
-			this.Sloop_vertical_player.Image = ((System.Drawing.Image)(resources.GetObject("Sloop_vertical_player.Image")));
-			this.Sloop_vertical_player.Location = new System.Drawing.Point(193, 139);
-			this.Sloop_vertical_player.Name = "Sloop_vertical_player";
-			this.Sloop_vertical_player.Size = new System.Drawing.Size(30, 90);
-			this.Sloop_vertical_player.TabIndex = 101;
-			this.Sloop_vertical_player.TabStop = false;
-			this.Sloop_vertical_player.Visible = false;
-			// 
-			// PlayerField_I10
-			// 
-			this.PlayerField_I10.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_I10.Image")));
-			this.PlayerField_I10.Location = new System.Drawing.Point(270, 240);
-			this.PlayerField_I10.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_I10.Name = "PlayerField_I10";
-			this.PlayerField_I10.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_I10.TabIndex = 90;
-			this.PlayerField_I10.TabStop = false;
-			// 
-			// PlayerField_I9
-			// 
-			this.PlayerField_I9.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_I9.Image")));
-			this.PlayerField_I9.Location = new System.Drawing.Point(240, 240);
-			this.PlayerField_I9.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_I9.Name = "PlayerField_I9";
-			this.PlayerField_I9.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_I9.TabIndex = 89;
-			this.PlayerField_I9.TabStop = false;
-			// 
-			// Sloop_horizontal_player
-			// 
-			this.Sloop_horizontal_player.Image = ((System.Drawing.Image)(resources.GetObject("Sloop_horizontal_player.Image")));
-			this.Sloop_horizontal_player.Location = new System.Drawing.Point(97, 126);
-			this.Sloop_horizontal_player.Name = "Sloop_horizontal_player";
-			this.Sloop_horizontal_player.Size = new System.Drawing.Size(90, 30);
-			this.Sloop_horizontal_player.TabIndex = 100;
-			this.Sloop_horizontal_player.TabStop = false;
-			this.Sloop_horizontal_player.Visible = false;
-			// 
-			// PlayerField_I8
-			// 
-			this.PlayerField_I8.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_I8.Image")));
-			this.PlayerField_I8.Location = new System.Drawing.Point(210, 240);
-			this.PlayerField_I8.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_I8.Name = "PlayerField_I8";
-			this.PlayerField_I8.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_I8.TabIndex = 88;
-			this.PlayerField_I8.TabStop = false;
-			// 
-			// PlayerField_I7
-			// 
-			this.PlayerField_I7.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_I7.Image")));
-			this.PlayerField_I7.Location = new System.Drawing.Point(180, 240);
-			this.PlayerField_I7.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_I7.Name = "PlayerField_I7";
-			this.PlayerField_I7.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_I7.TabIndex = 87;
-			this.PlayerField_I7.TabStop = false;
-			// 
-			// PlayerField_I6
-			// 
-			this.PlayerField_I6.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_I6.Image")));
-			this.PlayerField_I6.Location = new System.Drawing.Point(150, 240);
-			this.PlayerField_I6.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_I6.Name = "PlayerField_I6";
-			this.PlayerField_I6.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_I6.TabIndex = 86;
-			this.PlayerField_I6.TabStop = false;
-			// 
-			// PlayerField_I5
-			// 
-			this.PlayerField_I5.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_I5.Image")));
-			this.PlayerField_I5.Location = new System.Drawing.Point(120, 240);
-			this.PlayerField_I5.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_I5.Name = "PlayerField_I5";
-			this.PlayerField_I5.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_I5.TabIndex = 85;
-			this.PlayerField_I5.TabStop = false;
-			// 
-			// FishingBoat_vertical_player
-			// 
-			this.FishingBoat_vertical_player.Image = global::BattleShips.Properties.Resources.Fishing_vessel_water_vertical;
-			this.FishingBoat_vertical_player.Location = new System.Drawing.Point(171, 27);
-			this.FishingBoat_vertical_player.Name = "FishingBoat_vertical_player";
-			this.FishingBoat_vertical_player.Size = new System.Drawing.Size(30, 60);
-			this.FishingBoat_vertical_player.TabIndex = 39;
-			this.FishingBoat_vertical_player.TabStop = false;
-			this.FishingBoat_vertical_player.Visible = false;
-			// 
-			// PlayerField_I4
-			// 
-			this.PlayerField_I4.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_I4.Image")));
-			this.PlayerField_I4.Location = new System.Drawing.Point(90, 240);
-			this.PlayerField_I4.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_I4.Name = "PlayerField_I4";
-			this.PlayerField_I4.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_I4.TabIndex = 84;
-			this.PlayerField_I4.TabStop = false;
-			// 
-			// PlayerField_I3
-			// 
-			this.PlayerField_I3.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_I3.Image")));
-			this.PlayerField_I3.Location = new System.Drawing.Point(60, 240);
-			this.PlayerField_I3.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_I3.Name = "PlayerField_I3";
-			this.PlayerField_I3.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_I3.TabIndex = 83;
-			this.PlayerField_I3.TabStop = false;
-			// 
-			// PlayerField_I2
-			// 
-			this.PlayerField_I2.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_I2.Image")));
-			this.PlayerField_I2.Location = new System.Drawing.Point(30, 240);
-			this.PlayerField_I2.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_I2.Name = "PlayerField_I2";
-			this.PlayerField_I2.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_I2.TabIndex = 82;
-			this.PlayerField_I2.TabStop = false;
-			// 
-			// FishingBoat_horizontal_player
-			// 
-			this.FishingBoat_horizontal_player.Image = global::BattleShips.Properties.Resources.Fishing_vessel_water;
-			this.FishingBoat_horizontal_player.Location = new System.Drawing.Point(207, 41);
-			this.FishingBoat_horizontal_player.Name = "FishingBoat_horizontal_player";
-			this.FishingBoat_horizontal_player.Size = new System.Drawing.Size(60, 30);
-			this.FishingBoat_horizontal_player.TabIndex = 36;
-			this.FishingBoat_horizontal_player.TabStop = false;
-			this.FishingBoat_horizontal_player.Visible = false;
-			// 
-			// PlayerField_H10
-			// 
-			this.PlayerField_H10.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_H10.Image")));
-			this.PlayerField_H10.Location = new System.Drawing.Point(270, 210);
-			this.PlayerField_H10.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_H10.Name = "PlayerField_H10";
-			this.PlayerField_H10.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_H10.TabIndex = 81;
-			this.PlayerField_H10.TabStop = false;
-			// 
-			// PlayerField_H9
-			// 
-			this.PlayerField_H9.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_H9.Image")));
-			this.PlayerField_H9.Location = new System.Drawing.Point(240, 210);
-			this.PlayerField_H9.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_H9.Name = "PlayerField_H9";
-			this.PlayerField_H9.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_H9.TabIndex = 80;
-			this.PlayerField_H9.TabStop = false;
-			// 
-			// PlayerField_H8
-			// 
-			this.PlayerField_H8.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_H8.Image")));
-			this.PlayerField_H8.Location = new System.Drawing.Point(210, 210);
-			this.PlayerField_H8.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_H8.Name = "PlayerField_H8";
-			this.PlayerField_H8.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_H8.TabIndex = 79;
-			this.PlayerField_H8.TabStop = false;
-			// 
-			// PlayerField_H7
-			// 
-			this.PlayerField_H7.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_H7.Image")));
-			this.PlayerField_H7.Location = new System.Drawing.Point(180, 210);
-			this.PlayerField_H7.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_H7.Name = "PlayerField_H7";
-			this.PlayerField_H7.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_H7.TabIndex = 78;
-			this.PlayerField_H7.TabStop = false;
-			// 
-			// PlayerField_H6
-			// 
-			this.PlayerField_H6.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_H6.Image")));
-			this.PlayerField_H6.Location = new System.Drawing.Point(150, 210);
-			this.PlayerField_H6.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_H6.Name = "PlayerField_H6";
-			this.PlayerField_H6.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_H6.TabIndex = 77;
-			this.PlayerField_H6.TabStop = false;
-			// 
-			// PlayerField_H5
-			// 
-			this.PlayerField_H5.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_H5.Image")));
-			this.PlayerField_H5.Location = new System.Drawing.Point(120, 210);
-			this.PlayerField_H5.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_H5.Name = "PlayerField_H5";
-			this.PlayerField_H5.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_H5.TabIndex = 76;
-			this.PlayerField_H5.TabStop = false;
-			// 
-			// PlayerField_H4
-			// 
-			this.PlayerField_H4.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_H4.Image")));
-			this.PlayerField_H4.Location = new System.Drawing.Point(90, 210);
-			this.PlayerField_H4.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_H4.Name = "PlayerField_H4";
-			this.PlayerField_H4.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_H4.TabIndex = 75;
-			this.PlayerField_H4.TabStop = false;
-			// 
-			// PlayerField_H3
-			// 
-			this.PlayerField_H3.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_H3.Image")));
-			this.PlayerField_H3.Location = new System.Drawing.Point(60, 210);
-			this.PlayerField_H3.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_H3.Name = "PlayerField_H3";
-			this.PlayerField_H3.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_H3.TabIndex = 74;
-			this.PlayerField_H3.TabStop = false;
-			// 
-			// PlayerField_H2
-			// 
-			this.PlayerField_H2.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_H2.Image")));
-			this.PlayerField_H2.Location = new System.Drawing.Point(30, 210);
-			this.PlayerField_H2.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_H2.Name = "PlayerField_H2";
-			this.PlayerField_H2.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_H2.TabIndex = 73;
-			this.PlayerField_H2.TabStop = false;
-			// 
-			// PlayerField_G10
-			// 
-			this.PlayerField_G10.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_G10.Image")));
-			this.PlayerField_G10.Location = new System.Drawing.Point(270, 180);
-			this.PlayerField_G10.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_G10.Name = "PlayerField_G10";
-			this.PlayerField_G10.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_G10.TabIndex = 72;
-			this.PlayerField_G10.TabStop = false;
-			// 
-			// PlayerField_G9
-			// 
-			this.PlayerField_G9.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_G9.Image")));
-			this.PlayerField_G9.Location = new System.Drawing.Point(240, 180);
-			this.PlayerField_G9.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_G9.Name = "PlayerField_G9";
-			this.PlayerField_G9.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_G9.TabIndex = 71;
-			this.PlayerField_G9.TabStop = false;
-			// 
-			// PlayerField_G8
-			// 
-			this.PlayerField_G8.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_G8.Image")));
-			this.PlayerField_G8.Location = new System.Drawing.Point(210, 180);
-			this.PlayerField_G8.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_G8.Name = "PlayerField_G8";
-			this.PlayerField_G8.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_G8.TabIndex = 70;
-			this.PlayerField_G8.TabStop = false;
-			// 
-			// PlayerField_G7
-			// 
-			this.PlayerField_G7.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_G7.Image")));
-			this.PlayerField_G7.Location = new System.Drawing.Point(180, 180);
-			this.PlayerField_G7.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_G7.Name = "PlayerField_G7";
-			this.PlayerField_G7.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_G7.TabIndex = 69;
-			this.PlayerField_G7.TabStop = false;
-			// 
-			// PlayerField_G6
-			// 
-			this.PlayerField_G6.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_G6.Image")));
-			this.PlayerField_G6.Location = new System.Drawing.Point(150, 180);
-			this.PlayerField_G6.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_G6.Name = "PlayerField_G6";
-			this.PlayerField_G6.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_G6.TabIndex = 68;
-			this.PlayerField_G6.TabStop = false;
-			// 
-			// PlayerField_G5
-			// 
-			this.PlayerField_G5.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_G5.Image")));
-			this.PlayerField_G5.Location = new System.Drawing.Point(120, 180);
-			this.PlayerField_G5.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_G5.Name = "PlayerField_G5";
-			this.PlayerField_G5.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_G5.TabIndex = 67;
-			this.PlayerField_G5.TabStop = false;
-			// 
-			// PlayerField_G4
-			// 
-			this.PlayerField_G4.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_G4.Image")));
-			this.PlayerField_G4.Location = new System.Drawing.Point(90, 180);
-			this.PlayerField_G4.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_G4.Name = "PlayerField_G4";
-			this.PlayerField_G4.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_G4.TabIndex = 66;
-			this.PlayerField_G4.TabStop = false;
-			// 
-			// PlayerField_G3
-			// 
-			this.PlayerField_G3.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_G3.Image")));
-			this.PlayerField_G3.Location = new System.Drawing.Point(60, 180);
-			this.PlayerField_G3.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_G3.Name = "PlayerField_G3";
-			this.PlayerField_G3.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_G3.TabIndex = 65;
-			this.PlayerField_G3.TabStop = false;
-			// 
-			// PlayerField_G2
-			// 
-			this.PlayerField_G2.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_G2.Image")));
-			this.PlayerField_G2.Location = new System.Drawing.Point(30, 180);
-			this.PlayerField_G2.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_G2.Name = "PlayerField_G2";
-			this.PlayerField_G2.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_G2.TabIndex = 64;
-			this.PlayerField_G2.TabStop = false;
-			// 
-			// PlayerField_F10
-			// 
-			this.PlayerField_F10.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_F10.Image")));
-			this.PlayerField_F10.Location = new System.Drawing.Point(270, 150);
-			this.PlayerField_F10.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_F10.Name = "PlayerField_F10";
-			this.PlayerField_F10.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_F10.TabIndex = 63;
-			this.PlayerField_F10.TabStop = false;
-			// 
-			// PlayerField_F9
-			// 
-			this.PlayerField_F9.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_F9.Image")));
-			this.PlayerField_F9.Location = new System.Drawing.Point(240, 150);
-			this.PlayerField_F9.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_F9.Name = "PlayerField_F9";
-			this.PlayerField_F9.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_F9.TabIndex = 62;
-			this.PlayerField_F9.TabStop = false;
-			// 
-			// PlayerField_F8
-			// 
-			this.PlayerField_F8.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_F8.Image")));
-			this.PlayerField_F8.Location = new System.Drawing.Point(210, 150);
-			this.PlayerField_F8.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_F8.Name = "PlayerField_F8";
-			this.PlayerField_F8.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_F8.TabIndex = 61;
-			this.PlayerField_F8.TabStop = false;
-			// 
-			// PlayerField_F7
-			// 
-			this.PlayerField_F7.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_F7.Image")));
-			this.PlayerField_F7.Location = new System.Drawing.Point(180, 150);
-			this.PlayerField_F7.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_F7.Name = "PlayerField_F7";
-			this.PlayerField_F7.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_F7.TabIndex = 60;
-			this.PlayerField_F7.TabStop = false;
-			// 
-			// PlayerField_F6
-			// 
-			this.PlayerField_F6.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_F6.Image")));
-			this.PlayerField_F6.Location = new System.Drawing.Point(150, 150);
-			this.PlayerField_F6.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_F6.Name = "PlayerField_F6";
-			this.PlayerField_F6.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_F6.TabIndex = 59;
-			this.PlayerField_F6.TabStop = false;
-			// 
-			// PlayerField_F5
-			// 
-			this.PlayerField_F5.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_F5.Image")));
-			this.PlayerField_F5.Location = new System.Drawing.Point(120, 150);
-			this.PlayerField_F5.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_F5.Name = "PlayerField_F5";
-			this.PlayerField_F5.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_F5.TabIndex = 58;
-			this.PlayerField_F5.TabStop = false;
-			// 
-			// PlayerField_F4
-			// 
-			this.PlayerField_F4.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_F4.Image")));
-			this.PlayerField_F4.Location = new System.Drawing.Point(90, 150);
-			this.PlayerField_F4.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_F4.Name = "PlayerField_F4";
-			this.PlayerField_F4.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_F4.TabIndex = 57;
-			this.PlayerField_F4.TabStop = false;
-			// 
-			// PlayerField_F3
-			// 
-			this.PlayerField_F3.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_F3.Image")));
-			this.PlayerField_F3.Location = new System.Drawing.Point(60, 150);
-			this.PlayerField_F3.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_F3.Name = "PlayerField_F3";
-			this.PlayerField_F3.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_F3.TabIndex = 56;
-			this.PlayerField_F3.TabStop = false;
-			// 
-			// PlayerField_F2
-			// 
-			this.PlayerField_F2.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_F2.Image")));
-			this.PlayerField_F2.Location = new System.Drawing.Point(30, 150);
-			this.PlayerField_F2.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_F2.Name = "PlayerField_F2";
-			this.PlayerField_F2.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_F2.TabIndex = 55;
-			this.PlayerField_F2.TabStop = false;
-			// 
-			// PlayerField_E10
-			// 
-			this.PlayerField_E10.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_E10.Image")));
-			this.PlayerField_E10.Location = new System.Drawing.Point(270, 120);
-			this.PlayerField_E10.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_E10.Name = "PlayerField_E10";
-			this.PlayerField_E10.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_E10.TabIndex = 54;
-			this.PlayerField_E10.TabStop = false;
-			// 
-			// PlayerField_E9
-			// 
-			this.PlayerField_E9.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_E9.Image")));
-			this.PlayerField_E9.Location = new System.Drawing.Point(240, 120);
-			this.PlayerField_E9.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_E9.Name = "PlayerField_E9";
-			this.PlayerField_E9.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_E9.TabIndex = 53;
-			this.PlayerField_E9.TabStop = false;
-			// 
-			// PlayerField_E8
-			// 
-			this.PlayerField_E8.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_E8.Image")));
-			this.PlayerField_E8.Location = new System.Drawing.Point(210, 120);
-			this.PlayerField_E8.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_E8.Name = "PlayerField_E8";
-			this.PlayerField_E8.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_E8.TabIndex = 52;
-			this.PlayerField_E8.TabStop = false;
-			// 
-			// PlayerField_E7
-			// 
-			this.PlayerField_E7.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_E7.Image")));
-			this.PlayerField_E7.Location = new System.Drawing.Point(180, 120);
-			this.PlayerField_E7.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_E7.Name = "PlayerField_E7";
-			this.PlayerField_E7.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_E7.TabIndex = 51;
-			this.PlayerField_E7.TabStop = false;
-			// 
-			// PlayerField_E6
-			// 
-			this.PlayerField_E6.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_E6.Image")));
-			this.PlayerField_E6.Location = new System.Drawing.Point(150, 120);
-			this.PlayerField_E6.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_E6.Name = "PlayerField_E6";
-			this.PlayerField_E6.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_E6.TabIndex = 50;
-			this.PlayerField_E6.TabStop = false;
-			// 
-			// PlayerField_E5
-			// 
-			this.PlayerField_E5.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_E5.Image")));
-			this.PlayerField_E5.Location = new System.Drawing.Point(120, 120);
-			this.PlayerField_E5.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_E5.Name = "PlayerField_E5";
-			this.PlayerField_E5.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_E5.TabIndex = 49;
-			this.PlayerField_E5.TabStop = false;
-			// 
-			// PlayerField_E4
-			// 
-			this.PlayerField_E4.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_E4.Image")));
-			this.PlayerField_E4.Location = new System.Drawing.Point(90, 120);
-			this.PlayerField_E4.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_E4.Name = "PlayerField_E4";
-			this.PlayerField_E4.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_E4.TabIndex = 48;
-			this.PlayerField_E4.TabStop = false;
-			// 
-			// PlayerField_E3
-			// 
-			this.PlayerField_E3.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_E3.Image")));
-			this.PlayerField_E3.Location = new System.Drawing.Point(60, 120);
-			this.PlayerField_E3.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_E3.Name = "PlayerField_E3";
-			this.PlayerField_E3.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_E3.TabIndex = 47;
-			this.PlayerField_E3.TabStop = false;
-			// 
-			// PlayerField_E2
-			// 
-			this.PlayerField_E2.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_E2.Image")));
-			this.PlayerField_E2.Location = new System.Drawing.Point(30, 120);
-			this.PlayerField_E2.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_E2.Name = "PlayerField_E2";
-			this.PlayerField_E2.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_E2.TabIndex = 46;
-			this.PlayerField_E2.TabStop = false;
-			// 
-			// PlayerField_D10
-			// 
-			this.PlayerField_D10.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_D10.Image")));
-			this.PlayerField_D10.Location = new System.Drawing.Point(270, 90);
-			this.PlayerField_D10.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_D10.Name = "PlayerField_D10";
-			this.PlayerField_D10.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_D10.TabIndex = 45;
-			this.PlayerField_D10.TabStop = false;
-			// 
-			// PlayerField_D9
-			// 
-			this.PlayerField_D9.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_D9.Image")));
-			this.PlayerField_D9.Location = new System.Drawing.Point(240, 90);
-			this.PlayerField_D9.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_D9.Name = "PlayerField_D9";
-			this.PlayerField_D9.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_D9.TabIndex = 44;
-			this.PlayerField_D9.TabStop = false;
-			// 
-			// PlayerField_D8
-			// 
-			this.PlayerField_D8.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_D8.Image")));
-			this.PlayerField_D8.Location = new System.Drawing.Point(210, 90);
-			this.PlayerField_D8.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_D8.Name = "PlayerField_D8";
-			this.PlayerField_D8.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_D8.TabIndex = 43;
-			this.PlayerField_D8.TabStop = false;
-			// 
-			// PlayerField_D7
-			// 
-			this.PlayerField_D7.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_D7.Image")));
-			this.PlayerField_D7.Location = new System.Drawing.Point(180, 90);
-			this.PlayerField_D7.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_D7.Name = "PlayerField_D7";
-			this.PlayerField_D7.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_D7.TabIndex = 42;
-			this.PlayerField_D7.TabStop = false;
-			// 
-			// PlayerField_D6
-			// 
-			this.PlayerField_D6.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_D6.Image")));
-			this.PlayerField_D6.Location = new System.Drawing.Point(150, 90);
-			this.PlayerField_D6.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_D6.Name = "PlayerField_D6";
-			this.PlayerField_D6.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_D6.TabIndex = 41;
-			this.PlayerField_D6.TabStop = false;
-			// 
-			// PlayerField_D5
-			// 
-			this.PlayerField_D5.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_D5.Image")));
-			this.PlayerField_D5.Location = new System.Drawing.Point(120, 90);
-			this.PlayerField_D5.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_D5.Name = "PlayerField_D5";
-			this.PlayerField_D5.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_D5.TabIndex = 40;
-			this.PlayerField_D5.TabStop = false;
-			// 
-			// PlayerField_D4
-			// 
-			this.PlayerField_D4.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_D4.Image")));
-			this.PlayerField_D4.Location = new System.Drawing.Point(90, 90);
-			this.PlayerField_D4.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_D4.Name = "PlayerField_D4";
-			this.PlayerField_D4.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_D4.TabIndex = 39;
-			this.PlayerField_D4.TabStop = false;
-			// 
-			// PlayerField_D3
-			// 
-			this.PlayerField_D3.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_D3.Image")));
-			this.PlayerField_D3.Location = new System.Drawing.Point(60, 90);
-			this.PlayerField_D3.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_D3.Name = "PlayerField_D3";
-			this.PlayerField_D3.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_D3.TabIndex = 38;
-			this.PlayerField_D3.TabStop = false;
-			// 
-			// PlayerField_D2
-			// 
-			this.PlayerField_D2.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_D2.Image")));
-			this.PlayerField_D2.Location = new System.Drawing.Point(30, 90);
-			this.PlayerField_D2.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_D2.Name = "PlayerField_D2";
-			this.PlayerField_D2.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_D2.TabIndex = 37;
-			this.PlayerField_D2.TabStop = false;
-			// 
-			// PlayerField_C10
-			// 
-			this.PlayerField_C10.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_C10.Image")));
-			this.PlayerField_C10.Location = new System.Drawing.Point(270, 60);
-			this.PlayerField_C10.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_C10.Name = "PlayerField_C10";
-			this.PlayerField_C10.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_C10.TabIndex = 36;
-			this.PlayerField_C10.TabStop = false;
-			// 
-			// PlayerField_C9
-			// 
-			this.PlayerField_C9.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_C9.Image")));
-			this.PlayerField_C9.Location = new System.Drawing.Point(240, 60);
-			this.PlayerField_C9.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_C9.Name = "PlayerField_C9";
-			this.PlayerField_C9.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_C9.TabIndex = 35;
-			this.PlayerField_C9.TabStop = false;
-			// 
-			// PlayerField_C8
-			// 
-			this.PlayerField_C8.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_C8.Image")));
-			this.PlayerField_C8.Location = new System.Drawing.Point(210, 60);
-			this.PlayerField_C8.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_C8.Name = "PlayerField_C8";
-			this.PlayerField_C8.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_C8.TabIndex = 34;
-			this.PlayerField_C8.TabStop = false;
-			// 
-			// PlayerField_C7
-			// 
-			this.PlayerField_C7.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_C7.Image")));
-			this.PlayerField_C7.Location = new System.Drawing.Point(180, 60);
-			this.PlayerField_C7.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_C7.Name = "PlayerField_C7";
-			this.PlayerField_C7.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_C7.TabIndex = 33;
-			this.PlayerField_C7.TabStop = false;
-			// 
-			// PlayerField_C6
-			// 
-			this.PlayerField_C6.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_C6.Image")));
-			this.PlayerField_C6.Location = new System.Drawing.Point(150, 60);
-			this.PlayerField_C6.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_C6.Name = "PlayerField_C6";
-			this.PlayerField_C6.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_C6.TabIndex = 32;
-			this.PlayerField_C6.TabStop = false;
-			// 
-			// PlayerField_C5
-			// 
-			this.PlayerField_C5.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_C5.Image")));
-			this.PlayerField_C5.Location = new System.Drawing.Point(120, 60);
-			this.PlayerField_C5.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_C5.Name = "PlayerField_C5";
-			this.PlayerField_C5.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_C5.TabIndex = 31;
-			this.PlayerField_C5.TabStop = false;
-			// 
-			// PlayerField_C4
-			// 
-			this.PlayerField_C4.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_C4.Image")));
-			this.PlayerField_C4.Location = new System.Drawing.Point(90, 60);
-			this.PlayerField_C4.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_C4.Name = "PlayerField_C4";
-			this.PlayerField_C4.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_C4.TabIndex = 30;
-			this.PlayerField_C4.TabStop = false;
-			// 
-			// PlayerField_C3
-			// 
-			this.PlayerField_C3.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_C3.Image")));
-			this.PlayerField_C3.Location = new System.Drawing.Point(60, 60);
-			this.PlayerField_C3.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_C3.Name = "PlayerField_C3";
-			this.PlayerField_C3.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_C3.TabIndex = 29;
-			this.PlayerField_C3.TabStop = false;
-			// 
-			// PlayerField_C2
-			// 
-			this.PlayerField_C2.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_C2.Image")));
-			this.PlayerField_C2.Location = new System.Drawing.Point(30, 60);
-			this.PlayerField_C2.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_C2.Name = "PlayerField_C2";
-			this.PlayerField_C2.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_C2.TabIndex = 28;
-			this.PlayerField_C2.TabStop = false;
-			// 
-			// PlayerField_B10
-			// 
-			this.PlayerField_B10.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_B10.Image")));
-			this.PlayerField_B10.Location = new System.Drawing.Point(270, 30);
-			this.PlayerField_B10.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_B10.Name = "PlayerField_B10";
-			this.PlayerField_B10.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_B10.TabIndex = 27;
-			this.PlayerField_B10.TabStop = false;
-			// 
-			// PlayerField_B9
-			// 
-			this.PlayerField_B9.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_B9.Image")));
-			this.PlayerField_B9.Location = new System.Drawing.Point(240, 30);
-			this.PlayerField_B9.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_B9.Name = "PlayerField_B9";
-			this.PlayerField_B9.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_B9.TabIndex = 26;
-			this.PlayerField_B9.TabStop = false;
-			// 
-			// PlayerField_B8
-			// 
-			this.PlayerField_B8.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_B8.Image")));
-			this.PlayerField_B8.Location = new System.Drawing.Point(210, 30);
-			this.PlayerField_B8.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_B8.Name = "PlayerField_B8";
-			this.PlayerField_B8.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_B8.TabIndex = 25;
-			this.PlayerField_B8.TabStop = false;
-			// 
-			// PlayerField_B7
-			// 
-			this.PlayerField_B7.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_B7.Image")));
-			this.PlayerField_B7.Location = new System.Drawing.Point(180, 30);
-			this.PlayerField_B7.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_B7.Name = "PlayerField_B7";
-			this.PlayerField_B7.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_B7.TabIndex = 24;
-			this.PlayerField_B7.TabStop = false;
-			// 
-			// PlayerField_B6
-			// 
-			this.PlayerField_B6.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_B6.Image")));
-			this.PlayerField_B6.Location = new System.Drawing.Point(150, 30);
-			this.PlayerField_B6.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_B6.Name = "PlayerField_B6";
-			this.PlayerField_B6.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_B6.TabIndex = 23;
-			this.PlayerField_B6.TabStop = false;
-			// 
-			// PlayerField_B5
-			// 
-			this.PlayerField_B5.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_B5.Image")));
-			this.PlayerField_B5.Location = new System.Drawing.Point(120, 30);
-			this.PlayerField_B5.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_B5.Name = "PlayerField_B5";
-			this.PlayerField_B5.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_B5.TabIndex = 22;
-			this.PlayerField_B5.TabStop = false;
-			// 
-			// PlayerField_B4
-			// 
-			this.PlayerField_B4.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_B4.Image")));
-			this.PlayerField_B4.Location = new System.Drawing.Point(90, 30);
-			this.PlayerField_B4.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_B4.Name = "PlayerField_B4";
-			this.PlayerField_B4.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_B4.TabIndex = 21;
-			this.PlayerField_B4.TabStop = false;
-			// 
-			// PlayerField_B3
-			// 
-			this.PlayerField_B3.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_B3.Image")));
-			this.PlayerField_B3.Location = new System.Drawing.Point(60, 30);
-			this.PlayerField_B3.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_B3.Name = "PlayerField_B3";
-			this.PlayerField_B3.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_B3.TabIndex = 20;
-			this.PlayerField_B3.TabStop = false;
-			// 
-			// PlayerField_B2
-			// 
-			this.PlayerField_B2.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_B2.Image")));
-			this.PlayerField_B2.Location = new System.Drawing.Point(30, 30);
-			this.PlayerField_B2.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_B2.Name = "PlayerField_B2";
-			this.PlayerField_B2.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_B2.TabIndex = 19;
-			this.PlayerField_B2.TabStop = false;
-			// 
-			// PlayerField_A10
-			// 
-			this.PlayerField_A10.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_A10.Image")));
-			this.PlayerField_A10.Location = new System.Drawing.Point(270, 0);
-			this.PlayerField_A10.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_A10.Name = "PlayerField_A10";
-			this.PlayerField_A10.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_A10.TabIndex = 18;
-			this.PlayerField_A10.TabStop = false;
-			// 
-			// PlayerField_A9
-			// 
-			this.PlayerField_A9.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_A9.Image")));
-			this.PlayerField_A9.Location = new System.Drawing.Point(240, 0);
-			this.PlayerField_A9.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_A9.Name = "PlayerField_A9";
-			this.PlayerField_A9.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_A9.TabIndex = 17;
-			this.PlayerField_A9.TabStop = false;
-			// 
-			// PlayerField_A8
-			// 
-			this.PlayerField_A8.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_A8.Image")));
-			this.PlayerField_A8.Location = new System.Drawing.Point(210, 0);
-			this.PlayerField_A8.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_A8.Name = "PlayerField_A8";
-			this.PlayerField_A8.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_A8.TabIndex = 16;
-			this.PlayerField_A8.TabStop = false;
-			// 
-			// PlayerField_A7
-			// 
-			this.PlayerField_A7.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_A7.Image")));
-			this.PlayerField_A7.Location = new System.Drawing.Point(180, 0);
-			this.PlayerField_A7.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_A7.Name = "PlayerField_A7";
-			this.PlayerField_A7.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_A7.TabIndex = 15;
-			this.PlayerField_A7.TabStop = false;
-			// 
-			// PlayerField_A6
-			// 
-			this.PlayerField_A6.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_A6.Image")));
-			this.PlayerField_A6.Location = new System.Drawing.Point(150, 0);
-			this.PlayerField_A6.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_A6.Name = "PlayerField_A6";
-			this.PlayerField_A6.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_A6.TabIndex = 14;
-			this.PlayerField_A6.TabStop = false;
-			// 
-			// PlayerField_A5
-			// 
-			this.PlayerField_A5.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_A5.Image")));
-			this.PlayerField_A5.Location = new System.Drawing.Point(120, 0);
-			this.PlayerField_A5.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_A5.Name = "PlayerField_A5";
-			this.PlayerField_A5.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_A5.TabIndex = 13;
-			this.PlayerField_A5.TabStop = false;
-			// 
-			// PlayerField_J1
-			// 
-			this.PlayerField_J1.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_J1.Image")));
-			this.PlayerField_J1.Location = new System.Drawing.Point(0, 270);
-			this.PlayerField_J1.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_J1.Name = "PlayerField_J1";
-			this.PlayerField_J1.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_J1.TabIndex = 12;
-			this.PlayerField_J1.TabStop = false;
-			// 
-			// PlayerField_I1
-			// 
-			this.PlayerField_I1.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_I1.Image")));
-			this.PlayerField_I1.Location = new System.Drawing.Point(0, 240);
-			this.PlayerField_I1.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_I1.Name = "PlayerField_I1";
-			this.PlayerField_I1.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_I1.TabIndex = 11;
-			this.PlayerField_I1.TabStop = false;
-			// 
-			// PlayerField_H1
-			// 
-			this.PlayerField_H1.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_H1.Image")));
-			this.PlayerField_H1.Location = new System.Drawing.Point(0, 210);
-			this.PlayerField_H1.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_H1.Name = "PlayerField_H1";
-			this.PlayerField_H1.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_H1.TabIndex = 10;
-			this.PlayerField_H1.TabStop = false;
-			// 
-			// PlayerField_G1
-			// 
-			this.PlayerField_G1.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_G1.Image")));
-			this.PlayerField_G1.Location = new System.Drawing.Point(0, 180);
-			this.PlayerField_G1.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_G1.Name = "PlayerField_G1";
-			this.PlayerField_G1.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_G1.TabIndex = 9;
-			this.PlayerField_G1.TabStop = false;
-			// 
-			// PlayerField_F1
-			// 
-			this.PlayerField_F1.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_F1.Image")));
-			this.PlayerField_F1.Location = new System.Drawing.Point(0, 150);
-			this.PlayerField_F1.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_F1.Name = "PlayerField_F1";
-			this.PlayerField_F1.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_F1.TabIndex = 8;
-			this.PlayerField_F1.TabStop = false;
-			// 
-			// PlayerField_E1
-			// 
-			this.PlayerField_E1.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_E1.Image")));
-			this.PlayerField_E1.Location = new System.Drawing.Point(0, 120);
-			this.PlayerField_E1.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_E1.Name = "PlayerField_E1";
-			this.PlayerField_E1.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_E1.TabIndex = 7;
-			this.PlayerField_E1.TabStop = false;
-			// 
-			// PlayerField_D1
-			// 
-			this.PlayerField_D1.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_D1.Image")));
-			this.PlayerField_D1.Location = new System.Drawing.Point(0, 90);
-			this.PlayerField_D1.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_D1.Name = "PlayerField_D1";
-			this.PlayerField_D1.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_D1.TabIndex = 6;
-			this.PlayerField_D1.TabStop = false;
-			// 
-			// PlayerField_C1
-			// 
-			this.PlayerField_C1.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_C1.Image")));
-			this.PlayerField_C1.Location = new System.Drawing.Point(0, 60);
-			this.PlayerField_C1.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_C1.Name = "PlayerField_C1";
-			this.PlayerField_C1.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_C1.TabIndex = 5;
-			this.PlayerField_C1.TabStop = false;
-			// 
-			// PlayerField_B1
-			// 
-			this.PlayerField_B1.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_B1.Image")));
-			this.PlayerField_B1.Location = new System.Drawing.Point(0, 30);
-			this.PlayerField_B1.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_B1.Name = "PlayerField_B1";
-			this.PlayerField_B1.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_B1.TabIndex = 4;
-			this.PlayerField_B1.TabStop = false;
-			// 
-			// PlayerField_A4
-			// 
-			this.PlayerField_A4.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_A4.Image")));
-			this.PlayerField_A4.Location = new System.Drawing.Point(90, 0);
-			this.PlayerField_A4.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_A4.Name = "PlayerField_A4";
-			this.PlayerField_A4.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_A4.TabIndex = 3;
-			this.PlayerField_A4.TabStop = false;
-			// 
-			// PlayerField_A3
-			// 
-			this.PlayerField_A3.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_A3.Image")));
-			this.PlayerField_A3.Location = new System.Drawing.Point(60, 0);
-			this.PlayerField_A3.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_A3.Name = "PlayerField_A3";
-			this.PlayerField_A3.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_A3.TabIndex = 2;
-			this.PlayerField_A3.TabStop = false;
-			// 
-			// PlayerField_A2
-			// 
-			this.PlayerField_A2.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_A2.Image")));
-			this.PlayerField_A2.Location = new System.Drawing.Point(30, 0);
-			this.PlayerField_A2.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_A2.Name = "PlayerField_A2";
-			this.PlayerField_A2.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_A2.TabIndex = 1;
-			this.PlayerField_A2.TabStop = false;
-			// 
-			// PlayerField_A1
-			// 
-			this.PlayerField_A1.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_A1.Image")));
-			this.PlayerField_A1.Location = new System.Drawing.Point(0, 0);
-			this.PlayerField_A1.Margin = new System.Windows.Forms.Padding(0);
-			this.PlayerField_A1.Name = "PlayerField_A1";
-			this.PlayerField_A1.Size = new System.Drawing.Size(30, 30);
-			this.PlayerField_A1.TabIndex = 0;
-			this.PlayerField_A1.TabStop = false;
-			// 
 			// EnemyField_label
 			// 
 			this.EnemyField_label.Controls.Add(this.PiratesShip_vertical_enemy);
@@ -3795,1153 +2727,25 @@
 			this.EnemyField_label.Size = new System.Drawing.Size(300, 300);
 			this.EnemyField_label.TabIndex = 1;
 			// 
-			// PiratesShip_vertical_enemy
-			// 
-			this.PiratesShip_vertical_enemy.Image = global::BattleShips.Properties.Resources.PiratesShip_vertical;
-			this.PiratesShip_vertical_enemy.Location = new System.Drawing.Point(267, 137);
-			this.PiratesShip_vertical_enemy.Name = "PiratesShip_vertical_enemy";
-			this.PiratesShip_vertical_enemy.Size = new System.Drawing.Size(30, 150);
-			this.PiratesShip_vertical_enemy.TabIndex = 119;
-			this.PiratesShip_vertical_enemy.TabStop = false;
-			this.PiratesShip_vertical_enemy.Visible = false;
-			// 
-			// EnemyField_J10
-			// 
-			this.EnemyField_J10.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_J10.Image")));
-			this.EnemyField_J10.Location = new System.Drawing.Point(270, 270);
-			this.EnemyField_J10.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_J10.Name = "EnemyField_J10";
-			this.EnemyField_J10.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_J10.TabIndex = 99;
-			this.EnemyField_J10.TabStop = false;
-			// 
-			// PiratesShip_horizontal_enemy
-			// 
-			this.PiratesShip_horizontal_enemy.Image = global::BattleShips.Properties.Resources.PiratesShip_horizontal;
-			this.PiratesShip_horizontal_enemy.Location = new System.Drawing.Point(8, 240);
-			this.PiratesShip_horizontal_enemy.Name = "PiratesShip_horizontal_enemy";
-			this.PiratesShip_horizontal_enemy.Size = new System.Drawing.Size(150, 30);
-			this.PiratesShip_horizontal_enemy.TabIndex = 118;
-			this.PiratesShip_horizontal_enemy.TabStop = false;
-			this.PiratesShip_horizontal_enemy.Visible = false;
-			// 
-			// Galleon_horizontal_enemy
-			// 
-			this.Galleon_horizontal_enemy.Image = global::BattleShips.Properties.Resources.Galleon_horizontal;
-			this.Galleon_horizontal_enemy.Location = new System.Drawing.Point(93, 183);
-			this.Galleon_horizontal_enemy.Name = "Galleon_horizontal_enemy";
-			this.Galleon_horizontal_enemy.Size = new System.Drawing.Size(120, 30);
-			this.Galleon_horizontal_enemy.TabIndex = 114;
-			this.Galleon_horizontal_enemy.TabStop = false;
-			this.Galleon_horizontal_enemy.Visible = false;
-			// 
-			// Galleon_vertical_enemy
-			// 
-			this.Galleon_vertical_enemy.Image = global::BattleShips.Properties.Resources.Galleon_vertical;
-			this.Galleon_vertical_enemy.Location = new System.Drawing.Point(237, 11);
-			this.Galleon_vertical_enemy.Name = "Galleon_vertical_enemy";
-			this.Galleon_vertical_enemy.Size = new System.Drawing.Size(30, 120);
-			this.Galleon_vertical_enemy.TabIndex = 115;
-			this.Galleon_vertical_enemy.TabStop = false;
-			this.Galleon_vertical_enemy.Visible = false;
-			// 
-			// Brigantine_vertical_enemy
-			// 
-			this.Brigantine_vertical_enemy.Image = global::BattleShips.Properties.Resources.Sloop_vertical;
-			this.Brigantine_vertical_enemy.Location = new System.Drawing.Point(153, 3);
-			this.Brigantine_vertical_enemy.Name = "Brigantine_vertical_enemy";
-			this.Brigantine_vertical_enemy.Size = new System.Drawing.Size(30, 90);
-			this.Brigantine_vertical_enemy.TabIndex = 117;
-			this.Brigantine_vertical_enemy.TabStop = false;
-			this.Brigantine_vertical_enemy.Visible = false;
-			// 
-			// Brigantine_horizontal_enemy
-			// 
-			this.Brigantine_horizontal_enemy.Image = global::BattleShips.Properties.Resources.Sloop_horizontal;
-			this.Brigantine_horizontal_enemy.Location = new System.Drawing.Point(170, 267);
-			this.Brigantine_horizontal_enemy.Name = "Brigantine_horizontal_enemy";
-			this.Brigantine_horizontal_enemy.Size = new System.Drawing.Size(90, 30);
-			this.Brigantine_horizontal_enemy.TabIndex = 116;
-			this.Brigantine_horizontal_enemy.TabStop = false;
-			this.Brigantine_horizontal_enemy.Visible = false;
-			// 
-			// EnemyField_J3
-			// 
-			this.EnemyField_J3.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_J3.Image")));
-			this.EnemyField_J3.Location = new System.Drawing.Point(60, 270);
-			this.EnemyField_J3.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_J3.Name = "EnemyField_J3";
-			this.EnemyField_J3.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_J3.TabIndex = 92;
-			this.EnemyField_J3.TabStop = false;
-			// 
-			// EnemyField_J2
-			// 
-			this.EnemyField_J2.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_J2.Image")));
-			this.EnemyField_J2.Location = new System.Drawing.Point(30, 270);
-			this.EnemyField_J2.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_J2.Name = "EnemyField_J2";
-			this.EnemyField_J2.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_J2.TabIndex = 91;
-			this.EnemyField_J2.TabStop = false;
-			// 
-			// Sloop_horizontal_enemy
-			// 
-			this.Sloop_horizontal_enemy.Image = global::BattleShips.Properties.Resources.Sloop_horizontal1;
-			this.Sloop_horizontal_enemy.Location = new System.Drawing.Point(117, 147);
-			this.Sloop_horizontal_enemy.Name = "Sloop_horizontal_enemy";
-			this.Sloop_horizontal_enemy.Size = new System.Drawing.Size(90, 30);
-			this.Sloop_horizontal_enemy.TabIndex = 112;
-			this.Sloop_horizontal_enemy.TabStop = false;
-			this.Sloop_horizontal_enemy.Visible = false;
-			// 
-			// EnemyField_I10
-			// 
-			this.EnemyField_I10.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_I10.Image")));
-			this.EnemyField_I10.Location = new System.Drawing.Point(270, 240);
-			this.EnemyField_I10.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_I10.Name = "EnemyField_I10";
-			this.EnemyField_I10.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_I10.TabIndex = 90;
-			this.EnemyField_I10.TabStop = false;
-			// 
-			// EnemyField_I9
-			// 
-			this.EnemyField_I9.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_I9.Image")));
-			this.EnemyField_I9.Location = new System.Drawing.Point(240, 240);
-			this.EnemyField_I9.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_I9.Name = "EnemyField_I9";
-			this.EnemyField_I9.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_I9.TabIndex = 89;
-			this.EnemyField_I9.TabStop = false;
-			// 
-			// EnemyField_I8
-			// 
-			this.EnemyField_I8.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_I8.Image")));
-			this.EnemyField_I8.Location = new System.Drawing.Point(210, 240);
-			this.EnemyField_I8.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_I8.Name = "EnemyField_I8";
-			this.EnemyField_I8.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_I8.TabIndex = 88;
-			this.EnemyField_I8.TabStop = false;
-			// 
-			// Sloop_vertical_enemy
-			// 
-			this.Sloop_vertical_enemy.Image = global::BattleShips.Properties.Resources.Sloop_vertical;
-			this.Sloop_vertical_enemy.Location = new System.Drawing.Point(93, 41);
-			this.Sloop_vertical_enemy.Name = "Sloop_vertical_enemy";
-			this.Sloop_vertical_enemy.Size = new System.Drawing.Size(30, 90);
-			this.Sloop_vertical_enemy.TabIndex = 113;
-			this.Sloop_vertical_enemy.TabStop = false;
-			this.Sloop_vertical_enemy.Visible = false;
-			// 
-			// EnemyField_I7
-			// 
-			this.EnemyField_I7.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_I7.Image")));
-			this.EnemyField_I7.Location = new System.Drawing.Point(180, 240);
-			this.EnemyField_I7.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_I7.Name = "EnemyField_I7";
-			this.EnemyField_I7.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_I7.TabIndex = 87;
-			this.EnemyField_I7.TabStop = false;
-			// 
-			// EnemyField_I6
-			// 
-			this.EnemyField_I6.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_I6.Image")));
-			this.EnemyField_I6.Location = new System.Drawing.Point(150, 240);
-			this.EnemyField_I6.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_I6.Name = "EnemyField_I6";
-			this.EnemyField_I6.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_I6.TabIndex = 86;
-			this.EnemyField_I6.TabStop = false;
-			// 
-			// EnemyField_I5
-			// 
-			this.EnemyField_I5.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_I5.Image")));
-			this.EnemyField_I5.Location = new System.Drawing.Point(120, 240);
-			this.EnemyField_I5.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_I5.Name = "EnemyField_I5";
-			this.EnemyField_I5.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_I5.TabIndex = 85;
-			this.EnemyField_I5.TabStop = false;
-			// 
-			// FishingBoat_horizontal_enemy
-			// 
-			this.FishingBoat_horizontal_enemy.Image = global::BattleShips.Properties.Resources.Fishing_vessel_water;
-			this.FishingBoat_horizontal_enemy.Location = new System.Drawing.Point(30, 0);
-			this.FishingBoat_horizontal_enemy.Name = "FishingBoat_horizontal_enemy";
-			this.FishingBoat_horizontal_enemy.Size = new System.Drawing.Size(60, 30);
-			this.FishingBoat_horizontal_enemy.TabIndex = 110;
-			this.FishingBoat_horizontal_enemy.TabStop = false;
-			this.FishingBoat_horizontal_enemy.Visible = false;
-			// 
-			// EnemyField_I4
-			// 
-			this.EnemyField_I4.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_I4.Image")));
-			this.EnemyField_I4.Location = new System.Drawing.Point(90, 240);
-			this.EnemyField_I4.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_I4.Name = "EnemyField_I4";
-			this.EnemyField_I4.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_I4.TabIndex = 84;
-			this.EnemyField_I4.TabStop = false;
-			// 
-			// FishingBoat_vertical_enemy
-			// 
-			this.FishingBoat_vertical_enemy.Image = global::BattleShips.Properties.Resources.Fishing_vessel_water_vertical;
-			this.FishingBoat_vertical_enemy.Location = new System.Drawing.Point(0, 63);
-			this.FishingBoat_vertical_enemy.Name = "FishingBoat_vertical_enemy";
-			this.FishingBoat_vertical_enemy.Size = new System.Drawing.Size(30, 60);
-			this.FishingBoat_vertical_enemy.TabIndex = 111;
-			this.FishingBoat_vertical_enemy.TabStop = false;
-			this.FishingBoat_vertical_enemy.Visible = false;
-			// 
-			// EnemyField_I3
-			// 
-			this.EnemyField_I3.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_I3.Image")));
-			this.EnemyField_I3.Location = new System.Drawing.Point(60, 240);
-			this.EnemyField_I3.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_I3.Name = "EnemyField_I3";
-			this.EnemyField_I3.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_I3.TabIndex = 83;
-			this.EnemyField_I3.TabStop = false;
-			// 
-			// EnemyField_I2
-			// 
-			this.EnemyField_I2.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_I2.Image")));
-			this.EnemyField_I2.Location = new System.Drawing.Point(30, 240);
-			this.EnemyField_I2.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_I2.Name = "EnemyField_I2";
-			this.EnemyField_I2.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_I2.TabIndex = 82;
-			this.EnemyField_I2.TabStop = false;
-			// 
-			// EnemyField_H10
-			// 
-			this.EnemyField_H10.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_H10.Image")));
-			this.EnemyField_H10.Location = new System.Drawing.Point(270, 210);
-			this.EnemyField_H10.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_H10.Name = "EnemyField_H10";
-			this.EnemyField_H10.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_H10.TabIndex = 81;
-			this.EnemyField_H10.TabStop = false;
-			// 
-			// EnemyField_H9
-			// 
-			this.EnemyField_H9.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_H9.Image")));
-			this.EnemyField_H9.Location = new System.Drawing.Point(240, 210);
-			this.EnemyField_H9.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_H9.Name = "EnemyField_H9";
-			this.EnemyField_H9.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_H9.TabIndex = 80;
-			this.EnemyField_H9.TabStop = false;
-			// 
-			// EnemyField_H8
-			// 
-			this.EnemyField_H8.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_H8.Image")));
-			this.EnemyField_H8.Location = new System.Drawing.Point(210, 210);
-			this.EnemyField_H8.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_H8.Name = "EnemyField_H8";
-			this.EnemyField_H8.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_H8.TabIndex = 79;
-			this.EnemyField_H8.TabStop = false;
-			// 
-			// EnemyField_H7
-			// 
-			this.EnemyField_H7.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_H7.Image")));
-			this.EnemyField_H7.Location = new System.Drawing.Point(180, 210);
-			this.EnemyField_H7.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_H7.Name = "EnemyField_H7";
-			this.EnemyField_H7.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_H7.TabIndex = 78;
-			this.EnemyField_H7.TabStop = false;
-			// 
-			// EnemyField_H6
-			// 
-			this.EnemyField_H6.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_H6.Image")));
-			this.EnemyField_H6.Location = new System.Drawing.Point(150, 210);
-			this.EnemyField_H6.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_H6.Name = "EnemyField_H6";
-			this.EnemyField_H6.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_H6.TabIndex = 77;
-			this.EnemyField_H6.TabStop = false;
-			// 
-			// EnemyField_H5
-			// 
-			this.EnemyField_H5.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_H5.Image")));
-			this.EnemyField_H5.Location = new System.Drawing.Point(120, 210);
-			this.EnemyField_H5.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_H5.Name = "EnemyField_H5";
-			this.EnemyField_H5.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_H5.TabIndex = 76;
-			this.EnemyField_H5.TabStop = false;
-			// 
-			// EnemyField_H4
-			// 
-			this.EnemyField_H4.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_H4.Image")));
-			this.EnemyField_H4.Location = new System.Drawing.Point(90, 210);
-			this.EnemyField_H4.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_H4.Name = "EnemyField_H4";
-			this.EnemyField_H4.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_H4.TabIndex = 75;
-			this.EnemyField_H4.TabStop = false;
-			// 
-			// EnemyField_H3
-			// 
-			this.EnemyField_H3.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_H3.Image")));
-			this.EnemyField_H3.Location = new System.Drawing.Point(60, 210);
-			this.EnemyField_H3.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_H3.Name = "EnemyField_H3";
-			this.EnemyField_H3.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_H3.TabIndex = 74;
-			this.EnemyField_H3.TabStop = false;
-			// 
-			// EnemyField_H2
-			// 
-			this.EnemyField_H2.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_H2.Image")));
-			this.EnemyField_H2.Location = new System.Drawing.Point(30, 210);
-			this.EnemyField_H2.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_H2.Name = "EnemyField_H2";
-			this.EnemyField_H2.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_H2.TabIndex = 73;
-			this.EnemyField_H2.TabStop = false;
-			// 
-			// EnemyField_G10
-			// 
-			this.EnemyField_G10.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_G10.Image")));
-			this.EnemyField_G10.Location = new System.Drawing.Point(270, 180);
-			this.EnemyField_G10.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_G10.Name = "EnemyField_G10";
-			this.EnemyField_G10.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_G10.TabIndex = 72;
-			this.EnemyField_G10.TabStop = false;
-			// 
-			// EnemyField_G9
-			// 
-			this.EnemyField_G9.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_G9.Image")));
-			this.EnemyField_G9.Location = new System.Drawing.Point(240, 180);
-			this.EnemyField_G9.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_G9.Name = "EnemyField_G9";
-			this.EnemyField_G9.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_G9.TabIndex = 71;
-			this.EnemyField_G9.TabStop = false;
-			// 
-			// EnemyField_G8
-			// 
-			this.EnemyField_G8.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_G8.Image")));
-			this.EnemyField_G8.Location = new System.Drawing.Point(210, 180);
-			this.EnemyField_G8.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_G8.Name = "EnemyField_G8";
-			this.EnemyField_G8.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_G8.TabIndex = 70;
-			this.EnemyField_G8.TabStop = false;
-			// 
-			// EnemyField_G7
-			// 
-			this.EnemyField_G7.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_G7.Image")));
-			this.EnemyField_G7.Location = new System.Drawing.Point(180, 180);
-			this.EnemyField_G7.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_G7.Name = "EnemyField_G7";
-			this.EnemyField_G7.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_G7.TabIndex = 69;
-			this.EnemyField_G7.TabStop = false;
-			// 
-			// EnemyField_G6
-			// 
-			this.EnemyField_G6.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_G6.Image")));
-			this.EnemyField_G6.Location = new System.Drawing.Point(150, 180);
-			this.EnemyField_G6.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_G6.Name = "EnemyField_G6";
-			this.EnemyField_G6.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_G6.TabIndex = 68;
-			this.EnemyField_G6.TabStop = false;
-			// 
-			// EnemyField_G5
-			// 
-			this.EnemyField_G5.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_G5.Image")));
-			this.EnemyField_G5.Location = new System.Drawing.Point(120, 180);
-			this.EnemyField_G5.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_G5.Name = "EnemyField_G5";
-			this.EnemyField_G5.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_G5.TabIndex = 67;
-			this.EnemyField_G5.TabStop = false;
-			// 
-			// EnemyField_G4
-			// 
-			this.EnemyField_G4.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_G4.Image")));
-			this.EnemyField_G4.Location = new System.Drawing.Point(90, 180);
-			this.EnemyField_G4.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_G4.Name = "EnemyField_G4";
-			this.EnemyField_G4.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_G4.TabIndex = 66;
-			this.EnemyField_G4.TabStop = false;
-			// 
-			// EnemyField_G3
-			// 
-			this.EnemyField_G3.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_G3.Image")));
-			this.EnemyField_G3.Location = new System.Drawing.Point(60, 180);
-			this.EnemyField_G3.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_G3.Name = "EnemyField_G3";
-			this.EnemyField_G3.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_G3.TabIndex = 65;
-			this.EnemyField_G3.TabStop = false;
-			// 
-			// EnemyField_A2
-			// 
-			this.EnemyField_A2.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_A2.ErrorImage")));
-			this.EnemyField_A2.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
-			this.EnemyField_A2.Location = new System.Drawing.Point(30, 0);
-			this.EnemyField_A2.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_A2.Name = "EnemyField_A2";
-			this.EnemyField_A2.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_A2.TabIndex = 1;
-			this.EnemyField_A2.TabStop = false;
-			// 
-			// EnemyField_A1
-			// 
-			this.EnemyField_A1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_A1.ErrorImage")));
-			this.EnemyField_A1.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
-			this.EnemyField_A1.Location = new System.Drawing.Point(0, 0);
-			this.EnemyField_A1.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_A1.Name = "EnemyField_A1";
-			this.EnemyField_A1.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_A1.TabIndex = 0;
-			this.EnemyField_A1.TabStop = false;
-			// 
-			// EnemyField_G2
-			// 
-			this.EnemyField_G2.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_G2.Image")));
-			this.EnemyField_G2.Location = new System.Drawing.Point(30, 180);
-			this.EnemyField_G2.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_G2.Name = "EnemyField_G2";
-			this.EnemyField_G2.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_G2.TabIndex = 64;
-			this.EnemyField_G2.TabStop = false;
-			// 
-			// EnemyField_F10
-			// 
-			this.EnemyField_F10.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_F10.Image")));
-			this.EnemyField_F10.Location = new System.Drawing.Point(270, 150);
-			this.EnemyField_F10.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_F10.Name = "EnemyField_F10";
-			this.EnemyField_F10.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_F10.TabIndex = 63;
-			this.EnemyField_F10.TabStop = false;
-			// 
-			// EnemyField_F9
-			// 
-			this.EnemyField_F9.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_F9.Image")));
-			this.EnemyField_F9.Location = new System.Drawing.Point(240, 150);
-			this.EnemyField_F9.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_F9.Name = "EnemyField_F9";
-			this.EnemyField_F9.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_F9.TabIndex = 62;
-			this.EnemyField_F9.TabStop = false;
-			// 
-			// EnemyField_F8
-			// 
-			this.EnemyField_F8.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_F8.Image")));
-			this.EnemyField_F8.Location = new System.Drawing.Point(210, 150);
-			this.EnemyField_F8.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_F8.Name = "EnemyField_F8";
-			this.EnemyField_F8.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_F8.TabIndex = 61;
-			this.EnemyField_F8.TabStop = false;
-			// 
-			// EnemyField_F7
-			// 
-			this.EnemyField_F7.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_F7.Image")));
-			this.EnemyField_F7.Location = new System.Drawing.Point(180, 150);
-			this.EnemyField_F7.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_F7.Name = "EnemyField_F7";
-			this.EnemyField_F7.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_F7.TabIndex = 60;
-			this.EnemyField_F7.TabStop = false;
-			// 
-			// EnemyField_F6
-			// 
-			this.EnemyField_F6.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_F6.Image")));
-			this.EnemyField_F6.Location = new System.Drawing.Point(150, 150);
-			this.EnemyField_F6.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_F6.Name = "EnemyField_F6";
-			this.EnemyField_F6.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_F6.TabIndex = 59;
-			this.EnemyField_F6.TabStop = false;
-			// 
-			// EnemyField_F4
-			// 
-			this.EnemyField_F4.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_F4.Image")));
-			this.EnemyField_F4.Location = new System.Drawing.Point(90, 150);
-			this.EnemyField_F4.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_F4.Name = "EnemyField_F4";
-			this.EnemyField_F4.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_F4.TabIndex = 57;
-			this.EnemyField_F4.TabStop = false;
-			// 
-			// EnemyField_F3
-			// 
-			this.EnemyField_F3.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_F3.Image")));
-			this.EnemyField_F3.Location = new System.Drawing.Point(60, 150);
-			this.EnemyField_F3.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_F3.Name = "EnemyField_F3";
-			this.EnemyField_F3.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_F3.TabIndex = 56;
-			this.EnemyField_F3.TabStop = false;
-			// 
-			// EnemyField_F2
-			// 
-			this.EnemyField_F2.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_F2.Image")));
-			this.EnemyField_F2.Location = new System.Drawing.Point(30, 150);
-			this.EnemyField_F2.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_F2.Name = "EnemyField_F2";
-			this.EnemyField_F2.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_F2.TabIndex = 55;
-			this.EnemyField_F2.TabStop = false;
-			// 
-			// EnemyField_E10
-			// 
-			this.EnemyField_E10.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_E10.Image")));
-			this.EnemyField_E10.Location = new System.Drawing.Point(270, 120);
-			this.EnemyField_E10.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_E10.Name = "EnemyField_E10";
-			this.EnemyField_E10.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_E10.TabIndex = 54;
-			this.EnemyField_E10.TabStop = false;
-			// 
-			// EnemyField_E9
-			// 
-			this.EnemyField_E9.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_E9.Image")));
-			this.EnemyField_E9.Location = new System.Drawing.Point(240, 120);
-			this.EnemyField_E9.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_E9.Name = "EnemyField_E9";
-			this.EnemyField_E9.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_E9.TabIndex = 53;
-			this.EnemyField_E9.TabStop = false;
-			// 
-			// EnemyField_E8
-			// 
-			this.EnemyField_E8.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_E8.Image")));
-			this.EnemyField_E8.Location = new System.Drawing.Point(210, 120);
-			this.EnemyField_E8.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_E8.Name = "EnemyField_E8";
-			this.EnemyField_E8.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_E8.TabIndex = 52;
-			this.EnemyField_E8.TabStop = false;
-			// 
-			// EnemyField_E7
-			// 
-			this.EnemyField_E7.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_E7.Image")));
-			this.EnemyField_E7.Location = new System.Drawing.Point(180, 120);
-			this.EnemyField_E7.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_E7.Name = "EnemyField_E7";
-			this.EnemyField_E7.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_E7.TabIndex = 51;
-			this.EnemyField_E7.TabStop = false;
-			// 
-			// EnemyField_E6
-			// 
-			this.EnemyField_E6.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_E6.Image")));
-			this.EnemyField_E6.Location = new System.Drawing.Point(150, 120);
-			this.EnemyField_E6.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_E6.Name = "EnemyField_E6";
-			this.EnemyField_E6.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_E6.TabIndex = 50;
-			this.EnemyField_E6.TabStop = false;
-			// 
-			// EnemyField_E5
-			// 
-			this.EnemyField_E5.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_E5.Image")));
-			this.EnemyField_E5.Location = new System.Drawing.Point(120, 120);
-			this.EnemyField_E5.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_E5.Name = "EnemyField_E5";
-			this.EnemyField_E5.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_E5.TabIndex = 49;
-			this.EnemyField_E5.TabStop = false;
-			// 
-			// EnemyField_E4
-			// 
-			this.EnemyField_E4.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_E4.Image")));
-			this.EnemyField_E4.Location = new System.Drawing.Point(90, 120);
-			this.EnemyField_E4.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_E4.Name = "EnemyField_E4";
-			this.EnemyField_E4.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_E4.TabIndex = 48;
-			this.EnemyField_E4.TabStop = false;
-			// 
-			// EnemyField_E3
-			// 
-			this.EnemyField_E3.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_E3.Image")));
-			this.EnemyField_E3.Location = new System.Drawing.Point(60, 120);
-			this.EnemyField_E3.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_E3.Name = "EnemyField_E3";
-			this.EnemyField_E3.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_E3.TabIndex = 47;
-			this.EnemyField_E3.TabStop = false;
-			// 
-			// EnemyField_E2
-			// 
-			this.EnemyField_E2.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_E2.Image")));
-			this.EnemyField_E2.Location = new System.Drawing.Point(30, 120);
-			this.EnemyField_E2.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_E2.Name = "EnemyField_E2";
-			this.EnemyField_E2.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_E2.TabIndex = 46;
-			this.EnemyField_E2.TabStop = false;
-			// 
-			// EnemyField_D10
-			// 
-			this.EnemyField_D10.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_D10.Image")));
-			this.EnemyField_D10.Location = new System.Drawing.Point(270, 90);
-			this.EnemyField_D10.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_D10.Name = "EnemyField_D10";
-			this.EnemyField_D10.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_D10.TabIndex = 45;
-			this.EnemyField_D10.TabStop = false;
-			// 
-			// EnemyField_D9
-			// 
-			this.EnemyField_D9.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_D9.Image")));
-			this.EnemyField_D9.Location = new System.Drawing.Point(240, 90);
-			this.EnemyField_D9.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_D9.Name = "EnemyField_D9";
-			this.EnemyField_D9.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_D9.TabIndex = 44;
-			this.EnemyField_D9.TabStop = false;
-			// 
-			// EnemyField_D8
-			// 
-			this.EnemyField_D8.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_D8.Image")));
-			this.EnemyField_D8.Location = new System.Drawing.Point(210, 90);
-			this.EnemyField_D8.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_D8.Name = "EnemyField_D8";
-			this.EnemyField_D8.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_D8.TabIndex = 43;
-			this.EnemyField_D8.TabStop = false;
-			// 
-			// EnemyField_D7
-			// 
-			this.EnemyField_D7.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_D7.Image")));
-			this.EnemyField_D7.Location = new System.Drawing.Point(180, 90);
-			this.EnemyField_D7.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_D7.Name = "EnemyField_D7";
-			this.EnemyField_D7.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_D7.TabIndex = 42;
-			this.EnemyField_D7.TabStop = false;
-			// 
-			// EnemyField_D6
-			// 
-			this.EnemyField_D6.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_D6.Image")));
-			this.EnemyField_D6.Location = new System.Drawing.Point(150, 90);
-			this.EnemyField_D6.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_D6.Name = "EnemyField_D6";
-			this.EnemyField_D6.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_D6.TabIndex = 41;
-			this.EnemyField_D6.TabStop = false;
-			// 
-			// EnemyField_D5
-			// 
-			this.EnemyField_D5.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_D5.Image")));
-			this.EnemyField_D5.Location = new System.Drawing.Point(120, 90);
-			this.EnemyField_D5.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_D5.Name = "EnemyField_D5";
-			this.EnemyField_D5.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_D5.TabIndex = 40;
-			this.EnemyField_D5.TabStop = false;
-			// 
-			// EnemyField_D4
-			// 
-			this.EnemyField_D4.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_D4.Image")));
-			this.EnemyField_D4.Location = new System.Drawing.Point(90, 90);
-			this.EnemyField_D4.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_D4.Name = "EnemyField_D4";
-			this.EnemyField_D4.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_D4.TabIndex = 39;
-			this.EnemyField_D4.TabStop = false;
-			// 
-			// EnemyField_D3
-			// 
-			this.EnemyField_D3.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_D3.Image")));
-			this.EnemyField_D3.Location = new System.Drawing.Point(60, 90);
-			this.EnemyField_D3.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_D3.Name = "EnemyField_D3";
-			this.EnemyField_D3.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_D3.TabIndex = 38;
-			this.EnemyField_D3.TabStop = false;
-			// 
-			// EnemyField_D2
-			// 
-			this.EnemyField_D2.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_D2.Image")));
-			this.EnemyField_D2.Location = new System.Drawing.Point(30, 90);
-			this.EnemyField_D2.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_D2.Name = "EnemyField_D2";
-			this.EnemyField_D2.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_D2.TabIndex = 37;
-			this.EnemyField_D2.TabStop = false;
-			// 
-			// EnemyField_C10
-			// 
-			this.EnemyField_C10.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_C10.ErrorImage")));
-			this.EnemyField_C10.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_C10.Image")));
-			this.EnemyField_C10.Location = new System.Drawing.Point(270, 60);
-			this.EnemyField_C10.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_C10.Name = "EnemyField_C10";
-			this.EnemyField_C10.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_C10.TabIndex = 36;
-			this.EnemyField_C10.TabStop = false;
-			// 
-			// EnemyField_C9
-			// 
-			this.EnemyField_C9.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_C9.ErrorImage")));
-			this.EnemyField_C9.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_C9.Image")));
-			this.EnemyField_C9.Location = new System.Drawing.Point(240, 60);
-			this.EnemyField_C9.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_C9.Name = "EnemyField_C9";
-			this.EnemyField_C9.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_C9.TabIndex = 35;
-			this.EnemyField_C9.TabStop = false;
-			// 
-			// EnemyField_C8
-			// 
-			this.EnemyField_C8.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_C8.ErrorImage")));
-			this.EnemyField_C8.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_C8.Image")));
-			this.EnemyField_C8.Location = new System.Drawing.Point(210, 60);
-			this.EnemyField_C8.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_C8.Name = "EnemyField_C8";
-			this.EnemyField_C8.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_C8.TabIndex = 34;
-			this.EnemyField_C8.TabStop = false;
-			// 
-			// EnemyField_C7
-			// 
-			this.EnemyField_C7.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_C7.ErrorImage")));
-			this.EnemyField_C7.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_C7.Image")));
-			this.EnemyField_C7.Location = new System.Drawing.Point(180, 60);
-			this.EnemyField_C7.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_C7.Name = "EnemyField_C7";
-			this.EnemyField_C7.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_C7.TabIndex = 33;
-			this.EnemyField_C7.TabStop = false;
-			// 
-			// EnemyField_C6
-			// 
-			this.EnemyField_C6.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_C6.ErrorImage")));
-			this.EnemyField_C6.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_C6.Image")));
-			this.EnemyField_C6.Location = new System.Drawing.Point(150, 60);
-			this.EnemyField_C6.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_C6.Name = "EnemyField_C6";
-			this.EnemyField_C6.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_C6.TabIndex = 32;
-			this.EnemyField_C6.TabStop = false;
-			// 
-			// EnemyField_C5
-			// 
-			this.EnemyField_C5.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_C5.ErrorImage")));
-			this.EnemyField_C5.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_C5.Image")));
-			this.EnemyField_C5.Location = new System.Drawing.Point(120, 60);
-			this.EnemyField_C5.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_C5.Name = "EnemyField_C5";
-			this.EnemyField_C5.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_C5.TabIndex = 31;
-			this.EnemyField_C5.TabStop = false;
-			// 
-			// EnemyField_C4
-			// 
-			this.EnemyField_C4.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_C4.ErrorImage")));
-			this.EnemyField_C4.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_C4.Image")));
-			this.EnemyField_C4.Location = new System.Drawing.Point(90, 60);
-			this.EnemyField_C4.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_C4.Name = "EnemyField_C4";
-			this.EnemyField_C4.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_C4.TabIndex = 30;
-			this.EnemyField_C4.TabStop = false;
-			// 
-			// EnemyField_C3
-			// 
-			this.EnemyField_C3.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_C3.ErrorImage")));
-			this.EnemyField_C3.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_C3.Image")));
-			this.EnemyField_C3.Location = new System.Drawing.Point(60, 60);
-			this.EnemyField_C3.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_C3.Name = "EnemyField_C3";
-			this.EnemyField_C3.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_C3.TabIndex = 29;
-			this.EnemyField_C3.TabStop = false;
-			// 
-			// EnemyField_C2
-			// 
-			this.EnemyField_C2.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_C2.ErrorImage")));
-			this.EnemyField_C2.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_C2.Image")));
-			this.EnemyField_C2.Location = new System.Drawing.Point(30, 60);
-			this.EnemyField_C2.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_C2.Name = "EnemyField_C2";
-			this.EnemyField_C2.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_C2.TabIndex = 28;
-			this.EnemyField_C2.TabStop = false;
-			// 
-			// EnemyField_B10
-			// 
-			this.EnemyField_B10.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_B10.ErrorImage")));
-			this.EnemyField_B10.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_B10.Image")));
-			this.EnemyField_B10.Location = new System.Drawing.Point(270, 30);
-			this.EnemyField_B10.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_B10.Name = "EnemyField_B10";
-			this.EnemyField_B10.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_B10.TabIndex = 27;
-			this.EnemyField_B10.TabStop = false;
-			// 
-			// EnemyField_B9
-			// 
-			this.EnemyField_B9.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_B9.ErrorImage")));
-			this.EnemyField_B9.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_B9.Image")));
-			this.EnemyField_B9.Location = new System.Drawing.Point(240, 30);
-			this.EnemyField_B9.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_B9.Name = "EnemyField_B9";
-			this.EnemyField_B9.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_B9.TabIndex = 26;
-			this.EnemyField_B9.TabStop = false;
-			// 
-			// EnemyField_B8
-			// 
-			this.EnemyField_B8.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_B8.ErrorImage")));
-			this.EnemyField_B8.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_B8.Image")));
-			this.EnemyField_B8.Location = new System.Drawing.Point(210, 30);
-			this.EnemyField_B8.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_B8.Name = "EnemyField_B8";
-			this.EnemyField_B8.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_B8.TabIndex = 25;
-			this.EnemyField_B8.TabStop = false;
-			// 
-			// EnemyField_B7
-			// 
-			this.EnemyField_B7.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_B7.ErrorImage")));
-			this.EnemyField_B7.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_B7.Image")));
-			this.EnemyField_B7.Location = new System.Drawing.Point(180, 30);
-			this.EnemyField_B7.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_B7.Name = "EnemyField_B7";
-			this.EnemyField_B7.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_B7.TabIndex = 24;
-			this.EnemyField_B7.TabStop = false;
-			// 
-			// EnemyField_B6
-			// 
-			this.EnemyField_B6.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_B6.ErrorImage")));
-			this.EnemyField_B6.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_B6.Image")));
-			this.EnemyField_B6.Location = new System.Drawing.Point(150, 30);
-			this.EnemyField_B6.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_B6.Name = "EnemyField_B6";
-			this.EnemyField_B6.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_B6.TabIndex = 23;
-			this.EnemyField_B6.TabStop = false;
-			// 
-			// EnemyField_B5
-			// 
-			this.EnemyField_B5.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_B5.ErrorImage")));
-			this.EnemyField_B5.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_B5.Image")));
-			this.EnemyField_B5.Location = new System.Drawing.Point(120, 30);
-			this.EnemyField_B5.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_B5.Name = "EnemyField_B5";
-			this.EnemyField_B5.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_B5.TabIndex = 22;
-			this.EnemyField_B5.TabStop = false;
-			// 
-			// EnemyField_B4
-			// 
-			this.EnemyField_B4.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_B4.ErrorImage")));
-			this.EnemyField_B4.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_B4.Image")));
-			this.EnemyField_B4.Location = new System.Drawing.Point(90, 30);
-			this.EnemyField_B4.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_B4.Name = "EnemyField_B4";
-			this.EnemyField_B4.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_B4.TabIndex = 21;
-			this.EnemyField_B4.TabStop = false;
-			// 
-			// EnemyField_B3
-			// 
-			this.EnemyField_B3.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_B3.ErrorImage")));
-			this.EnemyField_B3.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_B3.Image")));
-			this.EnemyField_B3.Location = new System.Drawing.Point(60, 30);
-			this.EnemyField_B3.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_B3.Name = "EnemyField_B3";
-			this.EnemyField_B3.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_B3.TabIndex = 20;
-			this.EnemyField_B3.TabStop = false;
-			// 
-			// EnemyField_B2
-			// 
-			this.EnemyField_B2.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_B2.ErrorImage")));
-			this.EnemyField_B2.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_B2.Image")));
-			this.EnemyField_B2.Location = new System.Drawing.Point(30, 30);
-			this.EnemyField_B2.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_B2.Name = "EnemyField_B2";
-			this.EnemyField_B2.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_B2.TabIndex = 19;
-			this.EnemyField_B2.TabStop = false;
-			// 
-			// EnemyField_A10
-			// 
-			this.EnemyField_A10.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_A10.ErrorImage")));
-			this.EnemyField_A10.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_A10.Image")));
-			this.EnemyField_A10.Location = new System.Drawing.Point(270, 0);
-			this.EnemyField_A10.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_A10.Name = "EnemyField_A10";
-			this.EnemyField_A10.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_A10.TabIndex = 18;
-			this.EnemyField_A10.TabStop = false;
-			// 
-			// EnemyField_A9
-			// 
-			this.EnemyField_A9.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_A9.ErrorImage")));
-			this.EnemyField_A9.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_A9.Image")));
-			this.EnemyField_A9.Location = new System.Drawing.Point(240, 0);
-			this.EnemyField_A9.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_A9.Name = "EnemyField_A9";
-			this.EnemyField_A9.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_A9.TabIndex = 17;
-			this.EnemyField_A9.TabStop = false;
-			// 
-			// EnemyField_A8
-			// 
-			this.EnemyField_A8.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_A8.ErrorImage")));
-			this.EnemyField_A8.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_A8.Image")));
-			this.EnemyField_A8.Location = new System.Drawing.Point(210, 0);
-			this.EnemyField_A8.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_A8.Name = "EnemyField_A8";
-			this.EnemyField_A8.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_A8.TabIndex = 16;
-			this.EnemyField_A8.TabStop = false;
-			// 
-			// EnemyField_A7
-			// 
-			this.EnemyField_A7.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_A7.ErrorImage")));
-			this.EnemyField_A7.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_A7.Image")));
-			this.EnemyField_A7.Location = new System.Drawing.Point(180, 0);
-			this.EnemyField_A7.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_A7.Name = "EnemyField_A7";
-			this.EnemyField_A7.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_A7.TabIndex = 15;
-			this.EnemyField_A7.TabStop = false;
-			// 
-			// EnemyField_A6
-			// 
-			this.EnemyField_A6.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_A6.ErrorImage")));
-			this.EnemyField_A6.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_A6.Image")));
-			this.EnemyField_A6.Location = new System.Drawing.Point(150, 0);
-			this.EnemyField_A6.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_A6.Name = "EnemyField_A6";
-			this.EnemyField_A6.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_A6.TabIndex = 14;
-			this.EnemyField_A6.TabStop = false;
-			// 
-			// EnemyField_A5
-			// 
-			this.EnemyField_A5.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_A5.ErrorImage")));
-			this.EnemyField_A5.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_A5.Image")));
-			this.EnemyField_A5.Location = new System.Drawing.Point(120, 0);
-			this.EnemyField_A5.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_A5.Name = "EnemyField_A5";
-			this.EnemyField_A5.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_A5.TabIndex = 13;
-			this.EnemyField_A5.TabStop = false;
-			// 
-			// EnemyField_J1
-			// 
-			this.EnemyField_J1.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_J1.Image")));
-			this.EnemyField_J1.Location = new System.Drawing.Point(0, 270);
-			this.EnemyField_J1.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_J1.Name = "EnemyField_J1";
-			this.EnemyField_J1.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_J1.TabIndex = 12;
-			this.EnemyField_J1.TabStop = false;
-			// 
-			// EnemyField_I1
-			// 
-			this.EnemyField_I1.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_I1.Image")));
-			this.EnemyField_I1.Location = new System.Drawing.Point(0, 240);
-			this.EnemyField_I1.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_I1.Name = "EnemyField_I1";
-			this.EnemyField_I1.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_I1.TabIndex = 11;
-			this.EnemyField_I1.TabStop = false;
-			// 
-			// EnemyField_H1
-			// 
-			this.EnemyField_H1.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_H1.Image")));
-			this.EnemyField_H1.Location = new System.Drawing.Point(0, 210);
-			this.EnemyField_H1.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_H1.Name = "EnemyField_H1";
-			this.EnemyField_H1.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_H1.TabIndex = 10;
-			this.EnemyField_H1.TabStop = false;
-			// 
-			// EnemyField_G1
-			// 
-			this.EnemyField_G1.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_G1.Image")));
-			this.EnemyField_G1.Location = new System.Drawing.Point(0, 180);
-			this.EnemyField_G1.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_G1.Name = "EnemyField_G1";
-			this.EnemyField_G1.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_G1.TabIndex = 9;
-			this.EnemyField_G1.TabStop = false;
-			// 
-			// EnemyField_F1
-			// 
-			this.EnemyField_F1.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_F1.Image")));
-			this.EnemyField_F1.Location = new System.Drawing.Point(0, 150);
-			this.EnemyField_F1.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_F1.Name = "EnemyField_F1";
-			this.EnemyField_F1.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_F1.TabIndex = 8;
-			this.EnemyField_F1.TabStop = false;
-			// 
-			// EnemyField_E1
-			// 
-			this.EnemyField_E1.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_E1.Image")));
-			this.EnemyField_E1.Location = new System.Drawing.Point(0, 120);
-			this.EnemyField_E1.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_E1.Name = "EnemyField_E1";
-			this.EnemyField_E1.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_E1.TabIndex = 7;
-			this.EnemyField_E1.TabStop = false;
-			// 
-			// EnemyField_D1
-			// 
-			this.EnemyField_D1.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_D1.Image")));
-			this.EnemyField_D1.Location = new System.Drawing.Point(0, 90);
-			this.EnemyField_D1.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_D1.Name = "EnemyField_D1";
-			this.EnemyField_D1.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_D1.TabIndex = 6;
-			this.EnemyField_D1.TabStop = false;
-			// 
-			// EnemyField_C1
-			// 
-			this.EnemyField_C1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_C1.ErrorImage")));
-			this.EnemyField_C1.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_C1.Image")));
-			this.EnemyField_C1.Location = new System.Drawing.Point(0, 60);
-			this.EnemyField_C1.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_C1.Name = "EnemyField_C1";
-			this.EnemyField_C1.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_C1.TabIndex = 5;
-			this.EnemyField_C1.TabStop = false;
-			// 
-			// EnemyField_B1
-			// 
-			this.EnemyField_B1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_B1.ErrorImage")));
-			this.EnemyField_B1.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_B1.Image")));
-			this.EnemyField_B1.Location = new System.Drawing.Point(0, 30);
-			this.EnemyField_B1.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_B1.Name = "EnemyField_B1";
-			this.EnemyField_B1.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_B1.TabIndex = 4;
-			this.EnemyField_B1.TabStop = false;
-			// 
-			// EnemyField_A4
-			// 
-			this.EnemyField_A4.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_A4.ErrorImage")));
-			this.EnemyField_A4.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
-			this.EnemyField_A4.Location = new System.Drawing.Point(90, 0);
-			this.EnemyField_A4.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_A4.Name = "EnemyField_A4";
-			this.EnemyField_A4.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_A4.TabIndex = 3;
-			this.EnemyField_A4.TabStop = false;
-			// 
-			// EnemyField_A3
-			// 
-			this.EnemyField_A3.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_A3.ErrorImage")));
-			this.EnemyField_A3.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
-			this.EnemyField_A3.Location = new System.Drawing.Point(60, 0);
-			this.EnemyField_A3.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_A3.Name = "EnemyField_A3";
-			this.EnemyField_A3.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_A3.TabIndex = 2;
-			this.EnemyField_A3.TabStop = false;
-			// 
-			// EnemyField_F5
-			// 
-			this.EnemyField_F5.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_F5.Image")));
-			this.EnemyField_F5.Location = new System.Drawing.Point(120, 150);
-			this.EnemyField_F5.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_F5.Name = "EnemyField_F5";
-			this.EnemyField_F5.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_F5.TabIndex = 58;
-			this.EnemyField_F5.TabStop = false;
-			// 
-			// EnemyField_J7
-			// 
-			this.EnemyField_J7.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_J7.Image")));
-			this.EnemyField_J7.Location = new System.Drawing.Point(180, 270);
-			this.EnemyField_J7.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_J7.Name = "EnemyField_J7";
-			this.EnemyField_J7.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_J7.TabIndex = 96;
-			this.EnemyField_J7.TabStop = false;
-			// 
-			// EnemyField_J8
-			// 
-			this.EnemyField_J8.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_J8.Image")));
-			this.EnemyField_J8.Location = new System.Drawing.Point(210, 270);
-			this.EnemyField_J8.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_J8.Name = "EnemyField_J8";
-			this.EnemyField_J8.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_J8.TabIndex = 97;
-			this.EnemyField_J8.TabStop = false;
-			// 
-			// EnemyField_J9
-			// 
-			this.EnemyField_J9.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_J9.Image")));
-			this.EnemyField_J9.Location = new System.Drawing.Point(240, 270);
-			this.EnemyField_J9.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_J9.Name = "EnemyField_J9";
-			this.EnemyField_J9.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_J9.TabIndex = 98;
-			this.EnemyField_J9.TabStop = false;
-			// 
-			// EnemyField_J4
-			// 
-			this.EnemyField_J4.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_J4.Image")));
-			this.EnemyField_J4.Location = new System.Drawing.Point(90, 270);
-			this.EnemyField_J4.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_J4.Name = "EnemyField_J4";
-			this.EnemyField_J4.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_J4.TabIndex = 93;
-			this.EnemyField_J4.TabStop = false;
-			// 
-			// EnemyField_J5
-			// 
-			this.EnemyField_J5.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_J5.Image")));
-			this.EnemyField_J5.Location = new System.Drawing.Point(120, 270);
-			this.EnemyField_J5.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_J5.Name = "EnemyField_J5";
-			this.EnemyField_J5.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_J5.TabIndex = 94;
-			this.EnemyField_J5.TabStop = false;
-			// 
-			// EnemyField_J6
-			// 
-			this.EnemyField_J6.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_J6.Image")));
-			this.EnemyField_J6.Location = new System.Drawing.Point(150, 270);
-			this.EnemyField_J6.Margin = new System.Windows.Forms.Padding(0);
-			this.EnemyField_J6.Name = "EnemyField_J6";
-			this.EnemyField_J6.Size = new System.Drawing.Size(30, 30);
-			this.EnemyField_J6.TabIndex = 95;
-			this.EnemyField_J6.TabStop = false;
-			// 
 			// LetterboxText
 			// 
 			this.LetterboxText.BackColor = System.Drawing.SystemColors.Window;
 			this.LetterboxText.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+			this.LetterboxText.Font = new System.Drawing.Font("Pixel-Art", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.LetterboxText.Location = new System.Drawing.Point(977, 248);
 			this.LetterboxText.MaxLength = 1;
 			this.LetterboxText.Name = "LetterboxText";
-			this.LetterboxText.Size = new System.Drawing.Size(30, 20);
+			this.LetterboxText.Size = new System.Drawing.Size(30, 17);
 			this.LetterboxText.TabIndex = 32;
 			// 
 			// NumberboxText
 			// 
 			this.NumberboxText.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+			this.NumberboxText.Font = new System.Drawing.Font("Pixel-Art", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.NumberboxText.Location = new System.Drawing.Point(1009, 248);
 			this.NumberboxText.MaxLength = 2;
 			this.NumberboxText.Name = "NumberboxText";
-			this.NumberboxText.Size = new System.Drawing.Size(30, 20);
+			this.NumberboxText.Size = new System.Drawing.Size(30, 17);
 			this.NumberboxText.TabIndex = 33;
 			// 
 			// PlayerActionText
@@ -5002,36 +2806,38 @@
 			// 
 			this.ChooseShipComboBox.FormattingEnabled = true;
 			this.ChooseShipComboBox.Items.AddRange(new object[] {
-            "Brigantine",
             "Fishing Boat",
+            "Brigantine",
+            "Sloop",
             "Galleon",
-            "Pirate\'s ship",
-            "Sloop"});
+            "Pirate\'s ship"});
 			this.ChooseShipComboBox.Location = new System.Drawing.Point(789, 455);
 			this.ChooseShipComboBox.Name = "ChooseShipComboBox";
 			this.ChooseShipComboBox.Size = new System.Drawing.Size(91, 21);
 			this.ChooseShipComboBox.TabIndex = 44;
 			// 
-			// ErrorDialogLabel
+			// DialogLabel
 			// 
-			this.ErrorDialogLabel.BackColor = System.Drawing.Color.Transparent;
-			this.ErrorDialogLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.ErrorDialogLabel.Location = new System.Drawing.Point(1, 0);
-			this.ErrorDialogLabel.Name = "ErrorDialogLabel";
-			this.ErrorDialogLabel.Size = new System.Drawing.Size(214, 256);
-			this.ErrorDialogLabel.TabIndex = 45;
+			this.DialogLabel.BackColor = System.Drawing.Color.White;
+			this.DialogLabel.Font = new System.Drawing.Font("Pixel-Art", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.DialogLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+			this.DialogLabel.Location = new System.Drawing.Point(0, 0);
+			this.DialogLabel.Name = "DialogLabel";
+			this.DialogLabel.Size = new System.Drawing.Size(212, 287);
+			this.DialogLabel.TabIndex = 45;
 			// 
 			// ShipName_texbox
 			// 
+			this.ShipName_texbox.BackColor = System.Drawing.Color.White;
 			this.ShipName_texbox.Location = new System.Drawing.Point(789, 546);
 			this.ShipName_texbox.MaxLength = 15;
 			this.ShipName_texbox.Name = "ShipName_texbox";
-			this.ShipName_texbox.Size = new System.Drawing.Size(91, 20);
+			this.ShipName_texbox.Size = new System.Drawing.Size(80, 20);
 			this.ShipName_texbox.TabIndex = 47;
 			// 
 			// FishingBoat_progressBar
 			// 
-			this.FishingBoat_progressBar.Location = new System.Drawing.Point(982, 426);
+			this.FishingBoat_progressBar.Location = new System.Drawing.Point(923, 446);
 			this.FishingBoat_progressBar.Maximum = 20;
 			this.FishingBoat_progressBar.Name = "FishingBoat_progressBar";
 			this.FishingBoat_progressBar.Size = new System.Drawing.Size(60, 12);
@@ -5041,7 +2847,7 @@
 			// 
 			// Brigantine_progressBar
 			// 
-			this.Brigantine_progressBar.Location = new System.Drawing.Point(1013, 494);
+			this.Brigantine_progressBar.Location = new System.Drawing.Point(918, 511);
 			this.Brigantine_progressBar.Maximum = 30;
 			this.Brigantine_progressBar.Name = "Brigantine_progressBar";
 			this.Brigantine_progressBar.Size = new System.Drawing.Size(90, 12);
@@ -5051,7 +2857,7 @@
 			// 
 			// Sloop_progressBar
 			// 
-			this.Sloop_progressBar.Location = new System.Drawing.Point(1013, 553);
+			this.Sloop_progressBar.Location = new System.Drawing.Point(920, 571);
 			this.Sloop_progressBar.Maximum = 30;
 			this.Sloop_progressBar.Name = "Sloop_progressBar";
 			this.Sloop_progressBar.Size = new System.Drawing.Size(90, 12);
@@ -5061,7 +2867,7 @@
 			// 
 			// Galleon_progressBar
 			// 
-			this.Galleon_progressBar.Location = new System.Drawing.Point(1044, 622);
+			this.Galleon_progressBar.Location = new System.Drawing.Point(917, 640);
 			this.Galleon_progressBar.Maximum = 40;
 			this.Galleon_progressBar.Name = "Galleon_progressBar";
 			this.Galleon_progressBar.Size = new System.Drawing.Size(121, 12);
@@ -5071,7 +2877,7 @@
 			// 
 			// PiratesShip_progressBar
 			// 
-			this.PiratesShip_progressBar.Location = new System.Drawing.Point(1075, 678);
+			this.PiratesShip_progressBar.Location = new System.Drawing.Point(917, 699);
 			this.PiratesShip_progressBar.Maximum = 50;
 			this.PiratesShip_progressBar.Name = "PiratesShip_progressBar";
 			this.PiratesShip_progressBar.Size = new System.Drawing.Size(150, 12);
@@ -5083,7 +2889,7 @@
 			// 
 			this.FishingBoat_nameText.BackColor = System.Drawing.Color.Transparent;
 			this.FishingBoat_nameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.FishingBoat_nameText.Location = new System.Drawing.Point(1189, 397);
+			this.FishingBoat_nameText.Location = new System.Drawing.Point(980, 421);
 			this.FishingBoat_nameText.Name = "FishingBoat_nameText";
 			this.FishingBoat_nameText.Size = new System.Drawing.Size(130, 21);
 			this.FishingBoat_nameText.TabIndex = 115;
@@ -5094,7 +2900,7 @@
 			// 
 			this.Brigantine_nameText.BackColor = System.Drawing.Color.Transparent;
 			this.Brigantine_nameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Brigantine_nameText.Location = new System.Drawing.Point(1177, 623);
+			this.Brigantine_nameText.Location = new System.Drawing.Point(1066, 672);
 			this.Brigantine_nameText.Name = "Brigantine_nameText";
 			this.Brigantine_nameText.Size = new System.Drawing.Size(130, 21);
 			this.Brigantine_nameText.TabIndex = 116;
@@ -5105,7 +2911,7 @@
 			// 
 			this.Sloop_nameText.BackColor = System.Drawing.Color.Transparent;
 			this.Sloop_nameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Sloop_nameText.Location = new System.Drawing.Point(1193, 459);
+			this.Sloop_nameText.Location = new System.Drawing.Point(1010, 488);
 			this.Sloop_nameText.Name = "Sloop_nameText";
 			this.Sloop_nameText.Size = new System.Drawing.Size(130, 21);
 			this.Sloop_nameText.TabIndex = 117;
@@ -5116,7 +2922,7 @@
 			// 
 			this.Galleon_nameText.BackColor = System.Drawing.Color.Transparent;
 			this.Galleon_nameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Galleon_nameText.Location = new System.Drawing.Point(1189, 522);
+			this.Galleon_nameText.Location = new System.Drawing.Point(1010, 545);
 			this.Galleon_nameText.Name = "Galleon_nameText";
 			this.Galleon_nameText.Size = new System.Drawing.Size(130, 21);
 			this.Galleon_nameText.TabIndex = 118;
@@ -5127,7 +2933,7 @@
 			// 
 			this.PiratesShip_nameText.BackColor = System.Drawing.Color.Transparent;
 			this.PiratesShip_nameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PiratesShip_nameText.Location = new System.Drawing.Point(1202, 574);
+			this.PiratesShip_nameText.Location = new System.Drawing.Point(1039, 616);
 			this.PiratesShip_nameText.Name = "PiratesShip_nameText";
 			this.PiratesShip_nameText.Size = new System.Drawing.Size(130, 21);
 			this.PiratesShip_nameText.TabIndex = 119;
@@ -5139,33 +2945,13 @@
 			this.AITimer.Interval = 2500;
 			this.AITimer.Tick += new System.EventHandler(this.AITimer_Tick);
 			// 
-			// cheat_button
-			// 
-			this.cheat_button.Location = new System.Drawing.Point(362, 9);
-			this.cheat_button.Name = "cheat_button";
-			this.cheat_button.Size = new System.Drawing.Size(77, 23);
-			this.cheat_button.TabIndex = 121;
-			this.cheat_button.Text = "cheat";
-			this.cheat_button.UseVisualStyleBackColor = true;
-			this.cheat_button.Click += new System.EventHandler(this.cheat_button_Click);
-			// 
-			// exit_button
-			// 
-			this.exit_button.Location = new System.Drawing.Point(1044, 709);
-			this.exit_button.Name = "exit_button";
-			this.exit_button.Size = new System.Drawing.Size(80, 25);
-			this.exit_button.TabIndex = 127;
-			this.exit_button.Text = "Exit Game";
-			this.exit_button.UseVisualStyleBackColor = true;
-			this.exit_button.Click += new System.EventHandler(this.exit_button_Click);
-			// 
 			// EnemyActionText
 			// 
 			this.EnemyActionText.BackColor = System.Drawing.Color.White;
 			this.EnemyActionText.Font = new System.Drawing.Font("Pixel-Art", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyActionText.Location = new System.Drawing.Point(190, 436);
+			this.EnemyActionText.Location = new System.Drawing.Point(188, 435);
 			this.EnemyActionText.Name = "EnemyActionText";
-			this.EnemyActionText.Size = new System.Drawing.Size(100, 44);
+			this.EnemyActionText.Size = new System.Drawing.Size(100, 43);
 			this.EnemyActionText.TabIndex = 1248;
 			this.EnemyActionText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			this.EnemyActionText.Visible = false;
@@ -5180,11 +2966,597 @@
 			this.explosionTimer.Interval = 10;
 			this.explosionTimer.Tick += new System.EventHandler(this.explosionTimer_Tick);
 			// 
+			// showPlayerDialogTimer
+			// 
+			this.showPlayerDialogTimer.Tick += new System.EventHandler(this.showPlayerDialogTimer_Tick);
+			// 
+			// showEnemyDialogTimer
+			// 
+			this.showEnemyDialogTimer.Tick += new System.EventHandler(this.showEnemyDialogTimer_Tick);
+			// 
+			// LogFrame
+			// 
+			this.LogFrame.BackgroundImage = global::BattleShips.Properties.Resources.Log_frame;
+			this.LogFrame.Location = new System.Drawing.Point(-17, 0);
+			this.LogFrame.Name = "LogFrame";
+			this.LogFrame.Size = new System.Drawing.Size(264, 320);
+			this.LogFrame.TabIndex = 1329;
+			this.LogFrame.TabStop = false;
+			// 
+			// pictureBox980
+			// 
+			this.pictureBox980.BackgroundImage = global::BattleShips.Properties.Resources.woods2;
+			this.pictureBox980.Location = new System.Drawing.Point(311, 95);
+			this.pictureBox980.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox980.Name = "pictureBox980";
+			this.pictureBox980.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox980.TabIndex = 1328;
+			this.pictureBox980.TabStop = false;
+			// 
+			// pictureBox121
+			// 
+			this.pictureBox121.BackgroundImage = global::BattleShips.Properties.Resources.woods2;
+			this.pictureBox121.Location = new System.Drawing.Point(343, 128);
+			this.pictureBox121.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox121.Name = "pictureBox121";
+			this.pictureBox121.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox121.TabIndex = 1327;
+			this.pictureBox121.TabStop = false;
+			// 
+			// pictureBox113
+			// 
+			this.pictureBox113.BackgroundImage = global::BattleShips.Properties.Resources.woods2;
+			this.pictureBox113.Location = new System.Drawing.Point(375, 288);
+			this.pictureBox113.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox113.Name = "pictureBox113";
+			this.pictureBox113.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox113.TabIndex = 1326;
+			this.pictureBox113.TabStop = false;
+			// 
+			// pictureBox202
+			// 
+			this.pictureBox202.BackgroundImage = global::BattleShips.Properties.Resources.grass_trees;
+			this.pictureBox202.Location = new System.Drawing.Point(407, 352);
+			this.pictureBox202.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox202.Name = "pictureBox202";
+			this.pictureBox202.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox202.TabIndex = 1325;
+			this.pictureBox202.TabStop = false;
+			// 
+			// pictureBox979
+			// 
+			this.pictureBox979.BackgroundImage = global::BattleShips.Properties.Resources.grass;
+			this.pictureBox979.Location = new System.Drawing.Point(1152, 0);
+			this.pictureBox979.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox979.Name = "pictureBox979";
+			this.pictureBox979.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox979.TabIndex = 1324;
+			this.pictureBox979.TabStop = false;
+			// 
+			// pictureBox102
+			// 
+			this.pictureBox102.BackgroundImage = global::BattleShips.Properties.Resources.tree;
+			this.pictureBox102.Location = new System.Drawing.Point(407, 320);
+			this.pictureBox102.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox102.Name = "pictureBox102";
+			this.pictureBox102.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox102.TabIndex = 1323;
+			this.pictureBox102.TabStop = false;
+			// 
+			// pictureBox100
+			// 
+			this.pictureBox100.BackgroundImage = global::BattleShips.Properties.Resources.grass_to_sand;
+			this.pictureBox100.Location = new System.Drawing.Point(407, 288);
+			this.pictureBox100.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox100.Name = "pictureBox100";
+			this.pictureBox100.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox100.TabIndex = 1322;
+			this.pictureBox100.TabStop = false;
+			// 
+			// pictureBox101
+			// 
+			this.pictureBox101.BackgroundImage = global::BattleShips.Properties.Resources.sand_to_grass2;
+			this.pictureBox101.Location = new System.Drawing.Point(407, 256);
+			this.pictureBox101.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox101.Name = "pictureBox101";
+			this.pictureBox101.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox101.TabIndex = 1321;
+			this.pictureBox101.TabStop = false;
+			// 
+			// pictureBox96
+			// 
+			this.pictureBox96.BackgroundImage = global::BattleShips.Properties.Resources.grass_to_sand;
+			this.pictureBox96.Location = new System.Drawing.Point(407, 224);
+			this.pictureBox96.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox96.Name = "pictureBox96";
+			this.pictureBox96.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox96.TabIndex = 1320;
+			this.pictureBox96.TabStop = false;
+			// 
+			// pictureBox97
+			// 
+			this.pictureBox97.BackgroundImage = global::BattleShips.Properties.Resources.sand_to_grass2;
+			this.pictureBox97.Location = new System.Drawing.Point(407, 192);
+			this.pictureBox97.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox97.Name = "pictureBox97";
+			this.pictureBox97.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox97.TabIndex = 1319;
+			this.pictureBox97.TabStop = false;
+			// 
+			// pictureBox98
+			// 
+			this.pictureBox98.BackgroundImage = global::BattleShips.Properties.Resources.sand_to_grass2;
+			this.pictureBox98.Location = new System.Drawing.Point(407, 160);
+			this.pictureBox98.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox98.Name = "pictureBox98";
+			this.pictureBox98.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox98.TabIndex = 1318;
+			this.pictureBox98.TabStop = false;
+			// 
+			// pictureBox99
+			// 
+			this.pictureBox99.BackgroundImage = global::BattleShips.Properties.Resources.grass_to_sand;
+			this.pictureBox99.Location = new System.Drawing.Point(407, 128);
+			this.pictureBox99.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox99.Name = "pictureBox99";
+			this.pictureBox99.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox99.TabIndex = 1317;
+			this.pictureBox99.TabStop = false;
+			// 
+			// pictureBox104
+			// 
+			this.pictureBox104.BackgroundImage = global::BattleShips.Properties.Resources.grass_to_sand;
+			this.pictureBox104.Location = new System.Drawing.Point(375, 0);
+			this.pictureBox104.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox104.Name = "pictureBox104";
+			this.pictureBox104.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox104.TabIndex = 1316;
+			this.pictureBox104.TabStop = false;
+			// 
+			// pictureBox978
+			// 
+			this.pictureBox978.BackgroundImage = global::BattleShips.Properties.Resources.grass_trees;
+			this.pictureBox978.Location = new System.Drawing.Point(247, 320);
+			this.pictureBox978.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox978.Name = "pictureBox978";
+			this.pictureBox978.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox978.TabIndex = 1315;
+			this.pictureBox978.TabStop = false;
+			// 
+			// pictureBox977
+			// 
+			this.pictureBox977.BackgroundImage = global::BattleShips.Properties.Resources.woods2;
+			this.pictureBox977.Location = new System.Drawing.Point(215, 192);
+			this.pictureBox977.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox977.Name = "pictureBox977";
+			this.pictureBox977.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox977.TabIndex = 1314;
+			this.pictureBox977.TabStop = false;
+			// 
+			// pictureBox976
+			// 
+			this.pictureBox976.BackgroundImage = global::BattleShips.Properties.Resources.woods2;
+			this.pictureBox976.Location = new System.Drawing.Point(247, 224);
+			this.pictureBox976.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox976.Name = "pictureBox976";
+			this.pictureBox976.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox976.TabIndex = 1313;
+			this.pictureBox976.TabStop = false;
+			// 
+			// pictureBox975
+			// 
+			this.pictureBox975.BackgroundImage = global::BattleShips.Properties.Resources.woods2;
+			this.pictureBox975.Location = new System.Drawing.Point(247, 255);
+			this.pictureBox975.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox975.Name = "pictureBox975";
+			this.pictureBox975.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox975.TabIndex = 1312;
+			this.pictureBox975.TabStop = false;
+			// 
+			// pictureBox974
+			// 
+			this.pictureBox974.BackgroundImage = global::BattleShips.Properties.Resources.woods2;
+			this.pictureBox974.Location = new System.Drawing.Point(215, 128);
+			this.pictureBox974.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox974.Name = "pictureBox974";
+			this.pictureBox974.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox974.TabIndex = 1311;
+			this.pictureBox974.TabStop = false;
+			// 
+			// pictureBox973
+			// 
+			this.pictureBox973.BackgroundImage = global::BattleShips.Properties.Resources.tree;
+			this.pictureBox973.Location = new System.Drawing.Point(215, 32);
+			this.pictureBox973.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox973.Name = "pictureBox973";
+			this.pictureBox973.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox973.TabIndex = 1310;
+			this.pictureBox973.TabStop = false;
+			// 
+			// pictureBox972
+			// 
+			this.pictureBox972.BackgroundImage = global::BattleShips.Properties.Resources.woods2;
+			this.pictureBox972.Location = new System.Drawing.Point(215, 0);
+			this.pictureBox972.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox972.Name = "pictureBox972";
+			this.pictureBox972.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox972.TabIndex = 1309;
+			this.pictureBox972.TabStop = false;
+			// 
+			// pictureBox971
+			// 
+			this.pictureBox971.BackgroundImage = global::BattleShips.Properties.Resources.woods2;
+			this.pictureBox971.Location = new System.Drawing.Point(215, 287);
+			this.pictureBox971.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox971.Name = "pictureBox971";
+			this.pictureBox971.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox971.TabIndex = 1308;
+			this.pictureBox971.TabStop = false;
+			// 
+			// pictureBox168
+			// 
+			this.pictureBox168.BackgroundImage = global::BattleShips.Properties.Resources.woods2;
+			this.pictureBox168.Location = new System.Drawing.Point(215, 320);
+			this.pictureBox168.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox168.Name = "pictureBox168";
+			this.pictureBox168.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox168.TabIndex = 1307;
+			this.pictureBox168.TabStop = false;
+			// 
+			// pictureBox145
+			// 
+			this.pictureBox145.BackgroundImage = global::BattleShips.Properties.Resources.woods2;
+			this.pictureBox145.Location = new System.Drawing.Point(247, 192);
+			this.pictureBox145.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox145.Name = "pictureBox145";
+			this.pictureBox145.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox145.TabIndex = 1306;
+			this.pictureBox145.TabStop = false;
+			// 
+			// pictureBox127
+			// 
+			this.pictureBox127.BackgroundImage = global::BattleShips.Properties.Resources.sand_to_grass;
+			this.pictureBox127.Location = new System.Drawing.Point(343, 256);
+			this.pictureBox127.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox127.Name = "pictureBox127";
+			this.pictureBox127.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox127.TabIndex = 1304;
+			this.pictureBox127.TabStop = false;
+			// 
+			// pictureBox117
+			// 
+			this.pictureBox117.BackgroundImage = global::BattleShips.Properties.Resources.grass_trees;
+			this.pictureBox117.Location = new System.Drawing.Point(375, 256);
+			this.pictureBox117.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox117.Name = "pictureBox117";
+			this.pictureBox117.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox117.TabIndex = 1303;
+			this.pictureBox117.TabStop = false;
+			// 
+			// pictureBox111
+			// 
+			this.pictureBox111.BackgroundImage = global::BattleShips.Properties.Resources.woods2;
+			this.pictureBox111.Location = new System.Drawing.Point(375, 224);
+			this.pictureBox111.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox111.Name = "pictureBox111";
+			this.pictureBox111.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox111.TabIndex = 1302;
+			this.pictureBox111.TabStop = false;
+			// 
+			// pictureBox129
+			// 
+			this.pictureBox129.BackgroundImage = global::BattleShips.Properties.Resources.sand_to_grass;
+			this.pictureBox129.Location = new System.Drawing.Point(311, 192);
+			this.pictureBox129.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox129.Name = "pictureBox129";
+			this.pictureBox129.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox129.TabIndex = 1301;
+			this.pictureBox129.TabStop = false;
+			// 
+			// pictureBox134
+			// 
+			this.pictureBox134.BackgroundImage = global::BattleShips.Properties.Resources.sand_to_grass;
+			this.pictureBox134.Location = new System.Drawing.Point(311, 64);
+			this.pictureBox134.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox134.Name = "pictureBox134";
+			this.pictureBox134.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox134.TabIndex = 1300;
+			this.pictureBox134.TabStop = false;
+			// 
+			// pictureBox159
+			// 
+			this.pictureBox159.BackgroundImage = global::BattleShips.Properties.Resources.sand_to_grass;
+			this.pictureBox159.Location = new System.Drawing.Point(279, 32);
+			this.pictureBox159.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox159.Name = "pictureBox159";
+			this.pictureBox159.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox159.TabIndex = 1299;
+			this.pictureBox159.TabStop = false;
+			// 
+			// pictureBox158
+			// 
+			this.pictureBox158.BackgroundImage = global::BattleShips.Properties.Resources.sand_to_grass;
+			this.pictureBox158.Location = new System.Drawing.Point(279, 0);
+			this.pictureBox158.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox158.Name = "pictureBox158";
+			this.pictureBox158.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox158.TabIndex = 1298;
+			this.pictureBox158.TabStop = false;
+			// 
+			// pictureBox135
+			// 
+			this.pictureBox135.BackgroundImage = global::BattleShips.Properties.Resources.woods2;
+			this.pictureBox135.Location = new System.Drawing.Point(311, 0);
+			this.pictureBox135.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox135.Name = "pictureBox135";
+			this.pictureBox135.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox135.TabIndex = 1297;
+			this.pictureBox135.TabStop = false;
+			// 
+			// pictureBox132
+			// 
+			this.pictureBox132.BackgroundImage = global::BattleShips.Properties.Resources.woods2;
+			this.pictureBox132.Location = new System.Drawing.Point(343, 0);
+			this.pictureBox132.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox132.Name = "pictureBox132";
+			this.pictureBox132.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox132.TabIndex = 1296;
+			this.pictureBox132.TabStop = false;
+			// 
+			// pictureBox123
+			// 
+			this.pictureBox123.BackgroundImage = global::BattleShips.Properties.Resources.sand_to_grass;
+			this.pictureBox123.Location = new System.Drawing.Point(311, 159);
+			this.pictureBox123.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox123.Name = "pictureBox123";
+			this.pictureBox123.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox123.TabIndex = 1295;
+			this.pictureBox123.TabStop = false;
+			// 
+			// pictureBox116
+			// 
+			this.pictureBox116.BackgroundImage = global::BattleShips.Properties.Resources.sand_to_grass;
+			this.pictureBox116.Location = new System.Drawing.Point(311, 127);
+			this.pictureBox116.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox116.Name = "pictureBox116";
+			this.pictureBox116.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox116.TabIndex = 1294;
+			this.pictureBox116.TabStop = false;
+			// 
+			// pictureBox120
+			// 
+			this.pictureBox120.BackgroundImage = global::BattleShips.Properties.Resources.sand_to_grass;
+			this.pictureBox120.Location = new System.Drawing.Point(279, 96);
+			this.pictureBox120.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox120.Name = "pictureBox120";
+			this.pictureBox120.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox120.TabIndex = 1293;
+			this.pictureBox120.TabStop = false;
+			// 
+			// pictureBox130
+			// 
+			this.pictureBox130.BackgroundImage = global::BattleShips.Properties.Resources.woods2;
+			this.pictureBox130.Location = new System.Drawing.Point(343, 160);
+			this.pictureBox130.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox130.Name = "pictureBox130";
+			this.pictureBox130.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox130.TabIndex = 1291;
+			this.pictureBox130.TabStop = false;
+			// 
+			// pictureBox118
+			// 
+			this.pictureBox118.BackgroundImage = global::BattleShips.Properties.Resources.tree;
+			this.pictureBox118.Location = new System.Drawing.Point(343, 192);
+			this.pictureBox118.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox118.Name = "pictureBox118";
+			this.pictureBox118.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox118.TabIndex = 1290;
+			this.pictureBox118.TabStop = false;
+			// 
+			// pictureBox133
+			// 
+			this.pictureBox133.BackgroundImage = global::BattleShips.Properties.Resources.woods2;
+			this.pictureBox133.Location = new System.Drawing.Point(375, 192);
+			this.pictureBox133.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox133.Name = "pictureBox133";
+			this.pictureBox133.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox133.TabIndex = 1289;
+			this.pictureBox133.TabStop = false;
+			// 
+			// pictureBox131
+			// 
+			this.pictureBox131.BackgroundImage = global::BattleShips.Properties.Resources.grass;
+			this.pictureBox131.Location = new System.Drawing.Point(375, 160);
+			this.pictureBox131.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox131.Name = "pictureBox131";
+			this.pictureBox131.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox131.TabIndex = 1288;
+			this.pictureBox131.TabStop = false;
+			// 
+			// pictureBox119
+			// 
+			this.pictureBox119.BackgroundImage = global::BattleShips.Properties.Resources.tree;
+			this.pictureBox119.Location = new System.Drawing.Point(375, 128);
+			this.pictureBox119.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox119.Name = "pictureBox119";
+			this.pictureBox119.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox119.TabIndex = 1286;
+			this.pictureBox119.TabStop = false;
+			// 
+			// pictureBox115
+			// 
+			this.pictureBox115.BackgroundImage = global::BattleShips.Properties.Resources.woods2;
+			this.pictureBox115.Location = new System.Drawing.Point(343, 96);
+			this.pictureBox115.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox115.Name = "pictureBox115";
+			this.pictureBox115.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox115.TabIndex = 1285;
+			this.pictureBox115.TabStop = false;
+			// 
+			// pictureBox112
+			// 
+			this.pictureBox112.BackgroundImage = global::BattleShips.Properties.Resources.grass;
+			this.pictureBox112.Location = new System.Drawing.Point(343, 32);
+			this.pictureBox112.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox112.Name = "pictureBox112";
+			this.pictureBox112.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox112.TabIndex = 1284;
+			this.pictureBox112.TabStop = false;
+			// 
+			// pictureBox109
+			// 
+			this.pictureBox109.BackgroundImage = global::BattleShips.Properties.Resources.woods2;
+			this.pictureBox109.Location = new System.Drawing.Point(343, 64);
+			this.pictureBox109.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox109.Name = "pictureBox109";
+			this.pictureBox109.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox109.TabIndex = 1283;
+			this.pictureBox109.TabStop = false;
+			// 
+			// pictureBox108
+			// 
+			this.pictureBox108.BackgroundImage = global::BattleShips.Properties.Resources.grass_trees;
+			this.pictureBox108.Location = new System.Drawing.Point(375, 32);
+			this.pictureBox108.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox108.Name = "pictureBox108";
+			this.pictureBox108.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox108.TabIndex = 1282;
+			this.pictureBox108.TabStop = false;
+			// 
+			// pictureBox107
+			// 
+			this.pictureBox107.BackgroundImage = global::BattleShips.Properties.Resources.woods2;
+			this.pictureBox107.Location = new System.Drawing.Point(311, 32);
+			this.pictureBox107.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox107.Name = "pictureBox107";
+			this.pictureBox107.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox107.TabIndex = 1281;
+			this.pictureBox107.TabStop = false;
+			// 
+			// pictureBox970
+			// 
+			this.pictureBox970.BackgroundImage = global::BattleShips.Properties.Resources.grass_trees;
+			this.pictureBox970.Location = new System.Drawing.Point(1269, 640);
+			this.pictureBox970.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox970.Name = "pictureBox970";
+			this.pictureBox970.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox970.TabIndex = 1280;
+			this.pictureBox970.TabStop = false;
+			// 
+			// pictureBox968
+			// 
+			this.pictureBox968.BackgroundImage = global::BattleShips.Properties.Resources.woods2;
+			this.pictureBox968.Location = new System.Drawing.Point(1269, 672);
+			this.pictureBox968.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox968.Name = "pictureBox968";
+			this.pictureBox968.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox968.TabIndex = 1279;
+			this.pictureBox968.TabStop = false;
+			// 
+			// pictureBox969
+			// 
+			this.pictureBox969.BackgroundImage = global::BattleShips.Properties.Resources.grass;
+			this.pictureBox969.Location = new System.Drawing.Point(1237, 672);
+			this.pictureBox969.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox969.Name = "pictureBox969";
+			this.pictureBox969.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox969.TabIndex = 1278;
+			this.pictureBox969.TabStop = false;
+			// 
+			// pictureBox967
+			// 
+			this.pictureBox967.BackgroundImage = global::BattleShips.Properties.Resources.woods2;
+			this.pictureBox967.Location = new System.Drawing.Point(1269, 414);
+			this.pictureBox967.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox967.Name = "pictureBox967";
+			this.pictureBox967.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox967.TabIndex = 1277;
+			this.pictureBox967.TabStop = false;
+			// 
+			// pictureBox966
+			// 
+			this.pictureBox966.BackgroundImage = global::BattleShips.Properties.Resources.grass;
+			this.pictureBox966.Location = new System.Drawing.Point(1237, 413);
+			this.pictureBox966.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox966.Name = "pictureBox966";
+			this.pictureBox966.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox966.TabIndex = 1276;
+			this.pictureBox966.TabStop = false;
+			// 
+			// pictureBox965
+			// 
+			this.pictureBox965.BackgroundImage = global::BattleShips.Properties.Resources.grass;
+			this.pictureBox965.Location = new System.Drawing.Point(1205, 414);
+			this.pictureBox965.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox965.Name = "pictureBox965";
+			this.pictureBox965.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox965.TabIndex = 1275;
+			this.pictureBox965.TabStop = false;
+			// 
+			// pictureBox964
+			// 
+			this.pictureBox964.BackgroundImage = global::BattleShips.Properties.Resources.tree;
+			this.pictureBox964.Location = new System.Drawing.Point(1173, 382);
+			this.pictureBox964.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox964.Name = "pictureBox964";
+			this.pictureBox964.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox964.TabIndex = 1274;
+			this.pictureBox964.TabStop = false;
+			// 
+			// pictureBox696
+			// 
+			this.pictureBox696.BackgroundImage = global::BattleShips.Properties.Resources.grass_trees;
+			this.pictureBox696.Location = new System.Drawing.Point(1237, 382);
+			this.pictureBox696.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox696.Name = "pictureBox696";
+			this.pictureBox696.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox696.TabIndex = 1273;
+			this.pictureBox696.TabStop = false;
+			// 
+			// pictureBox707
+			// 
+			this.pictureBox707.BackgroundImage = global::BattleShips.Properties.Resources.woods2;
+			this.pictureBox707.Location = new System.Drawing.Point(1205, 382);
+			this.pictureBox707.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox707.Name = "pictureBox707";
+			this.pictureBox707.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox707.TabIndex = 1272;
+			this.pictureBox707.TabStop = false;
+			// 
+			// pictureBox963
+			// 
+			this.pictureBox963.BackgroundImage = global::BattleShips.Properties.Resources.grass;
+			this.pictureBox963.Location = new System.Drawing.Point(1269, 382);
+			this.pictureBox963.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox963.Name = "pictureBox963";
+			this.pictureBox963.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox963.TabIndex = 1271;
+			this.pictureBox963.TabStop = false;
+			// 
+			// pictureBox648
+			// 
+			this.pictureBox648.BackgroundImage = global::BattleShips.Properties.Resources.grass_trees;
+			this.pictureBox648.Location = new System.Drawing.Point(823, 352);
+			this.pictureBox648.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox648.Name = "pictureBox648";
+			this.pictureBox648.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox648.TabIndex = 1270;
+			this.pictureBox648.TabStop = false;
+			// 
+			// pictureBox452
+			// 
+			this.pictureBox452.Image = global::BattleShips.Properties.Resources.ship_down;
+			this.pictureBox452.Location = new System.Drawing.Point(128, 498);
+			this.pictureBox452.Name = "pictureBox452";
+			this.pictureBox452.Size = new System.Drawing.Size(64, 160);
+			this.pictureBox452.TabIndex = 818;
+			this.pictureBox452.TabStop = false;
+			// 
 			// explosion_image
 			// 
 			this.explosion_image.BackColor = System.Drawing.Color.Transparent;
 			this.explosion_image.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.explosion_image.Location = new System.Drawing.Point(375, 160);
+			this.explosion_image.Location = new System.Drawing.Point(391, 78);
 			this.explosion_image.Name = "explosion_image";
 			this.explosion_image.Size = new System.Drawing.Size(30, 30);
 			this.explosion_image.TabIndex = 1269;
@@ -5227,7 +3599,7 @@
 			this.SetShipsButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
 			this.SetShipsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.SetShipsButton.Font = new System.Drawing.Font("Pixel-Art", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.SetShipsButton.Location = new System.Drawing.Point(789, 579);
+			this.SetShipsButton.Location = new System.Drawing.Point(498, 356);
 			this.SetShipsButton.Name = "SetShipsButton";
 			this.SetShipsButton.Size = new System.Drawing.Size(80, 25);
 			this.SetShipsButton.TabIndex = 38;
@@ -6495,6 +4867,20 @@
 			this.pictureBox917.TabIndex = 1143;
 			this.pictureBox917.TabStop = false;
 			// 
+			// exit_button
+			// 
+			this.exit_button.BackgroundImage = global::BattleShips.Properties.Resources.smallButton;
+			this.exit_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+			this.exit_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.exit_button.Font = new System.Drawing.Font("Pixel-Art", 9.75F);
+			this.exit_button.Location = new System.Drawing.Point(1190, 709);
+			this.exit_button.Name = "exit_button";
+			this.exit_button.Size = new System.Drawing.Size(80, 25);
+			this.exit_button.TabIndex = 127;
+			this.exit_button.Text = "Exit ";
+			this.exit_button.UseVisualStyleBackColor = true;
+			this.exit_button.Click += new System.EventHandler(this.exit_button_Click);
+			// 
 			// pictureBox717
 			// 
 			this.pictureBox717.BackgroundImage = global::BattleShips.Properties.Resources.woods2;
@@ -7101,16 +5487,30 @@
 			// 
 			this.FireButton.BackgroundImage = global::BattleShips.Properties.Resources.smallButton1;
 			this.FireButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-			this.FireButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.FireButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.FireButton.Font = new System.Drawing.Font("Pixel-Art", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.FireButton.ForeColor = System.Drawing.Color.Black;
-			this.FireButton.Location = new System.Drawing.Point(968, 274);
+			this.FireButton.Location = new System.Drawing.Point(678, 356);
 			this.FireButton.Name = "FireButton";
 			this.FireButton.Size = new System.Drawing.Size(80, 25);
 			this.FireButton.TabIndex = 34;
 			this.FireButton.Text = "Fire!";
 			this.FireButton.UseVisualStyleBackColor = true;
 			this.FireButton.Click += new System.EventHandler(this.FireButton_Click);
+			// 
+			// cheat_button
+			// 
+			this.cheat_button.BackgroundImage = global::BattleShips.Properties.Resources.smallButton;
+			this.cheat_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+			this.cheat_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.cheat_button.Font = new System.Drawing.Font("Pixel-Art", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.cheat_button.Location = new System.Drawing.Point(786, 7);
+			this.cheat_button.Name = "cheat_button";
+			this.cheat_button.Size = new System.Drawing.Size(80, 25);
+			this.cheat_button.TabIndex = 121;
+			this.cheat_button.Text = "cheat";
+			this.cheat_button.UseVisualStyleBackColor = true;
+			this.cheat_button.Click += new System.EventHandler(this.cheat_button_Click);
 			// 
 			// pictureBox677
 			// 
@@ -7374,17 +5774,6 @@
 			this.pictureBox649.TabIndex = 853;
 			this.pictureBox649.TabStop = false;
 			// 
-			// pictureBox648
-			// 
-			this.pictureBox648.BackgroundImage = global::BattleShips.Properties.Resources.sand_light;
-			this.pictureBox648.Image = global::BattleShips.Properties.Resources.sand_hard;
-			this.pictureBox648.Location = new System.Drawing.Point(823, 352);
-			this.pictureBox648.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox648.Name = "pictureBox648";
-			this.pictureBox648.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox648.TabIndex = 852;
-			this.pictureBox648.TabStop = false;
-			// 
 			// pictureBox646
 			// 
 			this.pictureBox646.BackgroundImage = global::BattleShips.Properties.Resources.sand_to_grass;
@@ -7544,15 +5933,6 @@
 			this.pictureBox634.Size = new System.Drawing.Size(32, 32);
 			this.pictureBox634.TabIndex = 826;
 			this.pictureBox634.TabStop = false;
-			// 
-			// pictureBox452
-			// 
-			this.pictureBox452.Image = global::BattleShips.Properties.Resources.ship_down;
-			this.pictureBox452.Location = new System.Drawing.Point(128, 498);
-			this.pictureBox452.Name = "pictureBox452";
-			this.pictureBox452.Size = new System.Drawing.Size(64, 160);
-			this.pictureBox452.TabIndex = 818;
-			this.pictureBox452.TabStop = false;
 			// 
 			// pictureBox618
 			// 
@@ -10519,6 +8899,7 @@
 			this.ActionButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ActionButton.FlatAppearance.BorderSize = 0;
 			this.ActionButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.ActionButton.Font = new System.Drawing.Font("Pixel-Art", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.ActionButton.Location = new System.Drawing.Point(578, 345);
 			this.ActionButton.Margin = new System.Windows.Forms.Padding(0);
 			this.ActionButton.Name = "ActionButton";
@@ -11313,16 +9694,6 @@
 			this.pictureBox203.TabIndex = 349;
 			this.pictureBox203.TabStop = false;
 			// 
-			// pictureBox202
-			// 
-			this.pictureBox202.BackgroundImage = global::BattleShips.Properties.Resources.sand_light;
-			this.pictureBox202.Location = new System.Drawing.Point(407, 352);
-			this.pictureBox202.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox202.Name = "pictureBox202";
-			this.pictureBox202.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox202.TabIndex = 348;
-			this.pictureBox202.TabStop = false;
-			// 
 			// pictureBox201
 			// 
 			this.pictureBox201.BackgroundImage = global::BattleShips.Properties.Resources.grass;
@@ -11593,16 +9964,6 @@
 			this.pictureBox138.TabIndex = 302;
 			this.pictureBox138.TabStop = false;
 			// 
-			// pictureBox168
-			// 
-			this.pictureBox168.BackgroundImage = global::BattleShips.Properties.Resources.grass;
-			this.pictureBox168.Location = new System.Drawing.Point(215, 320);
-			this.pictureBox168.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox168.Name = "pictureBox168";
-			this.pictureBox168.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox168.TabIndex = 301;
-			this.pictureBox168.TabStop = false;
-			// 
 			// pictureBox167
 			// 
 			this.pictureBox167.BackgroundImage = global::BattleShips.Properties.Resources.grass;
@@ -11672,26 +10033,6 @@
 			this.pictureBox160.Size = new System.Drawing.Size(32, 32);
 			this.pictureBox160.TabIndex = 293;
 			this.pictureBox160.TabStop = false;
-			// 
-			// pictureBox159
-			// 
-			this.pictureBox159.BackgroundImage = global::BattleShips.Properties.Resources.sand_light;
-			this.pictureBox159.Location = new System.Drawing.Point(279, 0);
-			this.pictureBox159.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox159.Name = "pictureBox159";
-			this.pictureBox159.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox159.TabIndex = 292;
-			this.pictureBox159.TabStop = false;
-			// 
-			// pictureBox158
-			// 
-			this.pictureBox158.BackgroundImage = global::BattleShips.Properties.Resources.sand_bigGrass;
-			this.pictureBox158.Location = new System.Drawing.Point(279, 32);
-			this.pictureBox158.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox158.Name = "pictureBox158";
-			this.pictureBox158.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox158.TabIndex = 291;
-			this.pictureBox158.TabStop = false;
 			// 
 			// pictureBox157
 			// 
@@ -11775,16 +10116,6 @@
 			this.pictureBox146.TabIndex = 279;
 			this.pictureBox146.TabStop = false;
 			// 
-			// pictureBox145
-			// 
-			this.pictureBox145.BackgroundImage = global::BattleShips.Properties.Resources.grass;
-			this.pictureBox145.Location = new System.Drawing.Point(247, 192);
-			this.pictureBox145.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox145.Name = "pictureBox145";
-			this.pictureBox145.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox145.TabIndex = 278;
-			this.pictureBox145.TabStop = false;
-			// 
 			// pictureBox144
 			// 
 			this.pictureBox144.BackgroundImage = global::BattleShips.Properties.Resources.grass;
@@ -11846,56 +10177,6 @@
 			this.pictureBox136.TabIndex = 269;
 			this.pictureBox136.TabStop = false;
 			// 
-			// pictureBox132
-			// 
-			this.pictureBox132.BackgroundImage = global::BattleShips.Properties.Resources.sand_light;
-			this.pictureBox132.Location = new System.Drawing.Point(311, 0);
-			this.pictureBox132.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox132.Name = "pictureBox132";
-			this.pictureBox132.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox132.TabIndex = 268;
-			this.pictureBox132.TabStop = false;
-			// 
-			// pictureBox121
-			// 
-			this.pictureBox121.BackgroundImage = global::BattleShips.Properties.Resources.sand_light;
-			this.pictureBox121.Location = new System.Drawing.Point(343, 32);
-			this.pictureBox121.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox121.Name = "pictureBox121";
-			this.pictureBox121.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox121.TabIndex = 267;
-			this.pictureBox121.TabStop = false;
-			// 
-			// pictureBox117
-			// 
-			this.pictureBox117.BackgroundImage = global::BattleShips.Properties.Resources.sand_light;
-			this.pictureBox117.Location = new System.Drawing.Point(375, 256);
-			this.pictureBox117.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox117.Name = "pictureBox117";
-			this.pictureBox117.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox117.TabIndex = 266;
-			this.pictureBox117.TabStop = false;
-			// 
-			// pictureBox116
-			// 
-			this.pictureBox116.BackgroundImage = global::BattleShips.Properties.Resources.sand_light;
-			this.pictureBox116.Location = new System.Drawing.Point(311, 96);
-			this.pictureBox116.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox116.Name = "pictureBox116";
-			this.pictureBox116.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox116.TabIndex = 265;
-			this.pictureBox116.TabStop = false;
-			// 
-			// pictureBox115
-			// 
-			this.pictureBox115.BackgroundImage = global::BattleShips.Properties.Resources.sand_light;
-			this.pictureBox115.Location = new System.Drawing.Point(343, 96);
-			this.pictureBox115.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox115.Name = "pictureBox115";
-			this.pictureBox115.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox115.TabIndex = 264;
-			this.pictureBox115.TabStop = false;
-			// 
 			// pictureBox105
 			// 
 			this.pictureBox105.BackgroundImage = global::BattleShips.Properties.Resources.sand_light;
@@ -11916,36 +10197,6 @@
 			this.pictureBox114.TabIndex = 262;
 			this.pictureBox114.TabStop = false;
 			// 
-			// pictureBox118
-			// 
-			this.pictureBox118.BackgroundImage = global::BattleShips.Properties.Resources.sand_light;
-			this.pictureBox118.Location = new System.Drawing.Point(311, 192);
-			this.pictureBox118.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox118.Name = "pictureBox118";
-			this.pictureBox118.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox118.TabIndex = 258;
-			this.pictureBox118.TabStop = false;
-			// 
-			// pictureBox119
-			// 
-			this.pictureBox119.BackgroundImage = global::BattleShips.Properties.Resources.sand_light;
-			this.pictureBox119.Location = new System.Drawing.Point(311, 32);
-			this.pictureBox119.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox119.Name = "pictureBox119";
-			this.pictureBox119.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox119.TabIndex = 257;
-			this.pictureBox119.TabStop = false;
-			// 
-			// pictureBox120
-			// 
-			this.pictureBox120.BackgroundImage = global::BattleShips.Properties.Resources.sand_light;
-			this.pictureBox120.Location = new System.Drawing.Point(311, 128);
-			this.pictureBox120.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox120.Name = "pictureBox120";
-			this.pictureBox120.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox120.TabIndex = 256;
-			this.pictureBox120.TabStop = false;
-			// 
 			// pictureBox122
 			// 
 			this.pictureBox122.BackgroundImage = global::BattleShips.Properties.Resources.sand_light;
@@ -11955,16 +10206,6 @@
 			this.pictureBox122.Size = new System.Drawing.Size(32, 32);
 			this.pictureBox122.TabIndex = 254;
 			this.pictureBox122.TabStop = false;
-			// 
-			// pictureBox123
-			// 
-			this.pictureBox123.BackgroundImage = global::BattleShips.Properties.Resources.sand_bigGrass;
-			this.pictureBox123.Location = new System.Drawing.Point(311, 160);
-			this.pictureBox123.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox123.Name = "pictureBox123";
-			this.pictureBox123.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox123.TabIndex = 253;
-			this.pictureBox123.TabStop = false;
 			// 
 			// pictureBox124
 			// 
@@ -11996,16 +10237,6 @@
 			this.pictureBox126.TabIndex = 250;
 			this.pictureBox126.TabStop = false;
 			// 
-			// pictureBox127
-			// 
-			this.pictureBox127.BackgroundImage = global::BattleShips.Properties.Resources.sand_smallGrass;
-			this.pictureBox127.Location = new System.Drawing.Point(343, 256);
-			this.pictureBox127.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox127.Name = "pictureBox127";
-			this.pictureBox127.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox127.TabIndex = 249;
-			this.pictureBox127.TabStop = false;
-			// 
 			// pictureBox128
 			// 
 			this.pictureBox128.BackgroundImage = global::BattleShips.Properties.Resources.sand_bigGrass;
@@ -12015,66 +10246,6 @@
 			this.pictureBox128.Size = new System.Drawing.Size(32, 32);
 			this.pictureBox128.TabIndex = 248;
 			this.pictureBox128.TabStop = false;
-			// 
-			// pictureBox129
-			// 
-			this.pictureBox129.BackgroundImage = global::BattleShips.Properties.Resources.sand_light;
-			this.pictureBox129.Location = new System.Drawing.Point(343, 192);
-			this.pictureBox129.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox129.Name = "pictureBox129";
-			this.pictureBox129.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox129.TabIndex = 247;
-			this.pictureBox129.TabStop = false;
-			// 
-			// pictureBox130
-			// 
-			this.pictureBox130.BackgroundImage = global::BattleShips.Properties.Resources.sand_light;
-			this.pictureBox130.Location = new System.Drawing.Point(343, 160);
-			this.pictureBox130.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox130.Name = "pictureBox130";
-			this.pictureBox130.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox130.TabIndex = 246;
-			this.pictureBox130.TabStop = false;
-			// 
-			// pictureBox131
-			// 
-			this.pictureBox131.BackgroundImage = global::BattleShips.Properties.Resources.sand_light;
-			this.pictureBox131.Location = new System.Drawing.Point(343, 128);
-			this.pictureBox131.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox131.Name = "pictureBox131";
-			this.pictureBox131.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox131.TabIndex = 245;
-			this.pictureBox131.TabStop = false;
-			// 
-			// pictureBox133
-			// 
-			this.pictureBox133.BackgroundImage = global::BattleShips.Properties.Resources.sand_light;
-			this.pictureBox133.Location = new System.Drawing.Point(343, 64);
-			this.pictureBox133.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox133.Name = "pictureBox133";
-			this.pictureBox133.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox133.TabIndex = 243;
-			this.pictureBox133.TabStop = false;
-			// 
-			// pictureBox134
-			// 
-			this.pictureBox134.BackgroundImage = global::BattleShips.Properties.Resources.sand_bigGrass;
-			this.pictureBox134.Location = new System.Drawing.Point(311, 64);
-			this.pictureBox134.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox134.Name = "pictureBox134";
-			this.pictureBox134.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox134.TabIndex = 242;
-			this.pictureBox134.TabStop = false;
-			// 
-			// pictureBox135
-			// 
-			this.pictureBox135.BackgroundImage = global::BattleShips.Properties.Resources.sand_light;
-			this.pictureBox135.Location = new System.Drawing.Point(343, 0);
-			this.pictureBox135.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox135.Name = "pictureBox135";
-			this.pictureBox135.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox135.TabIndex = 241;
-			this.pictureBox135.TabStop = false;
 			// 
 			// pictureBox103
 			// 
@@ -12086,16 +10257,6 @@
 			this.pictureBox103.TabIndex = 240;
 			this.pictureBox103.TabStop = false;
 			// 
-			// pictureBox104
-			// 
-			this.pictureBox104.BackgroundImage = global::BattleShips.Properties.Resources.sand_bigGrass;
-			this.pictureBox104.Location = new System.Drawing.Point(375, 0);
-			this.pictureBox104.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox104.Name = "pictureBox104";
-			this.pictureBox104.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox104.TabIndex = 239;
-			this.pictureBox104.TabStop = false;
-			// 
 			// pictureBox106
 			// 
 			this.pictureBox106.BackgroundImage = global::BattleShips.Properties.Resources.sand_bigGrass;
@@ -12106,36 +10267,6 @@
 			this.pictureBox106.TabIndex = 237;
 			this.pictureBox106.TabStop = false;
 			// 
-			// pictureBox107
-			// 
-			this.pictureBox107.BackgroundImage = global::BattleShips.Properties.Resources.sand_light;
-			this.pictureBox107.Location = new System.Drawing.Point(375, 192);
-			this.pictureBox107.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox107.Name = "pictureBox107";
-			this.pictureBox107.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox107.TabIndex = 236;
-			this.pictureBox107.TabStop = false;
-			// 
-			// pictureBox108
-			// 
-			this.pictureBox108.BackgroundImage = global::BattleShips.Properties.Resources.sand_light;
-			this.pictureBox108.Location = new System.Drawing.Point(375, 32);
-			this.pictureBox108.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox108.Name = "pictureBox108";
-			this.pictureBox108.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox108.TabIndex = 235;
-			this.pictureBox108.TabStop = false;
-			// 
-			// pictureBox109
-			// 
-			this.pictureBox109.BackgroundImage = global::BattleShips.Properties.Resources.sand_light;
-			this.pictureBox109.Location = new System.Drawing.Point(375, 128);
-			this.pictureBox109.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox109.Name = "pictureBox109";
-			this.pictureBox109.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox109.TabIndex = 234;
-			this.pictureBox109.TabStop = false;
-			// 
 			// pictureBox110
 			// 
 			this.pictureBox110.BackgroundImage = global::BattleShips.Properties.Resources.sand_smallGrass;
@@ -12145,106 +10276,6 @@
 			this.pictureBox110.Size = new System.Drawing.Size(32, 32);
 			this.pictureBox110.TabIndex = 233;
 			this.pictureBox110.TabStop = false;
-			// 
-			// pictureBox111
-			// 
-			this.pictureBox111.BackgroundImage = global::BattleShips.Properties.Resources.sand_light;
-			this.pictureBox111.Location = new System.Drawing.Point(375, 224);
-			this.pictureBox111.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox111.Name = "pictureBox111";
-			this.pictureBox111.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox111.TabIndex = 232;
-			this.pictureBox111.TabStop = false;
-			// 
-			// pictureBox112
-			// 
-			this.pictureBox112.BackgroundImage = global::BattleShips.Properties.Resources.sand_bigGrass;
-			this.pictureBox112.Location = new System.Drawing.Point(375, 160);
-			this.pictureBox112.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox112.Name = "pictureBox112";
-			this.pictureBox112.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox112.TabIndex = 231;
-			this.pictureBox112.TabStop = false;
-			// 
-			// pictureBox113
-			// 
-			this.pictureBox113.BackgroundImage = global::BattleShips.Properties.Resources.sand_light;
-			this.pictureBox113.Location = new System.Drawing.Point(375, 288);
-			this.pictureBox113.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox113.Name = "pictureBox113";
-			this.pictureBox113.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox113.TabIndex = 230;
-			this.pictureBox113.TabStop = false;
-			// 
-			// pictureBox102
-			// 
-			this.pictureBox102.BackgroundImage = global::BattleShips.Properties.Resources.sand_light;
-			this.pictureBox102.Location = new System.Drawing.Point(407, 320);
-			this.pictureBox102.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox102.Name = "pictureBox102";
-			this.pictureBox102.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox102.TabIndex = 229;
-			this.pictureBox102.TabStop = false;
-			// 
-			// pictureBox101
-			// 
-			this.pictureBox101.BackgroundImage = global::BattleShips.Properties.Resources.sand_bigGrass;
-			this.pictureBox101.Location = new System.Drawing.Point(407, 288);
-			this.pictureBox101.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox101.Name = "pictureBox101";
-			this.pictureBox101.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox101.TabIndex = 228;
-			this.pictureBox101.TabStop = false;
-			// 
-			// pictureBox100
-			// 
-			this.pictureBox100.BackgroundImage = global::BattleShips.Properties.Resources.sand_smallGrass;
-			this.pictureBox100.Location = new System.Drawing.Point(407, 256);
-			this.pictureBox100.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox100.Name = "pictureBox100";
-			this.pictureBox100.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox100.TabIndex = 227;
-			this.pictureBox100.TabStop = false;
-			// 
-			// pictureBox99
-			// 
-			this.pictureBox99.BackgroundImage = global::BattleShips.Properties.Resources.sand_bigGrass;
-			this.pictureBox99.Location = new System.Drawing.Point(407, 224);
-			this.pictureBox99.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox99.Name = "pictureBox99";
-			this.pictureBox99.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox99.TabIndex = 226;
-			this.pictureBox99.TabStop = false;
-			// 
-			// pictureBox98
-			// 
-			this.pictureBox98.BackgroundImage = global::BattleShips.Properties.Resources.sand_light;
-			this.pictureBox98.Location = new System.Drawing.Point(407, 192);
-			this.pictureBox98.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox98.Name = "pictureBox98";
-			this.pictureBox98.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox98.TabIndex = 225;
-			this.pictureBox98.TabStop = false;
-			// 
-			// pictureBox97
-			// 
-			this.pictureBox97.BackgroundImage = global::BattleShips.Properties.Resources.sand_light;
-			this.pictureBox97.Location = new System.Drawing.Point(407, 160);
-			this.pictureBox97.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox97.Name = "pictureBox97";
-			this.pictureBox97.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox97.TabIndex = 224;
-			this.pictureBox97.TabStop = false;
-			// 
-			// pictureBox96
-			// 
-			this.pictureBox96.BackgroundImage = global::BattleShips.Properties.Resources.sand_light;
-			this.pictureBox96.Location = new System.Drawing.Point(407, 128);
-			this.pictureBox96.Margin = new System.Windows.Forms.Padding(0);
-			this.pictureBox96.Name = "pictureBox96";
-			this.pictureBox96.Size = new System.Drawing.Size(32, 32);
-			this.pictureBox96.TabIndex = 223;
-			this.pictureBox96.TabStop = false;
 			// 
 			// pictureBox95
 			// 
@@ -12515,6 +10546,1136 @@
 			this.FishingBoat_icon.TabIndex = 49;
 			this.FishingBoat_icon.TabStop = false;
 			this.FishingBoat_icon.Visible = false;
+			// 
+			// PiratesShip_vertical_enemy
+			// 
+			this.PiratesShip_vertical_enemy.Image = global::BattleShips.Properties.Resources.PiratesShip_vertical;
+			this.PiratesShip_vertical_enemy.Location = new System.Drawing.Point(267, 137);
+			this.PiratesShip_vertical_enemy.Name = "PiratesShip_vertical_enemy";
+			this.PiratesShip_vertical_enemy.Size = new System.Drawing.Size(30, 150);
+			this.PiratesShip_vertical_enemy.TabIndex = 119;
+			this.PiratesShip_vertical_enemy.TabStop = false;
+			this.PiratesShip_vertical_enemy.Visible = false;
+			// 
+			// EnemyField_J10
+			// 
+			this.EnemyField_J10.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_J10.Image")));
+			this.EnemyField_J10.Location = new System.Drawing.Point(270, 270);
+			this.EnemyField_J10.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_J10.Name = "EnemyField_J10";
+			this.EnemyField_J10.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_J10.TabIndex = 99;
+			this.EnemyField_J10.TabStop = false;
+			// 
+			// PiratesShip_horizontal_enemy
+			// 
+			this.PiratesShip_horizontal_enemy.Image = global::BattleShips.Properties.Resources.PiratesShip_horizontal;
+			this.PiratesShip_horizontal_enemy.Location = new System.Drawing.Point(8, 240);
+			this.PiratesShip_horizontal_enemy.Name = "PiratesShip_horizontal_enemy";
+			this.PiratesShip_horizontal_enemy.Size = new System.Drawing.Size(150, 30);
+			this.PiratesShip_horizontal_enemy.TabIndex = 118;
+			this.PiratesShip_horizontal_enemy.TabStop = false;
+			this.PiratesShip_horizontal_enemy.Visible = false;
+			// 
+			// Galleon_horizontal_enemy
+			// 
+			this.Galleon_horizontal_enemy.Image = global::BattleShips.Properties.Resources.Galleon_horizontal;
+			this.Galleon_horizontal_enemy.Location = new System.Drawing.Point(93, 183);
+			this.Galleon_horizontal_enemy.Name = "Galleon_horizontal_enemy";
+			this.Galleon_horizontal_enemy.Size = new System.Drawing.Size(120, 30);
+			this.Galleon_horizontal_enemy.TabIndex = 114;
+			this.Galleon_horizontal_enemy.TabStop = false;
+			this.Galleon_horizontal_enemy.Visible = false;
+			// 
+			// Galleon_vertical_enemy
+			// 
+			this.Galleon_vertical_enemy.Image = global::BattleShips.Properties.Resources.Galleon_vertical;
+			this.Galleon_vertical_enemy.Location = new System.Drawing.Point(237, 11);
+			this.Galleon_vertical_enemy.Name = "Galleon_vertical_enemy";
+			this.Galleon_vertical_enemy.Size = new System.Drawing.Size(30, 120);
+			this.Galleon_vertical_enemy.TabIndex = 115;
+			this.Galleon_vertical_enemy.TabStop = false;
+			this.Galleon_vertical_enemy.Visible = false;
+			// 
+			// Brigantine_vertical_enemy
+			// 
+			this.Brigantine_vertical_enemy.Image = global::BattleShips.Properties.Resources.Sloop_vertical;
+			this.Brigantine_vertical_enemy.Location = new System.Drawing.Point(153, 3);
+			this.Brigantine_vertical_enemy.Name = "Brigantine_vertical_enemy";
+			this.Brigantine_vertical_enemy.Size = new System.Drawing.Size(30, 90);
+			this.Brigantine_vertical_enemy.TabIndex = 117;
+			this.Brigantine_vertical_enemy.TabStop = false;
+			this.Brigantine_vertical_enemy.Visible = false;
+			// 
+			// Brigantine_horizontal_enemy
+			// 
+			this.Brigantine_horizontal_enemy.Image = global::BattleShips.Properties.Resources.Sloop_horizontal;
+			this.Brigantine_horizontal_enemy.Location = new System.Drawing.Point(170, 267);
+			this.Brigantine_horizontal_enemy.Name = "Brigantine_horizontal_enemy";
+			this.Brigantine_horizontal_enemy.Size = new System.Drawing.Size(90, 30);
+			this.Brigantine_horizontal_enemy.TabIndex = 116;
+			this.Brigantine_horizontal_enemy.TabStop = false;
+			this.Brigantine_horizontal_enemy.Visible = false;
+			// 
+			// EnemyField_J3
+			// 
+			this.EnemyField_J3.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_J3.Image")));
+			this.EnemyField_J3.Location = new System.Drawing.Point(60, 270);
+			this.EnemyField_J3.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_J3.Name = "EnemyField_J3";
+			this.EnemyField_J3.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_J3.TabIndex = 92;
+			this.EnemyField_J3.TabStop = false;
+			// 
+			// EnemyField_J2
+			// 
+			this.EnemyField_J2.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_J2.Image")));
+			this.EnemyField_J2.Location = new System.Drawing.Point(30, 270);
+			this.EnemyField_J2.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_J2.Name = "EnemyField_J2";
+			this.EnemyField_J2.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_J2.TabIndex = 91;
+			this.EnemyField_J2.TabStop = false;
+			// 
+			// Sloop_horizontal_enemy
+			// 
+			this.Sloop_horizontal_enemy.Image = global::BattleShips.Properties.Resources.Sloop_horizontal1;
+			this.Sloop_horizontal_enemy.Location = new System.Drawing.Point(117, 147);
+			this.Sloop_horizontal_enemy.Name = "Sloop_horizontal_enemy";
+			this.Sloop_horizontal_enemy.Size = new System.Drawing.Size(90, 30);
+			this.Sloop_horizontal_enemy.TabIndex = 112;
+			this.Sloop_horizontal_enemy.TabStop = false;
+			this.Sloop_horizontal_enemy.Visible = false;
+			// 
+			// EnemyField_I10
+			// 
+			this.EnemyField_I10.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_I10.Image")));
+			this.EnemyField_I10.Location = new System.Drawing.Point(270, 240);
+			this.EnemyField_I10.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_I10.Name = "EnemyField_I10";
+			this.EnemyField_I10.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_I10.TabIndex = 90;
+			this.EnemyField_I10.TabStop = false;
+			// 
+			// EnemyField_I9
+			// 
+			this.EnemyField_I9.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_I9.Image")));
+			this.EnemyField_I9.Location = new System.Drawing.Point(240, 240);
+			this.EnemyField_I9.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_I9.Name = "EnemyField_I9";
+			this.EnemyField_I9.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_I9.TabIndex = 89;
+			this.EnemyField_I9.TabStop = false;
+			// 
+			// EnemyField_I8
+			// 
+			this.EnemyField_I8.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_I8.Image")));
+			this.EnemyField_I8.Location = new System.Drawing.Point(210, 240);
+			this.EnemyField_I8.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_I8.Name = "EnemyField_I8";
+			this.EnemyField_I8.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_I8.TabIndex = 88;
+			this.EnemyField_I8.TabStop = false;
+			// 
+			// Sloop_vertical_enemy
+			// 
+			this.Sloop_vertical_enemy.Image = global::BattleShips.Properties.Resources.Sloop_vertical;
+			this.Sloop_vertical_enemy.Location = new System.Drawing.Point(93, 41);
+			this.Sloop_vertical_enemy.Name = "Sloop_vertical_enemy";
+			this.Sloop_vertical_enemy.Size = new System.Drawing.Size(30, 90);
+			this.Sloop_vertical_enemy.TabIndex = 113;
+			this.Sloop_vertical_enemy.TabStop = false;
+			this.Sloop_vertical_enemy.Visible = false;
+			// 
+			// EnemyField_I7
+			// 
+			this.EnemyField_I7.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_I7.Image")));
+			this.EnemyField_I7.Location = new System.Drawing.Point(180, 240);
+			this.EnemyField_I7.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_I7.Name = "EnemyField_I7";
+			this.EnemyField_I7.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_I7.TabIndex = 87;
+			this.EnemyField_I7.TabStop = false;
+			// 
+			// EnemyField_I6
+			// 
+			this.EnemyField_I6.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_I6.Image")));
+			this.EnemyField_I6.Location = new System.Drawing.Point(150, 240);
+			this.EnemyField_I6.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_I6.Name = "EnemyField_I6";
+			this.EnemyField_I6.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_I6.TabIndex = 86;
+			this.EnemyField_I6.TabStop = false;
+			// 
+			// EnemyField_I5
+			// 
+			this.EnemyField_I5.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_I5.Image")));
+			this.EnemyField_I5.Location = new System.Drawing.Point(120, 240);
+			this.EnemyField_I5.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_I5.Name = "EnemyField_I5";
+			this.EnemyField_I5.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_I5.TabIndex = 85;
+			this.EnemyField_I5.TabStop = false;
+			// 
+			// FishingBoat_horizontal_enemy
+			// 
+			this.FishingBoat_horizontal_enemy.Image = global::BattleShips.Properties.Resources.Fishing_vessel_water;
+			this.FishingBoat_horizontal_enemy.Location = new System.Drawing.Point(30, 0);
+			this.FishingBoat_horizontal_enemy.Name = "FishingBoat_horizontal_enemy";
+			this.FishingBoat_horizontal_enemy.Size = new System.Drawing.Size(60, 30);
+			this.FishingBoat_horizontal_enemy.TabIndex = 110;
+			this.FishingBoat_horizontal_enemy.TabStop = false;
+			this.FishingBoat_horizontal_enemy.Visible = false;
+			// 
+			// EnemyField_I4
+			// 
+			this.EnemyField_I4.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_I4.Image")));
+			this.EnemyField_I4.Location = new System.Drawing.Point(90, 240);
+			this.EnemyField_I4.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_I4.Name = "EnemyField_I4";
+			this.EnemyField_I4.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_I4.TabIndex = 84;
+			this.EnemyField_I4.TabStop = false;
+			// 
+			// FishingBoat_vertical_enemy
+			// 
+			this.FishingBoat_vertical_enemy.Image = global::BattleShips.Properties.Resources.Fishing_vessel_water_vertical;
+			this.FishingBoat_vertical_enemy.Location = new System.Drawing.Point(0, 63);
+			this.FishingBoat_vertical_enemy.Name = "FishingBoat_vertical_enemy";
+			this.FishingBoat_vertical_enemy.Size = new System.Drawing.Size(30, 60);
+			this.FishingBoat_vertical_enemy.TabIndex = 111;
+			this.FishingBoat_vertical_enemy.TabStop = false;
+			this.FishingBoat_vertical_enemy.Visible = false;
+			// 
+			// EnemyField_I3
+			// 
+			this.EnemyField_I3.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_I3.Image")));
+			this.EnemyField_I3.Location = new System.Drawing.Point(60, 240);
+			this.EnemyField_I3.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_I3.Name = "EnemyField_I3";
+			this.EnemyField_I3.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_I3.TabIndex = 83;
+			this.EnemyField_I3.TabStop = false;
+			// 
+			// EnemyField_I2
+			// 
+			this.EnemyField_I2.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_I2.Image")));
+			this.EnemyField_I2.Location = new System.Drawing.Point(30, 240);
+			this.EnemyField_I2.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_I2.Name = "EnemyField_I2";
+			this.EnemyField_I2.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_I2.TabIndex = 82;
+			this.EnemyField_I2.TabStop = false;
+			// 
+			// EnemyField_H10
+			// 
+			this.EnemyField_H10.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_H10.Image")));
+			this.EnemyField_H10.Location = new System.Drawing.Point(270, 210);
+			this.EnemyField_H10.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_H10.Name = "EnemyField_H10";
+			this.EnemyField_H10.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_H10.TabIndex = 81;
+			this.EnemyField_H10.TabStop = false;
+			// 
+			// EnemyField_H9
+			// 
+			this.EnemyField_H9.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_H9.Image")));
+			this.EnemyField_H9.Location = new System.Drawing.Point(240, 210);
+			this.EnemyField_H9.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_H9.Name = "EnemyField_H9";
+			this.EnemyField_H9.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_H9.TabIndex = 80;
+			this.EnemyField_H9.TabStop = false;
+			// 
+			// EnemyField_H8
+			// 
+			this.EnemyField_H8.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_H8.Image")));
+			this.EnemyField_H8.Location = new System.Drawing.Point(210, 210);
+			this.EnemyField_H8.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_H8.Name = "EnemyField_H8";
+			this.EnemyField_H8.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_H8.TabIndex = 79;
+			this.EnemyField_H8.TabStop = false;
+			// 
+			// EnemyField_H7
+			// 
+			this.EnemyField_H7.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_H7.Image")));
+			this.EnemyField_H7.Location = new System.Drawing.Point(180, 210);
+			this.EnemyField_H7.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_H7.Name = "EnemyField_H7";
+			this.EnemyField_H7.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_H7.TabIndex = 78;
+			this.EnemyField_H7.TabStop = false;
+			// 
+			// EnemyField_H6
+			// 
+			this.EnemyField_H6.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_H6.Image")));
+			this.EnemyField_H6.Location = new System.Drawing.Point(150, 210);
+			this.EnemyField_H6.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_H6.Name = "EnemyField_H6";
+			this.EnemyField_H6.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_H6.TabIndex = 77;
+			this.EnemyField_H6.TabStop = false;
+			// 
+			// EnemyField_H5
+			// 
+			this.EnemyField_H5.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_H5.Image")));
+			this.EnemyField_H5.Location = new System.Drawing.Point(120, 210);
+			this.EnemyField_H5.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_H5.Name = "EnemyField_H5";
+			this.EnemyField_H5.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_H5.TabIndex = 76;
+			this.EnemyField_H5.TabStop = false;
+			// 
+			// EnemyField_H4
+			// 
+			this.EnemyField_H4.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_H4.Image")));
+			this.EnemyField_H4.Location = new System.Drawing.Point(90, 210);
+			this.EnemyField_H4.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_H4.Name = "EnemyField_H4";
+			this.EnemyField_H4.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_H4.TabIndex = 75;
+			this.EnemyField_H4.TabStop = false;
+			// 
+			// EnemyField_H3
+			// 
+			this.EnemyField_H3.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_H3.Image")));
+			this.EnemyField_H3.Location = new System.Drawing.Point(60, 210);
+			this.EnemyField_H3.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_H3.Name = "EnemyField_H3";
+			this.EnemyField_H3.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_H3.TabIndex = 74;
+			this.EnemyField_H3.TabStop = false;
+			// 
+			// EnemyField_H2
+			// 
+			this.EnemyField_H2.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_H2.Image")));
+			this.EnemyField_H2.Location = new System.Drawing.Point(30, 210);
+			this.EnemyField_H2.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_H2.Name = "EnemyField_H2";
+			this.EnemyField_H2.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_H2.TabIndex = 73;
+			this.EnemyField_H2.TabStop = false;
+			// 
+			// EnemyField_G10
+			// 
+			this.EnemyField_G10.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_G10.Image")));
+			this.EnemyField_G10.Location = new System.Drawing.Point(270, 180);
+			this.EnemyField_G10.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_G10.Name = "EnemyField_G10";
+			this.EnemyField_G10.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_G10.TabIndex = 72;
+			this.EnemyField_G10.TabStop = false;
+			// 
+			// EnemyField_G9
+			// 
+			this.EnemyField_G9.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_G9.Image")));
+			this.EnemyField_G9.Location = new System.Drawing.Point(240, 180);
+			this.EnemyField_G9.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_G9.Name = "EnemyField_G9";
+			this.EnemyField_G9.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_G9.TabIndex = 71;
+			this.EnemyField_G9.TabStop = false;
+			// 
+			// EnemyField_G8
+			// 
+			this.EnemyField_G8.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_G8.Image")));
+			this.EnemyField_G8.Location = new System.Drawing.Point(210, 180);
+			this.EnemyField_G8.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_G8.Name = "EnemyField_G8";
+			this.EnemyField_G8.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_G8.TabIndex = 70;
+			this.EnemyField_G8.TabStop = false;
+			// 
+			// EnemyField_G7
+			// 
+			this.EnemyField_G7.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_G7.Image")));
+			this.EnemyField_G7.Location = new System.Drawing.Point(180, 180);
+			this.EnemyField_G7.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_G7.Name = "EnemyField_G7";
+			this.EnemyField_G7.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_G7.TabIndex = 69;
+			this.EnemyField_G7.TabStop = false;
+			// 
+			// EnemyField_G6
+			// 
+			this.EnemyField_G6.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_G6.Image")));
+			this.EnemyField_G6.Location = new System.Drawing.Point(150, 180);
+			this.EnemyField_G6.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_G6.Name = "EnemyField_G6";
+			this.EnemyField_G6.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_G6.TabIndex = 68;
+			this.EnemyField_G6.TabStop = false;
+			// 
+			// EnemyField_G5
+			// 
+			this.EnemyField_G5.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_G5.Image")));
+			this.EnemyField_G5.Location = new System.Drawing.Point(120, 180);
+			this.EnemyField_G5.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_G5.Name = "EnemyField_G5";
+			this.EnemyField_G5.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_G5.TabIndex = 67;
+			this.EnemyField_G5.TabStop = false;
+			// 
+			// EnemyField_G4
+			// 
+			this.EnemyField_G4.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_G4.Image")));
+			this.EnemyField_G4.Location = new System.Drawing.Point(90, 180);
+			this.EnemyField_G4.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_G4.Name = "EnemyField_G4";
+			this.EnemyField_G4.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_G4.TabIndex = 66;
+			this.EnemyField_G4.TabStop = false;
+			// 
+			// EnemyField_G3
+			// 
+			this.EnemyField_G3.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_G3.Image")));
+			this.EnemyField_G3.Location = new System.Drawing.Point(60, 180);
+			this.EnemyField_G3.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_G3.Name = "EnemyField_G3";
+			this.EnemyField_G3.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_G3.TabIndex = 65;
+			this.EnemyField_G3.TabStop = false;
+			// 
+			// EnemyField_A2
+			// 
+			this.EnemyField_A2.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_A2.ErrorImage")));
+			this.EnemyField_A2.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_A2.Location = new System.Drawing.Point(30, 0);
+			this.EnemyField_A2.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_A2.Name = "EnemyField_A2";
+			this.EnemyField_A2.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_A2.TabIndex = 1;
+			this.EnemyField_A2.TabStop = false;
+			// 
+			// EnemyField_A1
+			// 
+			this.EnemyField_A1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_A1.ErrorImage")));
+			this.EnemyField_A1.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_A1.Location = new System.Drawing.Point(0, 0);
+			this.EnemyField_A1.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_A1.Name = "EnemyField_A1";
+			this.EnemyField_A1.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_A1.TabIndex = 0;
+			this.EnemyField_A1.TabStop = false;
+			// 
+			// EnemyField_G2
+			// 
+			this.EnemyField_G2.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_G2.Image")));
+			this.EnemyField_G2.Location = new System.Drawing.Point(30, 180);
+			this.EnemyField_G2.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_G2.Name = "EnemyField_G2";
+			this.EnemyField_G2.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_G2.TabIndex = 64;
+			this.EnemyField_G2.TabStop = false;
+			// 
+			// EnemyField_F10
+			// 
+			this.EnemyField_F10.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_F10.Image")));
+			this.EnemyField_F10.Location = new System.Drawing.Point(270, 150);
+			this.EnemyField_F10.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_F10.Name = "EnemyField_F10";
+			this.EnemyField_F10.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_F10.TabIndex = 63;
+			this.EnemyField_F10.TabStop = false;
+			// 
+			// EnemyField_F9
+			// 
+			this.EnemyField_F9.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_F9.Image")));
+			this.EnemyField_F9.Location = new System.Drawing.Point(240, 150);
+			this.EnemyField_F9.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_F9.Name = "EnemyField_F9";
+			this.EnemyField_F9.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_F9.TabIndex = 62;
+			this.EnemyField_F9.TabStop = false;
+			// 
+			// EnemyField_F8
+			// 
+			this.EnemyField_F8.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_F8.Image")));
+			this.EnemyField_F8.Location = new System.Drawing.Point(210, 150);
+			this.EnemyField_F8.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_F8.Name = "EnemyField_F8";
+			this.EnemyField_F8.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_F8.TabIndex = 61;
+			this.EnemyField_F8.TabStop = false;
+			// 
+			// EnemyField_F7
+			// 
+			this.EnemyField_F7.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_F7.Image")));
+			this.EnemyField_F7.Location = new System.Drawing.Point(180, 150);
+			this.EnemyField_F7.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_F7.Name = "EnemyField_F7";
+			this.EnemyField_F7.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_F7.TabIndex = 60;
+			this.EnemyField_F7.TabStop = false;
+			// 
+			// EnemyField_F6
+			// 
+			this.EnemyField_F6.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_F6.Image")));
+			this.EnemyField_F6.Location = new System.Drawing.Point(150, 150);
+			this.EnemyField_F6.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_F6.Name = "EnemyField_F6";
+			this.EnemyField_F6.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_F6.TabIndex = 59;
+			this.EnemyField_F6.TabStop = false;
+			// 
+			// EnemyField_F4
+			// 
+			this.EnemyField_F4.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_F4.Image")));
+			this.EnemyField_F4.Location = new System.Drawing.Point(90, 150);
+			this.EnemyField_F4.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_F4.Name = "EnemyField_F4";
+			this.EnemyField_F4.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_F4.TabIndex = 57;
+			this.EnemyField_F4.TabStop = false;
+			// 
+			// EnemyField_F3
+			// 
+			this.EnemyField_F3.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_F3.Image")));
+			this.EnemyField_F3.Location = new System.Drawing.Point(60, 150);
+			this.EnemyField_F3.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_F3.Name = "EnemyField_F3";
+			this.EnemyField_F3.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_F3.TabIndex = 56;
+			this.EnemyField_F3.TabStop = false;
+			// 
+			// EnemyField_F2
+			// 
+			this.EnemyField_F2.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_F2.Image")));
+			this.EnemyField_F2.Location = new System.Drawing.Point(30, 150);
+			this.EnemyField_F2.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_F2.Name = "EnemyField_F2";
+			this.EnemyField_F2.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_F2.TabIndex = 55;
+			this.EnemyField_F2.TabStop = false;
+			// 
+			// EnemyField_E10
+			// 
+			this.EnemyField_E10.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_E10.Image")));
+			this.EnemyField_E10.Location = new System.Drawing.Point(270, 120);
+			this.EnemyField_E10.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_E10.Name = "EnemyField_E10";
+			this.EnemyField_E10.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_E10.TabIndex = 54;
+			this.EnemyField_E10.TabStop = false;
+			// 
+			// EnemyField_E9
+			// 
+			this.EnemyField_E9.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_E9.Image")));
+			this.EnemyField_E9.Location = new System.Drawing.Point(240, 120);
+			this.EnemyField_E9.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_E9.Name = "EnemyField_E9";
+			this.EnemyField_E9.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_E9.TabIndex = 53;
+			this.EnemyField_E9.TabStop = false;
+			// 
+			// EnemyField_E8
+			// 
+			this.EnemyField_E8.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_E8.Image")));
+			this.EnemyField_E8.Location = new System.Drawing.Point(210, 120);
+			this.EnemyField_E8.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_E8.Name = "EnemyField_E8";
+			this.EnemyField_E8.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_E8.TabIndex = 52;
+			this.EnemyField_E8.TabStop = false;
+			// 
+			// EnemyField_E7
+			// 
+			this.EnemyField_E7.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_E7.Image")));
+			this.EnemyField_E7.Location = new System.Drawing.Point(180, 120);
+			this.EnemyField_E7.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_E7.Name = "EnemyField_E7";
+			this.EnemyField_E7.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_E7.TabIndex = 51;
+			this.EnemyField_E7.TabStop = false;
+			// 
+			// EnemyField_E6
+			// 
+			this.EnemyField_E6.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_E6.Image")));
+			this.EnemyField_E6.Location = new System.Drawing.Point(150, 120);
+			this.EnemyField_E6.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_E6.Name = "EnemyField_E6";
+			this.EnemyField_E6.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_E6.TabIndex = 50;
+			this.EnemyField_E6.TabStop = false;
+			// 
+			// EnemyField_E5
+			// 
+			this.EnemyField_E5.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_E5.Image")));
+			this.EnemyField_E5.Location = new System.Drawing.Point(120, 120);
+			this.EnemyField_E5.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_E5.Name = "EnemyField_E5";
+			this.EnemyField_E5.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_E5.TabIndex = 49;
+			this.EnemyField_E5.TabStop = false;
+			// 
+			// EnemyField_E4
+			// 
+			this.EnemyField_E4.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_E4.Image")));
+			this.EnemyField_E4.Location = new System.Drawing.Point(90, 120);
+			this.EnemyField_E4.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_E4.Name = "EnemyField_E4";
+			this.EnemyField_E4.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_E4.TabIndex = 48;
+			this.EnemyField_E4.TabStop = false;
+			// 
+			// EnemyField_E3
+			// 
+			this.EnemyField_E3.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_E3.Image")));
+			this.EnemyField_E3.Location = new System.Drawing.Point(60, 120);
+			this.EnemyField_E3.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_E3.Name = "EnemyField_E3";
+			this.EnemyField_E3.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_E3.TabIndex = 47;
+			this.EnemyField_E3.TabStop = false;
+			// 
+			// EnemyField_E2
+			// 
+			this.EnemyField_E2.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_E2.Image")));
+			this.EnemyField_E2.Location = new System.Drawing.Point(30, 120);
+			this.EnemyField_E2.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_E2.Name = "EnemyField_E2";
+			this.EnemyField_E2.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_E2.TabIndex = 46;
+			this.EnemyField_E2.TabStop = false;
+			// 
+			// EnemyField_D10
+			// 
+			this.EnemyField_D10.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_D10.Image")));
+			this.EnemyField_D10.Location = new System.Drawing.Point(270, 90);
+			this.EnemyField_D10.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_D10.Name = "EnemyField_D10";
+			this.EnemyField_D10.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_D10.TabIndex = 45;
+			this.EnemyField_D10.TabStop = false;
+			// 
+			// EnemyField_D9
+			// 
+			this.EnemyField_D9.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_D9.Image")));
+			this.EnemyField_D9.Location = new System.Drawing.Point(240, 90);
+			this.EnemyField_D9.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_D9.Name = "EnemyField_D9";
+			this.EnemyField_D9.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_D9.TabIndex = 44;
+			this.EnemyField_D9.TabStop = false;
+			// 
+			// EnemyField_D8
+			// 
+			this.EnemyField_D8.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_D8.Image")));
+			this.EnemyField_D8.Location = new System.Drawing.Point(210, 90);
+			this.EnemyField_D8.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_D8.Name = "EnemyField_D8";
+			this.EnemyField_D8.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_D8.TabIndex = 43;
+			this.EnemyField_D8.TabStop = false;
+			// 
+			// EnemyField_D7
+			// 
+			this.EnemyField_D7.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_D7.Image")));
+			this.EnemyField_D7.Location = new System.Drawing.Point(180, 90);
+			this.EnemyField_D7.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_D7.Name = "EnemyField_D7";
+			this.EnemyField_D7.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_D7.TabIndex = 42;
+			this.EnemyField_D7.TabStop = false;
+			// 
+			// EnemyField_D6
+			// 
+			this.EnemyField_D6.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_D6.Image")));
+			this.EnemyField_D6.Location = new System.Drawing.Point(150, 90);
+			this.EnemyField_D6.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_D6.Name = "EnemyField_D6";
+			this.EnemyField_D6.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_D6.TabIndex = 41;
+			this.EnemyField_D6.TabStop = false;
+			// 
+			// EnemyField_D5
+			// 
+			this.EnemyField_D5.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_D5.Image")));
+			this.EnemyField_D5.Location = new System.Drawing.Point(120, 90);
+			this.EnemyField_D5.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_D5.Name = "EnemyField_D5";
+			this.EnemyField_D5.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_D5.TabIndex = 40;
+			this.EnemyField_D5.TabStop = false;
+			// 
+			// EnemyField_D4
+			// 
+			this.EnemyField_D4.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_D4.Image")));
+			this.EnemyField_D4.Location = new System.Drawing.Point(90, 90);
+			this.EnemyField_D4.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_D4.Name = "EnemyField_D4";
+			this.EnemyField_D4.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_D4.TabIndex = 39;
+			this.EnemyField_D4.TabStop = false;
+			// 
+			// EnemyField_D3
+			// 
+			this.EnemyField_D3.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_D3.Image")));
+			this.EnemyField_D3.Location = new System.Drawing.Point(60, 90);
+			this.EnemyField_D3.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_D3.Name = "EnemyField_D3";
+			this.EnemyField_D3.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_D3.TabIndex = 38;
+			this.EnemyField_D3.TabStop = false;
+			// 
+			// EnemyField_D2
+			// 
+			this.EnemyField_D2.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_D2.Image")));
+			this.EnemyField_D2.Location = new System.Drawing.Point(30, 90);
+			this.EnemyField_D2.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_D2.Name = "EnemyField_D2";
+			this.EnemyField_D2.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_D2.TabIndex = 37;
+			this.EnemyField_D2.TabStop = false;
+			// 
+			// EnemyField_C10
+			// 
+			this.EnemyField_C10.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_C10.ErrorImage")));
+			this.EnemyField_C10.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_C10.Image")));
+			this.EnemyField_C10.Location = new System.Drawing.Point(270, 60);
+			this.EnemyField_C10.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_C10.Name = "EnemyField_C10";
+			this.EnemyField_C10.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_C10.TabIndex = 36;
+			this.EnemyField_C10.TabStop = false;
+			// 
+			// EnemyField_C9
+			// 
+			this.EnemyField_C9.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_C9.ErrorImage")));
+			this.EnemyField_C9.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_C9.Image")));
+			this.EnemyField_C9.Location = new System.Drawing.Point(240, 60);
+			this.EnemyField_C9.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_C9.Name = "EnemyField_C9";
+			this.EnemyField_C9.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_C9.TabIndex = 35;
+			this.EnemyField_C9.TabStop = false;
+			// 
+			// EnemyField_C8
+			// 
+			this.EnemyField_C8.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_C8.ErrorImage")));
+			this.EnemyField_C8.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_C8.Image")));
+			this.EnemyField_C8.Location = new System.Drawing.Point(210, 60);
+			this.EnemyField_C8.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_C8.Name = "EnemyField_C8";
+			this.EnemyField_C8.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_C8.TabIndex = 34;
+			this.EnemyField_C8.TabStop = false;
+			// 
+			// EnemyField_C7
+			// 
+			this.EnemyField_C7.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_C7.ErrorImage")));
+			this.EnemyField_C7.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_C7.Image")));
+			this.EnemyField_C7.Location = new System.Drawing.Point(180, 60);
+			this.EnemyField_C7.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_C7.Name = "EnemyField_C7";
+			this.EnemyField_C7.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_C7.TabIndex = 33;
+			this.EnemyField_C7.TabStop = false;
+			// 
+			// EnemyField_C6
+			// 
+			this.EnemyField_C6.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_C6.ErrorImage")));
+			this.EnemyField_C6.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_C6.Image")));
+			this.EnemyField_C6.Location = new System.Drawing.Point(150, 60);
+			this.EnemyField_C6.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_C6.Name = "EnemyField_C6";
+			this.EnemyField_C6.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_C6.TabIndex = 32;
+			this.EnemyField_C6.TabStop = false;
+			// 
+			// EnemyField_C5
+			// 
+			this.EnemyField_C5.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_C5.ErrorImage")));
+			this.EnemyField_C5.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_C5.Image")));
+			this.EnemyField_C5.Location = new System.Drawing.Point(120, 60);
+			this.EnemyField_C5.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_C5.Name = "EnemyField_C5";
+			this.EnemyField_C5.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_C5.TabIndex = 31;
+			this.EnemyField_C5.TabStop = false;
+			// 
+			// EnemyField_C4
+			// 
+			this.EnemyField_C4.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_C4.ErrorImage")));
+			this.EnemyField_C4.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_C4.Image")));
+			this.EnemyField_C4.Location = new System.Drawing.Point(90, 60);
+			this.EnemyField_C4.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_C4.Name = "EnemyField_C4";
+			this.EnemyField_C4.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_C4.TabIndex = 30;
+			this.EnemyField_C4.TabStop = false;
+			// 
+			// EnemyField_C3
+			// 
+			this.EnemyField_C3.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_C3.ErrorImage")));
+			this.EnemyField_C3.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_C3.Image")));
+			this.EnemyField_C3.Location = new System.Drawing.Point(60, 60);
+			this.EnemyField_C3.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_C3.Name = "EnemyField_C3";
+			this.EnemyField_C3.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_C3.TabIndex = 29;
+			this.EnemyField_C3.TabStop = false;
+			// 
+			// EnemyField_C2
+			// 
+			this.EnemyField_C2.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_C2.ErrorImage")));
+			this.EnemyField_C2.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_C2.Image")));
+			this.EnemyField_C2.Location = new System.Drawing.Point(30, 60);
+			this.EnemyField_C2.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_C2.Name = "EnemyField_C2";
+			this.EnemyField_C2.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_C2.TabIndex = 28;
+			this.EnemyField_C2.TabStop = false;
+			// 
+			// EnemyField_B10
+			// 
+			this.EnemyField_B10.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_B10.ErrorImage")));
+			this.EnemyField_B10.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_B10.Image")));
+			this.EnemyField_B10.Location = new System.Drawing.Point(270, 30);
+			this.EnemyField_B10.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_B10.Name = "EnemyField_B10";
+			this.EnemyField_B10.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_B10.TabIndex = 27;
+			this.EnemyField_B10.TabStop = false;
+			// 
+			// EnemyField_B9
+			// 
+			this.EnemyField_B9.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_B9.ErrorImage")));
+			this.EnemyField_B9.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_B9.Image")));
+			this.EnemyField_B9.Location = new System.Drawing.Point(240, 30);
+			this.EnemyField_B9.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_B9.Name = "EnemyField_B9";
+			this.EnemyField_B9.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_B9.TabIndex = 26;
+			this.EnemyField_B9.TabStop = false;
+			// 
+			// EnemyField_B8
+			// 
+			this.EnemyField_B8.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_B8.ErrorImage")));
+			this.EnemyField_B8.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_B8.Image")));
+			this.EnemyField_B8.Location = new System.Drawing.Point(210, 30);
+			this.EnemyField_B8.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_B8.Name = "EnemyField_B8";
+			this.EnemyField_B8.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_B8.TabIndex = 25;
+			this.EnemyField_B8.TabStop = false;
+			// 
+			// EnemyField_B7
+			// 
+			this.EnemyField_B7.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_B7.ErrorImage")));
+			this.EnemyField_B7.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_B7.Image")));
+			this.EnemyField_B7.Location = new System.Drawing.Point(180, 30);
+			this.EnemyField_B7.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_B7.Name = "EnemyField_B7";
+			this.EnemyField_B7.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_B7.TabIndex = 24;
+			this.EnemyField_B7.TabStop = false;
+			// 
+			// EnemyField_B6
+			// 
+			this.EnemyField_B6.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_B6.ErrorImage")));
+			this.EnemyField_B6.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_B6.Image")));
+			this.EnemyField_B6.Location = new System.Drawing.Point(150, 30);
+			this.EnemyField_B6.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_B6.Name = "EnemyField_B6";
+			this.EnemyField_B6.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_B6.TabIndex = 23;
+			this.EnemyField_B6.TabStop = false;
+			// 
+			// EnemyField_B5
+			// 
+			this.EnemyField_B5.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_B5.ErrorImage")));
+			this.EnemyField_B5.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_B5.Image")));
+			this.EnemyField_B5.Location = new System.Drawing.Point(120, 30);
+			this.EnemyField_B5.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_B5.Name = "EnemyField_B5";
+			this.EnemyField_B5.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_B5.TabIndex = 22;
+			this.EnemyField_B5.TabStop = false;
+			// 
+			// EnemyField_B4
+			// 
+			this.EnemyField_B4.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_B4.ErrorImage")));
+			this.EnemyField_B4.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_B4.Image")));
+			this.EnemyField_B4.Location = new System.Drawing.Point(90, 30);
+			this.EnemyField_B4.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_B4.Name = "EnemyField_B4";
+			this.EnemyField_B4.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_B4.TabIndex = 21;
+			this.EnemyField_B4.TabStop = false;
+			// 
+			// EnemyField_B3
+			// 
+			this.EnemyField_B3.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_B3.ErrorImage")));
+			this.EnemyField_B3.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_B3.Image")));
+			this.EnemyField_B3.Location = new System.Drawing.Point(60, 30);
+			this.EnemyField_B3.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_B3.Name = "EnemyField_B3";
+			this.EnemyField_B3.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_B3.TabIndex = 20;
+			this.EnemyField_B3.TabStop = false;
+			// 
+			// EnemyField_B2
+			// 
+			this.EnemyField_B2.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_B2.ErrorImage")));
+			this.EnemyField_B2.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_B2.Image")));
+			this.EnemyField_B2.Location = new System.Drawing.Point(30, 30);
+			this.EnemyField_B2.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_B2.Name = "EnemyField_B2";
+			this.EnemyField_B2.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_B2.TabIndex = 19;
+			this.EnemyField_B2.TabStop = false;
+			// 
+			// EnemyField_A10
+			// 
+			this.EnemyField_A10.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_A10.ErrorImage")));
+			this.EnemyField_A10.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_A10.Image")));
+			this.EnemyField_A10.Location = new System.Drawing.Point(270, 0);
+			this.EnemyField_A10.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_A10.Name = "EnemyField_A10";
+			this.EnemyField_A10.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_A10.TabIndex = 18;
+			this.EnemyField_A10.TabStop = false;
+			// 
+			// EnemyField_A9
+			// 
+			this.EnemyField_A9.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_A9.ErrorImage")));
+			this.EnemyField_A9.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_A9.Image")));
+			this.EnemyField_A9.Location = new System.Drawing.Point(240, 0);
+			this.EnemyField_A9.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_A9.Name = "EnemyField_A9";
+			this.EnemyField_A9.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_A9.TabIndex = 17;
+			this.EnemyField_A9.TabStop = false;
+			// 
+			// EnemyField_A8
+			// 
+			this.EnemyField_A8.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_A8.ErrorImage")));
+			this.EnemyField_A8.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_A8.Image")));
+			this.EnemyField_A8.Location = new System.Drawing.Point(210, 0);
+			this.EnemyField_A8.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_A8.Name = "EnemyField_A8";
+			this.EnemyField_A8.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_A8.TabIndex = 16;
+			this.EnemyField_A8.TabStop = false;
+			// 
+			// EnemyField_A7
+			// 
+			this.EnemyField_A7.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_A7.ErrorImage")));
+			this.EnemyField_A7.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_A7.Image")));
+			this.EnemyField_A7.Location = new System.Drawing.Point(180, 0);
+			this.EnemyField_A7.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_A7.Name = "EnemyField_A7";
+			this.EnemyField_A7.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_A7.TabIndex = 15;
+			this.EnemyField_A7.TabStop = false;
+			// 
+			// EnemyField_A6
+			// 
+			this.EnemyField_A6.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_A6.ErrorImage")));
+			this.EnemyField_A6.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_A6.Image")));
+			this.EnemyField_A6.Location = new System.Drawing.Point(150, 0);
+			this.EnemyField_A6.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_A6.Name = "EnemyField_A6";
+			this.EnemyField_A6.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_A6.TabIndex = 14;
+			this.EnemyField_A6.TabStop = false;
+			// 
+			// EnemyField_A5
+			// 
+			this.EnemyField_A5.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_A5.ErrorImage")));
+			this.EnemyField_A5.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_A5.Image")));
+			this.EnemyField_A5.Location = new System.Drawing.Point(120, 0);
+			this.EnemyField_A5.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_A5.Name = "EnemyField_A5";
+			this.EnemyField_A5.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_A5.TabIndex = 13;
+			this.EnemyField_A5.TabStop = false;
+			// 
+			// EnemyField_J1
+			// 
+			this.EnemyField_J1.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_J1.Image")));
+			this.EnemyField_J1.Location = new System.Drawing.Point(0, 270);
+			this.EnemyField_J1.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_J1.Name = "EnemyField_J1";
+			this.EnemyField_J1.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_J1.TabIndex = 12;
+			this.EnemyField_J1.TabStop = false;
+			// 
+			// EnemyField_I1
+			// 
+			this.EnemyField_I1.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_I1.Image")));
+			this.EnemyField_I1.Location = new System.Drawing.Point(0, 240);
+			this.EnemyField_I1.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_I1.Name = "EnemyField_I1";
+			this.EnemyField_I1.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_I1.TabIndex = 11;
+			this.EnemyField_I1.TabStop = false;
+			// 
+			// EnemyField_H1
+			// 
+			this.EnemyField_H1.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_H1.Image")));
+			this.EnemyField_H1.Location = new System.Drawing.Point(0, 210);
+			this.EnemyField_H1.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_H1.Name = "EnemyField_H1";
+			this.EnemyField_H1.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_H1.TabIndex = 10;
+			this.EnemyField_H1.TabStop = false;
+			// 
+			// EnemyField_G1
+			// 
+			this.EnemyField_G1.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_G1.Image")));
+			this.EnemyField_G1.Location = new System.Drawing.Point(0, 180);
+			this.EnemyField_G1.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_G1.Name = "EnemyField_G1";
+			this.EnemyField_G1.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_G1.TabIndex = 9;
+			this.EnemyField_G1.TabStop = false;
+			// 
+			// EnemyField_F1
+			// 
+			this.EnemyField_F1.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_F1.Image")));
+			this.EnemyField_F1.Location = new System.Drawing.Point(0, 150);
+			this.EnemyField_F1.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_F1.Name = "EnemyField_F1";
+			this.EnemyField_F1.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_F1.TabIndex = 8;
+			this.EnemyField_F1.TabStop = false;
+			// 
+			// EnemyField_E1
+			// 
+			this.EnemyField_E1.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_E1.Image")));
+			this.EnemyField_E1.Location = new System.Drawing.Point(0, 120);
+			this.EnemyField_E1.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_E1.Name = "EnemyField_E1";
+			this.EnemyField_E1.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_E1.TabIndex = 7;
+			this.EnemyField_E1.TabStop = false;
+			// 
+			// EnemyField_D1
+			// 
+			this.EnemyField_D1.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_D1.Image")));
+			this.EnemyField_D1.Location = new System.Drawing.Point(0, 90);
+			this.EnemyField_D1.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_D1.Name = "EnemyField_D1";
+			this.EnemyField_D1.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_D1.TabIndex = 6;
+			this.EnemyField_D1.TabStop = false;
+			// 
+			// EnemyField_C1
+			// 
+			this.EnemyField_C1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_C1.ErrorImage")));
+			this.EnemyField_C1.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_C1.Image")));
+			this.EnemyField_C1.Location = new System.Drawing.Point(0, 60);
+			this.EnemyField_C1.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_C1.Name = "EnemyField_C1";
+			this.EnemyField_C1.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_C1.TabIndex = 5;
+			this.EnemyField_C1.TabStop = false;
+			// 
+			// EnemyField_B1
+			// 
+			this.EnemyField_B1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_B1.ErrorImage")));
+			this.EnemyField_B1.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_B1.Image")));
+			this.EnemyField_B1.Location = new System.Drawing.Point(0, 30);
+			this.EnemyField_B1.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_B1.Name = "EnemyField_B1";
+			this.EnemyField_B1.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_B1.TabIndex = 4;
+			this.EnemyField_B1.TabStop = false;
+			// 
+			// EnemyField_A4
+			// 
+			this.EnemyField_A4.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_A4.ErrorImage")));
+			this.EnemyField_A4.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_A4.Location = new System.Drawing.Point(90, 0);
+			this.EnemyField_A4.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_A4.Name = "EnemyField_A4";
+			this.EnemyField_A4.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_A4.TabIndex = 3;
+			this.EnemyField_A4.TabStop = false;
+			// 
+			// EnemyField_A3
+			// 
+			this.EnemyField_A3.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EnemyField_A3.ErrorImage")));
+			this.EnemyField_A3.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.EnemyField_A3.Location = new System.Drawing.Point(60, 0);
+			this.EnemyField_A3.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_A3.Name = "EnemyField_A3";
+			this.EnemyField_A3.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_A3.TabIndex = 2;
+			this.EnemyField_A3.TabStop = false;
+			// 
+			// EnemyField_F5
+			// 
+			this.EnemyField_F5.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_F5.Image")));
+			this.EnemyField_F5.Location = new System.Drawing.Point(120, 150);
+			this.EnemyField_F5.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_F5.Name = "EnemyField_F5";
+			this.EnemyField_F5.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_F5.TabIndex = 58;
+			this.EnemyField_F5.TabStop = false;
+			// 
+			// EnemyField_J7
+			// 
+			this.EnemyField_J7.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_J7.Image")));
+			this.EnemyField_J7.Location = new System.Drawing.Point(180, 270);
+			this.EnemyField_J7.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_J7.Name = "EnemyField_J7";
+			this.EnemyField_J7.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_J7.TabIndex = 96;
+			this.EnemyField_J7.TabStop = false;
+			// 
+			// EnemyField_J8
+			// 
+			this.EnemyField_J8.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_J8.Image")));
+			this.EnemyField_J8.Location = new System.Drawing.Point(210, 270);
+			this.EnemyField_J8.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_J8.Name = "EnemyField_J8";
+			this.EnemyField_J8.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_J8.TabIndex = 97;
+			this.EnemyField_J8.TabStop = false;
+			// 
+			// EnemyField_J9
+			// 
+			this.EnemyField_J9.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_J9.Image")));
+			this.EnemyField_J9.Location = new System.Drawing.Point(240, 270);
+			this.EnemyField_J9.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_J9.Name = "EnemyField_J9";
+			this.EnemyField_J9.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_J9.TabIndex = 98;
+			this.EnemyField_J9.TabStop = false;
+			// 
+			// EnemyField_J4
+			// 
+			this.EnemyField_J4.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_J4.Image")));
+			this.EnemyField_J4.Location = new System.Drawing.Point(90, 270);
+			this.EnemyField_J4.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_J4.Name = "EnemyField_J4";
+			this.EnemyField_J4.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_J4.TabIndex = 93;
+			this.EnemyField_J4.TabStop = false;
+			// 
+			// EnemyField_J5
+			// 
+			this.EnemyField_J5.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_J5.Image")));
+			this.EnemyField_J5.Location = new System.Drawing.Point(120, 270);
+			this.EnemyField_J5.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_J5.Name = "EnemyField_J5";
+			this.EnemyField_J5.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_J5.TabIndex = 94;
+			this.EnemyField_J5.TabStop = false;
+			// 
+			// EnemyField_J6
+			// 
+			this.EnemyField_J6.Image = ((System.Drawing.Image)(resources.GetObject("EnemyField_J6.Image")));
+			this.EnemyField_J6.Location = new System.Drawing.Point(150, 270);
+			this.EnemyField_J6.Margin = new System.Windows.Forms.Padding(0);
+			this.EnemyField_J6.Name = "EnemyField_J6";
+			this.EnemyField_J6.Size = new System.Drawing.Size(30, 30);
+			this.EnemyField_J6.TabIndex = 95;
+			this.EnemyField_J6.TabStop = false;
 			// 
 			// pictureBox1
 			// 
@@ -12835,6 +11996,1116 @@
 			this.pictureBox21.Size = new System.Drawing.Size(32, 32);
 			this.pictureBox21.TabIndex = 148;
 			this.pictureBox21.TabStop = false;
+			// 
+			// pictureBox211
+			// 
+			this.pictureBox211.BackgroundImage = global::BattleShips.Properties.Resources.tree;
+			this.pictureBox211.Location = new System.Drawing.Point(-104, 246);
+			this.pictureBox211.Margin = new System.Windows.Forms.Padding(0);
+			this.pictureBox211.Name = "pictureBox211";
+			this.pictureBox211.Size = new System.Drawing.Size(32, 32);
+			this.pictureBox211.TabIndex = 842;
+			this.pictureBox211.TabStop = false;
+			// 
+			// PiratesShip_vertical_player
+			// 
+			this.PiratesShip_vertical_player.Image = global::BattleShips.Properties.Resources.PiratesShip_vertical;
+			this.PiratesShip_vertical_player.Location = new System.Drawing.Point(240, 153);
+			this.PiratesShip_vertical_player.Name = "PiratesShip_vertical_player";
+			this.PiratesShip_vertical_player.Size = new System.Drawing.Size(30, 150);
+			this.PiratesShip_vertical_player.TabIndex = 109;
+			this.PiratesShip_vertical_player.TabStop = false;
+			this.PiratesShip_vertical_player.Visible = false;
+			// 
+			// Galleon_horizontal_player
+			// 
+			this.Galleon_horizontal_player.Image = global::BattleShips.Properties.Resources.Galleon_horizontal;
+			this.Galleon_horizontal_player.Location = new System.Drawing.Point(27, 237);
+			this.Galleon_horizontal_player.Name = "Galleon_horizontal_player";
+			this.Galleon_horizontal_player.Size = new System.Drawing.Size(120, 30);
+			this.Galleon_horizontal_player.TabIndex = 104;
+			this.Galleon_horizontal_player.TabStop = false;
+			this.Galleon_horizontal_player.Visible = false;
+			// 
+			// PlayerField_J10
+			// 
+			this.PlayerField_J10.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_J10.Image")));
+			this.PlayerField_J10.Location = new System.Drawing.Point(270, 270);
+			this.PlayerField_J10.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_J10.Name = "PlayerField_J10";
+			this.PlayerField_J10.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_J10.TabIndex = 99;
+			this.PlayerField_J10.TabStop = false;
+			// 
+			// PlayerField_J9
+			// 
+			this.PlayerField_J9.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_J9.Image")));
+			this.PlayerField_J9.Location = new System.Drawing.Point(240, 270);
+			this.PlayerField_J9.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_J9.Name = "PlayerField_J9";
+			this.PlayerField_J9.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_J9.TabIndex = 98;
+			this.PlayerField_J9.TabStop = false;
+			// 
+			// PiratesShip_horizontal_player
+			// 
+			this.PiratesShip_horizontal_player.Image = global::BattleShips.Properties.Resources.PiratesShip_horizontal;
+			this.PiratesShip_horizontal_player.Location = new System.Drawing.Point(11, 166);
+			this.PiratesShip_horizontal_player.Name = "PiratesShip_horizontal_player";
+			this.PiratesShip_horizontal_player.Size = new System.Drawing.Size(150, 30);
+			this.PiratesShip_horizontal_player.TabIndex = 108;
+			this.PiratesShip_horizontal_player.TabStop = false;
+			this.PiratesShip_horizontal_player.Visible = false;
+			// 
+			// PlayerField_J8
+			// 
+			this.PlayerField_J8.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_J8.Image")));
+			this.PlayerField_J8.Location = new System.Drawing.Point(210, 270);
+			this.PlayerField_J8.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_J8.Name = "PlayerField_J8";
+			this.PlayerField_J8.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_J8.TabIndex = 97;
+			this.PlayerField_J8.TabStop = false;
+			// 
+			// PlayerField_J7
+			// 
+			this.PlayerField_J7.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_J7.Image")));
+			this.PlayerField_J7.Location = new System.Drawing.Point(180, 270);
+			this.PlayerField_J7.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_J7.Name = "PlayerField_J7";
+			this.PlayerField_J7.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_J7.TabIndex = 96;
+			this.PlayerField_J7.TabStop = false;
+			// 
+			// Galleon_vertical_player
+			// 
+			this.Galleon_vertical_player.Image = global::BattleShips.Properties.Resources.Galleon_vertical;
+			this.Galleon_vertical_player.Location = new System.Drawing.Point(61, 13);
+			this.Galleon_vertical_player.Name = "Galleon_vertical_player";
+			this.Galleon_vertical_player.Size = new System.Drawing.Size(30, 120);
+			this.Galleon_vertical_player.TabIndex = 105;
+			this.Galleon_vertical_player.TabStop = false;
+			this.Galleon_vertical_player.Visible = false;
+			// 
+			// PlayerField_J6
+			// 
+			this.PlayerField_J6.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_J6.Image")));
+			this.PlayerField_J6.Location = new System.Drawing.Point(150, 270);
+			this.PlayerField_J6.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_J6.Name = "PlayerField_J6";
+			this.PlayerField_J6.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_J6.TabIndex = 95;
+			this.PlayerField_J6.TabStop = false;
+			// 
+			// Brigantine_vertical_player
+			// 
+			this.Brigantine_vertical_player.Image = ((System.Drawing.Image)(resources.GetObject("Brigantine_vertical_player.Image")));
+			this.Brigantine_vertical_player.Location = new System.Drawing.Point(113, 30);
+			this.Brigantine_vertical_player.Name = "Brigantine_vertical_player";
+			this.Brigantine_vertical_player.Size = new System.Drawing.Size(30, 90);
+			this.Brigantine_vertical_player.TabIndex = 107;
+			this.Brigantine_vertical_player.TabStop = false;
+			this.Brigantine_vertical_player.Visible = false;
+			// 
+			// PlayerField_J5
+			// 
+			this.PlayerField_J5.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_J5.Image")));
+			this.PlayerField_J5.Location = new System.Drawing.Point(120, 270);
+			this.PlayerField_J5.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_J5.Name = "PlayerField_J5";
+			this.PlayerField_J5.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_J5.TabIndex = 94;
+			this.PlayerField_J5.TabStop = false;
+			// 
+			// PlayerField_J4
+			// 
+			this.PlayerField_J4.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_J4.Image")));
+			this.PlayerField_J4.Location = new System.Drawing.Point(90, 270);
+			this.PlayerField_J4.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_J4.Name = "PlayerField_J4";
+			this.PlayerField_J4.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_J4.TabIndex = 93;
+			this.PlayerField_J4.TabStop = false;
+			// 
+			// Brigantine_horizontal_player
+			// 
+			this.Brigantine_horizontal_player.Image = ((System.Drawing.Image)(resources.GetObject("Brigantine_horizontal_player.Image")));
+			this.Brigantine_horizontal_player.Location = new System.Drawing.Point(198, 90);
+			this.Brigantine_horizontal_player.Name = "Brigantine_horizontal_player";
+			this.Brigantine_horizontal_player.Size = new System.Drawing.Size(90, 30);
+			this.Brigantine_horizontal_player.TabIndex = 106;
+			this.Brigantine_horizontal_player.TabStop = false;
+			this.Brigantine_horizontal_player.Visible = false;
+			// 
+			// PlayerField_J3
+			// 
+			this.PlayerField_J3.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_J3.Image")));
+			this.PlayerField_J3.Location = new System.Drawing.Point(60, 270);
+			this.PlayerField_J3.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_J3.Name = "PlayerField_J3";
+			this.PlayerField_J3.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_J3.TabIndex = 92;
+			this.PlayerField_J3.TabStop = false;
+			// 
+			// PlayerField_J2
+			// 
+			this.PlayerField_J2.Image = global::BattleShips.Properties.Resources.pixil_frame_0;
+			this.PlayerField_J2.Location = new System.Drawing.Point(30, 270);
+			this.PlayerField_J2.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_J2.Name = "PlayerField_J2";
+			this.PlayerField_J2.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_J2.TabIndex = 91;
+			this.PlayerField_J2.TabStop = false;
+			// 
+			// Sloop_vertical_player
+			// 
+			this.Sloop_vertical_player.Image = ((System.Drawing.Image)(resources.GetObject("Sloop_vertical_player.Image")));
+			this.Sloop_vertical_player.Location = new System.Drawing.Point(193, 139);
+			this.Sloop_vertical_player.Name = "Sloop_vertical_player";
+			this.Sloop_vertical_player.Size = new System.Drawing.Size(30, 90);
+			this.Sloop_vertical_player.TabIndex = 101;
+			this.Sloop_vertical_player.TabStop = false;
+			this.Sloop_vertical_player.Visible = false;
+			// 
+			// PlayerField_I10
+			// 
+			this.PlayerField_I10.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_I10.Image")));
+			this.PlayerField_I10.Location = new System.Drawing.Point(270, 240);
+			this.PlayerField_I10.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_I10.Name = "PlayerField_I10";
+			this.PlayerField_I10.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_I10.TabIndex = 90;
+			this.PlayerField_I10.TabStop = false;
+			// 
+			// PlayerField_I9
+			// 
+			this.PlayerField_I9.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_I9.Image")));
+			this.PlayerField_I9.Location = new System.Drawing.Point(240, 240);
+			this.PlayerField_I9.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_I9.Name = "PlayerField_I9";
+			this.PlayerField_I9.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_I9.TabIndex = 89;
+			this.PlayerField_I9.TabStop = false;
+			// 
+			// Sloop_horizontal_player
+			// 
+			this.Sloop_horizontal_player.Image = ((System.Drawing.Image)(resources.GetObject("Sloop_horizontal_player.Image")));
+			this.Sloop_horizontal_player.Location = new System.Drawing.Point(97, 126);
+			this.Sloop_horizontal_player.Name = "Sloop_horizontal_player";
+			this.Sloop_horizontal_player.Size = new System.Drawing.Size(90, 30);
+			this.Sloop_horizontal_player.TabIndex = 100;
+			this.Sloop_horizontal_player.TabStop = false;
+			this.Sloop_horizontal_player.Visible = false;
+			// 
+			// PlayerField_I8
+			// 
+			this.PlayerField_I8.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_I8.Image")));
+			this.PlayerField_I8.Location = new System.Drawing.Point(210, 240);
+			this.PlayerField_I8.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_I8.Name = "PlayerField_I8";
+			this.PlayerField_I8.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_I8.TabIndex = 88;
+			this.PlayerField_I8.TabStop = false;
+			// 
+			// PlayerField_I7
+			// 
+			this.PlayerField_I7.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_I7.Image")));
+			this.PlayerField_I7.Location = new System.Drawing.Point(180, 240);
+			this.PlayerField_I7.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_I7.Name = "PlayerField_I7";
+			this.PlayerField_I7.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_I7.TabIndex = 87;
+			this.PlayerField_I7.TabStop = false;
+			// 
+			// PlayerField_I6
+			// 
+			this.PlayerField_I6.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_I6.Image")));
+			this.PlayerField_I6.Location = new System.Drawing.Point(150, 240);
+			this.PlayerField_I6.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_I6.Name = "PlayerField_I6";
+			this.PlayerField_I6.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_I6.TabIndex = 86;
+			this.PlayerField_I6.TabStop = false;
+			// 
+			// PlayerField_I5
+			// 
+			this.PlayerField_I5.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_I5.Image")));
+			this.PlayerField_I5.Location = new System.Drawing.Point(120, 240);
+			this.PlayerField_I5.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_I5.Name = "PlayerField_I5";
+			this.PlayerField_I5.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_I5.TabIndex = 85;
+			this.PlayerField_I5.TabStop = false;
+			// 
+			// FishingBoat_vertical_player
+			// 
+			this.FishingBoat_vertical_player.Image = global::BattleShips.Properties.Resources.Fishing_vessel_water_vertical;
+			this.FishingBoat_vertical_player.Location = new System.Drawing.Point(171, 27);
+			this.FishingBoat_vertical_player.Name = "FishingBoat_vertical_player";
+			this.FishingBoat_vertical_player.Size = new System.Drawing.Size(30, 60);
+			this.FishingBoat_vertical_player.TabIndex = 39;
+			this.FishingBoat_vertical_player.TabStop = false;
+			this.FishingBoat_vertical_player.Visible = false;
+			// 
+			// PlayerField_I4
+			// 
+			this.PlayerField_I4.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_I4.Image")));
+			this.PlayerField_I4.Location = new System.Drawing.Point(90, 240);
+			this.PlayerField_I4.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_I4.Name = "PlayerField_I4";
+			this.PlayerField_I4.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_I4.TabIndex = 84;
+			this.PlayerField_I4.TabStop = false;
+			// 
+			// PlayerField_I3
+			// 
+			this.PlayerField_I3.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_I3.Image")));
+			this.PlayerField_I3.Location = new System.Drawing.Point(60, 240);
+			this.PlayerField_I3.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_I3.Name = "PlayerField_I3";
+			this.PlayerField_I3.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_I3.TabIndex = 83;
+			this.PlayerField_I3.TabStop = false;
+			// 
+			// PlayerField_I2
+			// 
+			this.PlayerField_I2.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_I2.Image")));
+			this.PlayerField_I2.Location = new System.Drawing.Point(30, 240);
+			this.PlayerField_I2.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_I2.Name = "PlayerField_I2";
+			this.PlayerField_I2.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_I2.TabIndex = 82;
+			this.PlayerField_I2.TabStop = false;
+			// 
+			// FishingBoat_horizontal_player
+			// 
+			this.FishingBoat_horizontal_player.Image = global::BattleShips.Properties.Resources.Fishing_vessel_water;
+			this.FishingBoat_horizontal_player.Location = new System.Drawing.Point(207, 41);
+			this.FishingBoat_horizontal_player.Name = "FishingBoat_horizontal_player";
+			this.FishingBoat_horizontal_player.Size = new System.Drawing.Size(60, 30);
+			this.FishingBoat_horizontal_player.TabIndex = 36;
+			this.FishingBoat_horizontal_player.TabStop = false;
+			this.FishingBoat_horizontal_player.Visible = false;
+			// 
+			// PlayerField_H10
+			// 
+			this.PlayerField_H10.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_H10.Image")));
+			this.PlayerField_H10.Location = new System.Drawing.Point(270, 210);
+			this.PlayerField_H10.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_H10.Name = "PlayerField_H10";
+			this.PlayerField_H10.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_H10.TabIndex = 81;
+			this.PlayerField_H10.TabStop = false;
+			// 
+			// PlayerField_H9
+			// 
+			this.PlayerField_H9.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_H9.Image")));
+			this.PlayerField_H9.Location = new System.Drawing.Point(240, 210);
+			this.PlayerField_H9.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_H9.Name = "PlayerField_H9";
+			this.PlayerField_H9.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_H9.TabIndex = 80;
+			this.PlayerField_H9.TabStop = false;
+			// 
+			// PlayerField_H8
+			// 
+			this.PlayerField_H8.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_H8.Image")));
+			this.PlayerField_H8.Location = new System.Drawing.Point(210, 210);
+			this.PlayerField_H8.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_H8.Name = "PlayerField_H8";
+			this.PlayerField_H8.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_H8.TabIndex = 79;
+			this.PlayerField_H8.TabStop = false;
+			// 
+			// PlayerField_H7
+			// 
+			this.PlayerField_H7.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_H7.Image")));
+			this.PlayerField_H7.Location = new System.Drawing.Point(180, 210);
+			this.PlayerField_H7.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_H7.Name = "PlayerField_H7";
+			this.PlayerField_H7.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_H7.TabIndex = 78;
+			this.PlayerField_H7.TabStop = false;
+			// 
+			// PlayerField_H6
+			// 
+			this.PlayerField_H6.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_H6.Image")));
+			this.PlayerField_H6.Location = new System.Drawing.Point(150, 210);
+			this.PlayerField_H6.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_H6.Name = "PlayerField_H6";
+			this.PlayerField_H6.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_H6.TabIndex = 77;
+			this.PlayerField_H6.TabStop = false;
+			// 
+			// PlayerField_H5
+			// 
+			this.PlayerField_H5.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_H5.Image")));
+			this.PlayerField_H5.Location = new System.Drawing.Point(120, 210);
+			this.PlayerField_H5.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_H5.Name = "PlayerField_H5";
+			this.PlayerField_H5.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_H5.TabIndex = 76;
+			this.PlayerField_H5.TabStop = false;
+			// 
+			// PlayerField_H4
+			// 
+			this.PlayerField_H4.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_H4.Image")));
+			this.PlayerField_H4.Location = new System.Drawing.Point(90, 210);
+			this.PlayerField_H4.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_H4.Name = "PlayerField_H4";
+			this.PlayerField_H4.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_H4.TabIndex = 75;
+			this.PlayerField_H4.TabStop = false;
+			// 
+			// PlayerField_H3
+			// 
+			this.PlayerField_H3.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_H3.Image")));
+			this.PlayerField_H3.Location = new System.Drawing.Point(60, 210);
+			this.PlayerField_H3.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_H3.Name = "PlayerField_H3";
+			this.PlayerField_H3.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_H3.TabIndex = 74;
+			this.PlayerField_H3.TabStop = false;
+			// 
+			// PlayerField_H2
+			// 
+			this.PlayerField_H2.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_H2.Image")));
+			this.PlayerField_H2.Location = new System.Drawing.Point(30, 210);
+			this.PlayerField_H2.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_H2.Name = "PlayerField_H2";
+			this.PlayerField_H2.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_H2.TabIndex = 73;
+			this.PlayerField_H2.TabStop = false;
+			// 
+			// PlayerField_G10
+			// 
+			this.PlayerField_G10.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_G10.Image")));
+			this.PlayerField_G10.Location = new System.Drawing.Point(270, 180);
+			this.PlayerField_G10.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_G10.Name = "PlayerField_G10";
+			this.PlayerField_G10.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_G10.TabIndex = 72;
+			this.PlayerField_G10.TabStop = false;
+			// 
+			// PlayerField_G9
+			// 
+			this.PlayerField_G9.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_G9.Image")));
+			this.PlayerField_G9.Location = new System.Drawing.Point(240, 180);
+			this.PlayerField_G9.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_G9.Name = "PlayerField_G9";
+			this.PlayerField_G9.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_G9.TabIndex = 71;
+			this.PlayerField_G9.TabStop = false;
+			// 
+			// PlayerField_G8
+			// 
+			this.PlayerField_G8.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_G8.Image")));
+			this.PlayerField_G8.Location = new System.Drawing.Point(210, 180);
+			this.PlayerField_G8.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_G8.Name = "PlayerField_G8";
+			this.PlayerField_G8.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_G8.TabIndex = 70;
+			this.PlayerField_G8.TabStop = false;
+			// 
+			// PlayerField_G7
+			// 
+			this.PlayerField_G7.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_G7.Image")));
+			this.PlayerField_G7.Location = new System.Drawing.Point(180, 180);
+			this.PlayerField_G7.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_G7.Name = "PlayerField_G7";
+			this.PlayerField_G7.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_G7.TabIndex = 69;
+			this.PlayerField_G7.TabStop = false;
+			// 
+			// PlayerField_G6
+			// 
+			this.PlayerField_G6.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_G6.Image")));
+			this.PlayerField_G6.Location = new System.Drawing.Point(150, 180);
+			this.PlayerField_G6.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_G6.Name = "PlayerField_G6";
+			this.PlayerField_G6.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_G6.TabIndex = 68;
+			this.PlayerField_G6.TabStop = false;
+			// 
+			// PlayerField_G5
+			// 
+			this.PlayerField_G5.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_G5.Image")));
+			this.PlayerField_G5.Location = new System.Drawing.Point(120, 180);
+			this.PlayerField_G5.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_G5.Name = "PlayerField_G5";
+			this.PlayerField_G5.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_G5.TabIndex = 67;
+			this.PlayerField_G5.TabStop = false;
+			// 
+			// PlayerField_G4
+			// 
+			this.PlayerField_G4.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_G4.Image")));
+			this.PlayerField_G4.Location = new System.Drawing.Point(90, 180);
+			this.PlayerField_G4.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_G4.Name = "PlayerField_G4";
+			this.PlayerField_G4.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_G4.TabIndex = 66;
+			this.PlayerField_G4.TabStop = false;
+			// 
+			// PlayerField_G3
+			// 
+			this.PlayerField_G3.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_G3.Image")));
+			this.PlayerField_G3.Location = new System.Drawing.Point(60, 180);
+			this.PlayerField_G3.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_G3.Name = "PlayerField_G3";
+			this.PlayerField_G3.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_G3.TabIndex = 65;
+			this.PlayerField_G3.TabStop = false;
+			// 
+			// PlayerField_G2
+			// 
+			this.PlayerField_G2.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_G2.Image")));
+			this.PlayerField_G2.Location = new System.Drawing.Point(30, 180);
+			this.PlayerField_G2.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_G2.Name = "PlayerField_G2";
+			this.PlayerField_G2.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_G2.TabIndex = 64;
+			this.PlayerField_G2.TabStop = false;
+			// 
+			// PlayerField_F10
+			// 
+			this.PlayerField_F10.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_F10.Image")));
+			this.PlayerField_F10.Location = new System.Drawing.Point(270, 150);
+			this.PlayerField_F10.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_F10.Name = "PlayerField_F10";
+			this.PlayerField_F10.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_F10.TabIndex = 63;
+			this.PlayerField_F10.TabStop = false;
+			// 
+			// PlayerField_F9
+			// 
+			this.PlayerField_F9.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_F9.Image")));
+			this.PlayerField_F9.Location = new System.Drawing.Point(240, 150);
+			this.PlayerField_F9.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_F9.Name = "PlayerField_F9";
+			this.PlayerField_F9.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_F9.TabIndex = 62;
+			this.PlayerField_F9.TabStop = false;
+			// 
+			// PlayerField_F8
+			// 
+			this.PlayerField_F8.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_F8.Image")));
+			this.PlayerField_F8.Location = new System.Drawing.Point(210, 150);
+			this.PlayerField_F8.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_F8.Name = "PlayerField_F8";
+			this.PlayerField_F8.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_F8.TabIndex = 61;
+			this.PlayerField_F8.TabStop = false;
+			// 
+			// PlayerField_F7
+			// 
+			this.PlayerField_F7.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_F7.Image")));
+			this.PlayerField_F7.Location = new System.Drawing.Point(180, 150);
+			this.PlayerField_F7.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_F7.Name = "PlayerField_F7";
+			this.PlayerField_F7.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_F7.TabIndex = 60;
+			this.PlayerField_F7.TabStop = false;
+			// 
+			// PlayerField_F6
+			// 
+			this.PlayerField_F6.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_F6.Image")));
+			this.PlayerField_F6.Location = new System.Drawing.Point(150, 150);
+			this.PlayerField_F6.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_F6.Name = "PlayerField_F6";
+			this.PlayerField_F6.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_F6.TabIndex = 59;
+			this.PlayerField_F6.TabStop = false;
+			// 
+			// PlayerField_F5
+			// 
+			this.PlayerField_F5.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_F5.Image")));
+			this.PlayerField_F5.Location = new System.Drawing.Point(120, 150);
+			this.PlayerField_F5.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_F5.Name = "PlayerField_F5";
+			this.PlayerField_F5.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_F5.TabIndex = 58;
+			this.PlayerField_F5.TabStop = false;
+			// 
+			// PlayerField_F4
+			// 
+			this.PlayerField_F4.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_F4.Image")));
+			this.PlayerField_F4.Location = new System.Drawing.Point(90, 150);
+			this.PlayerField_F4.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_F4.Name = "PlayerField_F4";
+			this.PlayerField_F4.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_F4.TabIndex = 57;
+			this.PlayerField_F4.TabStop = false;
+			// 
+			// PlayerField_F3
+			// 
+			this.PlayerField_F3.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_F3.Image")));
+			this.PlayerField_F3.Location = new System.Drawing.Point(60, 150);
+			this.PlayerField_F3.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_F3.Name = "PlayerField_F3";
+			this.PlayerField_F3.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_F3.TabIndex = 56;
+			this.PlayerField_F3.TabStop = false;
+			// 
+			// PlayerField_F2
+			// 
+			this.PlayerField_F2.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_F2.Image")));
+			this.PlayerField_F2.Location = new System.Drawing.Point(30, 150);
+			this.PlayerField_F2.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_F2.Name = "PlayerField_F2";
+			this.PlayerField_F2.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_F2.TabIndex = 55;
+			this.PlayerField_F2.TabStop = false;
+			// 
+			// PlayerField_E10
+			// 
+			this.PlayerField_E10.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_E10.Image")));
+			this.PlayerField_E10.Location = new System.Drawing.Point(270, 120);
+			this.PlayerField_E10.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_E10.Name = "PlayerField_E10";
+			this.PlayerField_E10.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_E10.TabIndex = 54;
+			this.PlayerField_E10.TabStop = false;
+			// 
+			// PlayerField_E9
+			// 
+			this.PlayerField_E9.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_E9.Image")));
+			this.PlayerField_E9.Location = new System.Drawing.Point(240, 120);
+			this.PlayerField_E9.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_E9.Name = "PlayerField_E9";
+			this.PlayerField_E9.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_E9.TabIndex = 53;
+			this.PlayerField_E9.TabStop = false;
+			// 
+			// PlayerField_E8
+			// 
+			this.PlayerField_E8.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_E8.Image")));
+			this.PlayerField_E8.Location = new System.Drawing.Point(210, 120);
+			this.PlayerField_E8.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_E8.Name = "PlayerField_E8";
+			this.PlayerField_E8.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_E8.TabIndex = 52;
+			this.PlayerField_E8.TabStop = false;
+			// 
+			// PlayerField_E7
+			// 
+			this.PlayerField_E7.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_E7.Image")));
+			this.PlayerField_E7.Location = new System.Drawing.Point(180, 120);
+			this.PlayerField_E7.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_E7.Name = "PlayerField_E7";
+			this.PlayerField_E7.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_E7.TabIndex = 51;
+			this.PlayerField_E7.TabStop = false;
+			// 
+			// PlayerField_E6
+			// 
+			this.PlayerField_E6.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_E6.Image")));
+			this.PlayerField_E6.Location = new System.Drawing.Point(150, 120);
+			this.PlayerField_E6.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_E6.Name = "PlayerField_E6";
+			this.PlayerField_E6.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_E6.TabIndex = 50;
+			this.PlayerField_E6.TabStop = false;
+			// 
+			// PlayerField_E5
+			// 
+			this.PlayerField_E5.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_E5.Image")));
+			this.PlayerField_E5.Location = new System.Drawing.Point(120, 120);
+			this.PlayerField_E5.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_E5.Name = "PlayerField_E5";
+			this.PlayerField_E5.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_E5.TabIndex = 49;
+			this.PlayerField_E5.TabStop = false;
+			// 
+			// PlayerField_E4
+			// 
+			this.PlayerField_E4.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_E4.Image")));
+			this.PlayerField_E4.Location = new System.Drawing.Point(90, 120);
+			this.PlayerField_E4.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_E4.Name = "PlayerField_E4";
+			this.PlayerField_E4.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_E4.TabIndex = 48;
+			this.PlayerField_E4.TabStop = false;
+			// 
+			// PlayerField_E3
+			// 
+			this.PlayerField_E3.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_E3.Image")));
+			this.PlayerField_E3.Location = new System.Drawing.Point(60, 120);
+			this.PlayerField_E3.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_E3.Name = "PlayerField_E3";
+			this.PlayerField_E3.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_E3.TabIndex = 47;
+			this.PlayerField_E3.TabStop = false;
+			// 
+			// PlayerField_E2
+			// 
+			this.PlayerField_E2.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_E2.Image")));
+			this.PlayerField_E2.Location = new System.Drawing.Point(30, 120);
+			this.PlayerField_E2.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_E2.Name = "PlayerField_E2";
+			this.PlayerField_E2.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_E2.TabIndex = 46;
+			this.PlayerField_E2.TabStop = false;
+			// 
+			// PlayerField_D10
+			// 
+			this.PlayerField_D10.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_D10.Image")));
+			this.PlayerField_D10.Location = new System.Drawing.Point(270, 90);
+			this.PlayerField_D10.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_D10.Name = "PlayerField_D10";
+			this.PlayerField_D10.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_D10.TabIndex = 45;
+			this.PlayerField_D10.TabStop = false;
+			// 
+			// PlayerField_D9
+			// 
+			this.PlayerField_D9.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_D9.Image")));
+			this.PlayerField_D9.Location = new System.Drawing.Point(240, 90);
+			this.PlayerField_D9.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_D9.Name = "PlayerField_D9";
+			this.PlayerField_D9.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_D9.TabIndex = 44;
+			this.PlayerField_D9.TabStop = false;
+			// 
+			// PlayerField_D8
+			// 
+			this.PlayerField_D8.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_D8.Image")));
+			this.PlayerField_D8.Location = new System.Drawing.Point(210, 90);
+			this.PlayerField_D8.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_D8.Name = "PlayerField_D8";
+			this.PlayerField_D8.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_D8.TabIndex = 43;
+			this.PlayerField_D8.TabStop = false;
+			// 
+			// PlayerField_D7
+			// 
+			this.PlayerField_D7.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_D7.Image")));
+			this.PlayerField_D7.Location = new System.Drawing.Point(180, 90);
+			this.PlayerField_D7.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_D7.Name = "PlayerField_D7";
+			this.PlayerField_D7.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_D7.TabIndex = 42;
+			this.PlayerField_D7.TabStop = false;
+			// 
+			// PlayerField_D6
+			// 
+			this.PlayerField_D6.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_D6.Image")));
+			this.PlayerField_D6.Location = new System.Drawing.Point(150, 90);
+			this.PlayerField_D6.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_D6.Name = "PlayerField_D6";
+			this.PlayerField_D6.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_D6.TabIndex = 41;
+			this.PlayerField_D6.TabStop = false;
+			// 
+			// PlayerField_D5
+			// 
+			this.PlayerField_D5.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_D5.Image")));
+			this.PlayerField_D5.Location = new System.Drawing.Point(120, 90);
+			this.PlayerField_D5.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_D5.Name = "PlayerField_D5";
+			this.PlayerField_D5.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_D5.TabIndex = 40;
+			this.PlayerField_D5.TabStop = false;
+			// 
+			// PlayerField_D4
+			// 
+			this.PlayerField_D4.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_D4.Image")));
+			this.PlayerField_D4.Location = new System.Drawing.Point(90, 90);
+			this.PlayerField_D4.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_D4.Name = "PlayerField_D4";
+			this.PlayerField_D4.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_D4.TabIndex = 39;
+			this.PlayerField_D4.TabStop = false;
+			// 
+			// PlayerField_D3
+			// 
+			this.PlayerField_D3.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_D3.Image")));
+			this.PlayerField_D3.Location = new System.Drawing.Point(60, 90);
+			this.PlayerField_D3.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_D3.Name = "PlayerField_D3";
+			this.PlayerField_D3.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_D3.TabIndex = 38;
+			this.PlayerField_D3.TabStop = false;
+			// 
+			// PlayerField_D2
+			// 
+			this.PlayerField_D2.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_D2.Image")));
+			this.PlayerField_D2.Location = new System.Drawing.Point(30, 90);
+			this.PlayerField_D2.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_D2.Name = "PlayerField_D2";
+			this.PlayerField_D2.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_D2.TabIndex = 37;
+			this.PlayerField_D2.TabStop = false;
+			// 
+			// PlayerField_C10
+			// 
+			this.PlayerField_C10.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_C10.Image")));
+			this.PlayerField_C10.Location = new System.Drawing.Point(270, 60);
+			this.PlayerField_C10.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_C10.Name = "PlayerField_C10";
+			this.PlayerField_C10.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_C10.TabIndex = 36;
+			this.PlayerField_C10.TabStop = false;
+			// 
+			// PlayerField_C9
+			// 
+			this.PlayerField_C9.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_C9.Image")));
+			this.PlayerField_C9.Location = new System.Drawing.Point(240, 60);
+			this.PlayerField_C9.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_C9.Name = "PlayerField_C9";
+			this.PlayerField_C9.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_C9.TabIndex = 35;
+			this.PlayerField_C9.TabStop = false;
+			// 
+			// PlayerField_C8
+			// 
+			this.PlayerField_C8.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_C8.Image")));
+			this.PlayerField_C8.Location = new System.Drawing.Point(210, 60);
+			this.PlayerField_C8.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_C8.Name = "PlayerField_C8";
+			this.PlayerField_C8.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_C8.TabIndex = 34;
+			this.PlayerField_C8.TabStop = false;
+			// 
+			// PlayerField_C7
+			// 
+			this.PlayerField_C7.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_C7.Image")));
+			this.PlayerField_C7.Location = new System.Drawing.Point(180, 60);
+			this.PlayerField_C7.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_C7.Name = "PlayerField_C7";
+			this.PlayerField_C7.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_C7.TabIndex = 33;
+			this.PlayerField_C7.TabStop = false;
+			// 
+			// PlayerField_C6
+			// 
+			this.PlayerField_C6.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_C6.Image")));
+			this.PlayerField_C6.Location = new System.Drawing.Point(150, 60);
+			this.PlayerField_C6.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_C6.Name = "PlayerField_C6";
+			this.PlayerField_C6.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_C6.TabIndex = 32;
+			this.PlayerField_C6.TabStop = false;
+			// 
+			// PlayerField_C5
+			// 
+			this.PlayerField_C5.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_C5.Image")));
+			this.PlayerField_C5.Location = new System.Drawing.Point(120, 60);
+			this.PlayerField_C5.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_C5.Name = "PlayerField_C5";
+			this.PlayerField_C5.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_C5.TabIndex = 31;
+			this.PlayerField_C5.TabStop = false;
+			// 
+			// PlayerField_C4
+			// 
+			this.PlayerField_C4.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_C4.Image")));
+			this.PlayerField_C4.Location = new System.Drawing.Point(90, 60);
+			this.PlayerField_C4.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_C4.Name = "PlayerField_C4";
+			this.PlayerField_C4.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_C4.TabIndex = 30;
+			this.PlayerField_C4.TabStop = false;
+			// 
+			// PlayerField_C3
+			// 
+			this.PlayerField_C3.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_C3.Image")));
+			this.PlayerField_C3.Location = new System.Drawing.Point(60, 60);
+			this.PlayerField_C3.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_C3.Name = "PlayerField_C3";
+			this.PlayerField_C3.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_C3.TabIndex = 29;
+			this.PlayerField_C3.TabStop = false;
+			// 
+			// PlayerField_C2
+			// 
+			this.PlayerField_C2.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_C2.Image")));
+			this.PlayerField_C2.Location = new System.Drawing.Point(30, 60);
+			this.PlayerField_C2.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_C2.Name = "PlayerField_C2";
+			this.PlayerField_C2.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_C2.TabIndex = 28;
+			this.PlayerField_C2.TabStop = false;
+			// 
+			// PlayerField_B10
+			// 
+			this.PlayerField_B10.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_B10.Image")));
+			this.PlayerField_B10.Location = new System.Drawing.Point(270, 30);
+			this.PlayerField_B10.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_B10.Name = "PlayerField_B10";
+			this.PlayerField_B10.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_B10.TabIndex = 27;
+			this.PlayerField_B10.TabStop = false;
+			// 
+			// PlayerField_B9
+			// 
+			this.PlayerField_B9.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_B9.Image")));
+			this.PlayerField_B9.Location = new System.Drawing.Point(240, 30);
+			this.PlayerField_B9.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_B9.Name = "PlayerField_B9";
+			this.PlayerField_B9.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_B9.TabIndex = 26;
+			this.PlayerField_B9.TabStop = false;
+			// 
+			// PlayerField_B8
+			// 
+			this.PlayerField_B8.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_B8.Image")));
+			this.PlayerField_B8.Location = new System.Drawing.Point(210, 30);
+			this.PlayerField_B8.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_B8.Name = "PlayerField_B8";
+			this.PlayerField_B8.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_B8.TabIndex = 25;
+			this.PlayerField_B8.TabStop = false;
+			// 
+			// PlayerField_B7
+			// 
+			this.PlayerField_B7.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_B7.Image")));
+			this.PlayerField_B7.Location = new System.Drawing.Point(180, 30);
+			this.PlayerField_B7.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_B7.Name = "PlayerField_B7";
+			this.PlayerField_B7.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_B7.TabIndex = 24;
+			this.PlayerField_B7.TabStop = false;
+			// 
+			// PlayerField_B6
+			// 
+			this.PlayerField_B6.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_B6.Image")));
+			this.PlayerField_B6.Location = new System.Drawing.Point(150, 30);
+			this.PlayerField_B6.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_B6.Name = "PlayerField_B6";
+			this.PlayerField_B6.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_B6.TabIndex = 23;
+			this.PlayerField_B6.TabStop = false;
+			// 
+			// PlayerField_B5
+			// 
+			this.PlayerField_B5.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_B5.Image")));
+			this.PlayerField_B5.Location = new System.Drawing.Point(120, 30);
+			this.PlayerField_B5.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_B5.Name = "PlayerField_B5";
+			this.PlayerField_B5.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_B5.TabIndex = 22;
+			this.PlayerField_B5.TabStop = false;
+			// 
+			// PlayerField_B4
+			// 
+			this.PlayerField_B4.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_B4.Image")));
+			this.PlayerField_B4.Location = new System.Drawing.Point(90, 30);
+			this.PlayerField_B4.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_B4.Name = "PlayerField_B4";
+			this.PlayerField_B4.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_B4.TabIndex = 21;
+			this.PlayerField_B4.TabStop = false;
+			// 
+			// PlayerField_B3
+			// 
+			this.PlayerField_B3.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_B3.Image")));
+			this.PlayerField_B3.Location = new System.Drawing.Point(60, 30);
+			this.PlayerField_B3.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_B3.Name = "PlayerField_B3";
+			this.PlayerField_B3.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_B3.TabIndex = 20;
+			this.PlayerField_B3.TabStop = false;
+			// 
+			// PlayerField_B2
+			// 
+			this.PlayerField_B2.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_B2.Image")));
+			this.PlayerField_B2.Location = new System.Drawing.Point(30, 30);
+			this.PlayerField_B2.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_B2.Name = "PlayerField_B2";
+			this.PlayerField_B2.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_B2.TabIndex = 19;
+			this.PlayerField_B2.TabStop = false;
+			// 
+			// PlayerField_A10
+			// 
+			this.PlayerField_A10.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_A10.Image")));
+			this.PlayerField_A10.Location = new System.Drawing.Point(270, 0);
+			this.PlayerField_A10.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_A10.Name = "PlayerField_A10";
+			this.PlayerField_A10.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_A10.TabIndex = 18;
+			this.PlayerField_A10.TabStop = false;
+			// 
+			// PlayerField_A9
+			// 
+			this.PlayerField_A9.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_A9.Image")));
+			this.PlayerField_A9.Location = new System.Drawing.Point(240, 0);
+			this.PlayerField_A9.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_A9.Name = "PlayerField_A9";
+			this.PlayerField_A9.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_A9.TabIndex = 17;
+			this.PlayerField_A9.TabStop = false;
+			// 
+			// PlayerField_A8
+			// 
+			this.PlayerField_A8.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_A8.Image")));
+			this.PlayerField_A8.Location = new System.Drawing.Point(210, 0);
+			this.PlayerField_A8.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_A8.Name = "PlayerField_A8";
+			this.PlayerField_A8.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_A8.TabIndex = 16;
+			this.PlayerField_A8.TabStop = false;
+			// 
+			// PlayerField_A7
+			// 
+			this.PlayerField_A7.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_A7.Image")));
+			this.PlayerField_A7.Location = new System.Drawing.Point(180, 0);
+			this.PlayerField_A7.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_A7.Name = "PlayerField_A7";
+			this.PlayerField_A7.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_A7.TabIndex = 15;
+			this.PlayerField_A7.TabStop = false;
+			// 
+			// PlayerField_A6
+			// 
+			this.PlayerField_A6.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_A6.Image")));
+			this.PlayerField_A6.Location = new System.Drawing.Point(150, 0);
+			this.PlayerField_A6.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_A6.Name = "PlayerField_A6";
+			this.PlayerField_A6.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_A6.TabIndex = 14;
+			this.PlayerField_A6.TabStop = false;
+			// 
+			// PlayerField_A5
+			// 
+			this.PlayerField_A5.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_A5.Image")));
+			this.PlayerField_A5.Location = new System.Drawing.Point(120, 0);
+			this.PlayerField_A5.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_A5.Name = "PlayerField_A5";
+			this.PlayerField_A5.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_A5.TabIndex = 13;
+			this.PlayerField_A5.TabStop = false;
+			// 
+			// PlayerField_J1
+			// 
+			this.PlayerField_J1.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_J1.Image")));
+			this.PlayerField_J1.Location = new System.Drawing.Point(0, 270);
+			this.PlayerField_J1.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_J1.Name = "PlayerField_J1";
+			this.PlayerField_J1.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_J1.TabIndex = 12;
+			this.PlayerField_J1.TabStop = false;
+			// 
+			// PlayerField_I1
+			// 
+			this.PlayerField_I1.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_I1.Image")));
+			this.PlayerField_I1.Location = new System.Drawing.Point(0, 240);
+			this.PlayerField_I1.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_I1.Name = "PlayerField_I1";
+			this.PlayerField_I1.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_I1.TabIndex = 11;
+			this.PlayerField_I1.TabStop = false;
+			// 
+			// PlayerField_H1
+			// 
+			this.PlayerField_H1.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_H1.Image")));
+			this.PlayerField_H1.Location = new System.Drawing.Point(0, 210);
+			this.PlayerField_H1.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_H1.Name = "PlayerField_H1";
+			this.PlayerField_H1.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_H1.TabIndex = 10;
+			this.PlayerField_H1.TabStop = false;
+			// 
+			// PlayerField_G1
+			// 
+			this.PlayerField_G1.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_G1.Image")));
+			this.PlayerField_G1.Location = new System.Drawing.Point(0, 180);
+			this.PlayerField_G1.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_G1.Name = "PlayerField_G1";
+			this.PlayerField_G1.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_G1.TabIndex = 9;
+			this.PlayerField_G1.TabStop = false;
+			// 
+			// PlayerField_F1
+			// 
+			this.PlayerField_F1.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_F1.Image")));
+			this.PlayerField_F1.Location = new System.Drawing.Point(0, 150);
+			this.PlayerField_F1.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_F1.Name = "PlayerField_F1";
+			this.PlayerField_F1.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_F1.TabIndex = 8;
+			this.PlayerField_F1.TabStop = false;
+			// 
+			// PlayerField_E1
+			// 
+			this.PlayerField_E1.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_E1.Image")));
+			this.PlayerField_E1.Location = new System.Drawing.Point(0, 120);
+			this.PlayerField_E1.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_E1.Name = "PlayerField_E1";
+			this.PlayerField_E1.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_E1.TabIndex = 7;
+			this.PlayerField_E1.TabStop = false;
+			// 
+			// PlayerField_D1
+			// 
+			this.PlayerField_D1.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_D1.Image")));
+			this.PlayerField_D1.Location = new System.Drawing.Point(0, 90);
+			this.PlayerField_D1.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_D1.Name = "PlayerField_D1";
+			this.PlayerField_D1.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_D1.TabIndex = 6;
+			this.PlayerField_D1.TabStop = false;
+			// 
+			// PlayerField_C1
+			// 
+			this.PlayerField_C1.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_C1.Image")));
+			this.PlayerField_C1.Location = new System.Drawing.Point(0, 60);
+			this.PlayerField_C1.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_C1.Name = "PlayerField_C1";
+			this.PlayerField_C1.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_C1.TabIndex = 5;
+			this.PlayerField_C1.TabStop = false;
+			// 
+			// PlayerField_B1
+			// 
+			this.PlayerField_B1.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_B1.Image")));
+			this.PlayerField_B1.Location = new System.Drawing.Point(0, 30);
+			this.PlayerField_B1.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_B1.Name = "PlayerField_B1";
+			this.PlayerField_B1.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_B1.TabIndex = 4;
+			this.PlayerField_B1.TabStop = false;
+			// 
+			// PlayerField_A4
+			// 
+			this.PlayerField_A4.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_A4.Image")));
+			this.PlayerField_A4.Location = new System.Drawing.Point(90, 0);
+			this.PlayerField_A4.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_A4.Name = "PlayerField_A4";
+			this.PlayerField_A4.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_A4.TabIndex = 3;
+			this.PlayerField_A4.TabStop = false;
+			// 
+			// PlayerField_A3
+			// 
+			this.PlayerField_A3.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_A3.Image")));
+			this.PlayerField_A3.Location = new System.Drawing.Point(60, 0);
+			this.PlayerField_A3.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_A3.Name = "PlayerField_A3";
+			this.PlayerField_A3.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_A3.TabIndex = 2;
+			this.PlayerField_A3.TabStop = false;
+			// 
+			// PlayerField_A2
+			// 
+			this.PlayerField_A2.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_A2.Image")));
+			this.PlayerField_A2.Location = new System.Drawing.Point(30, 0);
+			this.PlayerField_A2.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_A2.Name = "PlayerField_A2";
+			this.PlayerField_A2.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_A2.TabIndex = 1;
+			this.PlayerField_A2.TabStop = false;
+			// 
+			// PlayerField_A1
+			// 
+			this.PlayerField_A1.Image = ((System.Drawing.Image)(resources.GetObject("PlayerField_A1.Image")));
+			this.PlayerField_A1.Location = new System.Drawing.Point(0, 0);
+			this.PlayerField_A1.Margin = new System.Windows.Forms.Padding(0);
+			this.PlayerField_A1.Name = "PlayerField_A1";
+			this.PlayerField_A1.Size = new System.Drawing.Size(30, 30);
+			this.PlayerField_A1.TabIndex = 0;
+			this.PlayerField_A1.TabStop = false;
 			// 
 			// pictureBox42
 			// 
@@ -15060,28 +15331,80 @@
 			this.pictureBox900.TabIndex = 1125;
 			this.pictureBox900.TabStop = false;
 			// 
-			// showPlayerDialogTimer
-			// 
-			this.showPlayerDialogTimer.Tick += new System.EventHandler(this.showPlayerDialogTimer_Tick);
-			// 
-			// showEnemyDialogTimer
-			// 
-			this.showEnemyDialogTimer.Tick += new System.EventHandler(this.showEnemyDialogTimer_Tick);
-			// 
 			// GameScreen
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(1280, 736);
+			this.Controls.Add(this.PlayerActionText);
+			this.Controls.Add(this.DialogLabel);
+			this.Controls.Add(this.LogFrame);
+			this.Controls.Add(this.pictureBox980);
+			this.Controls.Add(this.pictureBox121);
+			this.Controls.Add(this.pictureBox113);
+			this.Controls.Add(this.pictureBox202);
+			this.Controls.Add(this.pictureBox979);
+			this.Controls.Add(this.pictureBox102);
+			this.Controls.Add(this.pictureBox100);
+			this.Controls.Add(this.pictureBox101);
+			this.Controls.Add(this.pictureBox96);
+			this.Controls.Add(this.pictureBox97);
+			this.Controls.Add(this.pictureBox98);
+			this.Controls.Add(this.pictureBox99);
+			this.Controls.Add(this.pictureBox104);
+			this.Controls.Add(this.pictureBox978);
+			this.Controls.Add(this.pictureBox977);
+			this.Controls.Add(this.pictureBox976);
+			this.Controls.Add(this.pictureBox975);
+			this.Controls.Add(this.pictureBox974);
+			this.Controls.Add(this.pictureBox973);
+			this.Controls.Add(this.pictureBox972);
+			this.Controls.Add(this.pictureBox971);
+			this.Controls.Add(this.pictureBox168);
+			this.Controls.Add(this.pictureBox145);
+			this.Controls.Add(this.pictureBox127);
+			this.Controls.Add(this.pictureBox117);
+			this.Controls.Add(this.pictureBox111);
+			this.Controls.Add(this.pictureBox129);
+			this.Controls.Add(this.pictureBox134);
+			this.Controls.Add(this.pictureBox159);
+			this.Controls.Add(this.pictureBox158);
+			this.Controls.Add(this.pictureBox135);
+			this.Controls.Add(this.pictureBox132);
+			this.Controls.Add(this.pictureBox123);
+			this.Controls.Add(this.pictureBox116);
+			this.Controls.Add(this.pictureBox120);
+			this.Controls.Add(this.pictureBox130);
+			this.Controls.Add(this.pictureBox118);
+			this.Controls.Add(this.pictureBox133);
+			this.Controls.Add(this.pictureBox131);
+			this.Controls.Add(this.pictureBox119);
+			this.Controls.Add(this.pictureBox115);
+			this.Controls.Add(this.pictureBox112);
+			this.Controls.Add(this.pictureBox109);
+			this.Controls.Add(this.pictureBox108);
+			this.Controls.Add(this.pictureBox107);
+			this.Controls.Add(this.pictureBox970);
+			this.Controls.Add(this.pictureBox968);
+			this.Controls.Add(this.pictureBox969);
+			this.Controls.Add(this.pictureBox967);
+			this.Controls.Add(this.pictureBox966);
+			this.Controls.Add(this.pictureBox965);
+			this.Controls.Add(this.pictureBox964);
+			this.Controls.Add(this.pictureBox696);
+			this.Controls.Add(this.pictureBox707);
+			this.Controls.Add(this.pictureBox963);
+			this.Controls.Add(this.pictureBox648);
+			this.Controls.Add(this.PiratesShip_progressBar);
+			this.Controls.Add(this.Sloop_progressBar);
+			this.Controls.Add(this.FishingBoat_progressBar);
 			this.Controls.Add(this.pictureBox452);
 			this.Controls.Add(this.explosion_image);
 			this.Controls.Add(this.cannonball);
 			this.Controls.Add(this.EnemyActionText);
 			this.Controls.Add(this.enemyDialogBox);
-			this.Controls.Add(this.PlayerActionText);
 			this.Controls.Add(this.playerDialogBox);
-			this.Controls.Add(this.ErrorDialogLabel);
 			this.Controls.Add(this.SetShipsButton);
 			this.Controls.Add(this.ShipName_texbox);
 			this.Controls.Add(this.VerticalOption);
@@ -15307,7 +15630,6 @@
 			this.Controls.Add(this.pictureBox672);
 			this.Controls.Add(this.pictureBox673);
 			this.Controls.Add(this.pictureBox649);
-			this.Controls.Add(this.pictureBox648);
 			this.Controls.Add(this.pictureBox646);
 			this.Controls.Add(this.pictureBox645);
 			this.Controls.Add(this.pictureBox644);
@@ -15692,7 +16014,6 @@
 			this.Controls.Add(this.pictureBox205);
 			this.Controls.Add(this.pictureBox204);
 			this.Controls.Add(this.pictureBox203);
-			this.Controls.Add(this.pictureBox202);
 			this.Controls.Add(this.pictureBox201);
 			this.Controls.Add(this.pictureBox200);
 			this.Controls.Add(this.pictureBox199);
@@ -15720,7 +16041,6 @@
 			this.Controls.Add(this.pictureBox140);
 			this.Controls.Add(this.pictureBox139);
 			this.Controls.Add(this.pictureBox138);
-			this.Controls.Add(this.pictureBox168);
 			this.Controls.Add(this.pictureBox167);
 			this.Controls.Add(this.pictureBox166);
 			this.Controls.Add(this.pictureBox165);
@@ -15728,8 +16048,6 @@
 			this.Controls.Add(this.pictureBox162);
 			this.Controls.Add(this.pictureBox161);
 			this.Controls.Add(this.pictureBox160);
-			this.Controls.Add(this.pictureBox159);
-			this.Controls.Add(this.pictureBox158);
 			this.Controls.Add(this.pictureBox157);
 			this.Controls.Add(this.pictureBox156);
 			this.Controls.Add(this.pictureBox155);
@@ -15738,53 +16056,22 @@
 			this.Controls.Add(this.pictureBox150);
 			this.Controls.Add(this.pictureBox149);
 			this.Controls.Add(this.pictureBox146);
-			this.Controls.Add(this.pictureBox145);
 			this.Controls.Add(this.pictureBox144);
 			this.Controls.Add(this.pictureBox143);
 			this.Controls.Add(this.pictureBox142);
 			this.Controls.Add(this.pictureBox141);
 			this.Controls.Add(this.pictureBox137);
 			this.Controls.Add(this.pictureBox136);
-			this.Controls.Add(this.pictureBox132);
-			this.Controls.Add(this.pictureBox121);
-			this.Controls.Add(this.pictureBox117);
-			this.Controls.Add(this.pictureBox116);
-			this.Controls.Add(this.pictureBox115);
 			this.Controls.Add(this.pictureBox105);
 			this.Controls.Add(this.pictureBox114);
-			this.Controls.Add(this.pictureBox118);
-			this.Controls.Add(this.pictureBox119);
-			this.Controls.Add(this.pictureBox120);
 			this.Controls.Add(this.pictureBox122);
-			this.Controls.Add(this.pictureBox123);
 			this.Controls.Add(this.pictureBox124);
 			this.Controls.Add(this.pictureBox125);
 			this.Controls.Add(this.pictureBox126);
-			this.Controls.Add(this.pictureBox127);
 			this.Controls.Add(this.pictureBox128);
-			this.Controls.Add(this.pictureBox129);
-			this.Controls.Add(this.pictureBox130);
-			this.Controls.Add(this.pictureBox131);
-			this.Controls.Add(this.pictureBox133);
-			this.Controls.Add(this.pictureBox134);
-			this.Controls.Add(this.pictureBox135);
 			this.Controls.Add(this.pictureBox103);
-			this.Controls.Add(this.pictureBox104);
 			this.Controls.Add(this.pictureBox106);
-			this.Controls.Add(this.pictureBox107);
-			this.Controls.Add(this.pictureBox108);
-			this.Controls.Add(this.pictureBox109);
 			this.Controls.Add(this.pictureBox110);
-			this.Controls.Add(this.pictureBox111);
-			this.Controls.Add(this.pictureBox112);
-			this.Controls.Add(this.pictureBox113);
-			this.Controls.Add(this.pictureBox102);
-			this.Controls.Add(this.pictureBox101);
-			this.Controls.Add(this.pictureBox100);
-			this.Controls.Add(this.pictureBox99);
-			this.Controls.Add(this.pictureBox98);
-			this.Controls.Add(this.pictureBox97);
-			this.Controls.Add(this.pictureBox96);
 			this.Controls.Add(this.pictureBox95);
 			this.Controls.Add(this.pictureBox94);
 			this.Controls.Add(this.pictureBox93);
@@ -15813,9 +16100,7 @@
 			this.Controls.Add(this.Sloop_nameText);
 			this.Controls.Add(this.FishingBoat_nameText);
 			this.Controls.Add(this.Galleon_progressBar);
-			this.Controls.Add(this.Sloop_progressBar);
 			this.Controls.Add(this.Brigantine_progressBar);
-			this.Controls.Add(this.FishingBoat_progressBar);
 			this.Controls.Add(this.Galleon_icon);
 			this.Controls.Add(this.Sloop_icon);
 			this.Controls.Add(this.Brigantine_icon);
@@ -15853,7 +16138,6 @@
 			this.Controls.Add(this.pictureBox22);
 			this.Controls.Add(this.pictureBox20);
 			this.Controls.Add(this.pictureBox21);
-			this.Controls.Add(this.PiratesShip_progressBar);
 			this.Controls.Add(this.PlayerField_label);
 			this.Controls.Add(this.pictureBox42);
 			this.Controls.Add(this.pictureBox43);
@@ -16083,228 +16367,65 @@
 			this.Text = "Battle Ships";
 			this.Load += new System.EventHandler(this.GameScreen_Load);
 			this.PlayerField_label.ResumeLayout(false);
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox211)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_vertical_player)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.Galleon_horizontal_player)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J10)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J9)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_horizontal_player)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J8)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J7)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.Galleon_vertical_player)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J6)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.Brigantine_vertical_player)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J5)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J4)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.Brigantine_horizontal_player)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J3)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J2)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.Sloop_vertical_player)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I10)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I9)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.Sloop_horizontal_player)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I8)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I7)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I6)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I5)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.FishingBoat_vertical_player)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I4)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I3)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I2)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.FishingBoat_horizontal_player)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H10)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H9)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H8)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H7)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H6)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H5)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H4)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H3)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H2)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G10)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G9)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G8)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G7)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G6)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G5)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G4)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G3)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G2)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F10)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F9)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F8)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F7)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F6)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F5)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F4)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F3)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F2)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E10)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E9)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E8)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E7)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E6)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E5)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E4)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E3)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E2)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D10)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D9)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D8)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D7)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D6)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D5)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D4)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D3)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D2)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C10)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C9)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C8)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C7)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C6)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C5)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C4)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C3)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C2)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B10)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B9)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B8)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B7)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B6)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B5)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B4)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B3)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B2)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A10)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A9)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A8)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A7)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A6)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A5)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J1)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I1)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H1)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G1)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F1)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E1)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D1)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C1)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B1)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A4)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A3)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A2)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A1)).EndInit();
 			this.EnemyField_label.ResumeLayout(false);
-			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_vertical_enemy)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J10)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_horizontal_enemy)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.Galleon_horizontal_enemy)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.Galleon_vertical_enemy)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.Brigantine_vertical_enemy)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.Brigantine_horizontal_enemy)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J3)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J2)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.Sloop_horizontal_enemy)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I10)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I9)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I8)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.Sloop_vertical_enemy)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I7)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I6)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I5)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.FishingBoat_horizontal_enemy)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I4)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.FishingBoat_vertical_enemy)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I3)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I2)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H10)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H9)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H8)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H7)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H6)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H5)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H4)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H3)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H2)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G10)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G9)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G8)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G7)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G6)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G5)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G4)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G3)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A2)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A1)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G2)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F10)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F9)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F8)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F7)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F6)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F4)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F3)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F2)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E10)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E9)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E8)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E7)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E6)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E5)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E4)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E3)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E2)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D10)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D9)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D8)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D7)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D6)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D5)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D4)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D3)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D2)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C10)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C9)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C8)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C7)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C6)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C5)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C4)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C3)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C2)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B10)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B9)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B8)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B7)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B6)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B5)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B4)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B3)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B2)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A10)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A9)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A8)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A7)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A6)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A5)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J1)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I1)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H1)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G1)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F1)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E1)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D1)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C1)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B1)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A4)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A3)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F5)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J7)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J8)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J9)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J4)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J5)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J6)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.LogFrame)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox980)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox121)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox113)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox202)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox979)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox102)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox100)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox101)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox96)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox97)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox98)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox99)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox104)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox978)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox977)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox976)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox975)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox974)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox973)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox972)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox971)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox168)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox145)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox127)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox117)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox111)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox129)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox134)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox159)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox158)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox135)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox132)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox123)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox116)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox120)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox130)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox118)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox133)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox131)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox119)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox115)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox112)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox109)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox108)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox107)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox970)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox968)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox969)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox967)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox966)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox965)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox964)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox696)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox707)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox963)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox648)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox452)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.explosion_image)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.cannonball)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.enemyDialogBox)).EndInit();
@@ -16516,7 +16637,6 @@
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox672)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox673)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox649)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox648)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox646)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox645)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox644)).EndInit();
@@ -16533,7 +16653,6 @@
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox635)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox633)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox634)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox452)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox618)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox332)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox333)).EndInit();
@@ -16901,7 +17020,6 @@
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox205)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox204)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox203)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox202)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox201)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox200)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox199)).EndInit();
@@ -16929,7 +17047,6 @@
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox140)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox139)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox138)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox168)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox167)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox166)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox165)).EndInit();
@@ -16937,8 +17054,6 @@
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox162)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox161)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox160)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox159)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox158)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox157)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox156)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox155)).EndInit();
@@ -16947,53 +17062,22 @@
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox150)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox149)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox146)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox145)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox144)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox143)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox142)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox141)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox137)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox136)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox132)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox121)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox117)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox116)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox115)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox105)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox114)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox118)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox119)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox120)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox122)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox123)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox124)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox125)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox126)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox127)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox128)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox129)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox130)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox131)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox133)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox134)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox135)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox103)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox104)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox106)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox107)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox108)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox109)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox110)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox111)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox112)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox113)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox102)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox101)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox100)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox99)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox98)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox97)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox96)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox95)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox94)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox93)).EndInit();
@@ -17021,6 +17105,116 @@
 			((System.ComponentModel.ISupportInitialize)(this.Sloop_icon)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.Brigantine_icon)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.FishingBoat_icon)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_vertical_enemy)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J10)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_horizontal_enemy)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.Galleon_horizontal_enemy)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.Galleon_vertical_enemy)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.Brigantine_vertical_enemy)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.Brigantine_horizontal_enemy)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.Sloop_horizontal_enemy)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I10)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I9)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I8)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.Sloop_vertical_enemy)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I7)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I6)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I5)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.FishingBoat_horizontal_enemy)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I4)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.FishingBoat_vertical_enemy)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H10)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H9)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H8)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H7)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H6)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H5)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H4)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G10)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G9)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G8)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G7)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G6)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G5)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G4)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F10)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F9)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F8)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F7)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F6)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F4)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E10)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E9)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E8)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E7)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E6)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E5)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E4)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D10)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D9)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D8)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D7)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D6)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D5)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D4)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C10)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C9)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C8)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C7)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C6)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C5)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C4)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B10)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B9)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B8)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B7)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B6)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B5)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B4)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A10)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A9)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A8)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A7)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A6)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A5)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_I1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_H1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_G1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_E1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_D1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_C1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_B1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A4)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_A3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_F5)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J7)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J8)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J9)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J4)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J5)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyField_J6)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
@@ -17053,6 +17247,117 @@
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox211)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_vertical_player)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.Galleon_horizontal_player)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J10)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J9)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_horizontal_player)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J8)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J7)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.Galleon_vertical_player)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J6)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.Brigantine_vertical_player)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J5)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J4)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.Brigantine_horizontal_player)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.Sloop_vertical_player)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I10)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I9)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.Sloop_horizontal_player)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I8)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I7)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I6)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I5)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.FishingBoat_vertical_player)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I4)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.FishingBoat_horizontal_player)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H10)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H9)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H8)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H7)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H6)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H5)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H4)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G10)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G9)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G8)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G7)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G6)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G5)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G4)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F10)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F9)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F8)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F7)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F6)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F5)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F4)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E10)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E9)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E8)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E7)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E6)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E5)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E4)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D10)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D9)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D8)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D7)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D6)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D5)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D4)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C10)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C9)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C8)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C7)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C6)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C5)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C4)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B10)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B9)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B8)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B7)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B6)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B5)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B4)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A10)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A9)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A8)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A7)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A6)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A5)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_J1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_I1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_H1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_G1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_F1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_E1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_D1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_C1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_B1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A4)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PlayerField_A1)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).EndInit();
@@ -17494,7 +17799,7 @@
 		private System.Windows.Forms.RadioButton VerticalOption;
 		private System.Windows.Forms.RadioButton HorizontalOption;
 		private System.Windows.Forms.ComboBox ChooseShipComboBox;
-		private System.Windows.Forms.Label ErrorDialogLabel;
+		private System.Windows.Forms.Label DialogLabel;
 		private System.Windows.Forms.PictureBox Galleon_vertical_player;
 		private System.Windows.Forms.PictureBox Galleon_horizontal_player;
 		private System.Windows.Forms.PictureBox Sloop_vertical_player;
@@ -17633,52 +17938,21 @@
 		private System.Windows.Forms.PictureBox pictureBox93;
 		private System.Windows.Forms.PictureBox pictureBox94;
 		private System.Windows.Forms.PictureBox pictureBox95;
-		private System.Windows.Forms.PictureBox pictureBox96;
-		private System.Windows.Forms.PictureBox pictureBox97;
-		private System.Windows.Forms.PictureBox pictureBox98;
-		private System.Windows.Forms.PictureBox pictureBox99;
-		private System.Windows.Forms.PictureBox pictureBox100;
-		private System.Windows.Forms.PictureBox pictureBox101;
-		private System.Windows.Forms.PictureBox pictureBox102;
 		private System.Windows.Forms.PictureBox pictureBox103;
-		private System.Windows.Forms.PictureBox pictureBox104;
 		private System.Windows.Forms.PictureBox pictureBox106;
-		private System.Windows.Forms.PictureBox pictureBox107;
-		private System.Windows.Forms.PictureBox pictureBox108;
-		private System.Windows.Forms.PictureBox pictureBox109;
 		private System.Windows.Forms.PictureBox pictureBox110;
-		private System.Windows.Forms.PictureBox pictureBox111;
-		private System.Windows.Forms.PictureBox pictureBox112;
-		private System.Windows.Forms.PictureBox pictureBox113;
 		private System.Windows.Forms.PictureBox pictureBox114;
-		private System.Windows.Forms.PictureBox pictureBox118;
-		private System.Windows.Forms.PictureBox pictureBox119;
-		private System.Windows.Forms.PictureBox pictureBox120;
 		private System.Windows.Forms.PictureBox pictureBox122;
-		private System.Windows.Forms.PictureBox pictureBox123;
 		private System.Windows.Forms.PictureBox pictureBox124;
 		private System.Windows.Forms.PictureBox pictureBox125;
 		private System.Windows.Forms.PictureBox pictureBox126;
-		private System.Windows.Forms.PictureBox pictureBox127;
 		private System.Windows.Forms.PictureBox pictureBox128;
-		private System.Windows.Forms.PictureBox pictureBox129;
-		private System.Windows.Forms.PictureBox pictureBox130;
-		private System.Windows.Forms.PictureBox pictureBox131;
-		private System.Windows.Forms.PictureBox pictureBox133;
-		private System.Windows.Forms.PictureBox pictureBox134;
-		private System.Windows.Forms.PictureBox pictureBox135;
 		private System.Windows.Forms.PictureBox pictureBox105;
-		private System.Windows.Forms.PictureBox pictureBox115;
-		private System.Windows.Forms.PictureBox pictureBox116;
-		private System.Windows.Forms.PictureBox pictureBox117;
-		private System.Windows.Forms.PictureBox pictureBox121;
-		private System.Windows.Forms.PictureBox pictureBox132;
 		private System.Windows.Forms.PictureBox pictureBox137;
 		private System.Windows.Forms.PictureBox pictureBox141;
 		private System.Windows.Forms.PictureBox pictureBox142;
 		private System.Windows.Forms.PictureBox pictureBox143;
 		private System.Windows.Forms.PictureBox pictureBox144;
-		private System.Windows.Forms.PictureBox pictureBox145;
 		private System.Windows.Forms.PictureBox pictureBox146;
 		private System.Windows.Forms.PictureBox pictureBox149;
 		private System.Windows.Forms.PictureBox pictureBox150;
@@ -17687,8 +17961,6 @@
 		private System.Windows.Forms.PictureBox pictureBox155;
 		private System.Windows.Forms.PictureBox pictureBox156;
 		private System.Windows.Forms.PictureBox pictureBox157;
-		private System.Windows.Forms.PictureBox pictureBox158;
-		private System.Windows.Forms.PictureBox pictureBox159;
 		private System.Windows.Forms.PictureBox pictureBox160;
 		private System.Windows.Forms.PictureBox pictureBox161;
 		private System.Windows.Forms.PictureBox pictureBox162;
@@ -17696,7 +17968,6 @@
 		private System.Windows.Forms.PictureBox pictureBox165;
 		private System.Windows.Forms.PictureBox pictureBox166;
 		private System.Windows.Forms.PictureBox pictureBox167;
-		private System.Windows.Forms.PictureBox pictureBox168;
 		private System.Windows.Forms.PictureBox pictureBox138;
 		private System.Windows.Forms.PictureBox pictureBox139;
 		private System.Windows.Forms.PictureBox pictureBox140;
@@ -17724,7 +17995,6 @@
 		private System.Windows.Forms.PictureBox pictureBox199;
 		private System.Windows.Forms.PictureBox pictureBox200;
 		private System.Windows.Forms.PictureBox pictureBox201;
-		private System.Windows.Forms.PictureBox pictureBox202;
 		private System.Windows.Forms.PictureBox pictureBox203;
 		private System.Windows.Forms.PictureBox pictureBox204;
 		private System.Windows.Forms.PictureBox pictureBox205;
@@ -18111,7 +18381,6 @@
 		private System.Windows.Forms.PictureBox pictureBox644;
 		private System.Windows.Forms.PictureBox pictureBox645;
 		private System.Windows.Forms.PictureBox pictureBox646;
-		private System.Windows.Forms.PictureBox pictureBox648;
 		private System.Windows.Forms.PictureBox pictureBox649;
 		private System.Windows.Forms.PictureBox pictureBox650;
 		private System.Windows.Forms.PictureBox pictureBox651;
@@ -18490,7 +18759,6 @@
 		private System.Windows.Forms.PictureBox pictureBox630;
 		private System.Windows.Forms.PictureBox pictureBox631;
 		private System.Windows.Forms.PictureBox pictureBox632;
-		private System.Windows.Forms.PictureBox pictureBox643;
 		private System.Windows.Forms.PictureBox pictureBox647;
 		private System.Windows.Forms.PictureBox pictureBox910;
 		private System.Windows.Forms.PictureBox pictureBox958;
@@ -18507,6 +18775,64 @@
 		private System.Windows.Forms.PictureBox explosion_image;
 		private System.Windows.Forms.Timer showPlayerDialogTimer;
 		private System.Windows.Forms.Timer showEnemyDialogTimer;
+		private System.Windows.Forms.PictureBox pictureBox648;
+		private System.Windows.Forms.PictureBox pictureBox643;
+		private System.Windows.Forms.PictureBox pictureBox696;
+		private System.Windows.Forms.PictureBox pictureBox707;
+		private System.Windows.Forms.PictureBox pictureBox963;
+		private System.Windows.Forms.PictureBox pictureBox964;
+		private System.Windows.Forms.PictureBox pictureBox965;
+		private System.Windows.Forms.PictureBox pictureBox966;
+		private System.Windows.Forms.PictureBox pictureBox967;
+		private System.Windows.Forms.PictureBox pictureBox968;
+		private System.Windows.Forms.PictureBox pictureBox969;
+		private System.Windows.Forms.PictureBox pictureBox970;
+		private System.Windows.Forms.PictureBox pictureBox107;
+		private System.Windows.Forms.PictureBox pictureBox108;
+		private System.Windows.Forms.PictureBox pictureBox109;
+		private System.Windows.Forms.PictureBox pictureBox112;
+		private System.Windows.Forms.PictureBox pictureBox115;
+		private System.Windows.Forms.PictureBox pictureBox119;
+		private System.Windows.Forms.PictureBox pictureBox131;
+		private System.Windows.Forms.PictureBox pictureBox133;
+		private System.Windows.Forms.PictureBox pictureBox118;
+		private System.Windows.Forms.PictureBox pictureBox130;
+		private System.Windows.Forms.PictureBox pictureBox120;
+		private System.Windows.Forms.PictureBox pictureBox116;
+		private System.Windows.Forms.PictureBox pictureBox123;
+		private System.Windows.Forms.PictureBox pictureBox132;
+		private System.Windows.Forms.PictureBox pictureBox135;
+		private System.Windows.Forms.PictureBox pictureBox158;
+		private System.Windows.Forms.PictureBox pictureBox159;
+		private System.Windows.Forms.PictureBox pictureBox134;
+		private System.Windows.Forms.PictureBox pictureBox129;
+		private System.Windows.Forms.PictureBox pictureBox111;
+		private System.Windows.Forms.PictureBox pictureBox117;
+		private System.Windows.Forms.PictureBox pictureBox127;
+		private System.Windows.Forms.PictureBox pictureBox145;
+		private System.Windows.Forms.PictureBox pictureBox168;
+		private System.Windows.Forms.PictureBox pictureBox971;
+		private System.Windows.Forms.PictureBox pictureBox972;
+		private System.Windows.Forms.PictureBox pictureBox973;
+		private System.Windows.Forms.PictureBox pictureBox974;
+		private System.Windows.Forms.PictureBox pictureBox975;
+		private System.Windows.Forms.PictureBox pictureBox976;
+		private System.Windows.Forms.PictureBox pictureBox977;
+		private System.Windows.Forms.PictureBox pictureBox978;
+		private System.Windows.Forms.PictureBox pictureBox104;
+		private System.Windows.Forms.PictureBox pictureBox96;
+		private System.Windows.Forms.PictureBox pictureBox97;
+		private System.Windows.Forms.PictureBox pictureBox98;
+		private System.Windows.Forms.PictureBox pictureBox99;
+		private System.Windows.Forms.PictureBox pictureBox100;
+		private System.Windows.Forms.PictureBox pictureBox101;
+		private System.Windows.Forms.PictureBox pictureBox102;
+		private System.Windows.Forms.PictureBox pictureBox979;
+		private System.Windows.Forms.PictureBox pictureBox202;
+		private System.Windows.Forms.PictureBox pictureBox113;
+		private System.Windows.Forms.PictureBox pictureBox121;
+		private System.Windows.Forms.PictureBox pictureBox980;
+		private System.Windows.Forms.PictureBox LogFrame;
 	}
 }
 
