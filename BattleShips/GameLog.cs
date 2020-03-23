@@ -49,6 +49,8 @@ namespace BattleShips
 
 			allText.Clear();
 			label.Text = "";
+			textStartIndex = 0;
+			textLastIndex = -1;
 
 		}
 

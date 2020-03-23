@@ -12,12 +12,12 @@ namespace BattleShips
 	{
 
 		public static Field[] AllFields;
-		private static List<Field> notHitfields;
+		private static List<Field> hitFields;
 
 		static EnemyField()
 		{
 			AllFields = new Field[100];
-			notHitfields = new List<Field>();
+			hitFields = new List<Field>();
 		}
 
 
@@ -40,6 +40,8 @@ namespace BattleShips
 				AllFields[i].isTaken = false;
 				
 			}
+
+			hitFields.Clear();
 		}
 
 		static public void Hit(Field pos)
@@ -49,7 +51,7 @@ namespace BattleShips
 				if (AllFields[i].point == pos.point)
 				{
 					AllFields[i].isHit = true;
-					notHitfields.Add(pos);
+					hitFields.Add(pos);
 				}
 
 			}
@@ -60,7 +62,7 @@ namespace BattleShips
 		{
 
 
-			foreach (Field f in notHitfields)
+			foreach (Field f in hitFields)
 			{
 				if (f.point == pos.point)
 					return true;
