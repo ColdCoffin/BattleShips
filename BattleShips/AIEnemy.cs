@@ -110,6 +110,16 @@ namespace BattleShips
 
 		}
 
+		public void DespawnShips()
+		{
+
+			foreach (Ship ship in enemyShips)
+			{
+				ship.DespawnShip();
+			}
+
+		}
+
 		private bool GetFirePoint(string dir, int offset)
 		{
 

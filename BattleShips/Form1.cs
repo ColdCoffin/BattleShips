@@ -599,6 +599,22 @@ namespace BattleShips
 			}
 		}
 
+		private void HideShowLog_button_Click(object sender, EventArgs e)
+		{
+			if (HideShowLog_button.Text == "Hide Log")
+			{
+				HideShowLog_button.Text = "Show Log";
+				LogFrame.Visible = false;
+				DialogLabel.Visible = false;
+			}
+			else
+			{
+				HideShowLog_button.Text = "Hide Log";
+				LogFrame.Visible = true;
+				DialogLabel.Visible = true;
+			}
+		}
+
 		int endDistance;
 		private void cannonballTimer_Tick(object sender, EventArgs e)
 		{
