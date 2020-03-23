@@ -44,6 +44,14 @@ namespace BattleShips
 
 		}
 
+		public void Reset()
+		{
+
+			allText.Clear();
+			label.Text = "";
+
+		}
+
 
 	}
 }

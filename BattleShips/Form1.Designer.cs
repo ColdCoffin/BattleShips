@@ -1279,6 +1279,7 @@
 			this.HideShowLog_button = new System.Windows.Forms.Button();
 			this.pictureBox106 = new System.Windows.Forms.PictureBox();
 			this.pictureBox110 = new System.Windows.Forms.PictureBox();
+			this.restartGame_button = new System.Windows.Forms.Button();
 			this.PlayerField_label.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox211)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_vertical_player)).BeginInit();
@@ -5141,7 +5142,7 @@
 			// 
 			this.Brigantine_nameText.BackColor = System.Drawing.Color.Transparent;
 			this.Brigantine_nameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Brigantine_nameText.Location = new System.Drawing.Point(1010, 547);
+			this.Brigantine_nameText.Location = new System.Drawing.Point(1010, 487);
 			this.Brigantine_nameText.Name = "Brigantine_nameText";
 			this.Brigantine_nameText.Size = new System.Drawing.Size(130, 21);
 			this.Brigantine_nameText.TabIndex = 116;
@@ -5152,7 +5153,7 @@
 			// 
 			this.Sloop_nameText.BackColor = System.Drawing.Color.Transparent;
 			this.Sloop_nameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Sloop_nameText.Location = new System.Drawing.Point(1010, 488);
+			this.Sloop_nameText.Location = new System.Drawing.Point(1010, 545);
 			this.Sloop_nameText.Name = "Sloop_nameText";
 			this.Sloop_nameText.Size = new System.Drawing.Size(130, 21);
 			this.Sloop_nameText.TabIndex = 117;
@@ -15346,12 +15347,27 @@
 			this.pictureBox110.TabIndex = 1332;
 			this.pictureBox110.TabStop = false;
 			// 
+			// restartGame_button
+			// 
+			this.restartGame_button.BackgroundImage = global::BattleShips.Properties.Resources.smallButton;
+			this.restartGame_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+			this.restartGame_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.restartGame_button.Font = new System.Drawing.Font("Pixel-Art", 9.75F);
+			this.restartGame_button.Location = new System.Drawing.Point(1103, 709);
+			this.restartGame_button.Name = "restartGame_button";
+			this.restartGame_button.Size = new System.Drawing.Size(80, 25);
+			this.restartGame_button.TabIndex = 1333;
+			this.restartGame_button.Text = "Restart";
+			this.restartGame_button.UseVisualStyleBackColor = true;
+			this.restartGame_button.Click += new System.EventHandler(this.button1_Click_1);
+			// 
 			// GameScreen
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(1280, 736);
+			this.Controls.Add(this.restartGame_button);
 			this.Controls.Add(this.pictureBox110);
 			this.Controls.Add(this.pictureBox106);
 			this.Controls.Add(this.HideShowLog_button);
@@ -18850,6 +18866,7 @@
 		private System.Windows.Forms.Button HideShowLog_button;
 		private System.Windows.Forms.PictureBox pictureBox106;
 		private System.Windows.Forms.PictureBox pictureBox110;
+		private System.Windows.Forms.Button restartGame_button;
 	}
 }
 

@@ -48,6 +48,7 @@ namespace BattleShips
 
 		GameLog gl;
 		MenuScreen menuScreen;
+		List<PictureBox> hitAreas;
 
 		Point cannonballEndPos, cannonballCurrentPos, cannonballEnemyStartPos, cannonballPlayerStartPos;
 
@@ -138,6 +139,8 @@ namespace BattleShips
 				enemyBrigantine
 			};
 
+			hitAreas = new List<PictureBox>();
+
 			AI = new AIEnemy(enemyFishingBoat, enemySloop,
 									enemyGalleon, enemyBrigantine, enemyPiratesShip, menuScreen.isHard);
 			AI.SpawnShips();
@@ -148,7 +151,16 @@ namespace BattleShips
 		private void gameReset()
 		{
 			AI.DespawnShips();
+			EnemyField.ResetFields();
+			PlayerField.ResetFields();
 			AI.SpawnShips();
+
+			gl.Reset();
+
+			foreach (PictureBox pictureBox in hitAreas)
+			{
+				pictureBox.Image = Resources.pixil_frame_0;
+			}
 
 			foreach (Ship ship in PlayerShips)
 			{
@@ -163,6 +175,7 @@ namespace BattleShips
 			LetterboxText.Enabled = false;
 			NumberboxText.Enabled = false;
 			ActionButton.Enabled = false;
+			SetShipsButton.Enabled = true;
 
 			RemovePiratesShip_button.Visible = false;
 			RemoveSloop_button.Visible = false;
@@ -177,6 +190,8 @@ namespace BattleShips
 		private void FireButton_Click(object sender, EventArgs e)
 		{
 			isEnemyTurn = false;
+			restartGame_button.Enabled = false;
+
 			String letter = LetterboxText.Text;
 			String number = NumberboxText.Text;
 			String s = "EnemyField_" + letter + number;
@@ -251,7 +266,8 @@ namespace BattleShips
 			if (SetHorizontalPosText.TextLength == 0 || SetHorizontalPosText.Text[0] < 'A' 
 				|| SetHorizontalPosText.Text[0] > 'J' || SetVerticalPosText.TextLength == 0)
 			{
-				DialogLabel.Text = "Bad coordinates";
+				PlayerActionText.Text = "Bad coordinates";
+				showPlayerDialogTimer.Start();
 				return;
 			}
 
@@ -265,7 +281,8 @@ namespace BattleShips
 
 			if (vpos < 0 || vpos > 9)
 			{
-				DialogLabel.Text = "Bad coordinates";
+				PlayerActionText.Text = "Bad coordinates";
+				showPlayerDialogTimer.Start();
 				return;
 			}
 
@@ -287,10 +304,8 @@ namespace BattleShips
 				case "Fishing Boat":
 					if (
 					playerFishingBoat.SpawnShip(PlayerField.AllFields[index], orientation,false, sname) == false)
-					{
-						DialogLabel.Text = "Can't place your boat there";
-						break;
-					}
+						goto case "Error";
+
 					FishingBoat_icon.Visible = true;
 					FishingBoat_nameText.Text = playerFishingBoat.ShipName;
 					FishingBoat_nameText.Visible = true;
@@ -300,10 +315,8 @@ namespace BattleShips
 				case "Brigantine":
 					if (
 					playerBrigantine.SpawnShip(PlayerField.AllFields[index], orientation,false, sname) == false)
-					{
-						DialogLabel.Text = "Can't place your boat there";
-						break;
-					}
+						goto case "Error";
+
 					Brigantine_icon.Visible = true;
 					Brigantine_nameText.Text = playerBrigantine.ShipName;
 					Brigantine_nameText.Visible = true;
@@ -313,10 +326,8 @@ namespace BattleShips
 				case "Sloop":
 					if (
 					playerSloop.SpawnShip(PlayerField.AllFields[index], orientation,false, sname) == false)
-					{
-						DialogLabel.Text = "Can't place your boat there";
-						break;
-					}
+						goto case "Error";
+
 					Sloop_icon.Visible = true;
 					Sloop_nameText.Text = playerSloop.ShipName;
 					Sloop_nameText.Visible = true;
@@ -326,10 +337,8 @@ namespace BattleShips
 				case "Galleon":
 					if (
 					playerGalleon.SpawnShip(PlayerField.AllFields[index], orientation,false, sname) == false)
-					{
-						DialogLabel.Text = "Can't place your boat there";
-						break;
-					}
+						goto case "Error";
+
 					Galleon_icon.Visible = true;
 					Galleon_nameText.Text = playerGalleon.ShipName;
 					Galleon_nameText.Visible = true;
@@ -339,15 +348,18 @@ namespace BattleShips
 				case "Pirate's ship":
 					if (
 					playerPiratesShip.SpawnShip(PlayerField.AllFields[index], orientation,false, sname) == false)
-					{
-						DialogLabel.Text = "Can't place your boat there";
-						break;
-					}
+						goto case "Error";
+
 					PiratesShip_icon.Visible = true;
 					PiratesShip_nameText.Text = playerPiratesShip.ShipName;
 					PiratesShip_nameText.Visible = true;
 					PiratesShip_progressBar.Visible = true;
 					RemovePiratesShip_button.Visible = true;
+					break;
+
+				case "Error":
+					PlayerActionText.Text = "Can't place your boat there";
+					showPlayerDialogTimer.Start();
 					break;
 
 				default:
@@ -408,11 +420,11 @@ namespace BattleShips
 					gameReset();
 				}
 				else
-					Close();
+					Application.Exit();
 
 			}
 
-			if (destroyedEnemyShips == 0)
+			if (destroyedEnemyShips == 5)
 			{
 				res = MessageBox.Show("You won!\nDo you want to play again ? ","Game over",MessageBoxButtons.YesNo);
 
@@ -421,7 +433,7 @@ namespace BattleShips
 					gameReset();
 				}
 				else
-					Close();
+					Application.Exit();
 			}
 		}
 
@@ -435,6 +447,7 @@ namespace BattleShips
 			RemoveFishingBoat_button.Visible = false;
 			RemoveGalleon_button.Visible = false;
 			RemoveSloop_button.Visible = false;
+			restartGame_button.Enabled = false;
 
 			enemyDialogClock = 0;
 			showEnemyDialogTimer.Start();
@@ -661,6 +674,13 @@ namespace BattleShips
 			}
 		}
 
+		private void button1_Click_1(object sender, EventArgs e)
+		{
+			gameReset();
+			FireButton.BackgroundImage = Resources.smallButton;
+			ActionButton.BackgroundImage = Resources.BigButtton_2;
+		}
+
 		int endDistance;
 		private void cannonballTimer_Tick(object sender, EventArgs e)
 		{
@@ -683,10 +703,11 @@ namespace BattleShips
 
 				hitPic.BringToFront();
 
+				hitAreas.Add(hitPic);
 				
 				SetHealth();
 				SetNumOfDestroyedShips();
-				GameOver();
+
 
 				if (isEnemyTurn == true)
 				{
@@ -699,6 +720,9 @@ namespace BattleShips
 
 
 				cannonball.Visible = false;
+
+				GameOver();
+				restartGame_button.Enabled = true;
 			}
 
 			if (cannonball.Location.X > cannonballEndPos.X)

@@ -38,6 +38,7 @@ namespace BattleShips
 			{
 				AllFields[i].isHit = false;
 				AllFields[i].isTaken = false;
+				
 			}
 		}
 
