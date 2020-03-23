@@ -32,6 +32,15 @@ namespace BattleShips
 			}
 		}
 
+		static public void ResetFields()
+		{
+			for (int i = 0; i < 100; i++)
+			{
+				AllFields[i].isHit = false;
+				AllFields[i].isTaken = false;
+			}
+		}
+
 		static public void Hit(Field pos)
 		{
 			for (int i = 0; i < 100; i++)

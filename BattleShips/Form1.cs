@@ -144,14 +144,39 @@ namespace BattleShips
 
 		
 		}
+
+		private void gameReset()
+		{
+			AI.DespawnShips();
+			AI.SpawnShips();
+
+			foreach (Ship ship in PlayerShips)
+			{
+				ship.DespawnShip();
+			}
+
+			destroyedPlayerShips = 0;
+			destroyedEnemyShips = 0;
+
+
+			FireButton.Enabled = false;
+			LetterboxText.Enabled = false;
+			NumberboxText.Enabled = false;
+			ActionButton.Enabled = false;
+
+			RemovePiratesShip_button.Visible = false;
+			RemoveSloop_button.Visible = false;
+			RemoveGalleon_button.Visible = false;
+			RemoveFishingBoat_button.Visible = false;
+			RemoveBrigantine_button.Visible = false;
+
+		}
 		bool wasHit;
 		PictureBox hitPic;
 
 		private void FireButton_Click(object sender, EventArgs e)
 		{
-
 			isEnemyTurn = false;
-
 			String letter = LetterboxText.Text;
 			String number = NumberboxText.Text;
 			String s = "EnemyField_" + letter + number;
@@ -372,11 +397,32 @@ namespace BattleShips
 
 		private void GameOver()
 		{
-			if (destroyedPlayerShips == 5)
-				MessageBox.Show("Game over, you lost!");
+			DialogResult res;
 
-			if ( destroyedEnemyShips == 5)
-				MessageBox.Show("Game over, you won!");
+			if (destroyedPlayerShips == 5)
+			{
+				res = MessageBox.Show("You lost!\nDo you want to play again?","Game over",MessageBoxButtons.YesNo);
+
+				if (res == DialogResult.Yes)
+				{
+					gameReset();
+				}
+				else
+					Close();
+
+			}
+
+			if (destroyedEnemyShips == 0)
+			{
+				res = MessageBox.Show("You won!\nDo you want to play again ? ","Game over",MessageBoxButtons.YesNo);
+
+				if (res == DialogResult.Yes)
+				{
+					gameReset();
+				}
+				else
+					Close();
+			}
 		}
 
 		private void ActionButton_Click(object sender, EventArgs e)
