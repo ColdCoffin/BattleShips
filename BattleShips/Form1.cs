@@ -511,7 +511,7 @@ namespace BattleShips
 			{
 				if (playerShip.isHit(fieldHit) == true)
 				{
-					AI.IsHit = true;
+					
 					wasHit = true;
 					playerShip.Hit(fieldHit);
 
@@ -521,9 +521,12 @@ namespace BattleShips
 					{
 						isDestroyed = true;
 						temp = playerShip;
+						AI.IsHit = false;
 					}
+					else
+						AI.IsHit = true;
 
-					
+
 					break;
 				}
 			}

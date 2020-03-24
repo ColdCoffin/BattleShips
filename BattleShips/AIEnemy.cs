@@ -34,6 +34,9 @@ namespace BattleShips
 					searchmodeActivated = true;
 					startSearchPoint = fieldHit;
 				}
+
+				if (value == false)
+					searchmodeActivated = false;
 			}
 		}
 		
