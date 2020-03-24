@@ -154,8 +154,10 @@ namespace BattleShips
 			EnemyField.ResetFields();
 			PlayerField.ResetFields();
 			AI.SpawnShips();
+			SetHealth();
 
 			gl.Reset();
+			removeAllShipsFromDock();
 
 			foreach (PictureBox pictureBox in hitAreas)
 			{
@@ -226,6 +228,8 @@ namespace BattleShips
 			wasHit = false;
 
 			string shipHit = " (No ships were hit)";
+			bool isDestroyed = false;
+			Ship temp = null;
 
 			foreach (Ship enemyShip in EnemyShips)
 			{
@@ -234,6 +238,13 @@ namespace BattleShips
 					wasHit = true;
 					shipHit = " (Ship was hit)";
 					enemyShip.Hit(new Field(fireAt));
+
+					if (enemyShip.getHealth() == 0)
+					{
+						isDestroyed = true;
+						temp = enemyShip;
+					}
+
 					break;
 				}
 			}
@@ -257,6 +268,9 @@ namespace BattleShips
 			PlayerActionText.Text = "Firing at " + msg;
 			showPlayerDialogTimer.Start();
 			gl.Write("You fired at" + msg + shipHit);
+
+			if (isDestroyed == true)
+				gl.Write("You destroyed enemy " + temp.ShipName);
 
 		}
 
@@ -490,15 +504,26 @@ namespace BattleShips
 			PlayerField.Hit(fieldHit);
 
 			string shipHit = " (No ships were hit)";
+			bool isDestroyed = false;
+			Ship temp = null;
 
 			foreach (Ship playerShip in PlayerShips)
 			{
 				if (playerShip.isHit(fieldHit) == true)
 				{
-					shipHit = " (Enemy hit your " + playerShip.ShipName + ")";
 					AI.IsHit = true;
 					wasHit = true;
 					playerShip.Hit(fieldHit);
+
+					shipHit = " (Enemy hit your " + playerShip.ShipName + ")";
+
+					if (playerShip.getHealth() == 0)
+					{
+						isDestroyed = true;
+						temp = playerShip;
+					}
+
+					
 					break;
 				}
 			}
@@ -514,6 +539,12 @@ namespace BattleShips
 			string msg = "" + (char)letter + "" + number;
 			EnemyActionText.Text = "Enemy firing at " + msg;
 			gl.Write("Enemy fired at " + msg + shipHit);
+
+			if (isDestroyed == true)
+			{
+				gl.Write("Your " + temp.ShipName + " was destroyed");
+
+			}
 
 			cannonball.Location = cannonballEnemyStartPos;
 			cannonballCurrentPos = cannonball.Location;
@@ -538,6 +569,29 @@ namespace BattleShips
 			{
 				ship.ShowBoat();
 			}
+		}
+
+		private void removeAllShipsFromDock()
+		{
+			Galleon_icon.Visible = false;
+			Galleon_nameText.Visible = false;
+			Galleon_progressBar.Visible = false;
+
+			Sloop_icon.Visible = false;
+			Sloop_nameText.Visible = false;
+			Sloop_progressBar.Visible = false;
+
+			Brigantine_icon.Visible = false;
+			Brigantine_nameText.Visible = false;
+			Brigantine_progressBar.Visible = false;
+
+			FishingBoat_icon.Visible = false;
+			FishingBoat_nameText.Visible = false;
+			FishingBoat_progressBar.Visible = false;
+
+			PiratesShip_icon.Visible = false;
+			PiratesShip_nameText.Visible = false;
+			PiratesShip_progressBar.Visible = false;
 		}
 
 		private void RemoveGalleon_button_Click(object sender, EventArgs e)

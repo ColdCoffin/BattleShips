@@ -198,6 +198,8 @@ namespace BattleShips
 			Vgraphics.Visible = false;
 			Hgraphics.Visible = false;
 
+			SetHealth();
+
 			if (name != "")
 				ShipName = name;
 
