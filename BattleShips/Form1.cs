@@ -50,6 +50,7 @@ namespace BattleShips
 		MenuScreen menuScreen;
 		List<PictureBox> hitAreas;
 
+
 		Point cannonballEndPos, cannonballCurrentPos, cannonballEnemyStartPos, cannonballPlayerStartPos;
 
 		List<Image> explosion;
@@ -110,8 +111,6 @@ namespace BattleShips
 
 
 			FireButton.Enabled = false;
-			LetterboxText.Enabled = false;
-			NumberboxText.Enabled = false;
 			ActionButton.Enabled = false;
 
 			RemovePiratesShip_button.Visible = false;
@@ -145,7 +144,6 @@ namespace BattleShips
 									enemyGalleon, enemyBrigantine, enemyPiratesShip, menuScreen.isHard);
 			AI.SpawnShips();
 
-		
 		}
 
 		private void gameReset()
@@ -174,8 +172,6 @@ namespace BattleShips
 
 
 			FireButton.Enabled = false;
-			LetterboxText.Enabled = false;
-			NumberboxText.Enabled = false;
 			ActionButton.Enabled = false;
 			SetShipsButton.Enabled = true;
 
@@ -257,8 +253,6 @@ namespace BattleShips
 			cannonball.Visible = true;
 
 
-			LetterboxText.Enabled = false;
-			NumberboxText.Enabled = false;
 			FireButton.Enabled = false;
 
 			cannonballTimer.Start();
@@ -274,10 +268,10 @@ namespace BattleShips
 
 		}
 
-		private void SetShipsButton_Click(object sender, EventArgs e)
+		public void SetShips()
 		{
 
-			if (SetHorizontalPosText.TextLength == 0 || SetHorizontalPosText.Text[0] < 'A' 
+			if (SetHorizontalPosText.TextLength == 0 || SetHorizontalPosText.Text[0] < 'A'
 				|| SetHorizontalPosText.Text[0] > 'J' || SetVerticalPosText.TextLength == 0)
 			{
 				PlayerActionText.Text = "Bad coordinates";
@@ -288,7 +282,7 @@ namespace BattleShips
 			char hpos = SetHorizontalPosText.Text[0];
 			SetHorizontalPosText.Text = string.Empty;
 
-			
+
 
 			int vpos = int.Parse(SetVerticalPosText.Text) - 1;
 			SetVerticalPosText.Text = string.Empty;
@@ -317,7 +311,7 @@ namespace BattleShips
 			{
 				case "Fishing Boat":
 					if (
-					playerFishingBoat.SpawnShip(PlayerField.AllFields[index], orientation,false, sname) == false)
+					playerFishingBoat.SpawnShip(PlayerField.AllFields[index], orientation, false, sname) == false)
 						goto case "Error";
 
 					FishingBoat_icon.Visible = true;
@@ -328,7 +322,7 @@ namespace BattleShips
 					break;
 				case "Brigantine":
 					if (
-					playerBrigantine.SpawnShip(PlayerField.AllFields[index], orientation,false, sname) == false)
+					playerBrigantine.SpawnShip(PlayerField.AllFields[index], orientation, false, sname) == false)
 						goto case "Error";
 
 					Brigantine_icon.Visible = true;
@@ -339,7 +333,7 @@ namespace BattleShips
 					break;
 				case "Sloop":
 					if (
-					playerSloop.SpawnShip(PlayerField.AllFields[index], orientation,false, sname) == false)
+					playerSloop.SpawnShip(PlayerField.AllFields[index], orientation, false, sname) == false)
 						goto case "Error";
 
 					Sloop_icon.Visible = true;
@@ -350,7 +344,7 @@ namespace BattleShips
 					break;
 				case "Galleon":
 					if (
-					playerGalleon.SpawnShip(PlayerField.AllFields[index], orientation,false, sname) == false)
+					playerGalleon.SpawnShip(PlayerField.AllFields[index], orientation, false, sname) == false)
 						goto case "Error";
 
 					Galleon_icon.Visible = true;
@@ -361,7 +355,7 @@ namespace BattleShips
 					break;
 				case "Pirate's ship":
 					if (
-					playerPiratesShip.SpawnShip(PlayerField.AllFields[index], orientation,false, sname) == false)
+					playerPiratesShip.SpawnShip(PlayerField.AllFields[index], orientation, false, sname) == false)
 						goto case "Error";
 
 					PiratesShip_icon.Visible = true;
@@ -377,7 +371,8 @@ namespace BattleShips
 					break;
 
 				default:
-					DialogLabel.Text = "No such ship exists!";
+					PlayerActionText.Text = "No such ship exists";
+					showPlayerDialogTimer.Start();
 					break;
 			}
 
@@ -391,6 +386,14 @@ namespace BattleShips
 					break;
 				}
 			}
+
+
+		}
+
+		private void SetShipsButton_Click(object sender, EventArgs e)
+		{
+
+			
 
 		}
 
@@ -463,6 +466,7 @@ namespace BattleShips
 			RemoveSloop_button.Visible = false;
 			restartGame_button.Enabled = false;
 
+
 			enemyDialogClock = 0;
 			showEnemyDialogTimer.Start();
 
@@ -470,11 +474,6 @@ namespace BattleShips
 
 			AITimer.Start();
 
-		}
-
-		private void SetHorizontalPosText_TextChanged(object sender, EventArgs e)
-		{
-			DialogLabel.Text = string.Empty;
 		}
 
 		private void button1_Click(object sender, EventArgs e)
@@ -769,8 +768,6 @@ namespace BattleShips
 				if (isEnemyTurn == true)
 				{
 					FireButton.Enabled = true;
-					LetterboxText.Enabled = true;
-					NumberboxText.Enabled = true;
 				}
 				else
 					ActionButton.Enabled = true;

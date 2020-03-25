@@ -127,14 +127,8 @@
   <data name="BigButtton_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\BigButtton_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround514" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround514.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Backround501" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround501.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Backround499" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround499.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround457" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround457.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sand_to_grass3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\sand_to_grass3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,14 +142,14 @@
   <data name="Backround438" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround438.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround405" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround405.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Backround476" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround476.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround473" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround473.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="smallButton_pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\smallButton_pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Backround462" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround462.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Sloop_horizontal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\Sloop_horizontal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,8 +163,11 @@
   <data name="Backround521" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround521.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround486" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround486.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround384" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround384.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Backround501" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround501.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround448" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround448.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -190,20 +187,17 @@
   <data name="Backround436" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround436.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround498" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround498.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="RemoveIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\RemoveIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PiratesShip_horizontal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\PiratesShip_horizontal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround516" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround516.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="beach_corner4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\beach_corner4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround485" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround485.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround486" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround486.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround375" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround375.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -220,17 +214,17 @@
   <data name="Backround467" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround467.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround396" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround396.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="smallButton1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\smallButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BigButtton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\BigButtton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround477" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround477.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Log_frame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\Log_frame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround473" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround473.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="sand_to_grass5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\sand_to_grass5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PiratesShip_vertical" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\PiratesShip_vertical.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -238,14 +232,11 @@
   <data name="pixil-frame-0" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\pixil-frame-0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround505" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround505.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround421" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround421.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround487" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround487.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Backround481" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround481.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround475" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround475.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Fishing_vessel_water2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\Fishing_vessel_water2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -253,14 +244,17 @@
   <data name="HitArea" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\HitArea.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Backround507" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround507.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Galleon_horizontal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\Galleon_horizontal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround433" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround433.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround496" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround496.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround504" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround504.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="woodtile_clean_rotated" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\woodtile_clean_rotated.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -271,14 +265,11 @@
   <data name="ship" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\ship.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround504" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround504.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="explosion_miss_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\explosion_miss_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Galleon_vertical" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\Galleon_vertical.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="grasstowater2_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\grasstowater2_right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ship_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\ship_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -286,20 +277,26 @@
   <data name="explosion_miss_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\explosion_miss_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround454" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround454.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround381" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround381.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround437" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround437.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround417" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround417.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround497" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround497.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround466" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround466.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround404" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround404.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround493" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround493.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Backround461" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround461.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="actiontextBackround" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\actiontextBackround.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Backround453" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround453.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround482" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround482.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -307,14 +304,20 @@
   <data name="soundscrate_last_one_standing_sc1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\soundscrate-last-one-standing-sc1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Backround431" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround431.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround499" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround499.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="woodtile_halfdirty_rotated" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\woodtile_halfdirty_rotated.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="explosion_miss_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\explosion_miss_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Backround382" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround382.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Backround414" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround414.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="explosion_miss_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\explosion_miss_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -322,38 +325,29 @@
   <data name="Backround518" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround518.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround359" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround359.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Backround494" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround494.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround376" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround376.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround455" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround455.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround472" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround472.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround463" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround463.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="beach11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\beach11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="explosion_miss_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\explosion_miss_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Backround439" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround439.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround373" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround373.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround435" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround435.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grass" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\grass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="explosion_miss_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\explosion_miss_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Backround406" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround406.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Backround415" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround415.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="beach9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\beach9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -361,17 +355,17 @@
   <data name="sand_bigGrass" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\sand_bigGrass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround418" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround418.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround478" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround478.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround368" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround368.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Backround412" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround412.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Backround451" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround451.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Backround509" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround509.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround464" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround464.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -391,11 +385,11 @@
   <data name="Backround400" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround400.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="explosion_miss_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\explosion_miss_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround469" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround469.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround493" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround493.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround431" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround431.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround500" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround500.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -403,8 +397,11 @@
   <data name="Backround429" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround429.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sand_hard" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\sand_hard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround359" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround359.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sand_to_grass8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\sand_to_grass8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BigButtton_2_pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\BigButtton_2_pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -412,8 +409,8 @@
   <data name="beach1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\beach1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround450" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround450.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround505" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround505.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround423" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround423.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -421,14 +418,14 @@
   <data name="Backround395" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround395.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround480" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround480.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="grasstowater_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\grasstowater_right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround363" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround363.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround407" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround407.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="smallButton1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\smallButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround492" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround492.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround390" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround390.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -436,14 +433,14 @@
   <data name="explosion_miss_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\explosion_miss_20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround407" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround407.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround427" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround427.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Backround459" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround459.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="beach8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\beach8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Backround506" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround506.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="beach3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\beach3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -451,11 +448,8 @@
   <data name="sand_to_grass6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\sand_to_grass6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround419" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround419.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Backround465" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround465.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround498" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround498.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround468" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround468.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -466,23 +460,26 @@
   <data name="explosion_miss_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\explosion_miss_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround427" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround427.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Backround519" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround519.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="grass_to_sand" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\grass_to_sand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround403" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround403.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround454" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround454.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Backround419" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround419.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="explosion_miss_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\explosion_miss_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="beach_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\beach_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Backround405" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround405.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround361" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround361.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -499,26 +496,23 @@
   <data name="grasstowater2_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\grasstowater2_up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround446" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround446.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="explosion_miss_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\explosion_miss_19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround461" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround461.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround509" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround509.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround388" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround388.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround478" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround478.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround374" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround374.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround420" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround420.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="explosion_miss_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\explosion_miss_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround380" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround380.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround422" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround422.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -538,9 +532,6 @@
   <data name="beach12" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\beach12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="explosion_miss_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\explosion_miss_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="sand_to_grass" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\sand_to_grass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -550,11 +541,11 @@
   <data name="grasstowater_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\grasstowater_left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround362" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround362.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="explosion_miss_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\explosion_miss_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround415" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround415.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround494" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround494.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround365" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround365.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -565,8 +556,8 @@
   <data name="Backround458" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround458.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround484" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround484.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround489" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround489.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround488" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround488.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -574,11 +565,14 @@
   <data name="sand_smallGrass" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\sand_smallGrass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround410" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround410.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround480" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround480.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround360" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround360.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Backround389" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround389.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround370" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround370.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -592,9 +586,6 @@
   <data name="Backround444" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround444.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround495" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround495.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Backround456" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround456.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -604,11 +595,17 @@
   <data name="explosion_miss_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\explosion_miss_15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grasstowater_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\grasstowater_right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround403" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround403.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explosion_miss_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\explosion_miss_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround367" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround367.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sand_to_grass2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\sand_to_grass2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sand_to_grass7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\sand_to_grass7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -616,11 +613,11 @@
   <data name="Backround508" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround508.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround470" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround470.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround472" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround472.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround469" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround469.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround404" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround404.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround379" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround379.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -628,71 +625,62 @@
   <data name="Backround515" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround515.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="woods2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\woods2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround396" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround396.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="explosion_miss_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\explosion_miss_17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Backround457" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround457.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround470" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround470.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround383" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround383.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grasstowater2_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\grasstowater2_left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround446" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround446.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround392" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround392.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Backround443" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround443.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Backround408" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround408.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Backround391" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround391.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="explosion_miss_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\explosion_miss_18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sand_to_grass5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\sand_to_grass5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="sand_hard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\sand_hard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround453" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround453.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Backround489" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround489.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround495" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround495.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround430" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround430.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround442" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround442.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Backround399" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround399.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Backround492" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround492.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround484" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround484.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="grass_trees" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\grass_trees.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround463" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround463.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround514" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround514.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround384" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround384.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="woods2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\woods2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround459" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround459.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround442" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround442.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround381" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround381.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround418" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround418.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround432" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround432.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Backround511" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround511.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround440" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround440.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -703,14 +691,17 @@
   <data name="Backround483" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround483.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="grasstowater2_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\grasstowater2_left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Backround398" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround398.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="explosion_miss_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\explosion_miss_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround414" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround414.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround497" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround497.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround364" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround364.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -718,20 +709,26 @@
   <data name="woodtile_clean" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\woodtile_clean.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="sand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\sand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Backround510" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround510.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround421" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround421.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Backround412" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround412.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround516" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround516.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Sloop_horizontal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\Sloop_horizontal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sand" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\sand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround476" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround476.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Backround362" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround362.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Backround506" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround506.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="grasstowater2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\grasstowater2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -748,32 +745,32 @@
   <data name="beach7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\beach7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sand_to_grass2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\sand_to_grass2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround465" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround465.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround425" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround425.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="grass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\grass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="explosion_miss_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\explosion_miss_14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround416" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround416.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround439" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround439.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround366" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround366.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="soundscrate_on_a_quest_sc1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\soundscrate-on-a-quest-sc1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="Backround491" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround491.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Backround372" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround372.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround441" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround441.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround373" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround373.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround399" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround399.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround452" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround452.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -784,14 +781,17 @@
   <data name="Backround385" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround385.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Backround449" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround449.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="beach_corner1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\beach_corner1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround522" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround522.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround507" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround507.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround416" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround416.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Fishing_vessel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\Fishing_vessel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -805,29 +805,32 @@
   <data name="Backround460" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround460.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround380" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround380.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround511" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround511.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="woodtile_dirty" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\woodtile_dirty.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround372" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround372.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="explosion_miss_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\explosion_miss_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround428" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround428.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround466" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround466.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround481.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround479" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround479.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround443" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround443.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround485" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround485.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround374" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround374.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="grasstowater2_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\grasstowater2_right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Backround410" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround410.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="beach10" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\beach10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -835,23 +838,23 @@
   <data name="beach_corner3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\beach_corner3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround413" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround413.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround477" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround477.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="RemoveIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\RemoveIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround363" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround363.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="woods" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\woods.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround449" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround449.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround425" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround425.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround391" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround391.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="soundscrate_on_a_quest_sc1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\soundscrate-on-a-quest-sc1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="explosion_miss_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\explosion_miss_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="explosion_miss_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\explosion_miss_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -865,20 +868,20 @@
   <data name="beach6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\beach6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround389" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround389.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround450" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround450.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sand_to_grass8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\sand_to_grass8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="explosion_miss_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\explosion_miss_17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround417" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround417.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround496" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround496.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround462" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround462.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround487" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround487.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround376" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround376.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround437" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround437.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="explosion_miss_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\explosion_miss_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -889,13 +892,523 @@
   <data name="Backround503" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround503.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backround475" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\MenuBackround\Backround475.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround413" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBackround\Backround413.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Backround386" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Art\MenuBackround\Backround386.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Log_frame" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Art\Log_frame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SetShipOption" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\SetShipOption.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen132" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen132.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen133" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen133.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen134" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen134.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen135" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen135.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen136" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen136.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen137" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen137.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen138" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen138.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen139" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen139.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen140.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen141" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen141.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen142" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen142.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen143" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen143.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen144" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen144.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen145" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen145.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen146" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen146.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen147" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen147.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen148" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen148.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen149" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen149.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen150" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen150.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen151" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen151.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen152" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen152.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen153" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen153.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen154" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen154.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen155" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen155.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen156" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen156.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen157" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen157.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen158" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen158.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen159" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen159.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen160.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen161.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen162" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen162.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen163" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen163.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen164" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen164.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen165" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen165.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen166" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen166.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen167" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen167.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen168" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen168.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen169" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen169.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen170" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen170.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen171" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen171.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen172" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen172.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen173" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen173.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen174" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen174.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen175" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen175.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen176" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen176.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen177" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen177.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen178" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen178.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen179" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen179.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen180" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen180.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen181" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen181.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen182" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen182.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen183" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen183.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen184" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen184.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen185" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen185.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen186" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen186.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen187" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen187.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen188" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen188.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen189" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen189.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen190" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen190.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen191" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen191.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen192" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen192.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen193" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen193.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen194" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen194.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen195" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen195.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen196" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen196.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen197" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen197.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen198" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen198.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen199" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen199.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen201" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen201.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen202" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen202.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen203" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen203.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen204" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen204.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen205" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen205.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen206" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen206.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen207" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen207.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen208" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen208.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen209" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen209.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen210" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen210.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen211" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen211.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen212" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen212.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen213" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen213.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen214" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen214.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen215" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen215.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen216" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen216.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen217" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen217.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen218" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen218.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen219" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen219.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen220" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen220.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen221" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen221.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen222" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen222.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen223" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen223.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen224" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen224.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen225" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen225.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen226" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen226.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen227" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen227.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen228" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen228.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen229" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen229.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen230" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen230.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen231" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen231.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen232" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen232.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen233" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen233.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen234" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen234.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen235" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen235.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen236" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen236.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen237" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen237.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen238" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen238.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen239" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen239.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen240" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen240.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen241.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen242" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen242.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen243" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen243.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen244" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen244.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen245" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen245.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen246" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen246.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen247" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen247.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen248" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen248.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen249" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen249.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen250" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen250.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen251" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen251.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen252" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen252.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen253" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen253.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen254" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen254.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen255" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen255.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen257" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen257.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen258" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen258.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen259" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen259.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen260" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen260.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen261" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen261.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen262" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen262.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen263" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen263.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen264" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen264.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen265" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen265.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen266" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen266.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen267" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen267.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen268" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen268.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen269" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen269.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen270" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen270.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen271" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen271.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen272" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen272.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen273" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen273.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen274" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen274.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen275" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen275.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen276" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen276.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen277" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen277.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen278" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen278.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen279" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen279.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen280" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen280.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen281.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen282" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen282.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen283" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen283.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen284" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen284.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen285" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen285.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen286" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen286.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen287" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen287.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen288" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen288.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen289" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen289.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen290" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen290.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen291" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen291.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen292" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen292.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen293" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen293.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen294" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen294.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen295" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen295.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen296" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen296.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen297" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen297.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen298" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen298.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen299" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen299.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen300" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen300.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBoatScreen301" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Art\MenuBoatScreen\MenuBoatScreen301.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

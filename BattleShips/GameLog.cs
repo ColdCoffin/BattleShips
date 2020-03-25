@@ -36,11 +36,11 @@ namespace BattleShips
 
 				for (int i = textStartIndex; i <= textLastIndex; i++)
 				{
-					label.Text += '\n' + allText[i] + '\n';
+					label.Text += '\n' + allText[i] + "\n--------------------------------------------------";
 				}
 			}
 			else 
-				label.Text += '\n' + txt + '\n';
+				label.Text += '\n' + txt + "\n--------------------------------------------------";
 
 		}
 

@@ -74,6 +74,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="SetShip.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SetShip.Designer.cs">
+      <DependentUpon>SetShip.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ship.cs" />
     <Compile Include="Sloop.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -86,6 +92,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetShip.resx">
+      <DependentUpon>SetShip.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -1048,6 +1057,519 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Art\Log_frame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\SetShipOption.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen132.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen133.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen134.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen135.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen136.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen137.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen138.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen139.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen140.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen141.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen142.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen143.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen144.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen145.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen146.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen147.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen148.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen149.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen150.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen151.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen152.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen153.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen154.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen155.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen156.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen157.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen158.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen159.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen160.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen162.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen163.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen164.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen165.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen166.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen167.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen168.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen169.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen170.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen171.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen172.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen173.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen174.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen175.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen176.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen177.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen178.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen179.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen180.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen181.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen182.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen183.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen184.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen185.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen186.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen187.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen188.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen189.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen190.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen191.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen192.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen193.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen194.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen195.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen196.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen197.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen198.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen199.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen202.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen203.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen204.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen205.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen206.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen207.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen208.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen209.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen210.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen211.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen212.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen213.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen214.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen215.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen216.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen217.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen218.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen219.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen220.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen221.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen222.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen223.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen224.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen225.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen226.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen227.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen228.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen229.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen230.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen231.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen232.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen233.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen234.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen235.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen236.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen237.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen238.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen239.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen242.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen243.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen244.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen245.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen246.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen247.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen248.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen249.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen250.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen251.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen252.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen253.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen254.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen255.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen257.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen258.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen259.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen260.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen261.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen262.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen263.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen264.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen265.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen266.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen267.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen268.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen269.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen270.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen271.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen272.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen273.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen274.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen275.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen276.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen277.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen278.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen279.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen280.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen281.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen282.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen283.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen284.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen285.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen286.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen287.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen288.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen289.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen290.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen293.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen294.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen295.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen296.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen297.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen298.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen299.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen300.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\MenuBoatScreen\MenuBoatScreen301.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -253,16 +253,8 @@
 			this.EnemyField_J4 = new System.Windows.Forms.PictureBox();
 			this.EnemyField_J5 = new System.Windows.Forms.PictureBox();
 			this.EnemyField_J6 = new System.Windows.Forms.PictureBox();
-			this.LetterboxText = new System.Windows.Forms.TextBox();
-			this.NumberboxText = new System.Windows.Forms.TextBox();
 			this.PlayerActionText = new System.Windows.Forms.Label();
-			this.SetHorizontalPosText = new System.Windows.Forms.TextBox();
-			this.SetVerticalPosText = new System.Windows.Forms.TextBox();
-			this.VerticalOption = new System.Windows.Forms.RadioButton();
-			this.HorizontalOption = new System.Windows.Forms.RadioButton();
-			this.ChooseShipComboBox = new System.Windows.Forms.ComboBox();
 			this.DialogLabel = new System.Windows.Forms.Label();
-			this.ShipName_texbox = new System.Windows.Forms.TextBox();
 			this.FishingBoat_progressBar = new System.Windows.Forms.ProgressBar();
 			this.Brigantine_progressBar = new System.Windows.Forms.ProgressBar();
 			this.Sloop_progressBar = new System.Windows.Forms.ProgressBar();
@@ -1280,6 +1272,46 @@
 			this.pictureBox106 = new System.Windows.Forms.PictureBox();
 			this.pictureBox110 = new System.Windows.Forms.PictureBox();
 			this.restartGame_button = new System.Windows.Forms.Button();
+			this.enemyFieldA_label = new System.Windows.Forms.Label();
+			this.label1 = new System.Windows.Forms.Label();
+			this.label2 = new System.Windows.Forms.Label();
+			this.label3 = new System.Windows.Forms.Label();
+			this.label4 = new System.Windows.Forms.Label();
+			this.label5 = new System.Windows.Forms.Label();
+			this.label6 = new System.Windows.Forms.Label();
+			this.label7 = new System.Windows.Forms.Label();
+			this.label8 = new System.Windows.Forms.Label();
+			this.label9 = new System.Windows.Forms.Label();
+			this.label10 = new System.Windows.Forms.Label();
+			this.label11 = new System.Windows.Forms.Label();
+			this.label12 = new System.Windows.Forms.Label();
+			this.label13 = new System.Windows.Forms.Label();
+			this.label14 = new System.Windows.Forms.Label();
+			this.label15 = new System.Windows.Forms.Label();
+			this.label16 = new System.Windows.Forms.Label();
+			this.label17 = new System.Windows.Forms.Label();
+			this.label18 = new System.Windows.Forms.Label();
+			this.label19 = new System.Windows.Forms.Label();
+			this.label20 = new System.Windows.Forms.Label();
+			this.label21 = new System.Windows.Forms.Label();
+			this.label22 = new System.Windows.Forms.Label();
+			this.label23 = new System.Windows.Forms.Label();
+			this.label24 = new System.Windows.Forms.Label();
+			this.label25 = new System.Windows.Forms.Label();
+			this.label26 = new System.Windows.Forms.Label();
+			this.label27 = new System.Windows.Forms.Label();
+			this.label28 = new System.Windows.Forms.Label();
+			this.label29 = new System.Windows.Forms.Label();
+			this.label30 = new System.Windows.Forms.Label();
+			this.label31 = new System.Windows.Forms.Label();
+			this.label32 = new System.Windows.Forms.Label();
+			this.label33 = new System.Windows.Forms.Label();
+			this.label34 = new System.Windows.Forms.Label();
+			this.label35 = new System.Windows.Forms.Label();
+			this.label36 = new System.Windows.Forms.Label();
+			this.label37 = new System.Windows.Forms.Label();
+			this.label38 = new System.Windows.Forms.Label();
+			this.label39 = new System.Windows.Forms.Label();
 			this.PlayerField_label.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox211)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_vertical_player)).BeginInit();
@@ -4969,31 +5001,10 @@
 			this.EnemyField_J6.TabIndex = 95;
 			this.EnemyField_J6.TabStop = false;
 			// 
-			// LetterboxText
-			// 
-			this.LetterboxText.BackColor = System.Drawing.SystemColors.Window;
-			this.LetterboxText.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-			this.LetterboxText.Font = new System.Drawing.Font("Pixel-Art", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.LetterboxText.Location = new System.Drawing.Point(977, 248);
-			this.LetterboxText.MaxLength = 1;
-			this.LetterboxText.Name = "LetterboxText";
-			this.LetterboxText.Size = new System.Drawing.Size(30, 17);
-			this.LetterboxText.TabIndex = 32;
-			// 
-			// NumberboxText
-			// 
-			this.NumberboxText.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-			this.NumberboxText.Font = new System.Drawing.Font("Pixel-Art", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.NumberboxText.Location = new System.Drawing.Point(1009, 248);
-			this.NumberboxText.MaxLength = 2;
-			this.NumberboxText.Name = "NumberboxText";
-			this.NumberboxText.Size = new System.Drawing.Size(30, 17);
-			this.NumberboxText.TabIndex = 33;
-			// 
 			// PlayerActionText
 			// 
 			this.PlayerActionText.BackColor = System.Drawing.Color.White;
-			this.PlayerActionText.Font = new System.Drawing.Font("Pixel-Art", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.PlayerActionText.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.PlayerActionText.Location = new System.Drawing.Point(1092, 78);
 			this.PlayerActionText.Name = "PlayerActionText";
 			this.PlayerActionText.Size = new System.Drawing.Size(100, 43);
@@ -5001,81 +5012,15 @@
 			this.PlayerActionText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			this.PlayerActionText.Visible = false;
 			// 
-			// SetHorizontalPosText
-			// 
-			this.SetHorizontalPosText.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-			this.SetHorizontalPosText.Location = new System.Drawing.Point(794, 423);
-			this.SetHorizontalPosText.MaxLength = 1;
-			this.SetHorizontalPosText.Name = "SetHorizontalPosText";
-			this.SetHorizontalPosText.Size = new System.Drawing.Size(30, 20);
-			this.SetHorizontalPosText.TabIndex = 36;
-			this.SetHorizontalPosText.TextChanged += new System.EventHandler(this.SetHorizontalPosText_TextChanged);
-			// 
-			// SetVerticalPosText
-			// 
-			this.SetVerticalPosText.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-			this.SetVerticalPosText.Location = new System.Drawing.Point(826, 423);
-			this.SetVerticalPosText.MaxLength = 2;
-			this.SetVerticalPosText.Name = "SetVerticalPosText";
-			this.SetVerticalPosText.Size = new System.Drawing.Size(30, 20);
-			this.SetVerticalPosText.TabIndex = 37;
-			// 
-			// VerticalOption
-			// 
-			this.VerticalOption.AutoSize = true;
-			this.VerticalOption.BackColor = System.Drawing.Color.Transparent;
-			this.VerticalOption.Checked = true;
-			this.VerticalOption.Location = new System.Drawing.Point(794, 507);
-			this.VerticalOption.Name = "VerticalOption";
-			this.VerticalOption.Size = new System.Drawing.Size(60, 17);
-			this.VerticalOption.TabIndex = 42;
-			this.VerticalOption.TabStop = true;
-			this.VerticalOption.Text = "Vertical";
-			this.VerticalOption.UseVisualStyleBackColor = false;
-			// 
-			// HorizontalOption
-			// 
-			this.HorizontalOption.AutoSize = true;
-			this.HorizontalOption.BackColor = System.Drawing.Color.Transparent;
-			this.HorizontalOption.Location = new System.Drawing.Point(794, 487);
-			this.HorizontalOption.Name = "HorizontalOption";
-			this.HorizontalOption.Size = new System.Drawing.Size(72, 17);
-			this.HorizontalOption.TabIndex = 43;
-			this.HorizontalOption.Text = "Horizontal";
-			this.HorizontalOption.UseVisualStyleBackColor = false;
-			// 
-			// ChooseShipComboBox
-			// 
-			this.ChooseShipComboBox.FormattingEnabled = true;
-			this.ChooseShipComboBox.Items.AddRange(new object[] {
-            "Fishing Boat",
-            "Brigantine",
-            "Sloop",
-            "Galleon",
-            "Pirate\'s ship"});
-			this.ChooseShipComboBox.Location = new System.Drawing.Point(789, 455);
-			this.ChooseShipComboBox.Name = "ChooseShipComboBox";
-			this.ChooseShipComboBox.Size = new System.Drawing.Size(91, 21);
-			this.ChooseShipComboBox.TabIndex = 44;
-			// 
 			// DialogLabel
 			// 
 			this.DialogLabel.BackColor = System.Drawing.Color.White;
-			this.DialogLabel.Font = new System.Drawing.Font("Pixel-Art", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.DialogLabel.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.DialogLabel.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.DialogLabel.Location = new System.Drawing.Point(0, 0);
 			this.DialogLabel.Name = "DialogLabel";
 			this.DialogLabel.Size = new System.Drawing.Size(212, 287);
 			this.DialogLabel.TabIndex = 45;
-			// 
-			// ShipName_texbox
-			// 
-			this.ShipName_texbox.BackColor = System.Drawing.Color.White;
-			this.ShipName_texbox.Location = new System.Drawing.Point(789, 546);
-			this.ShipName_texbox.MaxLength = 15;
-			this.ShipName_texbox.Name = "ShipName_texbox";
-			this.ShipName_texbox.Size = new System.Drawing.Size(80, 20);
-			this.ShipName_texbox.TabIndex = 47;
 			// 
 			// FishingBoat_progressBar
 			// 
@@ -5190,7 +5135,7 @@
 			// EnemyActionText
 			// 
 			this.EnemyActionText.BackColor = System.Drawing.Color.White;
-			this.EnemyActionText.Font = new System.Drawing.Font("Pixel-Art", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.EnemyActionText.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.EnemyActionText.Location = new System.Drawing.Point(188, 435);
 			this.EnemyActionText.Name = "EnemyActionText";
 			this.EnemyActionText.Size = new System.Drawing.Size(100, 43);
@@ -5841,7 +5786,7 @@
 			this.SetShipsButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
 			this.SetShipsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.SetShipsButton.Font = new System.Drawing.Font("Pixel-Art", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.SetShipsButton.Location = new System.Drawing.Point(498, 356);
+			this.SetShipsButton.Location = new System.Drawing.Point(500, 356);
 			this.SetShipsButton.Name = "SetShipsButton";
 			this.SetShipsButton.Size = new System.Drawing.Size(80, 25);
 			this.SetShipsButton.TabIndex = 38;
@@ -7732,7 +7677,7 @@
 			this.FireButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.FireButton.Font = new System.Drawing.Font("Pixel-Art", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.FireButton.ForeColor = System.Drawing.Color.Black;
-			this.FireButton.Location = new System.Drawing.Point(678, 356);
+			this.FireButton.Location = new System.Drawing.Point(680, 356);
 			this.FireButton.Name = "FireButton";
 			this.FireButton.Size = new System.Drawing.Size(80, 25);
 			this.FireButton.TabIndex = 34;
@@ -11142,7 +11087,7 @@
 			this.ActionButton.FlatAppearance.BorderSize = 0;
 			this.ActionButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.ActionButton.Font = new System.Drawing.Font("Pixel-Art", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.ActionButton.Location = new System.Drawing.Point(578, 345);
+			this.ActionButton.Location = new System.Drawing.Point(580, 345);
 			this.ActionButton.Margin = new System.Windows.Forms.Padding(0);
 			this.ActionButton.Name = "ActionButton";
 			this.ActionButton.Size = new System.Drawing.Size(100, 50);
@@ -15361,12 +15306,412 @@
 			this.restartGame_button.UseVisualStyleBackColor = true;
 			this.restartGame_button.Click += new System.EventHandler(this.button1_Click_1);
 			// 
+			// enemyFieldA_label
+			// 
+			this.enemyFieldA_label.Location = new System.Drawing.Point(448, 43);
+			this.enemyFieldA_label.Name = "enemyFieldA_label";
+			this.enemyFieldA_label.Size = new System.Drawing.Size(15, 15);
+			this.enemyFieldA_label.TabIndex = 1334;
+			this.enemyFieldA_label.Text = "A";
+			this.enemyFieldA_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label1
+			// 
+			this.label1.Location = new System.Drawing.Point(448, 73);
+			this.label1.Name = "label1";
+			this.label1.Size = new System.Drawing.Size(15, 15);
+			this.label1.TabIndex = 1335;
+			this.label1.Text = "B";
+			this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label2
+			// 
+			this.label2.Location = new System.Drawing.Point(448, 135);
+			this.label2.Name = "label2";
+			this.label2.Size = new System.Drawing.Size(15, 15);
+			this.label2.TabIndex = 1337;
+			this.label2.Text = "D";
+			this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label3
+			// 
+			this.label3.Location = new System.Drawing.Point(448, 105);
+			this.label3.Name = "label3";
+			this.label3.Size = new System.Drawing.Size(15, 15);
+			this.label3.TabIndex = 1336;
+			this.label3.Text = "C";
+			this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label4
+			// 
+			this.label4.Location = new System.Drawing.Point(448, 252);
+			this.label4.Name = "label4";
+			this.label4.Size = new System.Drawing.Size(15, 15);
+			this.label4.TabIndex = 1341;
+			this.label4.Text = "H";
+			this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label5
+			// 
+			this.label5.Location = new System.Drawing.Point(448, 222);
+			this.label5.Name = "label5";
+			this.label5.Size = new System.Drawing.Size(15, 15);
+			this.label5.TabIndex = 1340;
+			this.label5.Text = "G";
+			this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label6
+			// 
+			this.label6.Location = new System.Drawing.Point(448, 190);
+			this.label6.Name = "label6";
+			this.label6.Size = new System.Drawing.Size(15, 15);
+			this.label6.TabIndex = 1339;
+			this.label6.Text = "F";
+			this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label7
+			// 
+			this.label7.Location = new System.Drawing.Point(448, 160);
+			this.label7.Name = "label7";
+			this.label7.Size = new System.Drawing.Size(15, 15);
+			this.label7.TabIndex = 1338;
+			this.label7.Text = "E";
+			this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label8
+			// 
+			this.label8.Location = new System.Drawing.Point(448, 312);
+			this.label8.Name = "label8";
+			this.label8.Size = new System.Drawing.Size(15, 15);
+			this.label8.TabIndex = 1343;
+			this.label8.Text = "J";
+			this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label9
+			// 
+			this.label9.Location = new System.Drawing.Point(448, 282);
+			this.label9.Name = "label9";
+			this.label9.Size = new System.Drawing.Size(15, 15);
+			this.label9.TabIndex = 1342;
+			this.label9.Text = "I";
+			this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label10
+			// 
+			this.label10.Location = new System.Drawing.Point(448, 691);
+			this.label10.Name = "label10";
+			this.label10.Size = new System.Drawing.Size(15, 15);
+			this.label10.TabIndex = 1353;
+			this.label10.Text = "J";
+			this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label11
+			// 
+			this.label11.Location = new System.Drawing.Point(448, 661);
+			this.label11.Name = "label11";
+			this.label11.Size = new System.Drawing.Size(15, 15);
+			this.label11.TabIndex = 1352;
+			this.label11.Text = "I";
+			this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label12
+			// 
+			this.label12.Location = new System.Drawing.Point(448, 631);
+			this.label12.Name = "label12";
+			this.label12.Size = new System.Drawing.Size(15, 15);
+			this.label12.TabIndex = 1351;
+			this.label12.Text = "H";
+			this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label13
+			// 
+			this.label13.Location = new System.Drawing.Point(448, 601);
+			this.label13.Name = "label13";
+			this.label13.Size = new System.Drawing.Size(15, 15);
+			this.label13.TabIndex = 1350;
+			this.label13.Text = "G";
+			this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label14
+			// 
+			this.label14.Location = new System.Drawing.Point(448, 569);
+			this.label14.Name = "label14";
+			this.label14.Size = new System.Drawing.Size(15, 15);
+			this.label14.TabIndex = 1349;
+			this.label14.Text = "F";
+			this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label15
+			// 
+			this.label15.Location = new System.Drawing.Point(448, 539);
+			this.label15.Name = "label15";
+			this.label15.Size = new System.Drawing.Size(15, 15);
+			this.label15.TabIndex = 1348;
+			this.label15.Text = "E";
+			this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label16
+			// 
+			this.label16.Location = new System.Drawing.Point(448, 514);
+			this.label16.Name = "label16";
+			this.label16.Size = new System.Drawing.Size(15, 15);
+			this.label16.TabIndex = 1347;
+			this.label16.Text = "D";
+			this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label17
+			// 
+			this.label17.Location = new System.Drawing.Point(448, 484);
+			this.label17.Name = "label17";
+			this.label17.Size = new System.Drawing.Size(15, 15);
+			this.label17.TabIndex = 1346;
+			this.label17.Text = "C";
+			this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label18
+			// 
+			this.label18.Location = new System.Drawing.Point(448, 452);
+			this.label18.Name = "label18";
+			this.label18.Size = new System.Drawing.Size(15, 15);
+			this.label18.TabIndex = 1345;
+			this.label18.Text = "B";
+			this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label19
+			// 
+			this.label19.Location = new System.Drawing.Point(448, 422);
+			this.label19.Name = "label19";
+			this.label19.Size = new System.Drawing.Size(15, 15);
+			this.label19.TabIndex = 1344;
+			this.label19.Text = "A";
+			this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label20
+			// 
+			this.label20.Location = new System.Drawing.Point(475, 397);
+			this.label20.Name = "label20";
+			this.label20.Size = new System.Drawing.Size(15, 15);
+			this.label20.TabIndex = 1354;
+			this.label20.Text = "1";
+			this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label21
+			// 
+			this.label21.Location = new System.Drawing.Point(506, 397);
+			this.label21.Name = "label21";
+			this.label21.Size = new System.Drawing.Size(15, 15);
+			this.label21.TabIndex = 1355;
+			this.label21.Text = "2";
+			this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label22
+			// 
+			this.label22.Location = new System.Drawing.Point(568, 397);
+			this.label22.Name = "label22";
+			this.label22.Size = new System.Drawing.Size(15, 15);
+			this.label22.TabIndex = 1357;
+			this.label22.Text = "4";
+			this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label23
+			// 
+			this.label23.Location = new System.Drawing.Point(536, 397);
+			this.label23.Name = "label23";
+			this.label23.Size = new System.Drawing.Size(15, 15);
+			this.label23.TabIndex = 1356;
+			this.label23.Text = "3";
+			this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label24
+			// 
+			this.label24.Location = new System.Drawing.Point(688, 397);
+			this.label24.Name = "label24";
+			this.label24.Size = new System.Drawing.Size(15, 15);
+			this.label24.TabIndex = 1361;
+			this.label24.Text = "8";
+			this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label25
+			// 
+			this.label25.Location = new System.Drawing.Point(657, 397);
+			this.label25.Name = "label25";
+			this.label25.Size = new System.Drawing.Size(15, 15);
+			this.label25.TabIndex = 1360;
+			this.label25.Text = "7";
+			this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label26
+			// 
+			this.label26.Location = new System.Drawing.Point(627, 397);
+			this.label26.Name = "label26";
+			this.label26.Size = new System.Drawing.Size(15, 15);
+			this.label26.TabIndex = 1359;
+			this.label26.Text = "6";
+			this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label27
+			// 
+			this.label27.Location = new System.Drawing.Point(596, 397);
+			this.label27.Name = "label27";
+			this.label27.Size = new System.Drawing.Size(15, 15);
+			this.label27.TabIndex = 1358;
+			this.label27.Text = "5";
+			this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label28
+			// 
+			this.label28.Location = new System.Drawing.Point(745, 397);
+			this.label28.Name = "label28";
+			this.label28.Size = new System.Drawing.Size(19, 15);
+			this.label28.TabIndex = 1363;
+			this.label28.Text = "10";
+			this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label29
+			// 
+			this.label29.Location = new System.Drawing.Point(715, 397);
+			this.label29.Name = "label29";
+			this.label29.Size = new System.Drawing.Size(15, 15);
+			this.label29.TabIndex = 1362;
+			this.label29.Text = "9";
+			this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label30
+			// 
+			this.label30.Location = new System.Drawing.Point(745, 12);
+			this.label30.Name = "label30";
+			this.label30.Size = new System.Drawing.Size(19, 15);
+			this.label30.TabIndex = 1373;
+			this.label30.Text = "10";
+			this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label31
+			// 
+			this.label31.Location = new System.Drawing.Point(715, 12);
+			this.label31.Name = "label31";
+			this.label31.Size = new System.Drawing.Size(15, 15);
+			this.label31.TabIndex = 1372;
+			this.label31.Text = "9";
+			this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label32
+			// 
+			this.label32.Location = new System.Drawing.Point(688, 12);
+			this.label32.Name = "label32";
+			this.label32.Size = new System.Drawing.Size(15, 15);
+			this.label32.TabIndex = 1371;
+			this.label32.Text = "8";
+			this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label33
+			// 
+			this.label33.Location = new System.Drawing.Point(657, 12);
+			this.label33.Name = "label33";
+			this.label33.Size = new System.Drawing.Size(15, 15);
+			this.label33.TabIndex = 1370;
+			this.label33.Text = "7";
+			this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label34
+			// 
+			this.label34.Location = new System.Drawing.Point(627, 12);
+			this.label34.Name = "label34";
+			this.label34.Size = new System.Drawing.Size(15, 15);
+			this.label34.TabIndex = 1369;
+			this.label34.Text = "6";
+			this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label35
+			// 
+			this.label35.Location = new System.Drawing.Point(596, 12);
+			this.label35.Name = "label35";
+			this.label35.Size = new System.Drawing.Size(15, 15);
+			this.label35.TabIndex = 1368;
+			this.label35.Text = "5";
+			this.label35.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label36
+			// 
+			this.label36.Location = new System.Drawing.Point(568, 12);
+			this.label36.Name = "label36";
+			this.label36.Size = new System.Drawing.Size(15, 15);
+			this.label36.TabIndex = 1367;
+			this.label36.Text = "4";
+			this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label37
+			// 
+			this.label37.Location = new System.Drawing.Point(536, 12);
+			this.label37.Name = "label37";
+			this.label37.Size = new System.Drawing.Size(15, 15);
+			this.label37.TabIndex = 1366;
+			this.label37.Text = "3";
+			this.label37.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label38
+			// 
+			this.label38.Location = new System.Drawing.Point(506, 12);
+			this.label38.Name = "label38";
+			this.label38.Size = new System.Drawing.Size(15, 15);
+			this.label38.TabIndex = 1365;
+			this.label38.Text = "2";
+			this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label39
+			// 
+			this.label39.Location = new System.Drawing.Point(475, 12);
+			this.label39.Name = "label39";
+			this.label39.Size = new System.Drawing.Size(15, 15);
+			this.label39.TabIndex = 1364;
+			this.label39.Text = "1";
+			this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
 			// GameScreen
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(1280, 736);
+			this.Controls.Add(this.label30);
+			this.Controls.Add(this.label31);
+			this.Controls.Add(this.label32);
+			this.Controls.Add(this.label33);
+			this.Controls.Add(this.label34);
+			this.Controls.Add(this.label35);
+			this.Controls.Add(this.label36);
+			this.Controls.Add(this.label37);
+			this.Controls.Add(this.label38);
+			this.Controls.Add(this.label39);
+			this.Controls.Add(this.label28);
+			this.Controls.Add(this.label29);
+			this.Controls.Add(this.label24);
+			this.Controls.Add(this.label25);
+			this.Controls.Add(this.label26);
+			this.Controls.Add(this.label27);
+			this.Controls.Add(this.label22);
+			this.Controls.Add(this.label23);
+			this.Controls.Add(this.label21);
+			this.Controls.Add(this.label20);
+			this.Controls.Add(this.label10);
+			this.Controls.Add(this.label11);
+			this.Controls.Add(this.label12);
+			this.Controls.Add(this.label13);
+			this.Controls.Add(this.label14);
+			this.Controls.Add(this.label15);
+			this.Controls.Add(this.label16);
+			this.Controls.Add(this.label17);
+			this.Controls.Add(this.label18);
+			this.Controls.Add(this.label19);
+			this.Controls.Add(this.label8);
+			this.Controls.Add(this.label9);
+			this.Controls.Add(this.label4);
+			this.Controls.Add(this.label5);
+			this.Controls.Add(this.label6);
+			this.Controls.Add(this.label7);
+			this.Controls.Add(this.label2);
+			this.Controls.Add(this.label3);
+			this.Controls.Add(this.label1);
+			this.Controls.Add(this.enemyFieldA_label);
 			this.Controls.Add(this.restartGame_button);
 			this.Controls.Add(this.pictureBox110);
 			this.Controls.Add(this.pictureBox106);
@@ -15440,11 +15785,6 @@
 			this.Controls.Add(this.enemyDialogBox);
 			this.Controls.Add(this.playerDialogBox);
 			this.Controls.Add(this.SetShipsButton);
-			this.Controls.Add(this.ShipName_texbox);
-			this.Controls.Add(this.VerticalOption);
-			this.Controls.Add(this.HorizontalOption);
-			this.Controls.Add(this.ChooseShipComboBox);
-			this.Controls.Add(this.SetVerticalPosText);
 			this.Controls.Add(this.pictureBox689);
 			this.Controls.Add(this.pictureBox962);
 			this.Controls.Add(this.pictureBox961);
@@ -15634,10 +15974,7 @@
 			this.Controls.Add(this.pictureBox688);
 			this.Controls.Add(this.pictureBox453);
 			this.Controls.Add(this.FireButton);
-			this.Controls.Add(this.NumberboxText);
-			this.Controls.Add(this.LetterboxText);
 			this.Controls.Add(this.cheat_button);
-			this.Controls.Add(this.SetHorizontalPosText);
 			this.Controls.Add(this.pictureBox677);
 			this.Controls.Add(this.pictureBox650);
 			this.Controls.Add(this.pictureBox651);
@@ -17611,7 +17948,6 @@
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox106)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox110)).EndInit();
 			this.ResumeLayout(false);
-			this.PerformLayout();
 
 		}
 
@@ -17819,18 +18155,11 @@
 		private System.Windows.Forms.PictureBox EnemyField_A3;
 		private System.Windows.Forms.PictureBox EnemyField_A2;
 		private System.Windows.Forms.PictureBox EnemyField_A1;
-		private System.Windows.Forms.TextBox LetterboxText;
-		private System.Windows.Forms.TextBox NumberboxText;
 		private System.Windows.Forms.Button FireButton;
 		private System.Windows.Forms.Label PlayerActionText;
 		private System.Windows.Forms.PictureBox FishingBoat_horizontal_player;
-		private System.Windows.Forms.TextBox SetHorizontalPosText;
-		private System.Windows.Forms.TextBox SetVerticalPosText;
 		private System.Windows.Forms.Button SetShipsButton;
 		private System.Windows.Forms.PictureBox FishingBoat_vertical_player;
-		private System.Windows.Forms.RadioButton VerticalOption;
-		private System.Windows.Forms.RadioButton HorizontalOption;
-		private System.Windows.Forms.ComboBox ChooseShipComboBox;
 		private System.Windows.Forms.Label DialogLabel;
 		private System.Windows.Forms.PictureBox Galleon_vertical_player;
 		private System.Windows.Forms.PictureBox Galleon_horizontal_player;
@@ -17851,7 +18180,6 @@
 		private System.Windows.Forms.PictureBox FishingBoat_vertical_enemy;
 		private System.Windows.Forms.PictureBox FishingBoat_horizontal_enemy;
 		private System.Windows.Forms.Button ActionButton;
-		private System.Windows.Forms.TextBox ShipName_texbox;
 		private System.Windows.Forms.Button RemovePiratesShip_button;
 		private System.Windows.Forms.PictureBox FishingBoat_icon;
 		private System.Windows.Forms.PictureBox Brigantine_icon;
@@ -18867,6 +19195,46 @@
 		private System.Windows.Forms.PictureBox pictureBox106;
 		private System.Windows.Forms.PictureBox pictureBox110;
 		private System.Windows.Forms.Button restartGame_button;
+		private System.Windows.Forms.Label enemyFieldA_label;
+		private System.Windows.Forms.Label label1;
+		private System.Windows.Forms.Label label2;
+		private System.Windows.Forms.Label label3;
+		private System.Windows.Forms.Label label4;
+		private System.Windows.Forms.Label label5;
+		private System.Windows.Forms.Label label6;
+		private System.Windows.Forms.Label label7;
+		private System.Windows.Forms.Label label8;
+		private System.Windows.Forms.Label label9;
+		private System.Windows.Forms.Label label10;
+		private System.Windows.Forms.Label label11;
+		private System.Windows.Forms.Label label12;
+		private System.Windows.Forms.Label label13;
+		private System.Windows.Forms.Label label14;
+		private System.Windows.Forms.Label label15;
+		private System.Windows.Forms.Label label16;
+		private System.Windows.Forms.Label label17;
+		private System.Windows.Forms.Label label18;
+		private System.Windows.Forms.Label label19;
+		private System.Windows.Forms.Label label20;
+		private System.Windows.Forms.Label label21;
+		private System.Windows.Forms.Label label22;
+		private System.Windows.Forms.Label label23;
+		private System.Windows.Forms.Label label24;
+		private System.Windows.Forms.Label label25;
+		private System.Windows.Forms.Label label26;
+		private System.Windows.Forms.Label label27;
+		private System.Windows.Forms.Label label28;
+		private System.Windows.Forms.Label label29;
+		private System.Windows.Forms.Label label30;
+		private System.Windows.Forms.Label label31;
+		private System.Windows.Forms.Label label32;
+		private System.Windows.Forms.Label label33;
+		private System.Windows.Forms.Label label34;
+		private System.Windows.Forms.Label label35;
+		private System.Windows.Forms.Label label36;
+		private System.Windows.Forms.Label label37;
+		private System.Windows.Forms.Label label38;
+		private System.Windows.Forms.Label label39;
 	}
 }
 
