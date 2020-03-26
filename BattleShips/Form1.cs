@@ -16,6 +16,16 @@ namespace BattleShips
 {
 	public partial class GameScreen : Form
 	{
+
+		private static GameScreen gameScreenInstance;
+		public static GameScreen GameScreenInstance
+		{
+			get
+			{
+				return gameScreenInstance;
+			}
+		}
+
 		FishingBoat playerFishingBoat;
 		FishingBoat enemyFishingBoat;
 
@@ -58,8 +68,9 @@ namespace BattleShips
 		public GameScreen(MenuScreen menuScreen)
 		{
 			InitializeComponent();
-
+		
 			this.menuScreen = menuScreen;
+			gameScreenInstance = this;
 
 			PlayerField.LoadFields();
 			EnemyField.LoadFields();
@@ -188,10 +199,10 @@ namespace BattleShips
 		private void FireButton_Click(object sender, EventArgs e)
 		{
 			isEnemyTurn = false;
-			restartGame_button.Enabled = false;
 
-			String letter = LetterboxText.Text;
-			String number = NumberboxText.Text;
+
+			String letter = "";
+			String number = "";
 			String s = "EnemyField_" + letter + number;
 
 			hitPic = Controls.Find(s, true).FirstOrDefault() as PictureBox;
@@ -214,6 +225,8 @@ namespace BattleShips
 				PlayerActionText.Text = "Already fired there!";
 					return;
 			}
+
+			restartGame_button.Enabled = false;
 
 			explosion_image.Location = new Point(977,150);
 			explosionTimer.Start();
@@ -268,24 +281,29 @@ namespace BattleShips
 
 		}
 
-		public void SetShips()
+		public void SetShips(string ShipType, string SetHorizontalPosText, string SetVerticalPosText, string ShipName,
+			bool VerticalOption)
 		{
+			exit_button.Enabled = true;
+			restartGame_button.Enabled = true;
+			cheat_button.Enabled = true;
 
-			if (SetHorizontalPosText.TextLength == 0 || SetHorizontalPosText.Text[0] < 'A'
-				|| SetHorizontalPosText.Text[0] > 'J' || SetVerticalPosText.TextLength == 0)
+			RemoveBrigantine_button.Enabled = true;
+			RemoveFishingBoat_button.Enabled = true; 
+			RemoveSloop_button.Enabled = true;
+			RemoveGalleon_button.Enabled = true;
+			RemovePiratesShip_button.Enabled = true;
+
+			if (SetHorizontalPosText.Length == 0 || SetHorizontalPosText[0] < 'A'
+				|| SetHorizontalPosText[0] > 'J' || SetVerticalPosText.Length == 0)
 			{
 				PlayerActionText.Text = "Bad coordinates";
 				showPlayerDialogTimer.Start();
 				return;
 			}
 
-			char hpos = SetHorizontalPosText.Text[0];
-			SetHorizontalPosText.Text = string.Empty;
-
-
-
-			int vpos = int.Parse(SetVerticalPosText.Text) - 1;
-			SetVerticalPosText.Text = string.Empty;
+			char hpos = SetHorizontalPosText[0];
+			int vpos = int.Parse(SetVerticalPosText) - 1;
 
 			if (vpos < 0 || vpos > 9)
 			{
@@ -293,16 +311,14 @@ namespace BattleShips
 				showPlayerDialogTimer.Start();
 				return;
 			}
-
-			string sname = ShipName_texbox.Text;
-			ShipName_texbox.Text = string.Empty;
+			string sname = ShipName;
 
 			int index = ((hpos - 65) * 10) + vpos;
 
-			string ship = ChooseShipComboBox.Text;
+			string ship = ShipType;
 			string orientation;
 
-			if (VerticalOption.Checked == true)
+			if (VerticalOption == true)
 				orientation = "Vertical";
 			else
 				orientation = "Horizontal";
@@ -390,11 +406,32 @@ namespace BattleShips
 
 		}
 
+		public void CancelMenu()
+		{
+			exit_button.Enabled = true;
+			restartGame_button.Enabled = true;
+			cheat_button.Enabled = true;
+
+			RemoveBrigantine_button.Enabled = true;
+			RemoveFishingBoat_button.Enabled = true;
+			RemoveSloop_button.Enabled = true;
+			RemoveGalleon_button.Enabled = true;
+			RemovePiratesShip_button.Enabled = true;
+		}
+
 		private void SetShipsButton_Click(object sender, EventArgs e)
 		{
 
-			
+			setShip1.Visible = true;
+			exit_button.Enabled = false;
+			restartGame_button.Enabled = false;
+			cheat_button.Enabled = false;
 
+			RemoveBrigantine_button.Enabled = false;
+			RemoveFishingBoat_button.Enabled = false;
+			RemoveSloop_button.Enabled = false;
+			RemoveGalleon_button.Enabled = false;
+			RemovePiratesShip_button.Enabled = false;
 		}
 
 		private void SetHealth()

@@ -64,11 +64,11 @@ namespace BattleShips
 
 		}
 
-		static public bool isShipTarget(Field pos)
+		static public bool isShipTarget(Point pos)
 		{
 			for (int i = 0; i < 100; i++)
 			{
-				if (AllFields[i].point == pos.point)
+				if (AllFields[i].point == pos)
 				{
 					if (AllFields[i].isTaken == true)
 						return true;

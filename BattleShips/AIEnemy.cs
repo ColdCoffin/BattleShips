@@ -157,7 +157,7 @@ namespace BattleShips
 				}
 
 
-			if (PlayerField.isShipTarget(fieldHit) == true && PlayerField.isAlreadyHit(fieldHit) == false)
+			if (PlayerField.isShipTarget(fieldHit.point) == true && PlayerField.isAlreadyHit(fieldHit) == false)
 				return true;
 			else
 				return false;

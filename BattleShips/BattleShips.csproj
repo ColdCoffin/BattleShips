@@ -1571,5 +1571,11 @@
   <ItemGroup>
     <None Include="Art\MenuBoatScreen\MenuBoatScreen301.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\Menu_greenButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\Menu_redButton.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

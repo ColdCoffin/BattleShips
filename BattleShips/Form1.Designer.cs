@@ -1312,6 +1312,7 @@
 			this.label37 = new System.Windows.Forms.Label();
 			this.label38 = new System.Windows.Forms.Label();
 			this.label39 = new System.Windows.Forms.Label();
+			this.setShip1 = new BattleShips.SetShip();
 			this.PlayerField_label.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox211)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_vertical_player)).BeginInit();
@@ -15666,12 +15667,21 @@
 			this.label39.Text = "1";
 			this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
+			// setShip1
+			// 
+			this.setShip1.Location = new System.Drawing.Point(317, 176);
+			this.setShip1.Name = "setShip1";
+			this.setShip1.Size = new System.Drawing.Size(600, 400);
+			this.setShip1.TabIndex = 1374;
+			this.setShip1.Visible = false;
+			// 
 			// GameScreen
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(1280, 736);
+			this.Controls.Add(this.setShip1);
 			this.Controls.Add(this.label30);
 			this.Controls.Add(this.label31);
 			this.Controls.Add(this.label32);
@@ -19235,6 +19245,7 @@
 		private System.Windows.Forms.Label label37;
 		private System.Windows.Forms.Label label38;
 		private System.Windows.Forms.Label label39;
+		private SetShip setShip1;
 	}
 }
 
