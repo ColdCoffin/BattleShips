@@ -5021,6 +5021,7 @@
 			this.DialogLabel.Name = "DialogLabel";
 			this.DialogLabel.Size = new System.Drawing.Size(212, 287);
 			this.DialogLabel.TabIndex = 45;
+			this.DialogLabel.Visible = false;
 			// 
 			// FishingBoat_progressBar
 			// 
@@ -5169,6 +5170,7 @@
 			this.LogFrame.Size = new System.Drawing.Size(264, 320);
 			this.LogFrame.TabIndex = 1329;
 			this.LogFrame.TabStop = false;
+			this.LogFrame.Visible = false;
 			// 
 			// pictureBox980
 			// 
@@ -5785,7 +5787,7 @@
 			this.SetShipsButton.BackgroundImage = global::BattleShips.Properties.Resources.smallButton1;
 			this.SetShipsButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
 			this.SetShipsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.SetShipsButton.Font = new System.Drawing.Font("Pixel-Art", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.SetShipsButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
 			this.SetShipsButton.Location = new System.Drawing.Point(500, 356);
 			this.SetShipsButton.Name = "SetShipsButton";
 			this.SetShipsButton.Size = new System.Drawing.Size(80, 25);
@@ -7059,7 +7061,7 @@
 			this.exit_button.BackgroundImage = global::BattleShips.Properties.Resources.smallButton;
 			this.exit_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
 			this.exit_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.exit_button.Font = new System.Drawing.Font("Pixel-Art", 9.75F);
+			this.exit_button.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
 			this.exit_button.Location = new System.Drawing.Point(1190, 709);
 			this.exit_button.Name = "exit_button";
 			this.exit_button.Size = new System.Drawing.Size(80, 25);
@@ -7675,7 +7677,7 @@
 			this.FireButton.BackgroundImage = global::BattleShips.Properties.Resources.smallButton1;
 			this.FireButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
 			this.FireButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.FireButton.Font = new System.Drawing.Font("Pixel-Art", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.FireButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
 			this.FireButton.ForeColor = System.Drawing.Color.Black;
 			this.FireButton.Location = new System.Drawing.Point(680, 356);
 			this.FireButton.Name = "FireButton";
@@ -7690,12 +7692,12 @@
 			this.cheat_button.BackgroundImage = global::BattleShips.Properties.Resources.smallButton;
 			this.cheat_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
 			this.cheat_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.cheat_button.Font = new System.Drawing.Font("Pixel-Art", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.cheat_button.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
 			this.cheat_button.Location = new System.Drawing.Point(786, 7);
 			this.cheat_button.Name = "cheat_button";
 			this.cheat_button.Size = new System.Drawing.Size(80, 25);
 			this.cheat_button.TabIndex = 121;
-			this.cheat_button.Text = "cheat";
+			this.cheat_button.Text = "Cheat";
 			this.cheat_button.UseVisualStyleBackColor = true;
 			this.cheat_button.Click += new System.EventHandler(this.cheat_button_Click);
 			// 
@@ -11081,12 +11083,13 @@
 			// 
 			// ActionButton
 			// 
-			this.ActionButton.BackColor = System.Drawing.Color.Transparent;
+			this.ActionButton.BackColor = System.Drawing.SystemColors.Control;
 			this.ActionButton.BackgroundImage = global::BattleShips.Properties.Resources.BigButtton_2;
 			this.ActionButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ActionButton.FlatAppearance.BorderSize = 0;
 			this.ActionButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.ActionButton.Font = new System.Drawing.Font("Pixel-Art", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.ActionButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
+			this.ActionButton.ForeColor = System.Drawing.Color.Black;
 			this.ActionButton.Location = new System.Drawing.Point(580, 345);
 			this.ActionButton.Margin = new System.Windows.Forms.Padding(0);
 			this.ActionButton.Name = "ActionButton";
@@ -11095,7 +11098,6 @@
 			this.ActionButton.Text = "End Turn";
 			this.ActionButton.UseVisualStyleBackColor = false;
 			this.ActionButton.Click += new System.EventHandler(this.ActionButton_Click);
-			this.ActionButton.MouseUp += new System.Windows.Forms.MouseEventHandler(this.ActionButton_MouseUp);
 			// 
 			// pictureBox321
 			// 
@@ -15263,13 +15265,14 @@
 			this.HideShowLog_button.BackgroundImage = global::BattleShips.Properties.Resources.smallButton;
 			this.HideShowLog_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
 			this.HideShowLog_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.HideShowLog_button.Font = new System.Drawing.Font("Pixel-Art", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.HideShowLog_button.Location = new System.Drawing.Point(255, 67);
+			this.HideShowLog_button.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.HideShowLog_button.Location = new System.Drawing.Point(500, 356);
 			this.HideShowLog_button.Name = "HideShowLog_button";
 			this.HideShowLog_button.Size = new System.Drawing.Size(80, 25);
 			this.HideShowLog_button.TabIndex = 1330;
-			this.HideShowLog_button.Text = "Hide Log";
+			this.HideShowLog_button.Text = "Show Log";
 			this.HideShowLog_button.UseVisualStyleBackColor = true;
+			this.HideShowLog_button.Visible = false;
 			this.HideShowLog_button.Click += new System.EventHandler(this.HideShowLog_button_Click);
 			// 
 			// pictureBox106
@@ -15297,7 +15300,7 @@
 			this.restartGame_button.BackgroundImage = global::BattleShips.Properties.Resources.smallButton;
 			this.restartGame_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
 			this.restartGame_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.restartGame_button.Font = new System.Drawing.Font("Pixel-Art", 9.75F);
+			this.restartGame_button.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
 			this.restartGame_button.Location = new System.Drawing.Point(1103, 709);
 			this.restartGame_button.Name = "restartGame_button";
 			this.restartGame_button.Size = new System.Drawing.Size(80, 25);
@@ -15712,6 +15715,7 @@
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(1280, 736);
+			this.Controls.Add(this.DialogLabel);
 			this.Controls.Add(this.label30);
 			this.Controls.Add(this.label31);
 			this.Controls.Add(this.label32);
@@ -15757,7 +15761,6 @@
 			this.Controls.Add(this.pictureBox106);
 			this.Controls.Add(this.HideShowLog_button);
 			this.Controls.Add(this.PlayerActionText);
-			this.Controls.Add(this.DialogLabel);
 			this.Controls.Add(this.LogFrame);
 			this.Controls.Add(this.pictureBox980);
 			this.Controls.Add(this.pictureBox121);

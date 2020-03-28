@@ -14,18 +14,12 @@ namespace BattleShips
 {
 	public partial class FireAtShip : UserControl
 	{
-		List<Image> menuAnim;
-		ResourceManager RS;
 		int animIndex = 0;
 
 		PictureBox[] miniMap;
 		public FireAtShip()
 		{
 			InitializeComponent();
-			RS = new ResourceManager("BattleShips.Properties.Resources", typeof(Resources).Assembly);
-			menuAnim = new List<Image>();
-
-			loadAnimation();
 
 			miniMap = new PictureBox[100];
 
@@ -41,15 +35,6 @@ namespace BattleShips
 				picture.Dispose();
 			}
 		}
-
-		private void loadAnimation()
-		{
-			for (int i = 132; i <= 301; i++)
-			{
-				menuAnim.Add((Image)RS.GetObject("MenuBoatScreen" + i));
-			}
-		}
-
 		private void setMinimap()
 		{
 			for (int i = 0; i < 100; i += 10)
@@ -73,7 +58,14 @@ namespace BattleShips
 					miniMap[i + j].BringToFront();
 
 					if (EnemyField.isAlreadyHit(new Point(j * 30, i * 3)) == true)
-						miniMap[i + j].Image = Resources.Menu_redButton;
+					{
+
+						if (EnemyField.isShipTarget(new Point(j * 30, i * 3)) == true)
+							miniMap[i + j].Image = Resources.Menu_redButton;
+						else
+							miniMap[i + j].Image = Resources.Menu_grayButton;
+
+					}
 					else
 						miniMap[i + j].Image = Resources.Menu_greenButton;
 				}
@@ -82,10 +74,10 @@ namespace BattleShips
 
 		private void timer1_Tick_1(object sender, EventArgs e)
 		{
-			if (animIndex == 169)
+			if (animIndex == SetFireMenuAnim.menuAnim.Count())
 				animIndex = 0;
 
-			pictureBox1.Image = menuAnim[animIndex++];
+			pictureBox1.Image = SetFireMenuAnim.menuAnim[animIndex++];
 		}
 
 		private void FireAtShip_VisibleChanged(object sender, EventArgs e)

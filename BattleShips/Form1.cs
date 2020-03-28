@@ -88,7 +88,7 @@ namespace BattleShips
 
 			Stream str = Resources.soundscrate_last_one_standing_sc1;
 			sound.Stream = str;
-			//sound.PlayLooping();
+			sound.PlayLooping();
 
 			loadExplosion();
 
@@ -172,7 +172,12 @@ namespace BattleShips
 			SetHealth();
 
 			gl.Reset();
+			fireAtShipMenu.Dispose();
 			removeAllShipsFromDock();
+
+			setShipMenu = new SetShip();
+			setShipMenu.Location = new Point(340, 160);
+			setShipMenu.Parent = this;
 
 			foreach (PictureBox pictureBox in hitAreas)
 			{
@@ -191,6 +196,8 @@ namespace BattleShips
 			FireButton.Enabled = false;
 			ActionButton.Enabled = false;
 			SetShipsButton.Enabled = true;
+			SetShipsButton.Visible = true;
+			HideShowLog_button.Visible = false;
 
 			RemovePiratesShip_button.Visible = false;
 			RemoveSloop_button.Visible = false;
@@ -204,7 +211,11 @@ namespace BattleShips
 
 		public void Fire(string letter, string number)
 		{
+			exit_button.Enabled = true;
+			cheat_button.Enabled = true;
+
 			isEnemyTurn = false;
+
 
 			String s = "EnemyField_" + letter + number;
 
@@ -233,8 +244,6 @@ namespace BattleShips
 
 			explosion_image.Location = new Point(977, 150);
 			explosionTimer.Start();
-
-			FireButton.BackgroundImage = Resources.smallButton_pressed;
 
 			EnemyField.Hit(new Field(fireAt));
 			wasHit = false;
@@ -267,8 +276,6 @@ namespace BattleShips
 				EnemyField_label.Location.Y + (fireAt.Y + 15));
 
 			cannonball.Visible = true;
-
-
 			FireButton.Enabled = false;
 
 			cannonballTimer.Start();
@@ -277,7 +284,7 @@ namespace BattleShips
 			string msg = "" + (char)((fireAt.Y / 30) + 'A') + ((fireAt.X / 30) + 1);
 			PlayerActionText.Text = "Firing at " + msg;
 			showPlayerDialogTimer.Start();
-			gl.Write("You fired at" + msg + shipHit);
+			gl.Write("You fired at " + msg + shipHit);
 
 			if (isDestroyed == true)
 				gl.Write("You destroyed enemy " + temp.ShipName);
@@ -523,6 +530,9 @@ namespace BattleShips
 
 			if (setShipMenu != null)
 			{
+				SetShipsButton.Visible = false;
+				HideShowLog_button.Visible = true;
+
 				setShipMenu.Dispose();
 				setShipMenu = null;
 				System.GC.Collect();
@@ -619,11 +629,8 @@ namespace BattleShips
 			cannonballTimer.Start();
 
 
-
-			FireButton.BackgroundImage = Resources.smallButton;
-
 			AITimer.Stop();
-			ActionButton.BackgroundImage = Resources.BigButtton_2;
+
 		}
 
 		private void cheat_button_Click(object sender, EventArgs e)
@@ -707,13 +714,6 @@ namespace BattleShips
 			menuScreen.closeMenu();
 		}
 
-		private void ActionButton_MouseUp(object sender, MouseEventArgs e)
-		{
-
-				ActionButton.BackgroundImage = Resources.BigButtton_2_pressed;
-
-
-		}
 
 		private void loadExplosion()
 		{
@@ -794,8 +794,7 @@ namespace BattleShips
 		private void button1_Click_1(object sender, EventArgs e)
 		{
 			gameReset();
-			FireButton.BackgroundImage = Resources.smallButton;
-			ActionButton.BackgroundImage = Resources.BigButtton_2;
+
 		}
 
 		int endDistance;

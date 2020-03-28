@@ -355,7 +355,7 @@
 			this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.button1.FlatAppearance.BorderSize = 0;
 			this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button1.Font = new System.Drawing.Font("Pixel-Art", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
 			this.button1.Location = new System.Drawing.Point(442, 307);
 			this.button1.Margin = new System.Windows.Forms.Padding(0);
 			this.button1.Name = "button1";
@@ -372,7 +372,7 @@
 			this.ActionButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ActionButton.FlatAppearance.BorderSize = 0;
 			this.ActionButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.ActionButton.Font = new System.Drawing.Font("Pixel-Art", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.ActionButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
 			this.ActionButton.Location = new System.Drawing.Point(442, 252);
 			this.ActionButton.Margin = new System.Windows.Forms.Padding(0);
 			this.ActionButton.Name = "ActionButton";

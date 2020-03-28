@@ -80,6 +80,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="SetFireMenuAnim.cs" />
     <Compile Include="SetShip.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -1585,6 +1586,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Art\Menu_redButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\Menu_grayButton.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

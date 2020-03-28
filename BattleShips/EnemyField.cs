@@ -58,6 +58,20 @@ namespace BattleShips
 
 		}
 
+		static public bool isShipTarget(Point pos)
+		{
+			for (int i = 0; i < 100; i++)
+			{
+				if (AllFields[i].point == pos)
+				{
+					if (AllFields[i].isTaken == true)
+						return true;
+				}
+			}
+
+			return false;
+		}
+
 		static public bool isAlreadyHit(Point pos)
 		{
 
