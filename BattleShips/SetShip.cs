@@ -17,24 +17,28 @@ namespace BattleShips
 		int animIndex = 0;
 
 		PictureBox[] miniMap;
+
+		SetShip setShip;
+
+		public SetShip SetShipInstance
+		{
+			get
+			{
+				return setShip;
+			}
+		}
+
 		public SetShip()
 		{
 			InitializeComponent();
 
 			miniMap = new PictureBox[100];
+			setShip = this;
 
 			setMinimap();
 
 			refreshMinimap();
 			timer1.Start();
-		}
-
-		~SetShip()
-		{
-			foreach (PictureBox picture in miniMap)
-			{
-				picture.Dispose();
-			}
 		}
 
 
@@ -52,6 +56,22 @@ namespace BattleShips
 				}
 			}
 		}
+
+		public void AddTextFromComboBox(Ship ship)
+		{
+
+			if (ship.GetType() == typeof(FishingBoat))
+				choseShip_combobox.Items.Add("Fishing Boat");
+			if (ship.GetType() == typeof(Brigantine))
+				choseShip_combobox.Items.Add("Brigantine");
+			if (ship.GetType() == typeof(Sloop))
+				choseShip_combobox.Items.Add("Sloop");
+			if (ship.GetType() == typeof(Galleon))
+				choseShip_combobox.Items.Add("Galleon");
+			if (ship.GetType() == typeof(PiratesShip))
+				choseShip_combobox.Items.Add("Pirate's ship");
+
+		}
 		private void timer1_Tick(object sender, EventArgs e)
 		{
 			if (animIndex == SetFireMenuAnim.menuAnim.Count())
@@ -64,10 +84,14 @@ namespace BattleShips
 			GameScreen.GameScreenInstance.SetShips(choseShip_combobox.Text, ChooseXPos_texbox.Text,
 	ChooseYPos_texbox.Text, ChooseName_texbox.Text, VericalOri_radiobutton.Checked);
 
+			choseShip_combobox.Items.Remove(choseShip_combobox.Text);
+
 			ChooseXPos_texbox.Text = "";
 			ChooseYPos_texbox.Text = "";
 			choseShip_combobox.Text = "";
 			ChooseName_texbox.Text = "";
+
+			
 
 			this.Visible = false;
 		}

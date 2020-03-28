@@ -11085,7 +11085,7 @@
 			// 
 			this.ActionButton.BackColor = System.Drawing.SystemColors.Control;
 			this.ActionButton.BackgroundImage = global::BattleShips.Properties.Resources.BigButtton_2;
-			this.ActionButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.ActionButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
 			this.ActionButton.FlatAppearance.BorderSize = 0;
 			this.ActionButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.ActionButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
@@ -11096,7 +11096,7 @@
 			this.ActionButton.Size = new System.Drawing.Size(100, 50);
 			this.ActionButton.TabIndex = 46;
 			this.ActionButton.Text = "End Turn";
-			this.ActionButton.UseVisualStyleBackColor = false;
+			this.ActionButton.UseVisualStyleBackColor = true;
 			this.ActionButton.Click += new System.EventHandler(this.ActionButton_Click);
 			// 
 			// pictureBox321
@@ -15266,6 +15266,7 @@
 			this.HideShowLog_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
 			this.HideShowLog_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.HideShowLog_button.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.HideShowLog_button.ForeColor = System.Drawing.Color.Black;
 			this.HideShowLog_button.Location = new System.Drawing.Point(500, 356);
 			this.HideShowLog_button.Name = "HideShowLog_button";
 			this.HideShowLog_button.Size = new System.Drawing.Size(80, 25);

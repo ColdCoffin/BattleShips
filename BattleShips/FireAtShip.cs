@@ -28,13 +28,6 @@ namespace BattleShips
 			timer1.Start();
 		}
 
-		~FireAtShip()
-		{
-			foreach (PictureBox picture in miniMap)
-			{
-				picture.Dispose();
-			}
-		}
 		private void setMinimap()
 		{
 			for (int i = 0; i < 100; i += 10)

@@ -155,7 +155,11 @@ namespace BattleShips
 			setShipMenu = new SetShip();
 			setShipMenu.Location = new Point(340, 160);
 			setShipMenu.Parent = this;
-			
+
+			fireAtShipMenu = new FireAtShip();
+			fireAtShipMenu.Location = new Point(340, 160);
+			fireAtShipMenu.Parent = this;
+
 
 			AI = new AIEnemy(enemyFishingBoat, enemySloop,
 									enemyGalleon, enemyBrigantine, enemyPiratesShip, menuScreen.isHard);
@@ -172,12 +176,7 @@ namespace BattleShips
 			SetHealth();
 
 			gl.Reset();
-			fireAtShipMenu.Dispose();
 			removeAllShipsFromDock();
-
-			setShipMenu = new SetShip();
-			setShipMenu.Location = new Point(340, 160);
-			setShipMenu.Parent = this;
 
 			foreach (PictureBox pictureBox in hitAreas)
 			{
@@ -422,13 +421,6 @@ namespace BattleShips
 				}
 			}
 
-			if (ActionButton.Enabled == true)
-			{
-				fireAtShipMenu = new FireAtShip();
-				fireAtShipMenu.Location = new Point(340, 160);
-				fireAtShipMenu.Parent = this;
-			}
-
 		}
 
 		public void CancelMenu()
@@ -527,16 +519,8 @@ namespace BattleShips
 			RemoveGalleon_button.Visible = false;
 			RemoveSloop_button.Visible = false;
 			restartGame_button.Enabled = false;
+			HideShowLog_button.Visible = true;
 
-			if (setShipMenu != null)
-			{
-				SetShipsButton.Visible = false;
-				HideShowLog_button.Visible = true;
-
-				setShipMenu.Dispose();
-				setShipMenu = null;
-				System.GC.Collect();
-			}
 
 			enemyDialogClock = 0;
 			showEnemyDialogTimer.Start();
@@ -557,6 +541,7 @@ namespace BattleShips
 			RemovePiratesShip_button.Visible = false;
 			ActionButton.Enabled = false;
 
+			setShipMenu.SetShipInstance.AddTextFromComboBox(playerPiratesShip);
 
 		}
 
@@ -672,6 +657,8 @@ namespace BattleShips
 			Galleon_progressBar.Visible = false;
 			RemoveGalleon_button.Visible = false;
 			ActionButton.Enabled = false;
+
+			setShipMenu.SetShipInstance.AddTextFromComboBox(playerGalleon);
 		}
 
 		private void RemoveSloop_button_Click(object sender, EventArgs e)
@@ -682,6 +669,8 @@ namespace BattleShips
 			Sloop_progressBar.Visible = false;
 			RemoveSloop_button.Visible = false;
 			ActionButton.Enabled = false;
+
+			setShipMenu.SetShipInstance.AddTextFromComboBox(playerSloop);
 		}
 
 		private void RemoveBrigantine_button_Click(object sender, EventArgs e)
@@ -692,6 +681,8 @@ namespace BattleShips
 			Brigantine_progressBar.Visible = false;
 			RemoveBrigantine_button.Visible = false;
 			ActionButton.Enabled = false;
+
+			setShipMenu.SetShipInstance.AddTextFromComboBox(playerBrigantine);
 		}
 
 		private void RemoveFishingBoat_button_Click(object sender, EventArgs e)
@@ -702,6 +693,8 @@ namespace BattleShips
 			FishingBoat_progressBar.Visible = false;
 			RemoveFishingBoat_button.Visible = false;
 			ActionButton.Enabled = false;
+
+			setShipMenu.SetShipInstance.AddTextFromComboBox(playerFishingBoat);
 		}
 
 		private void exit_button_Click(object sender, EventArgs e)
