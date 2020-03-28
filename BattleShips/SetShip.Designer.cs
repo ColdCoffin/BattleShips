@@ -440,11 +440,12 @@
 			this.button1.TabIndex = 48;
 			this.button1.Text = "Cancel";
 			this.button1.UseVisualStyleBackColor = false;
-			this.button1.Click += new System.EventHandler(this.button1_Click);
+			this.button1.Click += new System.EventHandler(this.button1_Click_1);
 			// 
 			// ActionButton
 			// 
 			this.ActionButton.BackColor = System.Drawing.Color.Transparent;
+			this.ActionButton.BackgroundImage = global::BattleShips.Properties.Resources.BigButtton_2;
 			this.ActionButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ActionButton.FlatAppearance.BorderSize = 0;
 			this.ActionButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -456,7 +457,7 @@
 			this.ActionButton.TabIndex = 47;
 			this.ActionButton.Text = "Confirm";
 			this.ActionButton.UseVisualStyleBackColor = false;
-			this.ActionButton.Click += new System.EventHandler(this.ActionButton_Click);
+			this.ActionButton.Click += new System.EventHandler(this.ActionButton_Click_1);
 			// 
 			// pictureBox1
 			// 
@@ -468,6 +469,7 @@
 			// 
 			// pictureBox2
 			// 
+			this.pictureBox2.Image = global::BattleShips.Properties.Resources.SetShipOption;
 			this.pictureBox2.Location = new System.Drawing.Point(0, 0);
 			this.pictureBox2.Margin = new System.Windows.Forms.Padding(0);
 			this.pictureBox2.Name = "pictureBox2";
@@ -516,7 +518,7 @@
 			this.Controls.Add(this.pictureBox2);
 			this.Name = "SetShip";
 			this.Size = new System.Drawing.Size(600, 400);
-			this.VisibleChanged += new System.EventHandler(this.SetShip_VisibleChanged);
+			this.VisibleChanged += new System.EventHandler(this.SetShip_VisibleChanged_1);
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
 			this.ResumeLayout(false);

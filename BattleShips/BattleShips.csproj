@@ -50,6 +50,12 @@
     <Compile Include="AIEnemy.cs" />
     <Compile Include="Brigantine.cs" />
     <Compile Include="EnemyField.cs" />
+    <Compile Include="FireAtShip.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FireAtShip.Designer.cs">
+      <DependentUpon>FireAtShip.cs</DependentUpon>
+    </Compile>
     <Compile Include="GameLog.cs" />
     <Compile Include="MenuScreen.cs">
       <SubType>Form</SubType>
@@ -82,6 +88,9 @@
     </Compile>
     <Compile Include="Ship.cs" />
     <Compile Include="Sloop.cs" />
+    <EmbeddedResource Include="FireAtShip.resx">
+      <DependentUpon>FireAtShip.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

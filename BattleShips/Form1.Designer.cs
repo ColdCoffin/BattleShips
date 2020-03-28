@@ -1312,7 +1312,6 @@
 			this.label37 = new System.Windows.Forms.Label();
 			this.label38 = new System.Windows.Forms.Label();
 			this.label39 = new System.Windows.Forms.Label();
-			this.setShip1 = new BattleShips.SetShip();
 			this.PlayerField_label.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox211)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_vertical_player)).BeginInit();
@@ -5075,7 +5074,7 @@
 			// 
 			// FishingBoat_nameText
 			// 
-			this.FishingBoat_nameText.BackColor = System.Drawing.Color.Transparent;
+			this.FishingBoat_nameText.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.FishingBoat_nameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.FishingBoat_nameText.Location = new System.Drawing.Point(980, 421);
 			this.FishingBoat_nameText.Name = "FishingBoat_nameText";
@@ -5086,7 +5085,7 @@
 			// 
 			// Brigantine_nameText
 			// 
-			this.Brigantine_nameText.BackColor = System.Drawing.Color.Transparent;
+			this.Brigantine_nameText.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.Brigantine_nameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.Brigantine_nameText.Location = new System.Drawing.Point(1010, 487);
 			this.Brigantine_nameText.Name = "Brigantine_nameText";
@@ -5097,7 +5096,7 @@
 			// 
 			// Sloop_nameText
 			// 
-			this.Sloop_nameText.BackColor = System.Drawing.Color.Transparent;
+			this.Sloop_nameText.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.Sloop_nameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.Sloop_nameText.Location = new System.Drawing.Point(1010, 545);
 			this.Sloop_nameText.Name = "Sloop_nameText";
@@ -5108,7 +5107,7 @@
 			// 
 			// Galleon_nameText
 			// 
-			this.Galleon_nameText.BackColor = System.Drawing.Color.Transparent;
+			this.Galleon_nameText.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.Galleon_nameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.Galleon_nameText.Location = new System.Drawing.Point(1036, 617);
 			this.Galleon_nameText.Name = "Galleon_nameText";
@@ -5119,7 +5118,7 @@
 			// 
 			// PiratesShip_nameText
 			// 
-			this.PiratesShip_nameText.BackColor = System.Drawing.Color.Transparent;
+			this.PiratesShip_nameText.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.PiratesShip_nameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.PiratesShip_nameText.Location = new System.Drawing.Point(1066, 672);
 			this.PiratesShip_nameText.Name = "PiratesShip_nameText";
@@ -15309,6 +15308,7 @@
 			// 
 			// enemyFieldA_label
 			// 
+			this.enemyFieldA_label.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.enemyFieldA_label.Location = new System.Drawing.Point(448, 43);
 			this.enemyFieldA_label.Name = "enemyFieldA_label";
 			this.enemyFieldA_label.Size = new System.Drawing.Size(15, 15);
@@ -15318,6 +15318,7 @@
 			// 
 			// label1
 			// 
+			this.label1.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label1.Location = new System.Drawing.Point(448, 73);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(15, 15);
@@ -15327,6 +15328,7 @@
 			// 
 			// label2
 			// 
+			this.label2.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label2.Location = new System.Drawing.Point(448, 135);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(15, 15);
@@ -15336,6 +15338,7 @@
 			// 
 			// label3
 			// 
+			this.label3.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label3.Location = new System.Drawing.Point(448, 105);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(15, 15);
@@ -15345,6 +15348,7 @@
 			// 
 			// label4
 			// 
+			this.label4.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label4.Location = new System.Drawing.Point(448, 252);
 			this.label4.Name = "label4";
 			this.label4.Size = new System.Drawing.Size(15, 15);
@@ -15354,6 +15358,7 @@
 			// 
 			// label5
 			// 
+			this.label5.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label5.Location = new System.Drawing.Point(448, 222);
 			this.label5.Name = "label5";
 			this.label5.Size = new System.Drawing.Size(15, 15);
@@ -15363,6 +15368,7 @@
 			// 
 			// label6
 			// 
+			this.label6.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label6.Location = new System.Drawing.Point(448, 190);
 			this.label6.Name = "label6";
 			this.label6.Size = new System.Drawing.Size(15, 15);
@@ -15372,6 +15378,7 @@
 			// 
 			// label7
 			// 
+			this.label7.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label7.Location = new System.Drawing.Point(448, 160);
 			this.label7.Name = "label7";
 			this.label7.Size = new System.Drawing.Size(15, 15);
@@ -15381,6 +15388,7 @@
 			// 
 			// label8
 			// 
+			this.label8.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label8.Location = new System.Drawing.Point(448, 312);
 			this.label8.Name = "label8";
 			this.label8.Size = new System.Drawing.Size(15, 15);
@@ -15390,6 +15398,7 @@
 			// 
 			// label9
 			// 
+			this.label9.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label9.Location = new System.Drawing.Point(448, 282);
 			this.label9.Name = "label9";
 			this.label9.Size = new System.Drawing.Size(15, 15);
@@ -15399,6 +15408,7 @@
 			// 
 			// label10
 			// 
+			this.label10.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label10.Location = new System.Drawing.Point(448, 691);
 			this.label10.Name = "label10";
 			this.label10.Size = new System.Drawing.Size(15, 15);
@@ -15408,6 +15418,7 @@
 			// 
 			// label11
 			// 
+			this.label11.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label11.Location = new System.Drawing.Point(448, 661);
 			this.label11.Name = "label11";
 			this.label11.Size = new System.Drawing.Size(15, 15);
@@ -15417,6 +15428,7 @@
 			// 
 			// label12
 			// 
+			this.label12.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label12.Location = new System.Drawing.Point(448, 631);
 			this.label12.Name = "label12";
 			this.label12.Size = new System.Drawing.Size(15, 15);
@@ -15426,6 +15438,7 @@
 			// 
 			// label13
 			// 
+			this.label13.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label13.Location = new System.Drawing.Point(448, 601);
 			this.label13.Name = "label13";
 			this.label13.Size = new System.Drawing.Size(15, 15);
@@ -15435,6 +15448,7 @@
 			// 
 			// label14
 			// 
+			this.label14.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label14.Location = new System.Drawing.Point(448, 569);
 			this.label14.Name = "label14";
 			this.label14.Size = new System.Drawing.Size(15, 15);
@@ -15444,6 +15458,7 @@
 			// 
 			// label15
 			// 
+			this.label15.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label15.Location = new System.Drawing.Point(448, 539);
 			this.label15.Name = "label15";
 			this.label15.Size = new System.Drawing.Size(15, 15);
@@ -15453,6 +15468,7 @@
 			// 
 			// label16
 			// 
+			this.label16.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label16.Location = new System.Drawing.Point(448, 514);
 			this.label16.Name = "label16";
 			this.label16.Size = new System.Drawing.Size(15, 15);
@@ -15462,6 +15478,7 @@
 			// 
 			// label17
 			// 
+			this.label17.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label17.Location = new System.Drawing.Point(448, 484);
 			this.label17.Name = "label17";
 			this.label17.Size = new System.Drawing.Size(15, 15);
@@ -15471,6 +15488,7 @@
 			// 
 			// label18
 			// 
+			this.label18.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label18.Location = new System.Drawing.Point(448, 452);
 			this.label18.Name = "label18";
 			this.label18.Size = new System.Drawing.Size(15, 15);
@@ -15480,6 +15498,7 @@
 			// 
 			// label19
 			// 
+			this.label19.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label19.Location = new System.Drawing.Point(448, 422);
 			this.label19.Name = "label19";
 			this.label19.Size = new System.Drawing.Size(15, 15);
@@ -15489,6 +15508,7 @@
 			// 
 			// label20
 			// 
+			this.label20.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label20.Location = new System.Drawing.Point(475, 397);
 			this.label20.Name = "label20";
 			this.label20.Size = new System.Drawing.Size(15, 15);
@@ -15498,6 +15518,7 @@
 			// 
 			// label21
 			// 
+			this.label21.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label21.Location = new System.Drawing.Point(506, 397);
 			this.label21.Name = "label21";
 			this.label21.Size = new System.Drawing.Size(15, 15);
@@ -15507,6 +15528,7 @@
 			// 
 			// label22
 			// 
+			this.label22.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label22.Location = new System.Drawing.Point(568, 397);
 			this.label22.Name = "label22";
 			this.label22.Size = new System.Drawing.Size(15, 15);
@@ -15516,6 +15538,7 @@
 			// 
 			// label23
 			// 
+			this.label23.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label23.Location = new System.Drawing.Point(536, 397);
 			this.label23.Name = "label23";
 			this.label23.Size = new System.Drawing.Size(15, 15);
@@ -15525,6 +15548,7 @@
 			// 
 			// label24
 			// 
+			this.label24.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label24.Location = new System.Drawing.Point(688, 397);
 			this.label24.Name = "label24";
 			this.label24.Size = new System.Drawing.Size(15, 15);
@@ -15534,6 +15558,7 @@
 			// 
 			// label25
 			// 
+			this.label25.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label25.Location = new System.Drawing.Point(657, 397);
 			this.label25.Name = "label25";
 			this.label25.Size = new System.Drawing.Size(15, 15);
@@ -15543,6 +15568,7 @@
 			// 
 			// label26
 			// 
+			this.label26.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label26.Location = new System.Drawing.Point(627, 397);
 			this.label26.Name = "label26";
 			this.label26.Size = new System.Drawing.Size(15, 15);
@@ -15552,6 +15578,7 @@
 			// 
 			// label27
 			// 
+			this.label27.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label27.Location = new System.Drawing.Point(596, 397);
 			this.label27.Name = "label27";
 			this.label27.Size = new System.Drawing.Size(15, 15);
@@ -15561,6 +15588,7 @@
 			// 
 			// label28
 			// 
+			this.label28.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label28.Location = new System.Drawing.Point(745, 397);
 			this.label28.Name = "label28";
 			this.label28.Size = new System.Drawing.Size(19, 15);
@@ -15570,6 +15598,7 @@
 			// 
 			// label29
 			// 
+			this.label29.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label29.Location = new System.Drawing.Point(715, 397);
 			this.label29.Name = "label29";
 			this.label29.Size = new System.Drawing.Size(15, 15);
@@ -15579,6 +15608,7 @@
 			// 
 			// label30
 			// 
+			this.label30.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label30.Location = new System.Drawing.Point(745, 12);
 			this.label30.Name = "label30";
 			this.label30.Size = new System.Drawing.Size(19, 15);
@@ -15588,6 +15618,7 @@
 			// 
 			// label31
 			// 
+			this.label31.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label31.Location = new System.Drawing.Point(715, 12);
 			this.label31.Name = "label31";
 			this.label31.Size = new System.Drawing.Size(15, 15);
@@ -15597,6 +15628,7 @@
 			// 
 			// label32
 			// 
+			this.label32.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label32.Location = new System.Drawing.Point(688, 12);
 			this.label32.Name = "label32";
 			this.label32.Size = new System.Drawing.Size(15, 15);
@@ -15606,6 +15638,7 @@
 			// 
 			// label33
 			// 
+			this.label33.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label33.Location = new System.Drawing.Point(657, 12);
 			this.label33.Name = "label33";
 			this.label33.Size = new System.Drawing.Size(15, 15);
@@ -15615,6 +15648,7 @@
 			// 
 			// label34
 			// 
+			this.label34.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label34.Location = new System.Drawing.Point(627, 12);
 			this.label34.Name = "label34";
 			this.label34.Size = new System.Drawing.Size(15, 15);
@@ -15624,6 +15658,7 @@
 			// 
 			// label35
 			// 
+			this.label35.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label35.Location = new System.Drawing.Point(596, 12);
 			this.label35.Name = "label35";
 			this.label35.Size = new System.Drawing.Size(15, 15);
@@ -15633,6 +15668,7 @@
 			// 
 			// label36
 			// 
+			this.label36.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label36.Location = new System.Drawing.Point(568, 12);
 			this.label36.Name = "label36";
 			this.label36.Size = new System.Drawing.Size(15, 15);
@@ -15642,6 +15678,7 @@
 			// 
 			// label37
 			// 
+			this.label37.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label37.Location = new System.Drawing.Point(536, 12);
 			this.label37.Name = "label37";
 			this.label37.Size = new System.Drawing.Size(15, 15);
@@ -15651,6 +15688,7 @@
 			// 
 			// label38
 			// 
+			this.label38.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label38.Location = new System.Drawing.Point(506, 12);
 			this.label38.Name = "label38";
 			this.label38.Size = new System.Drawing.Size(15, 15);
@@ -15660,6 +15698,7 @@
 			// 
 			// label39
 			// 
+			this.label39.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.label39.Location = new System.Drawing.Point(475, 12);
 			this.label39.Name = "label39";
 			this.label39.Size = new System.Drawing.Size(15, 15);
@@ -15667,21 +15706,12 @@
 			this.label39.Text = "1";
 			this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
-			// setShip1
-			// 
-			this.setShip1.Location = new System.Drawing.Point(317, 176);
-			this.setShip1.Name = "setShip1";
-			this.setShip1.Size = new System.Drawing.Size(600, 400);
-			this.setShip1.TabIndex = 1374;
-			this.setShip1.Visible = false;
-			// 
 			// GameScreen
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(1280, 736);
-			this.Controls.Add(this.setShip1);
 			this.Controls.Add(this.label30);
 			this.Controls.Add(this.label31);
 			this.Controls.Add(this.label32);
@@ -19245,7 +19275,6 @@
 		private System.Windows.Forms.Label label37;
 		private System.Windows.Forms.Label label38;
 		private System.Windows.Forms.Label label39;
-		private SetShip setShip1;
 	}
 }
 

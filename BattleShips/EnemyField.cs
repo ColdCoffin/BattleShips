@@ -58,13 +58,13 @@ namespace BattleShips
 
 		}
 
-		static public bool isAlreadyHit(Field pos)
+		static public bool isAlreadyHit(Point pos)
 		{
 
 
 			foreach (Field f in hitFields)
 			{
-				if (f.point == pos.point)
+				if (f.point == pos)
 					return true;
 			}
 			return false;

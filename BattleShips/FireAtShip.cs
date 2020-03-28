@@ -12,14 +12,14 @@ using BattleShips.Properties;
 
 namespace BattleShips
 {
-	public partial class SetShip : UserControl
+	public partial class FireAtShip : UserControl
 	{
 		List<Image> menuAnim;
 		ResourceManager RS;
 		int animIndex = 0;
 
 		PictureBox[] miniMap;
-		public SetShip()
+		public FireAtShip()
 		{
 			InitializeComponent();
 			RS = new ResourceManager("BattleShips.Properties.Resources", typeof(Resources).Assembly);
@@ -30,9 +30,11 @@ namespace BattleShips
 			miniMap = new PictureBox[100];
 
 			setMinimap();
+			refreshMinimap();
+			timer1.Start();
 		}
 
-		~SetShip()
+		~FireAtShip()
 		{
 			foreach (PictureBox picture in miniMap)
 			{
@@ -62,38 +64,6 @@ namespace BattleShips
 				}
 			}
 		}
-		private void timer1_Tick(object sender, EventArgs e)
-		{
-			if (animIndex == 169)
-				animIndex = 0;
-
-			pictureBox1.Image = menuAnim[animIndex++];
-		}
-		private void ActionButton_Click_1(object sender, EventArgs e)
-		{
-			GameScreen.GameScreenInstance.SetShips(choseShip_combobox.Text, ChooseXPos_texbox.Text,
-	ChooseYPos_texbox.Text, ChooseName_texbox.Text, VericalOri_radiobutton.Checked);
-
-			ChooseXPos_texbox.Text = "";
-			ChooseYPos_texbox.Text = "";
-			choseShip_combobox.Text = "";
-			ChooseName_texbox.Text = "";
-
-			this.Visible = false;
-		}
-
-		private void button1_Click_1(object sender, EventArgs e)
-		{
-			ChooseXPos_texbox.Text = "";
-			ChooseYPos_texbox.Text = "";
-			choseShip_combobox.Text = "";
-			ChooseName_texbox.Text = "";
-
-			GameScreen.GameScreenInstance.CancelMenu();
-
-			Visible = false;
-		}
-
 		private void refreshMinimap()
 		{
 			for (int i = 0; i < 100; i += 10)
@@ -102,7 +72,7 @@ namespace BattleShips
 				{
 					miniMap[i + j].BringToFront();
 
-					if (PlayerField.isShipTarget(new Point(j * 30, i * 3)) == true)
+					if (EnemyField.isAlreadyHit(new Point(j * 30, i * 3)) == true)
 						miniMap[i + j].Image = Resources.Menu_redButton;
 					else
 						miniMap[i + j].Image = Resources.Menu_greenButton;
@@ -110,7 +80,15 @@ namespace BattleShips
 			}
 		}
 
-		private void SetShip_VisibleChanged_1(object sender, EventArgs e)
+		private void timer1_Tick_1(object sender, EventArgs e)
+		{
+			if (animIndex == 169)
+				animIndex = 0;
+
+			pictureBox1.Image = menuAnim[animIndex++];
+		}
+
+		private void FireAtShip_VisibleChanged(object sender, EventArgs e)
 		{
 			if (Visible == true)
 			{
@@ -124,5 +102,26 @@ namespace BattleShips
 				timer1.Stop();
 			}
 		}
+
+		private void ActionButton_Click(object sender, EventArgs e)
+		{
+			GameScreen.GameScreenInstance.Fire(ChooseXPos_texbox.Text, ChooseYPos_texbox.Text);
+
+			ChooseXPos_texbox.Text = "";
+			ChooseYPos_texbox.Text = "";
+
+			this.Visible = false;
+		}
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+			ChooseXPos_texbox.Text = "";
+			ChooseYPos_texbox.Text = "";
+
+			GameScreen.GameScreenInstance.CancelMenu();
+
+			Visible = false;
+		}
 	}
+
 }

@@ -35,7 +35,7 @@ namespace BattleShips
 			{
 				for (int j = 0; j < 10; j++)
 				{
-					AllFields[i + j] = new Field(new Point(j * 30, i * 3));
+					AllFields[i + j] = new Field(new Point(j   * 30, i * 3));
 				}
 			}
 		}
