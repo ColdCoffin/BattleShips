@@ -5004,7 +5004,7 @@
 			// PlayerActionText
 			// 
 			this.PlayerActionText.BackColor = System.Drawing.Color.White;
-			this.PlayerActionText.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.PlayerActionText.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.PlayerActionText.Location = new System.Drawing.Point(1092, 78);
 			this.PlayerActionText.Name = "PlayerActionText";
 			this.PlayerActionText.Size = new System.Drawing.Size(100, 43);
@@ -5136,7 +5136,7 @@
 			// EnemyActionText
 			// 
 			this.EnemyActionText.BackColor = System.Drawing.Color.White;
-			this.EnemyActionText.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.EnemyActionText.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.EnemyActionText.Location = new System.Drawing.Point(188, 435);
 			this.EnemyActionText.Name = "EnemyActionText";
 			this.EnemyActionText.Size = new System.Drawing.Size(100, 43);

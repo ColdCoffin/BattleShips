@@ -28,7 +28,7 @@ namespace BattleShips
 			allText.Add(txt);
 			textLastIndex++;
 
-			if (textStartIndex + textLastIndex >= 8)
+			if (textStartIndex + textLastIndex >= 7)
 			{
 				textStartIndex++;
 

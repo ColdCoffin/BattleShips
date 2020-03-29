@@ -135,10 +135,11 @@ namespace BattleShips
 			PlayerShips = new List<Ship>
 			{
 				playerFishingBoat,
-				playerGalleon,
 				playerSloop,
-				playerPiratesShip,
-				playerBrigantine
+				playerBrigantine,
+				playerGalleon,	
+				playerPiratesShip
+				
 			};
 
 			EnemyShips = new List<Ship>
@@ -178,6 +179,9 @@ namespace BattleShips
 			gl.Reset();
 			removeAllShipsFromDock();
 
+			LogFrame.Visible = false;
+			DialogLabel.Visible = false;
+
 			foreach (PictureBox pictureBox in hitAreas)
 			{
 				pictureBox.Image = Resources.pixil_frame_0;
@@ -185,6 +189,7 @@ namespace BattleShips
 
 			foreach (Ship ship in PlayerShips)
 			{
+				setShipMenu.SetShipInstance.AddTextFromComboBox(ship);
 				ship.DespawnShip();
 			}
 
@@ -525,7 +530,7 @@ namespace BattleShips
 			enemyDialogClock = 0;
 			showEnemyDialogTimer.Start();
 
-			EnemyActionText.Text = "Enemy is preparing to fire!";
+			EnemyActionText.Text = "Ready the cannons!";
 
 			AITimer.Start();
 
@@ -595,7 +600,7 @@ namespace BattleShips
 			enemyDialogClock = 0;
 			showEnemyDialogTimer.Start();
 			string msg = "" + (char)letter + "" + number;
-			EnemyActionText.Text = "Enemy firing at " + msg;
+			EnemyActionText.Text = "Fire at " + msg + "!";
 			gl.Write("Enemy fired at " + msg + shipHit);
 
 			if (isDestroyed == true)
