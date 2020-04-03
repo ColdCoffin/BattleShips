@@ -1933,6 +1933,16 @@ namespace BattleShips.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap EndGameMenu {
+            get {
+                object obj = ResourceManager.GetObject("EndGameMenu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap explosion_miss_1 {
             get {
                 object obj = ResourceManager.GetObject("explosion_miss_1", resourceCulture);

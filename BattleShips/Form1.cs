@@ -88,7 +88,7 @@ namespace BattleShips
 
 			Stream str = Resources.soundscrate_last_one_standing_sc1;
 			sound.Stream = str;
-			sound.PlayLooping();
+			//sound.PlayLooping();
 
 			loadExplosion();
 

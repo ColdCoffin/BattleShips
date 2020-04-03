@@ -60,15 +60,15 @@ namespace BattleShips
 		public void AddTextFromComboBox(Ship ship)
 		{
 
-			if (ship.GetType() == typeof(FishingBoat))
+			if (ship.GetType() == typeof(FishingBoat) && choseShip_combobox.Items.Contains("Fishing Boat") == false)
 				choseShip_combobox.Items.Add("Fishing Boat");
-			if (ship.GetType() == typeof(Brigantine))
+			if (ship.GetType() == typeof(Brigantine) && choseShip_combobox.Items.Contains("Brigantine") == false)
 				choseShip_combobox.Items.Add("Brigantine");
-			if (ship.GetType() == typeof(Sloop))
+			if (ship.GetType() == typeof(Sloop) && choseShip_combobox.Items.Contains("Sloop") == false)
 				choseShip_combobox.Items.Add("Sloop");
-			if (ship.GetType() == typeof(Galleon))
+			if (ship.GetType() == typeof(Galleon) && choseShip_combobox.Items.Contains("Galleon") == false)
 				choseShip_combobox.Items.Add("Galleon");
-			if (ship.GetType() == typeof(PiratesShip))
+			if (ship.GetType() == typeof(PiratesShip) && choseShip_combobox.Items.Contains("Pirate's ship") == false)
 				choseShip_combobox.Items.Add("Pirate's ship");
 
 		}

@@ -1590,5 +1590,8 @@
   <ItemGroup>
     <None Include="Art\Menu_grayButton.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\EndGameMenu.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
