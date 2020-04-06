@@ -18,7 +18,7 @@ namespace BattleShips
 
 		PictureBox[] miniMap;
 
-		SetShip setShip;
+		readonly SetShip setShip;
 
 		public SetShip SetShipInstance
 		{

@@ -55,9 +55,9 @@ namespace BattleShips
 
 		SoundPlayer sound;
 		ResourceManager RS;
+		InGameOptionsMenu inGameOptionsMenu;
 
 		GameLog gl;
-		MenuScreen menuScreen;
 		List<PictureBox> hitAreas;
 		SetShip setShipMenu;
 		FireAtShip fireAtShipMenu;
@@ -66,17 +66,18 @@ namespace BattleShips
 
 		List<Image> explosion;
 
-		public GameScreen(MenuScreen menuScreen)
+		public GameScreen()
 		{
 			InitializeComponent();
 		
-			this.menuScreen = menuScreen;
 			gameScreenInstance = this;
 
 			PlayerField.LoadFields();
 			EnemyField.LoadFields();
 
 			gl = new GameLog(DialogLabel);
+
+			gameTime.Start();
 
 			explosion = new List<Image>();
 
@@ -161,15 +162,40 @@ namespace BattleShips
 			fireAtShipMenu.Location = new Point(340, 160);
 			fireAtShipMenu.Parent = this;
 
+			inGameOptionsMenu = new InGameOptionsMenu();
+			inGameOptionsMenu.Location = new Point(340, 160);
+			inGameOptionsMenu.Parent = this;
 
-			AI = new AIEnemy(enemyFishingBoat, enemySloop,
-									enemyGalleon, enemyBrigantine, enemyPiratesShip, menuScreen.isHard);
-			AI.SpawnShips();
 
 		}
 
-		private void gameReset()
+		public GameScreen(AIEnemy ai, bool isHard) : this()
 		{
+
+			AI = new AIEnemy(enemyFishingBoat, enemySloop,
+									enemyGalleon, enemyBrigantine, enemyPiratesShip, isHard);
+			AI.SpawnShips();
+		}
+
+
+		public void gameReset()
+		{
+			AITimer.Stop();
+			cannonballTimer.Stop();
+			explosionTimer.Stop();
+			showEnemyDialogTimer.Stop();
+			enemyDialogClock = 0;
+			EnemyActionText.Visible = false;
+			enemyDialogBox.Visible = false;
+			showPlayerDialogTimer.Stop();
+			playerDialogClock = 0;
+			PlayerActionText.Visible = false;
+			playerDialogBox.Visible = false;
+
+
+			cannonball.Visible = false;
+			
+
 			AI.DespawnShips();
 			EnemyField.ResetFields();
 			PlayerField.ResetFields();
@@ -181,6 +207,7 @@ namespace BattleShips
 
 			LogFrame.Visible = false;
 			DialogLabel.Visible = false;
+
 
 			foreach (PictureBox pictureBox in hitAreas)
 			{
@@ -215,8 +242,7 @@ namespace BattleShips
 
 		public void Fire(string letter, string number)
 		{
-			exit_button.Enabled = true;
-			cheat_button.Enabled = true;
+			options_button.Enabled = true;
 
 			isEnemyTurn = false;
 
@@ -244,7 +270,7 @@ namespace BattleShips
 				return;
 			}
 
-			restartGame_button.Enabled = false;
+
 
 			explosion_image.Location = new Point(977, 150);
 			explosionTimer.Start();
@@ -298,18 +324,14 @@ namespace BattleShips
 		{
 			fireAtShipMenu.Visible = true;
 			fireAtShipMenu.BringToFront();
-			exit_button.Enabled = false;
-			restartGame_button.Enabled = false;
-			cheat_button.Enabled = false;
+			options_button.Enabled = false;
 
 		}
 
 		public void SetShips(string ShipType, string SetHorizontalPosText, string SetVerticalPosText, string ShipName,
 			bool VerticalOption)
 		{
-			exit_button.Enabled = true;
-			restartGame_button.Enabled = true;
-			cheat_button.Enabled = true;
+			options_button.Enabled = true;
 
 			RemoveBrigantine_button.Enabled = true;
 			RemoveFishingBoat_button.Enabled = true; 
@@ -430,9 +452,7 @@ namespace BattleShips
 
 		public void CancelMenu()
 		{
-			exit_button.Enabled = true;
-			restartGame_button.Enabled = true;
-			cheat_button.Enabled = true;
+			options_button.Enabled = true;
 
 			RemoveBrigantine_button.Enabled = true;
 			RemoveFishingBoat_button.Enabled = true;
@@ -445,9 +465,7 @@ namespace BattleShips
 		{
 			setShipMenu.BringToFront();
 			setShipMenu.Visible = true;
-			exit_button.Enabled = false;
-			restartGame_button.Enabled = false;
-			cheat_button.Enabled = false;
+			options_button.Enabled = false;
 
 			RemoveBrigantine_button.Enabled = false;
 			RemoveFishingBoat_button.Enabled = false;
@@ -523,7 +541,6 @@ namespace BattleShips
 			RemoveFishingBoat_button.Visible = false;
 			RemoveGalleon_button.Visible = false;
 			RemoveSloop_button.Visible = false;
-			restartGame_button.Enabled = false;
 			HideShowLog_button.Visible = true;
 
 
@@ -623,7 +640,7 @@ namespace BattleShips
 
 		}
 
-		private void cheat_button_Click(object sender, EventArgs e)
+		public void Cheat()
 		{
 			foreach (Ship ship in EnemyShips)
 			{
@@ -653,7 +670,7 @@ namespace BattleShips
 			PiratesShip_nameText.Visible = false;
 			PiratesShip_progressBar.Visible = false;
 		}
-
+		
 		private void RemoveGalleon_button_Click(object sender, EventArgs e)
 		{
 			playerGalleon.DespawnShip();
@@ -704,14 +721,9 @@ namespace BattleShips
 
 		private void exit_button_Click(object sender, EventArgs e)
 		{
-			Application.Exit(); 
+			inGameOptionsMenu.Visible = true;
+			inGameOptionsMenu.BringToFront();
 		}
-
-		private void GameScreen_Load(object sender, EventArgs e)
-		{
-			menuScreen.closeMenu();
-		}
-
 
 		private void loadExplosion()
 		{
@@ -738,6 +750,7 @@ namespace BattleShips
 				playerDialogClock++;
 			}
 		}
+
 
 		private void showEnemyDialogTimer_Tick(object sender, EventArgs e)
 		{
@@ -789,10 +802,11 @@ namespace BattleShips
 			}
 		}
 
-		private void button1_Click_1(object sender, EventArgs e)
+		private int minutesPassed = 0;
+		public int MinutesPassed { get { return minutesPassed; } }
+		private void gameTime_Tick(object sender, EventArgs e)
 		{
-			gameReset();
-
+			++minutesPassed;
 		}
 
 		int endDistance;
@@ -834,7 +848,6 @@ namespace BattleShips
 				cannonball.Visible = false;
 
 				GameOver();
-				restartGame_button.Enabled = true;
 			}
 
 			if (cannonball.Location.X > cannonballEndPos.X)

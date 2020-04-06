@@ -60,7 +60,7 @@ namespace BattleShips
 		string dir;
 
 
-		public AIEnemy(Ship f, Ship s, Ship g, Ship b, Ship p, bool isNormal)
+		public AIEnemy(Ship f, Ship s, Ship g, Ship b, Ship p, bool isHard)
 		{
 			enemyFishingBoat = (FishingBoat)f;
 			enemySloop = (Sloop)s;
@@ -68,7 +68,7 @@ namespace BattleShips
 			enemyBrigantine = (Brigantine)b;
 			enemyPiratesShip = (PiratesShip)p;
 
-			normalMode = isNormal;
+			normalMode = isHard;
 
 			rand = new Random();
 

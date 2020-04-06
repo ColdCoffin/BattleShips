@@ -460,7 +460,7 @@
 			this.pictureBox915 = new System.Windows.Forms.PictureBox();
 			this.pictureBox916 = new System.Windows.Forms.PictureBox();
 			this.pictureBox917 = new System.Windows.Forms.PictureBox();
-			this.exit_button = new System.Windows.Forms.Button();
+			this.options_button = new System.Windows.Forms.Button();
 			this.pictureBox717 = new System.Windows.Forms.PictureBox();
 			this.pictureBox747 = new System.Windows.Forms.PictureBox();
 			this.pictureBox904 = new System.Windows.Forms.PictureBox();
@@ -522,7 +522,6 @@
 			this.pictureBox688 = new System.Windows.Forms.PictureBox();
 			this.pictureBox453 = new System.Windows.Forms.PictureBox();
 			this.FireButton = new System.Windows.Forms.Button();
-			this.cheat_button = new System.Windows.Forms.Button();
 			this.pictureBox677 = new System.Windows.Forms.PictureBox();
 			this.pictureBox650 = new System.Windows.Forms.PictureBox();
 			this.pictureBox651 = new System.Windows.Forms.PictureBox();
@@ -1271,7 +1270,6 @@
 			this.HideShowLog_button = new System.Windows.Forms.Button();
 			this.pictureBox106 = new System.Windows.Forms.PictureBox();
 			this.pictureBox110 = new System.Windows.Forms.PictureBox();
-			this.restartGame_button = new System.Windows.Forms.Button();
 			this.enemyFieldA_label = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
@@ -1312,6 +1310,7 @@
 			this.label37 = new System.Windows.Forms.Label();
 			this.label38 = new System.Windows.Forms.Label();
 			this.label39 = new System.Windows.Forms.Label();
+			this.gameTime = new System.Windows.Forms.Timer(this.components);
 			this.PlayerField_label.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox211)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_vertical_player)).BeginInit();
@@ -7056,19 +7055,19 @@
 			this.pictureBox917.TabIndex = 1143;
 			this.pictureBox917.TabStop = false;
 			// 
-			// exit_button
+			// options_button
 			// 
-			this.exit_button.BackgroundImage = global::BattleShips.Properties.Resources.smallButton;
-			this.exit_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-			this.exit_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.exit_button.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
-			this.exit_button.Location = new System.Drawing.Point(1190, 709);
-			this.exit_button.Name = "exit_button";
-			this.exit_button.Size = new System.Drawing.Size(80, 25);
-			this.exit_button.TabIndex = 127;
-			this.exit_button.Text = "Exit ";
-			this.exit_button.UseVisualStyleBackColor = true;
-			this.exit_button.Click += new System.EventHandler(this.exit_button_Click);
+			this.options_button.BackgroundImage = global::BattleShips.Properties.Resources.smallButton;
+			this.options_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+			this.options_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.options_button.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
+			this.options_button.Location = new System.Drawing.Point(1190, 709);
+			this.options_button.Name = "options_button";
+			this.options_button.Size = new System.Drawing.Size(80, 25);
+			this.options_button.TabIndex = 127;
+			this.options_button.Text = "Options";
+			this.options_button.UseVisualStyleBackColor = true;
+			this.options_button.Click += new System.EventHandler(this.exit_button_Click);
 			// 
 			// pictureBox717
 			// 
@@ -7686,20 +7685,6 @@
 			this.FireButton.Text = "Fire!";
 			this.FireButton.UseVisualStyleBackColor = true;
 			this.FireButton.Click += new System.EventHandler(this.FireButton_Click);
-			// 
-			// cheat_button
-			// 
-			this.cheat_button.BackgroundImage = global::BattleShips.Properties.Resources.smallButton;
-			this.cheat_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-			this.cheat_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.cheat_button.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
-			this.cheat_button.Location = new System.Drawing.Point(786, 7);
-			this.cheat_button.Name = "cheat_button";
-			this.cheat_button.Size = new System.Drawing.Size(80, 25);
-			this.cheat_button.TabIndex = 121;
-			this.cheat_button.Text = "Cheat";
-			this.cheat_button.UseVisualStyleBackColor = true;
-			this.cheat_button.Click += new System.EventHandler(this.cheat_button_Click);
 			// 
 			// pictureBox677
 			// 
@@ -11083,11 +11068,10 @@
 			// 
 			// ActionButton
 			// 
-			this.ActionButton.BackColor = System.Drawing.SystemColors.Control;
+			this.ActionButton.BackColor = System.Drawing.Color.Black;
 			this.ActionButton.BackgroundImage = global::BattleShips.Properties.Resources.BigButtton_2;
-			this.ActionButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
 			this.ActionButton.FlatAppearance.BorderSize = 0;
-			this.ActionButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.ActionButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.ActionButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
 			this.ActionButton.ForeColor = System.Drawing.Color.Black;
 			this.ActionButton.Location = new System.Drawing.Point(580, 345);
@@ -11096,7 +11080,7 @@
 			this.ActionButton.Size = new System.Drawing.Size(100, 50);
 			this.ActionButton.TabIndex = 46;
 			this.ActionButton.Text = "End Turn";
-			this.ActionButton.UseVisualStyleBackColor = true;
+			this.ActionButton.UseVisualStyleBackColor = false;
 			this.ActionButton.Click += new System.EventHandler(this.ActionButton_Click);
 			// 
 			// pictureBox321
@@ -15296,20 +15280,6 @@
 			this.pictureBox110.TabIndex = 1332;
 			this.pictureBox110.TabStop = false;
 			// 
-			// restartGame_button
-			// 
-			this.restartGame_button.BackgroundImage = global::BattleShips.Properties.Resources.smallButton;
-			this.restartGame_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-			this.restartGame_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.restartGame_button.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
-			this.restartGame_button.Location = new System.Drawing.Point(1103, 709);
-			this.restartGame_button.Name = "restartGame_button";
-			this.restartGame_button.Size = new System.Drawing.Size(80, 25);
-			this.restartGame_button.TabIndex = 1333;
-			this.restartGame_button.Text = "Restart";
-			this.restartGame_button.UseVisualStyleBackColor = true;
-			this.restartGame_button.Click += new System.EventHandler(this.button1_Click_1);
-			// 
 			// enemyFieldA_label
 			// 
 			this.enemyFieldA_label.BackColor = System.Drawing.Color.LightSteelBlue;
@@ -15710,6 +15680,11 @@
 			this.label39.Text = "1";
 			this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
+			// gameTime
+			// 
+			this.gameTime.Interval = 1000;
+			this.gameTime.Tick += new System.EventHandler(this.gameTime_Tick);
+			// 
 			// GameScreen
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -15757,7 +15732,6 @@
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.enemyFieldA_label);
-			this.Controls.Add(this.restartGame_button);
 			this.Controls.Add(this.pictureBox110);
 			this.Controls.Add(this.pictureBox106);
 			this.Controls.Add(this.HideShowLog_button);
@@ -15955,7 +15929,7 @@
 			this.Controls.Add(this.pictureBox915);
 			this.Controls.Add(this.pictureBox916);
 			this.Controls.Add(this.pictureBox917);
-			this.Controls.Add(this.exit_button);
+			this.Controls.Add(this.options_button);
 			this.Controls.Add(this.pictureBox717);
 			this.Controls.Add(this.pictureBox747);
 			this.Controls.Add(this.pictureBox904);
@@ -16018,7 +15992,6 @@
 			this.Controls.Add(this.pictureBox688);
 			this.Controls.Add(this.pictureBox453);
 			this.Controls.Add(this.FireButton);
-			this.Controls.Add(this.cheat_button);
 			this.Controls.Add(this.pictureBox677);
 			this.Controls.Add(this.pictureBox650);
 			this.Controls.Add(this.pictureBox651);
@@ -16778,7 +16751,6 @@
 			this.Name = "GameScreen";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Battle Ships";
-			this.Load += new System.EventHandler(this.GameScreen_Load);
 			this.PlayerField_label.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox211)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_vertical_player)).EndInit();
@@ -18241,12 +18213,11 @@
 		private System.Windows.Forms.Label PiratesShip_nameText;
 		private System.Windows.Forms.Timer AITimer;
 		private System.Windows.Forms.ProgressBar FishingBoat_progressBar;
-		private System.Windows.Forms.Button cheat_button;
 		private System.Windows.Forms.Button RemoveGalleon_button;
 		private System.Windows.Forms.Button RemoveSloop_button;
 		private System.Windows.Forms.Button RemoveBrigantine_button;
 		private System.Windows.Forms.Button RemoveFishingBoat_button;
-		private System.Windows.Forms.Button exit_button;
+		private System.Windows.Forms.Button options_button;
 		private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.PictureBox pictureBox2;
 		private System.Windows.Forms.PictureBox pictureBox3;
@@ -19238,7 +19209,6 @@
 		private System.Windows.Forms.Button HideShowLog_button;
 		private System.Windows.Forms.PictureBox pictureBox106;
 		private System.Windows.Forms.PictureBox pictureBox110;
-		private System.Windows.Forms.Button restartGame_button;
 		private System.Windows.Forms.Label enemyFieldA_label;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Label label2;
@@ -19279,6 +19249,7 @@
 		private System.Windows.Forms.Label label37;
 		private System.Windows.Forms.Label label38;
 		private System.Windows.Forms.Label label39;
+		private System.Windows.Forms.Timer gameTime;
 	}
 }
 

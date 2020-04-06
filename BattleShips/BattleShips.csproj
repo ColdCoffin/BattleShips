@@ -49,6 +49,12 @@
   <ItemGroup>
     <Compile Include="AIEnemy.cs" />
     <Compile Include="Brigantine.cs" />
+    <Compile Include="EndGameMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EndGameMenu.Designer.cs">
+      <DependentUpon>EndGameMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="EnemyField.cs" />
     <Compile Include="FireAtShip.cs">
       <SubType>UserControl</SubType>
@@ -57,6 +63,18 @@
       <DependentUpon>FireAtShip.cs</DependentUpon>
     </Compile>
     <Compile Include="GameLog.cs" />
+    <Compile Include="InGameOptionsMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InGameOptionsMenu.Designer.cs">
+      <DependentUpon>InGameOptionsMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainThreadForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainThreadForm.Designer.cs">
+      <DependentUpon>MainThreadForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MenuScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,11 +107,21 @@
     </Compile>
     <Compile Include="Ship.cs" />
     <Compile Include="Sloop.cs" />
+    <Compile Include="StatsTracker.cs" />
+    <EmbeddedResource Include="EndGameMenu.resx">
+      <DependentUpon>EndGameMenu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FireAtShip.resx">
       <DependentUpon>FireAtShip.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InGameOptionsMenu.resx">
+      <DependentUpon>InGameOptionsMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainThreadForm.resx">
+      <DependentUpon>MainThreadForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuScreen.resx">
       <DependentUpon>MenuScreen.cs</DependentUpon>

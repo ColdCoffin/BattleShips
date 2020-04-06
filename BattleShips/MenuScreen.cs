@@ -40,6 +40,7 @@ namespace BattleShips
 			indexUpdateLoop = 0;
 		}
 
+
 		private void loadBackround()
 		{
 			
@@ -97,31 +98,21 @@ namespace BattleShips
 		private void easyOption_button_Click(object sender, EventArgs e)
 		{
 			isHard = false;
+			AIEnemy temp = null;
+			releaseBackround();
 
-			gameStart();
+			MainThreadForm.mainThread.CloseOpenForm(this, new GameScreen(temp, false));
 		}
 
 		private void hardOption_button_Click(object sender, EventArgs e)
 		{
 			isHard = true;
-
-			gameStart();
-		}
-
-		private void gameStart()
-		{
-
-			new GameScreen(this).ShowDialog();
-			
-
-		}
-
-		public void closeMenu()
-		{
-			backroundUpdate.Stop();
+			AIEnemy temp = null;
 			releaseBackround();
-			Hide();
+			
+			MainThreadForm.mainThread.CloseOpenForm(this, new GameScreen(temp, true));
 		}
+
 
 		private void back_button_Click(object sender, EventArgs e)
 		{
