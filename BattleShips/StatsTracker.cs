@@ -30,6 +30,15 @@ namespace BattleShips
 			accuracy = (  shipsHit / (shipsHit + shipsMissed)) * 100f;
 		}
 
+		public void ResetStats()
+		{
+			shipsDestroyed = 0;
+			shipsHit = 0;
+			shipsMissed = 0;
+			accuracy = 0;
+
+		}
+
 	}
 
 	

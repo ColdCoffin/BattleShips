@@ -44,6 +44,9 @@ namespace BattleShips
 		List<Ship> PlayerShips;
 		List<Ship> EnemyShips;
 
+		StatsTracker playerStats;
+		StatsTracker enemyStats;
+
 		int destroyedPlayerShips;
 		int destroyedEnemyShips;
 		bool isEnemyTurn;
@@ -76,6 +79,7 @@ namespace BattleShips
 			EnemyField.LoadFields();
 
 			gl = new GameLog(DialogLabel);
+			playerStats = new StatsTracker();
 
 			gameTime.Start();
 
@@ -175,6 +179,8 @@ namespace BattleShips
 			AI = new AIEnemy(enemyFishingBoat, enemySloop,
 									enemyGalleon, enemyBrigantine, enemyPiratesShip, isHard);
 			AI.SpawnShips();
+			enemyStats = new StatsTracker();
+
 		}
 
 
