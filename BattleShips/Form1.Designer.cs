@@ -7673,6 +7673,7 @@
 			// 
 			// FireButton
 			// 
+			this.FireButton.BackColor = System.Drawing.SystemColors.Control;
 			this.FireButton.BackgroundImage = global::BattleShips.Properties.Resources.smallButton1;
 			this.FireButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
 			this.FireButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -7683,7 +7684,7 @@
 			this.FireButton.Size = new System.Drawing.Size(80, 25);
 			this.FireButton.TabIndex = 34;
 			this.FireButton.Text = "Fire!";
-			this.FireButton.UseVisualStyleBackColor = true;
+			this.FireButton.UseVisualStyleBackColor = false;
 			this.FireButton.Click += new System.EventHandler(this.FireButton_Click);
 			// 
 			// pictureBox677
@@ -11068,10 +11069,11 @@
 			// 
 			// ActionButton
 			// 
-			this.ActionButton.BackColor = System.Drawing.Color.Black;
+			this.ActionButton.BackColor = System.Drawing.SystemColors.Control;
 			this.ActionButton.BackgroundImage = global::BattleShips.Properties.Resources.BigButtton_2;
+			this.ActionButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
 			this.ActionButton.FlatAppearance.BorderSize = 0;
-			this.ActionButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.ActionButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.ActionButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
 			this.ActionButton.ForeColor = System.Drawing.Color.Black;
 			this.ActionButton.Location = new System.Drawing.Point(580, 345);

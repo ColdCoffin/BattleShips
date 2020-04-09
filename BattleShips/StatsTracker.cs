@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace BattleShips
 {
-	class StatsTracker
+	public class StatsTracker
 	{
 
 		public int shipsDestroyed { get; set; }
 		public int shipsHit { get; set; }
 		public int shipsMissed { get; set; }
-		public float accuracy { get { calculateAccuracy(); return accuracy; } set { accuracy = value; } }
+		float accuracy;
+		public float Accuracy { get { calculateAccuracy(); return accuracy; } set { accuracy = value; } }
 
 
 		public StatsTracker()
@@ -27,7 +28,11 @@ namespace BattleShips
 
 		private void calculateAccuracy()
 		{
-			accuracy = (  shipsHit / (shipsHit + shipsMissed)) * 100f;
+			if (shipsHit == 0)
+				accuracy = 0;
+			else
+				accuracy = (shipsHit / (shipsHit + shipsMissed)) * 100f;
+			
 		}
 
 		public void ResetStats()
@@ -35,7 +40,7 @@ namespace BattleShips
 			shipsDestroyed = 0;
 			shipsHit = 0;
 			shipsMissed = 0;
-			accuracy = 0;
+			Accuracy = 0;
 
 		}
 

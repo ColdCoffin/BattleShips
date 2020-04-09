@@ -14,19 +14,27 @@ namespace BattleShips
 	{
 		int animIndex = 0;
 
-		public EndGameMenu()
+		StatsTracker playerStats;
+		StatsTracker enemyStats;
+
+		public EndGameMenu(StatsTracker player, StatsTracker enemy)
 		{
 			InitializeComponent();
 
+			playerStats = player;
+			enemyStats = enemy;
+
 			timer1.Start();
-		}
 
-		private void timer1_Tick(object sender, EventArgs e)
-		{
-			if (animIndex == SetFireMenuAnim.menuAnim.Count())
-				animIndex = 0;
+			playerShipsDestroyed_label.Text += playerStats.shipsDestroyed;
+			playerShipHits_label.Text += playerStats.shipsHit;
+			playerShipMisses_label.Text += playerStats.shipsMissed;
+			playerAccuracy_label.Text += playerStats.Accuracy + "%";
 
-			pictureBox1.Image = SetFireMenuAnim.menuAnim[animIndex++];
+			enemyShipsDestroyed_label.Text += enemyStats.shipsDestroyed;
+			EnemyShipHits_label.Text += enemyStats.shipsHit;
+			enemyShipMisses_label.Text += enemyStats.shipsMissed;
+			enemyAccuracy_label.Text += enemyStats.Accuracy + "%";
 		}
 
 		private void ActionButton_Click(object sender, EventArgs e)
@@ -37,6 +45,14 @@ namespace BattleShips
 		private void button1_Click(object sender, EventArgs e)
 		{
 			Application.Exit();
+		}
+
+		private void timer1_Tick_1(object sender, EventArgs e)
+		{
+			if (animIndex == SetFireMenuAnim.menuAnim.Count())
+				animIndex = 0;
+
+			pictureBox1.Image = SetFireMenuAnim.menuAnim[animIndex++];
 		}
 	}
 }

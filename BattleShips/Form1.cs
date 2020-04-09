@@ -206,6 +206,8 @@ namespace BattleShips
 			EnemyField.ResetFields();
 			PlayerField.ResetFields();
 			AI.SpawnShips();
+			playerStats.ResetStats();
+			enemyStats.ResetStats();
 			SetHealth();
 
 			gl.Reset();
@@ -300,11 +302,17 @@ namespace BattleShips
 					{
 						isDestroyed = true;
 						temp = enemyShip;
+						playerStats.shipsDestroyed++;
 					}
 
 					break;
 				}
 			}
+
+			if (wasHit == true)
+				playerStats.shipsHit++;
+			else
+				playerStats.shipsMissed++;
 
 			cannonball.Location = cannonballPlayerStartPos;
 			cannonballCurrentPos = cannonball.Location;
@@ -509,32 +517,26 @@ namespace BattleShips
 
 		private void GameOver()
 		{
-			DialogResult res;
-
 			if (destroyedPlayerShips == 5)
 			{
-				res = MessageBox.Show("You lost!\nDo you want to play again?","Game over",MessageBoxButtons.YesNo);
-
-				if (res == DialogResult.Yes)
-				{
-					gameReset();
-				}
-				else
-					Application.Exit();
-
+				EndGameMenu temp = new EndGameMenu(playerStats, enemyStats);
+				temp.Location = new Point(340, 160);
+				temp.Parent = this;
+				temp.Visible = true;
+				temp.BringToFront();
+				options_button.Enabled = false;
 			}
 
 			if (destroyedEnemyShips == 5)
 			{
-				res = MessageBox.Show("You won!\nDo you want to play again ? ","Game over",MessageBoxButtons.YesNo);
-
-				if (res == DialogResult.Yes)
-				{
-					gameReset();
-				}
-				else
-					Application.Exit();
+				EndGameMenu temp = new EndGameMenu(playerStats, enemyStats);
+				temp.Location = new Point(340, 160);
+				temp.Parent = this;
+				temp.Visible = true;
+				temp.BringToFront();
+				options_button.Enabled = false;
 			}
+			
 		}
 
 		private void ActionButton_Click(object sender, EventArgs e)
@@ -605,6 +607,7 @@ namespace BattleShips
 						isDestroyed = true;
 						temp = playerShip;
 						AI.IsHit = false;
+						enemyStats.shipsDestroyed++;
 					}
 					else
 						AI.IsHit = true;
@@ -613,6 +616,11 @@ namespace BattleShips
 					break;
 				}
 			}
+
+			if (wasHit == true)
+				enemyStats.shipsHit++;
+			else
+				enemyStats.shipsMissed++;
 
 			int letter = ((fieldHit.point.Y / 30 + 'A'));
 			int number = ((fieldHit.point.X / 30) + 1);
@@ -640,8 +648,6 @@ namespace BattleShips
 			cannonball.Visible = true;
 
 			cannonballTimer.Start();
-
-
 			AITimer.Stop();
 
 		}

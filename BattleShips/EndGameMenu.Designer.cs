@@ -33,14 +33,14 @@
 			this.timer1 = new System.Windows.Forms.Timer(this.components);
 			this.label1 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
-			this.label3 = new System.Windows.Forms.Label();
-			this.label4 = new System.Windows.Forms.Label();
-			this.label5 = new System.Windows.Forms.Label();
-			this.label6 = new System.Windows.Forms.Label();
-			this.label7 = new System.Windows.Forms.Label();
-			this.label8 = new System.Windows.Forms.Label();
-			this.label9 = new System.Windows.Forms.Label();
-			this.label10 = new System.Windows.Forms.Label();
+			this.playerShipsDestroyed_label = new System.Windows.Forms.Label();
+			this.enemyShipsDestroyed_label = new System.Windows.Forms.Label();
+			this.playerShipHits_label = new System.Windows.Forms.Label();
+			this.playerShipMisses_label = new System.Windows.Forms.Label();
+			this.playerAccuracy_label = new System.Windows.Forms.Label();
+			this.enemyAccuracy_label = new System.Windows.Forms.Label();
+			this.enemyShipMisses_label = new System.Windows.Forms.Label();
+			this.EnemyShipHits_label = new System.Windows.Forms.Label();
 			this.button1 = new System.Windows.Forms.Button();
 			this.ActionButton = new System.Windows.Forms.Button();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -57,6 +57,7 @@
 			// timer1
 			// 
 			this.timer1.Interval = 35;
+			this.timer1.Tick += new System.EventHandler(this.timer1_Tick_1);
 			// 
 			// label1
 			// 
@@ -80,93 +81,93 @@
 			this.label2.Text = "ENEMY";
 			this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
-			// label3
+			// playerShipsDestroyed_label
 			// 
-			this.label3.BackColor = System.Drawing.Color.Sienna;
-			this.label3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.label3.Location = new System.Drawing.Point(45, 274);
-			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(133, 16);
-			this.label3.TabIndex = 4;
-			this.label3.Text = "Ships destroyed:";
-			this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.playerShipsDestroyed_label.BackColor = System.Drawing.Color.Sienna;
+			this.playerShipsDestroyed_label.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.playerShipsDestroyed_label.Location = new System.Drawing.Point(45, 274);
+			this.playerShipsDestroyed_label.Name = "playerShipsDestroyed_label";
+			this.playerShipsDestroyed_label.Size = new System.Drawing.Size(133, 16);
+			this.playerShipsDestroyed_label.TabIndex = 4;
+			this.playerShipsDestroyed_label.Text = "Ships destroyed:";
+			this.playerShipsDestroyed_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
-			// label4
+			// enemyShipsDestroyed_label
 			// 
-			this.label4.BackColor = System.Drawing.Color.Sienna;
-			this.label4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.label4.Location = new System.Drawing.Point(233, 274);
-			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(133, 16);
-			this.label4.TabIndex = 5;
-			this.label4.Text = "Ships destroyed:";
-			this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.enemyShipsDestroyed_label.BackColor = System.Drawing.Color.Sienna;
+			this.enemyShipsDestroyed_label.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.enemyShipsDestroyed_label.Location = new System.Drawing.Point(233, 274);
+			this.enemyShipsDestroyed_label.Name = "enemyShipsDestroyed_label";
+			this.enemyShipsDestroyed_label.Size = new System.Drawing.Size(133, 16);
+			this.enemyShipsDestroyed_label.TabIndex = 5;
+			this.enemyShipsDestroyed_label.Text = "Ships destroyed:";
+			this.enemyShipsDestroyed_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
-			// label5
+			// playerShipHits_label
 			// 
-			this.label5.BackColor = System.Drawing.Color.Sienna;
-			this.label5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.label5.Location = new System.Drawing.Point(45, 299);
-			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(133, 16);
-			this.label5.TabIndex = 6;
-			this.label5.Text = "Ship hits:";
-			this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.playerShipHits_label.BackColor = System.Drawing.Color.Sienna;
+			this.playerShipHits_label.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.playerShipHits_label.Location = new System.Drawing.Point(45, 299);
+			this.playerShipHits_label.Name = "playerShipHits_label";
+			this.playerShipHits_label.Size = new System.Drawing.Size(133, 16);
+			this.playerShipHits_label.TabIndex = 6;
+			this.playerShipHits_label.Text = "Ship hits:";
+			this.playerShipHits_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
-			// label6
+			// playerShipMisses_label
 			// 
-			this.label6.BackColor = System.Drawing.Color.Sienna;
-			this.label6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.label6.Location = new System.Drawing.Point(45, 324);
-			this.label6.Name = "label6";
-			this.label6.Size = new System.Drawing.Size(133, 16);
-			this.label6.TabIndex = 7;
-			this.label6.Text = "Ship misses:";
-			this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.playerShipMisses_label.BackColor = System.Drawing.Color.Sienna;
+			this.playerShipMisses_label.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.playerShipMisses_label.Location = new System.Drawing.Point(45, 324);
+			this.playerShipMisses_label.Name = "playerShipMisses_label";
+			this.playerShipMisses_label.Size = new System.Drawing.Size(133, 16);
+			this.playerShipMisses_label.TabIndex = 7;
+			this.playerShipMisses_label.Text = "Ship misses:";
+			this.playerShipMisses_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
-			// label7
+			// playerAccuracy_label
 			// 
-			this.label7.BackColor = System.Drawing.Color.Sienna;
-			this.label7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.label7.Location = new System.Drawing.Point(45, 350);
-			this.label7.Name = "label7";
-			this.label7.Size = new System.Drawing.Size(133, 16);
-			this.label7.TabIndex = 8;
-			this.label7.Text = "Accuracy:";
-			this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.playerAccuracy_label.BackColor = System.Drawing.Color.Sienna;
+			this.playerAccuracy_label.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.playerAccuracy_label.Location = new System.Drawing.Point(45, 350);
+			this.playerAccuracy_label.Name = "playerAccuracy_label";
+			this.playerAccuracy_label.Size = new System.Drawing.Size(133, 16);
+			this.playerAccuracy_label.TabIndex = 8;
+			this.playerAccuracy_label.Text = "Accuracy:";
+			this.playerAccuracy_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
-			// label8
+			// enemyAccuracy_label
 			// 
-			this.label8.BackColor = System.Drawing.Color.Sienna;
-			this.label8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.label8.Location = new System.Drawing.Point(233, 350);
-			this.label8.Name = "label8";
-			this.label8.Size = new System.Drawing.Size(133, 16);
-			this.label8.TabIndex = 11;
-			this.label8.Text = "Accuracy:";
-			this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.enemyAccuracy_label.BackColor = System.Drawing.Color.Sienna;
+			this.enemyAccuracy_label.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.enemyAccuracy_label.Location = new System.Drawing.Point(233, 350);
+			this.enemyAccuracy_label.Name = "enemyAccuracy_label";
+			this.enemyAccuracy_label.Size = new System.Drawing.Size(133, 16);
+			this.enemyAccuracy_label.TabIndex = 11;
+			this.enemyAccuracy_label.Text = "Accuracy:";
+			this.enemyAccuracy_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
-			// label9
+			// enemyShipMisses_label
 			// 
-			this.label9.BackColor = System.Drawing.Color.Sienna;
-			this.label9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.label9.Location = new System.Drawing.Point(233, 324);
-			this.label9.Name = "label9";
-			this.label9.Size = new System.Drawing.Size(133, 16);
-			this.label9.TabIndex = 10;
-			this.label9.Text = "Ship misses:";
-			this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.enemyShipMisses_label.BackColor = System.Drawing.Color.Sienna;
+			this.enemyShipMisses_label.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.enemyShipMisses_label.Location = new System.Drawing.Point(233, 324);
+			this.enemyShipMisses_label.Name = "enemyShipMisses_label";
+			this.enemyShipMisses_label.Size = new System.Drawing.Size(133, 16);
+			this.enemyShipMisses_label.TabIndex = 10;
+			this.enemyShipMisses_label.Text = "Ship misses:";
+			this.enemyShipMisses_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
-			// label10
+			// EnemyShipHits_label
 			// 
-			this.label10.BackColor = System.Drawing.Color.Sienna;
-			this.label10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.label10.Location = new System.Drawing.Point(233, 299);
-			this.label10.Name = "label10";
-			this.label10.Size = new System.Drawing.Size(133, 16);
-			this.label10.TabIndex = 9;
-			this.label10.Text = "Ship hits:";
-			this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.EnemyShipHits_label.BackColor = System.Drawing.Color.Sienna;
+			this.EnemyShipHits_label.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.EnemyShipHits_label.Location = new System.Drawing.Point(233, 299);
+			this.EnemyShipHits_label.Name = "EnemyShipHits_label";
+			this.EnemyShipHits_label.Size = new System.Drawing.Size(133, 16);
+			this.EnemyShipHits_label.TabIndex = 9;
+			this.EnemyShipHits_label.Text = "Ship hits:";
+			this.EnemyShipHits_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// button1
 			// 
@@ -209,14 +210,14 @@
 			this.BackgroundImage = global::BattleShips.Properties.Resources.EndGameMenu1;
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.ActionButton);
-			this.Controls.Add(this.label8);
-			this.Controls.Add(this.label9);
-			this.Controls.Add(this.label10);
-			this.Controls.Add(this.label7);
-			this.Controls.Add(this.label6);
-			this.Controls.Add(this.label5);
-			this.Controls.Add(this.label4);
-			this.Controls.Add(this.label3);
+			this.Controls.Add(this.enemyAccuracy_label);
+			this.Controls.Add(this.enemyShipMisses_label);
+			this.Controls.Add(this.EnemyShipHits_label);
+			this.Controls.Add(this.playerAccuracy_label);
+			this.Controls.Add(this.playerShipMisses_label);
+			this.Controls.Add(this.playerShipHits_label);
+			this.Controls.Add(this.enemyShipsDestroyed_label);
+			this.Controls.Add(this.playerShipsDestroyed_label);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.pictureBox1);
@@ -233,14 +234,14 @@
 		private System.Windows.Forms.Timer timer1;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Label label2;
-		private System.Windows.Forms.Label label3;
-		private System.Windows.Forms.Label label4;
-		private System.Windows.Forms.Label label5;
-		private System.Windows.Forms.Label label6;
-		private System.Windows.Forms.Label label7;
-		private System.Windows.Forms.Label label8;
-		private System.Windows.Forms.Label label9;
-		private System.Windows.Forms.Label label10;
+		private System.Windows.Forms.Label playerShipsDestroyed_label;
+		private System.Windows.Forms.Label enemyShipsDestroyed_label;
+		private System.Windows.Forms.Label playerShipHits_label;
+		private System.Windows.Forms.Label playerShipMisses_label;
+		private System.Windows.Forms.Label playerAccuracy_label;
+		private System.Windows.Forms.Label enemyAccuracy_label;
+		private System.Windows.Forms.Label enemyShipMisses_label;
+		private System.Windows.Forms.Label EnemyShipHits_label;
 		private System.Windows.Forms.Button button1;
 		private System.Windows.Forms.Button ActionButton;
 	}
