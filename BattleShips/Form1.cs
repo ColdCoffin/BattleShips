@@ -64,6 +64,7 @@ namespace BattleShips
 		List<PictureBox> hitAreas;
 		SetShip setShipMenu;
 		FireAtShip fireAtShipMenu;
+		PlayerActionText playerText;
 
 		Point cannonballEndPos, cannonballCurrentPos, cannonballEnemyStartPos, cannonballPlayerStartPos;
 
@@ -80,6 +81,7 @@ namespace BattleShips
 
 			gl = new GameLog(DialogLabel);
 			playerStats = new StatsTracker();
+			playerText = new PlayerActionText();
 
 			gameTime.Start();
 
@@ -246,6 +248,7 @@ namespace BattleShips
 
 		}
 		bool enemyWasHit;
+		bool enemyShipDestroyed;
 		PictureBox hitPic;
 
 		public void Fire(string letter, string number)
@@ -287,7 +290,10 @@ namespace BattleShips
 			enemyWasHit = false;
 
 			string shipHit = " (No ships were hit)";
-			bool isDestroyed = false;
+			playerWasHit = false;
+			enemyWasHit = false;
+			playerShipDestroyed = false;
+			enemyShipDestroyed = false;
 			Ship temp = null;
 
 			foreach (Ship enemyShip in EnemyShips)
@@ -300,7 +306,7 @@ namespace BattleShips
 
 					if (enemyShip.getHealth() == 0)
 					{
-						isDestroyed = true;
+						enemyShipDestroyed = true;
 						temp = enemyShip;
 						playerStats.shipsDestroyed++;
 					}
@@ -319,7 +325,6 @@ namespace BattleShips
 			cannonballEndPos = new Point(EnemyField_label.Location.X + (fireAt.X + 15),
 				EnemyField_label.Location.Y + (fireAt.Y + 15));
 
-			cannonball.Visible = true;
 			FireButton.Enabled = false;
 
 			cannonballTimer.Start();
@@ -330,7 +335,7 @@ namespace BattleShips
 			showPlayerDialogTimer.Start();
 			gl.Write("You fired at " + msg + shipHit);
 
-			if (isDestroyed == true)
+			if (enemyShipDestroyed == true)
 				gl.Write("You destroyed enemy " + temp.ShipName);
 
 		}
@@ -342,7 +347,7 @@ namespace BattleShips
 
 		}
 
-		public void SetShips(string ShipType, string SetHorizontalPosText, string SetVerticalPosText, string ShipName,
+		public bool SetShips(string ShipType, string SetHorizontalPosText, string SetVerticalPosText, string ShipName,
 			bool VerticalOption)
 		{
 			options_button.Enabled = true;
@@ -358,7 +363,7 @@ namespace BattleShips
 			{
 				PlayerActionText.Text = "Bad coordinates";
 				showPlayerDialogTimer.Start();
-				return;
+				return false;
 			}
 
 			char hpos = SetHorizontalPosText[0];
@@ -368,7 +373,7 @@ namespace BattleShips
 			{
 				PlayerActionText.Text = "Bad coordinates";
 				showPlayerDialogTimer.Start();
-				return;
+				return false;
 			}
 			string sname = ShipName;
 
@@ -443,12 +448,12 @@ namespace BattleShips
 				case "Error":
 					PlayerActionText.Text = "Can't place your boat there";
 					showPlayerDialogTimer.Start();
-					break;
+					return false;
 
 				default:
 					PlayerActionText.Text = "No such ship exists";
 					showPlayerDialogTimer.Start();
-					break;
+					return false;
 			}
 
 			foreach (Ship s in PlayerShips)
@@ -462,6 +467,7 @@ namespace BattleShips
 				}
 			}
 
+			return true;
 		}
 
 		public void CancelMenu()
@@ -576,6 +582,7 @@ namespace BattleShips
 		}
 
 		bool playerWasHit;
+		bool playerShipDestroyed;
 		private void AITimer_Tick(object sender, EventArgs e)
 		{
 
@@ -583,6 +590,11 @@ namespace BattleShips
 			explosionTimer.Start();
 
 			playerWasHit = false;
+			enemyWasHit = false;
+			playerShipDestroyed = false;
+			enemyShipDestroyed = false;
+			
+
 			isEnemyTurn = true;
 
 			Field fieldHit = AI.FireAtPosition();
@@ -590,7 +602,7 @@ namespace BattleShips
 			PlayerField.Hit(fieldHit);
 
 			string shipHit = " (No ships were hit)";
-			bool isDestroyed = false;
+			playerShipDestroyed = false;
 			Ship temp = null;
 
 			foreach (Ship playerShip in PlayerShips)
@@ -605,7 +617,7 @@ namespace BattleShips
 
 					if (playerShip.getHealth() == 0)
 					{
-						isDestroyed = true;
+						playerShipDestroyed = true;
 						temp = playerShip;
 						AI.IsHit = false;
 						enemyStats.shipsDestroyed++;
@@ -635,7 +647,7 @@ namespace BattleShips
 			EnemyActionText.Text = "Fire at " + msg + "!";
 			gl.Write("Enemy fired at " + msg + shipHit);
 
-			if (isDestroyed == true)
+			if (playerShipDestroyed == true)
 			{
 				gl.Write("Your " + temp.ShipName + " was destroyed");
 
@@ -645,8 +657,6 @@ namespace BattleShips
 			cannonballCurrentPos = cannonball.Location;
 			cannonballEndPos = new Point(PlayerField_label.Location.X + (fieldHit.point.X + 15),
 				PlayerField_label.Location.Y + (fieldHit.point.Y + 15));
-
-			cannonball.Visible = true;
 
 			cannonballTimer.Start();
 			AITimer.Stop();
@@ -789,15 +799,6 @@ namespace BattleShips
 				explosionIndex = 1;
 				explosion_image.Visible = false;
 				explosionTimer.Stop();
-
-				if (enemyWasHit == true)
-				{
-					PlayerActionText.Text = "Direct hit!";
-					showPlayerDialogTimer.Start();
-				}
-
-				if (playerWasHit 
-
 			}
 			else
 			{
@@ -838,6 +839,8 @@ namespace BattleShips
 			endDistance = Math.Abs(cannonballEndPos.X - cannonballCurrentPos.X);
 			endDistance += Math.Abs(cannonballEndPos.Y - cannonballCurrentPos.Y);
 
+			cannonball.Visible = true;
+
 			if (endDistance <= 7)
 			{
 				cannonballTimer.Stop();
@@ -870,6 +873,33 @@ namespace BattleShips
 				cannonball.Visible = false;
 
 				GameOver();
+
+				playerDialogClock = 0;
+				enemyDialogClock = 0;
+
+				if (enemyShipDestroyed == true)
+				{
+					PlayerActionText.Text = playerText.DestroyedShipText();
+					showPlayerDialogTimer.Start();
+				}
+				else if (enemyWasHit == true)
+				{
+					PlayerActionText.Text = playerText.HitText();
+					showPlayerDialogTimer.Start();
+				}
+
+
+
+				if (playerShipDestroyed == true)
+				{
+					EnemyActionText.Text = playerText.DestroyedShipText();
+					showEnemyDialogTimer.Start();
+				}
+				else if (playerWasHit == true)
+				{
+					EnemyActionText.Text = playerText.HitText();
+					showEnemyDialogTimer.Start();
+				}
 			}
 
 			if (cannonball.Location.X > cannonballEndPos.X)
@@ -878,7 +908,6 @@ namespace BattleShips
 			if (cannonball.Location.X < cannonballEndPos.X)
 				cannonball.Location = new Point(cannonball.Location.X + 6,
 					calculateLinearFunction());
-
 
 
 			cannonballCurrentPos = cannonball.Location;

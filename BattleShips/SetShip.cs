@@ -81,10 +81,9 @@ namespace BattleShips
 		}
 		private void ActionButton_Click_1(object sender, EventArgs e)
 		{
-			GameScreen.GameScreenInstance.SetShips(choseShip_combobox.Text, ChooseXPos_texbox.Text,
-	ChooseYPos_texbox.Text, ChooseName_texbox.Text, VericalOri_radiobutton.Checked);
-
-			choseShip_combobox.Items.Remove(choseShip_combobox.Text);
+			if ( GameScreen.GameScreenInstance.SetShips(choseShip_combobox.Text, ChooseXPos_texbox.Text,
+	ChooseYPos_texbox.Text, ChooseName_texbox.Text, VericalOri_radiobutton.Checked) == true)
+					choseShip_combobox.Items.Remove(choseShip_combobox.Text);
 
 			ChooseXPos_texbox.Text = "";
 			ChooseYPos_texbox.Text = "";

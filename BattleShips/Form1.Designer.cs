@@ -5004,9 +5004,9 @@
 			// 
 			this.PlayerActionText.BackColor = System.Drawing.Color.White;
 			this.PlayerActionText.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.PlayerActionText.Location = new System.Drawing.Point(1092, 78);
+			this.PlayerActionText.Location = new System.Drawing.Point(1087, 73);
 			this.PlayerActionText.Name = "PlayerActionText";
-			this.PlayerActionText.Size = new System.Drawing.Size(100, 43);
+			this.PlayerActionText.Size = new System.Drawing.Size(110, 55);
 			this.PlayerActionText.TabIndex = 35;
 			this.PlayerActionText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			this.PlayerActionText.Visible = false;
@@ -5136,9 +5136,9 @@
 			// 
 			this.EnemyActionText.BackColor = System.Drawing.Color.White;
 			this.EnemyActionText.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyActionText.Location = new System.Drawing.Point(188, 435);
+			this.EnemyActionText.Location = new System.Drawing.Point(183, 429);
 			this.EnemyActionText.Name = "EnemyActionText";
-			this.EnemyActionText.Size = new System.Drawing.Size(100, 43);
+			this.EnemyActionText.Size = new System.Drawing.Size(110, 55);
 			this.EnemyActionText.TabIndex = 1248;
 			this.EnemyActionText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			this.EnemyActionText.Visible = false;
