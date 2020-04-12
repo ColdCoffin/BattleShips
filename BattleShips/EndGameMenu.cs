@@ -17,7 +17,7 @@ namespace BattleShips
 		StatsTracker playerStats;
 		StatsTracker enemyStats;
 
-		public EndGameMenu(StatsTracker player, StatsTracker enemy)
+		public EndGameMenu(StatsTracker player, StatsTracker enemy, bool playerWon)
 		{
 			InitializeComponent();
 
@@ -29,12 +29,18 @@ namespace BattleShips
 			playerShipsDestroyed_label.Text += playerStats.shipsDestroyed;
 			playerShipHits_label.Text += playerStats.shipsHit;
 			playerShipMisses_label.Text += playerStats.shipsMissed;
-			playerAccuracy_label.Text += playerStats.Accuracy + "%";
+			playerAccuracy_label.Text += playerStats.CalculateAccuracy() + "%";
 
 			enemyShipsDestroyed_label.Text += enemyStats.shipsDestroyed;
 			EnemyShipHits_label.Text += enemyStats.shipsHit;
 			enemyShipMisses_label.Text += enemyStats.shipsMissed;
-			enemyAccuracy_label.Text += enemyStats.Accuracy + "%";
+			enemyAccuracy_label.Text += enemyStats.CalculateAccuracy() + "%";
+
+			if (playerWon == true)
+				winOrLose_label.Text = "YOU WON!";
+			else
+				winOrLose_label.Text = "YOU LOST!";
+
 		}
 
 		private void ActionButton_Click(object sender, EventArgs e)

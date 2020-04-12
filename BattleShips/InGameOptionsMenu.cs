@@ -39,12 +39,14 @@ namespace BattleShips
 		private void back_button_Click(object sender, EventArgs e)
 		{
 			Visible = false;
+			cheat_label.Visible = false;
 		}
 
 		private void restart_button_Click(object sender, EventArgs e)
 		{
 			GameScreen.GameScreenInstance.gameReset();
 			Visible = false;
+			cheat_label.Visible = false;
 		}
 
 		private void mainMenu_button_Click(object sender, EventArgs e)
@@ -54,6 +56,12 @@ namespace BattleShips
 
 		private void cheat_button_Click(object sender, EventArgs e)
 		{
+			if (GameScreen.GameScreenInstance.isHard == true)
+			{
+				cheat_label.Visible = true;
+				return;
+			}
+
 			GameScreen.GameScreenInstance.Cheat();
 			Visible = false;
 		}

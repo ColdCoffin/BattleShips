@@ -43,6 +43,7 @@
 			this.EnemyShipHits_label = new System.Windows.Forms.Label();
 			this.button1 = new System.Windows.Forms.Button();
 			this.ActionButton = new System.Windows.Forms.Button();
+			this.winOrLose_label = new System.Windows.Forms.Label();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
@@ -203,11 +204,22 @@
 			this.ActionButton.UseVisualStyleBackColor = false;
 			this.ActionButton.Click += new System.EventHandler(this.ActionButton_Click);
 			// 
+			// winOrLose_label
+			// 
+			this.winOrLose_label.BackColor = System.Drawing.Color.White;
+			this.winOrLose_label.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.winOrLose_label.Location = new System.Drawing.Point(204, 157);
+			this.winOrLose_label.Name = "winOrLose_label";
+			this.winOrLose_label.Size = new System.Drawing.Size(199, 46);
+			this.winOrLose_label.TabIndex = 56;
+			this.winOrLose_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
 			// EndGameMenu
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackgroundImage = global::BattleShips.Properties.Resources.EndGameMenu1;
+			this.Controls.Add(this.winOrLose_label);
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.ActionButton);
 			this.Controls.Add(this.enemyAccuracy_label);
@@ -244,5 +256,6 @@
 		private System.Windows.Forms.Label EnemyShipHits_label;
 		private System.Windows.Forms.Button button1;
 		private System.Windows.Forms.Button ActionButton;
+		private System.Windows.Forms.Label winOrLose_label;
 	}
 }

@@ -81,6 +81,7 @@
     <Compile Include="MenuScreen.Designer.cs">
       <DependentUpon>MenuScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="PlayerActionText.cs" />
     <Compile Include="PlayerField.cs" />
     <Compile Include="FishingBoat.cs" />
     <Compile Include="Form1.cs">

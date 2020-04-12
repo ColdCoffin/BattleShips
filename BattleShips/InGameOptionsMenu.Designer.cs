@@ -37,6 +37,7 @@
 			this.restart_button = new System.Windows.Forms.Button();
 			this.mainMenu_button = new System.Windows.Forms.Button();
 			this.cheat_button = new System.Windows.Forms.Button();
+			this.cheat_label = new System.Windows.Forms.Label();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
@@ -142,11 +143,24 @@
 			this.cheat_button.UseVisualStyleBackColor = true;
 			this.cheat_button.Click += new System.EventHandler(this.cheat_button_Click);
 			// 
+			// cheat_label
+			// 
+			this.cheat_label.BackColor = System.Drawing.Color.Sienna;
+			this.cheat_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.cheat_label.Location = new System.Drawing.Point(235, 364);
+			this.cheat_label.Name = "cheat_label";
+			this.cheat_label.Size = new System.Drawing.Size(133, 16);
+			this.cheat_label.TabIndex = 1343;
+			this.cheat_label.Text = "Can\'t cheat in hard mode";
+			this.cheat_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.cheat_label.Visible = false;
+			// 
 			// InGameOptionsMenu
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackgroundImage = global::BattleShips.Properties.Resources.EndGameMenu;
+			this.Controls.Add(this.cheat_label);
 			this.Controls.Add(this.cheat_button);
 			this.Controls.Add(this.mainMenu_button);
 			this.Controls.Add(this.restart_button);
@@ -171,5 +185,6 @@
 		private System.Windows.Forms.Button restart_button;
 		private System.Windows.Forms.Button mainMenu_button;
 		private System.Windows.Forms.Button cheat_button;
+		private System.Windows.Forms.Label cheat_label;
 	}
 }

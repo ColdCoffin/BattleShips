@@ -12,8 +12,6 @@ namespace BattleShips
 		public int shipsDestroyed { get; set; }
 		public int shipsHit { get; set; }
 		public int shipsMissed { get; set; }
-		float accuracy;
-		public float Accuracy { get { calculateAccuracy(); return accuracy; } set { accuracy = value; } }
 
 
 		public StatsTracker()
@@ -22,16 +20,15 @@ namespace BattleShips
 			shipsDestroyed = 0;
 			shipsHit = 0;
 			shipsMissed = 0;
-			accuracy = 0;
 
 		}
 
-		private void calculateAccuracy()
+		public float CalculateAccuracy()
 		{
 			if (shipsHit == 0)
-				accuracy = 0;
+				return 0;
 			else
-				accuracy = (shipsHit / (shipsHit + shipsMissed)) * 100f;
+				return (shipsHit / (shipsHit + shipsMissed)) * 100f;
 			
 		}
 
@@ -40,7 +37,6 @@ namespace BattleShips
 			shipsDestroyed = 0;
 			shipsHit = 0;
 			shipsMissed = 0;
-			Accuracy = 0;
 
 		}
 

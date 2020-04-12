@@ -172,10 +172,10 @@ namespace BattleShips
 
 
 		}
-
+		public readonly bool isHard;
 		public GameScreen(AIEnemy ai, bool isHard) : this()
 		{
-
+			this.isHard = isHard;
 			AI = new AIEnemy(enemyFishingBoat, enemySloop,
 									enemyGalleon, enemyBrigantine, enemyPiratesShip, isHard);
 			AI.SpawnShips();
@@ -245,7 +245,7 @@ namespace BattleShips
 			RemoveBrigantine_button.Visible = false;
 
 		}
-		bool wasHit;
+		bool enemyWasHit;
 		PictureBox hitPic;
 
 		public void Fire(string letter, string number)
@@ -284,7 +284,7 @@ namespace BattleShips
 			explosionTimer.Start();
 
 			EnemyField.Hit(new Field(fireAt));
-			wasHit = false;
+			enemyWasHit = false;
 
 			string shipHit = " (No ships were hit)";
 			bool isDestroyed = false;
@@ -294,7 +294,7 @@ namespace BattleShips
 			{
 				if (enemyShip.isHit(new Field(fireAt)) == true)
 				{
-					wasHit = true;
+					enemyWasHit = true;
 					shipHit = " (Ship was hit)";
 					enemyShip.Hit(new Field(fireAt));
 
@@ -309,7 +309,7 @@ namespace BattleShips
 				}
 			}
 
-			if (wasHit == true)
+			if (enemyWasHit == true)
 				playerStats.shipsHit++;
 			else
 				playerStats.shipsMissed++;
@@ -519,7 +519,7 @@ namespace BattleShips
 		{
 			if (destroyedPlayerShips == 5)
 			{
-				EndGameMenu temp = new EndGameMenu(playerStats, enemyStats);
+				EndGameMenu temp = new EndGameMenu(playerStats, enemyStats, false);
 				temp.Location = new Point(340, 160);
 				temp.Parent = this;
 				temp.Visible = true;
@@ -529,7 +529,7 @@ namespace BattleShips
 
 			if (destroyedEnemyShips == 5)
 			{
-				EndGameMenu temp = new EndGameMenu(playerStats, enemyStats);
+				EndGameMenu temp = new EndGameMenu(playerStats, enemyStats, true);
 				temp.Location = new Point(340, 160);
 				temp.Parent = this;
 				temp.Visible = true;
@@ -575,13 +575,14 @@ namespace BattleShips
 
 		}
 
+		bool playerWasHit;
 		private void AITimer_Tick(object sender, EventArgs e)
 		{
 
 			explosion_image.Location = new Point(193,566);
 			explosionTimer.Start();
 
-			wasHit = false;
+			playerWasHit = false;
 			isEnemyTurn = true;
 
 			Field fieldHit = AI.FireAtPosition();
@@ -596,8 +597,8 @@ namespace BattleShips
 			{
 				if (playerShip.isHit(fieldHit) == true)
 				{
-					
-					wasHit = true;
+
+					playerWasHit = true;
 					playerShip.Hit(fieldHit);
 
 					shipHit = " (Enemy hit your " + playerShip.ShipName + ")";
@@ -617,7 +618,7 @@ namespace BattleShips
 				}
 			}
 
-			if (wasHit == true)
+			if (playerWasHit == true)
 				enemyStats.shipsHit++;
 			else
 				enemyStats.shipsMissed++;
@@ -788,6 +789,15 @@ namespace BattleShips
 				explosionIndex = 1;
 				explosion_image.Visible = false;
 				explosionTimer.Stop();
+
+				if (enemyWasHit == true)
+				{
+					PlayerActionText.Text = "Direct hit!";
+					showPlayerDialogTimer.Start();
+				}
+
+				if (playerWasHit 
+
 			}
 			else
 			{
@@ -835,7 +845,7 @@ namespace BattleShips
 				explosion_image.Location = new Point(cannonballEndPos.X - 15, cannonballEndPos.Y - 15);
 				explosionTimer.Start();
 
-				if (wasHit == true)
+				if (enemyWasHit == true || playerWasHit == true)
 					hitPic.Image = Resources.Destroyed_ship;
 				else
 					hitPic.Image = Resources.HitArea;
