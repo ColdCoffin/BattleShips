@@ -34,6 +34,11 @@ namespace BattleShips
 			pictureBox1.Image = SetFireMenuAnim.menuAnim[animIndex++];
 
 			timePlayed_label.Text = "Time played: " + GameScreen.GameScreenInstance.MinutesPassed / 60 + " min";
+
+			if (MainThreadForm.mainThread.SoundOn == true)
+				sound_button.Text = "Sound Off";
+			else
+				sound_button.Text = "Sound On";
 		}
 
 		private void back_button_Click(object sender, EventArgs e)
@@ -64,6 +69,14 @@ namespace BattleShips
 
 			GameScreen.GameScreenInstance.Cheat();
 			Visible = false;
+		}
+
+		private void sound_button_Click(object sender, EventArgs e)
+		{
+			if (sound_button.Text == "Sound On")
+				MainThreadForm.mainThread.SoundOn = true;
+			else
+				MainThreadForm.mainThread.SoundOn = false;
 		}
 	}
 }

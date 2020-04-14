@@ -40,6 +40,8 @@
 			this.startStopAnimation_button = new System.Windows.Forms.Button();
 			this.backroundLoad_progressbar = new System.Windows.Forms.ProgressBar();
 			this.backround_box = new System.Windows.Forms.PictureBox();
+			this.soundOn_button = new System.Windows.Forms.Button();
+			this.soundOff_button = new System.Windows.Forms.Button();
 			((System.ComponentModel.ISupportInitialize)(this.backround_box)).BeginInit();
 			this.SuspendLayout();
 			// 
@@ -74,6 +76,7 @@
 			this.options_button.TabIndex = 2;
 			this.options_button.Text = "Options";
 			this.options_button.UseVisualStyleBackColor = true;
+			this.options_button.Click += new System.EventHandler(this.options_button_Click);
 			// 
 			// exit_button
 			// 
@@ -118,7 +121,7 @@
 			// back_button
 			// 
 			this.back_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.back_button.Location = new System.Drawing.Point(490, 451);
+			this.back_button.Location = new System.Drawing.Point(490, 457);
 			this.back_button.Name = "back_button";
 			this.back_button.Size = new System.Drawing.Size(300, 70);
 			this.back_button.TabIndex = 7;
@@ -157,11 +160,37 @@
 			this.backround_box.TabIndex = 4;
 			this.backround_box.TabStop = false;
 			// 
+			// soundOn_button
+			// 
+			this.soundOn_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.soundOn_button.Location = new System.Drawing.Point(193, 299);
+			this.soundOn_button.Name = "soundOn_button";
+			this.soundOn_button.Size = new System.Drawing.Size(300, 70);
+			this.soundOn_button.TabIndex = 10;
+			this.soundOn_button.Text = "Sound On";
+			this.soundOn_button.UseVisualStyleBackColor = true;
+			this.soundOn_button.Visible = false;
+			this.soundOn_button.Click += new System.EventHandler(this.soundOn_button_Click);
+			// 
+			// soundOff_button
+			// 
+			this.soundOff_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.soundOff_button.Location = new System.Drawing.Point(790, 299);
+			this.soundOff_button.Name = "soundOff_button";
+			this.soundOff_button.Size = new System.Drawing.Size(300, 70);
+			this.soundOff_button.TabIndex = 11;
+			this.soundOff_button.Text = "Sound Off";
+			this.soundOff_button.UseVisualStyleBackColor = true;
+			this.soundOff_button.Visible = false;
+			this.soundOff_button.Click += new System.EventHandler(this.soundOff_button_Click);
+			// 
 			// MenuScreen
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(1280, 720);
+			this.Controls.Add(this.soundOff_button);
+			this.Controls.Add(this.soundOn_button);
 			this.Controls.Add(this.backroundLoad_progressbar);
 			this.Controls.Add(this.startStopAnimation_button);
 			this.Controls.Add(this.back_button);
@@ -195,5 +224,7 @@
 		private System.Windows.Forms.Button back_button;
 		private System.Windows.Forms.Button startStopAnimation_button;
 		private System.Windows.Forms.ProgressBar backroundLoad_progressbar;
+		private System.Windows.Forms.Button soundOn_button;
+		private System.Windows.Forms.Button soundOff_button;
 	}
 }

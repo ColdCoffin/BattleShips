@@ -24,8 +24,6 @@ namespace BattleShips
 
 		public bool isHard { get; set; }
 
-
-		SoundPlayer snd;
 		public MenuScreen()
 		{
 			InitializeComponent();
@@ -34,8 +32,7 @@ namespace BattleShips
 			RM = new ResourceManager("BattleShips.Properties.Resources", typeof(Resources).Assembly);
 
 			Stream str = Resources.soundscrate_on_a_quest_sc1;
-			snd = new SoundPlayer(str);
-			//snd.PlayLooping();
+			MainThreadForm.mainThread.SetSoundStream(str);
 
 			indexUpdateLoop = 0;
 		}
@@ -124,6 +121,8 @@ namespace BattleShips
 			easyOption_button.Visible = false;
 			hardOption_button.Visible = false;
 			back_button.Visible = false;
+			soundOn_button.Visible = false;
+			soundOff_button.Visible = false;
 		}
 
 		private void startStopAnimation_button_Click(object sender, EventArgs e)
@@ -144,6 +143,31 @@ namespace BattleShips
 				startStopAnimation_button.Text = "Stop Animation";
 
 			}
+		}
+
+		private void options_button_Click(object sender, EventArgs e)
+		{
+			startGame_button.Visible = false;
+			options_button.Visible = false;
+			multiplayerGame_button.Visible = false;
+			exit_button.Visible = false;
+
+			soundOn_button.Visible = true;
+			soundOff_button.Visible = true;
+			back_button.Visible = true;
+		}
+
+		private void soundOn_button_Click(object sender, EventArgs e)
+		{
+			if (MainThreadForm.mainThread.SoundOn == true)
+				return;
+
+			MainThreadForm.mainThread.SoundOn = true;
+		}
+
+		private void soundOff_button_Click(object sender, EventArgs e)
+		{
+			MainThreadForm.mainThread.SoundOn = false;
 		}
 	}
 }

@@ -56,7 +56,6 @@ namespace BattleShips
 
 		AIEnemy AI;
 
-		SoundPlayer sound;
 		ResourceManager RS;
 		InGameOptionsMenu inGameOptionsMenu;
 
@@ -91,11 +90,9 @@ namespace BattleShips
 			cannonballPlayerStartPos = new Point(1001, 161);
 
 			RS = new ResourceManager("BattleShips.Properties.Resources", typeof(Resources).Assembly);
-			sound = new SoundPlayer();
 
 			Stream str = Resources.soundscrate_last_one_standing_sc1;
-			sound.Stream = str;
-			//sound.PlayLooping();
+			MainThreadForm.mainThread.SetSoundStream(str);
 
 			loadExplosion();
 

@@ -38,6 +38,7 @@
 			this.mainMenu_button = new System.Windows.Forms.Button();
 			this.cheat_button = new System.Windows.Forms.Button();
 			this.cheat_label = new System.Windows.Forms.Label();
+			this.sound_button = new System.Windows.Forms.Button();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
@@ -155,11 +156,26 @@
 			this.cheat_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this.cheat_label.Visible = false;
 			// 
+			// sound_button
+			// 
+			this.sound_button.BackgroundImage = global::BattleShips.Properties.Resources.smallButton;
+			this.sound_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+			this.sound_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.sound_button.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
+			this.sound_button.Location = new System.Drawing.Point(68, 337);
+			this.sound_button.Name = "sound_button";
+			this.sound_button.Size = new System.Drawing.Size(80, 25);
+			this.sound_button.TabIndex = 1344;
+			this.sound_button.Text = "Sound On";
+			this.sound_button.UseVisualStyleBackColor = true;
+			this.sound_button.Click += new System.EventHandler(this.sound_button_Click);
+			// 
 			// InGameOptionsMenu
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackgroundImage = global::BattleShips.Properties.Resources.EndGameMenu;
+			this.Controls.Add(this.sound_button);
 			this.Controls.Add(this.cheat_label);
 			this.Controls.Add(this.cheat_button);
 			this.Controls.Add(this.mainMenu_button);
@@ -186,5 +202,6 @@
 		private System.Windows.Forms.Button mainMenu_button;
 		private System.Windows.Forms.Button cheat_button;
 		private System.Windows.Forms.Label cheat_label;
+		private System.Windows.Forms.Button sound_button;
 	}
 }
