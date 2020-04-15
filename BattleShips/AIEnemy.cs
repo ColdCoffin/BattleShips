@@ -183,6 +183,11 @@ namespace BattleShips
 			resetDir();
 		}
 
+		public void ShipDestroyed()
+		{
+			searchModeOff();
+		}
+
 		private void resetDir()
 		{
 			Direction.Add("Up");

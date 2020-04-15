@@ -609,6 +609,7 @@ namespace BattleShips
 
 					playerWasHit = true;
 					playerShip.Hit(fieldHit);
+					AI.IsHit = true;
 
 					shipHit = " (Enemy hit your " + playerShip.ShipName + ")";
 
@@ -616,13 +617,9 @@ namespace BattleShips
 					{
 						playerShipDestroyed = true;
 						temp = playerShip;
-						AI.IsHit = false;
 						enemyStats.shipsDestroyed++;
+						AI.ShipDestroyed();
 					}
-					else
-						AI.IsHit = true;
-
-
 					break;
 				}
 			}
