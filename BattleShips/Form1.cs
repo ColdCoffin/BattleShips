@@ -128,6 +128,7 @@ namespace BattleShips
 
 			FireButton.Enabled = false;
 			ActionButton.Enabled = false;
+			HideShowLog_button.Visible = false;
 
 			RemovePiratesShip_button.Visible = false;
 			RemoveSloop_button.Visible = false;
@@ -196,6 +197,7 @@ namespace BattleShips
 			playerDialogClock = 0;
 			PlayerActionText.Visible = false;
 			playerDialogBox.Visible = false;
+			HideShowLog_button.Visible = false;
 
 
 			cannonball.Visible = false;
@@ -747,7 +749,7 @@ namespace BattleShips
 			RemoveFishingBoat_button.Visible = false;
 			ActionButton.Enabled = false;
 
-			setShipMenu.SetShipInstance.ClearSetText("Fishing boat");
+			setShipMenu.SetShipInstance.ClearSetText("Fishing Boat");
 		}
 
 		private void exit_button_Click(object sender, EventArgs e)

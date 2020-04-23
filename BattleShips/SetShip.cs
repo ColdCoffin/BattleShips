@@ -343,7 +343,7 @@ namespace BattleShips
 					ErrorLabel.Visible = false;
 					break;
 				}
-
+				
 				ErrorLabel.Visible = true;
 				ErrorLabel.Text = "Chose ship that hasn't been set!";
 			}
