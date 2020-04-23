@@ -29,17 +29,22 @@ namespace BattleShips
 		protected bool isEnemy;
 
 
-		public Ship(PictureBox Hgraphics, PictureBox Vgraphics) 
+		public Ship(PictureBox Hgraphics = null, PictureBox Vgraphics = null) 
 		{
 			isSpawned = false;
-			this.Hgraphics = Hgraphics;
-			this.Vgraphics = Vgraphics;
 
-			this.Hgraphics.Location = new Point(0, 0);
-			this.Vgraphics.Location = new Point(0, 0);
+			if (Hgraphics != null || Vgraphics != null)
+			{
+				this.Hgraphics = Hgraphics;
+				this.Vgraphics = Vgraphics;
 
-			Hgraphics.Visible = false;
-			Vgraphics.Visible = false;
+				this.Hgraphics.Location = new Point(0, 0);
+				this.Vgraphics.Location = new Point(0, 0);
+
+				Hgraphics.Visible = false;
+				Vgraphics.Visible = false;
+			}
+			
 
 			InitializePositions();
 			SetHealth();
@@ -65,8 +70,12 @@ namespace BattleShips
 				{
 					if (isEnemy == false)
 					{
+						if (prepareToSpawn == true)
+							PlayerField.AllFields[index + i].isSpawnReady = true;
+						else
+							PlayerField.AllFields[index + i].isTaken = true;
+						
 						ShipParts[i].field = PlayerField.AllFields[index + i];
-						PlayerField.AllFields[index + i].isTaken = true;
 						ShipParts[i].isDestroyed = false;
 					}
 					else
@@ -81,8 +90,12 @@ namespace BattleShips
 				{
 					if (isEnemy == false)
 					{
+						if (prepareToSpawn == true)
+							PlayerField.AllFields[index + indexAdd].isSpawnReady = true;
+						else
+							PlayerField.AllFields[index + indexAdd].isTaken = true;
+
 						ShipParts[i].field = PlayerField.AllFields[index + indexAdd];
-						PlayerField.AllFields[index + indexAdd].isTaken = true;
 						ShipParts[i].isDestroyed = false;
 					}
 					else
@@ -155,22 +168,32 @@ namespace BattleShips
 				if (orientation == "Horizontal")
 				{
 					if (isEnemy == false)
+					{
 						PlayerField.AllFields[index + i].isTaken = false;
+						PlayerField.AllFields[index + i].isSpawnReady = false;
+					}
 					else
 						EnemyField.AllFields[index + i].isTaken = false;
 				}
 				if (orientation == "Vertical")
 				{
 					if (isEnemy == false)
+					{
 						PlayerField.AllFields[index + indexAdd].isTaken = false;
+						PlayerField.AllFields[index + indexAdd].isSpawnReady = false;
+					}
 					else
 						EnemyField.AllFields[index + indexAdd].isTaken = false;
 				}
 				indexAdd += 10;
 			}
 
-			Vgraphics.Visible = false;
-			Hgraphics.Visible = false;
+			if (Vgraphics != null || Hgraphics != null)
+			{
+				Vgraphics.Visible = false;
+				Hgraphics.Visible = false;
+			}
+			
 			isSpawned = false;
 		}
 
@@ -188,12 +211,39 @@ namespace BattleShips
 
 
 		}
+		bool prepareToSpawn;
+		virtual public bool PrepareToSpawnShip(Field pos, string orientation, string shipType)
+		{
+			if (isSpawned == true)
+				DespawnShip();
+
+			ShipName = shipType;
+
+			prepareToSpawn = true;
+
+			SetHealth();
+
+			this.orientation = orientation;
+
+			if (checkBorders(pos) == false)
+				return false;
+
+			if (checkCollision(pos) == false)
+				return false;
+
+			Location.point = pos.point;
+			CalculatePositions();
+
+			isSpawned = true;
+			return true;
+
+		}
 
 		virtual public bool SpawnShip(Field pos, string orientation, bool isEnemy,
 			string name)
 		{
 			if (isSpawned == true)
-				return false;
+				DespawnShip();
 
 			Vgraphics.Visible = false;
 			Hgraphics.Visible = false;

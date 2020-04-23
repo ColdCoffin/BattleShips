@@ -30,15 +30,22 @@ namespace BattleShips
 
 		private void setMinimap()
 		{
-			for (int i = 0; i < 100; i += 10)
+			char letter = 'A';
+			MouseEventHandler Event = new MouseEventHandler(SelectAFieldClickEvnt);
+			for (int i = 0; i < 100; i += 10, ++letter)
 			{
 				for (int j = 0; j < 10; j++)
 				{
 					double temp = i * 1.5;
 
 					miniMap[i + j] = new PictureBox();
+					Controls.Add(miniMap[i + j]);
+					miniMap[i + j].Name = letter + (j+1).ToString();
 					miniMap[i + j].Parent = panel1;
 					miniMap[i + j].Location = new Point(j * 15, (int)temp);
+
+					miniMap[i + j].MouseClick += Event;
+
 				}
 			}
 		}
@@ -106,6 +113,23 @@ namespace BattleShips
 			GameScreen.GameScreenInstance.CancelMenu();
 
 			Visible = false;
+		}
+
+		private void SelectAFieldClickEvnt(object sender, MouseEventArgs e)
+		{
+			refreshMinimap();
+
+			PictureBox p = null;
+
+			if (sender.GetType() == typeof(PictureBox))
+				p = (PictureBox)sender;
+
+			if (p == null)
+				return;
+
+			ChooseXPos_texbox.Text = p.Name.Substring(0,1);
+			ChooseYPos_texbox.Text = p.Name.Substring(1, p.Name.Length - 1);
+			p.Image = Resources.Menu_whiteButton;
 		}
 	}
 

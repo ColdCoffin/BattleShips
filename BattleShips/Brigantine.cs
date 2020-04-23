@@ -12,7 +12,7 @@ namespace BattleShips
 	{
 		public Brigantine(PictureBox Hgraphics, PictureBox Vgraphics)
 			: base(Hgraphics, Vgraphics) { ShipName = "Brigantine";}
-
+		public Brigantine() : base() { ShipName = "Brigantine"; }
 		protected override void InitializePositions() => ShipParts = new ShipPart[3];
 		protected override void SetHealth() => Health = 30;
 

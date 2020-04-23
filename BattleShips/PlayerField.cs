@@ -10,10 +10,11 @@ namespace BattleShips
 {
 	public struct Field
 	{
-		public Field(Point p) { point = p; isTaken = false; isHit = false; }
+		public Field(Point p) { point = p; isTaken = false; isHit = false; isSpawnReady = false; }
 
 		public Point point;
 		public bool isTaken;
+		public bool isSpawnReady;
 		public bool isHit;
 	}
 
@@ -71,6 +72,20 @@ namespace BattleShips
 				if (AllFields[i].point == pos)
 				{
 					if (AllFields[i].isTaken == true)
+						return true;
+				}
+			}
+
+			return false;
+		}
+
+		static public bool isSpawnReadyTarget(Point pos)
+		{
+			for (int i = 0; i < 100; i++)
+			{
+				if (AllFields[i].point == pos)
+				{
+					if (AllFields[i].isSpawnReady == true)
 						return true;
 				}
 			}

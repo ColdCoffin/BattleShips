@@ -81,6 +81,9 @@
     <Compile Include="MenuScreen.Designer.cs">
       <DependentUpon>MenuScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="MinimapCoordinatesPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="PlayerActionText.cs" />
     <Compile Include="PlayerField.cs" />
     <Compile Include="FishingBoat.cs" />
@@ -1621,6 +1624,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Art\EndGameMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\Menu_whiteButton.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

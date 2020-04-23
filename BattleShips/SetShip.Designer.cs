@@ -61,10 +61,13 @@
 			this.label24 = new System.Windows.Forms.Label();
 			this.ChooseXPos_texbox = new System.Windows.Forms.TextBox();
 			this.ChooseYPos_texbox = new System.Windows.Forms.TextBox();
-			this.button1 = new System.Windows.Forms.Button();
 			this.ActionButton = new System.Windows.Forms.Button();
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.pictureBox2 = new System.Windows.Forms.PictureBox();
+			this.mainMenu_button = new System.Windows.Forms.Button();
+			this.button1 = new System.Windows.Forms.Button();
+			this.button2 = new System.Windows.Forms.Button();
+			this.ErrorLabel = new System.Windows.Forms.Label();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
 			this.SuspendLayout();
@@ -325,6 +328,7 @@
 			// choseShip_combobox
 			// 
 			this.choseShip_combobox.BackColor = System.Drawing.Color.White;
+			this.choseShip_combobox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 			this.choseShip_combobox.FormattingEnabled = true;
 			this.choseShip_combobox.Items.AddRange(new object[] {
             "Fishing Boat",
@@ -332,9 +336,9 @@
             "Sloop",
             "Galleon",
             "Pirate\'s ship"});
-			this.choseShip_combobox.Location = new System.Drawing.Point(53, 250);
+			this.choseShip_combobox.Location = new System.Drawing.Point(43, 250);
 			this.choseShip_combobox.Name = "choseShip_combobox";
-			this.choseShip_combobox.Size = new System.Drawing.Size(121, 21);
+			this.choseShip_combobox.Size = new System.Drawing.Size(141, 21);
 			this.choseShip_combobox.TabIndex = 23;
 			// 
 			// label21
@@ -350,7 +354,7 @@
 			// label22
 			// 
 			this.label22.BackColor = System.Drawing.Color.Sienna;
-			this.label22.Location = new System.Drawing.Point(53, 276);
+			this.label22.Location = new System.Drawing.Point(53, 277);
 			this.label22.Name = "label22";
 			this.label22.Size = new System.Drawing.Size(121, 15);
 			this.label22.TabIndex = 25;
@@ -383,7 +387,7 @@
 			// 
 			// ChooseName_texbox
 			// 
-			this.ChooseName_texbox.Location = new System.Drawing.Point(431, 244);
+			this.ChooseName_texbox.Location = new System.Drawing.Point(428, 248);
 			this.ChooseName_texbox.Name = "ChooseName_texbox";
 			this.ChooseName_texbox.Size = new System.Drawing.Size(121, 20);
 			this.ChooseName_texbox.TabIndex = 28;
@@ -391,7 +395,7 @@
 			// label23
 			// 
 			this.label23.BackColor = System.Drawing.Color.Sienna;
-			this.label23.Location = new System.Drawing.Point(431, 226);
+			this.label23.Location = new System.Drawing.Point(428, 230);
 			this.label23.Name = "label23";
 			this.label23.Size = new System.Drawing.Size(121, 15);
 			this.label23.TabIndex = 29;
@@ -405,12 +409,13 @@
 			this.label24.Name = "label24";
 			this.label24.Size = new System.Drawing.Size(121, 15);
 			this.label24.TabIndex = 49;
-			this.label24.Text = "Choose a location";
+			this.label24.Text = "Chosen location";
 			this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// ChooseXPos_texbox
 			// 
 			this.ChooseXPos_texbox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+			this.ChooseXPos_texbox.Enabled = false;
 			this.ChooseXPos_texbox.Location = new System.Drawing.Point(53, 353);
 			this.ChooseXPos_texbox.MaxLength = 1;
 			this.ChooseXPos_texbox.Name = "ChooseXPos_texbox";
@@ -419,43 +424,27 @@
 			// 
 			// ChooseYPos_texbox
 			// 
+			this.ChooseYPos_texbox.Enabled = false;
 			this.ChooseYPos_texbox.Location = new System.Drawing.Point(119, 353);
 			this.ChooseYPos_texbox.MaxLength = 2;
 			this.ChooseYPos_texbox.Name = "ChooseYPos_texbox";
 			this.ChooseYPos_texbox.Size = new System.Drawing.Size(55, 20);
 			this.ChooseYPos_texbox.TabIndex = 51;
 			// 
-			// button1
-			// 
-			this.button1.BackColor = System.Drawing.Color.Transparent;
-			this.button1.BackgroundImage = global::BattleShips.Properties.Resources.BigButtton_2;
-			this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button1.FlatAppearance.BorderSize = 0;
-			this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
-			this.button1.Location = new System.Drawing.Point(443, 326);
-			this.button1.Margin = new System.Windows.Forms.Padding(0);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(100, 50);
-			this.button1.TabIndex = 48;
-			this.button1.Text = "Cancel";
-			this.button1.UseVisualStyleBackColor = false;
-			this.button1.Click += new System.EventHandler(this.button1_Click_1);
-			// 
 			// ActionButton
 			// 
-			this.ActionButton.BackColor = System.Drawing.Color.Transparent;
-			this.ActionButton.BackgroundImage = global::BattleShips.Properties.Resources.BigButtton_2;
+			this.ActionButton.BackColor = System.Drawing.Color.Black;
+			this.ActionButton.BackgroundImage = global::BattleShips.Properties.Resources.smallButton1;
 			this.ActionButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ActionButton.FlatAppearance.BorderSize = 0;
-			this.ActionButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.ActionButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
-			this.ActionButton.Location = new System.Drawing.Point(443, 271);
+			this.ActionButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.ActionButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 6.5F);
+			this.ActionButton.Location = new System.Drawing.Point(450, 321);
 			this.ActionButton.Margin = new System.Windows.Forms.Padding(0);
 			this.ActionButton.Name = "ActionButton";
-			this.ActionButton.Size = new System.Drawing.Size(100, 50);
+			this.ActionButton.Size = new System.Drawing.Size(80, 25);
 			this.ActionButton.TabIndex = 47;
-			this.ActionButton.Text = "Confirm";
+			this.ActionButton.Text = "Confirm Spawn";
 			this.ActionButton.UseVisualStyleBackColor = false;
 			this.ActionButton.Click += new System.EventHandler(this.ActionButton_Click_1);
 			// 
@@ -477,14 +466,74 @@
 			this.pictureBox2.TabIndex = 1;
 			this.pictureBox2.TabStop = false;
 			// 
+			// mainMenu_button
+			// 
+			this.mainMenu_button.BackgroundImage = global::BattleShips.Properties.Resources.smallButton;
+			this.mainMenu_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+			this.mainMenu_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.mainMenu_button.Font = new System.Drawing.Font("Arial Rounded MT Bold", 6.7F);
+			this.mainMenu_button.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.mainMenu_button.Location = new System.Drawing.Point(450, 297);
+			this.mainMenu_button.Name = "mainMenu_button";
+			this.mainMenu_button.Size = new System.Drawing.Size(80, 25);
+			this.mainMenu_button.TabIndex = 1342;
+			this.mainMenu_button.Text = "Cancel Spawn";
+			this.mainMenu_button.UseVisualStyleBackColor = true;
+			this.mainMenu_button.Click += new System.EventHandler(this.mainMenu_button_Click);
+			// 
+			// button1
+			// 
+			this.button1.BackColor = System.Drawing.Color.Black;
+			this.button1.BackgroundImage = global::BattleShips.Properties.Resources.smallButton1;
+			this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.button1.FlatAppearance.BorderSize = 0;
+			this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F);
+			this.button1.Location = new System.Drawing.Point(450, 346);
+			this.button1.Margin = new System.Windows.Forms.Padding(0);
+			this.button1.Name = "button1";
+			this.button1.Size = new System.Drawing.Size(80, 25);
+			this.button1.TabIndex = 1343;
+			this.button1.Text = "Back";
+			this.button1.UseVisualStyleBackColor = false;
+			this.button1.Click += new System.EventHandler(this.button1_Click);
+			// 
+			// button2
+			// 
+			this.button2.BackgroundImage = global::BattleShips.Properties.Resources.smallButton;
+			this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+			this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.button2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 6.7F);
+			this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.button2.Location = new System.Drawing.Point(450, 271);
+			this.button2.Name = "button2";
+			this.button2.Size = new System.Drawing.Size(80, 25);
+			this.button2.TabIndex = 1344;
+			this.button2.Text = "Remove Ship";
+			this.button2.UseVisualStyleBackColor = true;
+			this.button2.Click += new System.EventHandler(this.button2_Click);
+			// 
+			// ErrorLabel
+			// 
+			this.ErrorLabel.BackColor = System.Drawing.Color.Sienna;
+			this.ErrorLabel.Location = new System.Drawing.Point(218, 376);
+			this.ErrorLabel.Name = "ErrorLabel";
+			this.ErrorLabel.Size = new System.Drawing.Size(166, 15);
+			this.ErrorLabel.TabIndex = 1345;
+			this.ErrorLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.ErrorLabel.Visible = false;
+			// 
 			// SetShip
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.Controls.Add(this.ErrorLabel);
+			this.Controls.Add(this.button2);
+			this.Controls.Add(this.button1);
+			this.Controls.Add(this.mainMenu_button);
 			this.Controls.Add(this.ChooseYPos_texbox);
 			this.Controls.Add(this.ChooseXPos_texbox);
 			this.Controls.Add(this.label24);
-			this.Controls.Add(this.button1);
 			this.Controls.Add(this.ActionButton);
 			this.Controls.Add(this.label23);
 			this.Controls.Add(this.ChooseName_texbox);
@@ -560,9 +609,12 @@
 		private System.Windows.Forms.TextBox ChooseName_texbox;
 		private System.Windows.Forms.Label label23;
 		private System.Windows.Forms.Button ActionButton;
-		private System.Windows.Forms.Button button1;
 		private System.Windows.Forms.Label label24;
 		private System.Windows.Forms.TextBox ChooseXPos_texbox;
 		private System.Windows.Forms.TextBox ChooseYPos_texbox;
+		private System.Windows.Forms.Button mainMenu_button;
+		private System.Windows.Forms.Button button1;
+		private System.Windows.Forms.Button button2;
+		private System.Windows.Forms.Label ErrorLabel;
 	}
 }
