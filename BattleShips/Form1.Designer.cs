@@ -5785,6 +5785,9 @@
 			// 
 			this.SetShipsButton.BackgroundImage = global::BattleShips.Properties.Resources.smallButton1;
 			this.SetShipsButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+			this.SetShipsButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+			this.SetShipsButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
+			this.SetShipsButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
 			this.SetShipsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.SetShipsButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
 			this.SetShipsButton.Location = new System.Drawing.Point(500, 356);
@@ -7059,6 +7062,9 @@
 			// 
 			this.options_button.BackgroundImage = global::BattleShips.Properties.Resources.smallButton;
 			this.options_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+			this.options_button.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+			this.options_button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
+			this.options_button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
 			this.options_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.options_button.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
 			this.options_button.Location = new System.Drawing.Point(1190, 709);
@@ -7676,6 +7682,9 @@
 			this.FireButton.BackColor = System.Drawing.SystemColors.Control;
 			this.FireButton.BackgroundImage = global::BattleShips.Properties.Resources.smallButton1;
 			this.FireButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+			this.FireButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+			this.FireButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
+			this.FireButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
 			this.FireButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.FireButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
 			this.FireButton.ForeColor = System.Drawing.Color.Black;
@@ -11072,7 +11081,9 @@
 			this.ActionButton.BackColor = System.Drawing.SystemColors.Control;
 			this.ActionButton.BackgroundImage = global::BattleShips.Properties.Resources.BigButtton_2;
 			this.ActionButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-			this.ActionButton.FlatAppearance.BorderSize = 0;
+			this.ActionButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+			this.ActionButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
+			this.ActionButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
 			this.ActionButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.ActionButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
 			this.ActionButton.ForeColor = System.Drawing.Color.Black;
@@ -15250,6 +15261,9 @@
 			// 
 			this.HideShowLog_button.BackgroundImage = global::BattleShips.Properties.Resources.smallButton;
 			this.HideShowLog_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+			this.HideShowLog_button.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+			this.HideShowLog_button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
+			this.HideShowLog_button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
 			this.HideShowLog_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.HideShowLog_button.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.HideShowLog_button.ForeColor = System.Drawing.Color.Black;

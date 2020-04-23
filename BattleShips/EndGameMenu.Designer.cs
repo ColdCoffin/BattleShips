@@ -175,7 +175,9 @@
 			this.button1.BackColor = System.Drawing.Color.Transparent;
 			this.button1.BackgroundImage = global::BattleShips.Properties.Resources.BigButtton_2;
 			this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button1.FlatAppearance.BorderSize = 0;
+			this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+			this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
+			this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
 			this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
 			this.button1.Location = new System.Drawing.Point(441, 308);
@@ -192,7 +194,9 @@
 			this.ActionButton.BackColor = System.Drawing.Color.Transparent;
 			this.ActionButton.BackgroundImage = global::BattleShips.Properties.Resources.BigButtton_2;
 			this.ActionButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.ActionButton.FlatAppearance.BorderSize = 0;
+			this.ActionButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+			this.ActionButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
+			this.ActionButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
 			this.ActionButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.ActionButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
 			this.ActionButton.Location = new System.Drawing.Point(441, 253);

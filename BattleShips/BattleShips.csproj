@@ -81,9 +81,6 @@
     <Compile Include="MenuScreen.Designer.cs">
       <DependentUpon>MenuScreen.cs</DependentUpon>
     </Compile>
-    <Compile Include="MinimapCoordinatesPictureBox.cs">
-      <SubType>Component</SubType>
-    </Compile>
     <Compile Include="PlayerActionText.cs" />
     <Compile Include="PlayerField.cs" />
     <Compile Include="FishingBoat.cs" />

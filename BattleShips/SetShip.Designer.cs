@@ -436,8 +436,10 @@
 			this.ActionButton.BackColor = System.Drawing.Color.Black;
 			this.ActionButton.BackgroundImage = global::BattleShips.Properties.Resources.smallButton1;
 			this.ActionButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.ActionButton.FlatAppearance.BorderSize = 0;
-			this.ActionButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.ActionButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+			this.ActionButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
+			this.ActionButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
+			this.ActionButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.ActionButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 6.5F);
 			this.ActionButton.Location = new System.Drawing.Point(450, 321);
 			this.ActionButton.Margin = new System.Windows.Forms.Padding(0);
@@ -486,10 +488,12 @@
 			this.button1.BackColor = System.Drawing.Color.Black;
 			this.button1.BackgroundImage = global::BattleShips.Properties.Resources.smallButton1;
 			this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button1.FlatAppearance.BorderSize = 0;
-			this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+			this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
+			this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
+			this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F);
-			this.button1.Location = new System.Drawing.Point(450, 346);
+			this.button1.Location = new System.Drawing.Point(450, 345);
 			this.button1.Margin = new System.Windows.Forms.Padding(0);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(80, 25);
@@ -505,7 +509,7 @@
 			this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.button2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 6.7F);
 			this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.button2.Location = new System.Drawing.Point(450, 271);
+			this.button2.Location = new System.Drawing.Point(450, 273);
 			this.button2.Name = "button2";
 			this.button2.Size = new System.Drawing.Size(80, 25);
 			this.button2.TabIndex = 1344;
@@ -516,9 +520,9 @@
 			// ErrorLabel
 			// 
 			this.ErrorLabel.BackColor = System.Drawing.Color.Sienna;
-			this.ErrorLabel.Location = new System.Drawing.Point(218, 376);
+			this.ErrorLabel.Location = new System.Drawing.Point(193, 376);
 			this.ErrorLabel.Name = "ErrorLabel";
-			this.ErrorLabel.Size = new System.Drawing.Size(166, 15);
+			this.ErrorLabel.Size = new System.Drawing.Size(214, 15);
 			this.ErrorLabel.TabIndex = 1345;
 			this.ErrorLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			this.ErrorLabel.Visible = false;
