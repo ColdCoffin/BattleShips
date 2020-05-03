@@ -64,6 +64,7 @@ namespace BattleShips
 		SetShip setShipMenu;
 		FireAtShip fireAtShipMenu;
 		PlayerActionText playerText;
+		diceThrowScreen dicethrowScreen;
 
 		Point cannonballEndPos, cannonballCurrentPos, cannonballEnemyStartPos, cannonballPlayerStartPos;
 
@@ -129,6 +130,7 @@ namespace BattleShips
 			FireButton.Enabled = false;
 			ActionButton.Enabled = false;
 			HideShowLog_button.Visible = false;
+			options_button.Enabled = false;
 
 			RemovePiratesShip_button.Visible = false;
 			RemoveSloop_button.Visible = false;
@@ -169,6 +171,12 @@ namespace BattleShips
 			inGameOptionsMenu = new InGameOptionsMenu();
 			inGameOptionsMenu.Location = new Point(340, 160);
 			inGameOptionsMenu.Parent = this;
+
+			dicethrowScreen = new diceThrowScreen();
+			dicethrowScreen.Location = new Point(340, 260);
+			dicethrowScreen.Parent = this;
+			dicethrowScreen.Visible = true;
+			dicethrowScreen.BringToFront();
 
 
 		}

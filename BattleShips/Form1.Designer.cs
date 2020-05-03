@@ -1311,6 +1311,7 @@
 			this.label38 = new System.Windows.Forms.Label();
 			this.label39 = new System.Windows.Forms.Label();
 			this.gameTime = new System.Windows.Forms.Timer(this.components);
+			this.StartGame_button = new System.Windows.Forms.Button();
 			this.PlayerField_label.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox211)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_vertical_player)).BeginInit();
@@ -15701,12 +15702,32 @@
 			this.gameTime.Interval = 1000;
 			this.gameTime.Tick += new System.EventHandler(this.gameTime_Tick);
 			// 
+			// StartGame_button
+			// 
+			this.StartGame_button.BackColor = System.Drawing.SystemColors.Control;
+			this.StartGame_button.BackgroundImage = global::BattleShips.Properties.Resources.BigButtton_2;
+			this.StartGame_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+			this.StartGame_button.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+			this.StartGame_button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
+			this.StartGame_button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
+			this.StartGame_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.StartGame_button.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
+			this.StartGame_button.ForeColor = System.Drawing.Color.Black;
+			this.StartGame_button.Location = new System.Drawing.Point(580, 345);
+			this.StartGame_button.Margin = new System.Windows.Forms.Padding(0);
+			this.StartGame_button.Name = "StartGame_button";
+			this.StartGame_button.Size = new System.Drawing.Size(100, 50);
+			this.StartGame_button.TabIndex = 1374;
+			this.StartGame_button.Text = "Start Game";
+			this.StartGame_button.UseVisualStyleBackColor = false;
+			// 
 			// GameScreen
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(1280, 736);
+			this.Controls.Add(this.StartGame_button);
 			this.Controls.Add(this.DialogLabel);
 			this.Controls.Add(this.label30);
 			this.Controls.Add(this.label31);
@@ -19266,6 +19287,7 @@
 		private System.Windows.Forms.Label label38;
 		private System.Windows.Forms.Label label39;
 		private System.Windows.Forms.Timer gameTime;
+		private System.Windows.Forms.Button StartGame_button;
 	}
 }
 

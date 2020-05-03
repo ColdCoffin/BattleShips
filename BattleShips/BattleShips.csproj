@@ -49,6 +49,12 @@
   <ItemGroup>
     <Compile Include="AIEnemy.cs" />
     <Compile Include="Brigantine.cs" />
+    <Compile Include="diceThrowScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="diceThrowScreen.Designer.cs">
+      <DependentUpon>diceThrowScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="EndGameMenu.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -109,6 +115,9 @@
     <Compile Include="Ship.cs" />
     <Compile Include="Sloop.cs" />
     <Compile Include="StatsTracker.cs" />
+    <EmbeddedResource Include="diceThrowScreen.resx">
+      <DependentUpon>diceThrowScreen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EndGameMenu.resx">
       <DependentUpon>EndGameMenu.cs</DependentUpon>
     </EmbeddedResource>
@@ -1624,6 +1633,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Art\Menu_whiteButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\diceThrowScreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\Hand_paper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\Hand_paper_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\Hand_scissors.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\Hand_scissors_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\Hand_stone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Art\Hand_stone_selected.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1933,6 +1933,16 @@ namespace BattleShips.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap diceThrowScreen {
+            get {
+                object obj = ResourceManager.GetObject("diceThrowScreen", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap EndGameMenu {
             get {
                 object obj = ResourceManager.GetObject("EndGameMenu", resourceCulture);
@@ -2316,6 +2326,66 @@ namespace BattleShips.Properties {
         internal static System.Drawing.Bitmap grasstowater2_up {
             get {
                 object obj = ResourceManager.GetObject("grasstowater2_up", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Hand_paper {
+            get {
+                object obj = ResourceManager.GetObject("Hand_paper", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Hand_paper_selected {
+            get {
+                object obj = ResourceManager.GetObject("Hand_paper_selected", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Hand_scissors {
+            get {
+                object obj = ResourceManager.GetObject("Hand_scissors", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Hand_scissors_selected {
+            get {
+                object obj = ResourceManager.GetObject("Hand_scissors_selected", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Hand_stone {
+            get {
+                object obj = ResourceManager.GetObject("Hand_stone", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Hand_stone_selected {
+            get {
+                object obj = ResourceManager.GetObject("Hand_stone_selected", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
