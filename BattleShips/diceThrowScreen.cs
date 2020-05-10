@@ -36,6 +36,45 @@ namespace BattleShips
 				selected = s;
 				return selectImage();
 			}
+
+			public static bool operator <(Sign left, Sign right)
+			{
+				if (left.selected == signs.SCISSORS && right.selected == signs.ROCK)
+					return true;
+				if (left.selected == signs.ROCK && right.selected == signs.PAPER)
+					return true;
+				if (left.selected == signs.PAPER && right.selected == signs.SCISSORS)
+					return true;
+
+				return false;
+			}
+
+			public static bool operator >(Sign left, Sign right)
+			{
+
+				if (left.selected == signs.PAPER && right.selected == signs.ROCK)
+					return true;
+				if (left.selected == signs.ROCK && right.selected == signs.SCISSORS)
+					return true;
+				if (left.selected == signs.SCISSORS && right.selected == signs.PAPER)
+					return true;
+
+				return false;
+			}
+
+			public static bool operator ==(Sign left, Sign right)
+			{
+
+				return (left.selected == right.selected);
+
+			}
+
+			public static bool operator !=(Sign left, Sign right)
+			{
+
+				return !(left.selected == right.selected);
+
+			}
 		};
 		enum signs
 		{
@@ -76,6 +115,11 @@ namespace BattleShips
 			scissors.Image = playerSign.SetSign(signs.SCISSORS);
 		}
 
+		private void timer1_Tick(object sender, EventArgs e)
+		{
+			this.Dispose();
+		}
+
 		private void confirm_button_Click(object sender, EventArgs e)
 		{
 			enemySign = new Sign();
@@ -84,6 +128,28 @@ namespace BattleShips
 
 			enemyFinalSign_pictureBox.Visible = true;
 			PlayerFinalSign_pictureBox.Visible = true;
+
+			if (playerSign > enemySign == true)
+			{
+				won_label.Visible = true;
+				won_label.BringToFront();
+				GameScreen.GameScreenInstance.playerGoesFirst = true;
+				timer1.Start();
+				confirm_button.Enabled = false;
+			}
+
+			else if (enemySign > playerSign == true)
+			{
+				lost_label.Visible = true;
+				lost_label.BringToFront();
+				GameScreen.GameScreenInstance.playerGoesFirst = false;
+				timer1.Start();
+				confirm_button.Enabled = false;
+			}
+
+			else
+				tryAgain_label.Visible = true;
+
 		}
 	}
 }

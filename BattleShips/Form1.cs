@@ -26,6 +26,8 @@ namespace BattleShips
 			}
 		}
 
+		public bool playerGoesFirst { get; set; }
+
 		FishingBoat playerFishingBoat;
 		FishingBoat enemyFishingBoat;
 
@@ -464,7 +466,10 @@ namespace BattleShips
 			foreach (Ship s in PlayerShips)
 			{
 				if (s.isSpawned == true)
+				{
 					ActionButton.Enabled = true;
+
+				}
 				else
 				{
 					ActionButton.Enabled = false;

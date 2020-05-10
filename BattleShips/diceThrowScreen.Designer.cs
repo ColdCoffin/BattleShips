@@ -28,6 +28,7 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
+			this.components = new System.ComponentModel.Container();
 			this.timePlayed_label = new System.Windows.Forms.Label();
 			this.confirm_button = new System.Windows.Forms.Button();
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -39,6 +40,10 @@
 			this.label3 = new System.Windows.Forms.Label();
 			this.PlayerFinalSign_pictureBox = new System.Windows.Forms.PictureBox();
 			this.enemyFinalSign_pictureBox = new System.Windows.Forms.PictureBox();
+			this.won_label = new System.Windows.Forms.Label();
+			this.lost_label = new System.Windows.Forms.Label();
+			this.tryAgain_label = new System.Windows.Forms.Label();
+			this.timer1 = new System.Windows.Forms.Timer(this.components);
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.rock)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.paper)).BeginInit();
@@ -168,10 +173,57 @@
 			this.enemyFinalSign_pictureBox.TabStop = false;
 			this.enemyFinalSign_pictureBox.Visible = false;
 			// 
+			// won_label
+			// 
+			this.won_label.BackColor = System.Drawing.Color.Green;
+			this.won_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.won_label.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.won_label.Location = new System.Drawing.Point(219, 122);
+			this.won_label.Name = "won_label";
+			this.won_label.Size = new System.Drawing.Size(133, 30);
+			this.won_label.TabIndex = 1355;
+			this.won_label.Text = "YOU WON!";
+			this.won_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.won_label.Visible = false;
+			// 
+			// lost_label
+			// 
+			this.lost_label.BackColor = System.Drawing.Color.Red;
+			this.lost_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lost_label.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.lost_label.Location = new System.Drawing.Point(219, 122);
+			this.lost_label.Name = "lost_label";
+			this.lost_label.Size = new System.Drawing.Size(133, 30);
+			this.lost_label.TabIndex = 1356;
+			this.lost_label.Text = "YOU LOST!";
+			this.lost_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.lost_label.Visible = false;
+			// 
+			// tryAgain_label
+			// 
+			this.tryAgain_label.BackColor = System.Drawing.Color.Yellow;
+			this.tryAgain_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.tryAgain_label.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.tryAgain_label.Location = new System.Drawing.Point(219, 122);
+			this.tryAgain_label.Name = "tryAgain_label";
+			this.tryAgain_label.Size = new System.Drawing.Size(133, 30);
+			this.tryAgain_label.TabIndex = 1357;
+			this.tryAgain_label.Text = "TRY AGAIN!";
+			this.tryAgain_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.tryAgain_label.Visible = false;
+			// 
+			// timer1
+			// 
+			this.timer1.Interval = 3000;
+			this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+			// 
 			// diceThrowScreen
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.Controls.Add(this.tryAgain_label);
+			this.Controls.Add(this.lost_label);
+			this.Controls.Add(this.won_label);
 			this.Controls.Add(this.enemyFinalSign_pictureBox);
 			this.Controls.Add(this.PlayerFinalSign_pictureBox);
 			this.Controls.Add(this.label3);
@@ -208,5 +260,9 @@
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.PictureBox PlayerFinalSign_pictureBox;
 		private System.Windows.Forms.PictureBox enemyFinalSign_pictureBox;
+		private System.Windows.Forms.Label won_label;
+		private System.Windows.Forms.Label lost_label;
+		private System.Windows.Forms.Label tryAgain_label;
+		private System.Windows.Forms.Timer timer1;
 	}
 }
