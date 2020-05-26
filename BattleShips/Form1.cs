@@ -52,6 +52,7 @@ namespace BattleShips
 		int destroyedPlayerShips;
 		int destroyedEnemyShips;
 		bool isEnemyTurn;
+		bool isGameOver = false;
 
 		int playerDialogClock = 0;
 		int enemyDialogClock = 0;
@@ -130,9 +131,11 @@ namespace BattleShips
 
 
 			FireButton.Enabled = false;
-			ActionButton.Enabled = false;
 			HideShowLog_button.Visible = false;
 			options_button.Enabled = false;
+			ActionButton.Enabled = false;
+			ActionButton.Text = "SET SHIPS";
+			ActionButton.BackColor = Color.LightYellow;
 
 			RemovePiratesShip_button.Visible = false;
 			RemoveSloop_button.Visible = false;
@@ -243,7 +246,6 @@ namespace BattleShips
 
 
 			FireButton.Enabled = false;
-			ActionButton.Enabled = false;
 			SetShipsButton.Enabled = true;
 			SetShipsButton.Visible = true;
 			HideShowLog_button.Visible = false;
@@ -253,6 +255,15 @@ namespace BattleShips
 			RemoveGalleon_button.Visible = false;
 			RemoveFishingBoat_button.Visible = false;
 			RemoveBrigantine_button.Visible = false;
+
+
+			dicethrowScreen = new diceThrowScreen();
+			dicethrowScreen.Location = new Point(340, 260);
+			dicethrowScreen.Parent = this;
+			dicethrowScreen.Visible = true;
+			dicethrowScreen.BringToFront();
+			ActionButton.Text = "SET SHIPS";
+			ActionButton.BackColor = Color.LightYellow;
 
 		}
 		bool enemyWasHit;
@@ -345,6 +356,15 @@ namespace BattleShips
 
 			if (enemyShipDestroyed == true)
 				gl.Write("You destroyed enemy " + temp.ShipName);
+
+
+			if (isGameOver == false)
+			{
+				AIPreparing.Start();
+				ActionButton.Text = "ENEMY TURN";
+				ActionButton.BackColor = Color.Red;
+			}
+
 
 		}
 		private void FireButton_Click(object sender, EventArgs e)
@@ -468,11 +488,14 @@ namespace BattleShips
 				if (s.isSpawned == true)
 				{
 					ActionButton.Enabled = true;
-
+					ActionButton.Text = "START GAME";
+					ActionButton.BackColor = Color.Black;
 				}
 				else
 				{
 					ActionButton.Enabled = false;
+					ActionButton.Text = "SET SHIPS";
+					ActionButton.BackColor = Color.LightYellow;
 					break;
 				}
 			}
@@ -547,33 +570,31 @@ namespace BattleShips
 			}
 		}
 
-		private void GameOver()
+		private void GameOverScreen(bool playerWon)
 		{
-			if (destroyedPlayerShips == 5)
-			{
-				EndGameMenu temp = new EndGameMenu(playerStats, enemyStats, false);
-				temp.Location = new Point(340, 160);
-				temp.Parent = this;
-				temp.Visible = true;
-				temp.BringToFront();
-				options_button.Enabled = false;
-			}
-
-			if (destroyedEnemyShips == 5)
+			if (playerWon == true)
 			{
 				EndGameMenu temp = new EndGameMenu(playerStats, enemyStats, true);
 				temp.Location = new Point(340, 160);
 				temp.Parent = this;
 				temp.Visible = true;
 				temp.BringToFront();
-				options_button.Enabled = false;
 			}
-			
+			else
+			{
+				EndGameMenu temp = new EndGameMenu(playerStats, enemyStats, false);
+				temp.Location = new Point(340, 160);
+				temp.Parent = this;
+				temp.Visible = true;
+				temp.BringToFront();
+			}
+
+			options_button.Enabled = false;
+
 		}
 
 		private void ActionButton_Click(object sender, EventArgs e)
 		{
-			ActionButton.Enabled = false;
 			SetShipsButton.Enabled = false;
 			FireButton.Enabled = false;
 			RemovePiratesShip_button.Visible = false;
@@ -582,14 +603,25 @@ namespace BattleShips
 			RemoveGalleon_button.Visible = false;
 			RemoveSloop_button.Visible = false;
 			HideShowLog_button.Visible = true;
+			ActionButton.Enabled = false;
 
+			if (playerGoesFirst == true)
+			{
+				ActionButton.Text = "YOUR TURN";
+				ActionButton.BackColor = Color.Green;
+				FireButton.Enabled = true;
+			}
+			else
+			{
+				ActionButton.Text = "ENEMY TURN";
+				ActionButton.BackColor = Color.Red;
+				enemyDialogClock = 0;
+				showEnemyDialogTimer.Start();
 
-			enemyDialogClock = 0;
-			showEnemyDialogTimer.Start();
+				EnemyActionText.Text = "Ready the cannons!";
 
-			EnemyActionText.Text = "Ready the cannons!";
-
-			AITimer.Start();
+				AITimer.Start();
+			}		
 
 		}
 
@@ -602,6 +634,8 @@ namespace BattleShips
 			PiratesShip_progressBar.Visible = false;
 			RemovePiratesShip_button.Visible = false;
 			ActionButton.Enabled = false;
+			ActionButton.Text = "SET SHIPS";
+			ActionButton.BackColor = Color.LightYellow;
 
 			setShipMenu.SetShipInstance.ClearSetText("Pirate's ship");
 
@@ -681,6 +715,15 @@ namespace BattleShips
 			cannonballEndPos = new Point(PlayerField_label.Location.X + (fieldHit.point.X + 15),
 				PlayerField_label.Location.Y + (fieldHit.point.Y + 15));
 
+			if (isGameOver == false)
+			{
+				ActionButton.Text = "YOUR TURN";
+				ActionButton.BackColor = Color.Green;
+				FireButton.Enabled = true;
+			}
+
+			
+
 			cannonballTimer.Start();
 			AITimer.Stop();
 
@@ -725,6 +768,8 @@ namespace BattleShips
 			Galleon_progressBar.Visible = false;
 			RemoveGalleon_button.Visible = false;
 			ActionButton.Enabled = false;
+			ActionButton.Text = "SET SHIPS";
+			ActionButton.BackColor = Color.LightYellow;
 
 			setShipMenu.SetShipInstance.ClearSetText("Galleon");
 		}
@@ -737,6 +782,8 @@ namespace BattleShips
 			Sloop_progressBar.Visible = false;
 			RemoveSloop_button.Visible = false;
 			ActionButton.Enabled = false;
+			ActionButton.Text = "SET SHIPS";
+			ActionButton.BackColor = Color.LightYellow;
 
 			setShipMenu.SetShipInstance.ClearSetText("Sloop");
 		}
@@ -749,6 +796,8 @@ namespace BattleShips
 			Brigantine_progressBar.Visible = false;
 			RemoveBrigantine_button.Visible = false;
 			ActionButton.Enabled = false;
+			ActionButton.Text = "SET SHIPS";
+			ActionButton.BackColor = Color.LightYellow;
 
 			setShipMenu.SetShipInstance.ClearSetText("Brigantine");
 		}
@@ -761,6 +810,8 @@ namespace BattleShips
 			FishingBoat_progressBar.Visible = false;
 			RemoveFishingBoat_button.Visible = false;
 			ActionButton.Enabled = false;
+			ActionButton.Text = "SET SHIPS";
+			ActionButton.BackColor = Color.LightYellow;
 
 			setShipMenu.SetShipInstance.ClearSetText("Fishing Boat");
 		}
@@ -855,6 +906,17 @@ namespace BattleShips
 			++minutesPassed;
 		}
 
+		private void AIPreparing_Tick(object sender, EventArgs e)
+		{
+			enemyDialogClock = 0;
+			showEnemyDialogTimer.Start();
+
+			EnemyActionText.Text = "Ready the cannons!";
+
+			AITimer.Start();
+			AIPreparing.Stop();
+		}
+
 		int endDistance;
 		private void cannonballTimer_Tick(object sender, EventArgs e)
 		{
@@ -885,17 +947,7 @@ namespace BattleShips
 				SetNumOfDestroyedShips();
 
 
-				if (isEnemyTurn == true)
-				{
-					FireButton.Enabled = true;
-				}
-				else
-					ActionButton.Enabled = true;
-
-
 				cannonball.Visible = false;
-
-				GameOver();
 
 				playerDialogClock = 0;
 				enemyDialogClock = 0;
@@ -932,6 +984,17 @@ namespace BattleShips
 				cannonball.Location = new Point(cannonball.Location.X + 6,
 					calculateLinearFunction());
 
+
+			if (destroyedEnemyShips == 5)
+			{
+				isGameOver = true;
+				GameOverScreen(true);
+			}
+			else if (destroyedPlayerShips == 5)
+			{
+				isGameOver = true;
+				GameOverScreen(false);
+			}
 
 			cannonballCurrentPos = cannonball.Location;
 

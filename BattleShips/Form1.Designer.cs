@@ -1311,7 +1311,7 @@
 			this.label38 = new System.Windows.Forms.Label();
 			this.label39 = new System.Windows.Forms.Label();
 			this.gameTime = new System.Windows.Forms.Timer(this.components);
-			this.StartGame_button = new System.Windows.Forms.Button();
+			this.AIPreparing = new System.Windows.Forms.Timer(this.components);
 			this.PlayerField_label.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox211)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.PiratesShip_vertical_player)).BeginInit();
@@ -5015,7 +5015,7 @@
 			// DialogLabel
 			// 
 			this.DialogLabel.BackColor = System.Drawing.Color.White;
-			this.DialogLabel.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.DialogLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.DialogLabel.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.DialogLabel.Location = new System.Drawing.Point(0, 0);
 			this.DialogLabel.Name = "DialogLabel";
@@ -5790,7 +5790,7 @@
 			this.SetShipsButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
 			this.SetShipsButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
 			this.SetShipsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.SetShipsButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
+			this.SetShipsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
 			this.SetShipsButton.Location = new System.Drawing.Point(500, 356);
 			this.SetShipsButton.Name = "SetShipsButton";
 			this.SetShipsButton.Size = new System.Drawing.Size(80, 25);
@@ -7067,7 +7067,7 @@
 			this.options_button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
 			this.options_button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
 			this.options_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.options_button.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
+			this.options_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
 			this.options_button.Location = new System.Drawing.Point(1190, 709);
 			this.options_button.Name = "options_button";
 			this.options_button.Size = new System.Drawing.Size(80, 25);
@@ -7687,7 +7687,7 @@
 			this.FireButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
 			this.FireButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
 			this.FireButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.FireButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
+			this.FireButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
 			this.FireButton.ForeColor = System.Drawing.Color.Black;
 			this.FireButton.Location = new System.Drawing.Point(680, 356);
 			this.FireButton.Name = "FireButton";
@@ -11086,7 +11086,7 @@
 			this.ActionButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
 			this.ActionButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
 			this.ActionButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.ActionButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
+			this.ActionButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
 			this.ActionButton.ForeColor = System.Drawing.Color.Black;
 			this.ActionButton.Location = new System.Drawing.Point(580, 345);
 			this.ActionButton.Margin = new System.Windows.Forms.Padding(0);
@@ -15266,7 +15266,7 @@
 			this.HideShowLog_button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
 			this.HideShowLog_button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
 			this.HideShowLog_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.HideShowLog_button.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.HideShowLog_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.HideShowLog_button.ForeColor = System.Drawing.Color.Black;
 			this.HideShowLog_button.Location = new System.Drawing.Point(500, 356);
 			this.HideShowLog_button.Name = "HideShowLog_button";
@@ -15702,24 +15702,10 @@
 			this.gameTime.Interval = 1000;
 			this.gameTime.Tick += new System.EventHandler(this.gameTime_Tick);
 			// 
-			// StartGame_button
+			// AIPreparing
 			// 
-			this.StartGame_button.BackColor = System.Drawing.SystemColors.Control;
-			this.StartGame_button.BackgroundImage = global::BattleShips.Properties.Resources.BigButtton_2;
-			this.StartGame_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-			this.StartGame_button.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-			this.StartGame_button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
-			this.StartGame_button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
-			this.StartGame_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.StartGame_button.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
-			this.StartGame_button.ForeColor = System.Drawing.Color.Black;
-			this.StartGame_button.Location = new System.Drawing.Point(580, 345);
-			this.StartGame_button.Margin = new System.Windows.Forms.Padding(0);
-			this.StartGame_button.Name = "StartGame_button";
-			this.StartGame_button.Size = new System.Drawing.Size(100, 50);
-			this.StartGame_button.TabIndex = 1374;
-			this.StartGame_button.Text = "Start Game";
-			this.StartGame_button.UseVisualStyleBackColor = false;
+			this.AIPreparing.Interval = 1000;
+			this.AIPreparing.Tick += new System.EventHandler(this.AIPreparing_Tick);
 			// 
 			// GameScreen
 			// 
@@ -15727,7 +15713,6 @@
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(1280, 736);
-			this.Controls.Add(this.StartGame_button);
 			this.Controls.Add(this.DialogLabel);
 			this.Controls.Add(this.label30);
 			this.Controls.Add(this.label31);
@@ -19287,7 +19272,7 @@
 		private System.Windows.Forms.Label label38;
 		private System.Windows.Forms.Label label39;
 		private System.Windows.Forms.Timer gameTime;
-		private System.Windows.Forms.Button StartGame_button;
+		private System.Windows.Forms.Timer AIPreparing;
 	}
 }
 

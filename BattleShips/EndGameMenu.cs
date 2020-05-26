@@ -37,10 +37,15 @@ namespace BattleShips
 			enemyAccuracy_label.Text += enemyStats.CalculateAccuracy() + "%";
 
 			if (playerWon == true)
+			{
 				winOrLose_label.Text = "YOU WON!";
+				winOrLose_label.BackColor = Color.Green;
+			}
 			else
+			{
 				winOrLose_label.Text = "YOU LOST!";
-
+				winOrLose_label.BackColor = Color.Red;
+			}
 		}
 
 		private void ActionButton_Click(object sender, EventArgs e)

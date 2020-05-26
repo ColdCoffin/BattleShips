@@ -165,7 +165,7 @@ namespace BattleShips
 		}
 
 		private Field chooseRandomFreeField()
-			{
+		{
 			do
 			{
 				fieldHit = PlayerField.AllFields[rand.Next(0, 100)];

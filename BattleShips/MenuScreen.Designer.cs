@@ -30,7 +30,6 @@
 		{
 			this.components = new System.ComponentModel.Container();
 			this.startGame_button = new System.Windows.Forms.Button();
-			this.multiplayerGame_button = new System.Windows.Forms.Button();
 			this.options_button = new System.Windows.Forms.Button();
 			this.exit_button = new System.Windows.Forms.Button();
 			this.backroundUpdate = new System.Windows.Forms.Timer(this.components);
@@ -49,23 +48,13 @@
 			// 
 			this.startGame_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
 			this.startGame_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.startGame_button.Location = new System.Drawing.Point(490, 70);
+			this.startGame_button.Location = new System.Drawing.Point(490, 210);
 			this.startGame_button.Name = "startGame_button";
 			this.startGame_button.Size = new System.Drawing.Size(300, 70);
 			this.startGame_button.TabIndex = 0;
 			this.startGame_button.Text = "Solo Game";
 			this.startGame_button.UseVisualStyleBackColor = true;
 			this.startGame_button.Click += new System.EventHandler(this.startGame_button_Click);
-			// 
-			// multiplayerGame_button
-			// 
-			this.multiplayerGame_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.multiplayerGame_button.Location = new System.Drawing.Point(490, 223);
-			this.multiplayerGame_button.Name = "multiplayerGame_button";
-			this.multiplayerGame_button.Size = new System.Drawing.Size(300, 70);
-			this.multiplayerGame_button.TabIndex = 1;
-			this.multiplayerGame_button.Text = "Multiplayer Game";
-			this.multiplayerGame_button.UseVisualStyleBackColor = true;
 			// 
 			// options_button
 			// 
@@ -198,7 +187,6 @@
 			this.Controls.Add(this.easyOption_button);
 			this.Controls.Add(this.exit_button);
 			this.Controls.Add(this.options_button);
-			this.Controls.Add(this.multiplayerGame_button);
 			this.Controls.Add(this.startGame_button);
 			this.Controls.Add(this.backround_box);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -214,7 +202,6 @@
 		#endregion
 
 		private System.Windows.Forms.Button startGame_button;
-		private System.Windows.Forms.Button multiplayerGame_button;
 		private System.Windows.Forms.Button options_button;
 		private System.Windows.Forms.Button exit_button;
 		private System.Windows.Forms.PictureBox backround_box;

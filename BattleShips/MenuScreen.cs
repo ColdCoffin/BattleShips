@@ -70,7 +70,6 @@ namespace BattleShips
 		{
 			startGame_button.Visible = false;
 			options_button.Visible = false;
-			multiplayerGame_button.Visible = false;
 			exit_button.Visible = false;
 
 			easyOption_button.Visible = true;
@@ -115,7 +114,6 @@ namespace BattleShips
 		{
 			startGame_button.Visible = true;
 			options_button.Visible = true;
-			multiplayerGame_button.Visible = true;
 			exit_button.Visible = true;
 
 			easyOption_button.Visible = false;
@@ -149,7 +147,6 @@ namespace BattleShips
 		{
 			startGame_button.Visible = false;
 			options_button.Visible = false;
-			multiplayerGame_button.Visible = false;
 			exit_button.Visible = false;
 
 			soundOn_button.Visible = true;
